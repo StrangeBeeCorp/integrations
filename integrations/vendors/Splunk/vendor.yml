@@ -9,7 +9,7 @@ tags:
   - threat-detection
   - correlation
 homepage: "https://www.splunk.com"
-visibility: high
+visibility: 2
 externalIntegrations:
 - name: TheHive/Cortex Technical Add-on
   description: Bidirectional integration add-on that pulls case and alert events from TheHive, retrieves Cortex job information, and enables creating alerts/cases and executing functions in TheHive directly from Splunk searches and dashboards

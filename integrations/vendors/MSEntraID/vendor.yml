@@ -11,5 +11,5 @@ tags:
   - account-security
   - incident-response
 homepage: "https://www.microsoft.com/security/business/identity-access/microsoft-entra-id"
-visibility: high
+visibility: 5
 

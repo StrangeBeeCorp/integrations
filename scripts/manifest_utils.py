@@ -240,7 +240,7 @@ def read_vendor_metadata(vendor: str) -> Dict:
     default_metadata = {
         'id': vendor, 'name': default_name, 'description': '', 'category': '',
         'tags': [], 'homepage': '', 'logo': {}, 'useCases': [],
-        'externalIntegrations': [], 'displayOnWebsite': True, 'visibility': 'low'
+        'externalIntegrations': [], 'displayOnWebsite': True, 'visibility': 100
     }
 
     if not vendor_yml_path.exists():

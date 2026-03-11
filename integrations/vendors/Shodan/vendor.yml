@@ -10,5 +10,5 @@ tags:
   - threat-hunting
   - incident-response
 homepage: "https://www.shodan.io"
-visibility: high
+visibility: 11
 

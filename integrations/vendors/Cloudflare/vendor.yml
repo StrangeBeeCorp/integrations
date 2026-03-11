@@ -2,4 +2,4 @@ id: Cloudflare
 name: "Cloudflare"
 category: Web Application Firewall
 homepage: "https://www.cloudflare.com"
-visibility: high
+visibility: 14

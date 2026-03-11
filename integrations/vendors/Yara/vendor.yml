@@ -8,5 +8,5 @@ tags:
   - threat-hunting
   - malware-classification
 homepage: "https://virustotal.github.io/yara/"
-visibility: high
+visibility: 18
 
