@@ -16,18 +16,16 @@ For each assignee change for a case in TheHive, create a Slack block message and
 
 ## Responders (2)
 
-### Slack_CreateChannel `v1.0`
+### [Slack_CreateChannel v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Slack/Slack_CreateChannel.json)
 Creates a Slack channel for a TheHive case, invites participants, and optionally posts a case summary and description.
 
 - **Author:** Fabien Bloume, StrangeBee
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case`
-- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Slack/Slack_CreateChannel.json)
 
-### Slack_SyncChannel `v1.0`
+### [Slack_SyncChannel v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Slack/Slack_SyncChannel.json)
 Syncs Slack channel conversations to TheHive task logs. Imports messages chronologically with file attachments for traceability.
 
 - **Author:** Fabien Bloume, StrangeBee
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case`
-- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Slack/Slack_SyncChannel.json)

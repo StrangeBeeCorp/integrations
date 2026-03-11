@@ -1,12 +1,11 @@
 ## Responders (1)
 
-### n8n `v1.0`
+### [n8n v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/n8n/n8n.json)
 Send data to n8n via webhook
 
 - **Author:** Anas SOUIRI
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case`, `thehive:alert`, `thehive:case_artifact`, `thehive:case_task`, `thehive:case_task_log`
-- **Configuration:** [View config](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/n8n/n8n.json)
 
 ---
 
