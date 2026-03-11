@@ -1,6 +1,6 @@
 {
   "id": "PayloadSecurity",
-  "name": "PayloadSecurity",
+  "name": "Payload Security",
   "description": "",
   "category": "",
   "tags": [],
@@ -8,8 +8,8 @@
   "logo": {},
   "useCases": [],
   "externalIntegrations": [],
-  "displayOnWebsite": true,
-  "visibility": 100,
+  "displayOnWebsite": false,
+  "visibility": "low",
   "integrations": {
     "analyzers": [
       {

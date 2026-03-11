@@ -1,15 +1,16 @@
 Abuse_Finder:
   id: Abuse_Finder
   name: Abuse Finder
-  description: ''
-  category: ''
+  description: Abuse Finder identifies abuse contacts for domain names, URLs, IP addresses, and email addresses, enabling
+    rapid incident reporting and takedown requests
+  category: OSINT & Enrichment
   tags: []
-  homepage: ''
+  homepage: https://github.com/certsocietegenerale/abuse_finder
   logo: {}
   useCases: []
   externalIntegrations: []
   displayOnWebsite: true
-  visibility: 100
+  visibility: low
   registration_required: false
   subscription_required: false
   free_subscription: false
@@ -596,8 +597,8 @@ C1fApp:
   logo: {}
   useCases: []
   externalIntegrations: []
-  displayOnWebsite: true
-  visibility: 100
+  displayOnWebsite: false
+  visibility: low
   integrations:
     analyzers:
     - name: C1fApp
@@ -1856,8 +1857,8 @@ CyberCrime-Tracker:
   logo: {}
   useCases: []
   externalIntegrations: []
-  displayOnWebsite: true
-  visibility: 100
+  displayOnWebsite: false
+  visibility: low
   registration_required: true
   subscription_required: true
   free_subscription: true
@@ -5372,7 +5373,7 @@ MetaDefender:
     total: 5
 Minemeld:
   id: Minemeld
-  name: Minemeld
+  name: MineMeld
   description: ''
   category: ''
   tags: []
@@ -5380,8 +5381,8 @@ Minemeld:
   logo: {}
   useCases: []
   externalIntegrations: []
-  displayOnWebsite: true
-  visibility: 100
+  displayOnWebsite: false
+  visibility: low
   registration_required: false
   subscription_required: false
   free_subscription: false
@@ -7180,7 +7181,7 @@ Patrowl:
     total: 1
 PayloadSecurity:
   id: PayloadSecurity
-  name: PayloadSecurity
+  name: Payload Security
   description: ''
   category: ''
   tags: []
@@ -7188,8 +7189,8 @@ PayloadSecurity:
   logo: {}
   useCases: []
   externalIntegrations: []
-  displayOnWebsite: true
-  visibility: 100
+  displayOnWebsite: false
+  visibility: low
   integrations:
     analyzers:
     - name: PayloadSecurity_File_Analysis
@@ -7586,8 +7587,8 @@ RiskIQ:
   logo: {}
   useCases: []
   externalIntegrations: []
-  displayOnWebsite: true
-  visibility: 100
+  displayOnWebsite: false
+  visibility: low
   integrations:
     analyzers:
     - name: RiskIQ_Cookies
@@ -8451,7 +8452,7 @@ Slack:
     total: 2
 SoltraEdge:
   id: SoltraEdge
-  name: SoltraEdge
+  name: Soltra Edge
   description: ''
   category: ''
   tags: []
@@ -8459,8 +8460,8 @@ SoltraEdge:
   logo: {}
   useCases: []
   externalIntegrations: []
-  displayOnWebsite: true
-  visibility: 100
+  displayOnWebsite: false
+  visibility: low
   integrations:
     analyzers:
     - name: SoltraEdge
@@ -8866,7 +8867,7 @@ StamusNetworks:
     total: 1
 StaxxSearch:
   id: StaxxSearch
-  name: StaxxSearch
+  name: Anomali Staxx
   description: ''
   category: ''
   tags: []
@@ -8874,8 +8875,8 @@ StaxxSearch:
   logo: {}
   useCases: []
   externalIntegrations: []
-  displayOnWebsite: true
-  visibility: 100
+  displayOnWebsite: false
+  visibility: low
   integrations:
     analyzers:
     - name: StaxxSearch
@@ -9035,8 +9036,8 @@ Test:
   logo: {}
   useCases: []
   externalIntegrations: []
-  displayOnWebsite: true
-  visibility: 100
+  displayOnWebsite: false
+  visibility: low
   integrations:
     analyzers: []
     responders:
@@ -9082,7 +9083,7 @@ Test:
     total: 2
 TestAnalyzer:
   id: TestAnalyzer
-  name: TestAnalyzer
+  name: Test Analyzer
   description: ''
   category: ''
   tags: []
@@ -9090,8 +9091,8 @@ TestAnalyzer:
   logo: {}
   useCases: []
   externalIntegrations: []
-  displayOnWebsite: true
-  visibility: 100
+  displayOnWebsite: false
+  visibility: low
   registration_required: false
   subscription_required: false
   free_subscription: false
@@ -9849,16 +9850,17 @@ Verifalia:
     total: 1
 Virusshare:
   id: Virusshare
-  name: Virusshare
-  description: ''
-  category: ''
+  name: VirusShare
+  description: VirusShare is a malware sample repository containing over 110 million samples, providing researchers and analysts
+    access to malware specimens for analysis and signature development
+  category: Malware Analysis
   tags: []
-  homepage: ''
+  homepage: https://virusshare.com
   logo: {}
   useCases: []
   externalIntegrations: []
   displayOnWebsite: true
-  visibility: 100
+  visibility: low
   registration_required: false
   subscription_required: false
   free_subscription: false

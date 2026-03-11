@@ -1,10 +1,10 @@
 {
   "metadata": {
     "description": "Vendors sorted by visibility tier (high, medium, low), then alphabetically",
-    "totalVendors": 187,
+    "totalVendors": 184,
     "highCount": 0,
     "mediumCount": 0,
-    "lowCount": 187
+    "lowCount": 184
   },
   "high": [],
   "medium": [],
@@ -12,15 +12,15 @@
     {
       "id": "Abuse_Finder",
       "name": "Abuse Finder",
-      "description": "",
-      "category": "",
+      "description": "Abuse Finder identifies abuse contacts for domain names, URLs, IP addresses, and email addresses, enabling rapid incident reporting and takedown requests",
+      "category": "OSINT & Enrichment",
       "tags": [],
-      "homepage": "",
+      "homepage": "https://github.com/certsocietegenerale/abuse_finder",
       "logo": {},
       "useCases": [],
       "externalIntegrations": [],
       "displayOnWebsite": true,
-      "visibility": 100,
+      "visibility": "low",
       "registration_required": false,
       "subscription_required": false,
       "free_subscription": false,
@@ -257,6 +257,53 @@
             "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/OTXQuery/OTXQuery.json",
             "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/OTXQuery/OTXQuery.json",
             "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/OTXQuery/OTXQuery.json",
+            "integration_type": null
+          }
+        ],
+        "responders": [],
+        "functions": []
+      },
+      "stats": {
+        "totalAnalyzers": 1,
+        "totalResponders": 0,
+        "totalFunctions": 0,
+        "totalUseCases": 0,
+        "totalExternalIntegrations": 0,
+        "total": 1
+      }
+    },
+    {
+      "id": "StaxxSearch",
+      "name": "Anomali Staxx",
+      "description": "",
+      "category": "",
+      "tags": [],
+      "homepage": "",
+      "logo": {},
+      "useCases": [],
+      "externalIntegrations": [],
+      "displayOnWebsite": false,
+      "visibility": "low",
+      "integrations": {
+        "analyzers": [
+          {
+            "name": "StaxxSearch",
+            "version": "1.0",
+            "author": "Robert Nixon",
+            "license": "AGPL-V3",
+            "description": "Fetch observable details from an Anomali STAXX instance.",
+            "dataTypes": [
+              "domain",
+              "fqdn",
+              "ip",
+              "url",
+              "hash",
+              "mail"
+            ],
+            "file": ".upstream/cortex/analyzers/StaxxSearch/StaxxSearch.json",
+            "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/StaxxSearch/StaxxSearch.json",
+            "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/StaxxSearch/StaxxSearch.json",
+            "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/StaxxSearch/StaxxSearch.json",
             "integration_type": null
           }
         ],
@@ -672,8 +719,8 @@
       "logo": {},
       "useCases": [],
       "externalIntegrations": [],
-      "displayOnWebsite": true,
-      "visibility": 100,
+      "displayOnWebsite": false,
+      "visibility": "low",
       "integrations": {
         "analyzers": [
           {
@@ -2243,8 +2290,8 @@
       "logo": {},
       "useCases": [],
       "externalIntegrations": [],
-      "displayOnWebsite": true,
-      "visibility": 100,
+      "displayOnWebsite": false,
+      "visibility": "low",
       "registration_required": true,
       "subscription_required": true,
       "free_subscription": true,
@@ -6963,7 +7010,7 @@
     },
     {
       "id": "Minemeld",
-      "name": "Minemeld",
+      "name": "MineMeld",
       "description": "",
       "category": "",
       "tags": [],
@@ -6971,8 +7018,8 @@
       "logo": {},
       "useCases": [],
       "externalIntegrations": [],
-      "displayOnWebsite": true,
-      "visibility": 100,
+      "displayOnWebsite": false,
+      "visibility": "low",
       "registration_required": false,
       "subscription_required": false,
       "free_subscription": false,
@@ -8565,7 +8612,7 @@
     },
     {
       "id": "PayloadSecurity",
-      "name": "PayloadSecurity",
+      "name": "Payload Security",
       "description": "",
       "category": "",
       "tags": [],
@@ -8573,8 +8620,8 @@
       "logo": {},
       "useCases": [],
       "externalIntegrations": [],
-      "displayOnWebsite": true,
-      "visibility": 100,
+      "displayOnWebsite": false,
+      "visibility": "low",
       "integrations": {
         "analyzers": [
           {
@@ -9091,8 +9138,8 @@
       "logo": {},
       "useCases": [],
       "externalIntegrations": [],
-      "displayOnWebsite": true,
-      "visibility": 100,
+      "displayOnWebsite": false,
+      "visibility": "low",
       "integrations": {
         "analyzers": [
           {
@@ -10133,7 +10180,7 @@
     },
     {
       "id": "SoltraEdge",
-      "name": "SoltraEdge",
+      "name": "Soltra Edge",
       "description": "",
       "category": "",
       "tags": [],
@@ -10141,8 +10188,8 @@
       "logo": {},
       "useCases": [],
       "externalIntegrations": [],
-      "displayOnWebsite": true,
-      "visibility": 100,
+      "displayOnWebsite": false,
+      "visibility": "low",
       "integrations": {
         "analyzers": [
           {
@@ -10626,53 +10673,6 @@
       }
     },
     {
-      "id": "StaxxSearch",
-      "name": "StaxxSearch",
-      "description": "",
-      "category": "",
-      "tags": [],
-      "homepage": "",
-      "logo": {},
-      "useCases": [],
-      "externalIntegrations": [],
-      "displayOnWebsite": true,
-      "visibility": 100,
-      "integrations": {
-        "analyzers": [
-          {
-            "name": "StaxxSearch",
-            "version": "1.0",
-            "author": "Robert Nixon",
-            "license": "AGPL-V3",
-            "description": "Fetch observable details from an Anomali STAXX instance.",
-            "dataTypes": [
-              "domain",
-              "fqdn",
-              "ip",
-              "url",
-              "hash",
-              "mail"
-            ],
-            "file": ".upstream/cortex/analyzers/StaxxSearch/StaxxSearch.json",
-            "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/StaxxSearch/StaxxSearch.json",
-            "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/StaxxSearch/StaxxSearch.json",
-            "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/StaxxSearch/StaxxSearch.json",
-            "integration_type": null
-          }
-        ],
-        "responders": [],
-        "functions": []
-      },
-      "stats": {
-        "totalAnalyzers": 1,
-        "totalResponders": 0,
-        "totalFunctions": 0,
-        "totalUseCases": 0,
-        "totalExternalIntegrations": 0,
-        "total": 1
-      }
-    },
-    {
       "id": "StopForumSpam",
       "name": "StopForumSpam",
       "description": "",
@@ -10780,8 +10780,8 @@
       "logo": {},
       "useCases": [],
       "externalIntegrations": [],
-      "displayOnWebsite": true,
-      "visibility": 100,
+      "displayOnWebsite": false,
+      "visibility": "low",
       "integrations": {
         "analyzers": [],
         "responders": [
@@ -10837,7 +10837,7 @@
     },
     {
       "id": "TestAnalyzer",
-      "name": "TestAnalyzer",
+      "name": "Test Analyzer",
       "description": "",
       "category": "",
       "tags": [],
@@ -10845,8 +10845,8 @@
       "logo": {},
       "useCases": [],
       "externalIntegrations": [],
-      "displayOnWebsite": true,
-      "visibility": 100,
+      "displayOnWebsite": false,
+      "visibility": "low",
       "registration_required": false,
       "subscription_required": false,
       "free_subscription": false,
@@ -11734,16 +11734,16 @@
     },
     {
       "id": "Virusshare",
-      "name": "Virusshare",
-      "description": "",
-      "category": "",
+      "name": "VirusShare",
+      "description": "VirusShare is a malware sample repository containing over 110 million samples, providing researchers and analysts access to malware specimens for analysis and signature development",
+      "category": "Malware Analysis",
       "tags": [],
-      "homepage": "",
+      "homepage": "https://virusshare.com",
       "logo": {},
       "useCases": [],
       "externalIntegrations": [],
       "displayOnWebsite": true,
-      "visibility": 100,
+      "visibility": "low",
       "registration_required": false,
       "subscription_required": false,
       "free_subscription": false,

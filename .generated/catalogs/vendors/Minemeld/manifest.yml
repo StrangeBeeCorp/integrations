@@ -2,7 +2,7 @@
 # Edit vendor.yml for vendor metadata, then re-run the generator
 
 id: Minemeld
-name: Minemeld
+name: MineMeld
 description: ''
 category: ''
 tags: []
@@ -10,8 +10,8 @@ homepage: ''
 logo: {}
 useCases: []
 externalIntegrations: []
-displayOnWebsite: true
-visibility: 100
+displayOnWebsite: false
+visibility: low
 registration_required: false
 subscription_required: false
 free_subscription: false

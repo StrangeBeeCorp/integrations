@@ -2,7 +2,7 @@
 # Edit vendor.yml for vendor metadata, then re-run the generator
 
 id: StaxxSearch
-name: StaxxSearch
+name: Anomali Staxx
 description: ''
 category: ''
 tags: []
@@ -10,8 +10,8 @@ homepage: ''
 logo: {}
 useCases: []
 externalIntegrations: []
-displayOnWebsite: true
-visibility: 100
+displayOnWebsite: false
+visibility: low
 integrations:
   analyzers:
   - name: StaxxSearch

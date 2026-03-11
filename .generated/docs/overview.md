@@ -17,9 +17,9 @@ Built something useful? Contributions are welcome!
 
 ## Summary Statistics
 
-- **Total Vendors:** 187
-- **Total Analyzers:** 261
-- **Total Responders:** 140
+- **Total Vendors:** 184
+- **Total Analyzers:** 260
+- **Total Responders:** 137
 - **Total Functions:** 7
 - **Total External Integrations:** 10
 - **Total Integrations:** 414
@@ -88,6 +88,9 @@ Built something useful? Contributions are welcome!
 **[Hybrid Analysis](vendors/HybridAnalysis/overview.md)** (1 integrations)
   Hybrid Analysis (Falcon Sandbox) is a free malware analysis service powered by CrowdStrike that e...
 
+**[VirusShare](vendors/Virusshare/overview.md)** (1 integrations)
+  VirusShare is a malware sample repository containing over 110 million samples, providing research...
+
 **[VirusTotal](vendors/VirusTotal/overview.md)** (4 integrations)
   VirusTotal is a comprehensive malware analysis platform aggregating results from 70+ antivirus en...
 
@@ -96,6 +99,9 @@ Built something useful? Contributions are welcome!
 
 
 ### OSINT & Enrichment
+
+**[Abuse Finder](vendors/Abuse_Finder/overview.md)** (1 integrations)
+  Abuse Finder identifies abuse contacts for domain names, URLs, IP addresses, and email addresses,...
 
 **[Hunter.io](vendors/Hunterio/overview.md)** (1 integrations)
   Hunter.io discovers and verifies email addresses associated with domains, enabling investigators ...
@@ -183,11 +189,11 @@ Built something useful? Contributions are welcome!
 
 ### Uncategorized
 
-**[Abuse Finder](vendors/Abuse_Finder/overview.md)** (1 integrations)
-
 **[AIL Onion-Lookup](vendors/AILOnionLookup/overview.md)** (1 integrations)
 
 **[Airtable](vendors/Airtable/overview.md)** (1 integrations)
+
+**[Anomali Staxx](vendors/StaxxSearch/overview.md)** (1 integrations)
 
 **[AnyRun](vendors/AnyRun/overview.md)** (1 integrations)
 
@@ -351,7 +357,7 @@ Built something useful? Contributions are welcome!
 
 **[MetaDefender](vendors/MetaDefender/overview.md)** (5 integrations)
 
-**[Minemeld](vendors/Minemeld/overview.md)** (1 integrations)
+**[MineMeld](vendors/Minemeld/overview.md)** (1 integrations)
 
 **[MISP Warning Lists](vendors/MISPWarningLists/overview.md)** (1 integrations)
 
@@ -383,7 +389,7 @@ Built something useful? Contributions are welcome!
 
 **[Patrowl](vendors/Patrowl/overview.md)** (1 integrations)
 
-**[PayloadSecurity](vendors/PayloadSecurity/overview.md)** (2 integrations)
+**[Payload Security](vendors/PayloadSecurity/overview.md)** (2 integrations)
 
 **[PhishingInitiative](vendors/PhishingInitiative/overview.md)** (2 integrations)
 
@@ -409,7 +415,7 @@ Built something useful? Contributions are welcome!
 
 **[SinkDB](vendors/SinkDB/overview.md)** (1 integrations)
 
-**[SoltraEdge](vendors/SoltraEdge/overview.md)** (1 integrations)
+**[Soltra Edge](vendors/SoltraEdge/overview.md)** (1 integrations)
 
 **[SophosIntelix](vendors/SophosIntelix/overview.md)** (3 integrations)
 
@@ -419,13 +425,11 @@ Built something useful? Contributions are welcome!
 
 **[StamusNetworks](vendors/StamusNetworks/overview.md)** (1 integrations)
 
-**[StaxxSearch](vendors/StaxxSearch/overview.md)** (1 integrations)
-
 **[StopForumSpam](vendors/StopForumSpam/overview.md)** (1 integrations)
 
 **[Test](vendors/Test/overview.md)** (2 integrations)
 
-**[TestAnalyzer](vendors/TestAnalyzer/overview.md)** (2 integrations)
+**[Test Analyzer](vendors/TestAnalyzer/overview.md)** (2 integrations)
 
 **[ThreatGrid](vendors/ThreatGrid/overview.md)** (1 integrations)
 
@@ -450,8 +454,6 @@ Built something useful? Contributions are welcome!
 **[ValidateObservable](vendors/ValidateObservable/overview.md)** (1 integrations)
 
 **[Verifalia](vendors/Verifalia/overview.md)** (1 integrations)
-
-**[Virusshare](vendors/Virusshare/overview.md)** (1 integrations)
 
 **[VMRay](vendors/VMRay/overview.md)** (1 integrations)
 
@@ -483,11 +485,12 @@ Built something useful? Contributions are welcome!
 
 ## All Vendors (A-Z)
 
-- **[Abuse Finder](vendors/Abuse_Finder/overview.md)** - *Uncategorized* - 1 analyzers
+- **[Abuse Finder](vendors/Abuse_Finder/overview.md)** - *OSINT & Enrichment* - 1 analyzers
 - **[AbuseIPDB](vendors/AbuseIPDB/overview.md)** - *Threat Intelligence* - 1 analyzers, 1 responders
 - **[AIL Onion-Lookup](vendors/AILOnionLookup/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Airtable](vendors/Airtable/overview.md)** - *Uncategorized* - 1 functions
 - **[AlienVault OTX](vendors/OTXQuery/overview.md)** - *Threat Intelligence* - 1 analyzers
+- **[Anomali Staxx](vendors/StaxxSearch/overview.md)** - *Uncategorized* - 1 analyzers
 - **[AnyRun](vendors/AnyRun/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Autofocus](vendors/Autofocus/overview.md)** - *Uncategorized* - 3 analyzers
 - **[AWSLambda](vendors/AWSLambda/overview.md)** - *Uncategorized* - 1 responders
@@ -587,7 +590,7 @@ Built something useful? Contributions are welcome!
 - **[Microsoft Defender for Endpoint](vendors/MSDefenderEndpoints/overview.md)** - *EDR* - 12 responders
 - **[Microsoft Defender for Office 365](vendors/MSDefenderOffice365/overview.md)** - *Email Security* - 1 analyzers, 4 responders
 - **[Microsoft Entra ID](vendors/MSEntraID/overview.md)** - *Identity & Access Management* - 4 analyzers, 5 responders
-- **[Minemeld](vendors/Minemeld/overview.md)** - *Uncategorized* - 1 responders
+- **[MineMeld](vendors/Minemeld/overview.md)** - *Uncategorized* - 1 responders
 - **[MISP](vendors/MISP/overview.md)** - *Threat Intelligence* - 1 analyzers
 - **[MISP Warning Lists](vendors/MISPWarningLists/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Mnemonic Passive DNS](vendors/MnemonicPDNS/overview.md)** - *OSINT & Enrichment* - 2 analyzers
@@ -608,7 +611,7 @@ Built something useful? Contributions are welcome!
 - **[PAN WildFire](vendors/PaloAltoWildFire/overview.md)** - *Uncategorized* - 1 analyzers, 1 responders
 - **[PassiveTotal](vendors/PassiveTotal/overview.md)** - *Uncategorized* - 11 analyzers
 - **[Patrowl](vendors/Patrowl/overview.md)** - *Uncategorized* - 1 analyzers
-- **[PayloadSecurity](vendors/PayloadSecurity/overview.md)** - *Uncategorized* - 2 analyzers
+- **[Payload Security](vendors/PayloadSecurity/overview.md)** - *Uncategorized* - 2 analyzers
 - **[PhishingInitiative](vendors/PhishingInitiative/overview.md)** - *Uncategorized* - 2 analyzers
 - **[PhishTank](vendors/PhishTank/overview.md)** - *Phishing Intelligence* - 1 analyzers
 - **[Proofpoint](vendors/Proofpoint/overview.md)** - *Email Security* - 1 analyzers, 2 functions
@@ -628,17 +631,16 @@ Built something useful? Contributions are welcome!
 - **[Shuffle](vendors/Shuffle/overview.md)** - *SOAR & Automation* - 1 responders, 1 external
 - **[SinkDB](vendors/SinkDB/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Slack](vendors/Slack/overview.md)** - *Collaboration* - 2 responders
-- **[SoltraEdge](vendors/SoltraEdge/overview.md)** - *Uncategorized* - 1 analyzers
+- **[Soltra Edge](vendors/SoltraEdge/overview.md)** - *Uncategorized* - 1 analyzers
 - **[SophosIntelix](vendors/SophosIntelix/overview.md)** - *Uncategorized* - 3 analyzers
 - **[SpamAssassin](vendors/SpamAssassin/overview.md)** - *Uncategorized* - 1 analyzers
 - **[SpamhausDBL](vendors/SpamhausDBL/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Splunk](vendors/Splunk/overview.md)** - *SIEM & Analytics* - 11 analyzers, 1 functions, 2 external
 - **[StamusNetworks](vendors/StamusNetworks/overview.md)** - *Uncategorized* - 1 analyzers
-- **[StaxxSearch](vendors/StaxxSearch/overview.md)** - *Uncategorized* - 1 analyzers
 - **[StopForumSpam](vendors/StopForumSpam/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Telegram](vendors/Telegram/overview.md)** - *Collaboration* - 1 responders
 - **[Test](vendors/Test/overview.md)** - *Uncategorized* - 2 responders
-- **[TestAnalyzer](vendors/TestAnalyzer/overview.md)** - *Uncategorized* - 2 analyzers
+- **[Test Analyzer](vendors/TestAnalyzer/overview.md)** - *Uncategorized* - 2 analyzers
 - **[ThreatConnect](vendors/ThreatConnect/overview.md)** - *Threat Intelligence* - 1 external
 - **[ThreatGrid](vendors/ThreatGrid/overview.md)** - *Uncategorized* - 1 analyzers
 - **[ThreatMiner](vendors/ThreatMiner/overview.md)** - *Uncategorized* - 1 analyzers
@@ -656,7 +658,7 @@ Built something useful? Contributions are welcome!
 - **[ValidateObservable](vendors/ValidateObservable/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Velociraptor](vendors/Velociraptor/overview.md)** - *DFIR* - 1 responders
 - **[Verifalia](vendors/Verifalia/overview.md)** - *Uncategorized* - 1 analyzers
-- **[Virusshare](vendors/Virusshare/overview.md)** - *Uncategorized* - 1 analyzers
+- **[VirusShare](vendors/Virusshare/overview.md)** - *Malware Analysis* - 1 analyzers
 - **[VirusTotal](vendors/VirusTotal/overview.md)** - *Malware Analysis* - 4 analyzers
 - **[VMRay](vendors/VMRay/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Vulners](vendors/Vulners/overview.md)** - *Uncategorized* - 2 analyzers

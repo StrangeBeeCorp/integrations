@@ -10,8 +10,8 @@ homepage: ''
 logo: {}
 useCases: []
 externalIntegrations: []
-displayOnWebsite: true
-visibility: 100
+displayOnWebsite: false
+visibility: low
 integrations:
   analyzers:
   - name: RiskIQ_Cookies
