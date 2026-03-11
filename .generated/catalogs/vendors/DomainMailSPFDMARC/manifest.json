@@ -17,19 +17,20 @@
     "analyzers": [
       {
         "name": "DomainMailSPFDMARC",
-        "version": "1.1",
-        "author": "torsolaso",
+        "version": "1.2",
+        "author": "torsolaso; Fabien Bloume, StrangeBee",
         "license": "AGPL-V3",
-        "description": "DomainMailSPFDMARC",
+        "description": "Check SPF and DMARC records for a domain, FQDN, or sender domain in .eml file. Supports reported/forwarded emails by extracting the sender from the inner nested message.",
         "dataTypes": [
           "domain",
-          "fqdn"
+          "fqdn",
+          "file"
         ],
         "file": ".upstream/cortex/analyzers/DomainMailSPFDMARC/domainMailSPFDMARC_get_reports.json",
         "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/DomainMailSPFDMARC/domainMailSPFDMARC_get_reports.json",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/DomainMailSPFDMARC/domainMailSPFDMARC_get_reports.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainMailSPFDMARC/domainMailSPFDMARC_get_reports.json",
-        "integration_type": null
+        "integration_type": "local"
       }
     ],
     "responders": [],

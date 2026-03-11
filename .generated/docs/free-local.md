@@ -4,9 +4,9 @@ Integrations that are either free to use or run locally without external depende
 
 ## Summary
 
-- **Total Analyzers:** 72 (8 local, 64 free)
+- **Total Analyzers:** 73 (9 local, 64 free)
 - **Total Responders:** 10 (0 local, 10 free)
-- **Total Integrations:** 82
+- **Total Integrations:** 83
 
 ## Analyzers
 
@@ -29,6 +29,16 @@ Analyze files with Capa
 **Data Types:** `file`
 
 Use Clamscan with custom rules
+
+</details>
+
+<details>
+<summary><strong>DomainMailSPFDMARC</strong> <code>v1.2</code> [Local] - Domain Mail SPF DMARC</summary>
+
+**Vendor:** [Domain Mail SPF DMARC](vendors/DomainMailSPFDMARC/overview)
+**Data Types:** `domain`, `fqdn`, `file`
+
+Check SPF and DMARC records for a domain, FQDN, or sender domain in .eml file. Supports reported/forwarded emails by extracting the sender from the inner nested message.
 
 </details>
 
@@ -95,12 +105,12 @@ Check files against YARA rules, either from local filesystem or from one or mult
 ### Free Subscription Analyzers
 
 <details>
-<summary><strong>AbuseIPDB</strong> <code>v1.1</code> [Free] - AbuseIPDB</summary>
+<summary><strong>AbuseIPDB</strong> <code>v2.0</code> [Free] - AbuseIPDB</summary>
 
 **Vendor:** [AbuseIPDB](vendors/AbuseIPDB/overview)
 **Data Types:** `ip`
 
-Checks an IP against AbuseIPDB for abuse score, categories, and recent reports.
+Check IP addresses or CIDR blocks against AbuseIPDB. Returns abuse confidence score, report categories, reporter countries, and detailed report history.
 
 </details>
 

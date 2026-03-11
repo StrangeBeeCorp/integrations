@@ -1,7 +1,7 @@
 ## Analyzers (1)
 
-### [AbuseIPDB v1.1](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AbuseIPDB/AbuseIPDB.json)
-Checks an IP against AbuseIPDB for abuse score, categories, and recent reports.
+### [AbuseIPDB v2.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AbuseIPDB/AbuseIPDB.json)
+Check IP addresses or CIDR blocks against AbuseIPDB. Returns abuse confidence score, report categories, reporter countries, and detailed report history.
 
 - **Author:** Matteo Lodi; Fabien Bloume, StrangeBee
 - **License:** AGPL-v3

@@ -1350,54 +1350,6 @@
       "total": 1
     }
   },
-  "FalconCustomIOC": {
-    "id": "FalconCustomIOC",
-    "name": "FalconCustomIOC",
-    "description": "",
-    "category": [],
-    "tags": [],
-    "homepage": "",
-    "logo_url": "",
-    "visibility": 100,
-    "subscription": {
-      "required": false,
-      "free": false,
-      "paid": false
-    },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/FalconCustomIOC/overview.md",
-    "stats": {
-      "totalAnalyzers": 0,
-      "totalResponders": 2,
-      "totalFunctions": 0,
-      "totalUseCases": 0,
-      "totalExternalIntegrations": 0,
-      "total": 2
-    }
-  },
-  "FalconSandbox": {
-    "id": "FalconSandbox",
-    "name": "FalconSandbox",
-    "description": "",
-    "category": [],
-    "tags": [],
-    "homepage": "",
-    "logo_url": "",
-    "visibility": 100,
-    "subscription": {
-      "required": true,
-      "free": false,
-      "paid": true
-    },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/FalconSandbox/overview.md",
-    "stats": {
-      "totalAnalyzers": 1,
-      "totalResponders": 0,
-      "totalFunctions": 0,
-      "totalUseCases": 0,
-      "totalExternalIntegrations": 0,
-      "total": 1
-    }
-  },
   "FileInfo": {
     "id": "FileInfo",
     "name": "FileInfo",
@@ -4547,30 +4499,6 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "total": 4
-    }
-  },
-  "VirustotalDownloader": {
-    "id": "VirustotalDownloader",
-    "name": "VirustotalDownloader",
-    "description": "",
-    "category": [],
-    "tags": [],
-    "homepage": "",
-    "logo_url": "",
-    "visibility": 100,
-    "subscription": {
-      "required": true,
-      "free": false,
-      "paid": true
-    },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/VirustotalDownloader/overview.md",
-    "stats": {
-      "totalAnalyzers": 0,
-      "totalResponders": 1,
-      "totalFunctions": 0,
-      "totalUseCases": 0,
-      "totalExternalIntegrations": 0,
-      "total": 1
     }
   },
   "VMRay": {

@@ -77,10 +77,11 @@ low:
   integrations:
     analyzers:
     - name: AbuseIPDB
-      version: '1.1'
+      version: '2.0'
       author: Matteo Lodi; Fabien Bloume, StrangeBee
       license: AGPL-v3
-      description: Checks an IP against AbuseIPDB for abuse score, categories, and recent reports.
+      description: Check IP addresses or CIDR blocks against AbuseIPDB. Returns abuse confidence score, report categories,
+        reporter countries, and detailed report history.
       dataTypes:
       - ip
       file: .upstream/cortex/analyzers/AbuseIPDB/AbuseIPDB.json
@@ -2181,18 +2182,20 @@ low:
   integrations:
     analyzers:
     - name: DomainMailSPFDMARC
-      version: '1.1'
-      author: torsolaso
+      version: '1.2'
+      author: torsolaso; Fabien Bloume, StrangeBee
       license: AGPL-V3
-      description: DomainMailSPFDMARC
+      description: Check SPF and DMARC records for a domain, FQDN, or sender domain in .eml file. Supports reported/forwarded
+        emails by extracting the sender from the inner nested message.
       dataTypes:
       - domain
       - fqdn
+      - file
       file: .upstream/cortex/analyzers/DomainMailSPFDMARC/domainMailSPFDMARC_get_reports.json
       url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/DomainMailSPFDMARC/domainMailSPFDMARC_get_reports.json
       github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/DomainMailSPFDMARC/domainMailSPFDMARC_get_reports.json
       upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainMailSPFDMARC/domainMailSPFDMARC_get_reports.json
-      integration_type: null
+      integration_type: local
     responders: []
     functions: []
   stats:
@@ -2826,91 +2829,6 @@ low:
       github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/EmlParser/EmlParser.json
       upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/EmlParser/EmlParser.json
       integration_type: local
-    responders: []
-    functions: []
-  stats:
-    totalAnalyzers: 1
-    totalResponders: 0
-    totalFunctions: 0
-    totalUseCases: 0
-    totalExternalIntegrations: 0
-    total: 1
-- id: FalconCustomIOC
-  name: FalconCustomIOC
-  description: ''
-  category: ''
-  tags: []
-  homepage: ''
-  logo: {}
-  useCases: []
-  externalIntegrations: []
-  displayOnWebsite: true
-  visibility: 100
-  integrations:
-    analyzers: []
-    responders:
-    - name: Crowdstrike_Falcon_Custom_IOC
-      version: '2.0'
-      author: Nicolas Criton
-      license: AGPL-v3
-      description: Submit observables to the Crowdstrike Falcon Custom IOC API
-      dataTypes:
-      - thehive:alert
-      - thehive:case_artifact
-      file: .upstream/cortex/responders/FalconCustomIOC/FalconCustomIOCv2.json
-      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/FalconCustomIOC/FalconCustomIOCv2.json
-      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/FalconCustomIOC/FalconCustomIOCv2.json
-      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/FalconCustomIOC/FalconCustomIOCv2.json
-      integration_type: null
-    - name: Crowdstrike_Falcon_Custom_IOC_API
-      version: '1.0'
-      author: Michael
-      license: MIT
-      description: Submit observables to the Crowdstrike Falcon Custom IOC api
-      dataTypes:
-      - thehive:alert
-      - thehive:case_artifact
-      file: .upstream/cortex/responders/FalconCustomIOC/FalconCustomIOC.json
-      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/FalconCustomIOC/FalconCustomIOC.json
-      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/FalconCustomIOC/FalconCustomIOC.json
-      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/FalconCustomIOC/FalconCustomIOC.json
-      integration_type: null
-    functions: []
-  stats:
-    totalAnalyzers: 0
-    totalResponders: 2
-    totalFunctions: 0
-    totalUseCases: 0
-    totalExternalIntegrations: 0
-    total: 2
-- id: FalconSandbox
-  name: FalconSandbox
-  description: ''
-  category: ''
-  tags: []
-  homepage: ''
-  logo: {}
-  useCases: []
-  externalIntegrations: []
-  displayOnWebsite: true
-  visibility: 100
-  registration_required: true
-  subscription_required: true
-  free_subscription: false
-  integrations:
-    analyzers:
-    - name: FalconSandbox
-      version: '1.0'
-      author: Sebastian Schmerl - Computacenter
-      license: AGPL-v3
-      description: Submit observables to the Crowdstrike FalconX Sandbox
-      dataTypes:
-      - file
-      file: .upstream/cortex/analyzers/FalconSandbox/FalconSandbox.json
-      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/FalconSandbox/FalconSandbox.json
-      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/FalconSandbox/FalconSandbox.json
-      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/FalconSandbox/FalconSandbox.json
-      integration_type: null
     responders: []
     functions: []
   stats:
@@ -9896,43 +9814,6 @@ low:
     totalUseCases: 0
     totalExternalIntegrations: 0
     total: 4
-- id: VirustotalDownloader
-  name: VirustotalDownloader
-  description: ''
-  category: ''
-  tags: []
-  homepage: ''
-  logo: {}
-  useCases: []
-  externalIntegrations: []
-  displayOnWebsite: true
-  visibility: 100
-  registration_required: true
-  subscription_required: true
-  free_subscription: false
-  integrations:
-    analyzers: []
-    responders:
-    - name: Virustotal_Downloader
-      version: '0.1'
-      author: Mario Henkel @hariomenkel
-      license: AGPL-V3
-      description: Download a file from Virustotal by its hash
-      dataTypes:
-      - thehive:case_artifact
-      file: .upstream/cortex/responders/VirustotalDownloader/VirustotalDownloader.json
-      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/VirustotalDownloader/VirustotalDownloader.json
-      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/VirustotalDownloader/VirustotalDownloader.json
-      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/VirustotalDownloader/VirustotalDownloader.json
-      integration_type: null
-    functions: []
-  stats:
-    totalAnalyzers: 0
-    totalResponders: 1
-    totalFunctions: 0
-    totalUseCases: 0
-    totalExternalIntegrations: 0
-    total: 1
 - id: VMRay
   name: VMRay
   description: ''

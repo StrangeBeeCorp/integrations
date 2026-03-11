@@ -22,7 +22,7 @@ Built something useful? Contributions are welcome!
 - **Total Responders:** 140
 - **Total Functions:** 7
 - **Total External Integrations:** 10
-- **Total Integrations:** 418
+- **Total Integrations:** 414
 
 ## Vendors by Category
 
@@ -275,10 +275,6 @@ Built something useful? Contributions are welcome!
 
 **[EmlParser](vendors/EmlParser/overview.md)** (1 integrations)
 
-**[FalconCustomIOC](vendors/FalconCustomIOC/overview.md)** (2 integrations)
-
-**[FalconSandbox](vendors/FalconSandbox/overview.md)** (1 integrations)
-
 **[FileInfo](vendors/FileInfo/overview.md)** (1 integrations)
 
 **[FireEye iSIGHT](vendors/FireEyeiSight/overview.md)** (1 integrations)
@@ -457,8 +453,6 @@ Built something useful? Contributions are welcome!
 
 **[Virusshare](vendors/Virusshare/overview.md)** (1 integrations)
 
-**[VirustotalDownloader](vendors/VirustotalDownloader/overview.md)** (1 integrations)
-
 **[VMRay](vendors/VMRay/overview.md)** (1 integrations)
 
 **[Vulners](vendors/Vulners/overview.md)** (2 integrations)
@@ -543,8 +537,6 @@ Built something useful? Contributions are welcome!
 - **[EmailRep](vendors/EmailRep/overview.md)** - *Threat Intelligence* - 1 analyzers
 - **[EmergingThreats](vendors/EmergingThreats/overview.md)** - *Uncategorized* - 3 analyzers
 - **[EmlParser](vendors/EmlParser/overview.md)** - *Uncategorized* - 1 analyzers
-- **[FalconCustomIOC](vendors/FalconCustomIOC/overview.md)** - *Uncategorized* - 2 responders
-- **[FalconSandbox](vendors/FalconSandbox/overview.md)** - *Uncategorized* - 1 analyzers
 - **[FileInfo](vendors/FileInfo/overview.md)** - *Uncategorized* - 1 analyzers
 - **[FireEye iSIGHT](vendors/FireEyeiSight/overview.md)** - *Uncategorized* - 1 analyzers
 - **[FireHOLBlocklists](vendors/FireHOLBlocklists/overview.md)** - *Uncategorized* - 1 analyzers
@@ -666,7 +658,6 @@ Built something useful? Contributions are welcome!
 - **[Verifalia](vendors/Verifalia/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Virusshare](vendors/Virusshare/overview.md)** - *Uncategorized* - 1 analyzers
 - **[VirusTotal](vendors/VirusTotal/overview.md)** - *Malware Analysis* - 4 analyzers
-- **[VirustotalDownloader](vendors/VirustotalDownloader/overview.md)** - *Uncategorized* - 1 responders
 - **[VMRay](vendors/VMRay/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Vulners](vendors/Vulners/overview.md)** - *Uncategorized* - 2 analyzers
 - **[Watcher](vendors/Watcher/overview.md)** - *Uncategorized* - 1 analyzers, 4 responders
