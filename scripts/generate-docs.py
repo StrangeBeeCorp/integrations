@@ -23,7 +23,10 @@ def _render_cortex_items(items: list, item_type: str) -> List[str]:
     for item in items:
         name = item.get('name', 'Unknown')
         version = item.get('version', '')
-        lines.append(f"### {name} `v{version}`")
+        if item.get('upstream_url'):
+            lines.append(f"### [{name} v{version}]({item['upstream_url']})")
+        else:
+            lines.append(f"### {name} v{version}")
 
         if item.get('description'):
             lines.extend([item['description'], ""])
@@ -34,8 +37,6 @@ def _render_cortex_items(items: list, item_type: str) -> List[str]:
             lines.append(f"- **License:** {item['license']}")
         if item.get('dataTypes'):
             lines.append(f"- **Data Types:** {', '.join(f'`{dt}`' for dt in item['dataTypes'])}")
-        if item.get('file'):
-            lines.append(f"- **Configuration:** [View config]({item['upstream_url']})")
         lines.append("")
 
     return lines
