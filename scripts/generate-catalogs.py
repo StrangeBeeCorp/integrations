@@ -271,6 +271,9 @@ def main():
     for vendor in vendors:
         print(f"  Processing {vendor}...")
         manifest = generate_vendor_manifest(vendor)
+        if manifest['stats']['total'] == 0:
+            print(f"    Skipping {vendor}: no content (0 analyzers, responders, functions, or external integrations)")
+            continue
         all_manifests[vendor] = manifest
 
         vendor_catalog_path = vendors_catalogs_path / vendor
