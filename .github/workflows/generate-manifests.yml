@@ -548,4 +548,4 @@ jobs:
             .generated/catalogs/integration-manifest.json
             .generated/catalogs/integration-manifest.yml
             .generated/catalogs/integration-light-manifest.json
-          retention-days: 30
+          retention-days: 10
