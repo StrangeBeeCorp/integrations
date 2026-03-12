@@ -30,7 +30,7 @@
         "file": ".upstream/cortex/analyzers/FireEyeiSight/FireEyeiSight.json",
         "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/FireEyeiSight/FireEyeiSight.json",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/FireEyeiSight/FireEyeiSight.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/FireEyeiSight/FireEyeiSight.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/FireEyeiSight",
         "integration_type": null
       }
     ],

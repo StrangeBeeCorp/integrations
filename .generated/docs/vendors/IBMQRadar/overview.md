@@ -1,6 +1,6 @@
 ## Responders (1)
 
-### [QRadar Auto Closing Offense v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/IBMQRadar/QRadarAutoClose.json)
+### [QRadar Auto Closing Offense v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/IBMQRadar)
 Closing the QRadar Offense associated to your case in one clic !
 
 - **Author:** Florian Perret

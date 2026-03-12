@@ -1,6 +1,6 @@
 ## Analyzers (1)
 
-### [SpamhausDBL v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SpamhausDBL/SpamhausDBL.json)
+### [SpamhausDBL v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SpamhausDBL)
 Perform domain lookup to Spamhaus DBL
 
 - **Author:** Wes Lambert

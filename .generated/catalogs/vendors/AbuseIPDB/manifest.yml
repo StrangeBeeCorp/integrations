@@ -37,7 +37,7 @@ integrations:
     file: .upstream/cortex/analyzers/AbuseIPDB/AbuseIPDB.json
     url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/AbuseIPDB/AbuseIPDB.json
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/AbuseIPDB/AbuseIPDB.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AbuseIPDB/AbuseIPDB.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AbuseIPDB
     integration_type: external_api
   responders:
   - name: AbuseIPDB Report
@@ -51,7 +51,7 @@ integrations:
     file: .upstream/cortex/responders/AbuseIPDB/AbuseIPDB_Report.json
     url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/AbuseIPDB/AbuseIPDB_Report.json
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/AbuseIPDB/AbuseIPDB_Report.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/AbuseIPDB/AbuseIPDB_Report.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/AbuseIPDB
     integration_type: external_api
   functions: []
 stats:

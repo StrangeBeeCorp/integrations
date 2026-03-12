@@ -27,7 +27,7 @@ integrations:
     file: .upstream/cortex/analyzers/Hashdd/Hashdd_Status.json
     url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Hashdd/Hashdd_Status.json
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Hashdd/Hashdd_Status.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Hashdd/Hashdd_Status.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Hashdd
     integration_type: null
   - name: Hashdd Detail
     version: '2.0'
@@ -39,7 +39,7 @@ integrations:
     file: .upstream/cortex/analyzers/Hashdd/Hashdd_Detail.json
     url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Hashdd/Hashdd_Detail.json
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Hashdd/Hashdd_Detail.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Hashdd/Hashdd_Detail.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Hashdd
     integration_type: null
   responders: []
   functions: []

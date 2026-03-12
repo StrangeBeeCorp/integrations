@@ -25,7 +25,7 @@ integrations:
     file: .upstream/cortex/responders/CheckPoint/CheckPoint_Gaia_unlock.json
     url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/CheckPoint/CheckPoint_Gaia_unlock.json
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/CheckPoint/CheckPoint_Gaia_unlock.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CheckPoint/CheckPoint_Gaia_unlock.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CheckPoint
     integration_type: null
   - name: CheckPoint Lock
     version: '1.0'
@@ -37,7 +37,7 @@ integrations:
     file: .upstream/cortex/responders/CheckPoint/CheckPoint_Gaia_lock.json
     url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/CheckPoint/CheckPoint_Gaia_lock.json
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/CheckPoint/CheckPoint_Gaia_lock.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CheckPoint/CheckPoint_Gaia_lock.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CheckPoint
     integration_type: null
   functions: []
 stats:

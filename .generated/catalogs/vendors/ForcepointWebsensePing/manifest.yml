@@ -30,7 +30,7 @@ integrations:
     file: .upstream/cortex/analyzers/ForcepointWebsensePing/ForcepointWebsensePing.json
     url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/ForcepointWebsensePing/ForcepointWebsensePing.json
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/ForcepointWebsensePing/ForcepointWebsensePing.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/ForcepointWebsensePing/ForcepointWebsensePing.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/ForcepointWebsensePing
     integration_type: null
   responders: []
   functions: []

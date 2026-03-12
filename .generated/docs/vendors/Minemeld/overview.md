@@ -1,6 +1,6 @@
 ## Responders (1)
 
-### [Minemeld v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Minemeld/minemeld.json)
+### [Minemeld v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Minemeld)
 Submit indicator to Minemeld
 
 - **Author:** Wes Lambert, Security Onion Solutions

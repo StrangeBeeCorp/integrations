@@ -24,7 +24,7 @@
         "file": ".upstream/cortex/analyzers/MsgParser/Msg_Parser.json",
         "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MsgParser/Msg_Parser.json",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MsgParser/Msg_Parser.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MsgParser/Msg_Parser.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MsgParser",
         "integration_type": "local"
       }
     ],

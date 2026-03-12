@@ -27,7 +27,7 @@
         "file": ".upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_external_domain.json",
         "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_external_domain.json",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_external_domain.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_external_domain.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW",
         "integration_type": null
       },
       {
@@ -44,7 +44,7 @@
         "file": ".upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_internal_IP_address.json",
         "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_internal_IP_address.json",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_internal_IP_address.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW/PaloAltoNGFW_block_internal_IP_address.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW",
         "integration_type": null
       },
       {
@@ -61,7 +61,7 @@
         "file": ".upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_port_for_external_communication.json",
         "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_port_for_external_communication.json",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_port_for_external_communication.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW/PaloAltoNGFW_block_port_for_external_communication.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW",
         "integration_type": null
       },
       {
@@ -78,7 +78,7 @@
         "file": ".upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_internal_domain.json",
         "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_internal_domain.json",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_internal_domain.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_internal_domain.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW",
         "integration_type": null
       },
       {
@@ -95,7 +95,7 @@
         "file": ".upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_internal_user.json",
         "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_internal_user.json",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_internal_user.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW/PaloAltoNGFW_block_internal_user.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW",
         "integration_type": null
       },
       {
@@ -112,7 +112,7 @@
         "file": ".upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_port_for_internal_communication.json",
         "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_port_for_internal_communication.json",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_port_for_internal_communication.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW/PaloAltoNGFW_block_port_for_internal_communication.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW",
         "integration_type": null
       },
       {
@@ -129,7 +129,7 @@
         "file": ".upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_internal_domain.json",
         "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_internal_domain.json",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_internal_domain.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW/PaloAltoNGFW_block_internal_domain.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW",
         "integration_type": null
       },
       {
@@ -146,7 +146,7 @@
         "file": ".upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_external_user.json",
         "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_external_user.json",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_external_user.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_external_user.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW",
         "integration_type": null
       },
       {
@@ -163,7 +163,7 @@
         "file": ".upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_port_for_external_communication.json",
         "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_port_for_external_communication.json",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_port_for_external_communication.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_port_for_external_communication.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW",
         "integration_type": null
       },
       {
@@ -180,7 +180,7 @@
         "file": ".upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_external_user.json",
         "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_external_user.json",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_external_user.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW/PaloAltoNGFW_block_external_user.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW",
         "integration_type": null
       },
       {
@@ -197,7 +197,7 @@
         "file": ".upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_external_domain.json",
         "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_external_domain.json",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_external_domain.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW/PaloAltoNGFW_block_external_domain.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW",
         "integration_type": null
       },
       {
@@ -214,7 +214,7 @@
         "file": ".upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_internal_user.json",
         "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_internal_user.json",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_internal_user.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_internal_user.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW",
         "integration_type": null
       },
       {
@@ -231,7 +231,7 @@
         "file": ".upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_external_IP_address.json",
         "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_external_IP_address.json",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_external_IP_address.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW/PaloAltoNGFW_block_external_IP_address.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW",
         "integration_type": null
       },
       {
@@ -248,7 +248,7 @@
         "file": ".upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_external_IP_address.json",
         "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_external_IP_address.json",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_external_IP_address.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_external_IP_address.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW",
         "integration_type": null
       },
       {
@@ -265,7 +265,7 @@
         "file": ".upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_port_for_internal_communication.json",
         "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_port_for_internal_communication.json",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_port_for_internal_communication.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_port_for_internal_communication.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW",
         "integration_type": null
       },
       {
@@ -282,7 +282,7 @@
         "file": ".upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_internal_IP_address.json",
         "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_internal_IP_address.json",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_internal_IP_address.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_internal_IP_address.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW",
         "integration_type": null
       }
     ],

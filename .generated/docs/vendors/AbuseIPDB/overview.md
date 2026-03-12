@@ -1,6 +1,6 @@
 ## Analyzers (1)
 
-### [AbuseIPDB v2.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AbuseIPDB/AbuseIPDB.json)
+### [AbuseIPDB v2.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AbuseIPDB)
 Check IP addresses or CIDR blocks against AbuseIPDB. Returns abuse confidence score, report categories, reporter countries, and detailed report history.
 
 - **Author:** Matteo Lodi; Fabien Bloume, StrangeBee
@@ -11,7 +11,7 @@ Check IP addresses or CIDR blocks against AbuseIPDB. Returns abuse confidence sc
 
 ## Responders (1)
 
-### [AbuseIPDB Report v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/AbuseIPDB/AbuseIPDB_Report.json)
+### [AbuseIPDB Report v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/AbuseIPDB)
 Report an IP address to AbuseIPDB for abuse tracking and community sharing. Please, make sure to use the correct category in your Cortex responder configuration.
 
 - **Author:** Fabien Bloume, StrangeBee

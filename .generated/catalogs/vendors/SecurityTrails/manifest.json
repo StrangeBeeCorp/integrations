@@ -24,7 +24,7 @@
         "file": ".upstream/cortex/analyzers/SecurityTrails/SecurityTrails_Whois.json",
         "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/SecurityTrails/SecurityTrails_Whois.json",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/SecurityTrails/SecurityTrails_Whois.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SecurityTrails/SecurityTrails_Whois.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SecurityTrails",
         "integration_type": null
       },
       {
@@ -39,7 +39,7 @@
         "file": ".upstream/cortex/analyzers/SecurityTrails/SecurityTrails_Passive_DNS.json",
         "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/SecurityTrails/SecurityTrails_Passive_DNS.json",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/SecurityTrails/SecurityTrails_Passive_DNS.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SecurityTrails/SecurityTrails_Passive_DNS.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SecurityTrails",
         "integration_type": null
       }
     ],

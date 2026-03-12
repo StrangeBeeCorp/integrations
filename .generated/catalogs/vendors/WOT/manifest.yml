@@ -25,7 +25,7 @@ integrations:
     file: .upstream/cortex/analyzers/WOT/WOT_lookup.json
     url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/WOT/WOT_lookup.json
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/WOT/WOT_lookup.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/WOT/WOT_lookup.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/WOT
     integration_type: null
   responders: []
   functions: []

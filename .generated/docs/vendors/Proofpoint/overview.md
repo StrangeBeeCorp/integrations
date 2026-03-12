@@ -22,7 +22,7 @@ Ingest Proofpoint TAP clicksPermitted events as TheHive alerts to track and resp
 
 ## Analyzers (1)
 
-### [Proofpoint Lookup v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Proofpoint/ProofPoint_Lookup.json)
+### [Proofpoint Lookup v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Proofpoint)
 Check URL, file, SHA256 against Proofpoint forensics
 
 - **Author:** Emmanuel Torquato

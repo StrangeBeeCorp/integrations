@@ -27,7 +27,7 @@
         "file": ".upstream/cortex/analyzers/CuckooSandbox/CuckooSandbox_File_Analysis.json",
         "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/CuckooSandbox/CuckooSandbox_File_Analysis.json",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/CuckooSandbox/CuckooSandbox_File_Analysis.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CuckooSandbox/CuckooSandbox_File_Analysis.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CuckooSandbox",
         "integration_type": null
       },
       {
@@ -42,7 +42,7 @@
         "file": ".upstream/cortex/analyzers/CuckooSandbox/CuckooSandbox_Url_Analysis.json",
         "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/CuckooSandbox/CuckooSandbox_Url_Analysis.json",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/CuckooSandbox/CuckooSandbox_Url_Analysis.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CuckooSandbox/CuckooSandbox_Url_Analysis.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CuckooSandbox",
         "integration_type": null
       }
     ],

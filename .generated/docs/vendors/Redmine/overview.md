@@ -1,6 +1,6 @@
 ## Responders (1)
 
-### [Redmine Issue v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Redmine/Redmine_Issue.json)
+### [Redmine Issue v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Redmine)
 Create a redmine issue from a case
 
 - **Author:** Marc-André DOLL

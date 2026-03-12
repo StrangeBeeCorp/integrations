@@ -31,7 +31,7 @@ integrations:
     file: .upstream/cortex/analyzers/CyberCrime-Tracker/CyberCrimeTracker.json
     url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/CyberCrime-Tracker/CyberCrimeTracker.json
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/CyberCrime-Tracker/CyberCrimeTracker.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CyberCrime-Tracker/CyberCrimeTracker.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CyberCrime-Tracker
     integration_type: null
   responders: []
   functions: []

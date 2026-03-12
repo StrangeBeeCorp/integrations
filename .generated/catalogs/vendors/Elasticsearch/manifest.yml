@@ -51,7 +51,7 @@ integrations:
     file: .upstream/cortex/analyzers/Elasticsearch/Elasticsearch_Analysis.json
     url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Elasticsearch/Elasticsearch_Analysis.json
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Elasticsearch/Elasticsearch_Analysis.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Elasticsearch/Elasticsearch_Analysis.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Elasticsearch
     integration_type: null
   responders: []
   functions: []

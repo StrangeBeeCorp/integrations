@@ -1,6 +1,6 @@
 ## Analyzers (1)
 
-### [ValidateObservable v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/ValidateObservable/ValidateObservable.json)
+### [ValidateObservable v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/ValidateObservable)
 Use regexes and libraries to indicate if observable is valid
 
 - **Author:** Fabien Bloume, StrangeBee

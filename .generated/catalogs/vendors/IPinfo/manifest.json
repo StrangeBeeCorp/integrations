@@ -34,7 +34,7 @@
         "file": ".upstream/cortex/analyzers/IPinfo/IPinfo_Details.json",
         "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/IPinfo/IPinfo_Details.json",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/IPinfo/IPinfo_Details.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/IPinfo/IPinfo_Details.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/IPinfo",
         "integration_type": null
       },
       {
@@ -49,7 +49,7 @@
         "file": ".upstream/cortex/analyzers/IPinfo/IPinfo_Hosted_Domains.json",
         "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/IPinfo/IPinfo_Hosted_Domains.json",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/IPinfo/IPinfo_Hosted_Domains.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/IPinfo/IPinfo_Hosted_Domains.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/IPinfo",
         "integration_type": null
       }
     ],

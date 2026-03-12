@@ -1,6 +1,6 @@
 ## Analyzers (1)
 
-### [Axur v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Axur/axur_analyzer.json)
+### [Axur v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Axur)
 Search IPs, domains, hashes or URLs on axur.com
 
 - **Author:** Axur

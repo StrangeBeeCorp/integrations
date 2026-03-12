@@ -1,6 +1,6 @@
 ## Analyzers (1)
 
-### [CERTatPassiveDNS v2.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CERTatPassiveDNS/CERTatPassiveDNS.json)
+### [CERTatPassiveDNS v2.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CERTatPassiveDNS)
 Checks CERT.at Passive DNS for a given domain.
 
 - **Author:** Nils Kuhnert, CERT-Bund

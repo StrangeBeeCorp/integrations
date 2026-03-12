@@ -28,7 +28,7 @@ integrations:
     file: .upstream/cortex/responders/MailIncidentStatus/MailIncidentStatus.json
     url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MailIncidentStatus/MailIncidentStatus.json
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MailIncidentStatus/MailIncidentStatus.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MailIncidentStatus/MailIncidentStatus.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MailIncidentStatus
     integration_type: null
   functions: []
 stats:

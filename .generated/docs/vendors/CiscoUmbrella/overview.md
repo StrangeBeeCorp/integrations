@@ -1,6 +1,6 @@
 ## Analyzers (1)
 
-### [CiscoUmbrella Report v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CiscoUmbrella/Umbrella_Report.json)
+### [CiscoUmbrella Report v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CiscoUmbrella)
 Query the Cisco Umbrella Reporting API for recent DNS queries and their status.
 
 - **Author:** Kyle Parrish
@@ -11,7 +11,7 @@ Query the Cisco Umbrella Reporting API for recent DNS queries and their status.
 
 ## Responders (1)
 
-### [CiscoUmbrella Blacklister v1.1](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CiscoUmbrella/UmbrellaBlacklister.json)
+### [CiscoUmbrella Blacklister v1.1](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CiscoUmbrella)
 Add domain to Cisco Umbrella blacklist via Enforcement API.
 
 - **Author:** Kyle Parrish

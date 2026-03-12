@@ -35,7 +35,7 @@
         "file": ".upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Public.json",
         "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Public.json",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Public.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MnemonicPDNS/Mnemonic_pDNS_Public.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MnemonicPDNS",
         "integration_type": null
       },
       {
@@ -51,7 +51,7 @@
         "file": ".upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Closed.json",
         "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Closed.json",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Closed.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MnemonicPDNS/Mnemonic_pDNS_Closed.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MnemonicPDNS",
         "integration_type": null
       }
     ],

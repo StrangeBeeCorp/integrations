@@ -1,6 +1,6 @@
 ## Analyzers (1)
 
-### [NERD v1.1](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/NERD/nerd.json)
+### [NERD v1.1](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/NERD)
 Get Reputation score and other basic information from Network Entity Reputation Database (NERD)
 
 - **Author:** Vaclav Bartos, CESNET

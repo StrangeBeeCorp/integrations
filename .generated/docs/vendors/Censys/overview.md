@@ -1,6 +1,6 @@
 ## Analyzers (1)
 
-### [Censys v2.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Censys/Censys.json)
+### [Censys v2.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Censys)
 Check IPs, certificate hashes or domains against censys.io.
 
 - **Author:** Nils Kuhnert, CERT-Bund; Fabien Bloume, StrangeBee

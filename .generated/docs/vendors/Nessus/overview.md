@@ -1,6 +1,6 @@
 ## Analyzers (1)
 
-### [Nessus v2.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Nessus/Nessus.json)
+### [Nessus v2.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Nessus)
 Use Nessus Professional to scan hosts.
 
 - **Author:** Guillaume Rousse

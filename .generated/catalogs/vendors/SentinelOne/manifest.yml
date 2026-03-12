@@ -28,7 +28,7 @@ integrations:
     file: .upstream/cortex/analyzers/SentinelOne/SentinelOne_DNSReverseLookup.json
     url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/SentinelOne/SentinelOne_DNSReverseLookup.json
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/SentinelOne/SentinelOne_DNSReverseLookup.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SentinelOne/SentinelOne_DNSReverseLookup.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SentinelOne
     integration_type: null
   - name: SentinelOne DeepVisibility DNSQuery
     version: '1.0'
@@ -42,7 +42,7 @@ integrations:
     file: .upstream/cortex/analyzers/SentinelOne/SentinelOne_DeepVisibility_DNSQuery.json
     url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/SentinelOne/SentinelOne_DeepVisibility_DNSQuery.json
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/SentinelOne/SentinelOne_DeepVisibility_DNSQuery.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SentinelOne/SentinelOne_DeepVisibility_DNSQuery.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SentinelOne
     integration_type: null
   - name: SentinelOne DNSQuery
     version: '2.0'
@@ -57,7 +57,7 @@ integrations:
     file: .upstream/cortex/analyzers/SentinelOne/SentinelOne_DNSQuery.json
     url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/SentinelOne/SentinelOne_DNSQuery.json
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/SentinelOne/SentinelOne_DNSQuery.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SentinelOne/SentinelOne_DNSQuery.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SentinelOne
     integration_type: null
   responders:
   - name: SentinelOne Hash Blacklister
@@ -70,7 +70,7 @@ integrations:
     file: .upstream/cortex/responders/SentinelOne/SentinelOne_HashBlacklister.json
     url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/SentinelOne/SentinelOne_HashBlacklister.json
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/SentinelOne/SentinelOne_HashBlacklister.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/SentinelOne/SentinelOne_HashBlacklister.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/SentinelOne
     integration_type: null
   functions: []
 stats:

@@ -47,7 +47,7 @@
         "file": ".upstream/cortex/analyzers/MSDefenderOffice365/MSDefenderOffice365_SafeLinksDecoder.json",
         "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSDefenderOffice365/MSDefenderOffice365_SafeLinksDecoder.json",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSDefenderOffice365/MSDefenderOffice365_SafeLinksDecoder.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSDefenderOffice365/MSDefenderOffice365_SafeLinksDecoder.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSDefenderOffice365",
         "integration_type": null
       }
     ],
@@ -64,7 +64,7 @@
         "file": ".upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_allow.json",
         "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_allow.json",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_allow.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderOffice365/MSDefenderOffice365_allow.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderOffice365",
         "integration_type": null
       },
       {
@@ -79,7 +79,7 @@
         "file": ".upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_block.json",
         "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_block.json",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_block.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderOffice365/MSDefenderOffice365_block.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderOffice365",
         "integration_type": null
       },
       {
@@ -94,7 +94,7 @@
         "file": ".upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_unblock.json",
         "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_unblock.json",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_unblock.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderOffice365/MSDefenderOffice365_unblock.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderOffice365",
         "integration_type": null
       },
       {
@@ -109,7 +109,7 @@
         "file": ".upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_disallow.json",
         "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_disallow.json",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_disallow.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderOffice365/MSDefenderOffice365_disallow.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderOffice365",
         "integration_type": null
       }
     ],

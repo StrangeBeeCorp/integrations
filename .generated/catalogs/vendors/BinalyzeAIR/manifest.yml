@@ -28,7 +28,7 @@ integrations:
     file: .upstream/cortex/responders/BinalyzeAIR/binalyze_air_acquisition.json
     url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/BinalyzeAIR/binalyze_air_acquisition.json
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/BinalyzeAIR/binalyze_air_acquisition.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/BinalyzeAIR/binalyze_air_acquisition.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/BinalyzeAIR
     integration_type: null
   - name: Binalyze AIR Isolation
     version: '1.0'
@@ -40,7 +40,7 @@ integrations:
     file: .upstream/cortex/responders/BinalyzeAIR/binalyze_air_isolation.json
     url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/BinalyzeAIR/binalyze_air_isolation.json
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/BinalyzeAIR/binalyze_air_isolation.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/BinalyzeAIR/binalyze_air_isolation.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/BinalyzeAIR
     integration_type: null
   functions: []
 stats:

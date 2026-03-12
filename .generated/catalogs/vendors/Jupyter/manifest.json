@@ -41,7 +41,7 @@
         "file": ".upstream/cortex/analyzers/Jupyter/Jupyter_Run_Notebook_Analyzer.json",
         "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Jupyter/Jupyter_Run_Notebook_Analyzer.json",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Jupyter/Jupyter_Run_Notebook_Analyzer.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Jupyter/Jupyter_Run_Notebook_Analyzer.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Jupyter",
         "integration_type": null
       }
     ],
@@ -62,7 +62,7 @@
         "file": ".upstream/cortex/responders/Jupyter/Jupyter_Run_Notebook_Responder.json",
         "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Jupyter/Jupyter_Run_Notebook_Responder.json",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Jupyter/Jupyter_Run_Notebook_Responder.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Jupyter/Jupyter_Run_Notebook_Responder.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Jupyter",
         "integration_type": null
       }
     ],

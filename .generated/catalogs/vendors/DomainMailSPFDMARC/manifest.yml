@@ -30,7 +30,7 @@ integrations:
     file: .upstream/cortex/analyzers/DomainMailSPFDMARC/domainMailSPFDMARC_get_reports.json
     url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/DomainMailSPFDMARC/domainMailSPFDMARC_get_reports.json
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/DomainMailSPFDMARC/domainMailSPFDMARC_get_reports.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainMailSPFDMARC/domainMailSPFDMARC_get_reports.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainMailSPFDMARC
     integration_type: local
   responders: []
   functions: []

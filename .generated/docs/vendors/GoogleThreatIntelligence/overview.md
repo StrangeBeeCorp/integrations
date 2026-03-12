@@ -1,34 +1,34 @@
 ## Analyzers (5)
 
-### [GTI ScanFile v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/GoogleThreatIntelligence/GTI_ScanFile.json)
+### [GTI ScanFile v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/GoogleThreatIntelligence)
 Get the latest Google Threat Intelligence report for a file that was submitted to Google Threat Intelligence for scanning
 
 - **Author:** Google
 - **License:** AGPL-V3
 - **Data Types:** `file`
 
-### [GTI GetIOCReport v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/GoogleThreatIntelligence/GTI_GetIOCReport.json)
+### [GTI GetIOCReport v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/GoogleThreatIntelligence)
 Get the latest Google Threat Intelligence report for a file, hash, url, domain or an IP address.
 
 - **Author:** Google
 - **License:** AGPL-V3
 - **Data Types:** `file`, `hash`, `domain`, `fqdn`, `ip`, `url`
 
-### [GTI ScanURL v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/GoogleThreatIntelligence/GTI_ScanURL.json)
+### [GTI ScanURL v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/GoogleThreatIntelligence)
 Get the latest Google Threat Intelligence report for a URL that was submitted to Google Threat Intelligence for scanning
 
 - **Author:** Google
 - **License:** AGPL-V3
 - **Data Types:** `url`
 
-### [GTI ScanPrivateFile v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateFile.json)
+### [GTI ScanPrivateFile v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/GoogleThreatIntelligence)
 Get the latest Google Threat Intelligence report for a file that was privately submitted to Google Threat Intelligence for scanning
 
 - **Author:** Google
 - **License:** AGPL-V3
 - **Data Types:** `file`
 
-### [GTI ScanPrivateURL v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateURL.json)
+### [GTI ScanPrivateURL v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/GoogleThreatIntelligence)
 Get the latest Google Threat Intelligence report for a URL that was privately submitted to Google Threat Intelligence for scanning
 
 - **Author:** Google

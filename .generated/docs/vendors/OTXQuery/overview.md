@@ -1,6 +1,6 @@
 ## Analyzers (1)
 
-### [OTXQuery v2.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/OTXQuery/OTXQuery.json)
+### [OTXQuery v2.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/OTXQuery)
 Query AlienVault OTX for IPs, domains, URLs, or file hashes.
 
 - **Author:** Eric Capuano

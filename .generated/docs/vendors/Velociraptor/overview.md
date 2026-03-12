@@ -1,6 +1,6 @@
 ## Responders (1)
 
-### [Velociraptor v0.2](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Velociraptor/velociraptor_flow.json)
+### [Velociraptor v0.2](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Velociraptor)
 Run Velociraptor artifact collection
 
 - **Author:** Wes Lambert, @therealwlambert

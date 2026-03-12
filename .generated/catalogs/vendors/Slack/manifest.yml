@@ -58,7 +58,7 @@ integrations:
     file: .upstream/cortex/responders/Slack/Slack_CreateChannel.json
     url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Slack/Slack_CreateChannel.json
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Slack/Slack_CreateChannel.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Slack/Slack_CreateChannel.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Slack
     integration_type: null
   - name: Slack SyncChannel
     version: '1.0'
@@ -71,7 +71,7 @@ integrations:
     file: .upstream/cortex/responders/Slack/Slack_SyncChannel.json
     url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Slack/Slack_SyncChannel.json
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Slack/Slack_SyncChannel.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Slack/Slack_SyncChannel.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Slack
     integration_type: null
   functions: []
 stats:

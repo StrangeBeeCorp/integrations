@@ -1,6 +1,6 @@
 ## Analyzers (1)
 
-### [ClusterHawk v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/ClusterHawk/ClusterHawk.json)
+### [ClusterHawk v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/ClusterHawk)
 ClusterHawk prediction analyzer for IP address threat intelligence using pre-trained models
 
 - **Author:** Marvin Uku, Chawkr

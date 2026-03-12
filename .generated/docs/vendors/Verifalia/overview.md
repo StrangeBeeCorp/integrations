@@ -1,6 +1,6 @@
 ## Analyzers (1)
 
-### [Verifalia v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Verifalia/Verifalia.json)
+### [Verifalia v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Verifalia)
 Analyze e-mail address via Verifalia
 
 - **Author:** Peter Juhas

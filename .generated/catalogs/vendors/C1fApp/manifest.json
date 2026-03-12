@@ -27,7 +27,7 @@
         "file": ".upstream/cortex/analyzers/C1fApp/C1fApp_osint.json",
         "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/C1fApp/C1fApp_osint.json",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/C1fApp/C1fApp_osint.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/C1fApp/C1fApp_osint.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/C1fApp",
         "integration_type": null
       }
     ],

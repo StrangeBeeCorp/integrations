@@ -1,6 +1,6 @@
 ## Responders (1)
 
-### [Shuffle v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Shuffle/shuffle.json)
+### [Shuffle v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Shuffle)
 Execute a workflow in Shuffle
 
 - **Author:** @frikkylikeme

@@ -1,6 +1,6 @@
 ## Responders (1)
 
-### [n8n v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/n8n/n8n.json)
+### [n8n v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/n8n)
 Send data to n8n via webhook
 
 - **Author:** Anas SOUIRI

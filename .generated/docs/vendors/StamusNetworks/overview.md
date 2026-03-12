@@ -1,6 +1,6 @@
 ## Analyzers (1)
 
-### [StamusNetworks HostID v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/StamusNetworks/StamusNetworks_IPInfo.json)
+### [StamusNetworks HostID v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/StamusNetworks)
 Get information from your Scirius Security Platform for an IP address.
 
 - **Author:** Stamus Networks

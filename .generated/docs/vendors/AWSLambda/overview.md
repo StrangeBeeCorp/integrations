@@ -1,6 +1,6 @@
 ## Responders (1)
 
-### [AWSLambda InvokeFunction v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/AWSLambda/AWSInvokeLambda.json)
+### [AWSLambda InvokeFunction v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/AWSLambda)
 Invokes the specified AWS Lambda function with the given input from TheHive.
 
 - **Author:** Fabien Bloume, StrangeBee

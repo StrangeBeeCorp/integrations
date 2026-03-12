@@ -40,7 +40,7 @@
         "file": ".upstream/cortex/analyzers/Onyphe/ONYPHE_Search.json",
         "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Onyphe/ONYPHE_Search.json",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Onyphe/ONYPHE_Search.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Onyphe/ONYPHE_Search.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Onyphe",
         "integration_type": null
       },
       {
@@ -58,7 +58,7 @@
         "file": ".upstream/cortex/analyzers/Onyphe/ONYPHE_Vulnscan.json",
         "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Onyphe/ONYPHE_Vulnscan.json",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Onyphe/ONYPHE_Vulnscan.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Onyphe/ONYPHE_Vulnscan.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Onyphe",
         "integration_type": null
       },
       {
@@ -76,7 +76,7 @@
         "file": ".upstream/cortex/analyzers/Onyphe/ONYPHE_ASM.json",
         "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Onyphe/ONYPHE_ASM.json",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Onyphe/ONYPHE_ASM.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Onyphe/ONYPHE_ASM.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Onyphe",
         "integration_type": null
       },
       {
@@ -96,7 +96,7 @@
         "file": ".upstream/cortex/analyzers/Onyphe/ONYPHE_Ctiscan.json",
         "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Onyphe/ONYPHE_Ctiscan.json",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Onyphe/ONYPHE_Ctiscan.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Onyphe/ONYPHE_Ctiscan.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Onyphe",
         "integration_type": null
       },
       {
@@ -113,7 +113,7 @@
         "file": ".upstream/cortex/analyzers/Onyphe/ONYPHE_Summary_API.json",
         "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Onyphe/ONYPHE_Summary_API.json",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Onyphe/ONYPHE_Summary_API.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Onyphe/ONYPHE_Summary_API.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Onyphe",
         "integration_type": null
       }
     ],

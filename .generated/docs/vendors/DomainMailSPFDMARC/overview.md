@@ -1,6 +1,6 @@
 ## Analyzers (1)
 
-### [DomainMailSPFDMARC v1.2](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainMailSPFDMARC/domainMailSPFDMARC_get_reports.json)
+### [DomainMailSPFDMARC v1.2](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainMailSPFDMARC)
 Check SPF and DMARC records for a domain, FQDN, or sender domain in .eml file. Supports reported/forwarded emails by extracting the sender from the inner nested message.
 
 - **Author:** torsolaso; Fabien Bloume, StrangeBee

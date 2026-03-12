@@ -1,6 +1,6 @@
 ## Analyzers (1)
 
-### [Elasticsearch Analysis v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Elasticsearch/Elasticsearch_Analysis.json)
+### [Elasticsearch Analysis v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Elasticsearch)
 Search for IoCs in Elasticsearch
 
 - **Author:** Nick Prokop

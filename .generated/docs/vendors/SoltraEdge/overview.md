@@ -1,6 +1,6 @@
 ## Analyzers (1)
 
-### [SoltraEdge v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SoltraEdge/Soltra_search.json)
+### [SoltraEdge v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SoltraEdge)
 Query against Soltra Edge.
 
 - **Author:** Michael Stensrud, Nordic Financial CERT

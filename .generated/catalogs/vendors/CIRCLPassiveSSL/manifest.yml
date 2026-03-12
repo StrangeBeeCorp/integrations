@@ -29,7 +29,7 @@ integrations:
     file: .upstream/cortex/analyzers/CIRCLPassiveSSL/CIRCLPassiveSSL.json
     url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/CIRCLPassiveSSL/CIRCLPassiveSSL.json
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/CIRCLPassiveSSL/CIRCLPassiveSSL.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CIRCLPassiveSSL/CIRCLPassiveSSL.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CIRCLPassiveSSL
     integration_type: null
   responders: []
   functions: []

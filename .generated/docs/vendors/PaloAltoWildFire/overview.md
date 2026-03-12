@@ -1,6 +1,6 @@
 ## Analyzers (1)
 
-### [PaloAltoWildFire v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PaloAltoWildFire/PaloAltoWildFire.json)
+### [PaloAltoWildFire v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PaloAltoWildFire)
 Run Palo Alto WildFire analysis on a file, hash, or URL
 
 - **Author:** Ignacio Rodriguez Paez, Joe Lazaro
@@ -11,7 +11,7 @@ Run Palo Alto WildFire analysis on a file, hash, or URL
 
 ## Responders (1)
 
-### [PaloAltoWildFire URL submission v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoWildFire/PaloAltoWildFire_URL_submission.json)
+### [PaloAltoWildFire URL submission v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoWildFire)
 Submit URL to PaloAlto WildFire service.
 
 - **Author:** Keijo Korte - @korteke

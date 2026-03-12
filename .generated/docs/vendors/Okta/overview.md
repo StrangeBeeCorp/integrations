@@ -1,6 +1,6 @@
 ## Analyzers (1)
 
-### [OktaUserLookup v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Okta/OktaUserLookup.json)
+### [OktaUserLookup v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Okta)
 Okta User Lookup is an analyzer for TheHive to enrich mail observables from data through the Okta users API
 
 - **Author:** Martin Jaan Leesment

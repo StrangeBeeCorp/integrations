@@ -1,6 +1,6 @@
 ## Analyzers (1)
 
-### [EclecticIQ SearchObservable v2.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/EclecticIQ/EclecticIQ_SearchObservable.json)
+### [EclecticIQ SearchObservable v2.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/EclecticIQ)
 Query EclecticIQ Intelligence Center for a specific observable.
 
 - **Author:** BW
@@ -11,7 +11,7 @@ Query EclecticIQ Intelligence Center for a specific observable.
 
 ## Responders (1)
 
-### [EclecticIQ Indicator API v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/EclecticIQ/EclecticIQIndicator.json)
+### [EclecticIQ Indicator API v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/EclecticIQ)
 Submit indicators to the EclecticIQ Intelligence Center api
 
 - **Author:** EclecticIQ

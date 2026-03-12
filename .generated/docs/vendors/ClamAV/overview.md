@@ -1,6 +1,6 @@
 ## Analyzers (1)
 
-### [ClamAV FileInfo v1.1](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/ClamAV/ClamAV_FileInfo.json)
+### [ClamAV FileInfo v1.1](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/ClamAV)
 Use Clamscan with custom rules
 
 - **Author:** Brian Laskowski

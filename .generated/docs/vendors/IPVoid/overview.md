@@ -1,6 +1,6 @@
 ## Analyzers (1)
 
-### [IPVoid v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/IPVoid/IPVoid.json)
+### [IPVoid v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/IPVoid)
 Determine whether an IP is present on any of the feeds consumed by IPVoid
 
 - **Author:** Joel Snape @ Nettitude
