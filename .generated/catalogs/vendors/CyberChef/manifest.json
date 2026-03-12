@@ -16,7 +16,7 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "CyberChef_FromBase64",
+        "name": "CyberChef FromBase64",
         "version": "1.0",
         "author": "Wes Lambert",
         "license": "AGPL-V3",
@@ -31,7 +31,7 @@
         "integration_type": null
       },
       {
-        "name": "CyberChef_FromHex",
+        "name": "CyberChef FromHex",
         "version": "1.0",
         "author": "Wes Lambert",
         "license": "AGPL-V3",
@@ -46,7 +46,7 @@
         "integration_type": null
       },
       {
-        "name": "CyberChef_FromCharCode",
+        "name": "CyberChef FromCharCode",
         "version": "1.0",
         "author": "Wes Lambert",
         "license": "AGPL-V3",

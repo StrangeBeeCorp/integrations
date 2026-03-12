@@ -14,7 +14,7 @@
     "analyzers": [],
     "responders": [
       {
-        "name": "Gmail_DeleteMessage",
+        "name": "Gmail DeleteMessage",
         "version": "1.0",
         "author": "David Strassegger, @oscd_initiative",
         "license": "MIT",
@@ -29,7 +29,7 @@
         "integration_type": null
       },
       {
-        "name": "Gmail_BlockDomain",
+        "name": "Gmail BlockDomain",
         "version": "1.0",
         "author": "David Strassegger, @oscd_initiative",
         "license": "MIT",
@@ -44,7 +44,7 @@
         "integration_type": null
       },
       {
-        "name": "Gmail_BlockSender",
+        "name": "Gmail BlockSender",
         "version": "1.0",
         "author": "David Strassegger, @oscd_initiative",
         "license": "MIT",
@@ -59,7 +59,7 @@
         "integration_type": null
       },
       {
-        "name": "Gmail_UnblockDomain",
+        "name": "Gmail UnblockDomain",
         "version": "1.0",
         "author": "David Strassegger, @oscd_initiative",
         "license": "MIT",
@@ -74,7 +74,7 @@
         "integration_type": null
       },
       {
-        "name": "Gmail_UnblockSender",
+        "name": "Gmail UnblockSender",
         "version": "1.0",
         "author": "David Strassegger, @oscd_initiative",
         "license": "MIT",

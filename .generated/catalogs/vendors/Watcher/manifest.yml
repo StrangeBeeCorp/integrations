@@ -14,7 +14,7 @@ displayOnWebsite: true
 visibility: 100
 integrations:
   analyzers:
-  - name: Watcher_Check
+  - name: Watcher Check
     version: '1.0'
     author: THA-CERT // YNE
     license: AGPL-V3
@@ -28,7 +28,7 @@ integrations:
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Watcher/Watcher_Check.json
     integration_type: null
   responders:
-  - name: Watcher_Transfer
+  - name: Watcher Transfer
     version: '1.1'
     author: THA-CERT // YNE
     license: AGPL-V3
@@ -43,7 +43,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Watcher/Watcher_Transfer.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Watcher/Watcher_Transfer.json
     integration_type: null
-  - name: Watcher_Remove
+  - name: Watcher Remove
     version: '1.1'
     author: THA-CERT // YNE
     license: AGPL-V3
@@ -55,7 +55,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Watcher/Watcher_Remove.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Watcher/Watcher_Remove.json
     integration_type: null
-  - name: Watcher_Update
+  - name: Watcher Update
     version: '1.1'
     author: THA-CERT // YNE
     license: AGPL-V3
@@ -69,7 +69,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Watcher/Watcher_Update.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Watcher/Watcher_Update.json
     integration_type: null
-  - name: Watcher_Add
+  - name: Watcher Add
     version: '1.1'
     author: THA-CERT // YNE
     license: AGPL-V3

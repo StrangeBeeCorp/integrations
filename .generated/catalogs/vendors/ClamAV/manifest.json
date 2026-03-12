@@ -13,7 +13,7 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "ClamAV_FileInfo",
+        "name": "ClamAV FileInfo",
         "version": "1.1",
         "author": "Brian Laskowski",
         "license": "AGPL-V3",

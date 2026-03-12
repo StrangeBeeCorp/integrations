@@ -13,7 +13,7 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "MetaDefenderCloud_Scan",
+        "name": "MetaDefenderCloud Scan",
         "version": "1.0",
         "author": "Davide Arcuri and Andrea Garavaglia, LDO-CERT",
         "license": "AGPL-V3",
@@ -28,7 +28,7 @@
         "integration_type": null
       },
       {
-        "name": "MetaDefenderCore_GetReport",
+        "name": "MetaDefenderCore GetReport",
         "version": "1.0",
         "author": "Davide Arcuri and Andrea Garavaglia, LDO-CERT",
         "license": "AGPL-V3",
@@ -43,7 +43,7 @@
         "integration_type": null
       },
       {
-        "name": "MetaDefenderCloud_Reputation",
+        "name": "MetaDefenderCloud Reputation",
         "version": "1.0",
         "author": "Davide Arcuri and Andrea Garavaglia, LDO-CERT",
         "license": "AGPL-V3",
@@ -60,7 +60,7 @@
         "integration_type": null
       },
       {
-        "name": "MetaDefenderCore_Scan",
+        "name": "MetaDefenderCore Scan",
         "version": "1.0",
         "author": "Davide Arcuri and Andrea Garavaglia, LDO-CERT",
         "license": "AGPL-V3",
@@ -75,7 +75,7 @@
         "integration_type": null
       },
       {
-        "name": "MetaDefenderCloud_GetReport",
+        "name": "MetaDefenderCloud GetReport",
         "version": "1.0",
         "author": "Davide Arcuri and Andrea Garavaglia, LDO-CERT",
         "license": "AGPL-V3",

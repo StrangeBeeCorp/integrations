@@ -15,7 +15,7 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "LupovisProwl_GetIPReputation",
+        "name": "LupovisProwl GetIPReputation",
         "version": "1.1",
         "author": "Lyle Docherty",
         "license": "AGPL-V3",

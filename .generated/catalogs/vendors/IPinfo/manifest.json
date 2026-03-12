@@ -23,7 +23,7 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "IPinfo_Details",
+        "name": "IPinfo Details",
         "version": "1.0",
         "author": "Manabu Niseki",
         "license": "MIT",
@@ -38,7 +38,7 @@
         "integration_type": null
       },
       {
-        "name": "IPinfo_Hosted_Domains",
+        "name": "IPinfo Hosted Domains",
         "version": "1.0",
         "author": "Manabu Niseki",
         "license": "MIT",

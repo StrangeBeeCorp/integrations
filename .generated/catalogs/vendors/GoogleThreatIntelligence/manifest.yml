@@ -30,7 +30,7 @@ subscription_required:
 - false
 integrations:
   analyzers:
-  - name: GTI_ScanFile
+  - name: GTI ScanFile
     version: '1.0'
     author: Google
     license: AGPL-V3
@@ -43,7 +43,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanFile.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/GoogleThreatIntelligence/GTI_ScanFile.json
     integration_type: null
-  - name: GTI_GetIOCReport
+  - name: GTI GetIOCReport
     version: '1.0'
     author: Google
     license: AGPL-V3
@@ -60,7 +60,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_GetIOCReport.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/GoogleThreatIntelligence/GTI_GetIOCReport.json
     integration_type: null
-  - name: GTI_ScanURL
+  - name: GTI ScanURL
     version: '1.0'
     author: Google
     license: AGPL-V3
@@ -73,7 +73,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanURL.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/GoogleThreatIntelligence/GTI_ScanURL.json
     integration_type: null
-  - name: GTI_ScanPrivateFile
+  - name: GTI ScanPrivateFile
     version: '1.0'
     author: Google
     license: AGPL-V3
@@ -86,7 +86,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateFile.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateFile.json
     integration_type: null
-  - name: GTI_ScanPrivateURL
+  - name: GTI ScanPrivateURL
     version: '1.0'
     author: Google
     license: AGPL-V3

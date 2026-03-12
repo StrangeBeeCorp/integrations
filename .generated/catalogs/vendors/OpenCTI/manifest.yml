@@ -17,7 +17,7 @@ subscription_required: false
 free_subscription: false
 integrations:
   analyzers:
-  - name: OpenCTI_SearchExactObservable
+  - name: OpenCTI SearchExactObservable
     version: '2.0'
     author: ANSSI
     license: AGPL-V3
@@ -42,7 +42,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchExactObservable.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/OpenCTI/OpenCTI_SearchExactObservable.json
     integration_type: null
-  - name: OpenCTI_SearchObservables
+  - name: OpenCTI SearchObservables
     version: '2.0'
     author: ANSSI
     license: AGPL-V3

@@ -30,7 +30,7 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "GTI_ScanFile",
+        "name": "GTI ScanFile",
         "version": "1.0",
         "author": "Google",
         "license": "AGPL-V3",
@@ -45,7 +45,7 @@
         "integration_type": null
       },
       {
-        "name": "GTI_GetIOCReport",
+        "name": "GTI GetIOCReport",
         "version": "1.0",
         "author": "Google",
         "license": "AGPL-V3",
@@ -65,7 +65,7 @@
         "integration_type": null
       },
       {
-        "name": "GTI_ScanURL",
+        "name": "GTI ScanURL",
         "version": "1.0",
         "author": "Google",
         "license": "AGPL-V3",
@@ -80,7 +80,7 @@
         "integration_type": null
       },
       {
-        "name": "GTI_ScanPrivateFile",
+        "name": "GTI ScanPrivateFile",
         "version": "1.0",
         "author": "Google",
         "license": "AGPL-V3",
@@ -95,7 +95,7 @@
         "integration_type": null
       },
       {
-        "name": "GTI_ScanPrivateURL",
+        "name": "GTI ScanPrivateURL",
         "version": "1.0",
         "author": "Google",
         "license": "AGPL-V3",

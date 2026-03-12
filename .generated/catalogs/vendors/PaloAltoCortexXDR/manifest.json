@@ -17,7 +17,7 @@
     "analyzers": [],
     "responders": [
       {
-        "name": "PaloAltoCortexXDR_isolate",
+        "name": "PaloAltoCortexXDR isolate",
         "version": "1.0",
         "author": "Joe Lazaro",
         "license": "AGPL-V3",
@@ -32,7 +32,7 @@
         "integration_type": null
       },
       {
-        "name": "PaloAltoCortexXDR_scan",
+        "name": "PaloAltoCortexXDR scan",
         "version": "1.0",
         "author": "Joe Lazaro",
         "license": "AGPL-V3",
@@ -47,7 +47,7 @@
         "integration_type": null
       },
       {
-        "name": "PaloAltoCortexXDR_unisolate",
+        "name": "PaloAltoCortexXDR unisolate",
         "version": "1.0",
         "author": "Joe Lazaro",
         "license": "AGPL-V3",

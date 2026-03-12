@@ -17,7 +17,7 @@ subscription_required: true
 free_subscription: true
 integrations:
   analyzers:
-  - name: Vulners_IOC
+  - name: Vulners IOC
     version: '1.0'
     author: Dmitry Uchakin, Vulners team
     license: AGPL-V3
@@ -31,7 +31,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Vulners/Vulners_IOC.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Vulners/Vulners_IOC.json
     integration_type: null
-  - name: Vulners_CVE
+  - name: Vulners CVE
     version: '1.0'
     author: Dmitry Uchakin, Vulners team
     license: AGPL-V3

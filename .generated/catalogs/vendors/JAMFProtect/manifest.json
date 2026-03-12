@@ -17,7 +17,7 @@
     "analyzers": [],
     "responders": [
       {
-        "name": "JAMFProtect_addHashtoPreventList",
+        "name": "JAMFProtect addHashtoPreventList",
         "version": "1.0",
         "author": "Fabien Bloume, StrangeBee",
         "license": "AGPL-V3",
@@ -32,7 +32,7 @@
         "integration_type": null
       },
       {
-        "name": "JAMFProtect_removeHashfromPreventList",
+        "name": "JAMFProtect removeHashfromPreventList",
         "version": "1.0",
         "author": "Fabien Bloume, StrangeBee",
         "license": "AGPL-V3",

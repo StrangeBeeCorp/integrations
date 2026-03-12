@@ -29,7 +29,7 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "Urlscan.io_Scan",
+        "name": "Urlscan.io Scan",
         "version": "0.1.0",
         "author": "ninoseki, Kyle Parrish (@arnydo)",
         "license": "MIT",
@@ -46,7 +46,7 @@
         "integration_type": null
       },
       {
-        "name": "Urlscan.io_Search",
+        "name": "Urlscan.io Search",
         "version": "0.1.1",
         "author": "ninoseki, Kyle Parrish (@arnydo)",
         "license": "MIT",

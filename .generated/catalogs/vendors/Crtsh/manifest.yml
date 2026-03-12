@@ -17,7 +17,7 @@ subscription_required: true
 free_subscription: true
 integrations:
   analyzers:
-  - name: Crt_sh_Transparency_Logs
+  - name: Crt sh Transparency Logs
     version: '1.0'
     author: crackytsi
     license: AGPL-V3

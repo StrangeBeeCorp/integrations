@@ -13,7 +13,7 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "BackscatterIO_GetObservations",
+        "name": "BackscatterIO GetObservations",
         "version": "1.0",
         "author": "brandon@backscatter.io",
         "license": "APLv2",
@@ -30,7 +30,7 @@
         "integration_type": null
       },
       {
-        "name": "BackscatterIO_Enrichment",
+        "name": "BackscatterIO Enrichment",
         "version": "1.0",
         "author": "brandon@backscatter.io",
         "license": "APLv2",

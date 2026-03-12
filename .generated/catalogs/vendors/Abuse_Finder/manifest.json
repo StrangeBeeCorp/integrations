@@ -16,7 +16,7 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "Abuse_Finder",
+        "name": "Abuse Finder",
         "version": "3.0",
         "author": "CERT-BDF",
         "license": "AGPL-V3",

@@ -13,7 +13,7 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "DomainTools_Risk",
+        "name": "DomainTools Risk",
         "version": "2.0",
         "author": "CERT-BDF",
         "license": "AGPL-V3",
@@ -29,7 +29,7 @@
         "integration_type": null
       },
       {
-        "name": "DomainTools_WhoisLookupUnparsed",
+        "name": "DomainTools WhoisLookupUnparsed",
         "version": "2.0",
         "author": "CERT-BDF",
         "license": "AGPL-V3",
@@ -45,7 +45,7 @@
         "integration_type": null
       },
       {
-        "name": "DomainTools_WhoisHistory",
+        "name": "DomainTools WhoisHistory",
         "version": "2.0",
         "author": "CERT-BDF",
         "license": "AGPL-V3",
@@ -60,7 +60,7 @@
         "integration_type": null
       },
       {
-        "name": "DomainTools_WhoisLookup",
+        "name": "DomainTools WhoisLookup",
         "version": "2.0",
         "author": "CERT-BDF",
         "license": "AGPL-V3",
@@ -76,7 +76,7 @@
         "integration_type": null
       },
       {
-        "name": "DomainTools_ReverseIPWhois",
+        "name": "DomainTools ReverseIPWhois",
         "version": "2.0",
         "author": "ANSSI",
         "license": "AGPL-V3",
@@ -94,7 +94,7 @@
         "integration_type": null
       },
       {
-        "name": "DomainTools_ReverseIP",
+        "name": "DomainTools ReverseIP",
         "version": "2.0",
         "author": "CERT-BDF",
         "license": "AGPL-V3",
@@ -111,7 +111,7 @@
         "integration_type": null
       },
       {
-        "name": "DomainTools_HostingHistory",
+        "name": "DomainTools HostingHistory",
         "version": "2.0",
         "author": "ANSSI",
         "license": "AGPL-V3",
@@ -126,7 +126,7 @@
         "integration_type": null
       },
       {
-        "name": "DomainTools_ReverseWhois",
+        "name": "DomainTools ReverseWhois",
         "version": "2.0",
         "author": "CERT-BDF",
         "license": "AGPL-V3",
@@ -144,7 +144,7 @@
         "integration_type": null
       },
       {
-        "name": "DomainTools_Reputation",
+        "name": "DomainTools Reputation",
         "version": "2.0",
         "author": "CERT-BDF",
         "license": "AGPL-V3",
@@ -160,7 +160,7 @@
         "integration_type": null
       },
       {
-        "name": "DomainTools_ReverseNameServer",
+        "name": "DomainTools ReverseNameServer",
         "version": "2.0",
         "author": "CERT-BDF",
         "license": "AGPL-V3",

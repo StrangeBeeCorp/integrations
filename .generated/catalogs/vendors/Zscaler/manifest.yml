@@ -17,7 +17,7 @@ subscription_required: true
 free_subscription: false
 integrations:
   analyzers:
-  - name: ZscalerZIA_URLLookup
+  - name: ZscalerZIA URLLookup
     version: '1.0'
     author: Fabien Bloume, StrangeBee
     license: AGPL-V3

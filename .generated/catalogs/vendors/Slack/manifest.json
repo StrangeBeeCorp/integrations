@@ -55,7 +55,7 @@
     "analyzers": [],
     "responders": [
       {
-        "name": "Slack_CreateChannel",
+        "name": "Slack CreateChannel",
         "version": "1.0",
         "author": "Fabien Bloume, StrangeBee",
         "license": "AGPL-V3",
@@ -70,7 +70,7 @@
         "integration_type": null
       },
       {
-        "name": "Slack_SyncChannel",
+        "name": "Slack SyncChannel",
         "version": "1.0",
         "author": "Fabien Bloume, StrangeBee",
         "license": "AGPL-V3",

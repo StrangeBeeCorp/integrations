@@ -25,7 +25,7 @@ subscription_required: true
 free_subscription: true
 integrations:
   analyzers:
-  - name: PhishTank_CheckURL
+  - name: PhishTank CheckURL
     version: '2.1'
     author: Eric Capuano
     license: AGPL-V3

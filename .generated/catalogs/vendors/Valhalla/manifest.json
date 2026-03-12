@@ -16,7 +16,7 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "Valhalla_GetRuleMatches",
+        "name": "Valhalla GetRuleMatches",
         "version": "0.3.1",
         "author": "Florian Roth",
         "license": "AGPL-V3",

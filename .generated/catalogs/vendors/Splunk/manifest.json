@@ -39,7 +39,7 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "Splunk_Search_URL_URI_Path",
+        "name": "Splunk Search URL URI Path",
         "version": "3.0",
         "author": "Unit777, LetMeR00t",
         "license": "AGPL-V3",
@@ -55,7 +55,7 @@
         "integration_type": null
       },
       {
-        "name": "Splunk_Search_User",
+        "name": "Splunk Search User",
         "version": "3.0",
         "author": "LetMeR00t",
         "license": "AGPL-V3",
@@ -70,7 +70,7 @@
         "integration_type": null
       },
       {
-        "name": "Splunk_Search_Mail_Subject",
+        "name": "Splunk Search Mail Subject",
         "version": "3.0",
         "author": "Unit777, LetMeR00t",
         "license": "AGPL-V3",
@@ -86,7 +86,7 @@
         "integration_type": null
       },
       {
-        "name": "Splunk_Search_Registry",
+        "name": "Splunk Search Registry",
         "version": "3.0",
         "author": "Unit777, LetMeR00t",
         "license": "AGPL-V3",
@@ -101,7 +101,7 @@
         "integration_type": null
       },
       {
-        "name": "Splunk_Search_Mail_Email",
+        "name": "Splunk Search Mail Email",
         "version": "3.0",
         "author": "Unit777, LetMeR00t",
         "license": "AGPL-V3",
@@ -117,7 +117,7 @@
         "integration_type": null
       },
       {
-        "name": "Splunk_Search_User_Agent",
+        "name": "Splunk Search User Agent",
         "version": "3.0",
         "author": "Unit777, LetMeR00t",
         "license": "AGPL-V3",
@@ -132,7 +132,7 @@
         "integration_type": null
       },
       {
-        "name": "Splunk_Search_IP",
+        "name": "Splunk Search IP",
         "version": "3.0",
         "author": "Unit777, LetMeR00t",
         "license": "AGPL-V3",
@@ -147,7 +147,7 @@
         "integration_type": null
       },
       {
-        "name": "Splunk_Search_Hash",
+        "name": "Splunk Search Hash",
         "version": "3.0",
         "author": "Unit777, LetMeR00t",
         "license": "AGPL-V3",
@@ -162,7 +162,7 @@
         "integration_type": null
       },
       {
-        "name": "Splunk_Search_Domain_FQDN",
+        "name": "Splunk Search Domain FQDN",
         "version": "3.0",
         "author": "Unit777, LetMeR00t",
         "license": "AGPL-V3",
@@ -178,7 +178,7 @@
         "integration_type": null
       },
       {
-        "name": "Splunk_Search_File_Filename",
+        "name": "Splunk Search File Filename",
         "version": "3.0",
         "author": "Unit777, LetMeR00t",
         "license": "AGPL-V3",
@@ -194,7 +194,7 @@
         "integration_type": null
       },
       {
-        "name": "Splunk_Search_Other",
+        "name": "Splunk Search Other",
         "version": "3.0",
         "author": "Unit777, LetMeR00t",
         "license": "AGPL-V3",

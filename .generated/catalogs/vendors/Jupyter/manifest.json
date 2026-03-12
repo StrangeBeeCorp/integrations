@@ -16,7 +16,7 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "Jupyter_Run_Notebook_Analyzer",
+        "name": "Jupyter Run Notebook Analyzer",
         "version": "1.0",
         "author": "Alexandre Demeyer",
         "license": "AGPL-V3",
@@ -47,7 +47,7 @@
     ],
     "responders": [
       {
-        "name": "Jupyter_Run_Notebook_Responder",
+        "name": "Jupyter Run Notebook Responder",
         "version": "1.0",
         "author": "Alexandre Demeyer",
         "license": "AGPL-V3",

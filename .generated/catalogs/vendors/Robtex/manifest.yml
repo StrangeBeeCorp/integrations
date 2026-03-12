@@ -14,7 +14,7 @@ displayOnWebsite: true
 visibility: 100
 integrations:
   analyzers:
-  - name: Robtex_Forward_PDNS_Query
+  - name: Robtex Forward PDNS Query
     version: '1.0'
     author: Nils Kuhnert
     license: AGPL-V3
@@ -27,7 +27,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Robtex/Robtex_Forward_PDNS_Query.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Robtex/Robtex_Forward_PDNS_Query.json
     integration_type: null
-  - name: Robtex_IP_Query
+  - name: Robtex IP Query
     version: '1.0'
     author: Nils Kuhnert
     license: AGPL-V3
@@ -39,7 +39,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Robtex/Robtex_IP_Query.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Robtex/Robtex_IP_Query.json
     integration_type: null
-  - name: Robtex_Reverse_PDNS_Query
+  - name: Robtex Reverse PDNS Query
     version: '1.0'
     author: Nils Kuhnert
     license: AGPL-V3

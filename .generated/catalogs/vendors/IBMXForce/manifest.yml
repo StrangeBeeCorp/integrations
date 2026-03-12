@@ -14,7 +14,7 @@ displayOnWebsite: true
 visibility: low
 integrations:
   analyzers:
-  - name: IBMXForce_Lookup
+  - name: IBMXForce Lookup
     version: '1.0'
     author: Davide Arcuri and Andrea Garavaglia, LDO-CERT
     license: AGPL-V3

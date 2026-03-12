@@ -33,7 +33,7 @@ free_subscription:
 - false
 integrations:
   analyzers:
-  - name: MSDefenderOffice365_SafeLinksDecoder.json
+  - name: MSDefenderOffice365 SafeLinksDecoder.json
     version: '1.0'
     author: Louis HUSSON
     license: AGPL-V3
@@ -47,7 +47,7 @@ integrations:
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSDefenderOffice365/MSDefenderOffice365_SafeLinksDecoder.json
     integration_type: null
   responders:
-  - name: MSDefenderOffice365_allow
+  - name: MSDefenderOffice365 allow
     version: '1.0'
     author: Vito Piserchia
     license: AGPL-V3
@@ -59,7 +59,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_allow.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderOffice365/MSDefenderOffice365_allow.json
     integration_type: null
-  - name: MSDefenderOffice365_block
+  - name: MSDefenderOffice365 block
     version: '1.0'
     author: Joe Lazaro
     license: AGPL-V3
@@ -71,7 +71,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_block.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderOffice365/MSDefenderOffice365_block.json
     integration_type: null
-  - name: MSDefenderOffice365_unblock
+  - name: MSDefenderOffice365 unblock
     version: '1.0'
     author: Joe Lazaro
     license: AGPL-V3
@@ -83,7 +83,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_unblock.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderOffice365/MSDefenderOffice365_unblock.json
     integration_type: null
-  - name: MSDefenderOffice365_disallow
+  - name: MSDefenderOffice365 disallow
     version: '1.0'
     author: Vito Piserchia
     license: AGPL-V3

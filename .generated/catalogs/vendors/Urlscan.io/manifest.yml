@@ -28,7 +28,7 @@ subscription_required: false
 free_subscription: true
 integrations:
   analyzers:
-  - name: Urlscan.io_Scan
+  - name: Urlscan.io Scan
     version: 0.1.0
     author: ninoseki, Kyle Parrish (@arnydo)
     license: MIT
@@ -42,7 +42,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Urlscan.io/Urlscan_Scan.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Urlscan.io/Urlscan_Scan.json
     integration_type: null
-  - name: Urlscan.io_Search
+  - name: Urlscan.io Search
     version: 0.1.1
     author: ninoseki, Kyle Parrish (@arnydo)
     license: MIT

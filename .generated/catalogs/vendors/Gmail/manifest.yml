@@ -15,7 +15,7 @@ visibility: 100
 integrations:
   analyzers: []
   responders:
-  - name: Gmail_DeleteMessage
+  - name: Gmail DeleteMessage
     version: '1.0'
     author: David Strassegger, @oscd_initiative
     license: MIT
@@ -27,7 +27,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Gmail/Gmail_DeleteMessage.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Gmail/Gmail_DeleteMessage.json
     integration_type: null
-  - name: Gmail_BlockDomain
+  - name: Gmail BlockDomain
     version: '1.0'
     author: David Strassegger, @oscd_initiative
     license: MIT
@@ -39,7 +39,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Gmail/Gmail_BlockDomain.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Gmail/Gmail_BlockDomain.json
     integration_type: null
-  - name: Gmail_BlockSender
+  - name: Gmail BlockSender
     version: '1.0'
     author: David Strassegger, @oscd_initiative
     license: MIT
@@ -51,7 +51,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Gmail/Gmail_BlockSender.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Gmail/Gmail_BlockSender.json
     integration_type: null
-  - name: Gmail_UnblockDomain
+  - name: Gmail UnblockDomain
     version: '1.0'
     author: David Strassegger, @oscd_initiative
     license: MIT
@@ -63,7 +63,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Gmail/Gmail_UnblockDomain.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Gmail/Gmail_UnblockDomain.json
     integration_type: null
-  - name: Gmail_UnblockSender
+  - name: Gmail UnblockSender
     version: '1.0'
     author: David Strassegger, @oscd_initiative
     license: MIT

@@ -16,7 +16,7 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "DomainToolsIris_Pivot",
+        "name": "DomainToolsIris Pivot",
         "version": "1.0",
         "author": "DomainTools",
         "license": "AGPL-V3",
@@ -33,7 +33,7 @@
         "integration_type": null
       },
       {
-        "name": "DomainToolsIris_Investigate",
+        "name": "DomainToolsIris Investigate",
         "version": "1.0",
         "author": "DomainTools",
         "license": "AGPL-V3",
@@ -50,7 +50,7 @@
     ],
     "responders": [
       {
-        "name": "DomainToolsIris_CheckMaliciousTags",
+        "name": "DomainToolsIris CheckMaliciousTags",
         "version": "1.0",
         "author": "DomainTools",
         "license": "AGPL-V3",
@@ -65,7 +65,7 @@
         "integration_type": null
       },
       {
-        "name": "DomainToolsIris_AddRiskyDNSTag",
+        "name": "DomainToolsIris AddRiskyDNSTag",
         "version": "1.0",
         "author": "DomainTools",
         "license": "AGPL-V3",

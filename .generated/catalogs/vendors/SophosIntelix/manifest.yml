@@ -14,7 +14,7 @@ displayOnWebsite: true
 visibility: 100
 integrations:
   analyzers:
-  - name: SophosIntelix_Submit_Static
+  - name: SophosIntelix Submit Static
     version: '0.1'
     author: SOL
     license: AGPL-V3
@@ -28,7 +28,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_Submit_Static.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SophosIntelix/SophosIntelix_Submit_Static.json
     integration_type: null
-  - name: SophosIntelix_Submit_Dynamic
+  - name: SophosIntelix Submit Dynamic
     version: '0.1'
     author: SOL
     license: AGPL-V3
@@ -41,7 +41,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_Submit_Dynamic.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SophosIntelix/SophosIntelix_Submit_Dynamic.json
     integration_type: null
-  - name: SophosIntelix_GetReport
+  - name: SophosIntelix GetReport
     version: '0.3'
     author: SOL
     license: AGPL-V3

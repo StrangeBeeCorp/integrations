@@ -14,7 +14,7 @@
     "analyzers": [],
     "responders": [
       {
-        "name": "CheckPoint_Unlock",
+        "name": "CheckPoint Unlock",
         "version": "1.0",
         "author": "@dadokkio LDO-CERT",
         "license": "AGPL-V3",
@@ -29,7 +29,7 @@
         "integration_type": null
       },
       {
-        "name": "CheckPoint_Lock",
+        "name": "CheckPoint Lock",
         "version": "1.0",
         "author": "@dadokkio LDO-CERT",
         "license": "AGPL-V3",

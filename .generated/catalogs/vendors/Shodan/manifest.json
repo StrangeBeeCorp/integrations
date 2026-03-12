@@ -27,7 +27,7 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "Shodan_Host",
+        "name": "Shodan Host",
         "version": "1.0",
         "author": "Sebastien Larinier @Sebdraven",
         "license": "AGPL-V3",
@@ -42,7 +42,7 @@
         "integration_type": null
       },
       {
-        "name": "Shodan_Search",
+        "name": "Shodan Search",
         "version": "2.0",
         "author": "Sebastien Larinier @Sebdraven",
         "license": "AGPL-V3",
@@ -57,7 +57,7 @@
         "integration_type": null
       },
       {
-        "name": "Shodan_InfoDomain",
+        "name": "Shodan InfoDomain",
         "version": "1.0",
         "author": "ANSSI",
         "license": "AGPL-V3",
@@ -73,7 +73,7 @@
         "integration_type": null
       },
       {
-        "name": "Shodan_DNSResolve",
+        "name": "Shodan DNSResolve",
         "version": "1.0",
         "author": "ANSSI",
         "license": "AGPL-V3",
@@ -89,7 +89,7 @@
         "integration_type": null
       },
       {
-        "name": "Shodan_ReverseDNS",
+        "name": "Shodan ReverseDNS",
         "version": "1.0",
         "author": "ANSSI",
         "license": "AGPL-V3",
@@ -104,7 +104,7 @@
         "integration_type": null
       },
       {
-        "name": "Shodan_Host_History",
+        "name": "Shodan Host History",
         "version": "1.0",
         "author": "ANSSI",
         "license": "AGPL-V3",

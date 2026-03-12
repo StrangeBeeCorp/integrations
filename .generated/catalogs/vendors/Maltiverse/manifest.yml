@@ -26,7 +26,7 @@ subscription_required: false
 free_subscription: false
 integrations:
   analyzers:
-  - name: Maltiverse_Report
+  - name: Maltiverse Report
     version: '1.0'
     author: ottimo
     license: AGPL-V3

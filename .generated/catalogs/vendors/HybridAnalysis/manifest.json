@@ -23,7 +23,7 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "HybridAnalysis_GetReport",
+        "name": "HybridAnalysis GetReport",
         "version": "1.0",
         "author": "Daniil Yugoslavskiy, Tieto",
         "license": "AGPL-V3",

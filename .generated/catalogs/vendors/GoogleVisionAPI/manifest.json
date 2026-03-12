@@ -13,7 +13,7 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "GoogleVisionAPI_WebDetection",
+        "name": "GoogleVisionAPI WebDetection",
         "version": "1.0.0",
         "author": "CERT-LaPoste",
         "license": "AGPL-V3",

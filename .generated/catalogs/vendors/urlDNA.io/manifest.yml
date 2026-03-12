@@ -17,7 +17,7 @@ subscription_required: false
 free_subscription: true
 integrations:
   analyzers:
-  - name: UrlDNA_New_Scan
+  - name: UrlDNA New Scan
     version: 0.1.0
     author: urlDNA.io (@urldna); Fabien Bloume, StrangeBee
     license: MIT
@@ -29,7 +29,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/urlDNA.io/UrlDNA_New_Scan.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/urlDNA.io/UrlDNA_New_Scan.json
     integration_type: null
-  - name: UrlDNA_Search
+  - name: UrlDNA Search
     version: 0.1.0
     author: urlDNA.io (@urldna); Fabien Bloume, StrangeBee
     license: MIT

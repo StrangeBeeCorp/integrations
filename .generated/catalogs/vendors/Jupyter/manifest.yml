@@ -17,7 +17,7 @@ subscription_required: false
 free_subscription: true
 integrations:
   analyzers:
-  - name: Jupyter_Run_Notebook_Analyzer
+  - name: Jupyter Run Notebook Analyzer
     version: '1.0'
     author: Alexandre Demeyer
     license: AGPL-V3
@@ -44,7 +44,7 @@ integrations:
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Jupyter/Jupyter_Run_Notebook_Analyzer.json
     integration_type: null
   responders:
-  - name: Jupyter_Run_Notebook_Responder
+  - name: Jupyter Run Notebook Responder
     version: '1.0'
     author: Alexandre Demeyer
     license: AGPL-V3

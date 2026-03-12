@@ -17,7 +17,7 @@ subscription_required: false
 free_subscription: true
 integrations:
   analyzers:
-  - name: Hashdd_Status
+  - name: Hashdd Status
     version: '2.0'
     author: iosonogio, dadokkio
     license: AGPLv3
@@ -29,7 +29,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Hashdd/Hashdd_Status.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Hashdd/Hashdd_Status.json
     integration_type: null
-  - name: Hashdd_Detail
+  - name: Hashdd Detail
     version: '2.0'
     author: iosonogio, dadokkio
     license: AGPLv3

@@ -23,7 +23,7 @@ displayOnWebsite: true
 visibility: low
 integrations:
   analyzers:
-  - name: Mnemonic_pDNS_Public
+  - name: Mnemonic pDNS Public
     version: '3.0'
     author: Michael Stensrud, Nordic Financial CERT
     license: AGPL-V3
@@ -36,7 +36,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Public.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MnemonicPDNS/Mnemonic_pDNS_Public.json
     integration_type: null
-  - name: Mnemonic_pDNS_Closed
+  - name: Mnemonic pDNS Closed
     version: '3.0'
     author: Michael Stensrud, Nordic Financial CERT
     license: AGPL-V3

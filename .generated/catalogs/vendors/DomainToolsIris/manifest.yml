@@ -17,7 +17,7 @@ subscription_required: true
 free_subscription: false
 integrations:
   analyzers:
-  - name: DomainToolsIris_Pivot
+  - name: DomainToolsIris Pivot
     version: '1.0'
     author: DomainTools
     license: AGPL-V3
@@ -31,7 +31,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Pivot.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainToolsIris/DomainToolsIris_Pivot.json
     integration_type: null
-  - name: DomainToolsIris_Investigate
+  - name: DomainToolsIris Investigate
     version: '1.0'
     author: DomainTools
     license: AGPL-V3
@@ -44,7 +44,7 @@ integrations:
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainToolsIris/DomainToolsIris_Investigate.json
     integration_type: null
   responders:
-  - name: DomainToolsIris_CheckMaliciousTags
+  - name: DomainToolsIris CheckMaliciousTags
     version: '1.0'
     author: DomainTools
     license: AGPL-V3
@@ -56,7 +56,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/DomainToolsIris/DomainToolsIris_CheckMaliciousTags.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/DomainToolsIris/DomainToolsIris_CheckMaliciousTags.json
     integration_type: null
-  - name: DomainToolsIris_AddRiskyDNSTag
+  - name: DomainToolsIris AddRiskyDNSTag
     version: '1.0'
     author: DomainTools
     license: AGPL-V3

@@ -27,7 +27,7 @@ subscription_required: false
 free_subscription: true
 integrations:
   analyzers:
-  - name: Shodan_Host
+  - name: Shodan Host
     version: '1.0'
     author: Sebastien Larinier @Sebdraven
     license: AGPL-V3
@@ -39,7 +39,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Shodan/Shodan_Host.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Shodan/Shodan_Host.json
     integration_type: null
-  - name: Shodan_Search
+  - name: Shodan Search
     version: '2.0'
     author: Sebastien Larinier @Sebdraven
     license: AGPL-V3
@@ -51,7 +51,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Shodan/Shodan_Search.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Shodan/Shodan_Search.json
     integration_type: null
-  - name: Shodan_InfoDomain
+  - name: Shodan InfoDomain
     version: '1.0'
     author: ANSSI
     license: AGPL-V3
@@ -64,7 +64,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Shodan/Shodan_InfoDomain.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Shodan/Shodan_InfoDomain.json
     integration_type: null
-  - name: Shodan_DNSResolve
+  - name: Shodan DNSResolve
     version: '1.0'
     author: ANSSI
     license: AGPL-V3
@@ -77,7 +77,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Shodan/Shodan_DNSResolve.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Shodan/Shodan_DNSResolve.json
     integration_type: null
-  - name: Shodan_ReverseDNS
+  - name: Shodan ReverseDNS
     version: '1.0'
     author: ANSSI
     license: AGPL-V3
@@ -89,7 +89,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Shodan/Shodan_ReverseDNS.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Shodan/Shodan_ReverseDNS.json
     integration_type: null
-  - name: Shodan_Host_History
+  - name: Shodan Host History
     version: '1.0'
     author: ANSSI
     license: AGPL-V3

@@ -13,7 +13,7 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "StamusNetworks_HostID",
+        "name": "StamusNetworks HostID",
         "version": "1.0",
         "author": "Stamus Networks",
         "license": "AGPL-V3",

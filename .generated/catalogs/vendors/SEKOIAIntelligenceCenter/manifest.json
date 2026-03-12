@@ -16,7 +16,7 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "SEKOIAIntelligenceCenter_Indicators",
+        "name": "SEKOIAIntelligenceCenter Indicators",
         "version": "1.0",
         "author": "SEKOIA",
         "license": "AGPL-V3",
@@ -35,7 +35,7 @@
         "integration_type": null
       },
       {
-        "name": "SEKOIAIntelligenceCenter_Observables",
+        "name": "SEKOIAIntelligenceCenter Observables",
         "version": "1.0",
         "author": "SEKOIA",
         "license": "AGPL-V3",
@@ -54,7 +54,7 @@
         "integration_type": null
       },
       {
-        "name": "SEKOIAIntelligenceCenter_Context",
+        "name": "SEKOIAIntelligenceCenter Context",
         "version": "1.0",
         "author": "SEKOIA",
         "license": "AGPL-V3",

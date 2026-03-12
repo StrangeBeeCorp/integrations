@@ -21,7 +21,7 @@
     "analyzers": [],
     "responders": [
       {
-        "name": "Cloudflare_IP_Blocker",
+        "name": "Cloudflare IP Blocker",
         "version": "1.0",
         "author": "Nick Babkin @nickbabkin",
         "license": "AGPL-V3",

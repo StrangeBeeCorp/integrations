@@ -13,7 +13,7 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "Pulsedive_GetIndicator",
+        "name": "Pulsedive GetIndicator",
         "version": "1.0",
         "author": "Nils Kuhnert",
         "license": "AGPL-V3",

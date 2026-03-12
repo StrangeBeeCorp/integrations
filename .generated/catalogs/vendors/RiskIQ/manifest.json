@@ -13,7 +13,7 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "RiskIQ_Cookies",
+        "name": "RiskIQ Cookies",
         "version": "1.0",
         "author": "RiskIQ",
         "license": "AGPL-V3",
@@ -30,7 +30,7 @@
         "integration_type": null
       },
       {
-        "name": "RiskIQ_Whois",
+        "name": "RiskIQ Whois",
         "version": "1.0",
         "author": "RiskIQ",
         "license": "AGPL-V3",
@@ -47,7 +47,7 @@
         "integration_type": null
       },
       {
-        "name": "RiskIQ_Components",
+        "name": "RiskIQ Components",
         "version": "1.0",
         "author": "RiskIQ",
         "license": "AGPL-V3",
@@ -64,7 +64,7 @@
         "integration_type": null
       },
       {
-        "name": "RiskIQ_Malware",
+        "name": "RiskIQ Malware",
         "version": "1.0",
         "author": "RiskIQ",
         "license": "AGPL-V3",
@@ -81,7 +81,7 @@
         "integration_type": null
       },
       {
-        "name": "RiskIQ_Reputation",
+        "name": "RiskIQ Reputation",
         "version": "1.0",
         "author": "RiskIQ",
         "license": "AGPL-V3",
@@ -98,7 +98,7 @@
         "integration_type": null
       },
       {
-        "name": "RiskIQ_Trackers",
+        "name": "RiskIQ Trackers",
         "version": "1.0",
         "author": "RiskIQ",
         "license": "AGPL-V3",
@@ -115,7 +115,7 @@
         "integration_type": null
       },
       {
-        "name": "RiskIQ_Subdomains",
+        "name": "RiskIQ Subdomains",
         "version": "1.0",
         "author": "RiskIQ",
         "license": "AGPL-V3",
@@ -131,7 +131,7 @@
         "integration_type": null
       },
       {
-        "name": "RiskIQ_Artifacts",
+        "name": "RiskIQ Artifacts",
         "version": "1.0",
         "author": "RiskIQ",
         "license": "AGPL-V3",
@@ -148,7 +148,7 @@
         "integration_type": null
       },
       {
-        "name": "RiskIQ_Projects",
+        "name": "RiskIQ Projects",
         "version": "1.0",
         "author": "RiskIQ",
         "license": "AGPL-V3",
@@ -165,7 +165,7 @@
         "integration_type": null
       },
       {
-        "name": "RiskIQ_HostpairParents",
+        "name": "RiskIQ HostpairParents",
         "version": "1.0",
         "author": "RiskIQ",
         "license": "AGPL-V3",
@@ -182,7 +182,7 @@
         "integration_type": null
       },
       {
-        "name": "RiskIQ_HostpairChildren",
+        "name": "RiskIQ HostpairChildren",
         "version": "1.0",
         "author": "RiskIQ",
         "license": "AGPL-V3",
@@ -199,7 +199,7 @@
         "integration_type": null
       },
       {
-        "name": "RiskIQ_Summary",
+        "name": "RiskIQ Summary",
         "version": "1.0",
         "author": "RiskIQ",
         "license": "AGPL-V3",
@@ -216,7 +216,7 @@
         "integration_type": null
       },
       {
-        "name": "RiskIQ_Resolutions",
+        "name": "RiskIQ Resolutions",
         "version": "1.0",
         "author": "RiskIQ",
         "license": "AGPL-V3",
@@ -233,7 +233,7 @@
         "integration_type": null
       },
       {
-        "name": "RiskIQ_Services",
+        "name": "RiskIQ Services",
         "version": "1.0",
         "author": "RiskIQ",
         "license": "AGPL-V3",
@@ -248,7 +248,7 @@
         "integration_type": null
       },
       {
-        "name": "RiskIQ_Articles",
+        "name": "RiskIQ Articles",
         "version": "1.0",
         "author": "RiskIQ",
         "license": "AGPL-V3",
@@ -265,7 +265,7 @@
         "integration_type": null
       },
       {
-        "name": "RiskIQ_Certificates",
+        "name": "RiskIQ Certificates",
         "version": "1.0",
         "author": "RiskIQ",
         "license": "AGPL-V3",
@@ -284,7 +284,7 @@
     ],
     "responders": [
       {
-        "name": "RiskIQ_PushArtifactToProject",
+        "name": "RiskIQ PushArtifactToProject",
         "version": "1.0",
         "author": "RiskIQ",
         "license": "AGPL-V3",

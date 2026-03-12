@@ -56,7 +56,7 @@ Get USN logs artifact
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case`
 
-### [HarfangLab_SearchDriverByFileName v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab/HarfangLab_SearchDriverByFileName.json)
+### [HarfangLab SearchDriverByFileName v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab/HarfangLab_SearchDriverByFileName.json)
 Search a driver load in HarfangLab EDR's telemetry per filename
 
 - **Author:** HarfangLab Product Team
@@ -70,7 +70,7 @@ Get processes running on a host
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case`
 
-### [HarfangLab_SearchDriverByHash v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab/HarfangLab_SearchDriverByHash.json)
+### [HarfangLab SearchDriverByHash v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab/HarfangLab_SearchDriverByHash.json)
 Search a driver load in HarfangLab EDR's telemetry per hash
 
 - **Author:** HarfangLab Product Team

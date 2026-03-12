@@ -17,7 +17,7 @@ subscription_required: true
 free_subscription: true
 integrations:
   analyzers:
-  - name: isMalicious_GetReport
+  - name: isMalicious GetReport
     version: '1.0'
     author: isMalicious
     license: AGPL-v3

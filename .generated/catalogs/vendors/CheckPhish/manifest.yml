@@ -14,7 +14,7 @@ displayOnWebsite: true
 visibility: 100
 integrations:
   analyzers:
-  - name: CheckPhish_Submit
+  - name: CheckPhish Submit
     version: '1.0'
     author: Peter Juhas
     license: AGPL-V3

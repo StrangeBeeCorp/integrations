@@ -15,7 +15,7 @@ visibility: 100
 integrations:
   analyzers: []
   responders:
-  - name: ZEROFOX_Takedown_request
+  - name: ZEROFOX Takedown request
     version: '1.0'
     author: TheHive-Project
     license: AGPL-V3
@@ -27,7 +27,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/ZEROFOX/ZEROFOX_Takedown_request.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/ZEROFOX/ZEROFOX_Takedown_request.json
     integration_type: null
-  - name: ZEROFOX_Close_alert
+  - name: ZEROFOX Close alert
     version: '1.0'
     author: TheHive-Project
     license: AGPL-V3

@@ -17,7 +17,7 @@ subscription_required: false
 free_subscription: true
 integrations:
   analyzers:
-  - name: JA4_FoxIO
+  - name: JA4 FoxIO
     version: '1.0'
     author: Florian Perret @cyber_pescadito
     license: AGPL-V3

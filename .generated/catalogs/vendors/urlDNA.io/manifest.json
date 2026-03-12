@@ -16,7 +16,7 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "UrlDNA_New_Scan",
+        "name": "UrlDNA New Scan",
         "version": "0.1.0",
         "author": "urlDNA.io (@urldna); Fabien Bloume, StrangeBee",
         "license": "MIT",
@@ -31,7 +31,7 @@
         "integration_type": null
       },
       {
-        "name": "UrlDNA_Search",
+        "name": "UrlDNA Search",
         "version": "0.1.0",
         "author": "urlDNA.io (@urldna); Fabien Bloume, StrangeBee",
         "license": "MIT",

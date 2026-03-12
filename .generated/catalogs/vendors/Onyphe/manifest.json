@@ -26,7 +26,7 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "ONYPHE_Search",
+        "name": "ONYPHE Search",
         "version": "1.1",
         "author": "Pierre Baudry, Adrien Barchapt, Andrea Garavaglia, Davide Arcuri, James Atack",
         "license": "AGPL-V3",
@@ -44,7 +44,7 @@
         "integration_type": null
       },
       {
-        "name": "ONYPHE_Vulnscan",
+        "name": "ONYPHE Vulnscan",
         "version": "1.1",
         "author": "Pierre Baudry, Adrien Barchapt, Andrea Garavaglia, Davide Arcuri, James Atack",
         "license": "AGPL-V3",
@@ -62,7 +62,7 @@
         "integration_type": null
       },
       {
-        "name": "ONYPHE_ASM",
+        "name": "ONYPHE ASM",
         "version": "1.1",
         "author": "Pierre Baudry, Adrien Barchapt, Andrea Garavaglia, Davide Arcuri, James Atack",
         "license": "AGPL-V3",
@@ -80,7 +80,7 @@
         "integration_type": null
       },
       {
-        "name": "ONYPHE_Ctiscan",
+        "name": "ONYPHE Ctiscan",
         "version": "1.0",
         "author": "James Atack",
         "license": "AGPL-V3",
@@ -100,7 +100,7 @@
         "integration_type": null
       },
       {
-        "name": "ONYPHE_Summary_API",
+        "name": "ONYPHE Summary API",
         "version": "1.2",
         "author": "Pierre Baudry, Adrien Barchapt, Andrea Garavaglia, Davide Arcuri, James Atack",
         "license": "AGPL-V3",

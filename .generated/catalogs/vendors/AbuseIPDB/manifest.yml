@@ -40,7 +40,7 @@ integrations:
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AbuseIPDB/AbuseIPDB.json
     integration_type: external_api
   responders:
-  - name: AbuseIPDB_Report
+  - name: AbuseIPDB Report
     version: '1.0'
     author: Fabien Bloume, StrangeBee
     license: AGPL-V3

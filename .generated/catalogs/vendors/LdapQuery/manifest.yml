@@ -14,7 +14,7 @@ displayOnWebsite: true
 visibility: 100
 integrations:
   analyzers:
-  - name: Ldap_Query
+  - name: Ldap Query
     version: '3.0'
     author: Florian Perret @cyber_pescadito & THA-CERT @tha_cert
     license: AGPL-V3

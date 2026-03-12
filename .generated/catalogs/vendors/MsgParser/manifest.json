@@ -13,7 +13,7 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "Msg_Parser",
+        "name": "Msg Parser",
         "version": "3.0",
         "author": "CERT-BDF",
         "license": "AGPL-V3",

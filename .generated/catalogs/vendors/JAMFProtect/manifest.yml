@@ -18,7 +18,7 @@ free_subscription: false
 integrations:
   analyzers: []
   responders:
-  - name: JAMFProtect_addHashtoPreventList
+  - name: JAMFProtect addHashtoPreventList
     version: '1.0'
     author: Fabien Bloume, StrangeBee
     license: AGPL-V3
@@ -30,7 +30,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/JAMFProtect/JAMFProtect_addHashtoPreventList.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/JAMFProtect/JAMFProtect_addHashtoPreventList.json
     integration_type: null
-  - name: JAMFProtect_removeHashfromPreventList
+  - name: JAMFProtect removeHashfromPreventList
     version: '1.0'
     author: Fabien Bloume, StrangeBee
     license: AGPL-V3

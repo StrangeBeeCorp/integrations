@@ -14,7 +14,7 @@ displayOnWebsite: true
 visibility: 100
 integrations:
   analyzers:
-  - name: PassiveTotal_Malware
+  - name: PassiveTotal Malware
     version: '2.0'
     author: CERT-BDF
     license: AGPL-V3
@@ -28,7 +28,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Malware.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PassiveTotal/PassiveTotal_Malware.json
     integration_type: null
-  - name: PassiveTotal_Ssl_Certificate_Details
+  - name: PassiveTotal Ssl Certificate Details
     version: '2.0'
     author: CERT-BDF
     license: AGPL-V3
@@ -41,7 +41,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Ssl_Certificate_Details.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PassiveTotal/PassiveTotal_Ssl_Certificate_Details.json
     integration_type: null
-  - name: PassiveTotal_Enrichment
+  - name: PassiveTotal Enrichment
     version: '2.0'
     author: CERT-BDF
     license: AGPL-V3
@@ -55,7 +55,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Enrichment.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PassiveTotal/PassiveTotal_Enrichment.json
     integration_type: null
-  - name: PassiveTotal_Whois_Details
+  - name: PassiveTotal Whois Details
     version: '2.0'
     author: CERT-BDF
     license: AGPL-V3
@@ -69,7 +69,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Whois_Details.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PassiveTotal/PassiveTotal_Whois_Details.json
     integration_type: null
-  - name: PassiveTotal_Passive_Dns
+  - name: PassiveTotal Passive Dns
     version: '2.1'
     author: CERT-BDF
     license: AGPL-V3
@@ -83,7 +83,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Passive_Dns.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PassiveTotal/PassiveTotal_Passive_Dns.json
     integration_type: null
-  - name: PassiveTotal_Components
+  - name: PassiveTotal Components
     version: '2.0'
     author: Brandon Dixon (9bplus)
     license: AGPL-V3
@@ -97,7 +97,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Components.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PassiveTotal/PassiveTotal_Components.json
     integration_type: null
-  - name: PassiveTotal_Unique_Resolutions
+  - name: PassiveTotal Unique Resolutions
     version: '2.0'
     author: CERT-BDF
     license: AGPL-V3
@@ -111,7 +111,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Unique_Resolutions.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PassiveTotal/PassiveTotal_Unique_Resolutions.json
     integration_type: null
-  - name: PassiveTotal_Ssl_Certificate_History
+  - name: PassiveTotal Ssl Certificate History
     version: '2.0'
     author: CERT-BDF
     license: AGPL-V3
@@ -124,7 +124,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Ssl_Certificate_History.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PassiveTotal/PassiveTotal_Ssl_Certificate_History.json
     integration_type: null
-  - name: PassiveTotal_Osint
+  - name: PassiveTotal Osint
     version: '2.0'
     author: CERT-BDF
     license: AGPL-V3
@@ -138,7 +138,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Osint.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PassiveTotal/PassiveTotal_Osint.json
     integration_type: null
-  - name: PassiveTotal_Trackers
+  - name: PassiveTotal Trackers
     version: '2.0'
     author: Brandon Dixon (9bplus)
     license: AGPL-V3
@@ -152,7 +152,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Trackers.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PassiveTotal/PassiveTotal_Trackers.json
     integration_type: null
-  - name: PassiveTotal_Host_Pairs
+  - name: PassiveTotal Host Pairs
     version: '2.0'
     author: Brandon Dixon (9bplus)
     license: AGPL-V3

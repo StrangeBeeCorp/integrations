@@ -17,7 +17,7 @@ subscription_required: true
 free_subscription: false
 integrations:
   analyzers:
-  - name: SentinelOne_DNSReverseLookup
+  - name: SentinelOne DNSReverseLookup
     version: '1.0'
     author: Fabien Bloume, StrangeBee
     license: AGPL-V3
@@ -30,7 +30,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/SentinelOne/SentinelOne_DNSReverseLookup.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SentinelOne/SentinelOne_DNSReverseLookup.json
     integration_type: null
-  - name: SentinelOne_DeepVisibility_DNSQuery
+  - name: SentinelOne DeepVisibility DNSQuery
     version: '1.0'
     author: Joe Vasquez
     license: AGPL-V3
@@ -44,7 +44,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/SentinelOne/SentinelOne_DeepVisibility_DNSQuery.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SentinelOne/SentinelOne_DeepVisibility_DNSQuery.json
     integration_type: null
-  - name: SentinelOne_DNSQuery
+  - name: SentinelOne DNSQuery
     version: '2.0'
     author: Joe Vasquez; Fabien Bloume, StrangeBee
     license: AGPL-V3
@@ -60,7 +60,7 @@ integrations:
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SentinelOne/SentinelOne_DNSQuery.json
     integration_type: null
   responders:
-  - name: SentinelOne_Hash_Blacklister
+  - name: SentinelOne Hash Blacklister
     version: '1.0'
     author: Joe Vasquez
     license: AGPL-V3

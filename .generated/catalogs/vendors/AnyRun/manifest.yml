@@ -17,7 +17,7 @@ subscription_required: true
 free_subscription: false
 integrations:
   analyzers:
-  - name: AnyRun_Sandbox_Analysis
+  - name: AnyRun Sandbox Analysis
     version: '1.1'
     author: Andrea Garavaglia, Davide Arcuri, LDO-CERT; Nate Olsen, WSECU
     license: AGPL-V3

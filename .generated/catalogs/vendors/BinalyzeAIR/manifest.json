@@ -17,7 +17,7 @@
     "analyzers": [],
     "responders": [
       {
-        "name": "Binalyze_AIR_Acquisition",
+        "name": "Binalyze AIR Acquisition",
         "version": "1.0",
         "author": "Binalyze Integration Team",
         "license": "AGPL-V3",
@@ -32,7 +32,7 @@
         "integration_type": null
       },
       {
-        "name": "Binalyze_AIR_Isolation",
+        "name": "Binalyze AIR Isolation",
         "version": "1.0",
         "author": "Binalyze Integration Team",
         "license": "AGPL-V3",

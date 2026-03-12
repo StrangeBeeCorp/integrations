@@ -16,7 +16,7 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "DevTools_Echo_Analyzer",
+        "name": "DevTools Echo Analyzer",
         "version": "1.0",
         "author": "Fabien Bloume, StrangeBee",
         "license": "AGPL-V3",

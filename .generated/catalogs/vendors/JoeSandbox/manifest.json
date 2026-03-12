@@ -15,7 +15,7 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "JoeSandbox_Url_Analysis",
+        "name": "JoeSandbox Url Analysis",
         "version": "2.0",
         "author": "CERT-BDF",
         "license": "AGPL-V3",
@@ -30,7 +30,7 @@
         "integration_type": null
       },
       {
-        "name": "JoeSandbox_File_Analysis_Inet",
+        "name": "JoeSandbox File Analysis Inet",
         "version": "3.0",
         "author": "CERT-BDF",
         "license": "AGPL-V3",
@@ -45,7 +45,7 @@
         "integration_type": null
       },
       {
-        "name": "JoeSandbox_File_Analysis_Noinet",
+        "name": "JoeSandbox File Analysis Noinet",
         "version": "3.0",
         "author": "CERT-BDF",
         "license": "AGPL-V3",

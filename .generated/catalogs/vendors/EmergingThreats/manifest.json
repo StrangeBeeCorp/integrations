@@ -16,7 +16,7 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "EmergingThreats_MalwareInfo",
+        "name": "EmergingThreats MalwareInfo",
         "version": "1.0",
         "author": "Davide Arcuri and Andrea Garavaglia, LDO-CERT",
         "license": "AGPL-V3",
@@ -32,7 +32,7 @@
         "integration_type": null
       },
       {
-        "name": "EmergingThreats_DomainInfo",
+        "name": "EmergingThreats DomainInfo",
         "version": "1.0",
         "author": "Davide Arcuri and Andrea Garavaglia, LDO-CERT",
         "license": "AGPL-V3",
@@ -48,7 +48,7 @@
         "integration_type": null
       },
       {
-        "name": "EmergingThreats_IPInfo",
+        "name": "EmergingThreats IPInfo",
         "version": "1.0",
         "author": "Davide Arcuri and Andrea Garavaglia, LDO-CERT",
         "license": "AGPL-V3",

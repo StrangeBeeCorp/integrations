@@ -1,6 +1,6 @@
 ## Analyzers (2)
 
-### [ZscalerZIA_URLLookup v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Zscaler/ZscalerZIA_URLLookup.json)
+### [ZscalerZIA URLLookup v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Zscaler/ZscalerZIA_URLLookup.json)
 Query Zscaler Internet Access for URL categorization and security classification. Supports OneAPI OAuth2 and legacy authentication.
 
 - **Author:** Fabien Bloume, StrangeBee

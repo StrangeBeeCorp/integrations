@@ -1,6 +1,6 @@
 ## Analyzers (1)
 
-### [Jupyter_Run_Notebook_Analyzer v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Jupyter/Jupyter_Run_Notebook_Analyzer.json)
+### [Jupyter Run Notebook Analyzer v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Jupyter/Jupyter_Run_Notebook_Analyzer.json)
 Execute a parameterized notebook in Jupyter
 
 - **Author:** Alexandre Demeyer
@@ -11,7 +11,7 @@ Execute a parameterized notebook in Jupyter
 
 ## Responders (1)
 
-### [Jupyter_Run_Notebook_Responder v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Jupyter/Jupyter_Run_Notebook_Responder.json)
+### [Jupyter Run Notebook Responder v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Jupyter/Jupyter_Run_Notebook_Responder.json)
 Execute a parameterized notebook in Jupyter
 
 - **Author:** Alexandre Demeyer

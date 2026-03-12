@@ -32,7 +32,7 @@ integrations:
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PaloAltoWildFire/PaloAltoWildFire.json
     integration_type: null
   responders:
-  - name: PaloAltoWildFire_URL_submission
+  - name: PaloAltoWildFire URL submission
     version: '1.0'
     author: Keijo Korte - @korteke
     license: AGPL-V3

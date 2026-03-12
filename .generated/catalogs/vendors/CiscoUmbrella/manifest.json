@@ -16,7 +16,7 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "CiscoUmbrella_Report",
+        "name": "CiscoUmbrella Report",
         "version": "1.0",
         "author": "Kyle Parrish",
         "license": "AGPL-V3",
@@ -34,7 +34,7 @@
     ],
     "responders": [
       {
-        "name": "CiscoUmbrella_Blacklister",
+        "name": "CiscoUmbrella Blacklister",
         "version": "1.1",
         "author": "Kyle Parrish",
         "license": "AGPL-V3",

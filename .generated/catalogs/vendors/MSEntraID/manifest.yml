@@ -29,7 +29,7 @@ subscription_required: true
 free_subscription: false
 integrations:
   analyzers:
-  - name: MSEntraID_GetDirectoryAuditLogs
+  - name: MSEntraID GetDirectoryAuditLogs
     version: '1.0'
     author: Fabien Bloume, StrangeBee
     license: AGPL-V3
@@ -41,7 +41,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetDirectoryAuditLogs.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSEntraID/MSEntraID_GetDirectoryAuditLogs.json
     integration_type: null
-  - name: MSEntraID_GetSignIns
+  - name: MSEntraID GetSignIns
     version: '1.0'
     author: '@jahamilto'
     license: AGPL-V3
@@ -53,7 +53,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetSignIns.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSEntraID/MSEntraID_GetSignIns.json
     integration_type: null
-  - name: MSEntraID_GetUserInfo
+  - name: MSEntraID GetUserInfo
     version: '1.0'
     author: Fabien Bloume, StrangeBee
     license: AGPL-V3
@@ -68,7 +68,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetUserInfo.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSEntraID/MSEntraID_GetUserInfo.json
     integration_type: null
-  - name: MSEntraID_GetManagedDevicesInfo
+  - name: MSEntraID GetManagedDevicesInfo
     version: '1.0'
     author: Fabien Bloume, StrangeBee
     license: AGPL-V3
@@ -82,7 +82,7 @@ integrations:
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSEntraID/MSEntraID_GetManagedDevicesInfo.json
     integration_type: null
   responders:
-  - name: MSEntraID_enableUser
+  - name: MSEntraID enableUser
     version: '1.0'
     author: nusatanra-self, StrangeBee
     license: AGPL-V3
@@ -94,7 +94,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSEntraID/MSEntraID_enableUser.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSEntraID/MSEntraID_enableUser.json
     integration_type: null
-  - name: MSEntraID_disableUser
+  - name: MSEntraID disableUser
     version: '1.0'
     author: nusatanra-self, StrangeBee
     license: AGPL-V3
@@ -106,7 +106,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSEntraID/MSEntraID_disableUser.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSEntraID/MSEntraID_disableUser.json
     integration_type: null
-  - name: MSEntraID_ForcePasswordReset
+  - name: MSEntraID ForcePasswordReset
     version: '1.0'
     author: nusatanra-self, StrangeBee
     license: AGPL-V3
@@ -118,7 +118,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordReset.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSEntraID/MSEntraID_ForcePasswordReset.json
     integration_type: null
-  - name: MSEntraID_revokeSignInSessions
+  - name: MSEntraID revokeSignInSessions
     version: '1.1'
     author: Daniel Weiner @dmweiner; revised by @jahamilto; Fabien Bloume, StrangeBee
     license: AGPL-V3
@@ -131,7 +131,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSEntraID/MSEntraID_revokeSignInSessions.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSEntraID/MSEntraID_revokeSignInSessions.json
     integration_type: null
-  - name: MSEntraID_ForcePasswordResetWithMFA
+  - name: MSEntraID ForcePasswordResetWithMFA
     version: '1.0'
     author: nusatanra-self, StrangeBee
     license: AGPL-V3

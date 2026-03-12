@@ -19,7 +19,7 @@ free_subscription:
 - false
 integrations:
   analyzers:
-  - name: PhishingInitiative_Scan
+  - name: PhishingInitiative Scan
     version: '1.0'
     author: Remi Pointel
     license: AGPL-V3
@@ -31,7 +31,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/PhishingInitiative/PhishingInitiative_Scan.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PhishingInitiative/PhishingInitiative_Scan.json
     integration_type: null
-  - name: PhishingInitiative_Lookup
+  - name: PhishingInitiative Lookup
     version: '2.0'
     author: CERT-BDF
     license: AGPL-V3

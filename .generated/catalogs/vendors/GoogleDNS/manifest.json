@@ -13,7 +13,7 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "GoogleDNS_resolve",
+        "name": "GoogleDNS resolve",
         "version": "1.0.0",
         "author": "CERT-LaPoste",
         "license": "AGPL-V3",

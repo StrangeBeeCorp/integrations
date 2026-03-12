@@ -14,7 +14,7 @@ displayOnWebsite: true
 visibility: 100
 integrations:
   analyzers:
-  - name: Autofocus_SearchJSON
+  - name: Autofocus SearchJSON
     version: '1.0'
     author: ANSSI
     license: AGPL-V3
@@ -26,7 +26,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Autofocus/Autofocus_SearchJSON.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Autofocus/Autofocus_SearchJSON.json
     integration_type: null
-  - name: Autofocus_SearchIOC
+  - name: Autofocus SearchIOC
     version: '1.0'
     author: ANSSI
     license: AGPL-V3
@@ -45,7 +45,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Autofocus/Autofocus_SearchIOC.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Autofocus/Autofocus_SearchIOC.json
     integration_type: null
-  - name: Autofocus_GetSampleAnalysis
+  - name: Autofocus GetSampleAnalysis
     version: '1.0'
     author: ANSSI
     license: AGPL-V3

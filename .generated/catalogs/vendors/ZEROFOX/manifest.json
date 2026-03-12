@@ -14,7 +14,7 @@
     "analyzers": [],
     "responders": [
       {
-        "name": "ZEROFOX_Takedown_request",
+        "name": "ZEROFOX Takedown request",
         "version": "1.0",
         "author": "TheHive-Project",
         "license": "AGPL-V3",
@@ -29,7 +29,7 @@
         "integration_type": null
       },
       {
-        "name": "ZEROFOX_Close_alert",
+        "name": "ZEROFOX Close alert",
         "version": "1.0",
         "author": "TheHive-Project",
         "license": "AGPL-V3",

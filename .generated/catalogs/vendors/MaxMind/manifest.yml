@@ -23,7 +23,7 @@ displayOnWebsite: true
 visibility: low
 integrations:
   analyzers:
-  - name: MaxMind_GeoIP
+  - name: MaxMind GeoIP
     version: '4.0'
     author: CERT-BDF
     license: AGPL-V3

@@ -14,7 +14,7 @@ displayOnWebsite: true
 visibility: 100
 integrations:
   analyzers:
-  - name: Investigate_Categorization
+  - name: Investigate Categorization
     version: '1.0'
     author: Cisco Umbrella Research @opendns
     license: AGPL-V3
@@ -27,7 +27,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Investigate/Investigate_Categorization.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Investigate/Investigate_Categorization.json
     integration_type: null
-  - name: Investigate_Sample
+  - name: Investigate Sample
     version: '1.0'
     author: Cisco Umbrella Research @opendns
     license: AGPL-V3

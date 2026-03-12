@@ -17,7 +17,7 @@ subscription_required: true
 free_subscription: false
 integrations:
   analyzers:
-  - name: SEKOIAIntelligenceCenter_Indicators
+  - name: SEKOIAIntelligenceCenter Indicators
     version: '1.0'
     author: SEKOIA
     license: AGPL-V3
@@ -33,7 +33,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Indicators.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Indicators.json
     integration_type: null
-  - name: SEKOIAIntelligenceCenter_Observables
+  - name: SEKOIAIntelligenceCenter Observables
     version: '1.0'
     author: SEKOIA
     license: AGPL-V3
@@ -49,7 +49,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_observables.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_observables.json
     integration_type: null
-  - name: SEKOIAIntelligenceCenter_Context
+  - name: SEKOIAIntelligenceCenter Context
     version: '1.0'
     author: SEKOIA
     license: AGPL-V3

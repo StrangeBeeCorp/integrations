@@ -13,7 +13,7 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "SecurityTrails_Whois",
+        "name": "SecurityTrails Whois",
         "version": "1.0",
         "author": "Manabu Niseki, @ninoseki",
         "license": "MIT",
@@ -28,7 +28,7 @@
         "integration_type": null
       },
       {
-        "name": "SecurityTrails_Passive_DNS",
+        "name": "SecurityTrails Passive DNS",
         "version": "1.0",
         "author": "Manabu Niseki, @ninoseki",
         "license": "MIT",

@@ -13,7 +13,7 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "Watcher_Check",
+        "name": "Watcher Check",
         "version": "1.0",
         "author": "THA-CERT // YNE",
         "license": "AGPL-V3",
@@ -30,7 +30,7 @@
     ],
     "responders": [
       {
-        "name": "Watcher_Transfer",
+        "name": "Watcher Transfer",
         "version": "1.1",
         "author": "THA-CERT // YNE",
         "license": "AGPL-V3",
@@ -45,7 +45,7 @@
         "integration_type": null
       },
       {
-        "name": "Watcher_Remove",
+        "name": "Watcher Remove",
         "version": "1.1",
         "author": "THA-CERT // YNE",
         "license": "AGPL-V3",
@@ -60,7 +60,7 @@
         "integration_type": null
       },
       {
-        "name": "Watcher_Update",
+        "name": "Watcher Update",
         "version": "1.1",
         "author": "THA-CERT // YNE",
         "license": "AGPL-V3",
@@ -75,7 +75,7 @@
         "integration_type": null
       },
       {
-        "name": "Watcher_Add",
+        "name": "Watcher Add",
         "version": "1.1",
         "author": "THA-CERT // YNE",
         "license": "AGPL-V3",

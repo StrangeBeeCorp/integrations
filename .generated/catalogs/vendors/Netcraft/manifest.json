@@ -17,7 +17,7 @@
     "analyzers": [],
     "responders": [
       {
-        "name": "Netcraft_TakedownPhishingURL",
+        "name": "Netcraft TakedownPhishingURL",
         "version": "1.0",
         "author": "Keijo Korte - @korteke",
         "license": "AGPL-V3",

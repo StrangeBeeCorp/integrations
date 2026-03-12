@@ -17,7 +17,7 @@ subscription_required: false
 free_subscription: false
 integrations:
   analyzers:
-  - name: CuckooSandbox_File_Analysis_Inet
+  - name: CuckooSandbox File Analysis Inet
     version: '1.2'
     author: Andrea Garavaglia, LDO-CERT
     license: AGPL-V3
@@ -29,7 +29,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/CuckooSandbox/CuckooSandbox_File_Analysis.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CuckooSandbox/CuckooSandbox_File_Analysis.json
     integration_type: null
-  - name: CuckooSandbox_Url_Analysis
+  - name: CuckooSandbox Url Analysis
     version: '1.2'
     author: Andrea Garavaglia, LDO-CERT
     license: AGPL-V3

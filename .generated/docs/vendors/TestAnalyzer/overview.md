@@ -1,6 +1,6 @@
 ## Analyzers (2)
 
-### [DevTools_Echo_Analyzer v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/TestAnalyzer/DevTools_Echo.json)
+### [DevTools Echo Analyzer v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/TestAnalyzer/DevTools_Echo.json)
 Development utility that simply echoes the (available) input received by the analyzer.
 
 - **Author:** Fabien Bloume, StrangeBee

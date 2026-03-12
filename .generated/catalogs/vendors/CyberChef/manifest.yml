@@ -17,7 +17,7 @@ subscription_required: false
 free_subscription: false
 integrations:
   analyzers:
-  - name: CyberChef_FromBase64
+  - name: CyberChef FromBase64
     version: '1.0'
     author: Wes Lambert
     license: AGPL-V3
@@ -29,7 +29,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/CyberChef/CyberChef_FromBase64.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CyberChef/CyberChef_FromBase64.json
     integration_type: null
-  - name: CyberChef_FromHex
+  - name: CyberChef FromHex
     version: '1.0'
     author: Wes Lambert
     license: AGPL-V3
@@ -41,7 +41,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/CyberChef/CyberChef_FromHex.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CyberChef/CyberChef_FromHex.json
     integration_type: null
-  - name: CyberChef_FromCharCode
+  - name: CyberChef FromCharCode
     version: '1.0'
     author: Wes Lambert
     license: AGPL-V3

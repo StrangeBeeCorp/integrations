@@ -16,7 +16,7 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "C25CortexAnalyzer_Investigate",
+        "name": "C25CortexAnalyzer Investigate",
         "version": "1.0",
         "author": "Cluster25",
         "license": "AGPL-V3",

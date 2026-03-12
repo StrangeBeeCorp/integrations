@@ -23,7 +23,7 @@ displayOnWebsite: true
 visibility: low
 integrations:
   analyzers:
-  - name: IPinfo_Details
+  - name: IPinfo Details
     version: '1.0'
     author: Manabu Niseki
     license: MIT
@@ -35,7 +35,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/IPinfo/IPinfo_Details.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/IPinfo/IPinfo_Details.json
     integration_type: null
-  - name: IPinfo_Hosted_Domains
+  - name: IPinfo Hosted Domains
     version: '1.0'
     author: Manabu Niseki
     license: MIT

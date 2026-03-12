@@ -23,7 +23,7 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "Mnemonic_pDNS_Public",
+        "name": "Mnemonic pDNS Public",
         "version": "3.0",
         "author": "Michael Stensrud, Nordic Financial CERT",
         "license": "AGPL-V3",
@@ -39,7 +39,7 @@
         "integration_type": null
       },
       {
-        "name": "Mnemonic_pDNS_Closed",
+        "name": "Mnemonic pDNS Closed",
         "version": "3.0",
         "author": "Michael Stensrud, Nordic Financial CERT",
         "license": "AGPL-V3",

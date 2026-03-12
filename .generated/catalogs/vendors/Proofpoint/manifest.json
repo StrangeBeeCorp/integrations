@@ -63,7 +63,7 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "Proofpoint_Lookup",
+        "name": "Proofpoint Lookup",
         "version": "1.0",
         "author": "Emmanuel Torquato",
         "license": "AGPL-V3",

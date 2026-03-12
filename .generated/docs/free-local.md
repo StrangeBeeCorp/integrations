@@ -23,7 +23,7 @@ Analyze files with Capa
 </details>
 
 <details>
-<summary><strong>ClamAV_FileInfo</strong> <code>v1.1</code> [Local] - ClamAV</summary>
+<summary><strong>ClamAV FileInfo</strong> <code>v1.1</code> [Local] - ClamAV</summary>
 
 **Vendor:** [ClamAV](vendors/ClamAV/overview)
 **Data Types:** `file`
@@ -63,7 +63,7 @@ Parse files in several formats such as OLE and OpenXML to detect VBA macros, ext
 </details>
 
 <details>
-<summary><strong>Msg_Parser</strong> <code>v3.0</code> [Local] - MsgParser</summary>
+<summary><strong>Msg Parser</strong> <code>v3.0</code> [Local] - MsgParser</summary>
 
 **Vendor:** [MsgParser](vendors/MsgParser/overview)
 **Data Types:** `file`
@@ -115,7 +115,7 @@ Check IP addresses or CIDR blocks against AbuseIPDB. Returns abuse confidence sc
 </details>
 
 <details>
-<summary><strong>AIL_OnionLookup</strong> <code>v1.0</code> [Free] - AIL Onion-Lookup</summary>
+<summary><strong>AIL OnionLookup</strong> <code>v1.0</code> [Free] - AIL Onion-Lookup</summary>
 
 **Vendor:** [AIL Onion-Lookup](vendors/AILOnionLookup/overview)
 **Data Types:** `domain`, `url`, `fqdn`
@@ -175,7 +175,7 @@ Queries the CIRCL Vulnerability Lookup API to retrieve detailed information on s
 </details>
 
 <details>
-<summary><strong>Crowdsec_Analyzer</strong> <code>v1.1</code> [Free] - CrowdSec</summary>
+<summary><strong>Crowdsec Analyzer</strong> <code>v1.1</code> [Free] - CrowdSec</summary>
 
 **Vendor:** [CrowdSec](vendors/Crowdsec/overview)
 **Data Types:** `ip`
@@ -185,7 +185,7 @@ Query Crowdsec API
 </details>
 
 <details>
-<summary><strong>Crt_sh_Transparency_Logs</strong> <code>v1.0</code> [Free] - Crtsh</summary>
+<summary><strong>Crt sh Transparency Logs</strong> <code>v1.0</code> [Free] - Crtsh</summary>
 
 **Vendor:** [Crtsh](vendors/Crtsh/overview)
 **Data Types:** `domain`
@@ -205,7 +205,7 @@ Search cybercrime-tracker.net for C2 servers.
 </details>
 
 <details>
-<summary><strong>DShield_lookup</strong> <code>v1.0</code> [Free] - DShield</summary>
+<summary><strong>DShield lookup</strong> <code>v1.0</code> [Free] - DShield</summary>
 
 **Vendor:** [DShield](vendors/DShield/overview)
 **Data Types:** `ip`
@@ -225,7 +225,7 @@ EchoTrail Insights takes a Windows filename or hash and provides several unique 
 </details>
 
 <details>
-<summary><strong>Elasticsearch_Analysis</strong> <code>v1.0</code> [Free] - Elasticsearch</summary>
+<summary><strong>Elasticsearch Analysis</strong> <code>v1.0</code> [Free] - Elasticsearch</summary>
 
 **Vendor:** [Elasticsearch](vendors/Elasticsearch/overview)
 **Data Types:** `url`, `domain`, `ip`, `hash`, `filename`, `fqdn`, `mail`, `mail-subject`, `user-agent`, `hostname`, `username`
@@ -245,7 +245,7 @@ emailrep.io lookup.
 </details>
 
 <details>
-<summary><strong>JA4_FoxIO</strong> <code>v1.0</code> [Free] - FoxIO</summary>
+<summary><strong>JA4 FoxIO</strong> <code>v1.0</code> [Free] - FoxIO</summary>
 
 **Vendor:** [FoxIO](vendors/FoxIO/overview)
 **Data Types:** `user-agent`, `ja4-fingerprint`
@@ -265,7 +265,7 @@ Determine whether an IP has known scanning activity using GreyNoise.
 </details>
 
 <details>
-<summary><strong>Hashdd_Detail</strong> <code>v2.0</code> [Free] - Hashdd</summary>
+<summary><strong>Hashdd Detail</strong> <code>v2.0</code> [Free] - Hashdd</summary>
 
 **Vendor:** [Hashdd](vendors/Hashdd/overview)
 **Data Types:** `hash`
@@ -275,7 +275,7 @@ Determine whether a hash is good or bad; if good then list what it is.
 </details>
 
 <details>
-<summary><strong>Hashdd_Status</strong> <code>v2.0</code> [Free] - Hashdd</summary>
+<summary><strong>Hashdd Status</strong> <code>v2.0</code> [Free] - Hashdd</summary>
 
 **Vendor:** [Hashdd](vendors/Hashdd/overview)
 **Data Types:** `hash`
@@ -285,7 +285,7 @@ Determine whether a hash is good or bad.
 </details>
 
 <details>
-<summary><strong>Hunterio_DomainSearch</strong> <code>v1.0</code> [Free] - Hunter.io</summary>
+<summary><strong>Hunterio DomainSearch</strong> <code>v1.0</code> [Free] - Hunter.io</summary>
 
 **Vendor:** [Hunter.io](vendors/Hunterio/overview)
 **Data Types:** `domain`, `fqdn`
@@ -315,7 +315,7 @@ Analyze a possible malicious file with Intezer Analyzer
 </details>
 
 <details>
-<summary><strong>isMalicious_GetReport</strong> <code>v1.0</code> [Free] - isMalicious</summary>
+<summary><strong>isMalicious GetReport</strong> <code>v1.0</code> [Free] - isMalicious</summary>
 
 **Vendor:** [isMalicious](vendors/isMalicious/overview)
 **Data Types:** `ip`, `domain`, `fqdn`
@@ -325,7 +325,7 @@ Check if an IP address or domain is malicious using isMalicious.com threat intel
 </details>
 
 <details>
-<summary><strong>Jupyter_Run_Notebook_Analyzer</strong> <code>v1.0</code> [Free] - Jupyter</summary>
+<summary><strong>Jupyter Run Notebook Analyzer</strong> <code>v1.0</code> [Free] - Jupyter</summary>
 
 **Vendor:** [Jupyter](vendors/Jupyter/overview)
 **Data Types:** `domain`, `hostname`, `ip`, `url`, `fqdn`, `uri_path`, `user-agent`, `hash`, `mail`, `mail_subject`, `registry`, `regexp`, `other`, `filename`, `mail-subject`
@@ -335,7 +335,7 @@ Execute a parameterized notebook in Jupyter
 </details>
 
 <details>
-<summary><strong>Lookyloo_Screenshot</strong> <code>v1.0</code> [Free] - Lookyloo</summary>
+<summary><strong>Lookyloo Screenshot</strong> <code>v1.0</code> [Free] - Lookyloo</summary>
 
 **Vendor:** [Lookyloo](vendors/Lookyloo/overview)
 **Data Types:** `url`, `domain`, `fqdn`, `ip`
@@ -355,7 +355,7 @@ Search hashes on MalwareBazaar.
 </details>
 
 <details>
-<summary><strong>Malwares_GetReport</strong> <code>v1.0</code> [Free] - Malwares</summary>
+<summary><strong>Malwares GetReport</strong> <code>v1.0</code> [Free] - Malwares</summary>
 
 **Vendor:** [Malwares](vendors/Malwares/overview)
 **Data Types:** `file`, `hash`, `domain`, `ip`
@@ -365,7 +365,7 @@ Get the latest Malwares report for a file, hash, domain or an IP address.
 </details>
 
 <details>
-<summary><strong>Malwares_Scan</strong> <code>v1.0</code> [Free] - Malwares</summary>
+<summary><strong>Malwares Scan</strong> <code>v1.0</code> [Free] - Malwares</summary>
 
 **Vendor:** [Malwares](vendors/Malwares/overview)
 **Data Types:** `file`
@@ -375,7 +375,7 @@ Use Malwares' API to scan a file or URL.
 </details>
 
 <details>
-<summary><strong>MSDefenderOffice365_SafeLinksDecoder.json</strong> <code>v1.0</code> [Free] - Microsoft Defender for Office 365</summary>
+<summary><strong>MSDefenderOffice365 SafeLinksDecoder.json</strong> <code>v1.0</code> [Free] - Microsoft Defender for Office 365</summary>
 
 **Vendor:** [Microsoft Defender for Office 365](vendors/MSDefenderOffice365/overview)
 **Data Types:** `url`
@@ -405,7 +405,7 @@ Get Reputation score and other basic information from Network Entity Reputation 
 </details>
 
 <details>
-<summary><strong>ONYPHE_ASM</strong> <code>v1.1</code> [Free] - ONYPHE</summary>
+<summary><strong>ONYPHE ASM</strong> <code>v1.1</code> [Free] - ONYPHE</summary>
 
 **Vendor:** [ONYPHE](vendors/Onyphe/overview)
 **Data Types:** `ip`, `domain`, `fqdn`, `hash`
@@ -415,7 +415,7 @@ Manage an attack surface from The Hive using ONYPHE riskscan category
 </details>
 
 <details>
-<summary><strong>ONYPHE_Ctiscan</strong> <code>v1.0</code> [Free] - ONYPHE</summary>
+<summary><strong>ONYPHE Ctiscan</strong> <code>v1.0</code> [Free] - ONYPHE</summary>
 
 **Vendor:** [ONYPHE](vendors/Onyphe/overview)
 **Data Types:** `ip`, `domain`, `fqdn`, `hash`, `autonomous-system`, `other`
@@ -425,7 +425,7 @@ Query ONYPHE Ctiscan threat hunting data for open services (takes ip, domain, fq
 </details>
 
 <details>
-<summary><strong>ONYPHE_Search</strong> <code>v1.1</code> [Free] - ONYPHE</summary>
+<summary><strong>ONYPHE Search</strong> <code>v1.1</code> [Free] - ONYPHE</summary>
 
 **Vendor:** [ONYPHE](vendors/Onyphe/overview)
 **Data Types:** `ip`, `domain`, `fqdn`, `hash`
@@ -435,7 +435,7 @@ Retrieve results from ONYPHE Search API for a given ip, domain, fqdn or hash (sh
 </details>
 
 <details>
-<summary><strong>ONYPHE_Summary_API</strong> <code>v1.2</code> [Free] - ONYPHE</summary>
+<summary><strong>ONYPHE Summary API</strong> <code>v1.2</code> [Free] - ONYPHE</summary>
 
 **Vendor:** [ONYPHE](vendors/Onyphe/overview)
 **Data Types:** `ip`, `domain`, `fqdn`
@@ -445,7 +445,7 @@ Retrieve summary information Onyphe has for given ip, domain, or fqdn.
 </details>
 
 <details>
-<summary><strong>ONYPHE_Vulnscan</strong> <code>v1.1</code> [Free] - ONYPHE</summary>
+<summary><strong>ONYPHE Vulnscan</strong> <code>v1.1</code> [Free] - ONYPHE</summary>
 
 **Vendor:** [ONYPHE](vendors/Onyphe/overview)
 **Data Types:** `ip`, `domain`, `fqdn`, `hash`
@@ -455,7 +455,7 @@ Retrieve vulnerability data from ONYPHE vulnscan category for a given ip, domain
 </details>
 
 <details>
-<summary><strong>PhishingInitiative_Lookup</strong> <code>v2.0</code> [Free] - PhishingInitiative</summary>
+<summary><strong>PhishingInitiative Lookup</strong> <code>v2.0</code> [Free] - PhishingInitiative</summary>
 
 **Vendor:** [PhishingInitiative](vendors/PhishingInitiative/overview)
 **Data Types:** `url`
@@ -465,7 +465,7 @@ Use Phishing Initiative to check if a URL is a verified phishing site.
 </details>
 
 <details>
-<summary><strong>PhishingInitiative_Scan</strong> <code>v1.0</code> [Free] - PhishingInitiative</summary>
+<summary><strong>PhishingInitiative Scan</strong> <code>v1.0</code> [Free] - PhishingInitiative</summary>
 
 **Vendor:** [PhishingInitiative](vendors/PhishingInitiative/overview)
 **Data Types:** `url`
@@ -475,7 +475,7 @@ Use Phishing Initiative to scan a URL.
 </details>
 
 <details>
-<summary><strong>PhishTank_CheckURL</strong> <code>v2.1</code> [Free] - PhishTank</summary>
+<summary><strong>PhishTank CheckURL</strong> <code>v2.1</code> [Free] - PhishTank</summary>
 
 **Vendor:** [PhishTank](vendors/PhishTank/overview)
 **Data Types:** `url`
@@ -485,7 +485,7 @@ Use PhishTank to check if a URL is a verified phishing site.
 </details>
 
 <details>
-<summary><strong>Shodan_DNSResolve</strong> <code>v1.0</code> [Free] - Shodan</summary>
+<summary><strong>Shodan DNSResolve</strong> <code>v1.0</code> [Free] - Shodan</summary>
 
 **Vendor:** [Shodan](vendors/Shodan/overview)
 **Data Types:** `domain`, `fqdn`
@@ -495,7 +495,7 @@ Retrieve domain resolutions on Shodan.
 </details>
 
 <details>
-<summary><strong>Shodan_Host</strong> <code>v1.0</code> [Free] - Shodan</summary>
+<summary><strong>Shodan Host</strong> <code>v1.0</code> [Free] - Shodan</summary>
 
 **Vendor:** [Shodan](vendors/Shodan/overview)
 **Data Types:** `ip`
@@ -505,7 +505,7 @@ Retrieve key Shodan information on an IP address.
 </details>
 
 <details>
-<summary><strong>Shodan_Host_History</strong> <code>v1.0</code> [Free] - Shodan</summary>
+<summary><strong>Shodan Host History</strong> <code>v1.0</code> [Free] - Shodan</summary>
 
 **Vendor:** [Shodan](vendors/Shodan/overview)
 **Data Types:** `ip`
@@ -515,7 +515,7 @@ Retrieve Shodan history scan results  for an IP address.
 </details>
 
 <details>
-<summary><strong>Shodan_InfoDomain</strong> <code>v1.0</code> [Free] - Shodan</summary>
+<summary><strong>Shodan InfoDomain</strong> <code>v1.0</code> [Free] - Shodan</summary>
 
 **Vendor:** [Shodan](vendors/Shodan/overview)
 **Data Types:** `domain`, `fqdn`
@@ -525,7 +525,7 @@ Retrieve key Shodan information on a domain.
 </details>
 
 <details>
-<summary><strong>Shodan_ReverseDNS</strong> <code>v1.0</code> [Free] - Shodan</summary>
+<summary><strong>Shodan ReverseDNS</strong> <code>v1.0</code> [Free] - Shodan</summary>
 
 **Vendor:** [Shodan](vendors/Shodan/overview)
 **Data Types:** `ip`
@@ -535,7 +535,7 @@ Retrieve ip reverse DNS resolutions on Shodan.
 </details>
 
 <details>
-<summary><strong>Shodan_Search</strong> <code>v2.0</code> [Free] - Shodan</summary>
+<summary><strong>Shodan Search</strong> <code>v2.0</code> [Free] - Shodan</summary>
 
 **Vendor:** [Shodan](vendors/Shodan/overview)
 **Data Types:** `other`
@@ -545,7 +545,7 @@ Search query on Shodan
 </details>
 
 <details>
-<summary><strong>Splunk_Search_Domain_FQDN</strong> <code>v3.0</code> [Free] - Splunk</summary>
+<summary><strong>Splunk Search Domain FQDN</strong> <code>v3.0</code> [Free] - Splunk</summary>
 
 **Vendor:** [Splunk](vendors/Splunk/overview)
 **Data Types:** `domain`, `fqdn`
@@ -555,7 +555,7 @@ Execute a savedsearch on a Splunk instance with a domain or a FQDN as argument
 </details>
 
 <details>
-<summary><strong>Splunk_Search_File_Filename</strong> <code>v3.0</code> [Free] - Splunk</summary>
+<summary><strong>Splunk Search File Filename</strong> <code>v3.0</code> [Free] - Splunk</summary>
 
 **Vendor:** [Splunk](vendors/Splunk/overview)
 **Data Types:** `file`, `filename`
@@ -565,7 +565,7 @@ Execute a savedsearch on a Splunk instance with a file/filename as argument
 </details>
 
 <details>
-<summary><strong>Splunk_Search_Hash</strong> <code>v3.0</code> [Free] - Splunk</summary>
+<summary><strong>Splunk Search Hash</strong> <code>v3.0</code> [Free] - Splunk</summary>
 
 **Vendor:** [Splunk](vendors/Splunk/overview)
 **Data Types:** `hash`
@@ -575,7 +575,7 @@ Execute a savedsearch on a Splunk instance with a hash as argument
 </details>
 
 <details>
-<summary><strong>Splunk_Search_IP</strong> <code>v3.0</code> [Free] - Splunk</summary>
+<summary><strong>Splunk Search IP</strong> <code>v3.0</code> [Free] - Splunk</summary>
 
 **Vendor:** [Splunk](vendors/Splunk/overview)
 **Data Types:** `ip`
@@ -585,7 +585,7 @@ Execute a savedsearch on a Splunk instance with an IP as argument
 </details>
 
 <details>
-<summary><strong>Splunk_Search_Mail_Email</strong> <code>v3.0</code> [Free] - Splunk</summary>
+<summary><strong>Splunk Search Mail Email</strong> <code>v3.0</code> [Free] - Splunk</summary>
 
 **Vendor:** [Splunk](vendors/Splunk/overview)
 **Data Types:** `mail`, `email`
@@ -595,7 +595,7 @@ Execute a savedsearch on a Splunk instance with a mail/email as argument
 </details>
 
 <details>
-<summary><strong>Splunk_Search_Mail_Subject</strong> <code>v3.0</code> [Free] - Splunk</summary>
+<summary><strong>Splunk Search Mail Subject</strong> <code>v3.0</code> [Free] - Splunk</summary>
 
 **Vendor:** [Splunk](vendors/Splunk/overview)
 **Data Types:** `mail_subject`, `mail-subject`
@@ -605,7 +605,7 @@ Execute a savedsearch on a Splunk instance with a mail subject as argument
 </details>
 
 <details>
-<summary><strong>Splunk_Search_Other</strong> <code>v3.0</code> [Free] - Splunk</summary>
+<summary><strong>Splunk Search Other</strong> <code>v3.0</code> [Free] - Splunk</summary>
 
 **Vendor:** [Splunk](vendors/Splunk/overview)
 **Data Types:** `other`
@@ -615,7 +615,7 @@ Execute a savedsearch on a Splunk instance with an unidentified data as argument
 </details>
 
 <details>
-<summary><strong>Splunk_Search_Registry</strong> <code>v3.0</code> [Free] - Splunk</summary>
+<summary><strong>Splunk Search Registry</strong> <code>v3.0</code> [Free] - Splunk</summary>
 
 **Vendor:** [Splunk](vendors/Splunk/overview)
 **Data Types:** `registry`
@@ -625,7 +625,7 @@ Execute a savedsearch on a Splunk instance with a registry data as argument
 </details>
 
 <details>
-<summary><strong>Splunk_Search_URL_URI_Path</strong> <code>v3.0</code> [Free] - Splunk</summary>
+<summary><strong>Splunk Search URL URI Path</strong> <code>v3.0</code> [Free] - Splunk</summary>
 
 **Vendor:** [Splunk](vendors/Splunk/overview)
 **Data Types:** `url`, `uri_path`
@@ -635,7 +635,7 @@ Execute a savedsearch on a Splunk instance with an URL or a URI path as argument
 </details>
 
 <details>
-<summary><strong>Splunk_Search_User</strong> <code>v3.0</code> [Free] - Splunk</summary>
+<summary><strong>Splunk Search User</strong> <code>v3.0</code> [Free] - Splunk</summary>
 
 **Vendor:** [Splunk](vendors/Splunk/overview)
 **Data Types:** `other`
@@ -645,7 +645,7 @@ Execute a savedsearch on a Splunk instance with a user ID as argument
 </details>
 
 <details>
-<summary><strong>Splunk_Search_User_Agent</strong> <code>v3.0</code> [Free] - Splunk</summary>
+<summary><strong>Splunk Search User Agent</strong> <code>v3.0</code> [Free] - Splunk</summary>
 
 **Vendor:** [Splunk](vendors/Splunk/overview)
 **Data Types:** `user-agent`
@@ -675,7 +675,7 @@ Submit artifacts to the Recorded Future Triage sandbox service. This analyzer re
 </details>
 
 <details>
-<summary><strong>UrlDNA_New_Scan</strong> <code>v0.1.0</code> [Free] - urlDNA.io</summary>
+<summary><strong>UrlDNA New Scan</strong> <code>v0.1.0</code> [Free] - urlDNA.io</summary>
 
 **Vendor:** [urlDNA.io](vendors/urlDNA.io/overview)
 **Data Types:** `url`
@@ -685,7 +685,7 @@ Perform a new scan on urlDNA.io
 </details>
 
 <details>
-<summary><strong>UrlDNA_Search</strong> <code>v0.1.0</code> [Free] - urlDNA.io</summary>
+<summary><strong>UrlDNA Search</strong> <code>v0.1.0</code> [Free] - urlDNA.io</summary>
 
 **Vendor:** [urlDNA.io](vendors/urlDNA.io/overview)
 **Data Types:** `ip`, `domain`, `url`
@@ -705,7 +705,7 @@ Search domains, IPs, URLs or hashes on URLhaus.
 </details>
 
 <details>
-<summary><strong>Urlscan.io_Scan</strong> <code>v0.1.0</code> [Free] - URLScan.io</summary>
+<summary><strong>Urlscan.io Scan</strong> <code>v0.1.0</code> [Free] - URLScan.io</summary>
 
 **Vendor:** [URLScan.io](vendors/Urlscan.io/overview)
 **Data Types:** `url`, `domain`, `fqdn`
@@ -715,7 +715,7 @@ Scan URLs on urlscan.io
 </details>
 
 <details>
-<summary><strong>Urlscan.io_Search</strong> <code>v0.1.1</code> [Free] - URLScan.io</summary>
+<summary><strong>Urlscan.io Search</strong> <code>v0.1.1</code> [Free] - URLScan.io</summary>
 
 **Vendor:** [URLScan.io](vendors/Urlscan.io/overview)
 **Data Types:** `ip`, `domain`, `hash`, `fqdn`, `url`
@@ -725,7 +725,7 @@ Search IPs, domains, hashes or URLs on urlscan.io
 </details>
 
 <details>
-<summary><strong>Vulners_CVE</strong> <code>v1.0</code> [Free] - Vulners</summary>
+<summary><strong>Vulners CVE</strong> <code>v1.0</code> [Free] - Vulners</summary>
 
 **Vendor:** [Vulners](vendors/Vulners/overview)
 **Data Types:** `cve`
@@ -735,7 +735,7 @@ Get information about CVE from powerful Vulners database.
 </details>
 
 <details>
-<summary><strong>Vulners_IOC</strong> <code>v1.0</code> [Free] - Vulners</summary>
+<summary><strong>Vulners IOC</strong> <code>v1.0</code> [Free] - Vulners</summary>
 
 **Vendor:** [Vulners](vendors/Vulners/overview)
 **Data Types:** `url`, `domain`, `ip`
@@ -749,7 +749,7 @@ Get information from the RST Threat Feed, which integrated with Vulners, for a d
 ### Free Subscription Responders
 
 <details>
-<summary><strong>AbuseIPDB_Report</strong> <code>v1.0</code> [Free] - AbuseIPDB</summary>
+<summary><strong>AbuseIPDB Report</strong> <code>v1.0</code> [Free] - AbuseIPDB</summary>
 
 **Vendor:** [AbuseIPDB](vendors/AbuseIPDB/overview)
 **Data Types:** `thehive:case_artifact`
@@ -759,7 +759,7 @@ Report an IP address to AbuseIPDB for abuse tracking and community sharing. Plea
 </details>
 
 <details>
-<summary><strong>Jupyter_Run_Notebook_Responder</strong> <code>v1.0</code> [Free] - Jupyter</summary>
+<summary><strong>Jupyter Run Notebook Responder</strong> <code>v1.0</code> [Free] - Jupyter</summary>
 
 **Vendor:** [Jupyter](vendors/Jupyter/overview)
 **Data Types:** `thehive:case`, `thehive:case_artifact`, `thehive:alert`, `thehive:case_task`, `thehive:case_task_log`
@@ -769,7 +769,7 @@ Execute a parameterized notebook in Jupyter
 </details>
 
 <details>
-<summary><strong>MSDefenderOffice365_allow</strong> <code>v1.0</code> [Free] - Microsoft Defender for Office 365</summary>
+<summary><strong>MSDefenderOffice365 allow</strong> <code>v1.0</code> [Free] - Microsoft Defender for Office 365</summary>
 
 **Vendor:** [Microsoft Defender for Office 365](vendors/MSDefenderOffice365/overview)
 **Data Types:** `thehive:case_artifact`
@@ -779,7 +779,7 @@ Add entries to the Tenant Allow/Block List in the Microsoft 365 Defender
 </details>
 
 <details>
-<summary><strong>MSDefenderOffice365_block</strong> <code>v1.0</code> [Free] - Microsoft Defender for Office 365</summary>
+<summary><strong>MSDefenderOffice365 block</strong> <code>v1.0</code> [Free] - Microsoft Defender for Office 365</summary>
 
 **Vendor:** [Microsoft Defender for Office 365](vendors/MSDefenderOffice365/overview)
 **Data Types:** `thehive:case_artifact`
@@ -789,7 +789,7 @@ Add entries to the Tenant Allow/Block List in the Microsoft 365 Defender
 </details>
 
 <details>
-<summary><strong>MSDefenderOffice365_disallow</strong> <code>v1.0</code> [Free] - Microsoft Defender for Office 365</summary>
+<summary><strong>MSDefenderOffice365 disallow</strong> <code>v1.0</code> [Free] - Microsoft Defender for Office 365</summary>
 
 **Vendor:** [Microsoft Defender for Office 365](vendors/MSDefenderOffice365/overview)
 **Data Types:** `thehive:case_artifact`
@@ -799,7 +799,7 @@ Add entries to the Tenant Allow/Block List in the Microsoft 365 Defender
 </details>
 
 <details>
-<summary><strong>MSDefenderOffice365_unblock</strong> <code>v1.0</code> [Free] - Microsoft Defender for Office 365</summary>
+<summary><strong>MSDefenderOffice365 unblock</strong> <code>v1.0</code> [Free] - Microsoft Defender for Office 365</summary>
 
 **Vendor:** [Microsoft Defender for Office 365](vendors/MSDefenderOffice365/overview)
 **Data Types:** `thehive:case_artifact`
@@ -819,7 +819,7 @@ Send data to n8n via webhook
 </details>
 
 <details>
-<summary><strong>Slack_CreateChannel</strong> <code>v1.0</code> [Free] - Slack</summary>
+<summary><strong>Slack CreateChannel</strong> <code>v1.0</code> [Free] - Slack</summary>
 
 **Vendor:** [Slack](vendors/Slack/overview)
 **Data Types:** `thehive:case`
@@ -829,7 +829,7 @@ Creates a Slack channel for a TheHive case, invites participants, and optionally
 </details>
 
 <details>
-<summary><strong>Slack_SyncChannel</strong> <code>v1.0</code> [Free] - Slack</summary>
+<summary><strong>Slack SyncChannel</strong> <code>v1.0</code> [Free] - Slack</summary>
 
 **Vendor:** [Slack](vendors/Slack/overview)
 **Data Types:** `thehive:case`

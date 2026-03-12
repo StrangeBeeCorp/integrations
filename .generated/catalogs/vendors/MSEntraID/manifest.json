@@ -28,7 +28,7 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "MSEntraID_GetDirectoryAuditLogs",
+        "name": "MSEntraID GetDirectoryAuditLogs",
         "version": "1.0",
         "author": "Fabien Bloume, StrangeBee",
         "license": "AGPL-V3",
@@ -43,7 +43,7 @@
         "integration_type": null
       },
       {
-        "name": "MSEntraID_GetSignIns",
+        "name": "MSEntraID GetSignIns",
         "version": "1.0",
         "author": "@jahamilto",
         "license": "AGPL-V3",
@@ -58,7 +58,7 @@
         "integration_type": null
       },
       {
-        "name": "MSEntraID_GetUserInfo",
+        "name": "MSEntraID GetUserInfo",
         "version": "1.0",
         "author": "Fabien Bloume, StrangeBee",
         "license": "AGPL-V3",
@@ -76,7 +76,7 @@
         "integration_type": null
       },
       {
-        "name": "MSEntraID_GetManagedDevicesInfo",
+        "name": "MSEntraID GetManagedDevicesInfo",
         "version": "1.0",
         "author": "Fabien Bloume, StrangeBee",
         "license": "AGPL-V3",
@@ -94,7 +94,7 @@
     ],
     "responders": [
       {
-        "name": "MSEntraID_enableUser",
+        "name": "MSEntraID enableUser",
         "version": "1.0",
         "author": "nusatanra-self, StrangeBee",
         "license": "AGPL-V3",
@@ -109,7 +109,7 @@
         "integration_type": null
       },
       {
-        "name": "MSEntraID_disableUser",
+        "name": "MSEntraID disableUser",
         "version": "1.0",
         "author": "nusatanra-self, StrangeBee",
         "license": "AGPL-V3",
@@ -124,7 +124,7 @@
         "integration_type": null
       },
       {
-        "name": "MSEntraID_ForcePasswordReset",
+        "name": "MSEntraID ForcePasswordReset",
         "version": "1.0",
         "author": "nusatanra-self, StrangeBee",
         "license": "AGPL-V3",
@@ -139,7 +139,7 @@
         "integration_type": null
       },
       {
-        "name": "MSEntraID_revokeSignInSessions",
+        "name": "MSEntraID revokeSignInSessions",
         "version": "1.1",
         "author": "Daniel Weiner @dmweiner; revised by @jahamilto; Fabien Bloume, StrangeBee",
         "license": "AGPL-V3",
@@ -154,7 +154,7 @@
         "integration_type": null
       },
       {
-        "name": "MSEntraID_ForcePasswordResetWithMFA",
+        "name": "MSEntraID ForcePasswordResetWithMFA",
         "version": "1.0",
         "author": "nusatanra-self, StrangeBee",
         "license": "AGPL-V3",

@@ -14,7 +14,7 @@ displayOnWebsite: false
 visibility: low
 integrations:
   analyzers:
-  - name: PayloadSecurity_File_Analysis
+  - name: PayloadSecurity File Analysis
     version: '1.0'
     author: Emmanuel Torquato
     license: AGPL-V3
@@ -26,7 +26,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/PayloadSecurity/PayloadSecurity_File_Analysis.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PayloadSecurity/PayloadSecurity_File_Analysis.json
     integration_type: null
-  - name: PayloadSecurity_Url_Analysis
+  - name: PayloadSecurity Url Analysis
     version: '1.0'
     author: Emmanuel Torquato
     license: AGPL-V3

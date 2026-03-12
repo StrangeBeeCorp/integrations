@@ -17,7 +17,7 @@
     "analyzers": [],
     "responders": [
       {
-        "name": "AWSLambda_InvokeFunction",
+        "name": "AWSLambda InvokeFunction",
         "version": "1.0",
         "author": "Fabien Bloume, StrangeBee",
         "license": "AGPL-V3",

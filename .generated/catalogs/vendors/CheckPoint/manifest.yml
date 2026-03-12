@@ -15,7 +15,7 @@ visibility: 100
 integrations:
   analyzers: []
   responders:
-  - name: CheckPoint_Unlock
+  - name: CheckPoint Unlock
     version: '1.0'
     author: '@dadokkio LDO-CERT'
     license: AGPL-V3
@@ -27,7 +27,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/CheckPoint/CheckPoint_Gaia_unlock.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CheckPoint/CheckPoint_Gaia_unlock.json
     integration_type: null
-  - name: CheckPoint_Lock
+  - name: CheckPoint Lock
     version: '1.0'
     author: '@dadokkio LDO-CERT'
     license: AGPL-V3

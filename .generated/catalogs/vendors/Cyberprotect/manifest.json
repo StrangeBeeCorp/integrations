@@ -16,7 +16,7 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "Cyberprotect_ThreatScore",
+        "name": "Cyberprotect ThreatScore",
         "version": "3.0",
         "author": "Rémi Allain, Cyberprotect",
         "license": "AGPL-V3",

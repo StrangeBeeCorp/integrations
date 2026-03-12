@@ -137,7 +137,7 @@
         "integration_type": null
       },
       {
-        "name": "HarfangLab_SearchDriverByFileName",
+        "name": "HarfangLab SearchDriverByFileName",
         "version": "1.0",
         "author": "HarfangLab Product Team",
         "license": "AGPL-V3",
@@ -167,7 +167,7 @@
         "integration_type": null
       },
       {
-        "name": "HarfangLab_SearchDriverByHash",
+        "name": "HarfangLab SearchDriverByHash",
         "version": "1.0",
         "author": "HarfangLab Product Team",
         "license": "AGPL-V3",

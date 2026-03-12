@@ -17,7 +17,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "Abuse_Finder",
+          "name": "Abuse Finder",
           "version": "3.0",
           "author": "CERT-BDF",
           "license": "AGPL-V3",
@@ -93,7 +93,7 @@
       ],
       "responders": [
         {
-          "name": "AbuseIPDB_Report",
+          "name": "AbuseIPDB Report",
           "version": "1.0",
           "author": "Fabien Bloume, StrangeBee",
           "license": "AGPL-V3",
@@ -137,7 +137,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "AIL_OnionLookup",
+          "name": "AIL OnionLookup",
           "version": "1.0",
           "author": "Fabien Bloume, StrangeBee",
           "license": "AGPL-V3",
@@ -219,7 +219,7 @@
       "analyzers": [],
       "responders": [
         {
-          "name": "AMPforEndpoints_MoveGUID",
+          "name": "AMPforEndpoints MoveGUID",
           "version": "1.0",
           "author": "Cisco Security",
           "license": "MIT",
@@ -234,7 +234,7 @@
           "integration_type": null
         },
         {
-          "name": "AMPforEndpoints_SCDAdd",
+          "name": "AMPforEndpoints SCDAdd",
           "version": "1.0",
           "author": "Cisco Security",
           "license": "MIT",
@@ -249,7 +249,7 @@
           "integration_type": null
         },
         {
-          "name": "AMPforEndpoints_IsolationStart",
+          "name": "AMPforEndpoints IsolationStart",
           "version": "1.0",
           "author": "Cisco Security",
           "license": "MIT",
@@ -264,7 +264,7 @@
           "integration_type": null
         },
         {
-          "name": "AMPforEndpoints_SCDRemove",
+          "name": "AMPforEndpoints SCDRemove",
           "version": "1.0",
           "author": "Cisco Security",
           "license": "MIT",
@@ -279,7 +279,7 @@
           "integration_type": null
         },
         {
-          "name": "AMPforEndpoints_IsolationStop",
+          "name": "AMPforEndpoints IsolationStop",
           "version": "1.0",
           "author": "Cisco Security",
           "license": "MIT",
@@ -323,7 +323,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "AnyRun_Sandbox_Analysis",
+          "name": "AnyRun Sandbox Analysis",
           "version": "1.1",
           "author": "Andrea Garavaglia, Davide Arcuri, LDO-CERT; Nate Olsen, WSECU",
           "license": "AGPL-V3",
@@ -366,7 +366,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "Autofocus_SearchJSON",
+          "name": "Autofocus SearchJSON",
           "version": "1.0",
           "author": "ANSSI",
           "license": "AGPL-V3",
@@ -381,7 +381,7 @@
           "integration_type": null
         },
         {
-          "name": "Autofocus_SearchIOC",
+          "name": "Autofocus SearchIOC",
           "version": "1.0",
           "author": "ANSSI",
           "license": "AGPL-V3",
@@ -403,7 +403,7 @@
           "integration_type": null
         },
         {
-          "name": "Autofocus_GetSampleAnalysis",
+          "name": "Autofocus GetSampleAnalysis",
           "version": "1.0",
           "author": "ANSSI",
           "license": "AGPL-V3",
@@ -449,7 +449,7 @@
       "analyzers": [],
       "responders": [
         {
-          "name": "AWSLambda_InvokeFunction",
+          "name": "AWSLambda InvokeFunction",
           "version": "1.0",
           "author": "Fabien Bloume, StrangeBee",
           "license": "AGPL-V3",
@@ -498,7 +498,7 @@
       "analyzers": [],
       "responders": [
         {
-          "name": "AWX_StartJob",
+          "name": "AWX StartJob",
           "version": "1.0",
           "author": "Tim Muehlhausen",
           "license": "AGPL-V3",
@@ -588,7 +588,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "BackscatterIO_GetObservations",
+          "name": "BackscatterIO GetObservations",
           "version": "1.0",
           "author": "brandon@backscatter.io",
           "license": "APLv2",
@@ -605,7 +605,7 @@
           "integration_type": null
         },
         {
-          "name": "BackscatterIO_Enrichment",
+          "name": "BackscatterIO Enrichment",
           "version": "1.0",
           "author": "brandon@backscatter.io",
           "license": "APLv2",
@@ -654,7 +654,7 @@
       "analyzers": [],
       "responders": [
         {
-          "name": "Binalyze_AIR_Acquisition",
+          "name": "Binalyze AIR Acquisition",
           "version": "1.0",
           "author": "Binalyze Integration Team",
           "license": "AGPL-V3",
@@ -669,7 +669,7 @@
           "integration_type": null
         },
         {
-          "name": "Binalyze_AIR_Isolation",
+          "name": "Binalyze AIR Isolation",
           "version": "1.0",
           "author": "Binalyze Integration Team",
           "license": "AGPL-V3",
@@ -946,7 +946,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "CheckPhish_Submit",
+          "name": "CheckPhish Submit",
           "version": "1.0",
           "author": "Peter Juhas",
           "license": "AGPL-V3",
@@ -1004,7 +1004,7 @@
       "analyzers": [],
       "responders": [
         {
-          "name": "CheckPoint_Unlock",
+          "name": "CheckPoint Unlock",
           "version": "1.0",
           "author": "@dadokkio LDO-CERT",
           "license": "AGPL-V3",
@@ -1019,7 +1019,7 @@
           "integration_type": null
         },
         {
-          "name": "CheckPoint_Lock",
+          "name": "CheckPoint Lock",
           "version": "1.0",
           "author": "@dadokkio LDO-CERT",
           "license": "AGPL-V3",
@@ -1254,7 +1254,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "CiscoUmbrella_Report",
+          "name": "CiscoUmbrella Report",
           "version": "1.0",
           "author": "Kyle Parrish",
           "license": "AGPL-V3",
@@ -1272,7 +1272,7 @@
       ],
       "responders": [
         {
-          "name": "CiscoUmbrella_Blacklister",
+          "name": "CiscoUmbrella Blacklister",
           "version": "1.1",
           "author": "Kyle Parrish",
           "license": "AGPL-V3",
@@ -1363,7 +1363,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "ClamAV_FileInfo",
+          "name": "ClamAV FileInfo",
           "version": "1.1",
           "author": "Brian Laskowski",
           "license": "AGPL-V3",
@@ -1413,7 +1413,7 @@
       "analyzers": [],
       "responders": [
         {
-          "name": "Cloudflare_IP_Blocker",
+          "name": "Cloudflare IP Blocker",
           "version": "1.0",
           "author": "Nick Babkin @nickbabkin",
           "license": "AGPL-V3",
@@ -1457,7 +1457,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "C25CortexAnalyzer_Investigate",
+          "name": "C25CortexAnalyzer Investigate",
           "version": "1.0",
           "author": "Cluster25",
           "license": "AGPL-V3",
@@ -1598,7 +1598,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "Crowdsec_Analyzer",
+          "name": "Crowdsec Analyzer",
           "version": "1.1",
           "author": "CERT-ARKEA",
           "license": "AGPL-V3",
@@ -1692,7 +1692,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "CrowdstrikeFalcon_Sandbox_Win7_64",
+          "name": "CrowdstrikeFalcon Sandbox Win7 64",
           "version": "1.0",
           "author": "Fabien Bloume, StrangeBee",
           "license": "AGPL-V3",
@@ -1707,7 +1707,7 @@
           "integration_type": null
         },
         {
-          "name": "CrowdstrikeFalcon_GetDeviceVulnerabilities",
+          "name": "CrowdstrikeFalcon GetDeviceVulnerabilities",
           "version": "1.0",
           "author": "Fabien Bloume, StrangeBee",
           "license": "AGPL-V3",
@@ -1722,7 +1722,7 @@
           "integration_type": null
         },
         {
-          "name": "CrowdstrikeFalcon_Sandbox_Android",
+          "name": "CrowdstrikeFalcon Sandbox Android",
           "version": "1.0",
           "author": "Fabien Bloume, StrangeBee",
           "license": "AGPL-V3",
@@ -1737,7 +1737,7 @@
           "integration_type": null
         },
         {
-          "name": "CrowdstrikeFalcon_Sandbox_Linux",
+          "name": "CrowdstrikeFalcon Sandbox Linux",
           "version": "1.0",
           "author": "Fabien Bloume, StrangeBee",
           "license": "AGPL-V3",
@@ -1752,7 +1752,7 @@
           "integration_type": null
         },
         {
-          "name": "CrowdstrikeFalcon_getDeviceDetails",
+          "name": "CrowdstrikeFalcon getDeviceDetails",
           "version": "1.0",
           "author": "Fabien Bloume, StrangeBee",
           "license": "AGPL-V3",
@@ -1767,7 +1767,7 @@
           "integration_type": null
         },
         {
-          "name": "CrowdstrikeFalcon_ThreatIntel",
+          "name": "CrowdstrikeFalcon ThreatIntel",
           "version": "1.0",
           "author": "Fabien Bloume, StrangeBee",
           "license": "AGPL-V3",
@@ -1785,7 +1785,7 @@
           "integration_type": null
         },
         {
-          "name": "CrowdstrikeFalcon_Sandbox_Win11",
+          "name": "CrowdstrikeFalcon Sandbox Win11",
           "version": "1.0",
           "author": "Fabien Bloume, StrangeBee",
           "license": "AGPL-V3",
@@ -1800,7 +1800,7 @@
           "integration_type": null
         },
         {
-          "name": "CrowdstrikeFalcon_Sandbox_MacOS",
+          "name": "CrowdstrikeFalcon Sandbox MacOS",
           "version": "1.0",
           "author": "Fabien Bloume, StrangeBee",
           "license": "AGPL-V3",
@@ -1815,7 +1815,7 @@
           "integration_type": null
         },
         {
-          "name": "CrowdstrikeFalcon_Sandbox_Win10",
+          "name": "CrowdstrikeFalcon Sandbox Win10",
           "version": "1.0",
           "author": "Fabien Bloume, StrangeBee",
           "license": "AGPL-V3",
@@ -1830,7 +1830,7 @@
           "integration_type": null
         },
         {
-          "name": "CrowdstrikeFalcon_getDeviceAlerts",
+          "name": "CrowdstrikeFalcon getDeviceAlerts",
           "version": "1.0",
           "author": "Fabien Bloume, StrangeBee",
           "license": "AGPL-V3",
@@ -1845,7 +1845,7 @@
           "integration_type": null
         },
         {
-          "name": "CrowdstrikeFalcon_Sandbox_Win7",
+          "name": "CrowdstrikeFalcon Sandbox Win7",
           "version": "1.0",
           "author": "Fabien Bloume, StrangeBee",
           "license": "AGPL-V3",
@@ -1862,7 +1862,7 @@
       ],
       "responders": [
         {
-          "name": "CrowdStrikeFalcon_AddIOC",
+          "name": "CrowdStrikeFalcon AddIOC",
           "version": "1.0",
           "author": "Fabien Bloume, StrangeBee",
           "license": "AGPL-V3",
@@ -1877,7 +1877,7 @@
           "integration_type": null
         },
         {
-          "name": "CrowdStrikeFalcon_unhideHost",
+          "name": "CrowdStrikeFalcon unhideHost",
           "version": "1.0",
           "author": "Fabien Bloume, StrangeBee",
           "license": "AGPL-V3",
@@ -1892,7 +1892,7 @@
           "integration_type": null
         },
         {
-          "name": "CrowdStrikeFalcon_RemoveIOC",
+          "name": "CrowdStrikeFalcon RemoveIOC",
           "version": "1.0",
           "author": "Fabien Bloume, StrangeBee",
           "license": "AGPL-V3",
@@ -1907,7 +1907,7 @@
           "integration_type": null
         },
         {
-          "name": "CrowdStrikeFalcon_unsuppressDetections",
+          "name": "CrowdStrikeFalcon unsuppressDetections",
           "version": "1.0",
           "author": "Fabien Bloume, StrangeBee",
           "license": "AGPL-V3",
@@ -1922,7 +1922,7 @@
           "integration_type": null
         },
         {
-          "name": "CrowdStrikeFalcon_HostContainment",
+          "name": "CrowdStrikeFalcon HostContainment",
           "version": "1.0",
           "author": "Fabien Bloume, StrangeBee",
           "license": "AGPL-V3",
@@ -1937,7 +1937,7 @@
           "integration_type": null
         },
         {
-          "name": "CrowdStrikeFalcon_hideHost",
+          "name": "CrowdStrikeFalcon hideHost",
           "version": "1.0",
           "author": "Fabien Bloume, StrangeBee",
           "license": "AGPL-V3",
@@ -1952,7 +1952,7 @@
           "integration_type": null
         },
         {
-          "name": "CrowdStrikeFalcon_Sync",
+          "name": "CrowdStrikeFalcon Sync",
           "version": "1.0",
           "author": "Fabien Bloume, StrangeBee",
           "license": "AGPL-V3",
@@ -1968,7 +1968,7 @@
           "integration_type": null
         },
         {
-          "name": "CrowdStrikeFalcon_suppressDetections",
+          "name": "CrowdStrikeFalcon suppressDetections",
           "version": "1.0",
           "author": "Fabien Bloume, StrangeBee",
           "license": "AGPL-V3",
@@ -1983,7 +1983,7 @@
           "integration_type": null
         },
         {
-          "name": "CrowdStrikeFalcon_LiftContainmentHost",
+          "name": "CrowdStrikeFalcon LiftContainmentHost",
           "version": "1.0",
           "author": "Fabien Bloume, StrangeBee",
           "license": "AGPL-V3",
@@ -2038,7 +2038,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "Crt_sh_Transparency_Logs",
+          "name": "Crt sh Transparency Logs",
           "version": "1.0",
           "author": "crackytsi",
           "license": "AGPL-V3",
@@ -2083,7 +2083,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "CuckooSandbox_File_Analysis_Inet",
+          "name": "CuckooSandbox File Analysis Inet",
           "version": "1.2",
           "author": "Andrea Garavaglia, LDO-CERT",
           "license": "AGPL-V3",
@@ -2098,7 +2098,7 @@
           "integration_type": null
         },
         {
-          "name": "CuckooSandbox_Url_Analysis",
+          "name": "CuckooSandbox Url Analysis",
           "version": "1.2",
           "author": "Andrea Garavaglia, LDO-CERT",
           "license": "AGPL-V3",
@@ -2143,7 +2143,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "CyberChef_FromBase64",
+          "name": "CyberChef FromBase64",
           "version": "1.0",
           "author": "Wes Lambert",
           "license": "AGPL-V3",
@@ -2158,7 +2158,7 @@
           "integration_type": null
         },
         {
-          "name": "CyberChef_FromHex",
+          "name": "CyberChef FromHex",
           "version": "1.0",
           "author": "Wes Lambert",
           "license": "AGPL-V3",
@@ -2173,7 +2173,7 @@
           "integration_type": null
         },
         {
-          "name": "CyberChef_FromCharCode",
+          "name": "CyberChef FromCharCode",
           "version": "1.0",
           "author": "Wes Lambert",
           "license": "AGPL-V3",
@@ -2267,7 +2267,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "Cyberprotect_ThreatScore",
+          "name": "Cyberprotect ThreatScore",
           "version": "3.0",
           "author": "Rémi Allain, Cyberprotect",
           "license": "AGPL-V3",
@@ -2400,7 +2400,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "DNSDB_DomainName",
+          "name": "DNSDB DomainName",
           "version": "2.0",
           "author": "CERT-BDF",
           "license": "AGPL-V3",
@@ -2416,7 +2416,7 @@
           "integration_type": null
         },
         {
-          "name": "DNSDB_IPHistory",
+          "name": "DNSDB IPHistory",
           "version": "2.0",
           "author": "CERT-BDF",
           "license": "AGPL-V3",
@@ -2431,7 +2431,7 @@
           "integration_type": null
         },
         {
-          "name": "DNSDB_NameHistory",
+          "name": "DNSDB NameHistory",
           "version": "2.0",
           "author": "CERT-BDF",
           "license": "AGPL-V3",
@@ -2477,7 +2477,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "DNSdumpster_report",
+          "name": "DNSdumpster report",
           "version": "1.0",
           "author": "Keijo Korte - @korteke",
           "license": "AGPL-V3",
@@ -2522,7 +2522,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "DNS_Lookingglass",
+          "name": "DNS Lookingglass",
           "version": "1.0",
           "author": "Dennis Perto, Conscia",
           "license": "AGPL-V3",
@@ -2654,7 +2654,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "DomainTools_Risk",
+          "name": "DomainTools Risk",
           "version": "2.0",
           "author": "CERT-BDF",
           "license": "AGPL-V3",
@@ -2670,7 +2670,7 @@
           "integration_type": null
         },
         {
-          "name": "DomainTools_WhoisLookupUnparsed",
+          "name": "DomainTools WhoisLookupUnparsed",
           "version": "2.0",
           "author": "CERT-BDF",
           "license": "AGPL-V3",
@@ -2686,7 +2686,7 @@
           "integration_type": null
         },
         {
-          "name": "DomainTools_WhoisHistory",
+          "name": "DomainTools WhoisHistory",
           "version": "2.0",
           "author": "CERT-BDF",
           "license": "AGPL-V3",
@@ -2701,7 +2701,7 @@
           "integration_type": null
         },
         {
-          "name": "DomainTools_WhoisLookup",
+          "name": "DomainTools WhoisLookup",
           "version": "2.0",
           "author": "CERT-BDF",
           "license": "AGPL-V3",
@@ -2717,7 +2717,7 @@
           "integration_type": null
         },
         {
-          "name": "DomainTools_ReverseIPWhois",
+          "name": "DomainTools ReverseIPWhois",
           "version": "2.0",
           "author": "ANSSI",
           "license": "AGPL-V3",
@@ -2735,7 +2735,7 @@
           "integration_type": null
         },
         {
-          "name": "DomainTools_ReverseIP",
+          "name": "DomainTools ReverseIP",
           "version": "2.0",
           "author": "CERT-BDF",
           "license": "AGPL-V3",
@@ -2752,7 +2752,7 @@
           "integration_type": null
         },
         {
-          "name": "DomainTools_HostingHistory",
+          "name": "DomainTools HostingHistory",
           "version": "2.0",
           "author": "ANSSI",
           "license": "AGPL-V3",
@@ -2767,7 +2767,7 @@
           "integration_type": null
         },
         {
-          "name": "DomainTools_ReverseWhois",
+          "name": "DomainTools ReverseWhois",
           "version": "2.0",
           "author": "CERT-BDF",
           "license": "AGPL-V3",
@@ -2785,7 +2785,7 @@
           "integration_type": null
         },
         {
-          "name": "DomainTools_Reputation",
+          "name": "DomainTools Reputation",
           "version": "2.0",
           "author": "CERT-BDF",
           "license": "AGPL-V3",
@@ -2801,7 +2801,7 @@
           "integration_type": null
         },
         {
-          "name": "DomainTools_ReverseNameServer",
+          "name": "DomainTools ReverseNameServer",
           "version": "2.0",
           "author": "CERT-BDF",
           "license": "AGPL-V3",
@@ -2846,7 +2846,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "DomainToolsIris_Pivot",
+          "name": "DomainToolsIris Pivot",
           "version": "1.0",
           "author": "DomainTools",
           "license": "AGPL-V3",
@@ -2863,7 +2863,7 @@
           "integration_type": null
         },
         {
-          "name": "DomainToolsIris_Investigate",
+          "name": "DomainToolsIris Investigate",
           "version": "1.0",
           "author": "DomainTools",
           "license": "AGPL-V3",
@@ -2880,7 +2880,7 @@
       ],
       "responders": [
         {
-          "name": "DomainToolsIris_CheckMaliciousTags",
+          "name": "DomainToolsIris CheckMaliciousTags",
           "version": "1.0",
           "author": "DomainTools",
           "license": "AGPL-V3",
@@ -2895,7 +2895,7 @@
           "integration_type": null
         },
         {
-          "name": "DomainToolsIris_AddRiskyDNSTag",
+          "name": "DomainToolsIris AddRiskyDNSTag",
           "version": "1.0",
           "author": "DomainTools",
           "license": "AGPL-V3",
@@ -2939,7 +2939,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "DShield_lookup",
+          "name": "DShield lookup",
           "version": "1.0",
           "author": "Xavier Xavier, SANS ISC",
           "license": "AGPL-V3",
@@ -3102,7 +3102,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "EclecticIQ_SearchObservable",
+          "name": "EclecticIQ SearchObservable",
           "version": "2.0",
           "author": "BW",
           "license": "AGPL-V3",
@@ -3131,7 +3131,7 @@
       ],
       "responders": [
         {
-          "name": "EclecticIQ_Indicator_API",
+          "name": "EclecticIQ Indicator API",
           "version": "1.0",
           "author": "EclecticIQ",
           "license": "MIT",
@@ -3193,7 +3193,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "Elasticsearch_Analysis",
+          "name": "Elasticsearch Analysis",
           "version": "1.0",
           "author": "Nick Prokop",
           "license": "MIT",
@@ -3303,7 +3303,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "EmergingThreats_MalwareInfo",
+          "name": "EmergingThreats MalwareInfo",
           "version": "1.0",
           "author": "Davide Arcuri and Andrea Garavaglia, LDO-CERT",
           "license": "AGPL-V3",
@@ -3319,7 +3319,7 @@
           "integration_type": null
         },
         {
-          "name": "EmergingThreats_DomainInfo",
+          "name": "EmergingThreats DomainInfo",
           "version": "1.0",
           "author": "Davide Arcuri and Andrea Garavaglia, LDO-CERT",
           "license": "AGPL-V3",
@@ -3335,7 +3335,7 @@
           "integration_type": null
         },
         {
-          "name": "EmergingThreats_IPInfo",
+          "name": "EmergingThreats IPInfo",
           "version": "1.0",
           "author": "Davide Arcuri and Andrea Garavaglia, LDO-CERT",
           "license": "AGPL-V3",
@@ -3607,7 +3607,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "JA4_FoxIO",
+          "name": "JA4 FoxIO",
           "version": "1.0",
           "author": "Florian Perret @cyber_pescadito",
           "license": "AGPL-V3",
@@ -3653,7 +3653,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "Gatewatcher_CTI",
+          "name": "Gatewatcher CTI",
           "version": "2.0",
           "author": "Gatewatcher",
           "license": "AGPL-3.0",
@@ -3675,7 +3675,7 @@
       ],
       "responders": [
         {
-          "name": "Gatewatcher_CTI_Identity",
+          "name": "Gatewatcher CTI Identity",
           "version": "1.0",
           "author": "Gatewatcher",
           "license": "AGPL-3.0",
@@ -3717,7 +3717,7 @@
       "analyzers": [],
       "responders": [
         {
-          "name": "Gmail_DeleteMessage",
+          "name": "Gmail DeleteMessage",
           "version": "1.0",
           "author": "David Strassegger, @oscd_initiative",
           "license": "MIT",
@@ -3732,7 +3732,7 @@
           "integration_type": null
         },
         {
-          "name": "Gmail_BlockDomain",
+          "name": "Gmail BlockDomain",
           "version": "1.0",
           "author": "David Strassegger, @oscd_initiative",
           "license": "MIT",
@@ -3747,7 +3747,7 @@
           "integration_type": null
         },
         {
-          "name": "Gmail_BlockSender",
+          "name": "Gmail BlockSender",
           "version": "1.0",
           "author": "David Strassegger, @oscd_initiative",
           "license": "MIT",
@@ -3762,7 +3762,7 @@
           "integration_type": null
         },
         {
-          "name": "Gmail_UnblockDomain",
+          "name": "Gmail UnblockDomain",
           "version": "1.0",
           "author": "David Strassegger, @oscd_initiative",
           "license": "MIT",
@@ -3777,7 +3777,7 @@
           "integration_type": null
         },
         {
-          "name": "Gmail_UnblockSender",
+          "name": "Gmail UnblockSender",
           "version": "1.0",
           "author": "David Strassegger, @oscd_initiative",
           "license": "MIT",
@@ -3818,7 +3818,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "GoogleDNS_resolve",
+          "name": "GoogleDNS resolve",
           "version": "1.0.0",
           "author": "CERT-LaPoste",
           "license": "AGPL-V3",
@@ -3922,7 +3922,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "GTI_ScanFile",
+          "name": "GTI ScanFile",
           "version": "1.0",
           "author": "Google",
           "license": "AGPL-V3",
@@ -3937,7 +3937,7 @@
           "integration_type": null
         },
         {
-          "name": "GTI_GetIOCReport",
+          "name": "GTI GetIOCReport",
           "version": "1.0",
           "author": "Google",
           "license": "AGPL-V3",
@@ -3957,7 +3957,7 @@
           "integration_type": null
         },
         {
-          "name": "GTI_ScanURL",
+          "name": "GTI ScanURL",
           "version": "1.0",
           "author": "Google",
           "license": "AGPL-V3",
@@ -3972,7 +3972,7 @@
           "integration_type": null
         },
         {
-          "name": "GTI_ScanPrivateFile",
+          "name": "GTI ScanPrivateFile",
           "version": "1.0",
           "author": "Google",
           "license": "AGPL-V3",
@@ -3987,7 +3987,7 @@
           "integration_type": null
         },
         {
-          "name": "GTI_ScanPrivateURL",
+          "name": "GTI ScanPrivateURL",
           "version": "1.0",
           "author": "Google",
           "license": "AGPL-V3",
@@ -4029,7 +4029,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "GoogleVisionAPI_WebDetection",
+          "name": "GoogleVisionAPI WebDetection",
           "version": "1.0.0",
           "author": "CERT-LaPoste",
           "license": "AGPL-V3",
@@ -4292,7 +4292,7 @@
           "integration_type": null
         },
         {
-          "name": "HarfangLab_SearchDriverByFileName",
+          "name": "HarfangLab SearchDriverByFileName",
           "version": "1.0",
           "author": "HarfangLab Product Team",
           "license": "AGPL-V3",
@@ -4322,7 +4322,7 @@
           "integration_type": null
         },
         {
-          "name": "HarfangLab_SearchDriverByHash",
+          "name": "HarfangLab SearchDriverByHash",
           "version": "1.0",
           "author": "HarfangLab Product Team",
           "license": "AGPL-V3",
@@ -4668,7 +4668,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "Hashdd_Status",
+          "name": "Hashdd Status",
           "version": "2.0",
           "author": "iosonogio, dadokkio",
           "license": "AGPLv3",
@@ -4683,7 +4683,7 @@
           "integration_type": null
         },
         {
-          "name": "Hashdd_Detail",
+          "name": "Hashdd Detail",
           "version": "2.0",
           "author": "iosonogio, dadokkio",
           "license": "AGPLv3",
@@ -4738,7 +4738,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "HIBP_Query",
+          "name": "HIBP Query",
           "version": "2.0",
           "author": "Matt Erasmus, Jonas Hergenhahn",
           "license": "AGPL-V3",
@@ -4793,7 +4793,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "Hunterio_DomainSearch",
+          "name": "Hunterio DomainSearch",
           "version": "1.0",
           "author": "Rémi Allain, Cyberprotect",
           "license": "AGPL-V3",
@@ -4846,7 +4846,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "HybridAnalysis_GetReport",
+          "name": "HybridAnalysis GetReport",
           "version": "1.0",
           "author": "Daniil Yugoslavskiy, Tieto",
           "license": "AGPL-V3",
@@ -4896,7 +4896,7 @@
       "analyzers": [],
       "responders": [
         {
-          "name": "QRadar_Auto_Closing_Offense",
+          "name": "QRadar Auto Closing Offense",
           "version": "1.0",
           "author": "Florian Perret",
           "license": "AGPL-V3",
@@ -4937,7 +4937,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "IBMXForce_Lookup",
+          "name": "IBMXForce Lookup",
           "version": "1.0",
           "author": "Davide Arcuri and Andrea Garavaglia, LDO-CERT",
           "license": "AGPL-V3",
@@ -5114,7 +5114,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "Investigate_Categorization",
+          "name": "Investigate Categorization",
           "version": "1.0",
           "author": "Cisco Umbrella Research @opendns",
           "license": "AGPL-V3",
@@ -5130,7 +5130,7 @@
           "integration_type": null
         },
         {
-          "name": "Investigate_Sample",
+          "name": "Investigate Sample",
           "version": "1.0",
           "author": "Cisco Umbrella Research @opendns",
           "license": "AGPL-V3",
@@ -5227,7 +5227,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "IPinfo_Details",
+          "name": "IPinfo Details",
           "version": "1.0",
           "author": "Manabu Niseki",
           "license": "MIT",
@@ -5242,7 +5242,7 @@
           "integration_type": null
         },
         {
-          "name": "IPinfo_Hosted_Domains",
+          "name": "IPinfo Hosted Domains",
           "version": "1.0",
           "author": "Manabu Niseki",
           "license": "MIT",
@@ -5329,7 +5329,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "isMalicious_GetReport",
+          "name": "isMalicious GetReport",
           "version": "1.0",
           "author": "isMalicious",
           "license": "AGPL-v3",
@@ -5426,7 +5426,7 @@
       "analyzers": [],
       "responders": [
         {
-          "name": "JAMFProtect_addHashtoPreventList",
+          "name": "JAMFProtect addHashtoPreventList",
           "version": "1.0",
           "author": "Fabien Bloume, StrangeBee",
           "license": "AGPL-V3",
@@ -5441,7 +5441,7 @@
           "integration_type": null
         },
         {
-          "name": "JAMFProtect_removeHashfromPreventList",
+          "name": "JAMFProtect removeHashfromPreventList",
           "version": "1.0",
           "author": "Fabien Bloume, StrangeBee",
           "license": "AGPL-V3",
@@ -5532,7 +5532,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "JoeSandbox_Url_Analysis",
+          "name": "JoeSandbox Url Analysis",
           "version": "2.0",
           "author": "CERT-BDF",
           "license": "AGPL-V3",
@@ -5547,7 +5547,7 @@
           "integration_type": null
         },
         {
-          "name": "JoeSandbox_File_Analysis_Inet",
+          "name": "JoeSandbox File Analysis Inet",
           "version": "3.0",
           "author": "CERT-BDF",
           "license": "AGPL-V3",
@@ -5562,7 +5562,7 @@
           "integration_type": null
         },
         {
-          "name": "JoeSandbox_File_Analysis_Noinet",
+          "name": "JoeSandbox File Analysis Noinet",
           "version": "3.0",
           "author": "CERT-BDF",
           "license": "AGPL-V3",
@@ -5607,7 +5607,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "Jupyter_Run_Notebook_Analyzer",
+          "name": "Jupyter Run Notebook Analyzer",
           "version": "1.0",
           "author": "Alexandre Demeyer",
           "license": "AGPL-V3",
@@ -5638,7 +5638,7 @@
       ],
       "responders": [
         {
-          "name": "Jupyter_Run_Notebook_Responder",
+          "name": "Jupyter Run Notebook Responder",
           "version": "1.0",
           "author": "Alexandre Demeyer",
           "license": "AGPL-V3",
@@ -5769,7 +5769,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "Ldap_Query",
+          "name": "Ldap Query",
           "version": "3.0",
           "author": "Florian Perret @cyber_pescadito & THA-CERT @tha_cert",
           "license": "AGPL-V3",
@@ -5815,7 +5815,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "Lookyloo_Screenshot",
+          "name": "Lookyloo Screenshot",
           "version": "1.0",
           "author": "THA-CERT - PVA",
           "license": "AGPL-V3",
@@ -5862,7 +5862,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "LupovisProwl_GetIPReputation",
+          "name": "LupovisProwl GetIPReputation",
           "version": "1.1",
           "author": "Lyle Docherty",
           "license": "AGPL-V3",
@@ -6045,7 +6045,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "Maltiverse_Report",
+          "name": "Maltiverse Report",
           "version": "1.0",
           "author": "ottimo",
           "license": "AGPL-V3",
@@ -6148,7 +6148,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "MalwareClustering_Search",
+          "name": "MalwareClustering Search",
           "version": "1.0",
           "author": "LDO-CERT",
           "license": "AGPL-V3",
@@ -6194,7 +6194,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "Malwares_GetReport",
+          "name": "Malwares GetReport",
           "version": "1.0",
           "author": "LDO-CERT",
           "license": "AGPL-V3",
@@ -6212,7 +6212,7 @@
           "integration_type": null
         },
         {
-          "name": "Malwares_Scan",
+          "name": "Malwares Scan",
           "version": "1.0",
           "author": "LDO-CERT",
           "license": "AGPL-V3",
@@ -6264,7 +6264,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "MaxMind_GeoIP",
+          "name": "MaxMind GeoIP",
           "version": "4.0",
           "author": "CERT-BDF",
           "license": "AGPL-V3",
@@ -6306,7 +6306,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "MetaDefenderCloud_Scan",
+          "name": "MetaDefenderCloud Scan",
           "version": "1.0",
           "author": "Davide Arcuri and Andrea Garavaglia, LDO-CERT",
           "license": "AGPL-V3",
@@ -6321,7 +6321,7 @@
           "integration_type": null
         },
         {
-          "name": "MetaDefenderCore_GetReport",
+          "name": "MetaDefenderCore GetReport",
           "version": "1.0",
           "author": "Davide Arcuri and Andrea Garavaglia, LDO-CERT",
           "license": "AGPL-V3",
@@ -6336,7 +6336,7 @@
           "integration_type": null
         },
         {
-          "name": "MetaDefenderCloud_Reputation",
+          "name": "MetaDefenderCloud Reputation",
           "version": "1.0",
           "author": "Davide Arcuri and Andrea Garavaglia, LDO-CERT",
           "license": "AGPL-V3",
@@ -6353,7 +6353,7 @@
           "integration_type": null
         },
         {
-          "name": "MetaDefenderCore_Scan",
+          "name": "MetaDefenderCore Scan",
           "version": "1.0",
           "author": "Davide Arcuri and Andrea Garavaglia, LDO-CERT",
           "license": "AGPL-V3",
@@ -6368,7 +6368,7 @@
           "integration_type": null
         },
         {
-          "name": "MetaDefenderCloud_GetReport",
+          "name": "MetaDefenderCloud GetReport",
           "version": "1.0",
           "author": "Davide Arcuri and Andrea Garavaglia, LDO-CERT",
           "license": "AGPL-V3",
@@ -6582,7 +6582,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "Mnemonic_pDNS_Public",
+          "name": "Mnemonic pDNS Public",
           "version": "3.0",
           "author": "Michael Stensrud, Nordic Financial CERT",
           "license": "AGPL-V3",
@@ -6598,7 +6598,7 @@
           "integration_type": null
         },
         {
-          "name": "Mnemonic_pDNS_Closed",
+          "name": "Mnemonic pDNS Closed",
           "version": "3.0",
           "author": "Michael Stensrud, Nordic Financial CERT",
           "license": "AGPL-V3",
@@ -6885,7 +6885,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "MSDefenderOffice365_SafeLinksDecoder.json",
+          "name": "MSDefenderOffice365 SafeLinksDecoder.json",
           "version": "1.0",
           "author": "Louis HUSSON",
           "license": "AGPL-V3",
@@ -6902,7 +6902,7 @@
       ],
       "responders": [
         {
-          "name": "MSDefenderOffice365_allow",
+          "name": "MSDefenderOffice365 allow",
           "version": "1.0",
           "author": "Vito Piserchia",
           "license": "AGPL-V3",
@@ -6917,7 +6917,7 @@
           "integration_type": null
         },
         {
-          "name": "MSDefenderOffice365_block",
+          "name": "MSDefenderOffice365 block",
           "version": "1.0",
           "author": "Joe Lazaro",
           "license": "AGPL-V3",
@@ -6932,7 +6932,7 @@
           "integration_type": null
         },
         {
-          "name": "MSDefenderOffice365_unblock",
+          "name": "MSDefenderOffice365 unblock",
           "version": "1.0",
           "author": "Joe Lazaro",
           "license": "AGPL-V3",
@@ -6947,7 +6947,7 @@
           "integration_type": null
         },
         {
-          "name": "MSDefenderOffice365_disallow",
+          "name": "MSDefenderOffice365 disallow",
           "version": "1.0",
           "author": "Vito Piserchia",
           "license": "AGPL-V3",
@@ -7003,7 +7003,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "MSEntraID_GetDirectoryAuditLogs",
+          "name": "MSEntraID GetDirectoryAuditLogs",
           "version": "1.0",
           "author": "Fabien Bloume, StrangeBee",
           "license": "AGPL-V3",
@@ -7018,7 +7018,7 @@
           "integration_type": null
         },
         {
-          "name": "MSEntraID_GetSignIns",
+          "name": "MSEntraID GetSignIns",
           "version": "1.0",
           "author": "@jahamilto",
           "license": "AGPL-V3",
@@ -7033,7 +7033,7 @@
           "integration_type": null
         },
         {
-          "name": "MSEntraID_GetUserInfo",
+          "name": "MSEntraID GetUserInfo",
           "version": "1.0",
           "author": "Fabien Bloume, StrangeBee",
           "license": "AGPL-V3",
@@ -7051,7 +7051,7 @@
           "integration_type": null
         },
         {
-          "name": "MSEntraID_GetManagedDevicesInfo",
+          "name": "MSEntraID GetManagedDevicesInfo",
           "version": "1.0",
           "author": "Fabien Bloume, StrangeBee",
           "license": "AGPL-V3",
@@ -7069,7 +7069,7 @@
       ],
       "responders": [
         {
-          "name": "MSEntraID_enableUser",
+          "name": "MSEntraID enableUser",
           "version": "1.0",
           "author": "nusatanra-self, StrangeBee",
           "license": "AGPL-V3",
@@ -7084,7 +7084,7 @@
           "integration_type": null
         },
         {
-          "name": "MSEntraID_disableUser",
+          "name": "MSEntraID disableUser",
           "version": "1.0",
           "author": "nusatanra-self, StrangeBee",
           "license": "AGPL-V3",
@@ -7099,7 +7099,7 @@
           "integration_type": null
         },
         {
-          "name": "MSEntraID_ForcePasswordReset",
+          "name": "MSEntraID ForcePasswordReset",
           "version": "1.0",
           "author": "nusatanra-self, StrangeBee",
           "license": "AGPL-V3",
@@ -7114,7 +7114,7 @@
           "integration_type": null
         },
         {
-          "name": "MSEntraID_revokeSignInSessions",
+          "name": "MSEntraID revokeSignInSessions",
           "version": "1.1",
           "author": "Daniel Weiner @dmweiner; revised by @jahamilto; Fabien Bloume, StrangeBee",
           "license": "AGPL-V3",
@@ -7129,7 +7129,7 @@
           "integration_type": null
         },
         {
-          "name": "MSEntraID_ForcePasswordResetWithMFA",
+          "name": "MSEntraID ForcePasswordResetWithMFA",
           "version": "1.0",
           "author": "nusatanra-self, StrangeBee",
           "license": "AGPL-V3",
@@ -7170,7 +7170,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "Msg_Parser",
+          "name": "Msg Parser",
           "version": "3.0",
           "author": "CERT-BDF",
           "license": "AGPL-V3",
@@ -7368,7 +7368,7 @@
       "analyzers": [],
       "responders": [
         {
-          "name": "Netcraft_TakedownPhishingURL",
+          "name": "Netcraft TakedownPhishingURL",
           "version": "1.0",
           "author": "Keijo Korte - @korteke",
           "license": "AGPL-V3",
@@ -7510,7 +7510,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "ONYPHE_Search",
+          "name": "ONYPHE Search",
           "version": "1.1",
           "author": "Pierre Baudry, Adrien Barchapt, Andrea Garavaglia, Davide Arcuri, James Atack",
           "license": "AGPL-V3",
@@ -7528,7 +7528,7 @@
           "integration_type": null
         },
         {
-          "name": "ONYPHE_Vulnscan",
+          "name": "ONYPHE Vulnscan",
           "version": "1.1",
           "author": "Pierre Baudry, Adrien Barchapt, Andrea Garavaglia, Davide Arcuri, James Atack",
           "license": "AGPL-V3",
@@ -7546,7 +7546,7 @@
           "integration_type": null
         },
         {
-          "name": "ONYPHE_ASM",
+          "name": "ONYPHE ASM",
           "version": "1.1",
           "author": "Pierre Baudry, Adrien Barchapt, Andrea Garavaglia, Davide Arcuri, James Atack",
           "license": "AGPL-V3",
@@ -7564,7 +7564,7 @@
           "integration_type": null
         },
         {
-          "name": "ONYPHE_Ctiscan",
+          "name": "ONYPHE Ctiscan",
           "version": "1.0",
           "author": "James Atack",
           "license": "AGPL-V3",
@@ -7584,7 +7584,7 @@
           "integration_type": null
         },
         {
-          "name": "ONYPHE_Summary_API",
+          "name": "ONYPHE Summary API",
           "version": "1.2",
           "author": "Pierre Baudry, Adrien Barchapt, Andrea Garavaglia, Davide Arcuri, James Atack",
           "license": "AGPL-V3",
@@ -7631,7 +7631,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "ONYPHE_OnDemandScan",
+          "name": "ONYPHE OnDemandScan",
           "version": "1.0",
           "author": "James Atack",
           "license": "AGPL-V3",
@@ -7678,7 +7678,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "OpenCTI_SearchExactObservable",
+          "name": "OpenCTI SearchExactObservable",
           "version": "2.0",
           "author": "ANSSI",
           "license": "AGPL-V3",
@@ -7706,7 +7706,7 @@
           "integration_type": null
         },
         {
-          "name": "OpenCTI_SearchObservables",
+          "name": "OpenCTI SearchObservables",
           "version": "2.0",
           "author": "ANSSI",
           "license": "AGPL-V3",
@@ -7870,7 +7870,7 @@
       "analyzers": [],
       "responders": [
         {
-          "name": "PaloAltoCortexXDR_isolate",
+          "name": "PaloAltoCortexXDR isolate",
           "version": "1.0",
           "author": "Joe Lazaro",
           "license": "AGPL-V3",
@@ -7885,7 +7885,7 @@
           "integration_type": null
         },
         {
-          "name": "PaloAltoCortexXDR_scan",
+          "name": "PaloAltoCortexXDR scan",
           "version": "1.0",
           "author": "Joe Lazaro",
           "license": "AGPL-V3",
@@ -7900,7 +7900,7 @@
           "integration_type": null
         },
         {
-          "name": "PaloAltoCortexXDR_unisolate",
+          "name": "PaloAltoCortexXDR unisolate",
           "version": "1.0",
           "author": "Joe Lazaro",
           "license": "AGPL-V3",
@@ -7942,7 +7942,7 @@
       "analyzers": [],
       "responders": [
         {
-          "name": "PaloAltoNGFW_unblock_external_domain",
+          "name": "PaloAltoNGFW unblock external domain",
           "version": "1.0.0",
           "author": "Maxim Konakin, OSCD Initiative",
           "license": "AGPL-V3",
@@ -7959,7 +7959,7 @@
           "integration_type": null
         },
         {
-          "name": "PaloAltoNGFW_block_internal_IP_address",
+          "name": "PaloAltoNGFW block internal IP address",
           "version": "2.0.0",
           "author": "Maxim Konakin, OSCD Initiative",
           "license": "AGPL-V3",
@@ -7976,7 +7976,7 @@
           "integration_type": null
         },
         {
-          "name": "PaloAltoNGFW_block_port_for_external_communication",
+          "name": "PaloAltoNGFW block port for external communication",
           "version": "2.0.0",
           "author": "Maxim Konakin, OSCD Initiative",
           "license": "AGPL-V3",
@@ -7993,7 +7993,7 @@
           "integration_type": null
         },
         {
-          "name": "PaloAltoNGFW_unblock_internal_domain",
+          "name": "PaloAltoNGFW unblock internal domain",
           "version": "1.0.0",
           "author": "Maxim Konakin, OSCD Initiative",
           "license": "AGPL-V3",
@@ -8010,7 +8010,7 @@
           "integration_type": null
         },
         {
-          "name": "PaloAltoNGFW_block_internal_user",
+          "name": "PaloAltoNGFW block internal user",
           "version": "1.0.0",
           "author": "Maxim Konakin, OSCD Initiative",
           "license": "AGPL-V3",
@@ -8027,7 +8027,7 @@
           "integration_type": null
         },
         {
-          "name": "PaloAltoNGFW_block_port_for_internal_communication",
+          "name": "PaloAltoNGFW block port for internal communication",
           "version": "2.0.0",
           "author": "Maxim Konakin, OSCD Initiative",
           "license": "AGPL-V3",
@@ -8044,7 +8044,7 @@
           "integration_type": null
         },
         {
-          "name": "PaloAltoNGFW_block_internal_domain",
+          "name": "PaloAltoNGFW block internal domain",
           "version": "2.0.0",
           "author": "Maxim Konakin, OSCD Initiative",
           "license": "AGPL-V3",
@@ -8061,7 +8061,7 @@
           "integration_type": null
         },
         {
-          "name": "PaloAltoNGFW_unblock_external_user",
+          "name": "PaloAltoNGFW unblock external user",
           "version": "1.0.0",
           "author": "Maxim Konakin, OSCD Initiative",
           "license": "AGPL-V3",
@@ -8078,7 +8078,7 @@
           "integration_type": null
         },
         {
-          "name": "PaloAltoNGFW_unblock_port_for_external_communication",
+          "name": "PaloAltoNGFW unblock port for external communication",
           "version": "1.0.0",
           "author": "Maxim Konakin, OSCD Initiative",
           "license": "AGPL-V3",
@@ -8095,7 +8095,7 @@
           "integration_type": null
         },
         {
-          "name": "PaloAltoNGFW_block_external_user",
+          "name": "PaloAltoNGFW block external user",
           "version": "1.0.0",
           "author": "Maxim Konakin, OSCD Initiative",
           "license": "AGPL-V3",
@@ -8112,7 +8112,7 @@
           "integration_type": null
         },
         {
-          "name": "PaloAltoNGFW_block_external_domain",
+          "name": "PaloAltoNGFW block external domain",
           "version": "2.0.0",
           "author": "Maxim Konakin, OSCD Initiative",
           "license": "AGPL-V3",
@@ -8129,7 +8129,7 @@
           "integration_type": null
         },
         {
-          "name": "PaloAltoNGFW_unblock_internal_user",
+          "name": "PaloAltoNGFW unblock internal user",
           "version": "1.0.0",
           "author": "Maxim Konakin, OSCD Initiative",
           "license": "AGPL-V3",
@@ -8146,7 +8146,7 @@
           "integration_type": null
         },
         {
-          "name": "PaloAltoNGFW_block_external_IP_address",
+          "name": "PaloAltoNGFW block external IP address",
           "version": "2.0.0",
           "author": "Maxim Konakin, OSCD Initiative",
           "license": "AGPL-V3",
@@ -8163,7 +8163,7 @@
           "integration_type": null
         },
         {
-          "name": "PaloAltoNGFW_unblock_external_IP_address",
+          "name": "PaloAltoNGFW unblock external IP address",
           "version": "1.0.0",
           "author": "Maxim Konakin, OSCD Initiative",
           "license": "AGPL-V3",
@@ -8180,7 +8180,7 @@
           "integration_type": null
         },
         {
-          "name": "PaloAltoNGFW_unblock_port_for_internal_communication",
+          "name": "PaloAltoNGFW unblock port for internal communication",
           "version": "1.0.0",
           "author": "Maxim Konakin, OSCD Initiative",
           "license": "AGPL-V3",
@@ -8197,7 +8197,7 @@
           "integration_type": null
         },
         {
-          "name": "PaloAltoNGFW_unblock_internal_IP_address",
+          "name": "PaloAltoNGFW unblock internal IP address",
           "version": "1.0.0",
           "author": "Maxim Konakin, OSCD Initiative",
           "license": "AGPL-V3",
@@ -8262,7 +8262,7 @@
       ],
       "responders": [
         {
-          "name": "PaloAltoWildFire_URL_submission",
+          "name": "PaloAltoWildFire URL submission",
           "version": "1.0",
           "author": "Keijo Korte - @korteke",
           "license": "AGPL-V3",
@@ -8305,7 +8305,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "PassiveTotal_Malware",
+          "name": "PassiveTotal Malware",
           "version": "2.0",
           "author": "CERT-BDF",
           "license": "AGPL-V3",
@@ -8322,7 +8322,7 @@
           "integration_type": null
         },
         {
-          "name": "PassiveTotal_Ssl_Certificate_Details",
+          "name": "PassiveTotal Ssl Certificate Details",
           "version": "2.0",
           "author": "CERT-BDF",
           "license": "AGPL-V3",
@@ -8338,7 +8338,7 @@
           "integration_type": null
         },
         {
-          "name": "PassiveTotal_Enrichment",
+          "name": "PassiveTotal Enrichment",
           "version": "2.0",
           "author": "CERT-BDF",
           "license": "AGPL-V3",
@@ -8355,7 +8355,7 @@
           "integration_type": null
         },
         {
-          "name": "PassiveTotal_Whois_Details",
+          "name": "PassiveTotal Whois Details",
           "version": "2.0",
           "author": "CERT-BDF",
           "license": "AGPL-V3",
@@ -8372,7 +8372,7 @@
           "integration_type": null
         },
         {
-          "name": "PassiveTotal_Passive_Dns",
+          "name": "PassiveTotal Passive Dns",
           "version": "2.1",
           "author": "CERT-BDF",
           "license": "AGPL-V3",
@@ -8389,7 +8389,7 @@
           "integration_type": null
         },
         {
-          "name": "PassiveTotal_Components",
+          "name": "PassiveTotal Components",
           "version": "2.0",
           "author": "Brandon Dixon (9bplus)",
           "license": "AGPL-V3",
@@ -8406,7 +8406,7 @@
           "integration_type": null
         },
         {
-          "name": "PassiveTotal_Unique_Resolutions",
+          "name": "PassiveTotal Unique Resolutions",
           "version": "2.0",
           "author": "CERT-BDF",
           "license": "AGPL-V3",
@@ -8423,7 +8423,7 @@
           "integration_type": null
         },
         {
-          "name": "PassiveTotal_Ssl_Certificate_History",
+          "name": "PassiveTotal Ssl Certificate History",
           "version": "2.0",
           "author": "CERT-BDF",
           "license": "AGPL-V3",
@@ -8439,7 +8439,7 @@
           "integration_type": null
         },
         {
-          "name": "PassiveTotal_Osint",
+          "name": "PassiveTotal Osint",
           "version": "2.0",
           "author": "CERT-BDF",
           "license": "AGPL-V3",
@@ -8456,7 +8456,7 @@
           "integration_type": null
         },
         {
-          "name": "PassiveTotal_Trackers",
+          "name": "PassiveTotal Trackers",
           "version": "2.0",
           "author": "Brandon Dixon (9bplus)",
           "license": "AGPL-V3",
@@ -8473,7 +8473,7 @@
           "integration_type": null
         },
         {
-          "name": "PassiveTotal_Host_Pairs",
+          "name": "PassiveTotal Host Pairs",
           "version": "2.0",
           "author": "Brandon Dixon (9bplus)",
           "license": "AGPL-V3",
@@ -8520,7 +8520,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "Patrowl_GetReport",
+          "name": "Patrowl GetReport",
           "version": "1.0",
           "author": "Nicolas Mattiocco",
           "license": "AGPL-V3",
@@ -8564,7 +8564,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "PayloadSecurity_File_Analysis",
+          "name": "PayloadSecurity File Analysis",
           "version": "1.0",
           "author": "Emmanuel Torquato",
           "license": "AGPL-V3",
@@ -8579,7 +8579,7 @@
           "integration_type": null
         },
         {
-          "name": "PayloadSecurity_Url_Analysis",
+          "name": "PayloadSecurity Url Analysis",
           "version": "1.0",
           "author": "Emmanuel Torquato",
           "license": "AGPL-V3",
@@ -8627,7 +8627,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "PhishingInitiative_Scan",
+          "name": "PhishingInitiative Scan",
           "version": "1.0",
           "author": "Remi Pointel",
           "license": "AGPL-V3",
@@ -8642,7 +8642,7 @@
           "integration_type": null
         },
         {
-          "name": "PhishingInitiative_Lookup",
+          "name": "PhishingInitiative Lookup",
           "version": "2.0",
           "author": "CERT-BDF",
           "license": "AGPL-V3",
@@ -8696,7 +8696,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "PhishTank_CheckURL",
+          "name": "PhishTank CheckURL",
           "version": "2.1",
           "author": "Eric Capuano",
           "license": "AGPL-V3",
@@ -8788,7 +8788,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "Proofpoint_Lookup",
+          "name": "Proofpoint Lookup",
           "version": "1.0",
           "author": "Emmanuel Torquato",
           "license": "AGPL-V3",
@@ -8853,7 +8853,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "Pulsedive_GetIndicator",
+          "name": "Pulsedive GetIndicator",
           "version": "1.0",
           "author": "Nils Kuhnert",
           "license": "AGPL-V3",
@@ -8999,7 +8999,7 @@
       "analyzers": [],
       "responders": [
         {
-          "name": "Redmine_Issue",
+          "name": "Redmine Issue",
           "version": "1.0",
           "author": "Marc-André DOLL",
           "license": "AGPL-V3",
@@ -9041,7 +9041,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "RiskIQ_Cookies",
+          "name": "RiskIQ Cookies",
           "version": "1.0",
           "author": "RiskIQ",
           "license": "AGPL-V3",
@@ -9058,7 +9058,7 @@
           "integration_type": null
         },
         {
-          "name": "RiskIQ_Whois",
+          "name": "RiskIQ Whois",
           "version": "1.0",
           "author": "RiskIQ",
           "license": "AGPL-V3",
@@ -9075,7 +9075,7 @@
           "integration_type": null
         },
         {
-          "name": "RiskIQ_Components",
+          "name": "RiskIQ Components",
           "version": "1.0",
           "author": "RiskIQ",
           "license": "AGPL-V3",
@@ -9092,7 +9092,7 @@
           "integration_type": null
         },
         {
-          "name": "RiskIQ_Malware",
+          "name": "RiskIQ Malware",
           "version": "1.0",
           "author": "RiskIQ",
           "license": "AGPL-V3",
@@ -9109,7 +9109,7 @@
           "integration_type": null
         },
         {
-          "name": "RiskIQ_Reputation",
+          "name": "RiskIQ Reputation",
           "version": "1.0",
           "author": "RiskIQ",
           "license": "AGPL-V3",
@@ -9126,7 +9126,7 @@
           "integration_type": null
         },
         {
-          "name": "RiskIQ_Trackers",
+          "name": "RiskIQ Trackers",
           "version": "1.0",
           "author": "RiskIQ",
           "license": "AGPL-V3",
@@ -9143,7 +9143,7 @@
           "integration_type": null
         },
         {
-          "name": "RiskIQ_Subdomains",
+          "name": "RiskIQ Subdomains",
           "version": "1.0",
           "author": "RiskIQ",
           "license": "AGPL-V3",
@@ -9159,7 +9159,7 @@
           "integration_type": null
         },
         {
-          "name": "RiskIQ_Artifacts",
+          "name": "RiskIQ Artifacts",
           "version": "1.0",
           "author": "RiskIQ",
           "license": "AGPL-V3",
@@ -9176,7 +9176,7 @@
           "integration_type": null
         },
         {
-          "name": "RiskIQ_Projects",
+          "name": "RiskIQ Projects",
           "version": "1.0",
           "author": "RiskIQ",
           "license": "AGPL-V3",
@@ -9193,7 +9193,7 @@
           "integration_type": null
         },
         {
-          "name": "RiskIQ_HostpairParents",
+          "name": "RiskIQ HostpairParents",
           "version": "1.0",
           "author": "RiskIQ",
           "license": "AGPL-V3",
@@ -9210,7 +9210,7 @@
           "integration_type": null
         },
         {
-          "name": "RiskIQ_HostpairChildren",
+          "name": "RiskIQ HostpairChildren",
           "version": "1.0",
           "author": "RiskIQ",
           "license": "AGPL-V3",
@@ -9227,7 +9227,7 @@
           "integration_type": null
         },
         {
-          "name": "RiskIQ_Summary",
+          "name": "RiskIQ Summary",
           "version": "1.0",
           "author": "RiskIQ",
           "license": "AGPL-V3",
@@ -9244,7 +9244,7 @@
           "integration_type": null
         },
         {
-          "name": "RiskIQ_Resolutions",
+          "name": "RiskIQ Resolutions",
           "version": "1.0",
           "author": "RiskIQ",
           "license": "AGPL-V3",
@@ -9261,7 +9261,7 @@
           "integration_type": null
         },
         {
-          "name": "RiskIQ_Services",
+          "name": "RiskIQ Services",
           "version": "1.0",
           "author": "RiskIQ",
           "license": "AGPL-V3",
@@ -9276,7 +9276,7 @@
           "integration_type": null
         },
         {
-          "name": "RiskIQ_Articles",
+          "name": "RiskIQ Articles",
           "version": "1.0",
           "author": "RiskIQ",
           "license": "AGPL-V3",
@@ -9293,7 +9293,7 @@
           "integration_type": null
         },
         {
-          "name": "RiskIQ_Certificates",
+          "name": "RiskIQ Certificates",
           "version": "1.0",
           "author": "RiskIQ",
           "license": "AGPL-V3",
@@ -9312,7 +9312,7 @@
       ],
       "responders": [
         {
-          "name": "RiskIQ_PushArtifactToProject",
+          "name": "RiskIQ PushArtifactToProject",
           "version": "1.0",
           "author": "RiskIQ",
           "license": "AGPL-V3",
@@ -9353,7 +9353,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "Robtex_Forward_PDNS_Query",
+          "name": "Robtex Forward PDNS Query",
           "version": "1.0",
           "author": "Nils Kuhnert",
           "license": "AGPL-V3",
@@ -9369,7 +9369,7 @@
           "integration_type": null
         },
         {
-          "name": "Robtex_IP_Query",
+          "name": "Robtex IP Query",
           "version": "1.0",
           "author": "Nils Kuhnert",
           "license": "AGPL-V3",
@@ -9384,7 +9384,7 @@
           "integration_type": null
         },
         {
-          "name": "Robtex_Reverse_PDNS_Query",
+          "name": "Robtex Reverse PDNS Query",
           "version": "1.0",
           "author": "Nils Kuhnert",
           "license": "AGPL-V3",
@@ -9470,7 +9470,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "SecurityTrails_Whois",
+          "name": "SecurityTrails Whois",
           "version": "1.0",
           "author": "Manabu Niseki, @ninoseki",
           "license": "MIT",
@@ -9485,7 +9485,7 @@
           "integration_type": null
         },
         {
-          "name": "SecurityTrails_Passive_DNS",
+          "name": "SecurityTrails Passive DNS",
           "version": "1.0",
           "author": "Manabu Niseki, @ninoseki",
           "license": "MIT",
@@ -9530,7 +9530,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "SEKOIAIntelligenceCenter_Indicators",
+          "name": "SEKOIAIntelligenceCenter Indicators",
           "version": "1.0",
           "author": "SEKOIA",
           "license": "AGPL-V3",
@@ -9549,7 +9549,7 @@
           "integration_type": null
         },
         {
-          "name": "SEKOIAIntelligenceCenter_Observables",
+          "name": "SEKOIAIntelligenceCenter Observables",
           "version": "1.0",
           "author": "SEKOIA",
           "license": "AGPL-V3",
@@ -9568,7 +9568,7 @@
           "integration_type": null
         },
         {
-          "name": "SEKOIAIntelligenceCenter_Context",
+          "name": "SEKOIAIntelligenceCenter Context",
           "version": "1.0",
           "author": "SEKOIA",
           "license": "AGPL-V3",
@@ -9660,7 +9660,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "SentinelOne_DNSReverseLookup",
+          "name": "SentinelOne DNSReverseLookup",
           "version": "1.0",
           "author": "Fabien Bloume, StrangeBee",
           "license": "AGPL-V3",
@@ -9675,7 +9675,7 @@
           "integration_type": null
         },
         {
-          "name": "SentinelOne_DeepVisibility_DNSQuery",
+          "name": "SentinelOne DeepVisibility DNSQuery",
           "version": "1.0",
           "author": "Joe Vasquez",
           "license": "AGPL-V3",
@@ -9692,7 +9692,7 @@
           "integration_type": null
         },
         {
-          "name": "SentinelOne_DNSQuery",
+          "name": "SentinelOne DNSQuery",
           "version": "2.0",
           "author": "Joe Vasquez; Fabien Bloume, StrangeBee",
           "license": "AGPL-V3",
@@ -9711,7 +9711,7 @@
       ],
       "responders": [
         {
-          "name": "SentinelOne_Hash_Blacklister",
+          "name": "SentinelOne Hash Blacklister",
           "version": "1.0",
           "author": "Joe Vasquez",
           "license": "AGPL-V3",
@@ -9766,7 +9766,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "Shodan_Host",
+          "name": "Shodan Host",
           "version": "1.0",
           "author": "Sebastien Larinier @Sebdraven",
           "license": "AGPL-V3",
@@ -9781,7 +9781,7 @@
           "integration_type": null
         },
         {
-          "name": "Shodan_Search",
+          "name": "Shodan Search",
           "version": "2.0",
           "author": "Sebastien Larinier @Sebdraven",
           "license": "AGPL-V3",
@@ -9796,7 +9796,7 @@
           "integration_type": null
         },
         {
-          "name": "Shodan_InfoDomain",
+          "name": "Shodan InfoDomain",
           "version": "1.0",
           "author": "ANSSI",
           "license": "AGPL-V3",
@@ -9812,7 +9812,7 @@
           "integration_type": null
         },
         {
-          "name": "Shodan_DNSResolve",
+          "name": "Shodan DNSResolve",
           "version": "1.0",
           "author": "ANSSI",
           "license": "AGPL-V3",
@@ -9828,7 +9828,7 @@
           "integration_type": null
         },
         {
-          "name": "Shodan_ReverseDNS",
+          "name": "Shodan ReverseDNS",
           "version": "1.0",
           "author": "ANSSI",
           "license": "AGPL-V3",
@@ -9843,7 +9843,7 @@
           "integration_type": null
         },
         {
-          "name": "Shodan_Host_History",
+          "name": "Shodan Host History",
           "version": "1.0",
           "author": "ANSSI",
           "license": "AGPL-V3",
@@ -10035,7 +10035,7 @@
       "analyzers": [],
       "responders": [
         {
-          "name": "Slack_CreateChannel",
+          "name": "Slack CreateChannel",
           "version": "1.0",
           "author": "Fabien Bloume, StrangeBee",
           "license": "AGPL-V3",
@@ -10050,7 +10050,7 @@
           "integration_type": null
         },
         {
-          "name": "Slack_SyncChannel",
+          "name": "Slack SyncChannel",
           "version": "1.0",
           "author": "Fabien Bloume, StrangeBee",
           "license": "AGPL-V3",
@@ -10146,7 +10146,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "SophosIntelix_Submit_Static",
+          "name": "SophosIntelix Submit Static",
           "version": "0.1",
           "author": "SOL",
           "license": "AGPL-V3",
@@ -10161,7 +10161,7 @@
           "integration_type": null
         },
         {
-          "name": "SophosIntelix_Submit_Dynamic",
+          "name": "SophosIntelix Submit Dynamic",
           "version": "0.1",
           "author": "SOL",
           "license": "AGPL-V3",
@@ -10176,7 +10176,7 @@
           "integration_type": null
         },
         {
-          "name": "SophosIntelix_GetReport",
+          "name": "SophosIntelix GetReport",
           "version": "0.3",
           "author": "SOL",
           "license": "AGPL-V3",
@@ -10335,7 +10335,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "Splunk_Search_URL_URI_Path",
+          "name": "Splunk Search URL URI Path",
           "version": "3.0",
           "author": "Unit777, LetMeR00t",
           "license": "AGPL-V3",
@@ -10351,7 +10351,7 @@
           "integration_type": null
         },
         {
-          "name": "Splunk_Search_User",
+          "name": "Splunk Search User",
           "version": "3.0",
           "author": "LetMeR00t",
           "license": "AGPL-V3",
@@ -10366,7 +10366,7 @@
           "integration_type": null
         },
         {
-          "name": "Splunk_Search_Mail_Subject",
+          "name": "Splunk Search Mail Subject",
           "version": "3.0",
           "author": "Unit777, LetMeR00t",
           "license": "AGPL-V3",
@@ -10382,7 +10382,7 @@
           "integration_type": null
         },
         {
-          "name": "Splunk_Search_Registry",
+          "name": "Splunk Search Registry",
           "version": "3.0",
           "author": "Unit777, LetMeR00t",
           "license": "AGPL-V3",
@@ -10397,7 +10397,7 @@
           "integration_type": null
         },
         {
-          "name": "Splunk_Search_Mail_Email",
+          "name": "Splunk Search Mail Email",
           "version": "3.0",
           "author": "Unit777, LetMeR00t",
           "license": "AGPL-V3",
@@ -10413,7 +10413,7 @@
           "integration_type": null
         },
         {
-          "name": "Splunk_Search_User_Agent",
+          "name": "Splunk Search User Agent",
           "version": "3.0",
           "author": "Unit777, LetMeR00t",
           "license": "AGPL-V3",
@@ -10428,7 +10428,7 @@
           "integration_type": null
         },
         {
-          "name": "Splunk_Search_IP",
+          "name": "Splunk Search IP",
           "version": "3.0",
           "author": "Unit777, LetMeR00t",
           "license": "AGPL-V3",
@@ -10443,7 +10443,7 @@
           "integration_type": null
         },
         {
-          "name": "Splunk_Search_Hash",
+          "name": "Splunk Search Hash",
           "version": "3.0",
           "author": "Unit777, LetMeR00t",
           "license": "AGPL-V3",
@@ -10458,7 +10458,7 @@
           "integration_type": null
         },
         {
-          "name": "Splunk_Search_Domain_FQDN",
+          "name": "Splunk Search Domain FQDN",
           "version": "3.0",
           "author": "Unit777, LetMeR00t",
           "license": "AGPL-V3",
@@ -10474,7 +10474,7 @@
           "integration_type": null
         },
         {
-          "name": "Splunk_Search_File_Filename",
+          "name": "Splunk Search File Filename",
           "version": "3.0",
           "author": "Unit777, LetMeR00t",
           "license": "AGPL-V3",
@@ -10490,7 +10490,7 @@
           "integration_type": null
         },
         {
-          "name": "Splunk_Search_Other",
+          "name": "Splunk Search Other",
           "version": "3.0",
           "author": "Unit777, LetMeR00t",
           "license": "AGPL-V3",
@@ -10543,7 +10543,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "StamusNetworks_HostID",
+          "name": "StamusNetworks HostID",
           "version": "1.0",
           "author": "Stamus Networks",
           "license": "AGPL-V3",
@@ -10795,7 +10795,7 @@
           "integration_type": null
         },
         {
-          "name": "DevTools_Echo_Responder",
+          "name": "DevTools Echo Responder",
           "version": "1.0",
           "author": "Fabien Bloume, StrangeBee",
           "license": "AGPL-V3",
@@ -10843,7 +10843,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "DevTools_Echo_Analyzer",
+          "name": "DevTools Echo Analyzer",
           "version": "1.0",
           "author": "Fabien Bloume, StrangeBee",
           "license": "AGPL-V3",
@@ -11092,7 +11092,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "THOR_Thunderstorm_ScanSample",
+          "name": "THOR Thunderstorm ScanSample",
           "version": "0.3.1",
           "author": "Florian Roth",
           "license": "AGPL-V3",
@@ -11351,7 +11351,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "UrlDNA_New_Scan",
+          "name": "UrlDNA New Scan",
           "version": "0.1.0",
           "author": "urlDNA.io (@urldna); Fabien Bloume, StrangeBee",
           "license": "MIT",
@@ -11366,7 +11366,7 @@
           "integration_type": null
         },
         {
-          "name": "UrlDNA_Search",
+          "name": "UrlDNA Search",
           "version": "0.1.0",
           "author": "urlDNA.io (@urldna); Fabien Bloume, StrangeBee",
           "license": "MIT",
@@ -11485,7 +11485,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "Urlscan.io_Scan",
+          "name": "Urlscan.io Scan",
           "version": "0.1.0",
           "author": "ninoseki, Kyle Parrish (@arnydo)",
           "license": "MIT",
@@ -11502,7 +11502,7 @@
           "integration_type": null
         },
         {
-          "name": "Urlscan.io_Search",
+          "name": "Urlscan.io Search",
           "version": "0.1.1",
           "author": "ninoseki, Kyle Parrish (@arnydo)",
           "license": "MIT",
@@ -11551,7 +11551,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "Valhalla_GetRuleMatches",
+          "name": "Valhalla GetRuleMatches",
           "version": "0.3.1",
           "author": "Florian Roth",
           "license": "AGPL-V3",
@@ -11799,7 +11799,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "VirusTotal_GetReport",
+          "name": "VirusTotal GetReport",
           "version": "3.1",
           "author": "CERT-BDF, StrangeBee",
           "license": "AGPL-V3",
@@ -11819,7 +11819,7 @@
           "integration_type": null
         },
         {
-          "name": "VirusTotal_Rescan",
+          "name": "VirusTotal Rescan",
           "version": "3.1",
           "author": "CERT-LDO",
           "license": "AGPL-V3",
@@ -11834,7 +11834,7 @@
           "integration_type": null
         },
         {
-          "name": "VirusTotal_Scan",
+          "name": "VirusTotal Scan",
           "version": "3.1",
           "author": "CERT-BDF, StrangeBee",
           "license": "AGPL-V3",
@@ -11850,7 +11850,7 @@
           "integration_type": null
         },
         {
-          "name": "VirusTotal_DownloadSample",
+          "name": "VirusTotal DownloadSample",
           "version": "3.1",
           "author": "LDO-CERT",
           "license": "AGPL-V3",
@@ -11939,7 +11939,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "Vulners_IOC",
+          "name": "Vulners IOC",
           "version": "1.0",
           "author": "Dmitry Uchakin, Vulners team",
           "license": "AGPL-V3",
@@ -11956,7 +11956,7 @@
           "integration_type": null
         },
         {
-          "name": "Vulners_CVE",
+          "name": "Vulners CVE",
           "version": "1.0",
           "author": "Dmitry Uchakin, Vulners team",
           "license": "AGPL-V3",
@@ -11998,7 +11998,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "Watcher_Check",
+          "name": "Watcher Check",
           "version": "1.0",
           "author": "THA-CERT // YNE",
           "license": "AGPL-V3",
@@ -12015,7 +12015,7 @@
       ],
       "responders": [
         {
-          "name": "Watcher_Transfer",
+          "name": "Watcher Transfer",
           "version": "1.1",
           "author": "THA-CERT // YNE",
           "license": "AGPL-V3",
@@ -12030,7 +12030,7 @@
           "integration_type": null
         },
         {
-          "name": "Watcher_Remove",
+          "name": "Watcher Remove",
           "version": "1.1",
           "author": "THA-CERT // YNE",
           "license": "AGPL-V3",
@@ -12045,7 +12045,7 @@
           "integration_type": null
         },
         {
-          "name": "Watcher_Update",
+          "name": "Watcher Update",
           "version": "1.1",
           "author": "THA-CERT // YNE",
           "license": "AGPL-V3",
@@ -12060,7 +12060,7 @@
           "integration_type": null
         },
         {
-          "name": "Watcher_Add",
+          "name": "Watcher Add",
           "version": "1.1",
           "author": "THA-CERT // YNE",
           "license": "AGPL-V3",
@@ -12144,7 +12144,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "WOT_Lookup",
+          "name": "WOT Lookup",
           "version": "2.0",
           "author": "Andrea Garavaglia, Davide Arcuri, LDO-CERT",
           "license": "AGPL-V3",
@@ -12288,7 +12288,7 @@
       "analyzers": [],
       "responders": [
         {
-          "name": "ZEROFOX_Takedown_request",
+          "name": "ZEROFOX Takedown request",
           "version": "1.0",
           "author": "TheHive-Project",
           "license": "AGPL-V3",
@@ -12303,7 +12303,7 @@
           "integration_type": null
         },
         {
-          "name": "ZEROFOX_Close_alert",
+          "name": "ZEROFOX Close alert",
           "version": "1.0",
           "author": "TheHive-Project",
           "license": "AGPL-V3",
@@ -12347,7 +12347,7 @@
     "integrations": {
       "analyzers": [
         {
-          "name": "ZscalerZIA_URLLookup",
+          "name": "ZscalerZIA URLLookup",
           "version": "1.0",
           "author": "Fabien Bloume, StrangeBee",
           "license": "AGPL-V3",

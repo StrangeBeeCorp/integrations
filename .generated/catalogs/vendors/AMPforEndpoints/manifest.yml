@@ -15,7 +15,7 @@ visibility: low
 integrations:
   analyzers: []
   responders:
-  - name: AMPforEndpoints_MoveGUID
+  - name: AMPforEndpoints MoveGUID
     version: '1.0'
     author: Cisco Security
     license: MIT
@@ -27,7 +27,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_MoveGUID.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/AMPforEndpoints/AMPforEndpoints_MoveGUID.json
     integration_type: null
-  - name: AMPforEndpoints_SCDAdd
+  - name: AMPforEndpoints SCDAdd
     version: '1.0'
     author: Cisco Security
     license: MIT
@@ -39,7 +39,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_SCDAdd.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/AMPforEndpoints/AMPforEndpoints_SCDAdd.json
     integration_type: null
-  - name: AMPforEndpoints_IsolationStart
+  - name: AMPforEndpoints IsolationStart
     version: '1.0'
     author: Cisco Security
     license: MIT
@@ -51,7 +51,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_IsolationStart.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/AMPforEndpoints/AMPforEndpoints_IsolationStart.json
     integration_type: null
-  - name: AMPforEndpoints_SCDRemove
+  - name: AMPforEndpoints SCDRemove
     version: '1.0'
     author: Cisco Security
     license: MIT
@@ -63,7 +63,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_SCDRemove.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/AMPforEndpoints/AMPforEndpoints_SCDRemove.json
     integration_type: null
-  - name: AMPforEndpoints_IsolationStop
+  - name: AMPforEndpoints IsolationStop
     version: '1.0'
     author: Cisco Security
     license: MIT

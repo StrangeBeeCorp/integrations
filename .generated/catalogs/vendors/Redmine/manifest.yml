@@ -15,7 +15,7 @@ visibility: 100
 integrations:
   analyzers: []
   responders:
-  - name: Redmine_Issue
+  - name: Redmine Issue
     version: '1.0'
     author: Marc-André DOLL
     license: AGPL-V3

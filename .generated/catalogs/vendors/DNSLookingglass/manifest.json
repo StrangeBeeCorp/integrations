@@ -16,7 +16,7 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "DNS_Lookingglass",
+        "name": "DNS Lookingglass",
         "version": "1.0",
         "author": "Dennis Perto, Conscia",
         "license": "AGPL-V3",

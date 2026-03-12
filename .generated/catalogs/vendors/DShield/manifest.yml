@@ -17,7 +17,7 @@ subscription_required: false
 free_subscription: true
 integrations:
   analyzers:
-  - name: DShield_lookup
+  - name: DShield lookup
     version: '1.0'
     author: Xavier Xavier, SANS ISC
     license: AGPL-V3

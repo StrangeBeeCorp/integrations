@@ -16,7 +16,7 @@ registration_required: true
 subscription_required: true
 integrations:
   analyzers:
-  - name: JoeSandbox_Url_Analysis
+  - name: JoeSandbox Url Analysis
     version: '2.0'
     author: CERT-BDF
     license: AGPL-V3
@@ -28,7 +28,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/JoeSandbox/JoeSandbox_Url_Analysis.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/JoeSandbox/JoeSandbox_Url_Analysis.json
     integration_type: null
-  - name: JoeSandbox_File_Analysis_Inet
+  - name: JoeSandbox File Analysis Inet
     version: '3.0'
     author: CERT-BDF
     license: AGPL-V3
@@ -40,7 +40,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/JoeSandbox/JoeSandbox_File_Analysis_Inet.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/JoeSandbox/JoeSandbox_File_Analysis_Inet.json
     integration_type: null
-  - name: JoeSandbox_File_Analysis_Noinet
+  - name: JoeSandbox File Analysis Noinet
     version: '3.0'
     author: CERT-BDF
     license: AGPL-V3

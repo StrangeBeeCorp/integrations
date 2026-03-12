@@ -19,7 +19,7 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "PhishingInitiative_Scan",
+        "name": "PhishingInitiative Scan",
         "version": "1.0",
         "author": "Remi Pointel",
         "license": "AGPL-V3",
@@ -34,7 +34,7 @@
         "integration_type": null
       },
       {
-        "name": "PhishingInitiative_Lookup",
+        "name": "PhishingInitiative Lookup",
         "version": "2.0",
         "author": "CERT-BDF",
         "license": "AGPL-V3",

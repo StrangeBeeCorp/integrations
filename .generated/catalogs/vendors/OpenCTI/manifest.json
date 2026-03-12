@@ -16,7 +16,7 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "OpenCTI_SearchExactObservable",
+        "name": "OpenCTI SearchExactObservable",
         "version": "2.0",
         "author": "ANSSI",
         "license": "AGPL-V3",
@@ -44,7 +44,7 @@
         "integration_type": null
       },
       {
-        "name": "OpenCTI_SearchObservables",
+        "name": "OpenCTI SearchObservables",
         "version": "2.0",
         "author": "ANSSI",
         "license": "AGPL-V3",

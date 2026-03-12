@@ -18,7 +18,7 @@ free_subscription: false
 integrations:
   analyzers: []
   responders:
-  - name: PaloAltoCortexXDR_isolate
+  - name: PaloAltoCortexXDR isolate
     version: '1.0'
     author: Joe Lazaro
     license: AGPL-V3
@@ -30,7 +30,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_isolate.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_isolate.json
     integration_type: null
-  - name: PaloAltoCortexXDR_scan
+  - name: PaloAltoCortexXDR scan
     version: '1.0'
     author: Joe Lazaro
     license: AGPL-V3
@@ -42,7 +42,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_scan.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_scan.json
     integration_type: null
-  - name: PaloAltoCortexXDR_unisolate
+  - name: PaloAltoCortexXDR unisolate
     version: '1.0'
     author: Joe Lazaro
     license: AGPL-V3

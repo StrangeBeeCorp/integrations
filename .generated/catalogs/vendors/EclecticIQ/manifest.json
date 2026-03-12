@@ -16,7 +16,7 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "EclecticIQ_SearchObservable",
+        "name": "EclecticIQ SearchObservable",
         "version": "2.0",
         "author": "BW",
         "license": "AGPL-V3",
@@ -45,7 +45,7 @@
     ],
     "responders": [
       {
-        "name": "EclecticIQ_Indicator_API",
+        "name": "EclecticIQ Indicator API",
         "version": "1.0",
         "author": "EclecticIQ",
         "license": "MIT",

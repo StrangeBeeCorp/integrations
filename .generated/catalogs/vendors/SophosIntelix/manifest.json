@@ -13,7 +13,7 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "SophosIntelix_Submit_Static",
+        "name": "SophosIntelix Submit Static",
         "version": "0.1",
         "author": "SOL",
         "license": "AGPL-V3",
@@ -28,7 +28,7 @@
         "integration_type": null
       },
       {
-        "name": "SophosIntelix_Submit_Dynamic",
+        "name": "SophosIntelix Submit Dynamic",
         "version": "0.1",
         "author": "SOL",
         "license": "AGPL-V3",
@@ -43,7 +43,7 @@
         "integration_type": null
       },
       {
-        "name": "SophosIntelix_GetReport",
+        "name": "SophosIntelix GetReport",
         "version": "0.3",
         "author": "SOL",
         "license": "AGPL-V3",

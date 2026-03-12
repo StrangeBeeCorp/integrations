@@ -15,7 +15,7 @@ visibility: low
 integrations:
   analyzers: []
   responders:
-  - name: PaloAltoNGFW_unblock_external_domain
+  - name: PaloAltoNGFW unblock external domain
     version: 1.0.0
     author: Maxim Konakin, OSCD Initiative
     license: AGPL-V3
@@ -29,7 +29,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_external_domain.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_external_domain.json
     integration_type: null
-  - name: PaloAltoNGFW_block_internal_IP_address
+  - name: PaloAltoNGFW block internal IP address
     version: 2.0.0
     author: Maxim Konakin, OSCD Initiative
     license: AGPL-V3
@@ -43,7 +43,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_internal_IP_address.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW/PaloAltoNGFW_block_internal_IP_address.json
     integration_type: null
-  - name: PaloAltoNGFW_block_port_for_external_communication
+  - name: PaloAltoNGFW block port for external communication
     version: 2.0.0
     author: Maxim Konakin, OSCD Initiative
     license: AGPL-V3
@@ -57,7 +57,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_port_for_external_communication.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW/PaloAltoNGFW_block_port_for_external_communication.json
     integration_type: null
-  - name: PaloAltoNGFW_unblock_internal_domain
+  - name: PaloAltoNGFW unblock internal domain
     version: 1.0.0
     author: Maxim Konakin, OSCD Initiative
     license: AGPL-V3
@@ -71,7 +71,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_internal_domain.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_internal_domain.json
     integration_type: null
-  - name: PaloAltoNGFW_block_internal_user
+  - name: PaloAltoNGFW block internal user
     version: 1.0.0
     author: Maxim Konakin, OSCD Initiative
     license: AGPL-V3
@@ -85,7 +85,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_internal_user.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW/PaloAltoNGFW_block_internal_user.json
     integration_type: null
-  - name: PaloAltoNGFW_block_port_for_internal_communication
+  - name: PaloAltoNGFW block port for internal communication
     version: 2.0.0
     author: Maxim Konakin, OSCD Initiative
     license: AGPL-V3
@@ -99,7 +99,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_port_for_internal_communication.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW/PaloAltoNGFW_block_port_for_internal_communication.json
     integration_type: null
-  - name: PaloAltoNGFW_block_internal_domain
+  - name: PaloAltoNGFW block internal domain
     version: 2.0.0
     author: Maxim Konakin, OSCD Initiative
     license: AGPL-V3
@@ -113,7 +113,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_internal_domain.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW/PaloAltoNGFW_block_internal_domain.json
     integration_type: null
-  - name: PaloAltoNGFW_unblock_external_user
+  - name: PaloAltoNGFW unblock external user
     version: 1.0.0
     author: Maxim Konakin, OSCD Initiative
     license: AGPL-V3
@@ -127,7 +127,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_external_user.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_external_user.json
     integration_type: null
-  - name: PaloAltoNGFW_unblock_port_for_external_communication
+  - name: PaloAltoNGFW unblock port for external communication
     version: 1.0.0
     author: Maxim Konakin, OSCD Initiative
     license: AGPL-V3
@@ -141,7 +141,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_port_for_external_communication.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_port_for_external_communication.json
     integration_type: null
-  - name: PaloAltoNGFW_block_external_user
+  - name: PaloAltoNGFW block external user
     version: 1.0.0
     author: Maxim Konakin, OSCD Initiative
     license: AGPL-V3
@@ -155,7 +155,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_external_user.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW/PaloAltoNGFW_block_external_user.json
     integration_type: null
-  - name: PaloAltoNGFW_block_external_domain
+  - name: PaloAltoNGFW block external domain
     version: 2.0.0
     author: Maxim Konakin, OSCD Initiative
     license: AGPL-V3
@@ -169,7 +169,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_external_domain.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW/PaloAltoNGFW_block_external_domain.json
     integration_type: null
-  - name: PaloAltoNGFW_unblock_internal_user
+  - name: PaloAltoNGFW unblock internal user
     version: 1.0.0
     author: Maxim Konakin, OSCD Initiative
     license: AGPL-V3
@@ -183,7 +183,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_internal_user.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_internal_user.json
     integration_type: null
-  - name: PaloAltoNGFW_block_external_IP_address
+  - name: PaloAltoNGFW block external IP address
     version: 2.0.0
     author: Maxim Konakin, OSCD Initiative
     license: AGPL-V3
@@ -197,7 +197,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_block_external_IP_address.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW/PaloAltoNGFW_block_external_IP_address.json
     integration_type: null
-  - name: PaloAltoNGFW_unblock_external_IP_address
+  - name: PaloAltoNGFW unblock external IP address
     version: 1.0.0
     author: Maxim Konakin, OSCD Initiative
     license: AGPL-V3
@@ -211,7 +211,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_external_IP_address.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_external_IP_address.json
     integration_type: null
-  - name: PaloAltoNGFW_unblock_port_for_internal_communication
+  - name: PaloAltoNGFW unblock port for internal communication
     version: 1.0.0
     author: Maxim Konakin, OSCD Initiative
     license: AGPL-V3
@@ -225,7 +225,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_port_for_internal_communication.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW/PaloAltoNGFW_unblock_port_for_internal_communication.json
     integration_type: null
-  - name: PaloAltoNGFW_unblock_internal_IP_address
+  - name: PaloAltoNGFW unblock internal IP address
     version: 1.0.0
     author: Maxim Konakin, OSCD Initiative
     license: AGPL-V3

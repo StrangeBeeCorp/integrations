@@ -16,7 +16,7 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "ZscalerZIA_URLLookup",
+        "name": "ZscalerZIA URLLookup",
         "version": "1.0",
         "author": "Fabien Bloume, StrangeBee",
         "license": "AGPL-V3",

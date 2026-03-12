@@ -13,7 +13,7 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "PayloadSecurity_File_Analysis",
+        "name": "PayloadSecurity File Analysis",
         "version": "1.0",
         "author": "Emmanuel Torquato",
         "license": "AGPL-V3",
@@ -28,7 +28,7 @@
         "integration_type": null
       },
       {
-        "name": "PayloadSecurity_Url_Analysis",
+        "name": "PayloadSecurity Url Analysis",
         "version": "1.0",
         "author": "Emmanuel Torquato",
         "license": "AGPL-V3",

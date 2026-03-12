@@ -65,7 +65,7 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "CrowdstrikeFalcon_Sandbox_Win7_64",
+        "name": "CrowdstrikeFalcon Sandbox Win7 64",
         "version": "1.0",
         "author": "Fabien Bloume, StrangeBee",
         "license": "AGPL-V3",
@@ -80,7 +80,7 @@
         "integration_type": null
       },
       {
-        "name": "CrowdstrikeFalcon_GetDeviceVulnerabilities",
+        "name": "CrowdstrikeFalcon GetDeviceVulnerabilities",
         "version": "1.0",
         "author": "Fabien Bloume, StrangeBee",
         "license": "AGPL-V3",
@@ -95,7 +95,7 @@
         "integration_type": null
       },
       {
-        "name": "CrowdstrikeFalcon_Sandbox_Android",
+        "name": "CrowdstrikeFalcon Sandbox Android",
         "version": "1.0",
         "author": "Fabien Bloume, StrangeBee",
         "license": "AGPL-V3",
@@ -110,7 +110,7 @@
         "integration_type": null
       },
       {
-        "name": "CrowdstrikeFalcon_Sandbox_Linux",
+        "name": "CrowdstrikeFalcon Sandbox Linux",
         "version": "1.0",
         "author": "Fabien Bloume, StrangeBee",
         "license": "AGPL-V3",
@@ -125,7 +125,7 @@
         "integration_type": null
       },
       {
-        "name": "CrowdstrikeFalcon_getDeviceDetails",
+        "name": "CrowdstrikeFalcon getDeviceDetails",
         "version": "1.0",
         "author": "Fabien Bloume, StrangeBee",
         "license": "AGPL-V3",
@@ -140,7 +140,7 @@
         "integration_type": null
       },
       {
-        "name": "CrowdstrikeFalcon_ThreatIntel",
+        "name": "CrowdstrikeFalcon ThreatIntel",
         "version": "1.0",
         "author": "Fabien Bloume, StrangeBee",
         "license": "AGPL-V3",
@@ -158,7 +158,7 @@
         "integration_type": null
       },
       {
-        "name": "CrowdstrikeFalcon_Sandbox_Win11",
+        "name": "CrowdstrikeFalcon Sandbox Win11",
         "version": "1.0",
         "author": "Fabien Bloume, StrangeBee",
         "license": "AGPL-V3",
@@ -173,7 +173,7 @@
         "integration_type": null
       },
       {
-        "name": "CrowdstrikeFalcon_Sandbox_MacOS",
+        "name": "CrowdstrikeFalcon Sandbox MacOS",
         "version": "1.0",
         "author": "Fabien Bloume, StrangeBee",
         "license": "AGPL-V3",
@@ -188,7 +188,7 @@
         "integration_type": null
       },
       {
-        "name": "CrowdstrikeFalcon_Sandbox_Win10",
+        "name": "CrowdstrikeFalcon Sandbox Win10",
         "version": "1.0",
         "author": "Fabien Bloume, StrangeBee",
         "license": "AGPL-V3",
@@ -203,7 +203,7 @@
         "integration_type": null
       },
       {
-        "name": "CrowdstrikeFalcon_getDeviceAlerts",
+        "name": "CrowdstrikeFalcon getDeviceAlerts",
         "version": "1.0",
         "author": "Fabien Bloume, StrangeBee",
         "license": "AGPL-V3",
@@ -218,7 +218,7 @@
         "integration_type": null
       },
       {
-        "name": "CrowdstrikeFalcon_Sandbox_Win7",
+        "name": "CrowdstrikeFalcon Sandbox Win7",
         "version": "1.0",
         "author": "Fabien Bloume, StrangeBee",
         "license": "AGPL-V3",
@@ -235,7 +235,7 @@
     ],
     "responders": [
       {
-        "name": "CrowdStrikeFalcon_AddIOC",
+        "name": "CrowdStrikeFalcon AddIOC",
         "version": "1.0",
         "author": "Fabien Bloume, StrangeBee",
         "license": "AGPL-V3",
@@ -250,7 +250,7 @@
         "integration_type": null
       },
       {
-        "name": "CrowdStrikeFalcon_unhideHost",
+        "name": "CrowdStrikeFalcon unhideHost",
         "version": "1.0",
         "author": "Fabien Bloume, StrangeBee",
         "license": "AGPL-V3",
@@ -265,7 +265,7 @@
         "integration_type": null
       },
       {
-        "name": "CrowdStrikeFalcon_RemoveIOC",
+        "name": "CrowdStrikeFalcon RemoveIOC",
         "version": "1.0",
         "author": "Fabien Bloume, StrangeBee",
         "license": "AGPL-V3",
@@ -280,7 +280,7 @@
         "integration_type": null
       },
       {
-        "name": "CrowdStrikeFalcon_unsuppressDetections",
+        "name": "CrowdStrikeFalcon unsuppressDetections",
         "version": "1.0",
         "author": "Fabien Bloume, StrangeBee",
         "license": "AGPL-V3",
@@ -295,7 +295,7 @@
         "integration_type": null
       },
       {
-        "name": "CrowdStrikeFalcon_HostContainment",
+        "name": "CrowdStrikeFalcon HostContainment",
         "version": "1.0",
         "author": "Fabien Bloume, StrangeBee",
         "license": "AGPL-V3",
@@ -310,7 +310,7 @@
         "integration_type": null
       },
       {
-        "name": "CrowdStrikeFalcon_hideHost",
+        "name": "CrowdStrikeFalcon hideHost",
         "version": "1.0",
         "author": "Fabien Bloume, StrangeBee",
         "license": "AGPL-V3",
@@ -325,7 +325,7 @@
         "integration_type": null
       },
       {
-        "name": "CrowdStrikeFalcon_Sync",
+        "name": "CrowdStrikeFalcon Sync",
         "version": "1.0",
         "author": "Fabien Bloume, StrangeBee",
         "license": "AGPL-V3",
@@ -341,7 +341,7 @@
         "integration_type": null
       },
       {
-        "name": "CrowdStrikeFalcon_suppressDetections",
+        "name": "CrowdStrikeFalcon suppressDetections",
         "version": "1.0",
         "author": "Fabien Bloume, StrangeBee",
         "license": "AGPL-V3",
@@ -356,7 +356,7 @@
         "integration_type": null
       },
       {
-        "name": "CrowdStrikeFalcon_LiftContainmentHost",
+        "name": "CrowdStrikeFalcon LiftContainmentHost",
         "version": "1.0",
         "author": "Fabien Bloume, StrangeBee",
         "license": "AGPL-V3",

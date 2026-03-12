@@ -16,7 +16,7 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "DNSdumpster_report",
+        "name": "DNSdumpster report",
         "version": "1.0",
         "author": "Keijo Korte - @korteke",
         "license": "AGPL-V3",

@@ -18,7 +18,7 @@ free_subscription: false
 integrations:
   analyzers: []
   responders:
-  - name: AWX_StartJob
+  - name: AWX StartJob
     version: '1.0'
     author: Tim Muehlhausen
     license: AGPL-V3

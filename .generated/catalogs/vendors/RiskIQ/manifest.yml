@@ -14,7 +14,7 @@ displayOnWebsite: false
 visibility: low
 integrations:
   analyzers:
-  - name: RiskIQ_Cookies
+  - name: RiskIQ Cookies
     version: '1.0'
     author: RiskIQ
     license: AGPL-V3
@@ -28,7 +28,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Cookies.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ/RiskIQ_Cookies.json
     integration_type: null
-  - name: RiskIQ_Whois
+  - name: RiskIQ Whois
     version: '1.0'
     author: RiskIQ
     license: AGPL-V3
@@ -42,7 +42,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Whois.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ/RiskIQ_Whois.json
     integration_type: null
-  - name: RiskIQ_Components
+  - name: RiskIQ Components
     version: '1.0'
     author: RiskIQ
     license: AGPL-V3
@@ -56,7 +56,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Components.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ/RiskIQ_Components.json
     integration_type: null
-  - name: RiskIQ_Malware
+  - name: RiskIQ Malware
     version: '1.0'
     author: RiskIQ
     license: AGPL-V3
@@ -70,7 +70,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Malware.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ/RiskIQ_Malware.json
     integration_type: null
-  - name: RiskIQ_Reputation
+  - name: RiskIQ Reputation
     version: '1.0'
     author: RiskIQ
     license: AGPL-V3
@@ -84,7 +84,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Reputation.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ/RiskIQ_Reputation.json
     integration_type: null
-  - name: RiskIQ_Trackers
+  - name: RiskIQ Trackers
     version: '1.0'
     author: RiskIQ
     license: AGPL-V3
@@ -98,7 +98,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Trackers.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ/RiskIQ_Trackers.json
     integration_type: null
-  - name: RiskIQ_Subdomains
+  - name: RiskIQ Subdomains
     version: '1.0'
     author: RiskIQ
     license: AGPL-V3
@@ -111,7 +111,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Subdomains.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ/RiskIQ_Subdomains.json
     integration_type: null
-  - name: RiskIQ_Artifacts
+  - name: RiskIQ Artifacts
     version: '1.0'
     author: RiskIQ
     license: AGPL-V3
@@ -125,7 +125,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Artifacts.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ/RiskIQ_Artifacts.json
     integration_type: null
-  - name: RiskIQ_Projects
+  - name: RiskIQ Projects
     version: '1.0'
     author: RiskIQ
     license: AGPL-V3
@@ -139,7 +139,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Projects.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ/RiskIQ_Projects.json
     integration_type: null
-  - name: RiskIQ_HostpairParents
+  - name: RiskIQ HostpairParents
     version: '1.0'
     author: RiskIQ
     license: AGPL-V3
@@ -153,7 +153,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_HostpairParents.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ/RiskIQ_HostpairParents.json
     integration_type: null
-  - name: RiskIQ_HostpairChildren
+  - name: RiskIQ HostpairChildren
     version: '1.0'
     author: RiskIQ
     license: AGPL-V3
@@ -167,7 +167,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_HostpairChildren.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ/RiskIQ_HostpairChildren.json
     integration_type: null
-  - name: RiskIQ_Summary
+  - name: RiskIQ Summary
     version: '1.0'
     author: RiskIQ
     license: AGPL-V3
@@ -181,7 +181,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Summary.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ/RiskIQ_Summary.json
     integration_type: null
-  - name: RiskIQ_Resolutions
+  - name: RiskIQ Resolutions
     version: '1.0'
     author: RiskIQ
     license: AGPL-V3
@@ -195,7 +195,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Resolutions.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ/RiskIQ_Resolutions.json
     integration_type: null
-  - name: RiskIQ_Services
+  - name: RiskIQ Services
     version: '1.0'
     author: RiskIQ
     license: AGPL-V3
@@ -207,7 +207,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Services.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ/RiskIQ_Services.json
     integration_type: null
-  - name: RiskIQ_Articles
+  - name: RiskIQ Articles
     version: '1.0'
     author: RiskIQ
     license: AGPL-V3
@@ -221,7 +221,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Articles.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ/RiskIQ_Articles.json
     integration_type: null
-  - name: RiskIQ_Certificates
+  - name: RiskIQ Certificates
     version: '1.0'
     author: RiskIQ
     license: AGPL-V3
@@ -236,7 +236,7 @@ integrations:
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ/RiskIQ_Certificates.json
     integration_type: null
   responders:
-  - name: RiskIQ_PushArtifactToProject
+  - name: RiskIQ PushArtifactToProject
     version: '1.0'
     author: RiskIQ
     license: AGPL-V3

@@ -17,7 +17,7 @@ subscription_required: false
 free_subscription: true
 integrations:
   analyzers:
-  - name: AIL_OnionLookup
+  - name: AIL OnionLookup
     version: '1.0'
     author: Fabien Bloume, StrangeBee
     license: AGPL-V3

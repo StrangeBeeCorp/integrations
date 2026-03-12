@@ -16,7 +16,7 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "Hashdd_Status",
+        "name": "Hashdd Status",
         "version": "2.0",
         "author": "iosonogio, dadokkio",
         "license": "AGPLv3",
@@ -31,7 +31,7 @@
         "integration_type": null
       },
       {
-        "name": "Hashdd_Detail",
+        "name": "Hashdd Detail",
         "version": "2.0",
         "author": "iosonogio, dadokkio",
         "license": "AGPLv3",

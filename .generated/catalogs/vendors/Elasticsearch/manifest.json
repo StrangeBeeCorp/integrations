@@ -33,7 +33,7 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "Elasticsearch_Analysis",
+        "name": "Elasticsearch Analysis",
         "version": "1.0",
         "author": "Nick Prokop",
         "license": "MIT",

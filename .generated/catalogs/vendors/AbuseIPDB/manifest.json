@@ -43,7 +43,7 @@
     ],
     "responders": [
       {
-        "name": "AbuseIPDB_Report",
+        "name": "AbuseIPDB Report",
         "version": "1.0",
         "author": "Fabien Bloume, StrangeBee",
         "license": "AGPL-V3",

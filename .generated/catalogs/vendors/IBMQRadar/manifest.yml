@@ -18,7 +18,7 @@ free_subscription: false
 integrations:
   analyzers: []
   responders:
-  - name: QRadar_Auto_Closing_Offense
+  - name: QRadar Auto Closing Offense
     version: '1.0'
     author: Florian Perret
     license: AGPL-V3

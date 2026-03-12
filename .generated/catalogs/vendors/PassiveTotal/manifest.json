@@ -13,7 +13,7 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "PassiveTotal_Malware",
+        "name": "PassiveTotal Malware",
         "version": "2.0",
         "author": "CERT-BDF",
         "license": "AGPL-V3",
@@ -30,7 +30,7 @@
         "integration_type": null
       },
       {
-        "name": "PassiveTotal_Ssl_Certificate_Details",
+        "name": "PassiveTotal Ssl Certificate Details",
         "version": "2.0",
         "author": "CERT-BDF",
         "license": "AGPL-V3",
@@ -46,7 +46,7 @@
         "integration_type": null
       },
       {
-        "name": "PassiveTotal_Enrichment",
+        "name": "PassiveTotal Enrichment",
         "version": "2.0",
         "author": "CERT-BDF",
         "license": "AGPL-V3",
@@ -63,7 +63,7 @@
         "integration_type": null
       },
       {
-        "name": "PassiveTotal_Whois_Details",
+        "name": "PassiveTotal Whois Details",
         "version": "2.0",
         "author": "CERT-BDF",
         "license": "AGPL-V3",
@@ -80,7 +80,7 @@
         "integration_type": null
       },
       {
-        "name": "PassiveTotal_Passive_Dns",
+        "name": "PassiveTotal Passive Dns",
         "version": "2.1",
         "author": "CERT-BDF",
         "license": "AGPL-V3",
@@ -97,7 +97,7 @@
         "integration_type": null
       },
       {
-        "name": "PassiveTotal_Components",
+        "name": "PassiveTotal Components",
         "version": "2.0",
         "author": "Brandon Dixon (9bplus)",
         "license": "AGPL-V3",
@@ -114,7 +114,7 @@
         "integration_type": null
       },
       {
-        "name": "PassiveTotal_Unique_Resolutions",
+        "name": "PassiveTotal Unique Resolutions",
         "version": "2.0",
         "author": "CERT-BDF",
         "license": "AGPL-V3",
@@ -131,7 +131,7 @@
         "integration_type": null
       },
       {
-        "name": "PassiveTotal_Ssl_Certificate_History",
+        "name": "PassiveTotal Ssl Certificate History",
         "version": "2.0",
         "author": "CERT-BDF",
         "license": "AGPL-V3",
@@ -147,7 +147,7 @@
         "integration_type": null
       },
       {
-        "name": "PassiveTotal_Osint",
+        "name": "PassiveTotal Osint",
         "version": "2.0",
         "author": "CERT-BDF",
         "license": "AGPL-V3",
@@ -164,7 +164,7 @@
         "integration_type": null
       },
       {
-        "name": "PassiveTotal_Trackers",
+        "name": "PassiveTotal Trackers",
         "version": "2.0",
         "author": "Brandon Dixon (9bplus)",
         "license": "AGPL-V3",
@@ -181,7 +181,7 @@
         "integration_type": null
       },
       {
-        "name": "PassiveTotal_Host_Pairs",
+        "name": "PassiveTotal Host Pairs",
         "version": "2.0",
         "author": "Brandon Dixon (9bplus)",
         "license": "AGPL-V3",

@@ -47,7 +47,7 @@ free_subscription: true
 integrations:
   analyzers: []
   responders:
-  - name: Slack_CreateChannel
+  - name: Slack CreateChannel
     version: '1.0'
     author: Fabien Bloume, StrangeBee
     license: AGPL-V3
@@ -60,7 +60,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Slack/Slack_CreateChannel.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Slack/Slack_CreateChannel.json
     integration_type: null
-  - name: Slack_SyncChannel
+  - name: Slack SyncChannel
     version: '1.0'
     author: Fabien Bloume, StrangeBee
     license: AGPL-V3

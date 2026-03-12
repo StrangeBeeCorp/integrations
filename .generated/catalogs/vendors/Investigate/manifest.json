@@ -13,7 +13,7 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "Investigate_Categorization",
+        "name": "Investigate Categorization",
         "version": "1.0",
         "author": "Cisco Umbrella Research @opendns",
         "license": "AGPL-V3",
@@ -29,7 +29,7 @@
         "integration_type": null
       },
       {
-        "name": "Investigate_Sample",
+        "name": "Investigate Sample",
         "version": "1.0",
         "author": "Cisco Umbrella Research @opendns",
         "license": "AGPL-V3",

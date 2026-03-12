@@ -16,7 +16,7 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "Patrowl_GetReport",
+        "name": "Patrowl GetReport",
         "version": "1.0",
         "author": "Nicolas Mattiocco",
         "license": "AGPL-V3",

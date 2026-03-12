@@ -26,7 +26,7 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "HIBP_Query",
+        "name": "HIBP Query",
         "version": "2.0",
         "author": "Matt Erasmus, Jonas Hergenhahn",
         "license": "AGPL-V3",

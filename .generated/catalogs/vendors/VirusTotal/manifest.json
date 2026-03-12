@@ -29,7 +29,7 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "VirusTotal_GetReport",
+        "name": "VirusTotal GetReport",
         "version": "3.1",
         "author": "CERT-BDF, StrangeBee",
         "license": "AGPL-V3",
@@ -49,7 +49,7 @@
         "integration_type": null
       },
       {
-        "name": "VirusTotal_Rescan",
+        "name": "VirusTotal Rescan",
         "version": "3.1",
         "author": "CERT-LDO",
         "license": "AGPL-V3",
@@ -64,7 +64,7 @@
         "integration_type": null
       },
       {
-        "name": "VirusTotal_Scan",
+        "name": "VirusTotal Scan",
         "version": "3.1",
         "author": "CERT-BDF, StrangeBee",
         "license": "AGPL-V3",
@@ -80,7 +80,7 @@
         "integration_type": null
       },
       {
-        "name": "VirusTotal_DownloadSample",
+        "name": "VirusTotal DownloadSample",
         "version": "3.1",
         "author": "LDO-CERT",
         "license": "AGPL-V3",

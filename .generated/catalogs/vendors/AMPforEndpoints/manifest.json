@@ -14,7 +14,7 @@
     "analyzers": [],
     "responders": [
       {
-        "name": "AMPforEndpoints_MoveGUID",
+        "name": "AMPforEndpoints MoveGUID",
         "version": "1.0",
         "author": "Cisco Security",
         "license": "MIT",
@@ -29,7 +29,7 @@
         "integration_type": null
       },
       {
-        "name": "AMPforEndpoints_SCDAdd",
+        "name": "AMPforEndpoints SCDAdd",
         "version": "1.0",
         "author": "Cisco Security",
         "license": "MIT",
@@ -44,7 +44,7 @@
         "integration_type": null
       },
       {
-        "name": "AMPforEndpoints_IsolationStart",
+        "name": "AMPforEndpoints IsolationStart",
         "version": "1.0",
         "author": "Cisco Security",
         "license": "MIT",
@@ -59,7 +59,7 @@
         "integration_type": null
       },
       {
-        "name": "AMPforEndpoints_SCDRemove",
+        "name": "AMPforEndpoints SCDRemove",
         "version": "1.0",
         "author": "Cisco Security",
         "license": "MIT",
@@ -74,7 +74,7 @@
         "integration_type": null
       },
       {
-        "name": "AMPforEndpoints_IsolationStop",
+        "name": "AMPforEndpoints IsolationStop",
         "version": "1.0",
         "author": "Cisco Security",
         "license": "MIT",

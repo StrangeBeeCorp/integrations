@@ -16,7 +16,7 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "ONYPHE_OnDemandScan",
+        "name": "ONYPHE OnDemandScan",
         "version": "1.0",
         "author": "James Atack",
         "license": "AGPL-V3",

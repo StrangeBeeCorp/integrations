@@ -14,7 +14,7 @@ displayOnWebsite: true
 visibility: 100
 integrations:
   analyzers:
-  - name: WOT_Lookup
+  - name: WOT Lookup
     version: '2.0'
     author: Andrea Garavaglia, Davide Arcuri, LDO-CERT
     license: AGPL-V3

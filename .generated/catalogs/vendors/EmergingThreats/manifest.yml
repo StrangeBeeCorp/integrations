@@ -17,7 +17,7 @@ subscription_required: true
 free_subscription: false
 integrations:
   analyzers:
-  - name: EmergingThreats_MalwareInfo
+  - name: EmergingThreats MalwareInfo
     version: '1.0'
     author: Davide Arcuri and Andrea Garavaglia, LDO-CERT
     license: AGPL-V3
@@ -30,7 +30,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/EmergingThreats/EmergingThreats_MalwareInfo.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/EmergingThreats/EmergingThreats_MalwareInfo.json
     integration_type: null
-  - name: EmergingThreats_DomainInfo
+  - name: EmergingThreats DomainInfo
     version: '1.0'
     author: Davide Arcuri and Andrea Garavaglia, LDO-CERT
     license: AGPL-V3
@@ -43,7 +43,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/EmergingThreats/EmergingThreats_DomainInfo.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/EmergingThreats/EmergingThreats_DomainInfo.json
     integration_type: null
-  - name: EmergingThreats_IPInfo
+  - name: EmergingThreats IPInfo
     version: '1.0'
     author: Davide Arcuri and Andrea Garavaglia, LDO-CERT
     license: AGPL-V3

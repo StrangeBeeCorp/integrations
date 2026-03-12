@@ -1,6 +1,6 @@
 ## Analyzers (1)
 
-### [Gatewatcher_CTI v2.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Gatewatcher_CTI/Gatewatcher_CTI.json)
+### [Gatewatcher CTI v2.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Gatewatcher_CTI/Gatewatcher_CTI.json)
 Get Gatewatcher CTI Report
 
 - **Author:** Gatewatcher
@@ -11,7 +11,7 @@ Get Gatewatcher CTI Report
 
 ## Responders (1)
 
-### [Gatewatcher_CTI_Identity v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Gatewatcher_CTI/Gatewatcher_CTI_Identity.json)
+### [Gatewatcher CTI Identity v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Gatewatcher_CTI/Gatewatcher_CTI_Identity.json)
 Gatewatcher_CTI_Identity responder
 
 - **Author:** Gatewatcher

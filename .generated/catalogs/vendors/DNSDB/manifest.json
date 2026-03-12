@@ -13,7 +13,7 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "DNSDB_DomainName",
+        "name": "DNSDB DomainName",
         "version": "2.0",
         "author": "CERT-BDF",
         "license": "AGPL-V3",
@@ -29,7 +29,7 @@
         "integration_type": null
       },
       {
-        "name": "DNSDB_IPHistory",
+        "name": "DNSDB IPHistory",
         "version": "2.0",
         "author": "CERT-BDF",
         "license": "AGPL-V3",
@@ -44,7 +44,7 @@
         "integration_type": null
       },
       {
-        "name": "DNSDB_NameHistory",
+        "name": "DNSDB NameHistory",
         "version": "2.0",
         "author": "CERT-BDF",
         "license": "AGPL-V3",

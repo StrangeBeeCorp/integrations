@@ -17,7 +17,7 @@ subscription_required: false
 free_subscription: true
 integrations:
   analyzers:
-  - name: Lookyloo_Screenshot
+  - name: Lookyloo Screenshot
     version: '1.0'
     author: THA-CERT - PVA
     license: AGPL-V3

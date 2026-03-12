@@ -13,7 +13,7 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "Autofocus_SearchJSON",
+        "name": "Autofocus SearchJSON",
         "version": "1.0",
         "author": "ANSSI",
         "license": "AGPL-V3",
@@ -28,7 +28,7 @@
         "integration_type": null
       },
       {
-        "name": "Autofocus_SearchIOC",
+        "name": "Autofocus SearchIOC",
         "version": "1.0",
         "author": "ANSSI",
         "license": "AGPL-V3",
@@ -50,7 +50,7 @@
         "integration_type": null
       },
       {
-        "name": "Autofocus_GetSampleAnalysis",
+        "name": "Autofocus GetSampleAnalysis",
         "version": "1.0",
         "author": "ANSSI",
         "license": "AGPL-V3",
