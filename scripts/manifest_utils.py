@@ -153,6 +153,7 @@ def scan_functions(vendor: str) -> List[Dict]:
         functions.append({
             'name': metadata.get('name'),
             'version': metadata.get('version'),
+            'author': metadata.get('author'),
             'description': metadata.get('description'),
             'kind': metadata.get('kind'),
             'mode': metadata.get('mode'),
