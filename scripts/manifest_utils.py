@@ -105,7 +105,7 @@ def _scan_cortex_items(vendor: str, item_type: str) -> tuple[List[Dict], Dict]:
                 'file': relative_path,
                 'url': build_url(relative_path),
                 'github_url': build_github_url(relative_path),
-                'upstream_url': build_upstream_url(relative_path),
+                'upstream_url': f"{UPSTREAM_CORTEX_URL}/{item_type}/{vendor}",
                 'integration_type': content.get('integration_type')
             })
 
