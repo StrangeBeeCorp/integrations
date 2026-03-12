@@ -112,13 +112,15 @@ def generate_markdown_overview(vendor: str, manifest: Dict) -> str:
         for func in functions:
             name = func.get('name', 'Unknown')
             version = func.get('version', '')
-            lines.append(f"### {name} `v{version}`")
+            github_url = func.get('github_url')
+            if github_url:
+                lines.append(f"### [{name}]({github_url}) `v{version}`")
+            else:
+                lines.append(f"### {name} `v{version}`")
             if func.get('description'):
                 lines.extend([func['description'], ""])
             if func.get('author'):
                 lines.append(f"- **Author:** {func['author']}")
-            if func.get('file'):
-                lines.append(f"- **Source:** [View code]({func['github_url']})")
             lines.append("")
 
         _add_divider_if_more('functions')
