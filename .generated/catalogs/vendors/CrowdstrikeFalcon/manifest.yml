@@ -43,6 +43,8 @@ useCases:
   - crowdstrike
   - thehive
   - automation
+  thehive_version_required: '5.0'
+  license_required: platinum
 externalIntegrations:
 - name: falcon2thehive
   description: Real-time connector that streams CrowdStrike Falcon detection events into TheHive, turning Falcon alerts into

@@ -7,6 +7,8 @@ Install and configure the falcon2thehive connector to automatically ingest Crowd
 ### [Synchronise status between TheHive alerts/cases and CrowdStrike detections/incidents](https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/CrowdstrikeFalcon/use-cases/synchronize-status-thehive-crowdstrike-falcon.md)
 Keep case/alert status in sync between TheHive and CrowdStrike Falcon using notifications and the CrowdStrikeFalcon_Sync responder.
 
+- **License required:** Platinum
+- **TheHive version required:** 5.0+
 
 ---
 

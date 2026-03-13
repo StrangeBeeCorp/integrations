@@ -1754,7 +1754,9 @@
             "crowdstrike",
             "thehive",
             "automation"
-          ]
+          ],
+          "thehive_version_required": "5.0",
+          "license_required": "platinum"
         }
       ],
       "externalIntegrations": [
