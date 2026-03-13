@@ -1,7 +1,7 @@
 ---
 title: Ingest CrowdStrike Falcon Detections and Incidents into TheHive Using an External Script
 description: Install and configure the falcon2thehive connector to automatically ingest CrowdStrike Falcon detections and incidents into TheHive as alerts in real time.
-tags: 
+tags:
   - alert-ingestion
   - crowdstrike
   - thehive
@@ -9,13 +9,11 @@ tags:
 ---
 # Tutorial: Ingest CrowdStrike Falcon Detections and Incidents into TheHive Using an External Script
 
-<!-- md:integration External --> <!-- md:version 5.0 -->
+> **Warning:** The falcon2thehive connector is currently in beta. Features and configuration may change.
 
-{% include-markdown "includes/falcon2thehive-beta.md" %}
+In this tutorial, we're going to install and configure the [falcon2thehive connector](https://github.com/StrangeBeeCorp/falcon2thehive) to ingest CrowdStrike Falcon detections and incidents into TheHive as alerts.
 
-In this tutorial, we're going to install and configure the [falcon2thehive connector](https://github.com/StrangeBeeCorp/falcon2thehive){target=_blank} to ingest CrowdStrike Falcon detections and incidents into TheHive as alerts.
-
-By the end, you’ll have a working setup that automatically brings CrowdStrike Falcon detections and incidents into TheHive in real time, helping your team respond as soon as they happen.
+By the end, you'll have a working setup that automatically brings CrowdStrike Falcon detections and incidents into TheHive in real time, helping your team respond as soon as they happen.
 
 Before you begin, ensure that the CrowdStrike Falcon detections and incidents you want to ingest are part of the supported event types:
 
@@ -25,14 +23,14 @@ Before you begin, ensure that the CrowdStrike Falcon detections and incidents yo
 * IdpDetectionSummaryEvent
 * MobileDetectionSummaryEvent
 
-!!! tip "More integration options"
-    For the complete list of integration options between CrowdStrike Falcon and TheHive, see [CrowdStrike Falcon Integration with TheHive](crowdstrike-falcon-integrations.md).
+> **Tip:** More integration options
+> For the complete list of integration options between CrowdStrike Falcon and TheHive, see [CrowdStrike Falcon Integration with TheHive](crowdstrike-falcon-integrations.md).
 
 ## Step 1: Create an API client in CrowdStrike Falcon
 
-Let’s start by setting up an API client in your CrowdStrike Falcon console. This will allow the connector to securely access your detections and incidents.
+Let's start by setting up an API client in your CrowdStrike Falcon console. This will allow the connector to securely access your detections and incidents.
 
-1. Go to [https://www.crowdstrike.com/login/](https://www.crowdstrike.com/login/){target=_blank}.
+1. Go to [https://www.crowdstrike.com/login/](https://www.crowdstrike.com/login/).
 
 2. Log in to your CrowdStrike Falcon tenant with an administrator account.
 
@@ -46,7 +44,7 @@ Let’s start by setting up an API client in your CrowdStrike Falcon console. Th
 
 7. Select **Create**.
 
-8. You’ll now see your client ID, secret, and base URL. Copy and save them somewhere safe. You’ll need them in the next step.
+8. You'll now see your client ID, secret, and base URL. Copy and save them somewhere safe. You'll need them in the next step.
 
 ## Step 2: Install and configure falcon2thehive
 
@@ -54,25 +52,23 @@ You can install the falcon2thehive connector using either a [Docker deployment](
 
 ### Docker deployment
 
-!!! note "Recommended installation method"
-    Installing the falcon2thehive connector with Docker is the easiest and most reliable option. It helps keep your environment clean and makes deployment straightforward.
+> **Note:** Installing the falcon2thehive connector with Docker is the easiest and most reliable option. It helps keep your environment clean and makes deployment straightforward.
 
-!!! warning "Requirements"
-    Before you begin, make sure [Docker](https://docs.docker.com/get-started/get-docker/){target=_blank} is installed on your system.
+> **Warning:** Before you begin, make sure [Docker](https://docs.docker.com/get-started/get-docker/) is installed on your system.
 
-!!! tip "Quick testing"
-    If you just want to test the falcon2thehive connector, you can pass credentials directly as environment variables instead of using a `.env` file.
-
-    ```bash
-    docker run -d \
-        --restart unless-stopped \
-        -e CRWD_BASE_URL="<crowdstrike_base_url>" \
-        -e CRWD_CLIENT_ID="<crowdstrike_client_id>" \
-        -e CRWD_CLIENT_SECRET="<crowdstrike_client_secret>" \
-        -e THEHIVE_URL="<thehive_url>" \
-        -e THEHIVE_API_KEY="<thehive_api_key>" \
-        --name f2h falcon2thehive
-    ```
+> **Tip:** Quick testing
+> If you just want to test the falcon2thehive connector, you can pass credentials directly as environment variables instead of using a `.env` file.
+>
+> ```bash
+> docker run -d \
+>     --restart unless-stopped \
+>     -e CRWD_BASE_URL="<crowdstrike_base_url>" \
+>     -e CRWD_CLIENT_ID="<crowdstrike_client_id>" \
+>     -e CRWD_CLIENT_SECRET="<crowdstrike_client_secret>" \
+>     -e THEHIVE_URL="<thehive_url>" \
+>     -e THEHIVE_API_KEY="<thehive_api_key>" \
+>     --name f2h falcon2thehive
+> ```
 
 1. Build the Docker image.
 
@@ -101,7 +97,17 @@ You can install the falcon2thehive connector using either a [Docker deployment](
     APP_ID=falcon2thehive
     ```
 
-    {% include-markdown "includes/falcon2thehive-environment-variables-explained.md" %}
+    **Environment variables explained:**
+
+    | Variable | Required | Description |
+    |---|---|---|
+    | `CRWD_BASE_URL` | Yes | Your CrowdStrike Falcon base URL |
+    | `CRWD_CLIENT_ID` | Yes | API client ID from Step 1 |
+    | `CRWD_CLIENT_SECRET` | Yes | API client secret from Step 1 |
+    | `THEHIVE_URL` | Yes | URL of your TheHive instance |
+    | `THEHIVE_API_KEY` | Yes | API key for TheHive authentication |
+    | `THEHIVE_ORG` | No | Target organization in TheHive |
+    | `APP_ID` | No | Application ID for the CrowdStrike streaming API (default: `falcon2thehive`) |
 
     c. Run the container.
 
@@ -114,49 +120,43 @@ You can install the falcon2thehive connector using either a [Docker deployment](
 
 At this point, the connector should be live and syncing CrowdStrike Falcon detections and incidents with TheHive.
 
-!!! tip "Connector operation commands"
-
-    Here are some useful commands for managing the connector:
-
-    * View logs:
-    ```bash
-    docker logs -f f2h
-    ```
-
-    * Stop the connector:
-    ```bash
-    docker stop f2h
-    ```
-
-    * Restart the connector with the same configuration:
-    ```bash
-    docker start f2h
-    ```
-
-    * To change environment variables:
-
-
-        a. Stop and remove the container:
-
-        ```bash
-        docker stop f2h
-        docker rm f2h
-        ```
-
-        b. Start a new one with updated environment variables using `-e` flags or an updated `.env` file:
-
-        ```bash
-        docker run -d --restart unless-stopped --env-file .env --name f2h falcon2thehive
-        ```
+> **Tip:** Connector operation commands
+>
+> * View logs:
+>   ```bash
+>   docker logs -f f2h
+>   ```
+>
+> * Stop the connector:
+>   ```bash
+>   docker stop f2h
+>   ```
+>
+> * Restart the connector with the same configuration:
+>   ```bash
+>   docker start f2h
+>   ```
+>
+> * To change environment variables:
+>
+>     a. Stop and remove the container:
+>     ```bash
+>     docker stop f2h
+>     docker rm f2h
+>     ```
+>
+>     b. Start a new one with updated environment variables using `-e` flags or an updated `.env` file:
+>     ```bash
+>     docker run -d --restart unless-stopped --env-file .env --name f2h falcon2thehive
+>     ```
 
 ### Manual Python installation
 
-!!! warning "Requirements"
-    Before you begin, make sure the following tools are installed on your system:
-
-    * [Python 3.X](https://www.python.org/downloads/){target=_blank}
-    * [TheHive4py 2.X](https://github.com/TheHive-Project/TheHive4py){target=_blank}
-    * [FalconPy SDK](https://github.com/CrowdStrike/falconpy){target=_blank}
+> **Warning:** Before you begin, make sure the following tools are installed on your system:
+>
+> * [Python 3.X](https://www.python.org/downloads/)
+> * [TheHive4py 2.X](https://github.com/TheHive-Project/TheHive4py)
+> * [FalconPy SDK](https://github.com/CrowdStrike/falconpy)
 
 1. Clone the falcon2thehive repository.
 
@@ -167,7 +167,7 @@ At this point, the connector should be live and syncing CrowdStrike Falcon detec
 
 2. Recommended: Create and activate a virtual environment.
 
-    Using a virtual environment helps isolate dependencies so they don’t interfere with other Python projects.
+    Using a virtual environment helps isolate dependencies so they don't interfere with other Python projects.
 
     ```bash
     python3 -m venv .venv
@@ -193,13 +193,23 @@ At this point, the connector should be live and syncing CrowdStrike Falcon detec
     # Optional settings
     export THEHIVE_ORG="<organization_name>"
     export APP_ID="falcon2thehive"
-    ``` 
+    ```
 
-    {% include-markdown "includes/falcon2thehive-environment-variables-explained.md" %}
+    **Environment variables explained:**
+
+    | Variable | Required | Description |
+    |---|---|---|
+    | `CRWD_BASE_URL` | Yes | Your CrowdStrike Falcon base URL |
+    | `CRWD_CLIENT_ID` | Yes | API client ID from Step 1 |
+    | `CRWD_CLIENT_SECRET` | Yes | API client secret from Step 1 |
+    | `THEHIVE_URL` | Yes | URL of your TheHive instance |
+    | `THEHIVE_API_KEY` | Yes | API key for TheHive authentication |
+    | `THEHIVE_ORG` | No | Target organization in TheHive |
+    | `APP_ID` | No | Application ID for the CrowdStrike streaming API (default: `falcon2thehive`) |
 
 5. Run the connector.
 
-    Now it’s time to start the connector.
+    Now it's time to start the connector.
 
     * To run it in the background so it stays active while you continue working on other tasks:
 
@@ -213,8 +223,8 @@ At this point, the connector should be live and syncing CrowdStrike Falcon detec
     python falcon2thehive.py
     ```
 
-You should now start seeing CrowdStrike Falcon detections and incidents in your TheHive alert list. If you’re running it in the foreground, you should see log messages confirming a successful connection and alert ingestion.
+You should now start seeing CrowdStrike Falcon detections and incidents in your TheHive alert list. If you're running it in the foreground, you should see log messages confirming a successful connection and alert ingestion.
 
-<h2>Next steps</h2>
+## Next steps
 
 * [Synchronize Alert and Case Statuses from TheHive to CrowdStrike Falcon](synchronize-status-thehive-crowdstrike-falcon.md)
