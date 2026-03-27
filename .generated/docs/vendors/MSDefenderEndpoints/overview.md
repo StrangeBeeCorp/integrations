@@ -1,5 +1,7 @@
 ## Responders (12)
 
+Trigger automated responses with any 3rd-party tool
+
 ### [MSDefender-PushIOC-BlockAndRemediate v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderEndpoints)
 Push IOC to Defender client. Block and Remediate mode
 

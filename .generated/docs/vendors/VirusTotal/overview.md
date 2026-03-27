@@ -1,5 +1,7 @@
 ## Analyzers (4)
 
+Enrich observables with intelligence
+
 ### [VirusTotal GetReport v3.1](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/VirusTotal)
 Get the latest VirusTotal report for a file, hash, domain or an IP address.
 

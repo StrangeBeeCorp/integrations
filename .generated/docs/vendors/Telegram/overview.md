@@ -1,5 +1,7 @@
 ## Responders (1)
 
+Trigger automated responses with any 3rd-party tool
+
 ### [Telegram v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Telegram)
 Send a message to Telegram with information from TheHive case
 

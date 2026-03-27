@@ -1,5 +1,7 @@
 ## Analyzers (5)
 
+Enrich observables with intelligence
+
 ### [GTI ScanFile v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/GoogleThreatIntelligence)
 Get the latest Google Threat Intelligence report for a file that was submitted to Google Threat Intelligence for scanning
 

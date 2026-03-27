@@ -1,5 +1,7 @@
 ## Analyzers (2)
 
+Enrich observables with intelligence
+
 ### [Urlscan.io Search v0.1.1](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Urlscan.io)
 Search IPs, domains, hashes or URLs on urlscan.io
 

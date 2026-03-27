@@ -1,5 +1,7 @@
 ## Analyzers (2)
 
+Enrich observables with intelligence
+
 ### [CuckooSandbox Url Analysis v1.2](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CuckooSandbox)
 Cuckoo Sandbox URL analysis.
 

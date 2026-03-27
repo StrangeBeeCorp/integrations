@@ -1,5 +1,7 @@
 ## Analyzers (1)
 
+Enrich observables with intelligence
+
 ### [Watcher Check v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Watcher)
 Check if a domain is monitored in Watcher (Legitimate Domain and/or Website Monitoring modules) and retrieve all details.
 
@@ -10,6 +12,8 @@ Check if a domain is monitored in Watcher (Legitimate Domain and/or Website Moni
 ---
 
 ## Responders (4)
+
+Trigger automated responses with any 3rd-party tool
 
 ### [Watcher Remove v1.1](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Watcher)
 Remove domain from Watcher. Required tag: watcher:module=LegitDomain|WebsiteMonitoring

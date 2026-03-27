@@ -1,5 +1,7 @@
 ## Analyzers (11)
 
+Enrich observables with intelligence
+
 ### [PassiveTotal Passive Dns v2.1](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PassiveTotal)
 PassiveTotal Passive DNS Lookup.
 

@@ -1,5 +1,7 @@
 ## Analyzers (3)
 
+Enrich observables with intelligence
+
 ### [JoeSandbox File Analysis Inet v3.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/JoeSandbox)
 Joe Sandbox file analysis with Internet access.
 

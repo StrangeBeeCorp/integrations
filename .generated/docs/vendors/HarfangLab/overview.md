@@ -1,5 +1,7 @@
 ## Responders (31)
 
+Trigger automated responses with any 3rd-party tool
+
 ### [HarfangLab-GetScheduledTasks v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab)
 Get scheduled tasks on a host
 

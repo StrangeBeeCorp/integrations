@@ -1,5 +1,7 @@
 ## Analyzers (1)
 
+Enrich observables with intelligence
+
 ### [Elasticsearch Analysis v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Elasticsearch)
 Search for IoCs in Elasticsearch
 

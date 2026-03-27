@@ -1,5 +1,7 @@
 ## Responders (1)
 
+Trigger automated responses with any 3rd-party tool
+
 ### [Shuffle v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Shuffle)
 Execute a workflow in Shuffle
 

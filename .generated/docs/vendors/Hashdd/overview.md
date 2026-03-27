@@ -1,5 +1,7 @@
 ## Analyzers (2)
 
+Enrich observables with intelligence
+
 ### [Hashdd Status v2.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Hashdd)
 Determine whether a hash is good or bad.
 

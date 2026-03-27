@@ -1,5 +1,7 @@
 ## Analyzers (1)
 
+Enrich observables with intelligence
+
 ### [HybridAnalysis GetReport v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/HybridAnalysis)
 Fetch Hybrid Analysis reports associated with hashes and filenames.
 

@@ -1,5 +1,7 @@
 ## Responders (5)
 
+Trigger automated responses with any 3rd-party tool
+
 ### [Gmail UnblockDomain v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Gmail)
 Remove a message filter for a given domain
 

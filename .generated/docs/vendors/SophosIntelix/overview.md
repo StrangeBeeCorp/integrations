@@ -1,5 +1,7 @@
 ## Analyzers (3)
 
+Enrich observables with intelligence
+
 ### [SophosIntelix Submit Static v0.1](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SophosIntelix)
 Use SophosLabs machine learning to understand the characteristics of your suspicious file allowing you to see if the file is similar to known malware. For more information or to sign up for SophosLabs Intelix (with a free tier) see https://www.sophos.com/en-us/labs/intelix.aspx
 

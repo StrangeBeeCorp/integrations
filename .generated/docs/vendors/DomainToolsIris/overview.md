@@ -1,5 +1,7 @@
 ## Analyzers (2)
 
+Enrich observables with intelligence
+
 ### [DomainToolsIris Investigate v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainToolsIris)
 Use DomainTools Iris API to investigate a domain.
 
@@ -17,6 +19,8 @@ Use DomainTools Iris API to pivot on ssl_hash, ip, or email.
 ---
 
 ## Responders (2)
+
+Trigger automated responses with any 3rd-party tool
 
 ### [DomainToolsIris AddRiskyDNSTag v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/DomainToolsIris)
 Add Tag saying that the case contains a risky DNS.

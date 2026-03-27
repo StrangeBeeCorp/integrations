@@ -1,5 +1,7 @@
 ## Analyzers (2)
 
+Enrich observables with intelligence
+
 ### [PhishingInitiative Scan v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PhishingInitiative)
 Use Phishing Initiative to scan a URL.
 

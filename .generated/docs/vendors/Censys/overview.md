@@ -1,5 +1,7 @@
 ## Analyzers (1)
 
+Enrich observables with intelligence
+
 ### [Censys v2.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Censys)
 Check IPs, certificate hashes or domains against censys.io.
 

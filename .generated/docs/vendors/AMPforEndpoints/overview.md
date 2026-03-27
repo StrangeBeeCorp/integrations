@@ -1,5 +1,7 @@
 ## Responders (5)
 
+Trigger automated responses with any 3rd-party tool
+
 ### [AMPforEndpoints IsolationStop v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/AMPforEndpoints)
 Stop host isolation for an AMP for Endpoints connector
 

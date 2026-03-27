@@ -1,5 +1,7 @@
 ## Responders (1)
 
+Trigger automated responses with any 3rd-party tool
+
 ### [DNS-RPZ v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/DNS-RPZ)
 Add a dynamic DNS entry to a Response Policy Zone, blackholing or redirecting a FQDN.
 

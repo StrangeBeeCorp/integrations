@@ -1,5 +1,7 @@
 ## Analyzers (1)
 
+Enrich observables with intelligence
+
 ### [Jupyter Run Notebook Analyzer v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Jupyter)
 Execute a parameterized notebook in Jupyter
 
@@ -10,6 +12,8 @@ Execute a parameterized notebook in Jupyter
 ---
 
 ## Responders (1)
+
+Trigger automated responses with any 3rd-party tool
 
 ### [Jupyter Run Notebook Responder v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Jupyter)
 Execute a parameterized notebook in Jupyter

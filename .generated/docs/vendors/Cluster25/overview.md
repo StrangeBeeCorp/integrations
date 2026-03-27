@@ -1,5 +1,7 @@
 ## Analyzers (1)
 
+Enrich observables with intelligence
+
 ### [C25CortexAnalyzer Investigate v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Cluster25)
 Use Cluster25's CTI API to investigate an observable.
 

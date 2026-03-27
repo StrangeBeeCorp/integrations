@@ -1,5 +1,7 @@
 ## Use Cases (2)
 
+Real-world integrations with TheHive
+
 ### [Ingest Proofpoint MessagesDelivered Events into TheHive Using an Alert Feeder](https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Proofpoint/use-cases/alert-ingestion-messageDelivered.md)
 Ingest Proofpoint TAP messagesDelivered events as TheHive alerts to track and respond to threats that have reached user mailboxes and may require investigation.
 
@@ -18,6 +20,8 @@ Ingest Proofpoint TAP clicksPermitted events as TheHive alerts to track and resp
 
 ## Analyzers (1)
 
+Enrich observables with intelligence
+
 ### [Proofpoint Lookup v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Proofpoint)
 Check URL, file, SHA256 against Proofpoint forensics
 
@@ -28,6 +32,8 @@ Check URL, file, SHA256 against Proofpoint forensics
 ---
 
 ## Functions (2)
+
+Automate TheHive actions & ingest alerts from external systems
 
 ### [alertFeeder_ProofPoint_clicksPermitted](https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted.js) `v1.0.0`
 Ingests ProofPoint clicksPermitted alerts in TheHive

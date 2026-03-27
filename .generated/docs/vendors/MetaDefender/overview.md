@@ -1,5 +1,7 @@
 ## Analyzers (5)
 
+Enrich observables with intelligence
+
 ### [MetaDefenderCore Scan v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MetaDefender)
 Scan a file with MetaDefender Core
 
