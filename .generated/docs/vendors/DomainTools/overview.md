@@ -1,6 +1,6 @@
 ## Analyzers (10)
 
-Enrich observables with intelligence
+*Enrich observables with intelligence*
 
 ### [DomainTools ReverseNameServer v2.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainTools)
 Use DomainTools to get a list of domain names that share the same primary or secondary name server.

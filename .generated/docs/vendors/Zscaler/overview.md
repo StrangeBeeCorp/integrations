@@ -1,6 +1,6 @@
 ## Analyzers (2)
 
-Enrich observables with intelligence
+*Enrich observables with intelligence*
 
 ### [ZscalerZIA URLLookup v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Zscaler)
 Query Zscaler Internet Access for URL categorization and security classification. Supports OneAPI OAuth2 and legacy authentication.

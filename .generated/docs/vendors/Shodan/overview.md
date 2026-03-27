@@ -1,6 +1,6 @@
 ## Analyzers (6)
 
-Enrich observables with intelligence
+*Enrich observables with intelligence*
 
 ### [Shodan Search v2.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Shodan)
 Search query on Shodan

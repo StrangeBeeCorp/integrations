@@ -1,6 +1,6 @@
 ## Responders (1)
 
-Trigger automated responses with any 3rd-party tool
+*Trigger automated responses*
 
 ### [Netcraft TakedownPhishingURL v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Netcraft)
 Submit URL to Netcraft's Takedown API.

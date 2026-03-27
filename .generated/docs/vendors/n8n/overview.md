@@ -1,6 +1,6 @@
 ## Responders (1)
 
-Trigger automated responses with any 3rd-party tool
+*Trigger automated responses*
 
 ### [n8n v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/n8n)
 Send data to n8n via webhook

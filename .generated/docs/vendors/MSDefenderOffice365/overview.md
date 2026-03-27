@@ -1,6 +1,6 @@
 ## Analyzers (1)
 
-Enrich observables with intelligence
+*Enrich observables with intelligence*
 
 ### [MSDefenderOffice365 SafeLinksDecoder.json v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSDefenderOffice365)
 Decodes Office 365 ATP Safe Links to extract original URLs. Supports url observables containing safelinks.protection.outlook.com domains.
@@ -13,7 +13,7 @@ Decodes Office 365 ATP Safe Links to extract original URLs. Supports url observa
 
 ## Responders (4)
 
-Trigger automated responses with any 3rd-party tool
+*Trigger automated responses*
 
 ### [MSDefenderOffice365 allow v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderOffice365)
 Add entries to the Tenant Allow/Block List in the Microsoft 365 Defender

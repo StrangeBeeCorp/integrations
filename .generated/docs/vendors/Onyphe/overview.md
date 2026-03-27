@@ -1,6 +1,6 @@
 ## Analyzers (5)
 
-Enrich observables with intelligence
+*Enrich observables with intelligence*
 
 ### [ONYPHE Ctiscan v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Onyphe)
 Query ONYPHE Ctiscan threat hunting data for open services (takes ip, domain, fqdn, autonomous-system or hash.)

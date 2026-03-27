@@ -1,6 +1,6 @@
 ## Analyzers (11)
 
-Enrich observables with intelligence
+*Enrich observables with intelligence*
 
 ### [Splunk Search File Filename v3.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk)
 Execute a savedsearch on a Splunk instance with a file/filename as argument
@@ -83,7 +83,7 @@ Execute a savedsearch on a Splunk instance with an unidentified data as argument
 
 ## Functions (1)
 
-Automate TheHive actions & ingest alerts from external systems
+*Automate TheHive actions or ingest alerts*
 
 ### [createAlertFromSplunk](https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Splunk/thehive/functions/function_API_createAlertFromSplunk.js) `v1.0.0`
 This function creates a TheHive Alert based on an input coming from Splunk, and matches the Splunk fields to TheHive fields. In Splunk, you'll need to configure the webhook URL to point to the TheHive function URL

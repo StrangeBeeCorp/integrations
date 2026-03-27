@@ -1,6 +1,6 @@
 ## Use Cases (2)
 
-Real-world integrations with TheHive
+*Real-world integrations with TheHive*
 
 ### [Ingest CrowdStrike Falcon Detections and Incidents into TheHive Using an External Script](https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/CrowdstrikeFalcon/use-cases/ingest-crowdstrike-falcon-alerts-external-script.md)
 Install and configure the falcon2thehive connector to automatically ingest CrowdStrike Falcon detections and incidents into TheHive as alerts in real time.
@@ -16,7 +16,7 @@ Keep case/alert status in sync between TheHive and CrowdStrike Falcon using noti
 
 ## Analyzers (11)
 
-Enrich observables with intelligence
+*Enrich observables with intelligence*
 
 ### [CrowdstrikeFalcon GetDeviceVulnerabilities v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CrowdstrikeFalcon)
 Get device vulnerabilities from hostname
@@ -99,7 +99,7 @@ Send a file to CrowdstrikeFalcon Sandbox
 
 ## Responders (9)
 
-Trigger automated responses with any 3rd-party tool
+*Trigger automated responses*
 
 ### [CrowdStrikeFalcon AddIOC v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CrowdstrikeFalcon)
 Add IOC to IoC Management on Crowdstrike - supports domain, url, IPs & different kind of hashes

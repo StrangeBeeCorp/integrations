@@ -1,6 +1,6 @@
 ## Responders (1)
 
-Trigger automated responses with any 3rd-party tool
+*Trigger automated responses*
 
 ### [KnowBe4 v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/KnowBe4)
 Add 'Clicked Event' to User via User Events API.

@@ -1,6 +1,6 @@
 ## Analyzers (2)
 
-Enrich observables with intelligence
+*Enrich observables with intelligence*
 
 ### [UrlDNA Search v0.1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/urlDNA.io)
 Perform a search on urlDNA.io for IPs, domains or URLs

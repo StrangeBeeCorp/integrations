@@ -1,6 +1,6 @@
 ## Analyzers (2)
 
-Enrich observables with intelligence
+*Enrich observables with intelligence*
 
 ### [OpenCTI SearchExactObservable v2.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/OpenCTI)
 Query multiple OpenCTI instances for a specific observable.

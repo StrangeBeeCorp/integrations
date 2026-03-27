@@ -1,6 +1,6 @@
 ## Analyzers (3)
 
-Enrich observables with intelligence
+*Enrich observables with intelligence*
 
 ### [SEKOIAIntelligenceCenter Context v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SEKOIAIntelligenceCenter)
 Query the Intelligence Center to retrieve the context of an observable

@@ -1,6 +1,6 @@
 ## Analyzers (1)
 
-Enrich observables with intelligence
+*Enrich observables with intelligence*
 
 ### [ChainAbuse v1.1](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/ChainAbuse)
 Check crypto address against reported abuse cases on ChainAbuse

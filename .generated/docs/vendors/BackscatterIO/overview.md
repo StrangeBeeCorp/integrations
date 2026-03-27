@@ -1,6 +1,6 @@
 ## Analyzers (2)
 
-Enrich observables with intelligence
+*Enrich observables with intelligence*
 
 ### [BackscatterIO Enrichment v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/BackscatterIO)
 Enrich values using Backscatter.io data.

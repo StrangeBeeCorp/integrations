@@ -1,6 +1,6 @@
 ## Analyzers (16)
 
-Enrich observables with intelligence
+*Enrich observables with intelligence*
 
 ### [RiskIQ Components v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ)
 RiskIQ: web components observed during crawls on a hostname.
@@ -118,7 +118,7 @@ RiskIQ: Illuminate / PassiveTotal projects that contain an artifact which matche
 
 ## Responders (1)
 
-Trigger automated responses with any 3rd-party tool
+*Trigger automated responses*
 
 ### [RiskIQ PushArtifactToProject v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/RiskIQ)
 Push a case to a RiskIQ Illuminate project.

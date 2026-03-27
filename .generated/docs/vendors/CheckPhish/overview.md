@@ -1,6 +1,6 @@
 ## Analyzers (2)
 
-Enrich observables with intelligence
+*Enrich observables with intelligence*
 
 ### [CheckPhish v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CheckPhish)
 Check url address via CheckPhish using jobID returned from CheckPhish_Submit

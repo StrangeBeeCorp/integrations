@@ -1,6 +1,6 @@
 ## Analyzers (3)
 
-Enrich observables with intelligence
+*Enrich observables with intelligence*
 
 ### [EmergingThreats MalwareInfo v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/EmergingThreats)
 Retrieve ET details and info related to a malware hash.

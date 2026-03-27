@@ -1,6 +1,6 @@
 ## Responders (16)
 
-Trigger automated responses with any 3rd-party tool
+*Trigger automated responses*
 
 ### [PaloAltoNGFW unblock external domain v1.0.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoNGFW)
 Unblock external domain

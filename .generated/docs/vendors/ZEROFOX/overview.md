@@ -1,6 +1,6 @@
 ## Responders (2)
 
-Trigger automated responses with any 3rd-party tool
+*Trigger automated responses*
 
 ### [ZEROFOX Close alert v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/ZEROFOX)
 Close alert in Zerofox

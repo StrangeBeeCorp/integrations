@@ -1,6 +1,6 @@
 ## Analyzers (1)
 
-Enrich observables with intelligence
+*Enrich observables with intelligence*
 
 ### [StopForumSpam v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/StopForumSpam)
 Query http://www.stopforumspam.com to check if an IP or email address is a known spammer.

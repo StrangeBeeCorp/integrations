@@ -1,6 +1,6 @@
 ## Analyzers (3)
 
-Enrich observables with intelligence
+*Enrich observables with intelligence*
 
 ### [Autofocus SearchJSON v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Autofocus)
 Search samples in Autofocus with a full search query in JSON

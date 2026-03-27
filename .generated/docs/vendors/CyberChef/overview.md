@@ -1,6 +1,6 @@
 ## Analyzers (3)
 
-Enrich observables with intelligence
+*Enrich observables with intelligence*
 
 ### [CyberChef FromHex v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CyberChef)
 Convert Hex with CyberChef Server

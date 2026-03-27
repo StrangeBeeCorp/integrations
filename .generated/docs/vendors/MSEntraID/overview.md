@@ -1,6 +1,6 @@
 ## Analyzers (4)
 
-Enrich observables with intelligence
+*Enrich observables with intelligence*
 
 ### [MSEntraID GetManagedDevicesInfo v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSEntraID)
 Get Microsoft Intune Managed Device(s) Details from hostname or mail
@@ -34,7 +34,7 @@ Pull all Microsoft Entra ID sign ins for a user within the specified amount of t
 
 ## Responders (5)
 
-Trigger automated responses with any 3rd-party tool
+*Trigger automated responses*
 
 ### [MSEntraID revokeSignInSessions v1.1](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSEntraID)
 Invalidates all the refresh tokens issued to applications for a Microsoft Entra ID user (as well as session cookies in a user's browser)
