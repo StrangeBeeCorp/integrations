@@ -7,16 +7,16 @@ Use SophosLabs machine learning to understand the characteristics of your suspic
 - **License:** AGPL-V3
 - **Data Types:** `file`
 
-### [SophosIntelix Submit Dynamic v0.1](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SophosIntelix)
-Detonate your suspicious file in SophosLabs Sandbox and find what behaviours the file has. For more information or to sign up for SophosLabs Intelix (with a free tier) see https://www.sophos.com/en-us/labs/intelix.aspx
-
-- **Author:** SOL
-- **License:** AGPL-V3
-- **Data Types:** `file`
-
 ### [SophosIntelix GetReport v0.3](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SophosIntelix)
 Fast and easy way to find out if the file is known Good, PUA (Potentially Unwanted Application), or, Malware. For more information or to sign up for SophosLabs Intelix (with a free tier) see https://www.sophos.com/en-us/labs/intelix.aspx
 
 - **Author:** SOL
 - **License:** AGPL-V3
 - **Data Types:** `hash`, `domain`, `fqdn`, `url`
+
+### [SophosIntelix Submit Dynamic v0.1](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SophosIntelix)
+Detonate your suspicious file in SophosLabs Sandbox and find what behaviours the file has. For more information or to sign up for SophosLabs Intelix (with a free tier) see https://www.sophos.com/en-us/labs/intelix.aspx
+
+- **Author:** SOL
+- **License:** AGPL-V3
+- **Data Types:** `file`

@@ -13,40 +13,6 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "RiskIQ Cookies",
-        "version": "1.0",
-        "author": "RiskIQ",
-        "license": "AGPL-V3",
-        "description": "RiskIQ: cookies observed during crawls on a hostname.",
-        "dataTypes": [
-          "domain",
-          "fqdn",
-          "ip"
-        ],
-        "file": ".upstream/cortex/analyzers/RiskIQ/RiskIQ_Cookies.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Cookies.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Cookies.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ",
-        "integration_type": null
-      },
-      {
-        "name": "RiskIQ Whois",
-        "version": "1.0",
-        "author": "RiskIQ",
-        "license": "AGPL-V3",
-        "description": "RiskIQ Whois lookup for an indicator.",
-        "dataTypes": [
-          "domain",
-          "fqdn",
-          "ip"
-        ],
-        "file": ".upstream/cortex/analyzers/RiskIQ/RiskIQ_Whois.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Whois.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Whois.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ",
-        "integration_type": null
-      },
-      {
         "name": "RiskIQ Components",
         "version": "1.0",
         "author": "RiskIQ",
@@ -60,23 +26,6 @@
         "file": ".upstream/cortex/analyzers/RiskIQ/RiskIQ_Components.json",
         "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Components.json",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Components.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ",
-        "integration_type": null
-      },
-      {
-        "name": "RiskIQ Malware",
-        "version": "1.0",
-        "author": "RiskIQ",
-        "license": "AGPL-V3",
-        "description": "RiskIQ: malware hashes from various sources associated with an IOC.",
-        "dataTypes": [
-          "domain",
-          "fqdn",
-          "ip"
-        ],
-        "file": ".upstream/cortex/analyzers/RiskIQ/RiskIQ_Malware.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Malware.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Malware.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ",
         "integration_type": null
       },
@@ -98,39 +47,6 @@
         "integration_type": null
       },
       {
-        "name": "RiskIQ Trackers",
-        "version": "1.0",
-        "author": "RiskIQ",
-        "license": "AGPL-V3",
-        "description": "RiskIQ: trackers observed during a crawl on a host.",
-        "dataTypes": [
-          "domain",
-          "fqdn",
-          "ip"
-        ],
-        "file": ".upstream/cortex/analyzers/RiskIQ/RiskIQ_Trackers.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Trackers.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Trackers.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ",
-        "integration_type": null
-      },
-      {
-        "name": "RiskIQ Subdomains",
-        "version": "1.0",
-        "author": "RiskIQ",
-        "license": "AGPL-V3",
-        "description": "RiskIQ: subdomains observed historically in pDNS records.",
-        "dataTypes": [
-          "fqdn",
-          "domain"
-        ],
-        "file": ".upstream/cortex/analyzers/RiskIQ/RiskIQ_Subdomains.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Subdomains.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Subdomains.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ",
-        "integration_type": null
-      },
-      {
         "name": "RiskIQ Artifacts",
         "version": "1.0",
         "author": "RiskIQ",
@@ -148,36 +64,120 @@
         "integration_type": null
       },
       {
-        "name": "RiskIQ Projects",
+        "name": "RiskIQ Malware",
         "version": "1.0",
         "author": "RiskIQ",
         "license": "AGPL-V3",
-        "description": "RiskIQ: Illuminate / PassiveTotal projects that contain an artifact which matches an IOC.",
+        "description": "RiskIQ: malware hashes from various sources associated with an IOC.",
         "dataTypes": [
           "domain",
           "fqdn",
           "ip"
         ],
-        "file": ".upstream/cortex/analyzers/RiskIQ/RiskIQ_Projects.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Projects.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Projects.json",
+        "file": ".upstream/cortex/analyzers/RiskIQ/RiskIQ_Malware.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Malware.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Malware.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ",
         "integration_type": null
       },
       {
-        "name": "RiskIQ HostpairParents",
+        "name": "RiskIQ Resolutions",
         "version": "1.0",
         "author": "RiskIQ",
         "license": "AGPL-V3",
-        "description": "RiskIQ: hosts with a parent web component relationship to an IOC.",
+        "description": "RiskIQ: PDNS resolutions for an IOC.",
         "dataTypes": [
           "domain",
           "fqdn",
           "ip"
         ],
-        "file": ".upstream/cortex/analyzers/RiskIQ/RiskIQ_HostpairParents.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_HostpairParents.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_HostpairParents.json",
+        "file": ".upstream/cortex/analyzers/RiskIQ/RiskIQ_Resolutions.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Resolutions.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Resolutions.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ",
+        "integration_type": null
+      },
+      {
+        "name": "RiskIQ Trackers",
+        "version": "1.0",
+        "author": "RiskIQ",
+        "license": "AGPL-V3",
+        "description": "RiskIQ: trackers observed during a crawl on a host.",
+        "dataTypes": [
+          "domain",
+          "fqdn",
+          "ip"
+        ],
+        "file": ".upstream/cortex/analyzers/RiskIQ/RiskIQ_Trackers.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Trackers.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Trackers.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ",
+        "integration_type": null
+      },
+      {
+        "name": "RiskIQ Certificates",
+        "version": "1.0",
+        "author": "RiskIQ",
+        "license": "AGPL-V3",
+        "description": "RiskIQ: SSL/TLS certificates associated with an indicator.",
+        "dataTypes": [
+          "domain",
+          "fqdn",
+          "ip"
+        ],
+        "file": ".upstream/cortex/analyzers/RiskIQ/RiskIQ_Certificates.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Certificates.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Certificates.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ",
+        "integration_type": null
+      },
+      {
+        "name": "RiskIQ Whois",
+        "version": "1.0",
+        "author": "RiskIQ",
+        "license": "AGPL-V3",
+        "description": "RiskIQ Whois lookup for an indicator.",
+        "dataTypes": [
+          "domain",
+          "fqdn",
+          "ip"
+        ],
+        "file": ".upstream/cortex/analyzers/RiskIQ/RiskIQ_Whois.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Whois.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Whois.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ",
+        "integration_type": null
+      },
+      {
+        "name": "RiskIQ Cookies",
+        "version": "1.0",
+        "author": "RiskIQ",
+        "license": "AGPL-V3",
+        "description": "RiskIQ: cookies observed during crawls on a hostname.",
+        "dataTypes": [
+          "domain",
+          "fqdn",
+          "ip"
+        ],
+        "file": ".upstream/cortex/analyzers/RiskIQ/RiskIQ_Cookies.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Cookies.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Cookies.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ",
+        "integration_type": null
+      },
+      {
+        "name": "RiskIQ Subdomains",
+        "version": "1.0",
+        "author": "RiskIQ",
+        "license": "AGPL-V3",
+        "description": "RiskIQ: subdomains observed historically in pDNS records.",
+        "dataTypes": [
+          "fqdn",
+          "domain"
+        ],
+        "file": ".upstream/cortex/analyzers/RiskIQ/RiskIQ_Subdomains.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Subdomains.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Subdomains.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ",
         "integration_type": null
       },
@@ -216,23 +216,6 @@
         "integration_type": null
       },
       {
-        "name": "RiskIQ Resolutions",
-        "version": "1.0",
-        "author": "RiskIQ",
-        "license": "AGPL-V3",
-        "description": "RiskIQ: PDNS resolutions for an IOC.",
-        "dataTypes": [
-          "domain",
-          "fqdn",
-          "ip"
-        ],
-        "file": ".upstream/cortex/analyzers/RiskIQ/RiskIQ_Resolutions.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Resolutions.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Resolutions.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ",
-        "integration_type": null
-      },
-      {
         "name": "RiskIQ Services",
         "version": "1.0",
         "author": "RiskIQ",
@@ -265,19 +248,36 @@
         "integration_type": null
       },
       {
-        "name": "RiskIQ Certificates",
+        "name": "RiskIQ HostpairParents",
         "version": "1.0",
         "author": "RiskIQ",
         "license": "AGPL-V3",
-        "description": "RiskIQ: SSL/TLS certificates associated with an indicator.",
+        "description": "RiskIQ: hosts with a parent web component relationship to an IOC.",
         "dataTypes": [
           "domain",
           "fqdn",
           "ip"
         ],
-        "file": ".upstream/cortex/analyzers/RiskIQ/RiskIQ_Certificates.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Certificates.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Certificates.json",
+        "file": ".upstream/cortex/analyzers/RiskIQ/RiskIQ_HostpairParents.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_HostpairParents.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_HostpairParents.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ",
+        "integration_type": null
+      },
+      {
+        "name": "RiskIQ Projects",
+        "version": "1.0",
+        "author": "RiskIQ",
+        "license": "AGPL-V3",
+        "description": "RiskIQ: Illuminate / PassiveTotal projects that contain an artifact which matches an IOC.",
+        "dataTypes": [
+          "domain",
+          "fqdn",
+          "ip"
+        ],
+        "file": ".upstream/cortex/analyzers/RiskIQ/RiskIQ_Projects.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Projects.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Projects.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ",
         "integration_type": null
       }

@@ -29,12 +29,12 @@ Check URL, file, SHA256 against Proofpoint forensics
 
 ## Functions (2)
 
-### [alertFeeder_ProofPoint_messageDelivered](https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered.js) `v1.0.0`
-Ingests ProofPoint messageDelivered alerts in TheHive
+### [alertFeeder_ProofPoint_clicksPermitted](https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted.js) `v1.0.0`
+Ingests ProofPoint clicksPermitted alerts in TheHive
 
 - **Author:** Fabien Bloume, StrangeBee
 
-### [alertFeeder_ProofPoint_clicksPermitted](https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted.js) `v1.0.0`
-Ingests ProofPoint clicksPermitted alerts in TheHive
+### [alertFeeder_ProofPoint_messageDelivered](https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered.js) `v1.0.0`
+Ingests ProofPoint messageDelivered alerts in TheHive
 
 - **Author:** Fabien Bloume, StrangeBee

@@ -83,17 +83,6 @@
     "responders": [],
     "functions": [
       {
-        "name": "alertFeeder_ProofPoint_messageDelivered",
-        "version": "1.0.0",
-        "author": "Fabien Bloume, StrangeBee",
-        "description": "Ingests ProofPoint messageDelivered alerts in TheHive",
-        "kind": "function",
-        "mode": "Enabled",
-        "file": "integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered.js",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered.js",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered.js"
-      },
-      {
         "name": "alertFeeder_ProofPoint_clicksPermitted",
         "version": "1.0.0",
         "author": "Fabien Bloume, StrangeBee",
@@ -103,6 +92,17 @@
         "file": "integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted.js",
         "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted.js",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted.js"
+      },
+      {
+        "name": "alertFeeder_ProofPoint_messageDelivered",
+        "version": "1.0.0",
+        "author": "Fabien Bloume, StrangeBee",
+        "description": "Ingests ProofPoint messageDelivered alerts in TheHive",
+        "kind": "function",
+        "mode": "Enabled",
+        "file": "integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered.js",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered.js",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered.js"
       }
     ]
   },

@@ -17,20 +17,20 @@ subscription_required: true
 free_subscription: false
 integrations:
   analyzers:
-  - name: SEKOIAIntelligenceCenter Indicators
+  - name: SEKOIAIntelligenceCenter Context
     version: '1.0'
     author: SEKOIA
     license: AGPL-V3
-    description: Query the Intelligence Center to retrieve indicators
+    description: Query the Intelligence Center to retrieve the context of an observable
     dataTypes:
     - domain
     - fqdn
     - url
     - hash
     - ip
-    file: .upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Indicators.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Indicators.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Indicators.json
+    file: .upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Context.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Context.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Context.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SEKOIAIntelligenceCenter
     integration_type: null
   - name: SEKOIAIntelligenceCenter Observables
@@ -49,20 +49,20 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_observables.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SEKOIAIntelligenceCenter
     integration_type: null
-  - name: SEKOIAIntelligenceCenter Context
+  - name: SEKOIAIntelligenceCenter Indicators
     version: '1.0'
     author: SEKOIA
     license: AGPL-V3
-    description: Query the Intelligence Center to retrieve the context of an observable
+    description: Query the Intelligence Center to retrieve indicators
     dataTypes:
     - domain
     - fqdn
     - url
     - hash
     - ip
-    file: .upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Context.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Context.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Context.json
+    file: .upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Indicators.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Indicators.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Indicators.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SEKOIAIntelligenceCenter
     integration_type: null
   responders: []

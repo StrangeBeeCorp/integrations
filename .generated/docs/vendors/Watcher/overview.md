@@ -11,13 +11,6 @@ Check if a domain is monitored in Watcher (Legitimate Domain and/or Website Moni
 
 ## Responders (4)
 
-### [Watcher Transfer v1.1](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Watcher)
-Transfer domain between Watcher modules. Required tag: watcher:module=LegitDomain|WebsiteMonitoring (DESTINATION module). Transfer TO LegitDomain: watcher:repurchased=Yes/No (required), watcher:contact=email (optional). Transfer TO WebsiteMonitoring: watcher:legitimacy=2-6 (required), watcher:takedown_request=Yes/No, watcher:legal_team=Yes/No, watcher:blocking_request=Yes/No
-
-- **Author:** THA-CERT // YNE
-- **License:** AGPL-V3
-- **Data Types:** `thehive:case_artifact`
-
 ### [Watcher Remove v1.1](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Watcher)
 Remove domain from Watcher. Required tag: watcher:module=LegitDomain|WebsiteMonitoring
 
@@ -34,6 +27,13 @@ Update domain in Watcher. Required tags: watcher:module=LegitDomain|WebsiteMonit
 
 ### [Watcher Add v1.1](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Watcher)
 Add domain to Watcher. Required tags: watcher:module=LegitDomain|WebsiteMonitoring. For LegitDomain: watcher:repurchased=Yes/No (required), watcher:contact=email (optional). For WebsiteMonitoring: watcher:legitimacy=2-6 (required), watcher:takedown_request=Yes/No, watcher:legal_team=Yes/No, watcher:blocking_request=Yes/No
+
+- **Author:** THA-CERT // YNE
+- **License:** AGPL-V3
+- **Data Types:** `thehive:case_artifact`
+
+### [Watcher Transfer v1.1](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Watcher)
+Transfer domain between Watcher modules. Required tag: watcher:module=LegitDomain|WebsiteMonitoring (DESTINATION module). Transfer TO LegitDomain: watcher:repurchased=Yes/No (required), watcher:contact=email (optional). Transfer TO WebsiteMonitoring: watcher:legitimacy=2-6 (required), watcher:takedown_request=Yes/No, watcher:legal_team=Yes/No, watcher:blocking_request=Yes/No
 
 - **Author:** THA-CERT // YNE
 - **License:** AGPL-V3

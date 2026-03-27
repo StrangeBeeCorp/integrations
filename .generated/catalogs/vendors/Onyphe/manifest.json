@@ -26,38 +26,22 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "ONYPHE Search",
-        "version": "1.1",
-        "author": "Pierre Baudry, Adrien Barchapt, Andrea Garavaglia, Davide Arcuri, James Atack",
+        "name": "ONYPHE Ctiscan",
+        "version": "1.0",
+        "author": "James Atack",
         "license": "AGPL-V3",
-        "description": "Retrieve results from ONYPHE Search API for a given ip, domain, fqdn or hash (sha256 TLS fingerprint) from specified category",
+        "description": "Query ONYPHE Ctiscan threat hunting data for open services (takes ip, domain, fqdn, autonomous-system or hash.)",
         "dataTypes": [
           "ip",
           "domain",
           "fqdn",
-          "hash"
+          "hash",
+          "autonomous-system",
+          "other"
         ],
-        "file": ".upstream/cortex/analyzers/Onyphe/ONYPHE_Search.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Onyphe/ONYPHE_Search.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Onyphe/ONYPHE_Search.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Onyphe",
-        "integration_type": null
-      },
-      {
-        "name": "ONYPHE Vulnscan",
-        "version": "1.1",
-        "author": "Pierre Baudry, Adrien Barchapt, Andrea Garavaglia, Davide Arcuri, James Atack",
-        "license": "AGPL-V3",
-        "description": "Retrieve vulnerability data from ONYPHE vulnscan category for a given ip, domain, fqdn or hash (sha256 TLS fingerprint)",
-        "dataTypes": [
-          "ip",
-          "domain",
-          "fqdn",
-          "hash"
-        ],
-        "file": ".upstream/cortex/analyzers/Onyphe/ONYPHE_Vulnscan.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Onyphe/ONYPHE_Vulnscan.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Onyphe/ONYPHE_Vulnscan.json",
+        "file": ".upstream/cortex/analyzers/Onyphe/ONYPHE_Ctiscan.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Onyphe/ONYPHE_Ctiscan.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Onyphe/ONYPHE_Ctiscan.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Onyphe",
         "integration_type": null
       },
@@ -80,22 +64,20 @@
         "integration_type": null
       },
       {
-        "name": "ONYPHE Ctiscan",
-        "version": "1.0",
-        "author": "James Atack",
+        "name": "ONYPHE Vulnscan",
+        "version": "1.1",
+        "author": "Pierre Baudry, Adrien Barchapt, Andrea Garavaglia, Davide Arcuri, James Atack",
         "license": "AGPL-V3",
-        "description": "Query ONYPHE Ctiscan threat hunting data for open services (takes ip, domain, fqdn, autonomous-system or hash.)",
+        "description": "Retrieve vulnerability data from ONYPHE vulnscan category for a given ip, domain, fqdn or hash (sha256 TLS fingerprint)",
         "dataTypes": [
           "ip",
           "domain",
           "fqdn",
-          "hash",
-          "autonomous-system",
-          "other"
+          "hash"
         ],
-        "file": ".upstream/cortex/analyzers/Onyphe/ONYPHE_Ctiscan.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Onyphe/ONYPHE_Ctiscan.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Onyphe/ONYPHE_Ctiscan.json",
+        "file": ".upstream/cortex/analyzers/Onyphe/ONYPHE_Vulnscan.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Onyphe/ONYPHE_Vulnscan.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Onyphe/ONYPHE_Vulnscan.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Onyphe",
         "integration_type": null
       },
@@ -113,6 +95,24 @@
         "file": ".upstream/cortex/analyzers/Onyphe/ONYPHE_Summary_API.json",
         "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Onyphe/ONYPHE_Summary_API.json",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Onyphe/ONYPHE_Summary_API.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Onyphe",
+        "integration_type": null
+      },
+      {
+        "name": "ONYPHE Search",
+        "version": "1.1",
+        "author": "Pierre Baudry, Adrien Barchapt, Andrea Garavaglia, Davide Arcuri, James Atack",
+        "license": "AGPL-V3",
+        "description": "Retrieve results from ONYPHE Search API for a given ip, domain, fqdn or hash (sha256 TLS fingerprint) from specified category",
+        "dataTypes": [
+          "ip",
+          "domain",
+          "fqdn",
+          "hash"
+        ],
+        "file": ".upstream/cortex/analyzers/Onyphe/ONYPHE_Search.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Onyphe/ONYPHE_Search.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Onyphe/ONYPHE_Search.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Onyphe",
         "integration_type": null
       }

@@ -14,6 +14,18 @@ displayOnWebsite: true
 visibility: 100
 integrations:
   analyzers:
+  - name: Investigate Sample
+    version: '1.0'
+    author: Cisco Umbrella Research @opendns
+    license: AGPL-V3
+    description: Retrieve sample data from Investigate for a hash. (Sample data provided by ThreatGrid)
+    dataTypes:
+    - hash
+    file: .upstream/cortex/analyzers/Investigate/Investigate_Sample.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Investigate/Investigate_Sample.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Investigate/Investigate_Sample.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Investigate
+    integration_type: null
   - name: Investigate Categorization
     version: '1.0'
     author: Cisco Umbrella Research @opendns
@@ -25,18 +37,6 @@ integrations:
     file: .upstream/cortex/analyzers/Investigate/Investigate_Categorization.json
     url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Investigate/Investigate_Categorization.json
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Investigate/Investigate_Categorization.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Investigate
-    integration_type: null
-  - name: Investigate Sample
-    version: '1.0'
-    author: Cisco Umbrella Research @opendns
-    license: AGPL-V3
-    description: Retrieve sample data from Investigate for a hash. (Sample data provided by ThreatGrid)
-    dataTypes:
-    - hash
-    file: .upstream/cortex/analyzers/Investigate/Investigate_Sample.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Investigate/Investigate_Sample.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Investigate/Investigate_Sample.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Investigate
     integration_type: null
   responders: []

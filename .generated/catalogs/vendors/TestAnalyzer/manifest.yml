@@ -17,28 +17,6 @@ subscription_required: false
 free_subscription: false
 integrations:
   analyzers:
-  - name: DevTools Echo Analyzer
-    version: '1.0'
-    author: Fabien Bloume, StrangeBee
-    license: AGPL-V3
-    description: Development utility that simply echoes the (available) input received by the analyzer.
-    dataTypes:
-    - ip
-    - domain
-    - url
-    - fqdn
-    - mail
-    - file
-    - hash
-    - filename
-    - uri_path
-    - user-agent
-    - mail-subject
-    file: .upstream/cortex/analyzers/TestAnalyzer/DevTools_Echo.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/TestAnalyzer/DevTools_Echo.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/TestAnalyzer/DevTools_Echo.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/TestAnalyzer
-    integration_type: null
   - name: TestAnalyzer
     version: '1.0'
     author: Fabien Bloume, StrangeBee
@@ -59,6 +37,28 @@ integrations:
     file: .upstream/cortex/analyzers/TestAnalyzer/TestAnalyzer.json
     url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/TestAnalyzer/TestAnalyzer.json
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/TestAnalyzer/TestAnalyzer.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/TestAnalyzer
+    integration_type: null
+  - name: DevTools Echo Analyzer
+    version: '1.0'
+    author: Fabien Bloume, StrangeBee
+    license: AGPL-V3
+    description: Development utility that simply echoes the (available) input received by the analyzer.
+    dataTypes:
+    - ip
+    - domain
+    - url
+    - fqdn
+    - mail
+    - file
+    - hash
+    - filename
+    - uri_path
+    - user-agent
+    - mail-subject
+    file: .upstream/cortex/analyzers/TestAnalyzer/DevTools_Echo.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/TestAnalyzer/DevTools_Echo.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/TestAnalyzer/DevTools_Echo.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/TestAnalyzer
     integration_type: null
   responders: []

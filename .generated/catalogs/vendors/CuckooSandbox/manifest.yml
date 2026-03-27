@@ -17,18 +17,6 @@ subscription_required: false
 free_subscription: false
 integrations:
   analyzers:
-  - name: CuckooSandbox File Analysis Inet
-    version: '1.2'
-    author: Andrea Garavaglia, LDO-CERT
-    license: AGPL-V3
-    description: Cuckoo Sandbox file analysis with Internet access.
-    dataTypes:
-    - file
-    file: .upstream/cortex/analyzers/CuckooSandbox/CuckooSandbox_File_Analysis.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/CuckooSandbox/CuckooSandbox_File_Analysis.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/CuckooSandbox/CuckooSandbox_File_Analysis.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CuckooSandbox
-    integration_type: null
   - name: CuckooSandbox Url Analysis
     version: '1.2'
     author: Andrea Garavaglia, LDO-CERT
@@ -39,6 +27,18 @@ integrations:
     file: .upstream/cortex/analyzers/CuckooSandbox/CuckooSandbox_Url_Analysis.json
     url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/CuckooSandbox/CuckooSandbox_Url_Analysis.json
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/CuckooSandbox/CuckooSandbox_Url_Analysis.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CuckooSandbox
+    integration_type: null
+  - name: CuckooSandbox File Analysis Inet
+    version: '1.2'
+    author: Andrea Garavaglia, LDO-CERT
+    license: AGPL-V3
+    description: Cuckoo Sandbox file analysis with Internet access.
+    dataTypes:
+    - file
+    file: .upstream/cortex/analyzers/CuckooSandbox/CuckooSandbox_File_Analysis.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/CuckooSandbox/CuckooSandbox_File_Analysis.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/CuckooSandbox/CuckooSandbox_File_Analysis.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CuckooSandbox
     integration_type: null
   responders: []

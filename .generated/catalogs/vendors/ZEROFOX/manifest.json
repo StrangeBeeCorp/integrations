@@ -14,21 +14,6 @@
     "analyzers": [],
     "responders": [
       {
-        "name": "ZEROFOX Takedown request",
-        "version": "1.0",
-        "author": "TheHive-Project",
-        "license": "AGPL-V3",
-        "description": "Request for a takedown regarding the alert in Zerofox",
-        "dataTypes": [
-          "thehive:case"
-        ],
-        "file": ".upstream/cortex/responders/ZEROFOX/ZEROFOX_Takedown_request.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/ZEROFOX/ZEROFOX_Takedown_request.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/ZEROFOX/ZEROFOX_Takedown_request.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/ZEROFOX",
-        "integration_type": null
-      },
-      {
         "name": "ZEROFOX Close alert",
         "version": "1.0",
         "author": "TheHive-Project",
@@ -40,6 +25,21 @@
         "file": ".upstream/cortex/responders/ZEROFOX/ZEROFOX_Close_alert.json",
         "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/ZEROFOX/ZEROFOX_Close_alert.json",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/ZEROFOX/ZEROFOX_Close_alert.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/ZEROFOX",
+        "integration_type": null
+      },
+      {
+        "name": "ZEROFOX Takedown request",
+        "version": "1.0",
+        "author": "TheHive-Project",
+        "license": "AGPL-V3",
+        "description": "Request for a takedown regarding the alert in Zerofox",
+        "dataTypes": [
+          "thehive:case"
+        ],
+        "file": ".upstream/cortex/responders/ZEROFOX/ZEROFOX_Takedown_request.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/ZEROFOX/ZEROFOX_Takedown_request.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/ZEROFOX/ZEROFOX_Takedown_request.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/ZEROFOX",
         "integration_type": null
       }

@@ -1,14 +1,14 @@
 ## Analyzers (3)
 
-### [CyberChef FromBase64 v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CyberChef)
-Convert Base64 with CyberChef Server
+### [CyberChef FromHex v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CyberChef)
+Convert Hex with CyberChef Server
 
 - **Author:** Wes Lambert
 - **License:** AGPL-V3
 - **Data Types:** `other`
 
-### [CyberChef FromHex v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CyberChef)
-Convert Hex with CyberChef Server
+### [CyberChef FromBase64 v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CyberChef)
+Convert Base64 with CyberChef Server
 
 - **Author:** Wes Lambert
 - **License:** AGPL-V3
