@@ -18,8 +18,8 @@ from manifest_utils import (
 
 SECTION_DESCRIPTIONS = {
     'Analyzers': 'Enrich observables with intelligence',
-    'Responders': 'Trigger automated responses with any 3rd-party tool',
-    'Functions': 'Automate TheHive actions & ingest alerts from external systems',
+    'Responders': 'Trigger automated responses',
+    'Functions': 'Automate TheHive actions or ingest alerts',
     'Use Cases': 'Real-world integrations with TheHive',
 }
 
@@ -29,7 +29,7 @@ def _render_cortex_items(items: list, item_type: str) -> List[str]:
     lines = [f"## {item_type} ({len(items)})", ""]
     desc = SECTION_DESCRIPTIONS.get(item_type)
     if desc:
-        lines.extend([desc, ""])
+        lines.extend([f"*{desc}*", ""])
 
     for item in items:
         name = item.get('name', 'Unknown')
@@ -78,7 +78,7 @@ def generate_markdown_overview(vendor: str, manifest: Dict) -> str:
     # Use Cases
     if use_cases:
         lines.extend([f"## Use Cases ({len(use_cases)})", "",
-                       SECTION_DESCRIPTIONS['Use Cases'], ""])
+                       f"*{SECTION_DESCRIPTIONS['Use Cases']}*", ""])
         function_lookup = {f.get('file', ''): f for f in functions}
 
         for uc in use_cases:
@@ -121,7 +121,7 @@ def generate_markdown_overview(vendor: str, manifest: Dict) -> str:
     # Functions
     if functions:
         lines.extend([f"## Functions ({len(functions)})", "",
-                       SECTION_DESCRIPTIONS['Functions'], ""])
+                       f"*{SECTION_DESCRIPTIONS['Functions']}*", ""])
         for func in functions:
             name = func.get('name', 'Unknown')
             version = func.get('version', '')
