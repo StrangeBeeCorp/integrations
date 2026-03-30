@@ -6,8 +6,8 @@ Example functions for TheHive. Use them as-is or as inspiration for your own.
 
 ## Summary
 
-- **Total Functions:** 13
-- **Generic Functions:** 7
+- **Total Functions:** 16
+- **Generic Functions:** 10
 - **Vendor-Specific Functions:** 6
 - **Vendors with Functions:** 5
 
@@ -59,6 +59,17 @@ This function is designed to trigger on case closed event. It automatically chan
 
 ---
 
+### [Check IP RFC 1918/4193](check-ip-rfc-1918-4193.md) `v1.0.0`
+
+**Type:** Notifier
+**Mode:** Enabled
+
+Checks the IP Observable type and tags it as "ip:public", "ip:private", or "ip:invalid" based on RFC 1918/4193. For both IPv4 and IPv6.
+
+[View full documentation](check-ip-rfc-1918-4193.md)
+
+---
+
 ### [coldCaseAutomation](coldcaseautomation.md) `v1.0.0`
 
 **Type:** API
@@ -107,6 +118,17 @@ Prerequisites:
 
 ---
 
+### [computeTotalTimeSpent](computetotaltimespent.md) `v1.0.0`
+
+**Type:** Notifier
+**Mode:** Enabled
+
+On task closure, compute the duration of the task rounded up to the nearest minute. It's then added to the TASK_TIME_CUSTOMFIELD integer customfield at the case level. Use a trigger "task closed"
+
+[View full documentation](computetotaltimespent.md)
+
+---
+
 ### [deleteIPObsFromAlert](deleteipobsfromalert.md) `v1.0.0`
 
 **Type:** Action:Alert
@@ -115,6 +137,17 @@ Prerequisites:
 This function will delete all the IP Observable from an alert
 
 [View full documentation](deleteipobsfromalert.md)
+
+---
+
+### [externalAccessAutomation](externalaccessautomation.md) `v1.0.0`
+
+**Type:** Notifier
+**Mode:** Enabled
+
+Automatically grants external case access to client users when a case is closed. It reads the client custom field from the case, extracts the company domain label, and retrieves the external users linked to the case. Users whose email domain matches the client domain are identified and granted external access to the case.
+
+[View full documentation](externalaccessautomation.md)
 
 ---
 
