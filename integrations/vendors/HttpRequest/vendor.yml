@@ -1,0 +1,7 @@
+id: HttpRequest
+name: "HTTP Request"
+description: "Send HTTP requests from TheHive to any endpoint when specific events occur."
+category: SOAR & Automation
+notifier: true
+displayOnWebsite: false
+visibility: 50

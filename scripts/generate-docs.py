@@ -21,6 +21,7 @@ SECTION_DESCRIPTIONS = {
     'Responders': 'Trigger automated responses',
     'Functions': 'Automate TheHive actions or ingest alerts',
     'Use Cases': 'Real-world integrations with TheHive',
+    'Notifiers': 'Notify external systems when events occur',
 }
 
 
@@ -62,11 +63,13 @@ def generate_markdown_overview(vendor: str, manifest: Dict) -> str:
     responders = manifest.get('integrations', {}).get('responders', [])
     functions = manifest.get('integrations', {}).get('functions', [])
     external_integrations = manifest.get('externalIntegrations', [])
+    is_notifier = manifest.get('notifier', False)
 
     sections = []
     if use_cases: sections.append('use_cases')
     if analyzers: sections.append('analyzers')
     if responders: sections.append('responders')
+    if is_notifier: sections.append('notifier')
     if functions: sections.append('functions')
     if external_integrations: sections.append('external')
 
@@ -117,6 +120,19 @@ def generate_markdown_overview(vendor: str, manifest: Dict) -> str:
     if responders:
         lines.extend(_render_cortex_items(responders, "Responders"))
         _add_divider_if_more('responders')
+
+    # Notifier
+    if is_notifier:
+        notifier_doc = ("https://docs.strangebee.com/thehive/user-guides/"
+                        "organization/configure-organization/"
+                        "manage-notifications/about-notifications/")
+        lines.extend([
+            "## Notifier", "",
+            f"*{SECTION_DESCRIPTIONS['Notifiers']}*", "",
+            f"This integration is available as a built-in "
+            f"[TheHive notifier]({notifier_doc}).", "",
+        ])
+        _add_divider_if_more('notifier')
 
     # Functions
     if functions:
@@ -180,6 +196,8 @@ def generate_catalog_index(all_manifests: Dict) -> str:
                     for k in ('totalAnalyzers', 'totalResponders', 'totalFunctions', 'total')}
     stats_totals['totalExternalIntegrations'] = sum(
         m['stats'].get('totalExternalIntegrations', 0) for m in all_manifests.values())
+    stats_totals['totalNotifiers'] = sum(
+        m['stats'].get('totalNotifiers', 0) for m in all_manifests.values())
 
     lines.extend([
         "## Summary Statistics", "",
@@ -187,6 +205,7 @@ def generate_catalog_index(all_manifests: Dict) -> str:
         f"- **Total Analyzers:** {stats_totals['totalAnalyzers']}",
         f"- **Total Responders:** {stats_totals['totalResponders']}",
         f"- **Total Functions:** {stats_totals['totalFunctions']}",
+        f"- **Total Notifiers:** {stats_totals['totalNotifiers']}",
         f"- **Total External Integrations:** {stats_totals['totalExternalIntegrations']}",
         f"- **Total Integrations:** {stats_totals['total']}", "",
     ])
@@ -219,6 +238,7 @@ def generate_catalog_index(all_manifests: Dict) -> str:
         if stats['totalAnalyzers'] > 0: parts.append(f"{stats['totalAnalyzers']} analyzers")
         if stats['totalResponders'] > 0: parts.append(f"{stats['totalResponders']} responders")
         if stats['totalFunctions'] > 0: parts.append(f"{stats['totalFunctions']} functions")
+        if stats.get('totalNotifiers', 0) > 0: parts.append("notifier")
         if stats.get('totalExternalIntegrations', 0) > 0: parts.append(f"{stats['totalExternalIntegrations']} external")
         breakdown = ", ".join(parts) or "No integrations"
         lines.append(f"- **[{manifest['name']}](vendors/{vendor_id}/overview.md)** - *{category}* - {breakdown}")

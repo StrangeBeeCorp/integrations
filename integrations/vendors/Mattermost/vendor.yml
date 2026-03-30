@@ -1,0 +1,7 @@
+id: Mattermost
+name: "Mattermost"
+description: "Mattermost is an open-source messaging platform for team collaboration, offering channels, direct messaging, and integrations."
+category: Collaboration
+homepage: "https://mattermost.com"
+notifier: true
+visibility: 50

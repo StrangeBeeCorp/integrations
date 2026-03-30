@@ -1,0 +1,7 @@
+id: MSTeams
+name: "Microsoft Teams"
+description: "Microsoft Teams is a collaboration platform that combines chat, video meetings, file storage, and application integration."
+category: Collaboration
+homepage: "https://www.microsoft.com/en-us/microsoft-teams"
+notifier: true
+visibility: 50

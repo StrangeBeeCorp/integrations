@@ -1,0 +1,7 @@
+id: Webhook
+name: "Webhook"
+description: "Send data to webhook endpoints from TheHive when specific events occur."
+category: SOAR & Automation
+notifier: true
+displayOnWebsite: false
+visibility: 50

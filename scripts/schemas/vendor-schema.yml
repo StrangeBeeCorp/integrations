@@ -96,6 +96,10 @@ properties:
     type: boolean
     description: "Whether a free subscription tier is available"
 
+  notifier:
+    type: boolean
+    description: "Whether this vendor is available as a TheHive notifier endpoint"
+
   documentation:
     type: string
     description: "URL to vendor's API or integration documentation"

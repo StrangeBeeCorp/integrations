@@ -1,0 +1,7 @@
+id: Email
+name: "Email"
+description: "Send email notifications from TheHive to designated email addresses when specific events occur."
+category: Collaboration
+notifier: true
+displayOnWebsite: false
+visibility: 50

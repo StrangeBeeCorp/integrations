@@ -1,0 +1,7 @@
+id: Redis
+name: "Redis"
+description: "Redis is an in-memory data store used as a database, cache, and message broker."
+category: SOAR & Automation
+homepage: "https://redis.io"
+notifier: true
+visibility: 50

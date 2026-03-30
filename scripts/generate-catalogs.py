@@ -69,6 +69,7 @@ def generate_light_manifest(all_manifests: Dict) -> Dict:
                 'totalFunctions': old_stats.get('totalFunctions', 0),
                 'totalUseCases': old_stats.get('totalUseCases', 0),
                 'totalExternalIntegrations': old_stats.get('totalExternalIntegrations', 0),
+                'totalNotifiers': old_stats.get('totalNotifiers', 0),
                 'total': old_stats.get('total', 0),
             },
         }
@@ -170,6 +171,7 @@ def generate_github_summary(all_manifests: Dict, previous_manifests: Dict = None
         'total_responders': sum(m['stats']['totalResponders'] for m in all_manifests.values()),
         'total_functions': sum(m['stats']['totalFunctions'] for m in all_manifests.values()),
         'total_external_integrations': sum(m['stats'].get('totalExternalIntegrations', 0) for m in all_manifests.values()),
+        'total_notifiers': sum(m['stats'].get('totalNotifiers', 0) for m in all_manifests.values()),
         'total_integrations': sum(m['stats']['total'] for m in all_manifests.values()),
         'added': [], 'updated': [], 'removed': []
     }
@@ -343,6 +345,7 @@ def main():
     print(f"Total Responders: {sum(m['stats']['totalResponders'] for m in all_manifests.values())}")
     print(f"Total Functions: {sum(m['stats']['totalFunctions'] for m in all_manifests.values())}")
     print(f"Total External Integrations: {ext_catalog['totalIntegrations']}")
+    print(f"Total Notifiers: {sum(m['stats'].get('totalNotifiers', 0) for m in all_manifests.values())}")
     print(f"Total Integrations: {sum(m['stats']['total'] for m in all_manifests.values())}")
 
 
