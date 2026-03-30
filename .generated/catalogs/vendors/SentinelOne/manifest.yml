@@ -9,6 +9,7 @@ tags: []
 homepage: ''
 logo: {}
 useCases: []
+notifier: false
 externalIntegrations: []
 displayOnWebsite: true
 visibility: 100
@@ -28,8 +29,8 @@ integrations:
     - domain
     - fqdn
     file: .upstream/cortex/analyzers/SentinelOne/SentinelOne_DNSQuery.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/SentinelOne/SentinelOne_DNSQuery.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/SentinelOne/SentinelOne_DNSQuery.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/SentinelOne/SentinelOne_DNSQuery.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/SentinelOne/SentinelOne_DNSQuery.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SentinelOne
     integration_type: null
   - name: SentinelOne DeepVisibility DNSQuery
@@ -42,8 +43,8 @@ integrations:
     - domain
     - fqdn
     file: .upstream/cortex/analyzers/SentinelOne/SentinelOne_DeepVisibility_DNSQuery.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/SentinelOne/SentinelOne_DeepVisibility_DNSQuery.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/SentinelOne/SentinelOne_DeepVisibility_DNSQuery.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/SentinelOne/SentinelOne_DeepVisibility_DNSQuery.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/SentinelOne/SentinelOne_DeepVisibility_DNSQuery.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SentinelOne
     integration_type: null
   - name: SentinelOne DNSReverseLookup
@@ -55,8 +56,8 @@ integrations:
     dataTypes:
     - ip
     file: .upstream/cortex/analyzers/SentinelOne/SentinelOne_DNSReverseLookup.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/SentinelOne/SentinelOne_DNSReverseLookup.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/SentinelOne/SentinelOne_DNSReverseLookup.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/SentinelOne/SentinelOne_DNSReverseLookup.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/SentinelOne/SentinelOne_DNSReverseLookup.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SentinelOne
     integration_type: null
   responders:
@@ -68,8 +69,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/SentinelOne/SentinelOne_HashBlacklister.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/SentinelOne/SentinelOne_HashBlacklister.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/SentinelOne/SentinelOne_HashBlacklister.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/SentinelOne/SentinelOne_HashBlacklister.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/SentinelOne/SentinelOne_HashBlacklister.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/SentinelOne
     integration_type: null
   functions: []
@@ -79,4 +80,5 @@ stats:
   totalFunctions: 0
   totalUseCases: 0
   totalExternalIntegrations: 0
+  totalNotifiers: 0
   total: 4

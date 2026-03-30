@@ -1,0 +1,28 @@
+{
+  "id": "Email",
+  "name": "Email",
+  "description": "Send email notifications from TheHive to designated email addresses when specific events occur.",
+  "category": "Collaboration",
+  "tags": [],
+  "homepage": "",
+  "logo": {},
+  "useCases": [],
+  "notifier": true,
+  "externalIntegrations": [],
+  "displayOnWebsite": false,
+  "visibility": 50,
+  "integrations": {
+    "analyzers": [],
+    "responders": [],
+    "functions": []
+  },
+  "stats": {
+    "totalAnalyzers": 0,
+    "totalResponders": 0,
+    "totalFunctions": 0,
+    "totalUseCases": 0,
+    "totalExternalIntegrations": 0,
+    "totalNotifiers": 1,
+    "total": 1
+  }
+}

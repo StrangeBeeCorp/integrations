@@ -9,6 +9,7 @@ tags: []
 homepage: ''
 logo: {}
 useCases: []
+notifier: false
 externalIntegrations: []
 displayOnWebsite: true
 visibility: 100
@@ -22,8 +23,8 @@ integrations:
     dataTypes:
     - domain
     file: .upstream/cortex/analyzers/DNSSinkhole/DNSSinkhole.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/DNSSinkhole/DNSSinkhole.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/DNSSinkhole/DNSSinkhole.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/DNSSinkhole/DNSSinkhole.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/DNSSinkhole/DNSSinkhole.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DNSSinkhole
     integration_type: null
   responders: []
@@ -34,4 +35,5 @@ stats:
   totalFunctions: 0
   totalUseCases: 0
   totalExternalIntegrations: 0
+  totalNotifiers: 0
   total: 1

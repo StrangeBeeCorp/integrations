@@ -9,6 +9,7 @@ tags: []
 homepage: ''
 logo: {}
 useCases: []
+notifier: false
 externalIntegrations: []
 displayOnWebsite: true
 visibility: 100
@@ -22,8 +23,8 @@ integrations:
     dataTypes:
     - ip
     file: .upstream/cortex/analyzers/Robtex/Robtex_Reverse_PDNS_Query.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Robtex/Robtex_Reverse_PDNS_Query.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Robtex/Robtex_Reverse_PDNS_Query.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/Robtex/Robtex_Reverse_PDNS_Query.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/Robtex/Robtex_Reverse_PDNS_Query.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Robtex
     integration_type: null
   - name: Robtex Forward PDNS Query
@@ -35,8 +36,8 @@ integrations:
     - domain
     - fqdn
     file: .upstream/cortex/analyzers/Robtex/Robtex_Forward_PDNS_Query.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Robtex/Robtex_Forward_PDNS_Query.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Robtex/Robtex_Forward_PDNS_Query.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/Robtex/Robtex_Forward_PDNS_Query.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/Robtex/Robtex_Forward_PDNS_Query.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Robtex
     integration_type: null
   - name: Robtex IP Query
@@ -47,8 +48,8 @@ integrations:
     dataTypes:
     - ip
     file: .upstream/cortex/analyzers/Robtex/Robtex_IP_Query.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Robtex/Robtex_IP_Query.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Robtex/Robtex_IP_Query.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/Robtex/Robtex_IP_Query.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/Robtex/Robtex_IP_Query.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Robtex
     integration_type: null
   responders: []
@@ -59,4 +60,5 @@ stats:
   totalFunctions: 0
   totalUseCases: 0
   totalExternalIntegrations: 0
+  totalNotifiers: 0
   total: 3

@@ -9,6 +9,7 @@ tags: []
 homepage: ''
 logo: {}
 useCases: []
+notifier: false
 externalIntegrations: []
 displayOnWebsite: false
 visibility: low
@@ -35,8 +36,8 @@ integrations:
     - filename
     - mail-subject
     file: .upstream/cortex/analyzers/SoltraEdge/Soltra_search.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/SoltraEdge/Soltra_search.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/SoltraEdge/Soltra_search.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/SoltraEdge/Soltra_search.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/SoltraEdge/Soltra_search.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SoltraEdge
     integration_type: null
   responders: []
@@ -47,4 +48,5 @@ stats:
   totalFunctions: 0
   totalUseCases: 0
   totalExternalIntegrations: 0
+  totalNotifiers: 0
   total: 1

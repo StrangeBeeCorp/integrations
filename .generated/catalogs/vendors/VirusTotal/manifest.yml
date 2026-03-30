@@ -16,9 +16,10 @@ tags:
 homepage: https://www.virustotal.com
 logo:
   file: integrations/vendors/VirusTotal/assets/logo.svg
-  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/VirusTotal/assets/logo.svg
-  github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/VirusTotal/assets/logo.svg
+  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/integrations/vendors/VirusTotal/assets/logo.svg
+  github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/integrations/vendors/VirusTotal/assets/logo.svg
 useCases: []
+notifier: false
 externalIntegrations: []
 displayOnWebsite: true
 visibility: 3
@@ -41,8 +42,8 @@ integrations:
     - ip
     - url
     file: .upstream/cortex/analyzers/VirusTotal/VirusTotal_GetReport.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/VirusTotal/VirusTotal_GetReport.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/VirusTotal/VirusTotal_GetReport.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/VirusTotal/VirusTotal_GetReport.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/VirusTotal/VirusTotal_GetReport.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/VirusTotal
     integration_type: null
   - name: VirusTotal Scan
@@ -54,8 +55,8 @@ integrations:
     - file
     - url
     file: .upstream/cortex/analyzers/VirusTotal/VirusTotal_Scan.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/VirusTotal/VirusTotal_Scan.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/VirusTotal/VirusTotal_Scan.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/VirusTotal/VirusTotal_Scan.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/VirusTotal/VirusTotal_Scan.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/VirusTotal
     integration_type: null
   - name: VirusTotal DownloadSample
@@ -66,8 +67,8 @@ integrations:
     dataTypes:
     - hash
     file: .upstream/cortex/analyzers/VirusTotal/VirusTotal_DownloadSample.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/VirusTotal/VirusTotal_DownloadSample.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/VirusTotal/VirusTotal_DownloadSample.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/VirusTotal/VirusTotal_DownloadSample.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/VirusTotal/VirusTotal_DownloadSample.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/VirusTotal
     integration_type: null
   - name: VirusTotal Rescan
@@ -78,8 +79,8 @@ integrations:
     dataTypes:
     - hash
     file: .upstream/cortex/analyzers/VirusTotal/VirusTotal_Rescan.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/VirusTotal/VirusTotal_Rescan.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/VirusTotal/VirusTotal_Rescan.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/VirusTotal/VirusTotal_Rescan.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/VirusTotal/VirusTotal_Rescan.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/VirusTotal
     integration_type: null
   responders: []
@@ -90,4 +91,5 @@ stats:
   totalFunctions: 0
   totalUseCases: 0
   totalExternalIntegrations: 0
+  totalNotifiers: 0
   total: 4

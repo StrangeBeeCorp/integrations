@@ -9,6 +9,7 @@ tags: []
 homepage: ''
 logo: {}
 useCases: []
+notifier: false
 externalIntegrations: []
 displayOnWebsite: true
 visibility: low
@@ -23,8 +24,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_IsolationStop.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_IsolationStop.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_IsolationStop.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_IsolationStop.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_IsolationStop.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/AMPforEndpoints
     integration_type: null
   - name: AMPforEndpoints MoveGUID
@@ -35,8 +36,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_MoveGUID.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_MoveGUID.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_MoveGUID.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_MoveGUID.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_MoveGUID.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/AMPforEndpoints
     integration_type: null
   - name: AMPforEndpoints SCDAdd
@@ -47,8 +48,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_SCDAdd.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_SCDAdd.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_SCDAdd.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_SCDAdd.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_SCDAdd.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/AMPforEndpoints
     integration_type: null
   - name: AMPforEndpoints IsolationStart
@@ -59,8 +60,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_IsolationStart.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_IsolationStart.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_IsolationStart.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_IsolationStart.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_IsolationStart.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/AMPforEndpoints
     integration_type: null
   - name: AMPforEndpoints SCDRemove
@@ -71,8 +72,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_SCDRemove.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_SCDRemove.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_SCDRemove.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_SCDRemove.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_SCDRemove.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/AMPforEndpoints
     integration_type: null
   functions: []
@@ -82,4 +83,5 @@ stats:
   totalFunctions: 0
   totalUseCases: 0
   totalExternalIntegrations: 0
+  totalNotifiers: 0
   total: 5

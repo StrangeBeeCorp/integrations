@@ -11,6 +11,7 @@ tags:
 homepage: https://www.tines.com
 logo: {}
 useCases: []
+notifier: false
 externalIntegrations:
 - name: TheHive Project Connector
   description: Native Tines credential connector that enables workflows to interact with TheHive for automated incident creation,
@@ -29,4 +30,5 @@ stats:
   totalFunctions: 0
   totalUseCases: 0
   totalExternalIntegrations: 1
+  totalNotifiers: 0
   total: 1

@@ -7,6 +7,7 @@
   "homepage": "",
   "logo": {},
   "useCases": [],
+  "notifier": false,
   "externalIntegrations": [],
   "displayOnWebsite": true,
   "visibility": 100,
@@ -27,8 +28,8 @@
           "file"
         ],
         "file": ".upstream/cortex/analyzers/Triage/Triage.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Triage/Triage.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Triage/Triage.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/Triage/Triage.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/Triage/Triage.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Triage",
         "integration_type": null
       }
@@ -42,6 +43,7 @@
     "totalFunctions": 0,
     "totalUseCases": 0,
     "totalExternalIntegrations": 0,
+    "totalNotifiers": 0,
     "total": 1
   }
 }

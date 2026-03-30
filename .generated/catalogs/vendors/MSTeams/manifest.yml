@@ -1,0 +1,28 @@
+# AUTO-GENERATED - DO NOT EDIT
+# Edit vendor.yml for vendor metadata, then re-run the generator
+
+id: MSTeams
+name: Microsoft Teams
+description: Microsoft Teams is a collaboration platform that combines chat, video meetings, file storage, and application
+  integration.
+category: Collaboration
+tags: []
+homepage: https://www.microsoft.com/en-us/microsoft-teams
+logo: {}
+useCases: []
+notifier: true
+externalIntegrations: []
+displayOnWebsite: true
+visibility: 50
+integrations:
+  analyzers: []
+  responders: []
+  functions: []
+stats:
+  totalAnalyzers: 0
+  totalResponders: 0
+  totalFunctions: 0
+  totalUseCases: 0
+  totalExternalIntegrations: 0
+  totalNotifiers: 1
+  total: 1

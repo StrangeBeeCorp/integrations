@@ -1,0 +1,28 @@
+{
+  "id": "Kafka",
+  "name": "Apache Kafka",
+  "description": "Apache Kafka is a distributed event streaming platform for high-performance data pipelines, streaming analytics, and data integration.",
+  "category": "SOAR & Automation",
+  "tags": [],
+  "homepage": "https://kafka.apache.org",
+  "logo": {},
+  "useCases": [],
+  "notifier": true,
+  "externalIntegrations": [],
+  "displayOnWebsite": true,
+  "visibility": 50,
+  "integrations": {
+    "analyzers": [],
+    "responders": [],
+    "functions": []
+  },
+  "stats": {
+    "totalAnalyzers": 0,
+    "totalResponders": 0,
+    "totalFunctions": 0,
+    "totalUseCases": 0,
+    "totalExternalIntegrations": 0,
+    "totalNotifiers": 1,
+    "total": 1
+  }
+}

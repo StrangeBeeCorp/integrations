@@ -9,6 +9,7 @@ tags: []
 homepage: ''
 logo: {}
 useCases: []
+notifier: false
 externalIntegrations: []
 displayOnWebsite: false
 visibility: low
@@ -22,8 +23,8 @@ integrations:
     dataTypes:
     - file
     file: .upstream/cortex/analyzers/PayloadSecurity/PayloadSecurity_File_Analysis.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/PayloadSecurity/PayloadSecurity_File_Analysis.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/PayloadSecurity/PayloadSecurity_File_Analysis.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/PayloadSecurity/PayloadSecurity_File_Analysis.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/PayloadSecurity/PayloadSecurity_File_Analysis.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PayloadSecurity
     integration_type: null
   - name: PayloadSecurity Url Analysis
@@ -34,8 +35,8 @@ integrations:
     dataTypes:
     - url
     file: .upstream/cortex/analyzers/PayloadSecurity/PayloadSecurity_Url_Analysis.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/PayloadSecurity/PayloadSecurity_Url_Analysis.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/PayloadSecurity/PayloadSecurity_Url_Analysis.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/PayloadSecurity/PayloadSecurity_Url_Analysis.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/PayloadSecurity/PayloadSecurity_Url_Analysis.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PayloadSecurity
     integration_type: null
   responders: []
@@ -46,4 +47,5 @@ stats:
   totalFunctions: 0
   totalUseCases: 0
   totalExternalIntegrations: 0
+  totalNotifiers: 0
   total: 2

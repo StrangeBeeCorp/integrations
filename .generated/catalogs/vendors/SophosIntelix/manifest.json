@@ -7,6 +7,7 @@
   "homepage": "",
   "logo": {},
   "useCases": [],
+  "notifier": false,
   "externalIntegrations": [],
   "displayOnWebsite": true,
   "visibility": 100,
@@ -22,8 +23,8 @@
           "file"
         ],
         "file": ".upstream/cortex/analyzers/SophosIntelix/SophosIntelix_Submit_Static.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_Submit_Static.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_Submit_Static.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_Submit_Static.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_Submit_Static.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SophosIntelix",
         "integration_type": null
       },
@@ -40,8 +41,8 @@
           "url"
         ],
         "file": ".upstream/cortex/analyzers/SophosIntelix/SophosIntelix_GetReport.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_GetReport.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_GetReport.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_GetReport.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_GetReport.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SophosIntelix",
         "integration_type": null
       },
@@ -55,8 +56,8 @@
           "file"
         ],
         "file": ".upstream/cortex/analyzers/SophosIntelix/SophosIntelix_Submit_Dynamic.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_Submit_Dynamic.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_Submit_Dynamic.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_Submit_Dynamic.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_Submit_Dynamic.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SophosIntelix",
         "integration_type": null
       }
@@ -70,6 +71,7 @@
     "totalFunctions": 0,
     "totalUseCases": 0,
     "totalExternalIntegrations": 0,
+    "totalNotifiers": 0,
     "total": 3
   }
 }

@@ -16,9 +16,10 @@ tags:
 homepage: https://www.elastic.co
 logo:
   file: integrations/vendors/Elasticsearch/assets/logo.png
-  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Elasticsearch/assets/logo.png
-  github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Elasticsearch/assets/logo.png
+  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/integrations/vendors/Elasticsearch/assets/logo.png
+  github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/integrations/vendors/Elasticsearch/assets/logo.png
 useCases: []
+notifier: false
 externalIntegrations:
 - name: TheHive Connector for Kibana
   description: Native Kibana connector that allows Elasticsearch to create alerts and create cases in TheHive
@@ -49,8 +50,8 @@ integrations:
     - hostname
     - username
     file: .upstream/cortex/analyzers/Elasticsearch/Elasticsearch_Analysis.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Elasticsearch/Elasticsearch_Analysis.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Elasticsearch/Elasticsearch_Analysis.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/Elasticsearch/Elasticsearch_Analysis.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/Elasticsearch/Elasticsearch_Analysis.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Elasticsearch
     integration_type: null
   responders: []
@@ -61,4 +62,5 @@ stats:
   totalFunctions: 0
   totalUseCases: 0
   totalExternalIntegrations: 1
+  totalNotifiers: 0
   total: 2

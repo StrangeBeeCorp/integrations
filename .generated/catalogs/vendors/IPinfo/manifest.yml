@@ -15,9 +15,10 @@ tags:
 homepage: https://ipinfo.io
 logo:
   file: integrations/vendors/IPinfo/assets/logo.png
-  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/IPinfo/assets/logo.png
-  github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/IPinfo/assets/logo.png
+  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/integrations/vendors/IPinfo/assets/logo.png
+  github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/integrations/vendors/IPinfo/assets/logo.png
 useCases: []
+notifier: false
 externalIntegrations: []
 displayOnWebsite: true
 visibility: low
@@ -31,8 +32,8 @@ integrations:
     dataTypes:
     - ip
     file: .upstream/cortex/analyzers/IPinfo/IPinfo_Details.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/IPinfo/IPinfo_Details.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/IPinfo/IPinfo_Details.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/IPinfo/IPinfo_Details.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/IPinfo/IPinfo_Details.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/IPinfo
     integration_type: null
   - name: IPinfo Hosted Domains
@@ -43,8 +44,8 @@ integrations:
     dataTypes:
     - ip
     file: .upstream/cortex/analyzers/IPinfo/IPinfo_Hosted_Domains.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/IPinfo/IPinfo_Hosted_Domains.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/IPinfo/IPinfo_Hosted_Domains.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/IPinfo/IPinfo_Hosted_Domains.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/IPinfo/IPinfo_Hosted_Domains.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/IPinfo
     integration_type: null
   responders: []
@@ -55,4 +56,5 @@ stats:
   totalFunctions: 0
   totalUseCases: 0
   totalExternalIntegrations: 0
+  totalNotifiers: 0
   total: 2

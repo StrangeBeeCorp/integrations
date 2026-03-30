@@ -9,6 +9,7 @@ tags: []
 homepage: ''
 logo: {}
 useCases: []
+notifier: false
 externalIntegrations: []
 displayOnWebsite: true
 visibility: 100
@@ -25,8 +26,8 @@ integrations:
     dataTypes:
     - thehive:case
     file: .upstream/cortex/responders/HarfangLab/HarfangLab_GetScheduledTasks.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetScheduledTasks.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetScheduledTasks.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetScheduledTasks.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetScheduledTasks.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
     integration_type: null
   - name: HarfangLab-GetArtifactLogs
@@ -37,8 +38,8 @@ integrations:
     dataTypes:
     - thehive:case
     file: .upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactLogs.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactLogs.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactLogs.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactLogs.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactLogs.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
     integration_type: null
   - name: HarfangLab-GetSessions
@@ -49,8 +50,8 @@ integrations:
     dataTypes:
     - thehive:case
     file: .upstream/cortex/responders/HarfangLab/HarfangLab_GetSessions.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetSessions.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetSessions.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetSessions.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetSessions.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
     integration_type: null
   - name: HarfangLab-GetStartupFiles
@@ -61,8 +62,8 @@ integrations:
     dataTypes:
     - thehive:case
     file: .upstream/cortex/responders/HarfangLab/HarfangLab_GetStartupFiles.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetStartupFiles.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetStartupFiles.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetStartupFiles.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetStartupFiles.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
     integration_type: null
   - name: HarfangLab-GetArtifactPrefetch
@@ -73,8 +74,8 @@ integrations:
     dataTypes:
     - thehive:case
     file: .upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactPrefetch.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactPrefetch.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactPrefetch.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactPrefetch.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactPrefetch.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
     integration_type: null
   - name: HarfangLab-GetArtifactRamdump
@@ -85,8 +86,8 @@ integrations:
     dataTypes:
     - thehive:case
     file: .upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactRamdump.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactRamdump.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactRamdump.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactRamdump.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactRamdump.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
     integration_type: null
   - name: HarfangLab-SearchDestinationIP
@@ -97,8 +98,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/HarfangLab/HarfangLab_SearchDestinationIP.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_SearchDestinationIP.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_SearchDestinationIP.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_SearchDestinationIP.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_SearchDestinationIP.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
     integration_type: null
   - name: HarfangLab-GetWMI
@@ -109,8 +110,8 @@ integrations:
     dataTypes:
     - thehive:case
     file: .upstream/cortex/responders/HarfangLab/HarfangLab_GetWMI.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetWMI.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetWMI.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetWMI.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetWMI.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
     integration_type: null
   - name: HarfangLab-SearchHash
@@ -121,8 +122,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/HarfangLab/HarfangLab_SearchHash.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_SearchHash.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_SearchHash.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_SearchHash.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_SearchHash.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
     integration_type: null
   - name: HarfangLab-GetBinary
@@ -133,8 +134,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/HarfangLab/HarfangLab_GetBinary.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetBinary.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetBinary.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetBinary.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetBinary.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
     integration_type: null
   - name: HarfangLab-GetProcesses
@@ -145,8 +146,8 @@ integrations:
     dataTypes:
     - thehive:case
     file: .upstream/cortex/responders/HarfangLab/HarfangLab_GetProcesses.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetProcesses.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetProcesses.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetProcesses.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetProcesses.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
     integration_type: null
   - name: HarfangLab-GetArtifactUSN
@@ -157,8 +158,8 @@ integrations:
     dataTypes:
     - thehive:case
     file: .upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactUSN.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactUSN.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactUSN.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactUSN.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactUSN.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
     integration_type: null
   - name: HarfangLab-DumpProcess
@@ -169,8 +170,8 @@ integrations:
     dataTypes:
     - thehive:case
     file: .upstream/cortex/responders/HarfangLab/HarfangLab_DumpProcess.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_DumpProcess.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_DumpProcess.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_DumpProcess.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_DumpProcess.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
     integration_type: null
   - name: HarfangLab SearchDriverByHash
@@ -181,8 +182,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/HarfangLab/HarfangLab_SearchDriverByHash.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_SearchDriverByHash.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_SearchDriverByHash.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_SearchDriverByHash.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_SearchDriverByHash.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
     integration_type: null
   - name: HarfangLab-GetArtifactEvtx
@@ -193,8 +194,8 @@ integrations:
     dataTypes:
     - thehive:case
     file: .upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactEvtx.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactEvtx.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactEvtx.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactEvtx.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactEvtx.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
     integration_type: null
   - name: HarfangLab-GetNetworkShares
@@ -205,8 +206,8 @@ integrations:
     dataTypes:
     - thehive:case
     file: .upstream/cortex/responders/HarfangLab/HarfangLab_GetNetworkShares.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetNetworkShares.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetNetworkShares.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetNetworkShares.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetNetworkShares.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
     integration_type: null
   - name: HarfangLab-SearchSourceIP
@@ -217,8 +218,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/HarfangLab/HarfangLab_SearchSourceIP.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_SearchSourceIP.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_SearchSourceIP.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_SearchSourceIP.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_SearchSourceIP.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
     integration_type: null
   - name: HarfangLab-GetServices
@@ -229,8 +230,8 @@ integrations:
     dataTypes:
     - thehive:case
     file: .upstream/cortex/responders/HarfangLab/HarfangLab_GetServices.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetServices.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetServices.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetServices.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetServices.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
     integration_type: null
   - name: HarfangLab-UnisolateHost
@@ -242,8 +243,8 @@ integrations:
     - thehive:case
     - thehive:alert
     file: .upstream/cortex/responders/HarfangLab/HarfangLab_Unisolate.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_Unisolate.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_Unisolate.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_Unisolate.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_Unisolate.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
     integration_type: null
   - name: HarfangLab-GetPersistence
@@ -254,8 +255,8 @@ integrations:
     dataTypes:
     - thehive:case
     file: .upstream/cortex/responders/HarfangLab/HarfangLab_GetPersistence.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetPersistence.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetPersistence.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetPersistence.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetPersistence.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
     integration_type: null
   - name: HarfangLab-GetDrivers
@@ -266,8 +267,8 @@ integrations:
     dataTypes:
     - thehive:case
     file: .upstream/cortex/responders/HarfangLab/HarfangLab_GetDrivers.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetDrivers.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetDrivers.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetDrivers.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetDrivers.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
     integration_type: null
   - name: HarfangLab-GetArtifactAll
@@ -278,8 +279,8 @@ integrations:
     dataTypes:
     - thehive:case
     file: .upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactAll.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactAll.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactAll.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactAll.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactAll.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
     integration_type: null
   - name: HarfangLab-IsolateHost
@@ -291,8 +292,8 @@ integrations:
     - thehive:case
     - thehive:alert
     file: .upstream/cortex/responders/HarfangLab/HarfangLab_Isolate.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_Isolate.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_Isolate.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_Isolate.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_Isolate.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
     integration_type: null
   - name: HarfangLab-GetPrefetches
@@ -303,8 +304,8 @@ integrations:
     dataTypes:
     - thehive:case
     file: .upstream/cortex/responders/HarfangLab/HarfangLab_GetPrefetches.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetPrefetches.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetPrefetches.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetPrefetches.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetPrefetches.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
     integration_type: null
   - name: HarfangLab-GetPipes
@@ -315,8 +316,8 @@ integrations:
     dataTypes:
     - thehive:case
     file: .upstream/cortex/responders/HarfangLab/HarfangLab_GetPipes.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetPipes.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetPipes.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetPipes.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetPipes.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
     integration_type: null
   - name: HarfangLab-KillProcess
@@ -328,8 +329,8 @@ integrations:
     - thehive:case
     - thehive:alert
     file: .upstream/cortex/responders/HarfangLab/HarfangLab_KillProcess.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_KillProcess.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_KillProcess.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_KillProcess.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_KillProcess.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
     integration_type: null
   - name: HarfangLab-GetArtifactMFT
@@ -340,8 +341,8 @@ integrations:
     dataTypes:
     - thehive:case
     file: .upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactMFT.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactMFT.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactMFT.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactMFT.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactMFT.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
     integration_type: null
   - name: HarfangLab-GetRunKeys
@@ -352,8 +353,8 @@ integrations:
     dataTypes:
     - thehive:case
     file: .upstream/cortex/responders/HarfangLab/HarfangLab_GetRunKeys.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetRunKeys.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetRunKeys.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetRunKeys.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetRunKeys.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
     integration_type: null
   - name: HarfangLab SearchDriverByFileName
@@ -364,8 +365,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/HarfangLab/HarfangLab_SearchDriverByFileName.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_SearchDriverByFileName.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_SearchDriverByFileName.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_SearchDriverByFileName.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_SearchDriverByFileName.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
     integration_type: null
   - name: HarfangLab-GetArtifactHives
@@ -376,8 +377,8 @@ integrations:
     dataTypes:
     - thehive:case
     file: .upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactHives.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactHives.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactHives.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactHives.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactHives.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
     integration_type: null
   - name: HarfangLab-GetArtifactFilesystem
@@ -388,8 +389,8 @@ integrations:
     dataTypes:
     - thehive:case
     file: .upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactFilesystem.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactFilesystem.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactFilesystem.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactFilesystem.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactFilesystem.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
     integration_type: null
   functions: []
@@ -399,4 +400,5 @@ stats:
   totalFunctions: 0
   totalUseCases: 0
   totalExternalIntegrations: 0
+  totalNotifiers: 0
   total: 31

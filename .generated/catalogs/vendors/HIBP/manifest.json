@@ -13,10 +13,11 @@
   "homepage": "https://haveibeenpwned.com",
   "logo": {
     "file": "integrations/vendors/HIBP/assets/logo.png",
-    "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/HIBP/assets/logo.png",
-    "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/HIBP/assets/logo.png"
+    "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/integrations/vendors/HIBP/assets/logo.png",
+    "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/develop/integrations/vendors/HIBP/assets/logo.png"
   },
   "useCases": [],
+  "notifier": false,
   "externalIntegrations": [],
   "displayOnWebsite": true,
   "visibility": "low",
@@ -35,8 +36,8 @@
           "mail"
         ],
         "file": ".upstream/cortex/analyzers/HIBP/HIBP_Query.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/HIBP/HIBP_Query.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/HIBP/HIBP_Query.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/HIBP/HIBP_Query.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/HIBP/HIBP_Query.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/HIBP",
         "integration_type": null
       }
@@ -50,6 +51,7 @@
     "totalFunctions": 0,
     "totalUseCases": 0,
     "totalExternalIntegrations": 0,
+    "totalNotifiers": 0,
     "total": 1
   }
 }
