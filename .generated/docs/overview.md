@@ -156,6 +156,9 @@ Built something useful? Contributions are welcome!
 **[AlienVault OTX](vendors/OTXQuery/overview.md)** (1 integrations)
   AlienVault Open Threat Exchange (OTX) is a collaborative threat intelligence platform where secur...
 
+**[CERT.AT pDNS](vendors/CERTatPassiveDNS/overview.md)** (1 integrations)
+  CERT.AT pDNS is not a public service. It is only available for national / governmental CERTs in g...
+
 **[CrowdSec](vendors/Crowdsec/overview.md)** (1 integrations)
   CrowdSec is a collaborative security platform that aggregates attack data from community-deployed...
 
@@ -212,8 +215,6 @@ Built something useful? Contributions are welcome!
 **[C1fApp](vendors/C1fApp/overview.md)** (1 integrations)
 
 **[Censys](vendors/Censys/overview.md)** (1 integrations)
-
-**[CERTatPassiveDNS](vendors/CERTatPassiveDNS/overview.md)** (1 integrations)
 
 **[ChainAbuse](vendors/ChainAbuse/overview.md)** (1 integrations)
 
@@ -501,7 +502,7 @@ Built something useful? Contributions are welcome!
 - **[C1fApp](vendors/C1fApp/overview.md)** - *Uncategorized* - 1 analyzers
 - **[CAPA](vendors/Capa/overview.md)** - *Malware Analysis* - 1 analyzers
 - **[Censys](vendors/Censys/overview.md)** - *Uncategorized* - 1 analyzers
-- **[CERTatPassiveDNS](vendors/CERTatPassiveDNS/overview.md)** - *Uncategorized* - 1 analyzers
+- **[CERT.AT pDNS](vendors/CERTatPassiveDNS/overview.md)** - *Threat Intelligence* - 1 analyzers
 - **[ChainAbuse](vendors/ChainAbuse/overview.md)** - *Uncategorized* - 1 analyzers
 - **[CheckPhish](vendors/CheckPhish/overview.md)** - *Uncategorized* - 2 analyzers
 - **[CheckPoint](vendors/CheckPoint/overview.md)** - *Uncategorized* - 2 responders

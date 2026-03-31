@@ -716,16 +716,17 @@ Censys:
     total: 1
 CERTatPassiveDNS:
   id: CERTatPassiveDNS
-  name: CERTatPassiveDNS
-  description: ''
-  category: ''
+  name: CERT.AT pDNS
+  description: CERT.AT pDNS is not a public service. It is only available for national / governmental CERTs in good standing
+    with CERT.AT. For access, you have to get in contact with CERT.AT.
+  category: Threat Intelligence
   tags: []
-  homepage: ''
+  homepage: https://cert.at
   logo: {}
   useCases: []
   externalIntegrations: []
   displayOnWebsite: true
-  visibility: 100
+  visibility: low
   integrations:
     analyzers:
     - name: CERTatPassiveDNS
