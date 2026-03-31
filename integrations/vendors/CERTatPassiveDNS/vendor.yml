@@ -1,0 +1,6 @@
+id: CERTatPassiveDNS
+name: "CERT.AT pDNS"
+description: "CERT.AT pDNS is not a public service. It is only available for national / governmental CERTs in good standing with CERT.AT. For access, you have to get in contact with CERT.AT."
+category: Threat Intelligence
+homepage: "https://cert.at"
+registration_required: true
