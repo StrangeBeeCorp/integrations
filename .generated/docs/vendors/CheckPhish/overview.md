@@ -1,15 +1,15 @@
 ## Analyzers (2)
 
-*Enrich observables with intelligence*
+### Enrich observables with intelligence
 
-### [CheckPhish v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CheckPhish)
+#### [CheckPhish v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CheckPhish)
 Check url address via CheckPhish using jobID returned from CheckPhish_Submit
 
 - **Author:** Peter Juhas
 - **License:** AGPL-V3
 - **Data Types:** `string`
 
-### [CheckPhish Submit v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CheckPhish)
+#### [CheckPhish Submit v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CheckPhish)
 Submit url address to CheckPhish
 
 - **Author:** Peter Juhas

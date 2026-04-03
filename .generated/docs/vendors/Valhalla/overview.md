@@ -1,8 +1,8 @@
 ## Analyzers (1)
 
-*Enrich observables with intelligence*
+### Enrich observables with intelligence
 
-### [Valhalla GetRuleMatches v0.3.1](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Valhalla)
+#### [Valhalla GetRuleMatches v0.3.1](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Valhalla)
 Gets matching YARA rules for a given sample SHA256 hash
 
 - **Author:** Florian Roth

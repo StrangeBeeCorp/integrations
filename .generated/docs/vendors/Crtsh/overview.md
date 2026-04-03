@@ -1,8 +1,8 @@
 ## Analyzers (1)
 
-*Enrich observables with intelligence*
+### Enrich observables with intelligence
 
-### [Crt sh Transparency Logs v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Crtsh)
+#### [Crt sh Transparency Logs v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Crtsh)
 Query domains against the certificate transparency lists available at crt.sh.
 
 - **Author:** crackytsi

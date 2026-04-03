@@ -1,8 +1,8 @@
 ## Responders (1)
 
-*Trigger automated responses*
+### Trigger automated responses
 
-### [Minemeld v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Minemeld)
+#### [Minemeld v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Minemeld)
 Submit indicator to Minemeld
 
 - **Author:** Wes Lambert, Security Onion Solutions

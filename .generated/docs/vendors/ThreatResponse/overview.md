@@ -1,8 +1,8 @@
 ## Analyzers (1)
 
-*Enrich observables with intelligence*
+### Enrich observables with intelligence
 
-### [ThreatResponse v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/ThreatResponse)
+#### [ThreatResponse v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/ThreatResponse)
 Threat Response
 
 - **Author:** Cisco Security

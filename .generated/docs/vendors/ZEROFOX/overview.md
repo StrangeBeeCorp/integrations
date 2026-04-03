@@ -1,15 +1,15 @@
 ## Responders (2)
 
-*Trigger automated responses*
+### Trigger automated responses
 
-### [ZEROFOX Close alert v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/ZEROFOX)
+#### [ZEROFOX Close alert v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/ZEROFOX)
 Close alert in Zerofox
 
 - **Author:** TheHive-Project
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case`
 
-### [ZEROFOX Takedown request v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/ZEROFOX)
+#### [ZEROFOX Takedown request v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/ZEROFOX)
 Request for a takedown regarding the alert in Zerofox
 
 - **Author:** TheHive-Project

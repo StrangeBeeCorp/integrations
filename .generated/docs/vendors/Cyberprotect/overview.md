@@ -1,8 +1,8 @@
 ## Analyzers (1)
 
-*Enrich observables with intelligence*
+### Enrich observables with intelligence
 
-### [Cyberprotect ThreatScore v3.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Cyberprotect)
+#### [Cyberprotect ThreatScore v3.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Cyberprotect)
 ThreatScore is a cyber threat scoring system provided by Cyberprotect
 
 - **Author:** Rémi Allain, Cyberprotect

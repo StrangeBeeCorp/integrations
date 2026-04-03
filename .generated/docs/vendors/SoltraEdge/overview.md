@@ -1,8 +1,8 @@
 ## Analyzers (1)
 
-*Enrich observables with intelligence*
+### Enrich observables with intelligence
 
-### [SoltraEdge v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SoltraEdge)
+#### [SoltraEdge v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SoltraEdge)
 Query against Soltra Edge.
 
 - **Author:** Michael Stensrud, Nordic Financial CERT
