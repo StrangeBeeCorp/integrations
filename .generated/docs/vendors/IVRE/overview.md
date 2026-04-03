@@ -1,8 +1,8 @@
 ## Analyzers (1)
 
-*Enrich observables with intelligence*
+### Enrich observables with intelligence
 
-### [IVRE v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/IVRE)
+#### [IVRE v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/IVRE)
 Fetch details from an IVRE instance.
 
 - **Author:** Pierre Lalet

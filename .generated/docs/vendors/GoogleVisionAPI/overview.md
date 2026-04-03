@@ -1,8 +1,8 @@
 ## Analyzers (1)
 
-*Enrich observables with intelligence*
+### Enrich observables with intelligence
 
-### [GoogleVisionAPI WebDetection v1.0.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/GoogleVisionAPI)
+#### [GoogleVisionAPI WebDetection v1.0.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/GoogleVisionAPI)
 Find look alike image via Google Cloud Vision API using the Web_Detection service 
 
 - **Author:** CERT-LaPoste

@@ -1,8 +1,8 @@
 ## Responders (1)
 
-*Trigger automated responses*
+### Trigger automated responses
 
-### [Wazuh v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Wazuh)
+#### [Wazuh v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Wazuh)
 Block an IP on a host via Wazuh agent
 
 - **Author:** Wes Lambert

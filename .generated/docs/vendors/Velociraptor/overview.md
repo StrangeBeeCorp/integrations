@@ -1,8 +1,8 @@
 ## Responders (1)
 
-*Trigger automated responses*
+### Trigger automated responses
 
-### [Velociraptor v0.2](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Velociraptor)
+#### [Velociraptor v0.2](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Velociraptor)
 Run Velociraptor artifact collection
 
 - **Author:** Wes Lambert, @therealwlambert

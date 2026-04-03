@@ -1,8 +1,8 @@
 ## Analyzers (1)
 
-*Enrich observables with intelligence*
+### Enrich observables with intelligence
 
-### [Gatewatcher CTI v2.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Gatewatcher_CTI)
+#### [Gatewatcher CTI v2.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Gatewatcher_CTI)
 Get Gatewatcher CTI Report
 
 - **Author:** Gatewatcher
@@ -13,9 +13,9 @@ Get Gatewatcher CTI Report
 
 ## Responders (1)
 
-*Trigger automated responses*
+### Trigger automated responses
 
-### [Gatewatcher CTI Identity v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Gatewatcher_CTI)
+#### [Gatewatcher CTI Identity v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Gatewatcher_CTI)
 Gatewatcher_CTI_Identity responder
 
 - **Author:** Gatewatcher

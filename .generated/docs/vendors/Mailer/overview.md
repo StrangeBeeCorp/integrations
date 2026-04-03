@@ -1,8 +1,8 @@
 ## Responders (1)
 
-*Trigger automated responses*
+### Trigger automated responses
 
-### [Mailer v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Mailer)
+#### [Mailer v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Mailer)
 Send an email with information from a TheHive case or alert
 
 - **Author:** CERT-BDF

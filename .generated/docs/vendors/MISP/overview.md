@@ -1,8 +1,8 @@
 ## Analyzers (1)
 
-*Enrich observables with intelligence*
+### Enrich observables with intelligence
 
-### [MISP v2.1](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MISP)
+#### [MISP v2.1](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MISP)
 Query multiple MISP instances for events containing an observable.
 
 - **Author:** Nils Kuhnert, CERT-Bund

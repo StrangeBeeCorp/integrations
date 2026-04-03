@@ -1,8 +1,8 @@
 ## Responders (1)
 
-*Trigger automated responses*
+### Trigger automated responses
 
-### [Shuffle v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Shuffle)
+#### [Shuffle v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Shuffle)
 Execute a workflow in Shuffle
 
 - **Author:** @frikkylikeme
@@ -13,9 +13,9 @@ Execute a workflow in Shuffle
 
 ## External Integrations (1)
 
-External integrations that connect Shuffle with TheHive:
+### External integrations that connect Shuffle with TheHive
 
-### [TheHive 5 Integration](https://shuffler.io/apps/thehive/integrations/TheHive_5)
+#### [TheHive 5 Integration](https://shuffler.io/apps/thehive/integrations/TheHive_5)
 Native Shuffle app integration that enables workflow automation with TheHive 5 for automated case management, alert handling, and incident response orchestration
 
 - **Type:** app

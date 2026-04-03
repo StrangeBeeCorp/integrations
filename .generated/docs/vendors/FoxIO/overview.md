@@ -1,8 +1,8 @@
 ## Analyzers (1)
 
-*Enrich observables with intelligence*
+### Enrich observables with intelligence
 
-### [JA4 FoxIO v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/FoxIO)
+#### [JA4 FoxIO v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/FoxIO)
 JA4 Fingerprint analysis with FoxIO Database
 
 - **Author:** Florian Perret @cyber_pescadito
