@@ -29,15 +29,15 @@ def _render_cortex_items(items: list, item_type: str) -> List[str]:
     lines = [f"## {item_type} ({len(items)})", ""]
     desc = SECTION_DESCRIPTIONS.get(item_type)
     if desc:
-        lines.extend([f"*{desc}*", ""])
+        lines.extend([f"### {desc}", ""])
 
     for item in items:
         name = item.get('name', 'Unknown')
         version = item.get('version', '')
         if item.get('upstream_url'):
-            lines.append(f"### [{name} v{version}]({item['upstream_url']})")
+            lines.append(f"#### [{name} v{version}]({item['upstream_url']})")
         else:
-            lines.append(f"### {name} v{version}")
+            lines.append(f"#### {name} v{version}")
 
         if item.get('description'):
             lines.extend([item['description'], ""])
@@ -78,15 +78,15 @@ def generate_markdown_overview(vendor: str, manifest: Dict) -> str:
     # Use Cases
     if use_cases:
         lines.extend([f"## Use Cases ({len(use_cases)})", "",
-                       f"*{SECTION_DESCRIPTIONS['Use Cases']}*", ""])
+                       f"### {SECTION_DESCRIPTIONS['Use Cases']}", ""])
         function_lookup = {f.get('file', ''): f for f in functions}
 
         for uc in use_cases:
             github_url = uc.get('documentation', {}).get('github_url')
             if github_url:
-                lines.append(f"### [{uc['name']}]({github_url})")
+                lines.append(f"#### [{uc['name']}]({github_url})")
             else:
-                lines.append(f"### {uc['name']}")
+                lines.append(f"#### {uc['name']}")
             if uc.get('description'):
                 lines.append(uc['description'])
             lines.append("")
@@ -121,15 +121,15 @@ def generate_markdown_overview(vendor: str, manifest: Dict) -> str:
     # Functions
     if functions:
         lines.extend([f"## Functions ({len(functions)})", "",
-                       f"*{SECTION_DESCRIPTIONS['Functions']}*", ""])
+                       f"### {SECTION_DESCRIPTIONS['Functions']}", ""])
         for func in functions:
             name = func.get('name', 'Unknown')
             version = func.get('version', '')
             github_url = func.get('github_url')
             if github_url:
-                lines.append(f"### [{name}]({github_url}) `v{version}`")
+                lines.append(f"#### [{name}]({github_url}) `v{version}`")
             else:
-                lines.append(f"### {name} `v{version}`")
+                lines.append(f"#### {name} `v{version}`")
             if func.get('description'):
                 lines.extend([func['description'], ""])
             if func.get('author'):
@@ -141,13 +141,13 @@ def generate_markdown_overview(vendor: str, manifest: Dict) -> str:
     # External Integrations
     if external_integrations:
         lines.extend([f"## External Integrations ({len(external_integrations)})", "",
-                       f"External integrations that connect {manifest['name']} with TheHive:", ""])
+                       f"### External integrations that connect {manifest['name']} with TheHive", ""])
 
         for i, vi in enumerate(external_integrations):
             if vi.get('documentation'):
-                lines.append(f"### [{vi['name']}]({vi['documentation']})")
+                lines.append(f"#### [{vi['name']}]({vi['documentation']})")
             else:
-                lines.append(f"### {vi['name']}")
+                lines.append(f"#### {vi['name']}")
             if vi.get('description'):
                 lines.append(vi['description'])
             lines.append("")
