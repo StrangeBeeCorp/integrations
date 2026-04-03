@@ -128,7 +128,7 @@ def generate_markdown_overview(vendor: str, manifest: Dict) -> str:
                         "manage-notifications/about-notifications/")
         lines.extend([
             "## Notifier", "",
-            f"*{SECTION_DESCRIPTIONS['Notifiers']}*", "",
+            f"### {SECTION_DESCRIPTIONS['Notifiers']}", "",
             f"This integration is available as a built-in "
             f"[TheHive notifier]({notifier_doc}).", "",
         ])
