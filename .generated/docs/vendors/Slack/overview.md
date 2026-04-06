@@ -2,11 +2,11 @@
 
 ### Real-world integrations with TheHive
 
-#### [Notify Slack When an Alert Is Created in TheHive](https://github.com/StrangeBeeCorp/integrations/blob/develop/integrations/vendors/Slack/use-cases/slack-notifier-alert-creation.md)
+#### [Notify Slack When an Alert Is Created in TheHive](https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Slack/use-cases/slack-notifier-alert-creation.md)
 For each new alert in TheHive, create a Slack block message with a title, severity & link to the alert.
 
 
-#### [Notify Slack When a Case Assignee Changes in TheHive](https://github.com/StrangeBeeCorp/integrations/blob/develop/integrations/vendors/Slack/use-cases/slack-case-assignee-change.md)
+#### [Notify Slack When a Case Assignee Changes in TheHive](https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Slack/use-cases/slack-case-assignee-change.md)
 For each assignee change for a case in TheHive, create a Slack block message and link to the case. @here will inform only active users.
 
 

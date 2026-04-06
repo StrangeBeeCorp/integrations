@@ -24,8 +24,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/Duo_Security/DuoUnlockUserAccount.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/Duo_Security/DuoUnlockUserAccount.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/Duo_Security/DuoUnlockUserAccount.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Duo_Security/DuoUnlockUserAccount.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Duo_Security/DuoUnlockUserAccount.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Duo_Security
     integration_type: null
   - name: DuoLockUserAccount
@@ -36,8 +36,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/Duo_Security/DuoLockUserAccount.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/Duo_Security/DuoLockUserAccount.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/Duo_Security/DuoLockUserAccount.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Duo_Security/DuoLockUserAccount.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Duo_Security/DuoLockUserAccount.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Duo_Security
     integration_type: null
   - name: DuoBypassUserAccount
@@ -49,8 +49,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/Duo_Security/DuoBypassUserAccount.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/Duo_Security/DuoBypassUserAccount.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/Duo_Security/DuoBypassUserAccount.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Duo_Security/DuoBypassUserAccount.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Duo_Security/DuoBypassUserAccount.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Duo_Security
     integration_type: null
   functions: []

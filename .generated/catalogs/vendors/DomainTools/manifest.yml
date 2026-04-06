@@ -23,8 +23,8 @@ integrations:
     dataTypes:
     - domain
     file: .upstream/cortex/analyzers/DomainTools/DomainTools_ReverseNameServer.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/DomainTools/DomainTools_ReverseNameServer.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/DomainTools/DomainTools_ReverseNameServer.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/DomainTools/DomainTools_ReverseNameServer.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/DomainTools/DomainTools_ReverseNameServer.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainTools
     integration_type: null
   - name: DomainTools ReverseIP
@@ -37,8 +37,8 @@ integrations:
     - domain
     - fqdn
     file: .upstream/cortex/analyzers/DomainTools/DomainTools_ReverseIP.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/DomainTools/DomainTools_ReverseIP.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/DomainTools/DomainTools_ReverseIP.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/DomainTools/DomainTools_ReverseIP.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/DomainTools/DomainTools_ReverseIP.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainTools
     integration_type: null
   - name: DomainTools ReverseIPWhois
@@ -52,8 +52,8 @@ integrations:
     - domain
     - other
     file: .upstream/cortex/analyzers/DomainTools/DomainTools_ReverseIPWhois.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/DomainTools/DomainTools_ReverseIPWhois.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/DomainTools/DomainTools_ReverseIPWhois.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/DomainTools/DomainTools_ReverseIPWhois.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/DomainTools/DomainTools_ReverseIPWhois.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainTools
     integration_type: null
   - name: DomainTools HostingHistory
@@ -64,8 +64,8 @@ integrations:
     dataTypes:
     - domain
     file: .upstream/cortex/analyzers/DomainTools/DomainTools_HostingHistory.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/DomainTools/DomainTools_HostingHistory.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/DomainTools/DomainTools_HostingHistory.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/DomainTools/DomainTools_HostingHistory.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/DomainTools/DomainTools_HostingHistory.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainTools
     integration_type: null
   - name: DomainTools WhoisLookup
@@ -78,8 +78,8 @@ integrations:
     - domain
     - ip
     file: .upstream/cortex/analyzers/DomainTools/DomainTools_WhoisLookup.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/DomainTools/DomainTools_WhoisLookup.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/DomainTools/DomainTools_WhoisLookup.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/DomainTools/DomainTools_WhoisLookup.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/DomainTools/DomainTools_WhoisLookup.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainTools
     integration_type: null
   - name: DomainTools ReverseWhois
@@ -93,8 +93,8 @@ integrations:
     - domain
     - other
     file: .upstream/cortex/analyzers/DomainTools/DomainTools_ReverseWhois.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/DomainTools/DomainTools_ReverseWhois.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/DomainTools/DomainTools_ReverseWhois.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/DomainTools/DomainTools_ReverseWhois.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/DomainTools/DomainTools_ReverseWhois.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainTools
     integration_type: null
   - name: DomainTools Risk
@@ -106,8 +106,8 @@ integrations:
     - domain
     - fqdn
     file: .upstream/cortex/analyzers/DomainTools/DomainTools_Risk.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/DomainTools/DomainTools_Risk.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/DomainTools/DomainTools_Risk.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/DomainTools/DomainTools_Risk.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/DomainTools/DomainTools_Risk.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainTools
     integration_type: null
   - name: DomainTools WhoisHistory
@@ -118,8 +118,8 @@ integrations:
     dataTypes:
     - domain
     file: .upstream/cortex/analyzers/DomainTools/DomainTools_WhoisHistory.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/DomainTools/DomainTools_WhoisHistory.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/DomainTools/DomainTools_WhoisHistory.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/DomainTools/DomainTools_WhoisHistory.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/DomainTools/DomainTools_WhoisHistory.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainTools
     integration_type: null
   - name: DomainTools Reputation
@@ -131,8 +131,8 @@ integrations:
     - domain
     - fqdn
     file: .upstream/cortex/analyzers/DomainTools/DomainTools_Reputation.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/DomainTools/DomainTools_Reputation.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/DomainTools/DomainTools_Reputation.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/DomainTools/DomainTools_Reputation.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/DomainTools/DomainTools_Reputation.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainTools
     integration_type: null
   - name: DomainTools WhoisLookupUnparsed
@@ -144,8 +144,8 @@ integrations:
     - ip
     - domain
     file: .upstream/cortex/analyzers/DomainTools/DomainTools_WhoisLookupUnparsed.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/DomainTools/DomainTools_WhoisLookupUnparsed.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/DomainTools/DomainTools_WhoisLookupUnparsed.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/DomainTools/DomainTools_WhoisLookupUnparsed.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/DomainTools/DomainTools_WhoisLookupUnparsed.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainTools
     integration_type: null
   responders: []

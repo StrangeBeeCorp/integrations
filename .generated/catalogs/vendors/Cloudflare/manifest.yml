@@ -9,8 +9,8 @@ tags: []
 homepage: https://www.cloudflare.com
 logo:
   file: integrations/vendors/Cloudflare/assets/logo.png
-  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/integrations/vendors/Cloudflare/assets/logo.png
-  github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/integrations/vendors/Cloudflare/assets/logo.png
+  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Cloudflare/assets/logo.png
+  github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Cloudflare/assets/logo.png
 useCases: []
 notifier: false
 externalIntegrations: []
@@ -30,8 +30,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/Cloudflare/CloudflareIPBlocker.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/Cloudflare/CloudflareIPBlocker.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/Cloudflare/CloudflareIPBlocker.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Cloudflare/CloudflareIPBlocker.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Cloudflare/CloudflareIPBlocker.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Cloudflare
     integration_type: null
   functions: []

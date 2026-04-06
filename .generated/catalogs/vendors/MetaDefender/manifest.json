@@ -23,8 +23,8 @@
           "file"
         ],
         "file": ".upstream/cortex/analyzers/MetaDefender/MetaDefenderCore_Scan.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCore_Scan.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCore_Scan.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCore_Scan.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCore_Scan.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MetaDefender",
         "integration_type": null
       },
@@ -40,8 +40,8 @@
           "domain"
         ],
         "file": ".upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_Reputation.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_Reputation.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_Reputation.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_Reputation.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_Reputation.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MetaDefender",
         "integration_type": null
       },
@@ -55,8 +55,8 @@
           "hash"
         ],
         "file": ".upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_GetReport.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_GetReport.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_GetReport.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_GetReport.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_GetReport.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MetaDefender",
         "integration_type": null
       },
@@ -70,8 +70,8 @@
           "hash"
         ],
         "file": ".upstream/cortex/analyzers/MetaDefender/MetaDefenderCore_GetReport.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCore_GetReport.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCore_GetReport.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCore_GetReport.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCore_GetReport.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MetaDefender",
         "integration_type": null
       },
@@ -85,8 +85,8 @@
           "file"
         ],
         "file": ".upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_Scan.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_Scan.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_Scan.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_Scan.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_Scan.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MetaDefender",
         "integration_type": null
       }

@@ -24,8 +24,8 @@
           "thehive:case_artifact"
         ],
         "file": ".upstream/cortex/responders/Gmail/Gmail_UnblockDomain.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/Gmail/Gmail_UnblockDomain.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/Gmail/Gmail_UnblockDomain.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Gmail/Gmail_UnblockDomain.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Gmail/Gmail_UnblockDomain.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Gmail",
         "integration_type": null
       },
@@ -39,8 +39,8 @@
           "thehive:case_artifact"
         ],
         "file": ".upstream/cortex/responders/Gmail/Gmail_BlockDomain.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/Gmail/Gmail_BlockDomain.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/Gmail/Gmail_BlockDomain.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Gmail/Gmail_BlockDomain.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Gmail/Gmail_BlockDomain.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Gmail",
         "integration_type": null
       },
@@ -54,8 +54,8 @@
           "thehive:case_artifact"
         ],
         "file": ".upstream/cortex/responders/Gmail/Gmail_UnblockSender.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/Gmail/Gmail_UnblockSender.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/Gmail/Gmail_UnblockSender.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Gmail/Gmail_UnblockSender.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Gmail/Gmail_UnblockSender.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Gmail",
         "integration_type": null
       },
@@ -69,8 +69,8 @@
           "thehive:case_artifact"
         ],
         "file": ".upstream/cortex/responders/Gmail/Gmail_DeleteMessage.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/Gmail/Gmail_DeleteMessage.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/Gmail/Gmail_DeleteMessage.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Gmail/Gmail_DeleteMessage.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Gmail/Gmail_DeleteMessage.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Gmail",
         "integration_type": null
       },
@@ -84,8 +84,8 @@
           "thehive:case_artifact"
         ],
         "file": ".upstream/cortex/responders/Gmail/Gmail_BlockSender.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/Gmail/Gmail_BlockSender.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/Gmail/Gmail_BlockSender.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Gmail/Gmail_BlockSender.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Gmail/Gmail_BlockSender.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Gmail",
         "integration_type": null
       }

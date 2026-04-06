@@ -15,8 +15,8 @@ tags:
 homepage: https://www.mnemonic.no
 logo:
   file: integrations/vendors/MnemonicPDNS/assets/logo.png
-  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/integrations/vendors/MnemonicPDNS/assets/logo.png
-  github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/integrations/vendors/MnemonicPDNS/assets/logo.png
+  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/MnemonicPDNS/assets/logo.png
+  github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/MnemonicPDNS/assets/logo.png
 useCases: []
 notifier: false
 externalIntegrations: []
@@ -33,8 +33,8 @@ integrations:
     - ip
     - domain
     file: .upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Closed.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Closed.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Closed.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Closed.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Closed.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MnemonicPDNS
     integration_type: null
   - name: Mnemonic pDNS Public
@@ -46,8 +46,8 @@ integrations:
     - ip
     - domain
     file: .upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Public.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Public.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Public.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Public.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MnemonicPDNS/Mnemonic_pDNS_Public.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MnemonicPDNS
     integration_type: null
   responders: []

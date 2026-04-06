@@ -31,8 +31,8 @@
           "thehive:case_artifact"
         ],
         "file": ".upstream/cortex/responders/Velociraptor/velociraptor_flow.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/Velociraptor/velociraptor_flow.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/Velociraptor/velociraptor_flow.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Velociraptor/velociraptor_flow.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Velociraptor/velociraptor_flow.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Velociraptor",
         "integration_type": null
       }

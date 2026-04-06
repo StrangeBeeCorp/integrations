@@ -13,8 +13,8 @@
   "homepage": "https://www.maxmind.com",
   "logo": {
     "file": "integrations/vendors/MaxMind/assets/logo.png",
-    "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/integrations/vendors/MaxMind/assets/logo.png",
-    "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/develop/integrations/vendors/MaxMind/assets/logo.png"
+    "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/MaxMind/assets/logo.png",
+    "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/MaxMind/assets/logo.png"
   },
   "useCases": [],
   "notifier": false,
@@ -33,8 +33,8 @@
           "ip"
         ],
         "file": ".upstream/cortex/analyzers/MaxMind/MaxMind_GeoIP.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/MaxMind/MaxMind_GeoIP.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/MaxMind/MaxMind_GeoIP.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MaxMind/MaxMind_GeoIP.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MaxMind/MaxMind_GeoIP.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MaxMind",
         "integration_type": null
       }
