@@ -13,10 +13,11 @@
   "homepage": "https://urlscan.io",
   "logo": {
     "file": "integrations/vendors/Urlscan.io/assets/logo.ico",
-    "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Urlscan.io/assets/logo.ico",
-    "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Urlscan.io/assets/logo.ico"
+    "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/integrations/vendors/Urlscan.io/assets/logo.ico",
+    "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/develop/integrations/vendors/Urlscan.io/assets/logo.ico"
   },
   "useCases": [],
+  "notifier": false,
   "externalIntegrations": [],
   "displayOnWebsite": true,
   "visibility": 15,
@@ -42,8 +43,8 @@
           "url"
         ],
         "file": ".upstream/cortex/analyzers/Urlscan.io/Urlscan_Search.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Urlscan.io/Urlscan_Search.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Urlscan.io/Urlscan_Search.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/Urlscan.io/Urlscan_Search.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/Urlscan.io/Urlscan_Search.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Urlscan.io",
         "integration_type": null
       },
@@ -59,8 +60,8 @@
           "fqdn"
         ],
         "file": ".upstream/cortex/analyzers/Urlscan.io/Urlscan_Scan.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Urlscan.io/Urlscan_Scan.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Urlscan.io/Urlscan_Scan.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/Urlscan.io/Urlscan_Scan.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/Urlscan.io/Urlscan_Scan.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Urlscan.io",
         "integration_type": null
       }
@@ -74,6 +75,7 @@
     "totalFunctions": 0,
     "totalUseCases": 0,
     "totalExternalIntegrations": 0,
+    "totalNotifiers": 0,
     "total": 2
   }
 }

@@ -7,6 +7,7 @@
   "homepage": "",
   "logo": {},
   "useCases": [],
+  "notifier": false,
   "externalIntegrations": [],
   "displayOnWebsite": true,
   "visibility": 100,
@@ -22,8 +23,8 @@
           "domain"
         ],
         "file": ".upstream/cortex/analyzers/Watcher/Watcher_Check.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Watcher/Watcher_Check.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Watcher/Watcher_Check.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/Watcher/Watcher_Check.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/Watcher/Watcher_Check.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Watcher",
         "integration_type": null
       }
@@ -39,8 +40,8 @@
           "thehive:case_artifact"
         ],
         "file": ".upstream/cortex/responders/Watcher/Watcher_Remove.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Watcher/Watcher_Remove.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Watcher/Watcher_Remove.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/Watcher/Watcher_Remove.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/Watcher/Watcher_Remove.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Watcher",
         "integration_type": null
       },
@@ -54,8 +55,8 @@
           "thehive:case_artifact"
         ],
         "file": ".upstream/cortex/responders/Watcher/Watcher_Update.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Watcher/Watcher_Update.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Watcher/Watcher_Update.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/Watcher/Watcher_Update.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/Watcher/Watcher_Update.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Watcher",
         "integration_type": null
       },
@@ -69,8 +70,8 @@
           "thehive:case_artifact"
         ],
         "file": ".upstream/cortex/responders/Watcher/Watcher_Add.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Watcher/Watcher_Add.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Watcher/Watcher_Add.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/Watcher/Watcher_Add.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/Watcher/Watcher_Add.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Watcher",
         "integration_type": null
       },
@@ -84,8 +85,8 @@
           "thehive:case_artifact"
         ],
         "file": ".upstream/cortex/responders/Watcher/Watcher_Transfer.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Watcher/Watcher_Transfer.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Watcher/Watcher_Transfer.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/Watcher/Watcher_Transfer.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/Watcher/Watcher_Transfer.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Watcher",
         "integration_type": null
       }
@@ -98,6 +99,7 @@
     "totalFunctions": 0,
     "totalUseCases": 0,
     "totalExternalIntegrations": 0,
+    "totalNotifiers": 0,
     "total": 5
   }
 }

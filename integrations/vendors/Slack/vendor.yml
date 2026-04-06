@@ -8,5 +8,6 @@ tags:
   - notifications
   - chat
 homepage: "https://slack.com"
+notifier: true
 visibility: 12
 

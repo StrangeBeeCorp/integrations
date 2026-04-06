@@ -1,0 +1,28 @@
+{
+  "id": "Redis",
+  "name": "Redis",
+  "description": "Redis is an in-memory data store used as a database, cache, and message broker.",
+  "category": "SOAR & Automation",
+  "tags": [],
+  "homepage": "https://redis.io",
+  "logo": {},
+  "useCases": [],
+  "notifier": true,
+  "externalIntegrations": [],
+  "displayOnWebsite": true,
+  "visibility": 50,
+  "integrations": {
+    "analyzers": [],
+    "responders": [],
+    "functions": []
+  },
+  "stats": {
+    "totalAnalyzers": 0,
+    "totalResponders": 0,
+    "totalFunctions": 0,
+    "totalUseCases": 0,
+    "totalExternalIntegrations": 0,
+    "totalNotifiers": 1,
+    "total": 1
+  }
+}

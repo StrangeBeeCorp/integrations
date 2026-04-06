@@ -2,12 +2,12 @@
 
 ## Statistics
 
-- **Total Vendors:** 184
+- **Total Vendors:** 191
 - **Total Analyzers:** 260
 - **Total Responders:** 137
 - **Total Functions:** 6
 - **Total External Integrations:** 10
-- **Total Integrations:** 413
+- **Total Integrations:** 421
 
 ## Changes
 

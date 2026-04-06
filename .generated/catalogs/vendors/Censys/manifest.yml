@@ -9,6 +9,7 @@ tags: []
 homepage: ''
 logo: {}
 useCases: []
+notifier: false
 externalIntegrations: []
 displayOnWebsite: true
 visibility: 100
@@ -27,8 +28,8 @@ integrations:
     - hash
     - domain
     file: .upstream/cortex/analyzers/Censys/Censys.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Censys/Censys.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Censys/Censys.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/Censys/Censys.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/Censys/Censys.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Censys
     integration_type: null
   responders: []
@@ -39,4 +40,5 @@ stats:
   totalFunctions: 0
   totalUseCases: 0
   totalExternalIntegrations: 0
+  totalNotifiers: 0
   total: 1

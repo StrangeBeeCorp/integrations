@@ -241,7 +241,8 @@ def read_vendor_metadata(vendor: str) -> Dict:
     default_metadata = {
         'id': vendor, 'name': default_name, 'description': '', 'category': '',
         'tags': [], 'homepage': '', 'logo': {}, 'useCases': [],
-        'externalIntegrations': [], 'displayOnWebsite': True, 'visibility': 100
+        'notifier': False, 'externalIntegrations': [],
+        'displayOnWebsite': True, 'visibility': 100
     }
 
     if not vendor_yml_path.exists():
@@ -268,6 +269,7 @@ def read_vendor_metadata(vendor: str) -> Dict:
             'homepage': data.get('homepage', ''),
             'logo': auto_detect_logo(vendor),
             'useCases': discover_use_cases_from_markdown(vendor),
+            'notifier': data.get('notifier', False),
             'externalIntegrations': data.get('externalIntegrations', []),
             'displayOnWebsite': data.get('displayOnWebsite', True),
             'visibility': data.get('visibility', 'low')
@@ -301,6 +303,8 @@ def generate_vendor_manifest(vendor: str) -> Dict:
     subscription_info = consolidate_subscription_fields(analyzer_sub, responder_sub)
     external_count = len(vendor_metadata.get('externalIntegrations', []))
     use_cases_count = len(vendor_metadata.get('useCases', []))
+    is_notifier = vendor_metadata.get('notifier', False)
+    notifier_count = 1 if is_notifier else 0
 
     return {
         **vendor_metadata,
@@ -316,6 +320,7 @@ def generate_vendor_manifest(vendor: str) -> Dict:
             'totalFunctions': len(functions),
             'totalUseCases': use_cases_count,
             'totalExternalIntegrations': external_count,
-            'total': len(analyzers) + len(responders) + len(functions) + external_count
+            'totalNotifiers': notifier_count,
+            'total': len(analyzers) + len(responders) + len(functions) + external_count + notifier_count
         }
     }

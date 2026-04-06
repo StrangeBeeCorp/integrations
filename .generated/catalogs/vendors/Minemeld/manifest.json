@@ -7,6 +7,7 @@
   "homepage": "",
   "logo": {},
   "useCases": [],
+  "notifier": false,
   "externalIntegrations": [],
   "displayOnWebsite": false,
   "visibility": "low",
@@ -26,8 +27,8 @@
           "thehive:case_artifact"
         ],
         "file": ".upstream/cortex/responders/Minemeld/minemeld.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Minemeld/minemeld.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Minemeld/minemeld.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/Minemeld/minemeld.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/Minemeld/minemeld.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Minemeld",
         "integration_type": null
       }
@@ -40,6 +41,7 @@
     "totalFunctions": 0,
     "totalUseCases": 0,
     "totalExternalIntegrations": 0,
+    "totalNotifiers": 0,
     "total": 1
   }
 }

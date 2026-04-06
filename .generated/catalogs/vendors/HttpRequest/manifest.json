@@ -1,0 +1,28 @@
+{
+  "id": "HttpRequest",
+  "name": "HTTP Request",
+  "description": "Send HTTP requests from TheHive to any endpoint when specific events occur.",
+  "category": "SOAR & Automation",
+  "tags": [],
+  "homepage": "",
+  "logo": {},
+  "useCases": [],
+  "notifier": true,
+  "externalIntegrations": [],
+  "displayOnWebsite": false,
+  "visibility": 50,
+  "integrations": {
+    "analyzers": [],
+    "responders": [],
+    "functions": []
+  },
+  "stats": {
+    "totalAnalyzers": 0,
+    "totalResponders": 0,
+    "totalFunctions": 0,
+    "totalUseCases": 0,
+    "totalExternalIntegrations": 0,
+    "totalNotifiers": 1,
+    "total": 1
+  }
+}

@@ -12,6 +12,7 @@ tags:
 homepage: https://threatconnect.com
 logo: {}
 useCases: []
+notifier: false
 externalIntegrations:
 - name: TheHive Integration (via Polarity)
   description: Polarity-TheHive integration that enables security analysts to search TheHive instances for indicators, create
@@ -31,4 +32,5 @@ stats:
   totalFunctions: 0
   totalUseCases: 0
   totalExternalIntegrations: 1
+  totalNotifiers: 0
   total: 1

@@ -7,6 +7,7 @@
   "homepage": "",
   "logo": {},
   "useCases": [],
+  "notifier": false,
   "externalIntegrations": [],
   "displayOnWebsite": true,
   "visibility": 100,
@@ -30,8 +31,8 @@
           "mail"
         ],
         "file": ".upstream/cortex/analyzers/Gatewatcher_CTI/Gatewatcher_CTI.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Gatewatcher_CTI/Gatewatcher_CTI.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Gatewatcher_CTI/Gatewatcher_CTI.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/Gatewatcher_CTI/Gatewatcher_CTI.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/Gatewatcher_CTI/Gatewatcher_CTI.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Gatewatcher_CTI",
         "integration_type": null
       }
@@ -47,8 +48,8 @@
           "thehive:case"
         ],
         "file": ".upstream/cortex/responders/Gatewatcher_CTI/Gatewatcher_CTI_Identity.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Gatewatcher_CTI/Gatewatcher_CTI_Identity.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Gatewatcher_CTI/Gatewatcher_CTI_Identity.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/Gatewatcher_CTI/Gatewatcher_CTI_Identity.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/Gatewatcher_CTI/Gatewatcher_CTI_Identity.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Gatewatcher_CTI",
         "integration_type": null
       }
@@ -61,6 +62,7 @@
     "totalFunctions": 0,
     "totalUseCases": 0,
     "totalExternalIntegrations": 0,
+    "totalNotifiers": 0,
     "total": 2
   }
 }

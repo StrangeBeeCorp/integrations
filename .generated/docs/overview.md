@@ -17,12 +17,13 @@ Built something useful? Contributions are welcome!
 
 ## Summary Statistics
 
-- **Total Vendors:** 184
+- **Total Vendors:** 191
 - **Total Analyzers:** 260
 - **Total Responders:** 137
 - **Total Functions:** 6
+- **Total Notifiers:** 8
 - **Total External Integrations:** 10
-- **Total Integrations:** 413
+- **Total Integrations:** 421
 
 ## Vendors by Category
 
@@ -43,7 +44,16 @@ Built something useful? Contributions are welcome!
 
 ### Collaboration
 
-**[Slack](vendors/Slack/overview.md)** (2 integrations)
+**[Email](vendors/Email/overview.md)** (1 integrations)
+  Send email notifications from TheHive to designated email addresses when specific events occur.
+
+**[Mattermost](vendors/Mattermost/overview.md)** (1 integrations)
+  Mattermost is an open-source messaging platform for team collaboration, offering channels, direct...
+
+**[Microsoft Teams](vendors/MSTeams/overview.md)** (1 integrations)
+  Microsoft Teams is a collaboration platform that combines chat, video meetings, file storage, and...
+
+**[Slack](vendors/Slack/overview.md)** (3 integrations)
   Slack is a is a team collaboration platform that provides channels, direct messaging, file sharin...
 
 **[Telegram](vendors/Telegram/overview.md)** (1 integrations)
@@ -133,6 +143,12 @@ Built something useful? Contributions are welcome!
 
 ### SOAR & Automation
 
+**[Apache Kafka](vendors/Kafka/overview.md)** (1 integrations)
+  Apache Kafka is a distributed event streaming platform for high-performance data pipelines, strea...
+
+**[HTTP Request](vendors/HttpRequest/overview.md)** (1 integrations)
+  Send HTTP requests from TheHive to any endpoint when specific events occur.
+
 **[n8n](vendors/n8n/overview.md)** (2 integrations)
   n8n is a low-code/no-code workflow automation platform that enables technical teams to build, dep...
 
@@ -142,10 +158,16 @@ Built something useful? Contributions are welcome!
 **[Rapid7 InsightConnect](vendors/InsightConnect/overview.md)** (1 integrations)
   Rapid7 InsightConnect is a security orchestration and automation platform that enables security t...
 
+**[Redis](vendors/Redis/overview.md)** (1 integrations)
+  Redis is an in-memory data store used as a database, cache, and message broker.
+
 **[Shuffle](vendors/Shuffle/overview.md)** (2 integrations)
   Shuffle is an open-source security orchestration, automation and response (SOAR) platform that au...
 
 **[Tines](vendors/Tines/overview.md)** (1 integrations)
+
+**[Webhook](vendors/Webhook/overview.md)** (1 integrations)
+  Send data to webhook endpoints from TheHive when specific events occur.
 
 
 ### Threat Intelligence
@@ -493,6 +515,7 @@ Built something useful? Contributions are welcome!
 - **[AlienVault OTX](vendors/OTXQuery/overview.md)** - *Threat Intelligence* - 1 analyzers
 - **[Anomali Staxx](vendors/StaxxSearch/overview.md)** - *Uncategorized* - 1 analyzers
 - **[AnyRun](vendors/AnyRun/overview.md)** - *Uncategorized* - 1 analyzers
+- **[Apache Kafka](vendors/Kafka/overview.md)** - *SOAR & Automation* - notifier
 - **[Autofocus](vendors/Autofocus/overview.md)** - *Uncategorized* - 3 analyzers
 - **[AWSLambda](vendors/AWSLambda/overview.md)** - *Uncategorized* - 1 responders
 - **[AWX](vendors/AWX/overview.md)** - *Uncategorized* - 1 responders
@@ -538,6 +561,7 @@ Built something useful? Contributions are welcome!
 - **[EchoTrail](vendors/EchoTrail/overview.md)** - *Uncategorized* - 1 analyzers
 - **[EclecticIQ](vendors/EclecticIQ/overview.md)** - *Uncategorized* - 1 analyzers, 1 responders
 - **[Elasticsearch](vendors/Elasticsearch/overview.md)** - *SIEM & Analytics* - 1 analyzers, 1 external
+- **[Email](vendors/Email/overview.md)** - *Collaboration* - notifier
 - **[EmailRep](vendors/EmailRep/overview.md)** - *Threat Intelligence* - 1 analyzers
 - **[EmergingThreats](vendors/EmergingThreats/overview.md)** - *Uncategorized* - 3 analyzers
 - **[EmlParser](vendors/EmlParser/overview.md)** - *Uncategorized* - 1 analyzers
@@ -557,6 +581,7 @@ Built something useful? Contributions are welcome!
 - **[HarfangLab](vendors/HarfangLab/overview.md)** - *Uncategorized* - 31 responders
 - **[Hashdd](vendors/Hashdd/overview.md)** - *Uncategorized* - 2 analyzers
 - **[Have I Been Pwned](vendors/HIBP/overview.md)** - *Breach Intelligence* - 1 analyzers
+- **[HTTP Request](vendors/HttpRequest/overview.md)** - *SOAR & Automation* - notifier
 - **[Hunter.io](vendors/Hunterio/overview.md)** - *OSINT & Enrichment* - 1 analyzers
 - **[Hybrid Analysis](vendors/HybridAnalysis/overview.md)** - *Malware Analysis* - 1 analyzers
 - **[IBM QRadar](vendors/IBMQRadar/overview.md)** - *Uncategorized* - 1 responders
@@ -586,11 +611,13 @@ Built something useful? Contributions are welcome!
 - **[MalwareBazaar](vendors/MalwareBazaar/overview.md)** - *Threat Intelligence* - 1 analyzers
 - **[MalwareClustering](vendors/MalwareClustering/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Malwares](vendors/Malwares/overview.md)** - *Uncategorized* - 2 analyzers
+- **[Mattermost](vendors/Mattermost/overview.md)** - *Collaboration* - notifier
 - **[MaxMind](vendors/MaxMind/overview.md)** - *OSINT & Enrichment* - 1 analyzers
 - **[MetaDefender](vendors/MetaDefender/overview.md)** - *Uncategorized* - 5 analyzers
 - **[Microsoft Defender for Endpoint](vendors/MSDefenderEndpoints/overview.md)** - *EDR* - 12 responders
 - **[Microsoft Defender for Office 365](vendors/MSDefenderOffice365/overview.md)** - *Email Security* - 1 analyzers, 4 responders
 - **[Microsoft Entra ID](vendors/MSEntraID/overview.md)** - *Identity & Access Management* - 4 analyzers, 5 responders
+- **[Microsoft Teams](vendors/MSTeams/overview.md)** - *Collaboration* - notifier
 - **[MineMeld](vendors/Minemeld/overview.md)** - *Uncategorized* - 1 responders
 - **[MISP](vendors/MISP/overview.md)** - *Threat Intelligence* - 1 analyzers
 - **[MISP Warning Lists](vendors/MISPWarningLists/overview.md)** - *Uncategorized* - 1 analyzers
@@ -620,6 +647,7 @@ Built something useful? Contributions are welcome!
 - **[QrDecode](vendors/QrDecode/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Rapid7 InsightConnect](vendors/InsightConnect/overview.md)** - *SOAR & Automation* - 1 external
 - **[Recorded Future](vendors/RecordedFuture/overview.md)** - *Threat Intelligence* - 1 analyzers
+- **[Redis](vendors/Redis/overview.md)** - *SOAR & Automation* - notifier
 - **[Redmine](vendors/Redmine/overview.md)** - *Uncategorized* - 1 responders
 - **[RiskIQ](vendors/RiskIQ/overview.md)** - *Uncategorized* - 16 analyzers, 1 responders
 - **[Robtex](vendors/Robtex/overview.md)** - *Uncategorized* - 3 analyzers
@@ -631,7 +659,7 @@ Built something useful? Contributions are welcome!
 - **[Shodan](vendors/Shodan/overview.md)** - *Attack Surface Intelligence* - 6 analyzers
 - **[Shuffle](vendors/Shuffle/overview.md)** - *SOAR & Automation* - 1 responders, 1 external
 - **[SinkDB](vendors/SinkDB/overview.md)** - *Uncategorized* - 1 analyzers
-- **[Slack](vendors/Slack/overview.md)** - *Collaboration* - 2 responders
+- **[Slack](vendors/Slack/overview.md)** - *Collaboration* - 2 responders, notifier
 - **[Soltra Edge](vendors/SoltraEdge/overview.md)** - *Uncategorized* - 1 analyzers
 - **[SophosIntelix](vendors/SophosIntelix/overview.md)** - *Uncategorized* - 3 analyzers
 - **[SpamAssassin](vendors/SpamAssassin/overview.md)** - *Uncategorized* - 1 analyzers
@@ -665,6 +693,7 @@ Built something useful? Contributions are welcome!
 - **[Vulners](vendors/Vulners/overview.md)** - *Uncategorized* - 2 analyzers
 - **[Watcher](vendors/Watcher/overview.md)** - *Uncategorized* - 1 analyzers, 4 responders
 - **[Wazuh](vendors/Wazuh/overview.md)** - *Uncategorized* - 1 responders
+- **[Webhook](vendors/Webhook/overview.md)** - *SOAR & Automation* - notifier
 - **[WOT](vendors/WOT/overview.md)** - *Uncategorized* - 1 analyzers
 - **[YARA](vendors/Yara/overview.md)** - *Malware Analysis* - 1 analyzers
 - **[Yeti](vendors/Yeti/overview.md)** - *Uncategorized* - 1 analyzers
