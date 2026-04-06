@@ -1,0 +1,6 @@
+id: OpenCTI
+name: "OpenCTI"
+description: "Open-source cyber threat intelligence platform for structuring, storing, and visualizing threat data using STIX"
+category: Threat Intelligence
+homepage: "https://filigran.io/platforms/opencti/"
+visibility: 100

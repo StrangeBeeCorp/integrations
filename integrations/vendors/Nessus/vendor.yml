@@ -1,0 +1,6 @@
+id: Nessus
+name: "Nessus"
+description: "Vulnerability scanner by Tenable for identifying vulnerabilities, misconfigurations, and compliance issues"
+category: Vulnerability Management
+homepage: "https://www.tenable.com/products/nessus"
+visibility: 100

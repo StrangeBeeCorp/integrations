@@ -1,0 +1,6 @@
+id: CheckPointHEC
+name: "Check Point HEC"
+description: "Check Point Harmony Email & Collaboration (HEC) is a cloud email security solution protecting Microsoft 365 and Google Workspace against phishing, malware, and business email compromise"
+category: Email Security
+homepage: "https://www.checkpoint.com/harmony/email-security/"
+visibility: 100

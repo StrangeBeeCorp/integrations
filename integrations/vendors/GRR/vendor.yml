@@ -1,0 +1,6 @@
+id: GRR
+name: "GRR Rapid Response"
+description: "Open-source remote live forensics framework for incident response and remote investigation at scale"
+category: DFIR
+homepage: "https://grr-doc.readthedocs.io"
+visibility: 100

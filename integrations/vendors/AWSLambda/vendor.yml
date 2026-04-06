@@ -1,0 +1,6 @@
+id: AWSLambda
+name: "AWS Lambda"
+description: "AWS Lambda is a serverless compute service that lets you run code in response to events, used as a responder backend for automated incident response actions"
+category: Cloud Infrastructure
+homepage: "https://aws.amazon.com/lambda/"
+visibility: 100

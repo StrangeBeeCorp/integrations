@@ -1,0 +1,6 @@
+id: CuckooSandbox
+name: "Cuckoo Sandbox"
+description: "Open-source automated malware analysis system for detonating suspicious files in isolated environments (project inactive)"
+category: Malware Analysis
+homepage: "https://github.com/cuckoosandbox/cuckoo"
+visibility: 100

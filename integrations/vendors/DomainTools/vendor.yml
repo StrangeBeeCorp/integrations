@@ -1,0 +1,6 @@
+id: DomainTools
+name: "DomainTools"
+description: "Domain and DNS intelligence platform for investigating domain ownership, infrastructure, and threat actor attribution"
+category: Threat Intelligence
+homepage: "https://www.domaintools.com"
+visibility: 100

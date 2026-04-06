@@ -1,0 +1,6 @@
+id: Okta
+name: "Okta"
+description: "Enterprise identity and access management platform providing SSO, MFA, and lifecycle management"
+category: Identity & Access Management
+homepage: "https://www.okta.com"
+visibility: 100

@@ -1,0 +1,6 @@
+id: Wazuh
+name: "Wazuh"
+description: "Open-source security monitoring platform for threat detection, integrity monitoring, incident response, and compliance"
+category: SIEM & Analytics
+homepage: "https://wazuh.com"
+visibility: 100

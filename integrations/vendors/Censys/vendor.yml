@@ -1,0 +1,6 @@
+id: Censys
+name: "Censys"
+description: "Internet-wide scanning platform for discovering exposed assets and monitoring attack surfaces"
+category: Attack Surface Intelligence
+homepage: "https://censys.io"
+visibility: 100
