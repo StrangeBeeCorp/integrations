@@ -491,11 +491,11 @@
     },
     {
       "id": "AWSLambda",
-      "name": "AWSLambda",
-      "description": "",
-      "category": "",
+      "name": "AWS Lambda",
+      "description": "AWS Lambda is a serverless compute service that lets you run code in response to events, used as a responder backend for automated incident response actions",
+      "category": "Cloud Infrastructure",
       "tags": [],
-      "homepage": "",
+      "homepage": "https://aws.amazon.com/lambda/",
       "logo": {},
       "useCases": [],
       "notifier": false,
@@ -871,10 +871,10 @@
     {
       "id": "Censys",
       "name": "Censys",
-      "description": "",
-      "category": "",
+      "description": "Internet-wide scanning platform for discovering exposed assets and monitoring attack surfaces",
+      "category": "Attack Surface Intelligence",
       "tags": [],
-      "homepage": "",
+      "homepage": "https://censys.io",
       "logo": {},
       "useCases": [],
       "notifier": false,
@@ -1328,6 +1328,80 @@
       }
     },
     {
+      "id": "Duo_Security",
+      "name": "Cisco Duo",
+      "description": "Multi-factor authentication and secure access platform by Cisco for identity verification and endpoint trust",
+      "category": "Identity & Access Management",
+      "tags": [],
+      "homepage": "https://duo.com",
+      "logo": {},
+      "useCases": [],
+      "notifier": false,
+      "externalIntegrations": [],
+      "displayOnWebsite": true,
+      "visibility": 100,
+      "integrations": {
+        "analyzers": [],
+        "responders": [
+          {
+            "name": "DuoUnlockUserAccount",
+            "version": "1.0",
+            "author": "Sven Kutzer / Gyorgy Acs, @oscd_initiative",
+            "license": "AGPL-V3",
+            "description": "Unlock User Account in Duo Security via AdminAPI (The user must complete secondary authentication)",
+            "dataTypes": [
+              "thehive:case_artifact"
+            ],
+            "file": ".upstream/cortex/responders/Duo_Security/DuoUnlockUserAccount.json",
+            "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Duo_Security/DuoUnlockUserAccount.json",
+            "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Duo_Security/DuoUnlockUserAccount.json",
+            "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Duo_Security",
+            "integration_type": null
+          },
+          {
+            "name": "DuoLockUserAccount",
+            "version": "1.0",
+            "author": "Sven Kutzer / Gyorgy Acs, @oscd_initiative",
+            "license": "AGPL-V3",
+            "description": "Lock User Account in Duo Security via AdminAPI (The user will not be able to log in)",
+            "dataTypes": [
+              "thehive:case_artifact"
+            ],
+            "file": ".upstream/cortex/responders/Duo_Security/DuoLockUserAccount.json",
+            "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Duo_Security/DuoLockUserAccount.json",
+            "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Duo_Security/DuoLockUserAccount.json",
+            "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Duo_Security",
+            "integration_type": null
+          },
+          {
+            "name": "DuoBypassUserAccount",
+            "version": "1.0",
+            "author": "jahamilto",
+            "license": "AGPL-V3",
+            "description": "Put User Account into Bypass mode in Duo Security via AdminAPI (The user will not be prompted when logging in.)",
+            "dataTypes": [
+              "thehive:case_artifact"
+            ],
+            "file": ".upstream/cortex/responders/Duo_Security/DuoBypassUserAccount.json",
+            "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Duo_Security/DuoBypassUserAccount.json",
+            "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Duo_Security/DuoBypassUserAccount.json",
+            "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Duo_Security",
+            "integration_type": null
+          }
+        ],
+        "functions": []
+      },
+      "stats": {
+        "totalAnalyzers": 0,
+        "totalResponders": 3,
+        "totalFunctions": 0,
+        "totalUseCases": 0,
+        "totalExternalIntegrations": 0,
+        "totalNotifiers": 0,
+        "total": 3
+      }
+    },
+    {
       "id": "AMPforEndpoints",
       "name": "Cisco Secure Endpoint (Formerly AMP for Endpoints)",
       "description": "",
@@ -1550,10 +1624,10 @@
     {
       "id": "ClamAV",
       "name": "ClamAV",
-      "description": "",
-      "category": "",
+      "description": "Open-source antivirus engine for detecting trojans, viruses, malware, and other malicious threats",
+      "category": "Malware Analysis",
       "tags": [],
-      "homepage": "",
+      "homepage": "https://www.clamav.net",
       "logo": {},
       "useCases": [],
       "notifier": false,
@@ -2235,11 +2309,11 @@
     },
     {
       "id": "CuckooSandbox",
-      "name": "CuckooSandbox",
-      "description": "",
-      "category": "",
+      "name": "Cuckoo Sandbox",
+      "description": "Open-source automated malware analysis system for detonating suspicious files in isolated environments (project inactive)",
+      "category": "Malware Analysis",
       "tags": [],
-      "homepage": "",
+      "homepage": "https://github.com/cuckoosandbox/cuckoo",
       "logo": {},
       "useCases": [],
       "notifier": false,
@@ -2832,10 +2906,10 @@
     {
       "id": "DomainTools",
       "name": "DomainTools",
-      "description": "",
-      "category": "",
+      "description": "Domain and DNS intelligence platform for investigating domain ownership, infrastructure, and threat actor attribution",
+      "category": "Threat Intelligence",
       "tags": [],
-      "homepage": "",
+      "homepage": "https://www.domaintools.com",
       "logo": {},
       "useCases": [],
       "notifier": false,
@@ -3160,80 +3234,6 @@
         "totalExternalIntegrations": 0,
         "totalNotifiers": 0,
         "total": 1
-      }
-    },
-    {
-      "id": "Duo_Security",
-      "name": "Duo Security",
-      "description": "",
-      "category": "",
-      "tags": [],
-      "homepage": "",
-      "logo": {},
-      "useCases": [],
-      "notifier": false,
-      "externalIntegrations": [],
-      "displayOnWebsite": true,
-      "visibility": 100,
-      "integrations": {
-        "analyzers": [],
-        "responders": [
-          {
-            "name": "DuoUnlockUserAccount",
-            "version": "1.0",
-            "author": "Sven Kutzer / Gyorgy Acs, @oscd_initiative",
-            "license": "AGPL-V3",
-            "description": "Unlock User Account in Duo Security via AdminAPI (The user must complete secondary authentication)",
-            "dataTypes": [
-              "thehive:case_artifact"
-            ],
-            "file": ".upstream/cortex/responders/Duo_Security/DuoUnlockUserAccount.json",
-            "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Duo_Security/DuoUnlockUserAccount.json",
-            "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Duo_Security/DuoUnlockUserAccount.json",
-            "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Duo_Security",
-            "integration_type": null
-          },
-          {
-            "name": "DuoLockUserAccount",
-            "version": "1.0",
-            "author": "Sven Kutzer / Gyorgy Acs, @oscd_initiative",
-            "license": "AGPL-V3",
-            "description": "Lock User Account in Duo Security via AdminAPI (The user will not be able to log in)",
-            "dataTypes": [
-              "thehive:case_artifact"
-            ],
-            "file": ".upstream/cortex/responders/Duo_Security/DuoLockUserAccount.json",
-            "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Duo_Security/DuoLockUserAccount.json",
-            "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Duo_Security/DuoLockUserAccount.json",
-            "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Duo_Security",
-            "integration_type": null
-          },
-          {
-            "name": "DuoBypassUserAccount",
-            "version": "1.0",
-            "author": "jahamilto",
-            "license": "AGPL-V3",
-            "description": "Put User Account into Bypass mode in Duo Security via AdminAPI (The user will not be prompted when logging in.)",
-            "dataTypes": [
-              "thehive:case_artifact"
-            ],
-            "file": ".upstream/cortex/responders/Duo_Security/DuoBypassUserAccount.json",
-            "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Duo_Security/DuoBypassUserAccount.json",
-            "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Duo_Security/DuoBypassUserAccount.json",
-            "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Duo_Security",
-            "integration_type": null
-          }
-        ],
-        "functions": []
-      },
-      "stats": {
-        "totalAnalyzers": 0,
-        "totalResponders": 3,
-        "totalFunctions": 0,
-        "totalUseCases": 0,
-        "totalExternalIntegrations": 0,
-        "totalNotifiers": 0,
-        "total": 3
       }
     },
     {
@@ -4374,11 +4374,11 @@
     },
     {
       "id": "GRR",
-      "name": "GRR",
-      "description": "",
-      "category": "",
+      "name": "GRR Rapid Response",
+      "description": "Open-source remote live forensics framework for incident response and remote investigation at scale",
+      "category": "DFIR",
       "tags": [],
-      "homepage": "",
+      "homepage": "https://grr-doc.readthedocs.io",
       "logo": {},
       "useCases": [],
       "notifier": false,
@@ -7751,10 +7751,10 @@
     {
       "id": "Nessus",
       "name": "Nessus",
-      "description": "",
-      "category": "",
+      "description": "Vulnerability scanner by Tenable for identifying vulnerabilities, misconfigurations, and compliance issues",
+      "category": "Vulnerability Management",
       "tags": [],
-      "homepage": "",
+      "homepage": "https://www.tenable.com/products/nessus",
       "logo": {},
       "useCases": [],
       "notifier": false,
@@ -7888,10 +7888,10 @@
     {
       "id": "Okta",
       "name": "Okta",
-      "description": "",
-      "category": "",
+      "description": "Enterprise identity and access management platform providing SSO, MFA, and lifecycle management",
+      "category": "Identity & Access Management",
       "tags": [],
-      "homepage": "",
+      "homepage": "https://www.okta.com",
       "logo": {},
       "useCases": [],
       "notifier": false,
@@ -8117,10 +8117,10 @@
     {
       "id": "OpenCTI",
       "name": "OpenCTI",
-      "description": "",
-      "category": "",
+      "description": "Open-source cyber threat intelligence platform for structuring, storing, and visualizing threat data using STIX",
+      "category": "Threat Intelligence",
       "tags": [],
-      "homepage": "",
+      "homepage": "https://filigran.io/platforms/opencti/",
       "logo": {},
       "useCases": [],
       "notifier": false,
@@ -12620,10 +12620,10 @@
     {
       "id": "Wazuh",
       "name": "Wazuh",
-      "description": "",
-      "category": "",
+      "description": "Open-source security monitoring platform for threat detection, integrity monitoring, incident response, and compliance",
+      "category": "SIEM & Analytics",
       "tags": [],
-      "homepage": "",
+      "homepage": "https://wazuh.com",
       "logo": {},
       "useCases": [],
       "notifier": false,
@@ -12901,10 +12901,10 @@
     {
       "id": "Zscaler",
       "name": "Zscaler",
-      "description": "",
-      "category": "",
+      "description": "Cloud-native security platform providing secure web gateway, zero trust network access, and cloud security",
+      "category": "Network Security",
       "tags": [],
-      "homepage": "",
+      "homepage": "https://www.zscaler.com",
       "logo": {},
       "useCases": [],
       "notifier": false,

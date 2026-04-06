@@ -1,10 +1,10 @@
 {
   "id": "OpenCTI",
   "name": "OpenCTI",
-  "description": "",
-  "category": "",
+  "description": "Open-source cyber threat intelligence platform for structuring, storing, and visualizing threat data using STIX",
+  "category": "Threat Intelligence",
   "tags": [],
-  "homepage": "",
+  "homepage": "https://filigran.io/platforms/opencti/",
   "logo": {},
   "useCases": [],
   "notifier": false,

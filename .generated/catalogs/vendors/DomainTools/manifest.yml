@@ -3,10 +3,10 @@
 
 id: DomainTools
 name: DomainTools
-description: ''
-category: ''
+description: Domain and DNS intelligence platform for investigating domain ownership, infrastructure, and threat actor attribution
+category: Threat Intelligence
 tags: []
-homepage: ''
+homepage: https://www.domaintools.com
 logo: {}
 useCases: []
 notifier: false

@@ -1,10 +1,10 @@
 {
   "id": "Censys",
   "name": "Censys",
-  "description": "",
-  "category": "",
+  "description": "Internet-wide scanning platform for discovering exposed assets and monitoring attack surfaces",
+  "category": "Attack Surface Intelligence",
   "tags": [],
-  "homepage": "",
+  "homepage": "https://censys.io",
   "logo": {},
   "useCases": [],
   "notifier": false,

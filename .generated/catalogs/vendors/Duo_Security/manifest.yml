@@ -2,11 +2,11 @@
 # Edit vendor.yml for vendor metadata, then re-run the generator
 
 id: Duo_Security
-name: Duo Security
-description: ''
-category: ''
+name: Cisco Duo
+description: Multi-factor authentication and secure access platform by Cisco for identity verification and endpoint trust
+category: Identity & Access Management
 tags: []
-homepage: ''
+homepage: https://duo.com
 logo: {}
 useCases: []
 notifier: false

@@ -186,11 +186,13 @@
   },
   "AWSLambda": {
     "id": "AWSLambda",
-    "name": "AWSLambda",
-    "description": "",
-    "category": [],
+    "name": "AWS Lambda",
+    "description": "AWS Lambda is a serverless compute service that lets you run code in response to events, used as a responder backend for automated incident response actions",
+    "category": [
+      "Cloud Infrastructure"
+    ],
     "tags": [],
-    "homepage": "",
+    "homepage": "https://aws.amazon.com/lambda/",
     "logo_url": "",
     "visibility": 100,
     "subscription": {
@@ -345,10 +347,12 @@
   "Censys": {
     "id": "Censys",
     "name": "Censys",
-    "description": "",
-    "category": [],
+    "description": "Internet-wide scanning platform for discovering exposed assets and monitoring attack surfaces",
+    "category": [
+      "Attack Surface Intelligence"
+    ],
     "tags": [],
-    "homepage": "",
+    "homepage": "https://censys.io",
     "logo_url": "",
     "visibility": 100,
     "subscription": {
@@ -622,10 +626,12 @@
   "ClamAV": {
     "id": "ClamAV",
     "name": "ClamAV",
-    "description": "",
-    "category": [],
+    "description": "Open-source antivirus engine for detecting trojans, viruses, malware, and other malicious threats",
+    "category": [
+      "Malware Analysis"
+    ],
     "tags": [],
-    "homepage": "",
+    "homepage": "https://www.clamav.net",
     "logo_url": "",
     "visibility": 100,
     "subscription": {
@@ -844,11 +850,13 @@
   },
   "CuckooSandbox": {
     "id": "CuckooSandbox",
-    "name": "CuckooSandbox",
-    "description": "",
-    "category": [],
+    "name": "Cuckoo Sandbox",
+    "description": "Open-source automated malware analysis system for detonating suspicious files in isolated environments (project inactive)",
+    "category": [
+      "Malware Analysis"
+    ],
     "tags": [],
-    "homepage": "",
+    "homepage": "https://github.com/cuckoosandbox/cuckoo",
     "logo_url": "",
     "visibility": 100,
     "subscription": {
@@ -1095,10 +1103,12 @@
   "DomainTools": {
     "id": "DomainTools",
     "name": "DomainTools",
-    "description": "",
-    "category": [],
+    "description": "Domain and DNS intelligence platform for investigating domain ownership, infrastructure, and threat actor attribution",
+    "category": [
+      "Threat Intelligence"
+    ],
     "tags": [],
-    "homepage": "",
+    "homepage": "https://www.domaintools.com",
     "logo_url": "",
     "visibility": 100,
     "subscription": {
@@ -1169,11 +1179,13 @@
   },
   "Duo_Security": {
     "id": "Duo_Security",
-    "name": "Duo Security",
-    "description": "",
-    "category": [],
+    "name": "Cisco Duo",
+    "description": "Multi-factor authentication and secure access platform by Cisco for identity verification and endpoint trust",
+    "category": [
+      "Identity & Access Management"
+    ],
     "tags": [],
-    "homepage": "",
+    "homepage": "https://duo.com",
     "logo_url": "",
     "visibility": 100,
     "subscription": {
@@ -1676,11 +1688,13 @@
   },
   "GRR": {
     "id": "GRR",
-    "name": "GRR",
-    "description": "",
-    "category": [],
+    "name": "GRR Rapid Response",
+    "description": "Open-source remote live forensics framework for incident response and remote investigation at scale",
+    "category": [
+      "DFIR"
+    ],
     "tags": [],
-    "homepage": "",
+    "homepage": "https://grr-doc.readthedocs.io",
     "logo_url": "",
     "visibility": 100,
     "subscription": {
@@ -2970,10 +2984,12 @@
   "Nessus": {
     "id": "Nessus",
     "name": "Nessus",
-    "description": "",
-    "category": [],
+    "description": "Vulnerability scanner by Tenable for identifying vulnerabilities, misconfigurations, and compliance issues",
+    "category": [
+      "Vulnerability Management"
+    ],
     "tags": [],
-    "homepage": "",
+    "homepage": "https://www.tenable.com/products/nessus",
     "logo_url": "",
     "visibility": 100,
     "subscription": {
@@ -3045,10 +3061,12 @@
   "Okta": {
     "id": "Okta",
     "name": "Okta",
-    "description": "",
-    "category": [],
+    "description": "Enterprise identity and access management platform providing SSO, MFA, and lifecycle management",
+    "category": [
+      "Identity & Access Management"
+    ],
     "tags": [],
-    "homepage": "",
+    "homepage": "https://www.okta.com",
     "logo_url": "",
     "visibility": 100,
     "subscription": {
@@ -3128,10 +3146,12 @@
   "OpenCTI": {
     "id": "OpenCTI",
     "name": "OpenCTI",
-    "description": "",
-    "category": [],
+    "description": "Open-source cyber threat intelligence platform for structuring, storing, and visualizing threat data using STIX",
+    "category": [
+      "Threat Intelligence"
+    ],
     "tags": [],
-    "homepage": "",
+    "homepage": "https://filigran.io/platforms/opencti/",
     "logo_url": "",
     "visibility": 100,
     "subscription": {
@@ -4643,10 +4663,12 @@
   "Wazuh": {
     "id": "Wazuh",
     "name": "Wazuh",
-    "description": "",
-    "category": [],
+    "description": "Open-source security monitoring platform for threat detection, integrity monitoring, incident response, and compliance",
+    "category": [
+      "SIEM & Analytics"
+    ],
     "tags": [],
-    "homepage": "",
+    "homepage": "https://wazuh.com",
     "logo_url": "",
     "visibility": 100,
     "subscription": {
@@ -4775,10 +4797,12 @@
   "Zscaler": {
     "id": "Zscaler",
     "name": "Zscaler",
-    "description": "",
-    "category": [],
+    "description": "Cloud-native security platform providing secure web gateway, zero trust network access, and cloud security",
+    "category": [
+      "Network Security"
+    ],
     "tags": [],
-    "homepage": "",
+    "homepage": "https://www.zscaler.com",
     "logo_url": "",
     "visibility": 100,
     "subscription": {

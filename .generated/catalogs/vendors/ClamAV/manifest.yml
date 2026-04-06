@@ -3,10 +3,10 @@
 
 id: ClamAV
 name: ClamAV
-description: ''
-category: ''
+description: Open-source antivirus engine for detecting trojans, viruses, malware, and other malicious threats
+category: Malware Analysis
 tags: []
-homepage: ''
+homepage: https://www.clamav.net
 logo: {}
 useCases: []
 notifier: false

@@ -1,10 +1,10 @@
 {
   "id": "Wazuh",
   "name": "Wazuh",
-  "description": "",
-  "category": "",
+  "description": "Open-source security monitoring platform for threat detection, integrity monitoring, incident response, and compliance",
+  "category": "SIEM & Analytics",
   "tags": [],
-  "homepage": "",
+  "homepage": "https://wazuh.com",
   "logo": {},
   "useCases": [],
   "notifier": false,

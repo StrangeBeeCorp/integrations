@@ -3,10 +3,10 @@
 
 id: Okta
 name: Okta
-description: ''
-category: ''
+description: Enterprise identity and access management platform providing SSO, MFA, and lifecycle management
+category: Identity & Access Management
 tags: []
-homepage: ''
+homepage: https://www.okta.com
 logo: {}
 useCases: []
 notifier: false

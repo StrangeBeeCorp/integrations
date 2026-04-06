@@ -2,11 +2,12 @@
 # Edit vendor.yml for vendor metadata, then re-run the generator
 
 id: AWSLambda
-name: AWSLambda
-description: ''
-category: ''
+name: AWS Lambda
+description: AWS Lambda is a serverless compute service that lets you run code in response to events, used as a responder
+  backend for automated incident response actions
+category: Cloud Infrastructure
 tags: []
-homepage: ''
+homepage: https://aws.amazon.com/lambda/
 logo: {}
 useCases: []
 notifier: false

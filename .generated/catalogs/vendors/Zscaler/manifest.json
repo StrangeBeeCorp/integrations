@@ -1,10 +1,10 @@
 {
   "id": "Zscaler",
   "name": "Zscaler",
-  "description": "",
-  "category": "",
+  "description": "Cloud-native security platform providing secure web gateway, zero trust network access, and cloud security",
+  "category": "Network Security",
   "tags": [],
-  "homepage": "",
+  "homepage": "https://www.zscaler.com",
   "logo": {},
   "useCases": [],
   "notifier": false,
