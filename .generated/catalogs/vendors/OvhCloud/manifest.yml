@@ -26,8 +26,8 @@ integrations:
     - fqdn
     - url
     file: .upstream/cortex/analyzers/OvhCloud/OvhDomainCheck.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/OvhCloud/OvhDomainCheck.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/OvhCloud/OvhDomainCheck.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/OvhCloud/OvhDomainCheck.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/OvhCloud/OvhDomainCheck.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/OvhCloud
     integration_type: null
   responders:
@@ -39,8 +39,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/OvhCloud/OvhDomainOrder.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/OvhCloud/OvhDomainOrder.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/OvhCloud/OvhDomainOrder.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/OvhCloud/OvhDomainOrder.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/OvhCloud/OvhDomainOrder.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/OvhCloud
     integration_type: null
   - name: OVH Domain Redirection
@@ -51,8 +51,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/OvhCloud/OvhDomainRedirection.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/OvhCloud/OvhDomainRedirection.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/OvhCloud/OvhDomainRedirection.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/OvhCloud/OvhDomainRedirection.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/OvhCloud/OvhDomainRedirection.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/OvhCloud
     integration_type: null
   functions: []

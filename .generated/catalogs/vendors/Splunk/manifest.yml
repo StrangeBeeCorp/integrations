@@ -16,8 +16,8 @@ tags:
 homepage: https://www.splunk.com
 logo:
   file: integrations/vendors/Splunk/assets/logo.png
-  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Splunk/assets/logo.png
-  github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Splunk/assets/logo.png
+  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/integrations/vendors/Splunk/assets/logo.png
+  github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/integrations/vendors/Splunk/assets/logo.png
 useCases: []
 notifier: false
 externalIntegrations:
@@ -47,8 +47,8 @@ integrations:
     - file
     - filename
     file: .upstream/cortex/analyzers/Splunk/Splunk_Search_file_filename.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_file_filename.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_file_filename.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_file_filename.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_file_filename.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk
     integration_type: null
   - name: Splunk Search URL URI Path
@@ -60,8 +60,8 @@ integrations:
     - url
     - uri_path
     file: .upstream/cortex/analyzers/Splunk/Splunk_Search_url_uri_path.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_url_uri_path.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_url_uri_path.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_url_uri_path.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_url_uri_path.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk
     integration_type: null
   - name: Splunk Search Hash
@@ -72,8 +72,8 @@ integrations:
     dataTypes:
     - hash
     file: .upstream/cortex/analyzers/Splunk/Splunk_Search_hash.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_hash.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_hash.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_hash.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_hash.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk
     integration_type: null
   - name: Splunk Search Mail Email
@@ -85,8 +85,8 @@ integrations:
     - mail
     - email
     file: .upstream/cortex/analyzers/Splunk/Splunk_Search_mail_email.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_mail_email.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_mail_email.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_mail_email.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_mail_email.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk
     integration_type: null
   - name: Splunk Search Mail Subject
@@ -98,8 +98,8 @@ integrations:
     - mail_subject
     - mail-subject
     file: .upstream/cortex/analyzers/Splunk/Splunk_Search_mail_subject.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_mail_subject.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_mail_subject.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_mail_subject.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_mail_subject.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk
     integration_type: null
   - name: Splunk Search Domain FQDN
@@ -111,8 +111,8 @@ integrations:
     - domain
     - fqdn
     file: .upstream/cortex/analyzers/Splunk/Splunk_Search_domain_fqdn.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_domain_fqdn.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_domain_fqdn.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_domain_fqdn.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_domain_fqdn.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk
     integration_type: null
   - name: Splunk Search User Agent
@@ -123,8 +123,8 @@ integrations:
     dataTypes:
     - user-agent
     file: .upstream/cortex/analyzers/Splunk/Splunk_Search_user_agent.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_user_agent.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_user_agent.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_user_agent.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_user_agent.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk
     integration_type: null
   - name: Splunk Search IP
@@ -135,8 +135,8 @@ integrations:
     dataTypes:
     - ip
     file: .upstream/cortex/analyzers/Splunk/Splunk_Search_ip.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_ip.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_ip.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_ip.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_ip.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk
     integration_type: null
   - name: Splunk Search Registry
@@ -147,8 +147,8 @@ integrations:
     dataTypes:
     - registry
     file: .upstream/cortex/analyzers/Splunk/Splunk_Search_registry.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_registry.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_registry.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_registry.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_registry.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk
     integration_type: null
   - name: Splunk Search User
@@ -159,8 +159,8 @@ integrations:
     dataTypes:
     - other
     file: .upstream/cortex/analyzers/Splunk/Splunk_Search_user.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_user.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_user.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_user.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_user.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk
     integration_type: null
   - name: Splunk Search Other
@@ -171,8 +171,8 @@ integrations:
     dataTypes:
     - other
     file: .upstream/cortex/analyzers/Splunk/Splunk_Search_other.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_other.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_other.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_other.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/Splunk/Splunk_Search_other.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk
     integration_type: null
   responders: []
@@ -185,8 +185,8 @@ integrations:
     kind: function
     mode: Enabled
     file: integrations/vendors/Splunk/thehive/functions/function_API_createAlertFromSplunk.js
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Splunk/thehive/functions/function_API_createAlertFromSplunk.js
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Splunk/thehive/functions/function_API_createAlertFromSplunk.js
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/integrations/vendors/Splunk/thehive/functions/function_API_createAlertFromSplunk.js
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/integrations/vendors/Splunk/thehive/functions/function_API_createAlertFromSplunk.js
 stats:
   totalAnalyzers: 11
   totalResponders: 0

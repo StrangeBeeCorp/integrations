@@ -28,8 +28,8 @@ integrations:
     - domain
     - ip
     file: .upstream/cortex/analyzers/Vulners/Vulners_IOC.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Vulners/Vulners_IOC.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Vulners/Vulners_IOC.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/Vulners/Vulners_IOC.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/Vulners/Vulners_IOC.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Vulners
     integration_type: null
   - name: Vulners CVE
@@ -40,8 +40,8 @@ integrations:
     dataTypes:
     - cve
     file: .upstream/cortex/analyzers/Vulners/Vulners_CVE.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Vulners/Vulners_CVE.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Vulners/Vulners_CVE.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/Vulners/Vulners_CVE.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/Vulners/Vulners_CVE.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Vulners
     integration_type: null
   responders: []

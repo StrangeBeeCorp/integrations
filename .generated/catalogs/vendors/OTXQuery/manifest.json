@@ -13,8 +13,8 @@
   "homepage": "https://otx.alienvault.com",
   "logo": {
     "file": "integrations/vendors/OTXQuery/assets/logo.png",
-    "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/OTXQuery/assets/logo.png",
-    "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/OTXQuery/assets/logo.png"
+    "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/integrations/vendors/OTXQuery/assets/logo.png",
+    "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/develop/integrations/vendors/OTXQuery/assets/logo.png"
   },
   "useCases": [],
   "notifier": false,
@@ -40,8 +40,8 @@
           "ip"
         ],
         "file": ".upstream/cortex/analyzers/OTXQuery/OTXQuery.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/OTXQuery/OTXQuery.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/OTXQuery/OTXQuery.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/OTXQuery/OTXQuery.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/OTXQuery/OTXQuery.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/OTXQuery",
         "integration_type": null
       }

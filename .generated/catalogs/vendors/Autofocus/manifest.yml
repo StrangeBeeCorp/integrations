@@ -23,8 +23,8 @@ integrations:
     dataTypes:
     - other
     file: .upstream/cortex/analyzers/Autofocus/Autofocus_SearchJSON.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Autofocus/Autofocus_SearchJSON.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Autofocus/Autofocus_SearchJSON.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/Autofocus/Autofocus_SearchJSON.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/Autofocus/Autofocus_SearchJSON.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Autofocus
     integration_type: null
   - name: Autofocus SearchIOC
@@ -42,8 +42,8 @@ integrations:
     - tag
     - url
     file: .upstream/cortex/analyzers/Autofocus/Autofocus_SearchIOC.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Autofocus/Autofocus_SearchIOC.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Autofocus/Autofocus_SearchIOC.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/Autofocus/Autofocus_SearchIOC.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/Autofocus/Autofocus_SearchIOC.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Autofocus
     integration_type: null
   - name: Autofocus GetSampleAnalysis
@@ -54,8 +54,8 @@ integrations:
     dataTypes:
     - hash
     file: .upstream/cortex/analyzers/Autofocus/Autofocus_GetSampleAnalysis.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Autofocus/Autofocus_GetSampleAnalysis.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Autofocus/Autofocus_GetSampleAnalysis.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/Autofocus/Autofocus_GetSampleAnalysis.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/Autofocus/Autofocus_GetSampleAnalysis.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Autofocus
     integration_type: null
   responders: []

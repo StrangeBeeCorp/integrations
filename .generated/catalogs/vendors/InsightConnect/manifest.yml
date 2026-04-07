@@ -13,8 +13,8 @@ tags:
 homepage: https://www.rapid7.com/products/insightconnect/
 logo:
   file: integrations/vendors/InsightConnect/assets/logo.png
-  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/InsightConnect/assets/logo.png
-  github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/InsightConnect/assets/logo.png
+  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/integrations/vendors/InsightConnect/assets/logo.png
+  github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/integrations/vendors/InsightConnect/assets/logo.png
 useCases: []
 notifier: false
 externalIntegrations:

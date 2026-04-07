@@ -27,8 +27,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/JAMFProtect/JAMFProtect_addHashtoPreventList.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/JAMFProtect/JAMFProtect_addHashtoPreventList.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/JAMFProtect/JAMFProtect_addHashtoPreventList.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/JAMFProtect/JAMFProtect_addHashtoPreventList.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/JAMFProtect/JAMFProtect_addHashtoPreventList.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/JAMFProtect
     integration_type: null
   - name: JAMFProtect removeHashfromPreventList
@@ -39,8 +39,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/JAMFProtect/JAMFProtect_removeHashfromPreventList.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/JAMFProtect/JAMFProtect_removeHashfromPreventList.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/JAMFProtect/JAMFProtect_removeHashfromPreventList.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/JAMFProtect/JAMFProtect_removeHashfromPreventList.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/JAMFProtect/JAMFProtect_removeHashfromPreventList.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/JAMFProtect
     integration_type: null
   functions:
@@ -56,8 +56,8 @@ integrations:
     kind: function
     mode: Enabled
     file: integrations/vendors/JAMFProtect/thehive/functions/function_API_createAlertFromJAMFProtect.js
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/JAMFProtect/thehive/functions/function_API_createAlertFromJAMFProtect.js
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/JAMFProtect/thehive/functions/function_API_createAlertFromJAMFProtect.js
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/integrations/vendors/JAMFProtect/thehive/functions/function_API_createAlertFromJAMFProtect.js
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/integrations/vendors/JAMFProtect/thehive/functions/function_API_createAlertFromJAMFProtect.js
 stats:
   totalAnalyzers: 0
   totalResponders: 2

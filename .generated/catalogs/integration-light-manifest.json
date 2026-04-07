@@ -15,7 +15,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Abuse_Finder/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/Abuse_Finder/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -41,14 +41,14 @@
       "incident-response"
     ],
     "homepage": "https://www.abuseipdb.com",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/AbuseIPDB/assets/logo.svg",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/integrations/vendors/AbuseIPDB/assets/logo.svg",
     "visibility": 13,
     "subscription": {
       "required": true,
       "free": true,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/AbuseIPDB/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/AbuseIPDB/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 1,
@@ -73,7 +73,7 @@
       "free": true,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/AILOnionLookup/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/AILOnionLookup/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -98,7 +98,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Airtable/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/Airtable/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 0,
@@ -123,7 +123,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/AMPforEndpoints/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/AMPforEndpoints/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 5,
@@ -148,7 +148,7 @@
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/AnyRun/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/AnyRun/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -173,7 +173,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Autofocus/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/Autofocus/overview.md",
     "stats": {
       "totalAnalyzers": 3,
       "totalResponders": 0,
@@ -200,7 +200,7 @@
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/AWSLambda/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/AWSLambda/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 1,
@@ -225,7 +225,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/AWX/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/AWX/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 1,
@@ -250,7 +250,7 @@
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Axur/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/Axur/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -275,7 +275,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/BackscatterIO/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/BackscatterIO/overview.md",
     "stats": {
       "totalAnalyzers": 2,
       "totalResponders": 0,
@@ -300,7 +300,7 @@
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/BinalyzeAIR/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/BinalyzeAIR/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 2,
@@ -326,14 +326,14 @@
       "incident-response"
     ],
     "homepage": "https://github.com/mandiant/capa",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Capa/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/integrations/vendors/Capa/assets/logo.png",
     "visibility": 19,
     "subscription": {
       "required": false,
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Capa/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/Capa/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -360,7 +360,7 @@
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Censys/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/Censys/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -387,7 +387,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/CERTatPassiveDNS/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/CERTatPassiveDNS/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -412,7 +412,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/ChainAbuse/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/ChainAbuse/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -437,7 +437,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/CheckPhish/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/CheckPhish/overview.md",
     "stats": {
       "totalAnalyzers": 2,
       "totalResponders": 0,
@@ -462,7 +462,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/CheckPoint/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/CheckPoint/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 2,
@@ -489,7 +489,7 @@
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/CheckPointHEC/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/CheckPointHEC/overview.md",
     "stats": {
       "totalAnalyzers": 5,
       "totalResponders": 0,
@@ -514,7 +514,7 @@
       "free": true,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/CIRCLHashlookup/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/CIRCLHashlookup/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -539,7 +539,7 @@
       "free": true,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/CIRCLPassiveDNS/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/CIRCLPassiveDNS/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -564,7 +564,7 @@
       "free": true,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/CIRCLPassiveSSL/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/CIRCLPassiveSSL/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -589,7 +589,7 @@
       "free": true,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/CIRCLVulnerabilityLookup/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/CIRCLVulnerabilityLookup/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -614,7 +614,7 @@
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/CiscoUmbrella/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/CiscoUmbrella/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 1,
@@ -639,7 +639,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/CISMCAP/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/CISMCAP/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -666,7 +666,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/ClamAV/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/ClamAV/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -686,14 +686,14 @@
     ],
     "tags": [],
     "homepage": "https://www.cloudflare.com",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Cloudflare/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/integrations/vendors/Cloudflare/assets/logo.png",
     "visibility": 14,
     "subscription": {
       "required": true,
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Cloudflare/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/Cloudflare/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 1,
@@ -718,7 +718,7 @@
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Cluster25/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/Cluster25/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -743,7 +743,7 @@
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/ClusterHawk/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/ClusterHawk/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -773,7 +773,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/CortexXSOAR/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/CortexXSOAR/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 0,
@@ -799,14 +799,14 @@
       "community-intelligence"
     ],
     "homepage": "https://www.crowdsec.net",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Crowdsec/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/integrations/vendors/Crowdsec/assets/logo.png",
     "visibility": "low",
     "subscription": {
       "required": true,
       "free": true,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Crowdsec/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/Crowdsec/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -832,14 +832,14 @@
       "edr"
     ],
     "homepage": "https://www.crowdstrike.com",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/CrowdstrikeFalcon/assets/logo.svg",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/integrations/vendors/CrowdstrikeFalcon/assets/logo.svg",
     "visibility": 1,
     "subscription": {
       "required": true,
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/CrowdstrikeFalcon/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/CrowdstrikeFalcon/overview.md",
     "stats": {
       "totalAnalyzers": 11,
       "totalResponders": 9,
@@ -864,7 +864,7 @@
       "free": true,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Crtsh/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/Crtsh/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -891,7 +891,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/CuckooSandbox/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/CuckooSandbox/overview.md",
     "stats": {
       "totalAnalyzers": 2,
       "totalResponders": 0,
@@ -916,7 +916,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/CyberChef/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/CyberChef/overview.md",
     "stats": {
       "totalAnalyzers": 3,
       "totalResponders": 0,
@@ -941,7 +941,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Cyberprotect/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/Cyberprotect/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -966,7 +966,7 @@
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Cylance/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/Cylance/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -991,7 +991,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/DNS-RPZ/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/DNS-RPZ/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 1,
@@ -1016,7 +1016,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/DNSDB/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/DNSDB/overview.md",
     "stats": {
       "totalAnalyzers": 3,
       "totalResponders": 0,
@@ -1041,7 +1041,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/DNSdumpster/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/DNSdumpster/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -1066,7 +1066,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/DNSLookingglass/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/DNSLookingglass/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -1091,7 +1091,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/DNSSinkhole/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/DNSSinkhole/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -1116,7 +1116,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/DomainMailSPFDMARC/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/DomainMailSPFDMARC/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -1143,7 +1143,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/DomainTools/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/DomainTools/overview.md",
     "stats": {
       "totalAnalyzers": 10,
       "totalResponders": 0,
@@ -1168,7 +1168,7 @@
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/DomainToolsIris/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/DomainToolsIris/overview.md",
     "stats": {
       "totalAnalyzers": 2,
       "totalResponders": 2,
@@ -1193,7 +1193,7 @@
       "free": true,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/DShield/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/DShield/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -1220,7 +1220,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Duo_Security/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/Duo_Security/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 3,
@@ -1245,7 +1245,7 @@
       "free": true,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/EchoTrail/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/EchoTrail/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -1270,7 +1270,7 @@
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/EclecticIQ/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/EclecticIQ/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 1,
@@ -1296,14 +1296,14 @@
       "threat-hunting"
     ],
     "homepage": "https://www.elastic.co",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Elasticsearch/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/integrations/vendors/Elasticsearch/assets/logo.png",
     "visibility": "low",
     "subscription": {
       "required": false,
       "free": true,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Elasticsearch/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/Elasticsearch/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -1329,14 +1329,14 @@
       "incident-response"
     ],
     "homepage": "https://emailrep.io",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/EmailRep/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/integrations/vendors/EmailRep/assets/logo.png",
     "visibility": "low",
     "subscription": {
       "required": false,
       "free": true,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/EmailRep/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/EmailRep/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -1361,7 +1361,7 @@
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/EmergingThreats/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/EmergingThreats/overview.md",
     "stats": {
       "totalAnalyzers": 3,
       "totalResponders": 0,
@@ -1386,7 +1386,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/EmlParser/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/EmlParser/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -1411,7 +1411,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/FileInfo/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/FileInfo/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -1436,7 +1436,7 @@
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/FireEyeiSight/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/FireEyeiSight/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -1461,7 +1461,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/FireHOLBlocklists/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/FireHOLBlocklists/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -1486,7 +1486,7 @@
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/ForcepointWebsensePing/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/ForcepointWebsensePing/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -1511,7 +1511,7 @@
       "free": true,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/FoxIO/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/FoxIO/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -1536,7 +1536,7 @@
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Gatewatcher_CTI/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/Gatewatcher_CTI/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 1,
@@ -1561,7 +1561,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Gmail/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/Gmail/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 5,
@@ -1586,7 +1586,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/GoogleDNS/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/GoogleDNS/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -1611,7 +1611,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/GoogleSafebrowsing/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/GoogleSafebrowsing/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -1639,14 +1639,14 @@
       "incident-response"
     ],
     "homepage": "https://threatlabs.google.com",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/GoogleThreatIntelligence/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/integrations/vendors/GoogleThreatIntelligence/assets/logo.png",
     "visibility": 7,
     "subscription": {
       "required": true,
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/GoogleThreatIntelligence/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/GoogleThreatIntelligence/overview.md",
     "stats": {
       "totalAnalyzers": 5,
       "totalResponders": 0,
@@ -1671,7 +1671,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/GoogleVisionAPI/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/GoogleVisionAPI/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -1695,14 +1695,14 @@
       "false-positive-reduction"
     ],
     "homepage": "https://www.greynoise.io",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/GreyNoise/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/integrations/vendors/GreyNoise/assets/logo.png",
     "visibility": "low",
     "subscription": {
       "required": true,
       "free": true,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/GreyNoise/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/GreyNoise/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -1729,7 +1729,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/GRR/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/GRR/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -1754,7 +1754,7 @@
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/HarfangLab/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/HarfangLab/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 31,
@@ -1779,7 +1779,7 @@
       "free": true,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Hashdd/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/Hashdd/overview.md",
     "stats": {
       "totalAnalyzers": 2,
       "totalResponders": 0,
@@ -1805,14 +1805,14 @@
       "incident-response"
     ],
     "homepage": "https://haveibeenpwned.com",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/HIBP/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/integrations/vendors/HIBP/assets/logo.png",
     "visibility": "low",
     "subscription": {
       "required": true,
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/HIBP/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/HIBP/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -1838,14 +1838,14 @@
       "incident-response"
     ],
     "homepage": "https://hunter.io",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Hunterio/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/integrations/vendors/Hunterio/assets/logo.png",
     "visibility": "low",
     "subscription": {
       "required": true,
       "free": true,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Hunterio/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/Hunterio/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -1871,14 +1871,14 @@
       "incident-response"
     ],
     "homepage": "https://www.hybrid-analysis.com",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/HybridAnalysis/assets/logo.ico",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/integrations/vendors/HybridAnalysis/assets/logo.ico",
     "visibility": "low",
     "subscription": {
       "required": false,
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/HybridAnalysis/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/HybridAnalysis/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -1903,7 +1903,7 @@
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/IBMQRadar/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/IBMQRadar/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 1,
@@ -1928,7 +1928,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/IBMXForce/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/IBMXForce/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -1953,7 +1953,7 @@
       "free": true,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Inoitsu/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/Inoitsu/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -1977,14 +1977,14 @@
       "security-automation"
     ],
     "homepage": "https://www.rapid7.com/products/insightconnect/",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/InsightConnect/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/integrations/vendors/InsightConnect/assets/logo.png",
     "visibility": "low",
     "subscription": {
       "required": false,
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/InsightConnect/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/InsightConnect/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 0,
@@ -2009,7 +2009,7 @@
       "free": true,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/IntezerCommunity/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/IntezerCommunity/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -2034,7 +2034,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Investigate/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/Investigate/overview.md",
     "stats": {
       "totalAnalyzers": 2,
       "totalResponders": 0,
@@ -2059,7 +2059,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/IP-API/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/IP-API/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -2085,14 +2085,14 @@
       "incident-response"
     ],
     "homepage": "https://ipinfo.io",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/IPinfo/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/integrations/vendors/IPinfo/assets/logo.png",
     "visibility": "low",
     "subscription": {
       "required": false,
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/IPinfo/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/IPinfo/overview.md",
     "stats": {
       "totalAnalyzers": 2,
       "totalResponders": 0,
@@ -2117,7 +2117,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/IPVoid/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/IPVoid/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -2142,7 +2142,7 @@
       "free": true,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/isMalicious/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/isMalicious/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -2167,7 +2167,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/IVRE/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/IVRE/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -2192,7 +2192,7 @@
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/JAMFProtect/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/JAMFProtect/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 2,
@@ -2217,7 +2217,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/JIRA/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/JIRA/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 0,
@@ -2242,7 +2242,7 @@
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/JoeSandbox/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/JoeSandbox/overview.md",
     "stats": {
       "totalAnalyzers": 3,
       "totalResponders": 0,
@@ -2267,7 +2267,7 @@
       "free": true,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Jupyter/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/Jupyter/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 1,
@@ -2294,7 +2294,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Kafka/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/Kafka/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 0,
@@ -2319,7 +2319,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/KasperskyTIP/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/KasperskyTIP/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -2344,7 +2344,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/KnowBe4/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/KnowBe4/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 1,
@@ -2369,7 +2369,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/LdapQuery/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/LdapQuery/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -2394,7 +2394,7 @@
       "free": true,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Lookyloo/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/Lookyloo/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -2419,7 +2419,7 @@
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/LupovisProwl/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/LupovisProwl/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -2444,7 +2444,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Mailer/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/Mailer/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 1,
@@ -2469,7 +2469,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/MailIncidentStatus/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/MailIncidentStatus/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 1,
@@ -2494,7 +2494,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Malpedia/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/Malpedia/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -2520,14 +2520,14 @@
       "incident-response"
     ],
     "homepage": "https://www.maltiverse.com",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Maltiverse/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/integrations/vendors/Maltiverse/assets/logo.png",
     "visibility": "low",
     "subscription": {
       "required": false,
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Maltiverse/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/Maltiverse/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -2553,14 +2553,14 @@
       "incident-response"
     ],
     "homepage": "https://bazaar.abuse.ch",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/MalwareBazaar/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/integrations/vendors/MalwareBazaar/assets/logo.png",
     "visibility": "low",
     "subscription": {
       "required": true,
       "free": true,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/MalwareBazaar/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/MalwareBazaar/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -2585,7 +2585,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/MalwareClustering/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/MalwareClustering/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -2610,7 +2610,7 @@
       "free": true,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Malwares/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/Malwares/overview.md",
     "stats": {
       "totalAnalyzers": 2,
       "totalResponders": 0,
@@ -2637,7 +2637,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Mattermost/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/Mattermost/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 0,
@@ -2663,14 +2663,14 @@
       "incident-response"
     ],
     "homepage": "https://www.maxmind.com",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/MaxMind/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/integrations/vendors/MaxMind/assets/logo.png",
     "visibility": "low",
     "subscription": {
       "required": false,
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/MaxMind/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/MaxMind/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -2695,7 +2695,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/MetaDefender/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/MetaDefender/overview.md",
     "stats": {
       "totalAnalyzers": 5,
       "totalResponders": 0,
@@ -2721,14 +2721,14 @@
       "collaborative-defense"
     ],
     "homepage": "https://www.misp-project.org",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/MISP/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/integrations/vendors/MISP/assets/logo.png",
     "visibility": 6,
     "subscription": {
       "required": false,
       "free": true,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/MISP/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/MISP/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -2753,7 +2753,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/MISPWarningLists/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/MISPWarningLists/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -2779,14 +2779,14 @@
       "incident-response"
     ],
     "homepage": "https://www.mnemonic.no",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/MnemonicPDNS/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/integrations/vendors/MnemonicPDNS/assets/logo.png",
     "visibility": "low",
     "subscription": {
       "required": false,
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/MnemonicPDNS/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/MnemonicPDNS/overview.md",
     "stats": {
       "totalAnalyzers": 2,
       "totalResponders": 0,
@@ -2813,14 +2813,14 @@
       "microsoft"
     ],
     "homepage": "https://www.microsoft.com/security/business/endpoint-security/microsoft-defender-endpoint",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/MSDefenderEndpoints/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/integrations/vendors/MSDefenderEndpoints/assets/logo.png",
     "visibility": 4,
     "subscription": {
       "required": true,
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/MSDefenderEndpoints/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/MSDefenderEndpoints/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 12,
@@ -2847,14 +2847,14 @@
       "microsoft"
     ],
     "homepage": "https://www.microsoft.com/security/business/threat-protection/office-365-defender",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/MSDefenderOffice365/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/integrations/vendors/MSDefenderOffice365/assets/logo.png",
     "visibility": 9,
     "subscription": {
       "required": true,
       "free": true,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/MSDefenderOffice365/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/MSDefenderOffice365/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 4,
@@ -2882,14 +2882,14 @@
       "incident-response"
     ],
     "homepage": "https://www.microsoft.com/security/business/identity-access/microsoft-entra-id",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/MSEntraID/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/integrations/vendors/MSEntraID/assets/logo.png",
     "visibility": 5,
     "subscription": {
       "required": true,
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/MSEntraID/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/MSEntraID/overview.md",
     "stats": {
       "totalAnalyzers": 4,
       "totalResponders": 5,
@@ -2914,7 +2914,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/MsgParser/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/MsgParser/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -2941,7 +2941,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/MSTeams/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/MSTeams/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 0,
@@ -2965,14 +2965,14 @@
       "open-source"
     ],
     "homepage": "https://n8n.io",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/n8n/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/integrations/vendors/n8n/assets/logo.png",
     "visibility": "low",
     "subscription": {
       "required": false,
       "free": true,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/n8n/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/n8n/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 1,
@@ -2997,7 +2997,7 @@
       "free": true,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/NERD/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/NERD/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -3024,7 +3024,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Nessus/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/Nessus/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -3049,7 +3049,7 @@
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Netcraft/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/Netcraft/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 1,
@@ -3074,7 +3074,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/NSRL/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/NSRL/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -3101,7 +3101,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Okta/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/Okta/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -3127,14 +3127,14 @@
       "incident-response"
     ],
     "homepage": "https://www.onyphe.io",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Onyphe/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/integrations/vendors/Onyphe/assets/logo.png",
     "visibility": 17,
     "subscription": {
       "required": true,
       "free": true,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Onyphe/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/Onyphe/overview.md",
     "stats": {
       "totalAnalyzers": 5,
       "totalResponders": 0,
@@ -3159,7 +3159,7 @@
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/ONYPHEActiveScan/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/ONYPHEActiveScan/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -3186,7 +3186,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/OpenCTI/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/OpenCTI/overview.md",
     "stats": {
       "totalAnalyzers": 2,
       "totalResponders": 0,
@@ -3211,7 +3211,7 @@
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/OrionMalware/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/OrionMalware/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -3237,14 +3237,14 @@
       "incident-response"
     ],
     "homepage": "https://otx.alienvault.com",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/OTXQuery/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/integrations/vendors/OTXQuery/assets/logo.png",
     "visibility": "low",
     "subscription": {
       "required": true,
       "free": true,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/OTXQuery/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/OTXQuery/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -3271,7 +3271,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/OvhCloud/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/OvhCloud/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 2,
@@ -3296,7 +3296,7 @@
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/PaloAltoCortexXDR/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/PaloAltoCortexXDR/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 3,
@@ -3321,7 +3321,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/PaloAltoNGFW/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/PaloAltoNGFW/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 16,
@@ -3346,7 +3346,7 @@
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/PaloAltoWildFire/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/PaloAltoWildFire/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 1,
@@ -3371,7 +3371,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/PassiveTotal/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/PassiveTotal/overview.md",
     "stats": {
       "totalAnalyzers": 11,
       "totalResponders": 0,
@@ -3396,7 +3396,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Patrowl/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/Patrowl/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -3421,7 +3421,7 @@
       "free": true,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/PhishingInitiative/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/PhishingInitiative/overview.md",
     "stats": {
       "totalAnalyzers": 2,
       "totalResponders": 0,
@@ -3446,14 +3446,14 @@
       "community-intelligence"
     ],
     "homepage": "https://www.phishtank.com",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/PhishTank/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/integrations/vendors/PhishTank/assets/logo.png",
     "visibility": "low",
     "subscription": {
       "required": true,
       "free": true,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/PhishTank/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/PhishTank/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -3475,14 +3475,14 @@
       "email-security"
     ],
     "homepage": "https://www.proofpoint.com",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Proofpoint/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/integrations/vendors/Proofpoint/assets/logo.png",
     "visibility": 10,
     "subscription": {
       "required": true,
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Proofpoint/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/Proofpoint/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -3507,7 +3507,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Pulsedive/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/Pulsedive/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -3532,7 +3532,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/QrDecode/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/QrDecode/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -3558,14 +3558,14 @@
       "incident-response"
     ],
     "homepage": "https://www.recordedfuture.com",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/RecordedFuture/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/integrations/vendors/RecordedFuture/assets/logo.png",
     "visibility": 8,
     "subscription": {
       "required": true,
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/RecordedFuture/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/RecordedFuture/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -3592,7 +3592,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Redis/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/Redis/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 0,
@@ -3617,7 +3617,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Redmine/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/Redmine/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 1,
@@ -3642,7 +3642,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Robtex/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/Robtex/overview.md",
     "stats": {
       "totalAnalyzers": 3,
       "totalResponders": 0,
@@ -3667,7 +3667,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/RT4/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/RT4/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 1,
@@ -3692,7 +3692,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/SecurityTrails/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/SecurityTrails/overview.md",
     "stats": {
       "totalAnalyzers": 2,
       "totalResponders": 0,
@@ -3717,7 +3717,7 @@
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/SEKOIAIntelligenceCenter/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/SEKOIAIntelligenceCenter/overview.md",
     "stats": {
       "totalAnalyzers": 3,
       "totalResponders": 0,
@@ -3742,7 +3742,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/SendGrid/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/SendGrid/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 1,
@@ -3767,7 +3767,7 @@
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/SentinelOne/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/SentinelOne/overview.md",
     "stats": {
       "totalAnalyzers": 3,
       "totalResponders": 1,
@@ -3794,14 +3794,14 @@
       "incident-response"
     ],
     "homepage": "https://www.shodan.io",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Shodan/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/integrations/vendors/Shodan/assets/logo.png",
     "visibility": 11,
     "subscription": {
       "required": true,
       "free": true,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Shodan/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/Shodan/overview.md",
     "stats": {
       "totalAnalyzers": 6,
       "totalResponders": 0,
@@ -3827,14 +3827,14 @@
       "security-automation"
     ],
     "homepage": "https://shuffler.io",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Shuffle/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/integrations/vendors/Shuffle/assets/logo.png",
     "visibility": "low",
     "subscription": {
       "required": false,
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Shuffle/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/Shuffle/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 1,
@@ -3859,7 +3859,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/SinkDB/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/SinkDB/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -3884,14 +3884,14 @@
       "chat"
     ],
     "homepage": "https://slack.com",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Slack/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/integrations/vendors/Slack/assets/logo.png",
     "visibility": 12,
     "subscription": {
       "required": true,
       "free": true,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Slack/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/Slack/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 2,
@@ -3916,7 +3916,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/SophosIntelix/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/SophosIntelix/overview.md",
     "stats": {
       "totalAnalyzers": 3,
       "totalResponders": 0,
@@ -3941,7 +3941,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/SpamAssassin/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/SpamAssassin/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -3966,7 +3966,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/SpamhausDBL/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/SpamhausDBL/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -3992,14 +3992,14 @@
       "correlation"
     ],
     "homepage": "https://www.splunk.com",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Splunk/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/integrations/vendors/Splunk/assets/logo.png",
     "visibility": 2,
     "subscription": {
       "required": false,
       "free": true,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Splunk/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/Splunk/overview.md",
     "stats": {
       "totalAnalyzers": 11,
       "totalResponders": 0,
@@ -4024,7 +4024,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/StamusNetworks/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/StamusNetworks/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -4049,7 +4049,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/StopForumSpam/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/StopForumSpam/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -4074,7 +4074,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/TeamCymruMHR/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/TeamCymruMHR/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -4100,14 +4100,14 @@
       "incident-response"
     ],
     "homepage": "https://telegram.org",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Telegram/assets/logo.svg",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/integrations/vendors/Telegram/assets/logo.svg",
     "visibility": 20,
     "subscription": {
       "required": true,
       "free": true,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Telegram/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/Telegram/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 1,
@@ -4137,7 +4137,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/ThreatConnect/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/ThreatConnect/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 0,
@@ -4162,7 +4162,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/ThreatGrid/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/ThreatGrid/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -4187,7 +4187,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/ThreatMiner/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/ThreatMiner/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -4212,7 +4212,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/ThreatResponse/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/ThreatResponse/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -4237,7 +4237,7 @@
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Thunderstorm/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/Thunderstorm/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -4267,7 +4267,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Tines/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/Tines/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 0,
@@ -4292,7 +4292,7 @@
       "free": true,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/TorBlutmagie/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/TorBlutmagie/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -4317,7 +4317,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/TorProject/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/TorProject/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -4342,7 +4342,7 @@
       "free": true,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Triage/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/Triage/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -4367,7 +4367,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/UnshortenLink/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/UnshortenLink/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -4392,7 +4392,7 @@
       "free": true,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/urlDNA.io/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/urlDNA.io/overview.md",
     "stats": {
       "totalAnalyzers": 2,
       "totalResponders": 0,
@@ -4418,14 +4418,14 @@
       "incident-response"
     ],
     "homepage": "https://urlhaus.abuse.ch",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/URLhaus/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/integrations/vendors/URLhaus/assets/logo.png",
     "visibility": 16,
     "subscription": {
       "required": true,
       "free": true,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/URLhaus/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/URLhaus/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -4451,14 +4451,14 @@
       "incident-response"
     ],
     "homepage": "https://urlscan.io",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Urlscan.io/assets/logo.ico",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/integrations/vendors/Urlscan.io/assets/logo.ico",
     "visibility": 15,
     "subscription": {
       "required": true,
       "free": true,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Urlscan.io/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/Urlscan.io/overview.md",
     "stats": {
       "totalAnalyzers": 2,
       "totalResponders": 0,
@@ -4483,7 +4483,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Valhalla/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/Valhalla/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -4508,7 +4508,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/ValidateObservable/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/ValidateObservable/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -4542,7 +4542,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Velociraptor/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/Velociraptor/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 1,
@@ -4567,7 +4567,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Verifalia/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/Verifalia/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -4594,7 +4594,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Virusshare/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/Virusshare/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -4621,14 +4621,14 @@
       "incident-response"
     ],
     "homepage": "https://www.virustotal.com",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/VirusTotal/assets/logo.svg",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/integrations/vendors/VirusTotal/assets/logo.svg",
     "visibility": 3,
     "subscription": {
       "required": true,
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/VirusTotal/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/VirusTotal/overview.md",
     "stats": {
       "totalAnalyzers": 4,
       "totalResponders": 0,
@@ -4653,7 +4653,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/VMRay/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/VMRay/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -4678,7 +4678,7 @@
       "free": true,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Vulners/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/Vulners/overview.md",
     "stats": {
       "totalAnalyzers": 2,
       "totalResponders": 0,
@@ -4703,7 +4703,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Watcher/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/Watcher/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 4,
@@ -4730,7 +4730,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Wazuh/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/Wazuh/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 1,
@@ -4755,7 +4755,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/WOT/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/WOT/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -4780,14 +4780,14 @@
       "malware-classification"
     ],
     "homepage": "https://virustotal.github.io/yara/",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Yara/assets/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/integrations/vendors/Yara/assets/logo.png",
     "visibility": 18,
     "subscription": {
       "required": false,
       "free": true,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Yara/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/Yara/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -4812,7 +4812,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Yeti/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/Yeti/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -4837,7 +4837,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/ZEROFOX/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/ZEROFOX/overview.md",
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 2,
@@ -4864,7 +4864,7 @@
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Zscaler/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.generated/docs/vendors/Zscaler/overview.md",
     "stats": {
       "totalAnalyzers": 2,
       "totalResponders": 0,

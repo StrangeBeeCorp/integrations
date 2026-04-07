@@ -31,8 +31,8 @@ integrations:
     - mail
     - url
     file: .upstream/cortex/analyzers/Cluster25/C25CortexAnalyzer_investigate.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Cluster25/C25CortexAnalyzer_investigate.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Cluster25/C25CortexAnalyzer_investigate.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/Cluster25/C25CortexAnalyzer_investigate.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/Cluster25/C25CortexAnalyzer_investigate.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Cluster25
     integration_type: null
   responders: []

@@ -26,8 +26,8 @@
           "url"
         ],
         "file": ".upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchByURL.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchByURL.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchByURL.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchByURL.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchByURL.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CheckPointHEC",
         "integration_type": null
       },
@@ -42,8 +42,8 @@
           "file"
         ],
         "file": ".upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchByDomain.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchByDomain.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchByDomain.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchByDomain.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchByDomain.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CheckPointHEC",
         "integration_type": null
       },
@@ -58,8 +58,8 @@
           "other"
         ],
         "file": ".upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchEmail.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchEmail.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchEmail.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchEmail.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchEmail.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CheckPointHEC",
         "integration_type": null
       },
@@ -74,8 +74,8 @@
           "file"
         ],
         "file": ".upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchBySender.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchBySender.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchBySender.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchBySender.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchBySender.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CheckPointHEC",
         "integration_type": null
       },
@@ -90,8 +90,8 @@
           "file"
         ],
         "file": ".upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchBySenderIP.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchBySenderIP.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchBySenderIP.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchBySenderIP.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchBySenderIP.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CheckPointHEC",
         "integration_type": null
       }

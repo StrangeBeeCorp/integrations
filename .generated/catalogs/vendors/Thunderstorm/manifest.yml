@@ -26,8 +26,8 @@ integrations:
     dataTypes:
     - file
     file: .upstream/cortex/analyzers/Thunderstorm/Thunderstorm_ScanSample.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Thunderstorm/Thunderstorm_ScanSample.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Thunderstorm/Thunderstorm_ScanSample.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/Thunderstorm/Thunderstorm_ScanSample.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/Thunderstorm/Thunderstorm_ScanSample.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Thunderstorm
     integration_type: null
   responders: []

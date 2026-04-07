@@ -29,8 +29,8 @@
           "url"
         ],
         "file": ".upstream/cortex/analyzers/PhishingInitiative/PhishingInitiative_Scan.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/PhishingInitiative/PhishingInitiative_Scan.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/PhishingInitiative/PhishingInitiative_Scan.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/PhishingInitiative/PhishingInitiative_Scan.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/PhishingInitiative/PhishingInitiative_Scan.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PhishingInitiative",
         "integration_type": null
       },
@@ -44,8 +44,8 @@
           "url"
         ],
         "file": ".upstream/cortex/analyzers/PhishingInitiative/PhishingInitiative_Lookup.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/PhishingInitiative/PhishingInitiative_Lookup.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/PhishingInitiative/PhishingInitiative_Lookup.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/PhishingInitiative/PhishingInitiative_Lookup.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/PhishingInitiative/PhishingInitiative_Lookup.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PhishingInitiative",
         "integration_type": null
       }

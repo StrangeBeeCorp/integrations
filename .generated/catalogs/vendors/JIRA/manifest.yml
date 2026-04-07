@@ -25,8 +25,8 @@ integrations:
     kind: function
     mode: Enabled
     file: integrations/vendors/JIRA/thehive/functions/function_Feeder_alertFromJIRA.js
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/JIRA/thehive/functions/function_Feeder_alertFromJIRA.js
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/JIRA/thehive/functions/function_Feeder_alertFromJIRA.js
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/integrations/vendors/JIRA/thehive/functions/function_Feeder_alertFromJIRA.js
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/integrations/vendors/JIRA/thehive/functions/function_Feeder_alertFromJIRA.js
 stats:
   totalAnalyzers: 0
   totalResponders: 0

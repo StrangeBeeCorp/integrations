@@ -23,8 +23,8 @@
           "hash"
         ],
         "file": ".upstream/cortex/analyzers/Investigate/Investigate_Sample.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Investigate/Investigate_Sample.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Investigate/Investigate_Sample.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/Investigate/Investigate_Sample.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/Investigate/Investigate_Sample.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Investigate",
         "integration_type": null
       },
@@ -39,8 +39,8 @@
           "fqdn"
         ],
         "file": ".upstream/cortex/analyzers/Investigate/Investigate_Categorization.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Investigate/Investigate_Categorization.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Investigate/Investigate_Categorization.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/Investigate/Investigate_Categorization.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/Investigate/Investigate_Categorization.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Investigate",
         "integration_type": null
       }

@@ -11,7 +11,4 @@
 
 ## Changes
 
-### Added Vendors (2)
-
-- `CheckPointHEC`
-- `OvhCloud`
+No changes detected.

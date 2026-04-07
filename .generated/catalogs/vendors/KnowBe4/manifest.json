@@ -24,8 +24,8 @@
           "thehive:case_artifact"
         ],
         "file": ".upstream/cortex/responders/KnowBe4/KnowBe4.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/KnowBe4/KnowBe4.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/KnowBe4/KnowBe4.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/KnowBe4/KnowBe4.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/KnowBe4/KnowBe4.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/KnowBe4",
         "integration_type": null
       }

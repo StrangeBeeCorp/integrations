@@ -24,8 +24,8 @@
           "fqdn"
         ],
         "file": ".upstream/cortex/analyzers/DNSDB/DNSDB_NameHistory.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/DNSDB/DNSDB_NameHistory.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/DNSDB/DNSDB_NameHistory.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/DNSDB/DNSDB_NameHistory.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/DNSDB/DNSDB_NameHistory.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DNSDB",
         "integration_type": null
       },
@@ -40,8 +40,8 @@
           "fqdn"
         ],
         "file": ".upstream/cortex/analyzers/DNSDB/DNSDB_DomainName.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/DNSDB/DNSDB_DomainName.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/DNSDB/DNSDB_DomainName.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/DNSDB/DNSDB_DomainName.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/DNSDB/DNSDB_DomainName.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DNSDB",
         "integration_type": null
       },
@@ -55,8 +55,8 @@
           "ip"
         ],
         "file": ".upstream/cortex/analyzers/DNSDB/DNSDB_IPHistory.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/DNSDB/DNSDB_IPHistory.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/DNSDB/DNSDB_IPHistory.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/DNSDB/DNSDB_IPHistory.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/DNSDB/DNSDB_IPHistory.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DNSDB",
         "integration_type": null
       }

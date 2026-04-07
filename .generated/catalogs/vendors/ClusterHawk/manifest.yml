@@ -26,8 +26,8 @@ integrations:
     dataTypes:
     - ip
     file: .upstream/cortex/analyzers/ClusterHawk/ClusterHawk.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/ClusterHawk/ClusterHawk.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/ClusterHawk/ClusterHawk.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/ClusterHawk/ClusterHawk.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/ClusterHawk/ClusterHawk.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/ClusterHawk
     integration_type: null
   responders: []

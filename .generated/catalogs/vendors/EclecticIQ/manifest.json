@@ -38,8 +38,8 @@
           "filename"
         ],
         "file": ".upstream/cortex/analyzers/EclecticIQ/EclecticIQ_SearchObservable.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/EclecticIQ/EclecticIQ_SearchObservable.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/EclecticIQ/EclecticIQ_SearchObservable.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/EclecticIQ/EclecticIQ_SearchObservable.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/EclecticIQ/EclecticIQ_SearchObservable.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/EclecticIQ",
         "integration_type": null
       }
@@ -56,8 +56,8 @@
           "thehive:case"
         ],
         "file": ".upstream/cortex/responders/EclecticIQ/EclecticIQIndicator.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/EclecticIQ/EclecticIQIndicator.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/EclecticIQ/EclecticIQIndicator.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/EclecticIQ/EclecticIQIndicator.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/EclecticIQ/EclecticIQIndicator.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/EclecticIQ",
         "integration_type": null
       }

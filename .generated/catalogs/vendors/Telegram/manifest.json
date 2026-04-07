@@ -13,8 +13,8 @@
   "homepage": "https://telegram.org",
   "logo": {
     "file": "integrations/vendors/Telegram/assets/logo.svg",
-    "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Telegram/assets/logo.svg",
-    "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Telegram/assets/logo.svg"
+    "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/integrations/vendors/Telegram/assets/logo.svg",
+    "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/develop/integrations/vendors/Telegram/assets/logo.svg"
   },
   "useCases": [],
   "notifier": false,
@@ -37,8 +37,8 @@
           "thehive:case"
         ],
         "file": ".upstream/cortex/responders/Telegram/Telegram.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Telegram/Telegram.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Telegram/Telegram.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/Telegram/Telegram.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/Telegram/Telegram.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Telegram",
         "integration_type": null
       }

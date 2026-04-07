@@ -26,8 +26,8 @@ integrations:
     dataTypes:
     - hash
     file: .upstream/cortex/analyzers/CIRCLHashlookup/CIRCLHashlookup.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/CIRCLHashlookup/CIRCLHashlookup.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/CIRCLHashlookup/CIRCLHashlookup.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/CIRCLHashlookup/CIRCLHashlookup.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/CIRCLHashlookup/CIRCLHashlookup.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CIRCLHashlookup
     integration_type: null
   responders: []

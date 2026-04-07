@@ -26,8 +26,8 @@
           "hash"
         ],
         "file": ".upstream/cortex/analyzers/Pulsedive/Pulsedive_GetIndicator.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Pulsedive/Pulsedive_GetIndicator.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Pulsedive/Pulsedive_GetIndicator.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/Pulsedive/Pulsedive_GetIndicator.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/Pulsedive/Pulsedive_GetIndicator.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Pulsedive",
         "integration_type": null
       }

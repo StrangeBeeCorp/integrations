@@ -15,8 +15,8 @@ tags:
 homepage: https://emailrep.io
 logo:
   file: integrations/vendors/EmailRep/assets/logo.png
-  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/EmailRep/assets/logo.png
-  github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/EmailRep/assets/logo.png
+  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/integrations/vendors/EmailRep/assets/logo.png
+  github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/integrations/vendors/EmailRep/assets/logo.png
 useCases: []
 notifier: false
 externalIntegrations: []
@@ -35,8 +35,8 @@ integrations:
     dataTypes:
     - mail
     file: .upstream/cortex/analyzers/EmailRep/EmailRep.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/EmailRep/EmailRep.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/EmailRep/EmailRep.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/EmailRep/EmailRep.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/EmailRep/EmailRep.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/EmailRep
     integration_type: null
   responders: []

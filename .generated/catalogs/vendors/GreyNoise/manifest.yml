@@ -13,8 +13,8 @@ tags:
 homepage: https://www.greynoise.io
 logo:
   file: integrations/vendors/GreyNoise/assets/logo.png
-  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/GreyNoise/assets/logo.png
-  github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/GreyNoise/assets/logo.png
+  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/integrations/vendors/GreyNoise/assets/logo.png
+  github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/integrations/vendors/GreyNoise/assets/logo.png
 useCases: []
 notifier: false
 externalIntegrations: []
@@ -33,8 +33,8 @@ integrations:
     dataTypes:
     - ip
     file: .upstream/cortex/analyzers/GreyNoise/GreyNoise.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/GreyNoise/GreyNoise.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/GreyNoise/GreyNoise.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/GreyNoise/GreyNoise.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/GreyNoise/GreyNoise.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/GreyNoise
     integration_type: null
   responders: []

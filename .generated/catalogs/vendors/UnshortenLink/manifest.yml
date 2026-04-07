@@ -23,8 +23,8 @@ integrations:
     dataTypes:
     - url
     file: .upstream/cortex/analyzers/UnshortenLink/UnshortenLink.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/UnshortenLink/UnshortenLink.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/UnshortenLink/UnshortenLink.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/UnshortenLink/UnshortenLink.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/UnshortenLink/UnshortenLink.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/UnshortenLink
     integration_type: null
   responders: []

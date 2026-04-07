@@ -24,8 +24,8 @@ integrations:
     dataTypes:
     - thehive:case
     file: .upstream/cortex/responders/ZEROFOX/ZEROFOX_Close_alert.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/ZEROFOX/ZEROFOX_Close_alert.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/ZEROFOX/ZEROFOX_Close_alert.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/ZEROFOX/ZEROFOX_Close_alert.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/ZEROFOX/ZEROFOX_Close_alert.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/ZEROFOX
     integration_type: null
   - name: ZEROFOX Takedown request
@@ -36,8 +36,8 @@ integrations:
     dataTypes:
     - thehive:case
     file: .upstream/cortex/responders/ZEROFOX/ZEROFOX_Takedown_request.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/ZEROFOX/ZEROFOX_Takedown_request.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/ZEROFOX/ZEROFOX_Takedown_request.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/ZEROFOX/ZEROFOX_Takedown_request.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/ZEROFOX/ZEROFOX_Takedown_request.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/ZEROFOX
     integration_type: null
   functions: []

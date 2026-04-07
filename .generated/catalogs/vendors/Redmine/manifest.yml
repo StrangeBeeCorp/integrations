@@ -25,8 +25,8 @@ integrations:
     - thehive:case
     - thehive:case_task
     file: .upstream/cortex/responders/Redmine/Redmine_Issue.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Redmine/Redmine_Issue.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Redmine/Redmine_Issue.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/Redmine/Redmine_Issue.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/Redmine/Redmine_Issue.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Redmine
     integration_type: null
   functions: []

@@ -13,8 +13,8 @@
   "homepage": "https://hunter.io",
   "logo": {
     "file": "integrations/vendors/Hunterio/assets/logo.png",
-    "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Hunterio/assets/logo.png",
-    "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Hunterio/assets/logo.png"
+    "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/integrations/vendors/Hunterio/assets/logo.png",
+    "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/develop/integrations/vendors/Hunterio/assets/logo.png"
   },
   "useCases": [],
   "notifier": false,
@@ -37,8 +37,8 @@
           "fqdn"
         ],
         "file": ".upstream/cortex/analyzers/Hunterio/Hunterio_domainsearch.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Hunterio/Hunterio_domainsearch.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Hunterio/Hunterio_domainsearch.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/Hunterio/Hunterio_domainsearch.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/Hunterio/Hunterio_domainsearch.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Hunterio",
         "integration_type": null
       }
