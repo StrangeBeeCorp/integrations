@@ -18,8 +18,8 @@ tags:
 homepage: https://www.microsoft.com/security/business/identity-access/microsoft-entra-id
 logo:
   file: integrations/vendors/MSEntraID/assets/logo.png
-  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/integrations/vendors/MSEntraID/assets/logo.png
-  github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/integrations/vendors/MSEntraID/assets/logo.png
+  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/MSEntraID/assets/logo.png
+  github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/MSEntraID/assets/logo.png
 useCases: []
 notifier: false
 externalIntegrations: []
@@ -39,8 +39,8 @@ integrations:
     - mail
     - hostname
     file: .upstream/cortex/analyzers/MSEntraID/MSEntraID_GetManagedDevicesInfo.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetManagedDevicesInfo.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetManagedDevicesInfo.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetManagedDevicesInfo.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetManagedDevicesInfo.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSEntraID
     integration_type: null
   - name: MSEntraID GetDirectoryAuditLogs
@@ -51,8 +51,8 @@ integrations:
     dataTypes:
     - mail
     file: .upstream/cortex/analyzers/MSEntraID/MSEntraID_GetDirectoryAuditLogs.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetDirectoryAuditLogs.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetDirectoryAuditLogs.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetDirectoryAuditLogs.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetDirectoryAuditLogs.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSEntraID
     integration_type: null
   - name: MSEntraID GetUserInfo
@@ -66,8 +66,8 @@ integrations:
     - user
     - username
     file: .upstream/cortex/analyzers/MSEntraID/MSEntraID_GetUserInfo.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetUserInfo.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetUserInfo.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetUserInfo.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetUserInfo.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSEntraID
     integration_type: null
   - name: MSEntraID GetSignIns
@@ -78,8 +78,8 @@ integrations:
     dataTypes:
     - mail
     file: .upstream/cortex/analyzers/MSEntraID/MSEntraID_GetSignIns.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetSignIns.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetSignIns.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetSignIns.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetSignIns.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSEntraID
     integration_type: null
   responders:
@@ -92,8 +92,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/MSEntraID/MSEntraID_revokeSignInSessions.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/MSEntraID/MSEntraID_revokeSignInSessions.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/MSEntraID/MSEntraID_revokeSignInSessions.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSEntraID/MSEntraID_revokeSignInSessions.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSEntraID/MSEntraID_revokeSignInSessions.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSEntraID
     integration_type: null
   - name: MSEntraID disableUser
@@ -104,8 +104,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/MSEntraID/MSEntraID_disableUser.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/MSEntraID/MSEntraID_disableUser.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/MSEntraID/MSEntraID_disableUser.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSEntraID/MSEntraID_disableUser.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSEntraID/MSEntraID_disableUser.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSEntraID
     integration_type: null
   - name: MSEntraID ForcePasswordResetWithMFA
@@ -117,8 +117,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordResetWithMFA.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordResetWithMFA.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordResetWithMFA.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordResetWithMFA.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordResetWithMFA.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSEntraID
     integration_type: null
   - name: MSEntraID enableUser
@@ -129,8 +129,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/MSEntraID/MSEntraID_enableUser.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/MSEntraID/MSEntraID_enableUser.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/MSEntraID/MSEntraID_enableUser.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSEntraID/MSEntraID_enableUser.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSEntraID/MSEntraID_enableUser.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSEntraID
     integration_type: null
   - name: MSEntraID ForcePasswordReset
@@ -141,8 +141,8 @@ integrations:
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordReset.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordReset.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordReset.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordReset.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordReset.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSEntraID
     integration_type: null
   functions: []

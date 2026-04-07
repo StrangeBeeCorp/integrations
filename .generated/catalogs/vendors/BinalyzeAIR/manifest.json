@@ -27,8 +27,8 @@
           "thehive:case_artifact"
         ],
         "file": ".upstream/cortex/responders/BinalyzeAIR/binalyze_air_acquisition.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/BinalyzeAIR/binalyze_air_acquisition.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/BinalyzeAIR/binalyze_air_acquisition.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/BinalyzeAIR/binalyze_air_acquisition.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/BinalyzeAIR/binalyze_air_acquisition.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/BinalyzeAIR",
         "integration_type": null
       },
@@ -42,8 +42,8 @@
           "thehive:case_artifact"
         ],
         "file": ".upstream/cortex/responders/BinalyzeAIR/binalyze_air_isolation.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/BinalyzeAIR/binalyze_air_isolation.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/BinalyzeAIR/binalyze_air_isolation.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/BinalyzeAIR/binalyze_air_isolation.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/BinalyzeAIR/binalyze_air_isolation.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/BinalyzeAIR",
         "integration_type": null
       }

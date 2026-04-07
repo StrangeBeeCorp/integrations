@@ -1,0 +1,6 @@
+id: Zscaler
+name: "Zscaler"
+description: "Cloud-native security platform providing secure web gateway, zero trust network access, and cloud security"
+category: Network Security
+homepage: "https://www.zscaler.com"
+visibility: 100

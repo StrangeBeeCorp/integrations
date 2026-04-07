@@ -1,0 +1,6 @@
+id: OvhCloud
+name: "OVHcloud"
+description: "OVHcloud is a European cloud provider offering dedicated servers, public cloud, web hosting, and domain services with a focus on data sovereignty"
+category: Cloud Infrastructure
+homepage: "https://www.ovhcloud.com"
+visibility: 100

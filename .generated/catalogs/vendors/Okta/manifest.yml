@@ -3,10 +3,10 @@
 
 id: Okta
 name: Okta
-description: ''
-category: ''
+description: Enterprise identity and access management platform providing SSO, MFA, and lifecycle management
+category: Identity & Access Management
 tags: []
-homepage: ''
+homepage: https://www.okta.com
 logo: {}
 useCases: []
 notifier: false
@@ -26,8 +26,8 @@ integrations:
     dataTypes:
     - mail
     file: .upstream/cortex/analyzers/Okta/OktaUserLookup.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/Okta/OktaUserLookup.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/Okta/OktaUserLookup.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Okta/OktaUserLookup.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Okta/OktaUserLookup.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Okta
     integration_type: null
   responders: []

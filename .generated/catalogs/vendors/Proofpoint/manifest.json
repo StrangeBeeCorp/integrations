@@ -9,8 +9,8 @@
   "homepage": "https://www.proofpoint.com",
   "logo": {
     "file": "integrations/vendors/Proofpoint/assets/logo.png",
-    "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/integrations/vendors/Proofpoint/assets/logo.png",
-    "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/develop/integrations/vendors/Proofpoint/assets/logo.png"
+    "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Proofpoint/assets/logo.png",
+    "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Proofpoint/assets/logo.png"
   },
   "useCases": [
     {
@@ -18,8 +18,8 @@
       "description": "Ingest Proofpoint TAP messagesDelivered events as TheHive alerts to track and respond to threats that have reached user mailboxes and may require investigation.",
       "documentation": {
         "file": "integrations/vendors/Proofpoint/use-cases/alert-ingestion-messageDelivered.md",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/integrations/vendors/Proofpoint/use-cases/alert-ingestion-messageDelivered.md",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/develop/integrations/vendors/Proofpoint/use-cases/alert-ingestion-messageDelivered.md"
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Proofpoint/use-cases/alert-ingestion-messageDelivered.md",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Proofpoint/use-cases/alert-ingestion-messageDelivered.md"
       },
       "tags": [
         "proofpoint",
@@ -38,8 +38,8 @@
       "description": "Ingest Proofpoint TAP clicksPermitted events as TheHive alerts to track and respond to users who clicked on malicious links that were not blocked by Proofpoint and may require investigation.",
       "documentation": {
         "file": "integrations/vendors/Proofpoint/use-cases/alert-ingestion-clicksPermitted.md",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/integrations/vendors/Proofpoint/use-cases/alert-ingestion-clicksPermitted.md",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/develop/integrations/vendors/Proofpoint/use-cases/alert-ingestion-clicksPermitted.md"
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Proofpoint/use-cases/alert-ingestion-clicksPermitted.md",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Proofpoint/use-cases/alert-ingestion-clicksPermitted.md"
       },
       "tags": [
         "proofpoint",
@@ -75,8 +75,8 @@
           "hash"
         ],
         "file": ".upstream/cortex/analyzers/Proofpoint/ProofPoint_Lookup.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/Proofpoint/ProofPoint_Lookup.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/Proofpoint/ProofPoint_Lookup.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Proofpoint/ProofPoint_Lookup.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Proofpoint/ProofPoint_Lookup.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Proofpoint",
         "integration_type": null
       }
@@ -91,8 +91,8 @@
         "kind": "function",
         "mode": "Enabled",
         "file": "integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted.js",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted.js",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/develop/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted.js"
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted.js",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted.js"
       },
       {
         "name": "alertFeeder_ProofPoint_messageDelivered",
@@ -102,8 +102,8 @@
         "kind": "function",
         "mode": "Enabled",
         "file": "integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered.js",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered.js",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/develop/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered.js"
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered.js",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered.js"
       }
     ]
   },

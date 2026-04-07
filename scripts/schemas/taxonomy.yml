@@ -3,56 +3,77 @@
 
 # Valid vendor categories
 categories:
-  - name: Threat Intelligence
-    description: Threat feeds, IOC databases, and intelligence platforms
-    examples: [VirusTotal, MISP, AlienVault OTX]
+  - name: Attack Surface Intelligence
+    description: Internet-wide scanning, asset discovery, and exposure monitoring
+    examples: [Shodan, Onyphe, Censys]
+
+  - name: Breach Intelligence
+    description: Credential breach tracking and leaked data monitoring
+    examples: [Have I Been Pwned]
+
+  - name: Cloud Infrastructure
+    description: Cloud platforms and services used as automation or hosting infrastructure
+    examples: [AWS Lambda, OVHcloud]
+
+  - name: Collaboration
+    description: Messaging and team collaboration platforms
+    examples: [Slack, Microsoft Teams, Mattermost]
+
+  - name: DFIR
+    description: Digital Forensics and Incident Response tools
+    examples: [GRR Rapid Response, Velociraptor]
 
   - name: EDR
     description: Endpoint Detection and Response platforms
-    examples: [CrowdStrike Falcon, Microsoft Defender, SentinelOne]
-
-  - name: SIEM
-    description: Security Information and Event Management systems
-    examples: [Splunk, Elastic Security, IBM QRadar]
-
-  - name: Communication
-    description: Messaging and collaboration platforms
-    examples: [Slack, Microsoft Teams, Mattermost]
-
-  - name: Ticketing
-    description: Issue tracking and ticket management systems
-    examples: [Jira, ServiceNow, TheHive]
+    examples: [CrowdStrike Falcon, SentinelOne, HarfangLab]
 
   - name: Email Security
     description: Email security gateways and anti-phishing solutions
-    examples: [Proofpoint, Mimecast, Cofense]
+    examples: [Proofpoint, Gmail]
 
-  - name: Cloud Security
-    description: Cloud security posture management and CSPM tools
-    examples: [AWS Security Hub, Azure Security Center, Prisma Cloud]
+  - name: Identity & Access Management
+    description: IAM, SSO, MFA, and identity management solutions
+    examples: [Okta, Microsoft Entra ID, Duo Security]
+
+  - name: Malware Analysis
+    description: Malware sandboxing, detonation, and analysis platforms
+    examples: [Cuckoo Sandbox, VMRay, ClamAV]
 
   - name: Network Security
     description: Firewalls, IDS/IPS, and network monitoring
-    examples: [Palo Alto, Fortinet, Cisco Firepower]
+    examples: [Palo Alto, Check Point, Zscaler]
 
-  - name: SOAR
+  - name: OSINT & Enrichment
+    description: Open-source intelligence and observable enrichment services
+    examples: [MaxMind, IPinfo, SecurityTrails]
+
+  - name: Phishing Intelligence
+    description: Phishing detection, tracking, and intelligence
+    examples: [PhishTank]
+
+  - name: SIEM & Analytics
+    description: Security Information and Event Management and log analytics
+    examples: [Splunk, Elasticsearch, Wazuh]
+
+  - name: SOAR & Automation
     description: Security Orchestration, Automation and Response platforms
-    examples: [Cortex XSOAR, Splunk SOAR, IBM Resilient]
+    examples: [Cortex XSOAR, Shuffle, n8n]
+
+  - name: Threat Intelligence
+    description: Threat feeds, IOC databases, and intelligence platforms
+    examples: [VirusTotal, MISP, OpenCTI, AlienVault OTX]
+
+  - name: URL Analysis
+    description: URL scanning and web content analysis
+    examples: [URLScan.io, URLhaus]
 
   - name: Vulnerability Management
     description: Vulnerability scanning and management platforms
-    examples: [Tenable, Qualys, Rapid7]
+    examples: [Nessus, Tenable, Qualys]
 
-  - name: Identity & Access
-    description: IAM, SSO, and identity management solutions
-    examples: [Okta, Auth0, Azure AD]
-
-  - name: Data Protection
-    description: DLP, encryption, and data security tools
-    examples: [Varonis, Digital Guardian, Symantec DLP]
-
-  - name: Other
-    description: Vendors that don't fit other categories
+  - name: Web Application Firewall
+    description: Web application firewalls and web traffic filtering
+    examples: [Cloudflare]
 
 # Standard tags for vendor classification
 tags:
@@ -195,7 +216,7 @@ tags:
 # Use this to ensure consistency across common vendors
 vendor_presets:
   Slack:
-    category: Communication
+    category: Collaboration
     suggested_tags:
       - messaging
       - notifications
@@ -240,7 +261,7 @@ vendor_presets:
       - open-source
 
   Jira:
-    category: Ticketing
+    category: Collaboration
     suggested_tags:
       - ticketing
       - collaboration
@@ -248,7 +269,7 @@ vendor_presets:
       - api
 
   ServiceNow:
-    category: Ticketing
+    category: Collaboration
     suggested_tags:
       - ticketing
       - automation

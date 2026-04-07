@@ -17,17 +17,20 @@ Built something useful? Contributions are welcome!
 
 ## Summary Statistics
 
-- **Total Vendors:** 191
-- **Total Analyzers:** 260
-- **Total Responders:** 137
+- **Total Vendors:** 193
+- **Total Analyzers:** 266
+- **Total Responders:** 139
 - **Total Functions:** 6
 - **Total Notifiers:** 8
 - **Total External Integrations:** 10
-- **Total Integrations:** 421
+- **Total Integrations:** 429
 
 ## Vendors by Category
 
 ### Attack Surface Intelligence
+
+**[Censys](vendors/Censys/overview.md)** (1 integrations)
+  Internet-wide scanning platform for discovering exposed assets and monitoring attack surfaces
 
 **[ONYPHE](vendors/Onyphe/overview.md)** (5 integrations)
   ONYPHE is a cyber defense search engine that collects and analyzes internet-wide scan data, provi...
@@ -40,6 +43,15 @@ Built something useful? Contributions are welcome!
 
 **[Have I Been Pwned](vendors/HIBP/overview.md)** (1 integrations)
   Have I Been Pwned tracks billions of compromised credentials from data breaches, allowing analyst...
+
+
+### Cloud Infrastructure
+
+**[AWS Lambda](vendors/AWSLambda/overview.md)** (1 integrations)
+  AWS Lambda is a serverless compute service that lets you run code in response to events, used as ...
+
+**[OVHcloud](vendors/OvhCloud/overview.md)** (3 integrations)
+  OVHcloud is a European cloud provider offering dedicated servers, public cloud, web hosting, and ...
 
 
 ### Collaboration
@@ -62,6 +74,9 @@ Built something useful? Contributions are welcome!
 
 ### DFIR
 
+**[GRR Rapid Response](vendors/GRR/overview.md)** (1 integrations)
+  Open-source remote live forensics framework for incident response and remote investigation at scale
+
 **[Velociraptor](vendors/Velociraptor/overview.md)** (1 integrations)
   Velociraptor is an advanced digital forensics and incident response (DFIR) platform that enables ...
 
@@ -77,6 +92,9 @@ Built something useful? Contributions are welcome!
 
 ### Email Security
 
+**[Check Point HEC](vendors/CheckPointHEC/overview.md)** (5 integrations)
+  Check Point Harmony Email & Collaboration (HEC) is a cloud email security solution protecting Mic...
+
 **[Microsoft Defender for Office 365](vendors/MSDefenderOffice365/overview.md)** (5 integrations)
   Microsoft Defender for Office 365 provides advanced threat protection for email and collaboration...
 
@@ -86,14 +104,26 @@ Built something useful? Contributions are welcome!
 
 ### Identity & Access Management
 
+**[Cisco Duo](vendors/Duo_Security/overview.md)** (3 integrations)
+  Multi-factor authentication and secure access platform by Cisco for identity verification and end...
+
 **[Microsoft Entra ID](vendors/MSEntraID/overview.md)** (9 integrations)
   Microsoft Entra ID (formerly Azure Active Directory) is an enterprise identity and access managem...
+
+**[Okta](vendors/Okta/overview.md)** (1 integrations)
+  Enterprise identity and access management platform providing SSO, MFA, and lifecycle management
 
 
 ### Malware Analysis
 
 **[CAPA](vendors/Capa/overview.md)** (1 integrations)
   CAPA (FLARE Capability Analysis) is a malware analysis tool that automatically identifies malware...
+
+**[ClamAV](vendors/ClamAV/overview.md)** (1 integrations)
+  Open-source antivirus engine for detecting trojans, viruses, malware, and other malicious threats
+
+**[Cuckoo Sandbox](vendors/CuckooSandbox/overview.md)** (2 integrations)
+  Open-source automated malware analysis system for detonating suspicious files in isolated environ...
 
 **[Hybrid Analysis](vendors/HybridAnalysis/overview.md)** (1 integrations)
   Hybrid Analysis (Falcon Sandbox) is a free malware analysis service powered by CrowdStrike that e...
@@ -106,6 +136,12 @@ Built something useful? Contributions are welcome!
 
 **[YARA](vendors/Yara/overview.md)** (1 integrations)
   YARA is a pattern matching engine for malware identification and classification that enables anal...
+
+
+### Network Security
+
+**[Zscaler](vendors/Zscaler/overview.md)** (2 integrations)
+  Cloud-native security platform providing secure web gateway, zero trust network access, and cloud...
 
 
 ### OSINT & Enrichment
@@ -139,6 +175,9 @@ Built something useful? Contributions are welcome!
 
 **[Splunk](vendors/Splunk/overview.md)** (14 integrations)
   Splunk is a leading SIEM platform that aggregates, indexes, and analyzes machine data from across...
+
+**[Wazuh](vendors/Wazuh/overview.md)** (1 integrations)
+  Open-source security monitoring platform for threat detection, integrity monitoring, incident res...
 
 
 ### SOAR & Automation
@@ -184,6 +223,9 @@ Built something useful? Contributions are welcome!
 **[CrowdSec](vendors/Crowdsec/overview.md)** (1 integrations)
   CrowdSec is a collaborative security platform that aggregates attack data from community-deployed...
 
+**[DomainTools](vendors/DomainTools/overview.md)** (10 integrations)
+  Domain and DNS intelligence platform for investigating domain ownership, infrastructure, and thre...
+
 **[EmailRep](vendors/EmailRep/overview.md)** (1 integrations)
   EmailRep analyzes email addresses to detect disposable emails, spam sources, and malicious sender...
 
@@ -201,6 +243,9 @@ Built something useful? Contributions are welcome!
 
 **[MISP](vendors/MISP/overview.md)** (1 integrations)
   MISP is an open-source threat intelligence platform for sharing, storing and correlating Indicato...
+
+**[OpenCTI](vendors/OpenCTI/overview.md)** (2 integrations)
+  Open-source cyber threat intelligence platform for structuring, storing, and visualizing threat d...
 
 **[Recorded Future](vendors/RecordedFuture/overview.md)** (1 integrations)
   Recorded Future is a real-time threat intelligence platform that analyzes data from the open web,...
@@ -224,8 +269,6 @@ Built something useful? Contributions are welcome!
 
 **[Autofocus](vendors/Autofocus/overview.md)** (3 integrations)
 
-**[AWSLambda](vendors/AWSLambda/overview.md)** (1 integrations)
-
 **[AWX](vendors/AWX/overview.md)** (1 integrations)
 
 **[Axur](vendors/Axur/overview.md)** (1 integrations)
@@ -235,8 +278,6 @@ Built something useful? Contributions are welcome!
 **[BinalyzeAIR](vendors/BinalyzeAIR/overview.md)** (2 integrations)
 
 **[C1fApp](vendors/C1fApp/overview.md)** (1 integrations)
-
-**[Censys](vendors/Censys/overview.md)** (1 integrations)
 
 **[ChainAbuse](vendors/ChainAbuse/overview.md)** (1 integrations)
 
@@ -258,15 +299,11 @@ Built something useful? Contributions are welcome!
 
 **[CISMCAP](vendors/CISMCAP/overview.md)** (1 integrations)
 
-**[ClamAV](vendors/ClamAV/overview.md)** (1 integrations)
-
 **[Cluster25](vendors/Cluster25/overview.md)** (1 integrations)
 
 **[ClusterHawk](vendors/ClusterHawk/overview.md)** (1 integrations)
 
 **[Crtsh](vendors/Crtsh/overview.md)** (1 integrations)
-
-**[CuckooSandbox](vendors/CuckooSandbox/overview.md)** (2 integrations)
 
 **[CyberChef](vendors/CyberChef/overview.md)** (3 integrations)
 
@@ -288,13 +325,9 @@ Built something useful? Contributions are welcome!
 
 **[Domain Mail SPF DMARC](vendors/DomainMailSPFDMARC/overview.md)** (1 integrations)
 
-**[DomainTools](vendors/DomainTools/overview.md)** (10 integrations)
-
 **[DomainTools Iris](vendors/DomainToolsIris/overview.md)** (4 integrations)
 
 **[DShield](vendors/DShield/overview.md)** (1 integrations)
-
-**[Duo Security](vendors/Duo_Security/overview.md)** (3 integrations)
 
 **[EchoTrail](vendors/EchoTrail/overview.md)** (1 integrations)
 
@@ -323,8 +356,6 @@ Built something useful? Contributions are welcome!
 **[Google Vision API](vendors/GoogleVisionAPI/overview.md)** (1 integrations)
 
 **[GoogleDNS](vendors/GoogleDNS/overview.md)** (1 integrations)
-
-**[GRR](vendors/GRR/overview.md)** (1 integrations)
 
 **[HarfangLab](vendors/HarfangLab/overview.md)** (31 integrations)
 
@@ -388,17 +419,11 @@ Built something useful? Contributions are welcome!
 
 **[NERD](vendors/NERD/overview.md)** (1 integrations)
 
-**[Nessus](vendors/Nessus/overview.md)** (1 integrations)
-
 **[Netcraft](vendors/Netcraft/overview.md)** (1 integrations)
 
 **[NSRL](vendors/NSRL/overview.md)** (1 integrations)
 
-**[Okta](vendors/Okta/overview.md)** (1 integrations)
-
 **[ONYPHEActiveScan](vendors/ONYPHEActiveScan/overview.md)** (1 integrations)
-
-**[OpenCTI](vendors/OpenCTI/overview.md)** (2 integrations)
 
 **[OrionMalware](vendors/OrionMalware/overview.md)** (1 integrations)
 
@@ -484,21 +509,23 @@ Built something useful? Contributions are welcome!
 
 **[Watcher](vendors/Watcher/overview.md)** (5 integrations)
 
-**[Wazuh](vendors/Wazuh/overview.md)** (1 integrations)
-
 **[WOT](vendors/WOT/overview.md)** (1 integrations)
 
 **[Yeti](vendors/Yeti/overview.md)** (1 integrations)
 
 **[ZEROFOX](vendors/ZEROFOX/overview.md)** (2 integrations)
 
-**[Zscaler](vendors/Zscaler/overview.md)** (2 integrations)
-
 
 ### URL Analysis
 
 **[URLScan.io](vendors/Urlscan.io/overview.md)** (2 integrations)
   URLScan.io is an automated web scanner that analyzes URLs and websites in real-time, capturing sc...
+
+
+### Vulnerability Management
+
+**[Nessus](vendors/Nessus/overview.md)** (1 integrations)
+  Vulnerability scanner by Tenable for identifying vulnerabilities, misconfigurations, and complian...
 
 
 ### Web Application Firewall
@@ -517,33 +544,35 @@ Built something useful? Contributions are welcome!
 - **[AnyRun](vendors/AnyRun/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Apache Kafka](vendors/Kafka/overview.md)** - *SOAR & Automation* - notifier
 - **[Autofocus](vendors/Autofocus/overview.md)** - *Uncategorized* - 3 analyzers
-- **[AWSLambda](vendors/AWSLambda/overview.md)** - *Uncategorized* - 1 responders
+- **[AWS Lambda](vendors/AWSLambda/overview.md)** - *Cloud Infrastructure* - 1 responders
 - **[AWX](vendors/AWX/overview.md)** - *Uncategorized* - 1 responders
 - **[Axur](vendors/Axur/overview.md)** - *Uncategorized* - 1 analyzers
 - **[BackscatterIO](vendors/BackscatterIO/overview.md)** - *Uncategorized* - 2 analyzers
 - **[BinalyzeAIR](vendors/BinalyzeAIR/overview.md)** - *Uncategorized* - 2 responders
 - **[C1fApp](vendors/C1fApp/overview.md)** - *Uncategorized* - 1 analyzers
 - **[CAPA](vendors/Capa/overview.md)** - *Malware Analysis* - 1 analyzers
-- **[Censys](vendors/Censys/overview.md)** - *Uncategorized* - 1 analyzers
+- **[Censys](vendors/Censys/overview.md)** - *Attack Surface Intelligence* - 1 analyzers
 - **[CERT.AT pDNS](vendors/CERTatPassiveDNS/overview.md)** - *Threat Intelligence* - 1 analyzers
 - **[ChainAbuse](vendors/ChainAbuse/overview.md)** - *Uncategorized* - 1 analyzers
+- **[Check Point HEC](vendors/CheckPointHEC/overview.md)** - *Email Security* - 5 analyzers
 - **[CheckPhish](vendors/CheckPhish/overview.md)** - *Uncategorized* - 2 analyzers
 - **[CheckPoint](vendors/CheckPoint/overview.md)** - *Uncategorized* - 2 responders
 - **[CIRCL Hash Lookup](vendors/CIRCLHashlookup/overview.md)** - *Uncategorized* - 1 analyzers
 - **[CIRCL Passive DNS](vendors/CIRCLPassiveDNS/overview.md)** - *Uncategorized* - 1 analyzers
 - **[CIRCL Passive SSL](vendors/CIRCLPassiveSSL/overview.md)** - *Uncategorized* - 1 analyzers
 - **[CIRCL Vulnerability-Lookup](vendors/CIRCLVulnerabilityLookup/overview.md)** - *Uncategorized* - 1 analyzers
+- **[Cisco Duo](vendors/Duo_Security/overview.md)** - *Identity & Access Management* - 3 responders
 - **[Cisco Secure Endpoint (Formerly AMP for Endpoints)](vendors/AMPforEndpoints/overview.md)** - *Uncategorized* - 5 responders
 - **[CiscoUmbrella](vendors/CiscoUmbrella/overview.md)** - *Uncategorized* - 1 analyzers, 1 responders
 - **[CISMCAP](vendors/CISMCAP/overview.md)** - *Uncategorized* - 1 analyzers
-- **[ClamAV](vendors/ClamAV/overview.md)** - *Uncategorized* - 1 analyzers
+- **[ClamAV](vendors/ClamAV/overview.md)** - *Malware Analysis* - 1 analyzers
 - **[Cloudflare](vendors/Cloudflare/overview.md)** - *Web Application Firewall* - 1 responders
 - **[Cluster25](vendors/Cluster25/overview.md)** - *Uncategorized* - 1 analyzers
 - **[ClusterHawk](vendors/ClusterHawk/overview.md)** - *Uncategorized* - 1 analyzers
 - **[CrowdSec](vendors/Crowdsec/overview.md)** - *Threat Intelligence* - 1 analyzers
 - **[CrowdStrike Falcon](vendors/CrowdstrikeFalcon/overview.md)** - *EDR* - 11 analyzers, 9 responders, 1 external
 - **[Crtsh](vendors/Crtsh/overview.md)** - *Uncategorized* - 1 analyzers
-- **[CuckooSandbox](vendors/CuckooSandbox/overview.md)** - *Uncategorized* - 2 analyzers
+- **[Cuckoo Sandbox](vendors/CuckooSandbox/overview.md)** - *Malware Analysis* - 2 analyzers
 - **[CyberChef](vendors/CyberChef/overview.md)** - *Uncategorized* - 3 analyzers
 - **[CyberCrime-Tracker](vendors/CyberCrime-Tracker/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Cyberprotect](vendors/Cyberprotect/overview.md)** - *Uncategorized* - 1 analyzers
@@ -554,10 +583,9 @@ Built something useful? Contributions are welcome!
 - **[DNSLookingglass](vendors/DNSLookingglass/overview.md)** - *Uncategorized* - 1 analyzers
 - **[DNSSinkhole](vendors/DNSSinkhole/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Domain Mail SPF DMARC](vendors/DomainMailSPFDMARC/overview.md)** - *Uncategorized* - 1 analyzers
-- **[DomainTools](vendors/DomainTools/overview.md)** - *Uncategorized* - 10 analyzers
+- **[DomainTools](vendors/DomainTools/overview.md)** - *Threat Intelligence* - 10 analyzers
 - **[DomainTools Iris](vendors/DomainToolsIris/overview.md)** - *Uncategorized* - 2 analyzers, 2 responders
 - **[DShield](vendors/DShield/overview.md)** - *Uncategorized* - 1 analyzers
-- **[Duo Security](vendors/Duo_Security/overview.md)** - *Uncategorized* - 3 responders
 - **[EchoTrail](vendors/EchoTrail/overview.md)** - *Uncategorized* - 1 analyzers
 - **[EclecticIQ](vendors/EclecticIQ/overview.md)** - *Uncategorized* - 1 analyzers, 1 responders
 - **[Elasticsearch](vendors/Elasticsearch/overview.md)** - *SIEM & Analytics* - 1 analyzers, 1 external
@@ -577,7 +605,7 @@ Built something useful? Contributions are welcome!
 - **[Google Vision API](vendors/GoogleVisionAPI/overview.md)** - *Uncategorized* - 1 analyzers
 - **[GoogleDNS](vendors/GoogleDNS/overview.md)** - *Uncategorized* - 1 analyzers
 - **[GreyNoise](vendors/GreyNoise/overview.md)** - *Threat Intelligence* - 1 analyzers
-- **[GRR](vendors/GRR/overview.md)** - *Uncategorized* - 1 analyzers
+- **[GRR Rapid Response](vendors/GRR/overview.md)** - *DFIR* - 1 analyzers
 - **[HarfangLab](vendors/HarfangLab/overview.md)** - *Uncategorized* - 31 responders
 - **[Hashdd](vendors/Hashdd/overview.md)** - *Uncategorized* - 2 analyzers
 - **[Have I Been Pwned](vendors/HIBP/overview.md)** - *Breach Intelligence* - 1 analyzers
@@ -625,14 +653,15 @@ Built something useful? Contributions are welcome!
 - **[MsgParser](vendors/MsgParser/overview.md)** - *Uncategorized* - 1 analyzers
 - **[n8n](vendors/n8n/overview.md)** - *SOAR & Automation* - 1 responders, 1 external
 - **[NERD](vendors/NERD/overview.md)** - *Uncategorized* - 1 analyzers
-- **[Nessus](vendors/Nessus/overview.md)** - *Uncategorized* - 1 analyzers
+- **[Nessus](vendors/Nessus/overview.md)** - *Vulnerability Management* - 1 analyzers
 - **[Netcraft](vendors/Netcraft/overview.md)** - *Uncategorized* - 1 responders
 - **[NSRL](vendors/NSRL/overview.md)** - *Uncategorized* - 1 analyzers
-- **[Okta](vendors/Okta/overview.md)** - *Uncategorized* - 1 analyzers
+- **[Okta](vendors/Okta/overview.md)** - *Identity & Access Management* - 1 analyzers
 - **[ONYPHE](vendors/Onyphe/overview.md)** - *Attack Surface Intelligence* - 5 analyzers
 - **[ONYPHEActiveScan](vendors/ONYPHEActiveScan/overview.md)** - *Uncategorized* - 1 analyzers
-- **[OpenCTI](vendors/OpenCTI/overview.md)** - *Uncategorized* - 2 analyzers
+- **[OpenCTI](vendors/OpenCTI/overview.md)** - *Threat Intelligence* - 2 analyzers
 - **[OrionMalware](vendors/OrionMalware/overview.md)** - *Uncategorized* - 1 analyzers
+- **[OVHcloud](vendors/OvhCloud/overview.md)** - *Cloud Infrastructure* - 1 analyzers, 2 responders
 - **[PAN Cortex XDR](vendors/PaloAltoCortexXDR/overview.md)** - *Uncategorized* - 3 responders
 - **[PAN Cortex XSOAR](vendors/CortexXSOAR/overview.md)** - *SOAR & Automation* - 1 external
 - **[PAN Next Generation Firewall](vendors/PaloAltoNGFW/overview.md)** - *Uncategorized* - 16 responders
@@ -692,13 +721,13 @@ Built something useful? Contributions are welcome!
 - **[VMRay](vendors/VMRay/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Vulners](vendors/Vulners/overview.md)** - *Uncategorized* - 2 analyzers
 - **[Watcher](vendors/Watcher/overview.md)** - *Uncategorized* - 1 analyzers, 4 responders
-- **[Wazuh](vendors/Wazuh/overview.md)** - *Uncategorized* - 1 responders
+- **[Wazuh](vendors/Wazuh/overview.md)** - *SIEM & Analytics* - 1 responders
 - **[Webhook](vendors/Webhook/overview.md)** - *SOAR & Automation* - notifier
 - **[WOT](vendors/WOT/overview.md)** - *Uncategorized* - 1 analyzers
 - **[YARA](vendors/Yara/overview.md)** - *Malware Analysis* - 1 analyzers
 - **[Yeti](vendors/Yeti/overview.md)** - *Uncategorized* - 1 analyzers
 - **[ZEROFOX](vendors/ZEROFOX/overview.md)** - *Uncategorized* - 2 responders
-- **[Zscaler](vendors/Zscaler/overview.md)** - *Uncategorized* - 2 analyzers
+- **[Zscaler](vendors/Zscaler/overview.md)** - *Network Security* - 2 analyzers
 
 ---
 

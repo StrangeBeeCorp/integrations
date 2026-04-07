@@ -28,8 +28,8 @@ integrations:
     - url
     - hash
     file: .upstream/cortex/analyzers/PaloAltoWildFire/PaloAltoWildFire.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/PaloAltoWildFire/PaloAltoWildFire.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/PaloAltoWildFire/PaloAltoWildFire.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/PaloAltoWildFire/PaloAltoWildFire.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/PaloAltoWildFire/PaloAltoWildFire.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PaloAltoWildFire
     integration_type: null
   responders:
@@ -43,8 +43,8 @@ integrations:
     - domain
     - fqdn
     file: .upstream/cortex/responders/PaloAltoWildFire/PaloAltoWildFire_URL_submission.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/PaloAltoWildFire/PaloAltoWildFire_URL_submission.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/PaloAltoWildFire/PaloAltoWildFire_URL_submission.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/PaloAltoWildFire/PaloAltoWildFire_URL_submission.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/PaloAltoWildFire/PaloAltoWildFire_URL_submission.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoWildFire
     integration_type: null
   functions: []

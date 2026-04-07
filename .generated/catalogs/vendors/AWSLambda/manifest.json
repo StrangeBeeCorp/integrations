@@ -1,10 +1,10 @@
 {
   "id": "AWSLambda",
-  "name": "AWSLambda",
-  "description": "",
-  "category": "",
+  "name": "AWS Lambda",
+  "description": "AWS Lambda is a serverless compute service that lets you run code in response to events, used as a responder backend for automated incident response actions",
+  "category": "Cloud Infrastructure",
   "tags": [],
-  "homepage": "",
+  "homepage": "https://aws.amazon.com/lambda/",
   "logo": {},
   "useCases": [],
   "notifier": false,
@@ -31,8 +31,8 @@
           "thehive:case_task_log"
         ],
         "file": ".upstream/cortex/responders/AWSLambda/AWSInvokeLambda.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/AWSLambda/AWSInvokeLambda.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/AWSLambda/AWSInvokeLambda.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/AWSLambda/AWSInvokeLambda.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/AWSLambda/AWSInvokeLambda.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/AWSLambda",
         "integration_type": null
       }

@@ -34,8 +34,8 @@
           "user-agent"
         ],
         "file": ".upstream/cortex/analyzers/ValidateObservable/ValidateObservable.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/ValidateObservable/ValidateObservable.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/ValidateObservable/ValidateObservable.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/ValidateObservable/ValidateObservable.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/ValidateObservable/ValidateObservable.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/ValidateObservable",
         "integration_type": "local"
       }

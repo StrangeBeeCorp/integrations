@@ -23,8 +23,8 @@
         "kind": "function",
         "mode": "Enabled",
         "file": "integrations/vendors/Airtable/thehive/functions/function_Feeder_alertFromAirtable.js",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/integrations/vendors/Airtable/thehive/functions/function_Feeder_alertFromAirtable.js",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/develop/integrations/vendors/Airtable/thehive/functions/function_Feeder_alertFromAirtable.js"
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Airtable/thehive/functions/function_Feeder_alertFromAirtable.js",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Airtable/thehive/functions/function_Feeder_alertFromAirtable.js"
       }
     ]
   },

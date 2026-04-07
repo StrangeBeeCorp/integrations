@@ -12,8 +12,8 @@
   "homepage": "https://virustotal.github.io/yara/",
   "logo": {
     "file": "integrations/vendors/Yara/assets/logo.png",
-    "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/integrations/vendors/Yara/assets/logo.png",
-    "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/develop/integrations/vendors/Yara/assets/logo.png"
+    "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Yara/assets/logo.png",
+    "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Yara/assets/logo.png"
   },
   "useCases": [],
   "notifier": false,
@@ -35,8 +35,8 @@
           "file"
         ],
         "file": ".upstream/cortex/analyzers/Yara/Yara.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/analyzers/Yara/Yara.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/analyzers/Yara/Yara.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Yara/Yara.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Yara/Yara.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Yara",
         "integration_type": "local"
       }

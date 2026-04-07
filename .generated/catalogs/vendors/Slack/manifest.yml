@@ -14,15 +14,15 @@ tags:
 homepage: https://slack.com
 logo:
   file: integrations/vendors/Slack/assets/logo.png
-  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/integrations/vendors/Slack/assets/logo.png
-  github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/integrations/vendors/Slack/assets/logo.png
+  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Slack/assets/logo.png
+  github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Slack/assets/logo.png
 useCases:
 - name: Notify Slack When an Alert Is Created in TheHive
   description: For each new alert in TheHive, create a Slack block message with a title, severity & link to the alert.
   documentation:
     file: integrations/vendors/Slack/use-cases/slack-notifier-alert-creation.md
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/integrations/vendors/Slack/use-cases/slack-notifier-alert-creation.md
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/integrations/vendors/Slack/use-cases/slack-notifier-alert-creation.md
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Slack/use-cases/slack-notifier-alert-creation.md
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Slack/use-cases/slack-notifier-alert-creation.md
   tags:
   - slack
   - communication
@@ -32,8 +32,8 @@ useCases:
     inform only active users.
   documentation:
     file: integrations/vendors/Slack/use-cases/slack-case-assignee-change.md
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/integrations/vendors/Slack/use-cases/slack-case-assignee-change.md
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/integrations/vendors/Slack/use-cases/slack-case-assignee-change.md
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Slack/use-cases/slack-case-assignee-change.md
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Slack/use-cases/slack-case-assignee-change.md
   tags:
   - slack
   - communication
@@ -57,8 +57,8 @@ integrations:
     dataTypes:
     - thehive:case
     file: .upstream/cortex/responders/Slack/Slack_CreateChannel.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/Slack/Slack_CreateChannel.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/Slack/Slack_CreateChannel.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Slack/Slack_CreateChannel.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Slack/Slack_CreateChannel.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Slack
     integration_type: null
   - name: Slack SyncChannel
@@ -70,8 +70,8 @@ integrations:
     dataTypes:
     - thehive:case
     file: .upstream/cortex/responders/Slack/Slack_SyncChannel.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/Slack/Slack_SyncChannel.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/Slack/Slack_SyncChannel.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Slack/Slack_SyncChannel.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Slack/Slack_SyncChannel.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Slack
     integration_type: null
   functions: []

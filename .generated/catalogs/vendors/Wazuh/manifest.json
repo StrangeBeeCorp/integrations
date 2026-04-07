@@ -1,10 +1,10 @@
 {
   "id": "Wazuh",
   "name": "Wazuh",
-  "description": "",
-  "category": "",
+  "description": "Open-source security monitoring platform for threat detection, integrity monitoring, incident response, and compliance",
+  "category": "SIEM & Analytics",
   "tags": [],
-  "homepage": "",
+  "homepage": "https://wazuh.com",
   "logo": {},
   "useCases": [],
   "notifier": false,
@@ -25,8 +25,8 @@
           "thehive:case_artifact"
         ],
         "file": ".upstream/cortex/responders/Wazuh/wazuh.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/develop/.upstream/cortex/responders/Wazuh/wazuh.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/develop/.upstream/cortex/responders/Wazuh/wazuh.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Wazuh/wazuh.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Wazuh/wazuh.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Wazuh",
         "integration_type": null
       }
