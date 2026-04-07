@@ -1084,6 +1084,117 @@
       "total": 2
     }
   },
+  "CheckPointHEC": {
+    "id": "CheckPointHEC",
+    "name": "Check Point HEC",
+    "description": "Check Point Harmony Email & Collaboration (HEC) is a cloud email security solution protecting Microsoft 365 and Google Workspace against phishing, malware, and business email compromise",
+    "category": "Email Security",
+    "tags": [],
+    "homepage": "https://www.checkpoint.com/harmony/email-security/",
+    "logo": {},
+    "useCases": [],
+    "notifier": false,
+    "externalIntegrations": [],
+    "displayOnWebsite": true,
+    "visibility": 100,
+    "registration_required": true,
+    "subscription_required": true,
+    "free_subscription": false,
+    "integrations": {
+      "analyzers": [
+        {
+          "name": "CheckPointHEC SearchByURL",
+          "version": "1.0",
+          "author": "Fabien Bloume, StrangeBee",
+          "license": "AGPL-V3",
+          "description": "Search for all emails containing a specific URL in Check Point Harmony Email & Collaboration and retrieve their security verdicts.",
+          "dataTypes": [
+            "url"
+          ],
+          "file": ".upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchByURL.json",
+          "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchByURL.json",
+          "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchByURL.json",
+          "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CheckPointHEC",
+          "integration_type": null
+        },
+        {
+          "name": "CheckPointHEC SearchByDomain",
+          "version": "1.0",
+          "author": "Fabien Bloume, StrangeBee",
+          "license": "AGPL-V3",
+          "description": "Search for all emails from a sender domain in Check Point Harmony Email & Collaboration. Accepts a domain observable or an .eml file (sender domain is extracted automatically, with forwarded email support).",
+          "dataTypes": [
+            "domain",
+            "file"
+          ],
+          "file": ".upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchByDomain.json",
+          "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchByDomain.json",
+          "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchByDomain.json",
+          "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CheckPointHEC",
+          "integration_type": null
+        },
+        {
+          "name": "CheckPointHEC SearchEmail",
+          "version": "1.0",
+          "author": "Fabien Bloume, StrangeBee",
+          "license": "AGPL-V3",
+          "description": "Search for an email in Check Point Harmony Email & Collaboration and retrieve its security verdict, phishing confidence, classification and scan results. Accepts an .eml file or a Message-ID as an 'other' observable.",
+          "dataTypes": [
+            "file",
+            "other"
+          ],
+          "file": ".upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchEmail.json",
+          "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchEmail.json",
+          "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchEmail.json",
+          "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CheckPointHEC",
+          "integration_type": null
+        },
+        {
+          "name": "CheckPointHEC SearchBySender",
+          "version": "1.0",
+          "author": "Fabien Bloume, StrangeBee",
+          "license": "AGPL-V3",
+          "description": "Search for all emails from a sender address in Check Point Harmony Email & Collaboration. Accepts a mail observable or an .eml file (sender is extracted automatically, with forwarded email support).",
+          "dataTypes": [
+            "mail",
+            "file"
+          ],
+          "file": ".upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchBySender.json",
+          "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchBySender.json",
+          "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchBySender.json",
+          "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CheckPointHEC",
+          "integration_type": null
+        },
+        {
+          "name": "CheckPointHEC SearchBySenderIP",
+          "version": "1.0",
+          "author": "Fabien Bloume, StrangeBee",
+          "license": "AGPL-V3",
+          "description": "Search for all emails from a sender IP in Check Point Harmony Email & Collaboration. Accepts an IP observable or an .eml file (sender IP is extracted from Received headers, with forwarded email support).",
+          "dataTypes": [
+            "ip",
+            "file"
+          ],
+          "file": ".upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchBySenderIP.json",
+          "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchBySenderIP.json",
+          "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchBySenderIP.json",
+          "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CheckPointHEC",
+          "integration_type": null
+        }
+      ],
+      "responders": [],
+      "functions": []
+    },
+    "stats": {
+      "totalAnalyzers": 5,
+      "totalResponders": 0,
+      "totalFunctions": 0,
+      "totalUseCases": 0,
+      "totalExternalIntegrations": 0,
+      "totalNotifiers": 0,
+      "total": 5
+    }
+  },
   "CIRCLHashlookup": {
     "id": "CIRCLHashlookup",
     "name": "CIRCL Hash Lookup",
@@ -8223,6 +8334,83 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "total": 1
+    }
+  },
+  "OvhCloud": {
+    "id": "OvhCloud",
+    "name": "OVHcloud",
+    "description": "OVHcloud is a European cloud provider offering dedicated servers, public cloud, web hosting, and domain services with a focus on data sovereignty",
+    "category": "Cloud Infrastructure",
+    "tags": [],
+    "homepage": "https://www.ovhcloud.com",
+    "logo": {},
+    "useCases": [],
+    "notifier": false,
+    "externalIntegrations": [],
+    "displayOnWebsite": true,
+    "visibility": 100,
+    "integrations": {
+      "analyzers": [
+        {
+          "name": "OVH Domain Check",
+          "version": "1.0",
+          "author": "THA-CERT",
+          "license": "AGPL-V3",
+          "description": "Check if a domain name is available for purchase on OVH Cloud.",
+          "dataTypes": [
+            "domain",
+            "fqdn",
+            "url"
+          ],
+          "file": ".upstream/cortex/analyzers/OvhCloud/OvhDomainCheck.json",
+          "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/OvhCloud/OvhDomainCheck.json",
+          "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/OvhCloud/OvhDomainCheck.json",
+          "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/OvhCloud",
+          "integration_type": null
+        }
+      ],
+      "responders": [
+        {
+          "name": "OVH Domain Order",
+          "version": "1.0",
+          "author": "THA-CERT",
+          "license": "AGPL-V3",
+          "description": "Buy an available Domain Name on OVH Cloud.",
+          "dataTypes": [
+            "thehive:case_artifact"
+          ],
+          "file": ".upstream/cortex/responders/OvhCloud/OvhDomainOrder.json",
+          "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/OvhCloud/OvhDomainOrder.json",
+          "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/OvhCloud/OvhDomainOrder.json",
+          "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/OvhCloud",
+          "integration_type": null
+        },
+        {
+          "name": "OVH Domain Redirection",
+          "version": "1.0",
+          "author": "THA-CERT",
+          "license": "AGPL-V3",
+          "description": "Redirect an owned Domain Name on OVH Cloud, to a specific URL.",
+          "dataTypes": [
+            "thehive:case_artifact"
+          ],
+          "file": ".upstream/cortex/responders/OvhCloud/OvhDomainRedirection.json",
+          "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/OvhCloud/OvhDomainRedirection.json",
+          "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/OvhCloud/OvhDomainRedirection.json",
+          "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/OvhCloud",
+          "integration_type": null
+        }
+      ],
+      "functions": []
+    },
+    "stats": {
+      "totalAnalyzers": 1,
+      "totalResponders": 2,
+      "totalFunctions": 0,
+      "totalUseCases": 0,
+      "totalExternalIntegrations": 0,
+      "totalNotifiers": 0,
+      "total": 3
     }
   },
   "PaloAltoCortexXDR": {

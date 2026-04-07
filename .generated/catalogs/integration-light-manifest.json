@@ -473,6 +473,33 @@
       "total": 2
     }
   },
+  "CheckPointHEC": {
+    "id": "CheckPointHEC",
+    "name": "Check Point HEC",
+    "description": "Check Point Harmony Email & Collaboration (HEC) is a cloud email security solution protecting Microsoft 365 and Google Workspace against phishing, malware, and business email compromise",
+    "category": [
+      "Email Security"
+    ],
+    "tags": [],
+    "homepage": "https://www.checkpoint.com/harmony/email-security/",
+    "logo_url": "",
+    "visibility": 100,
+    "subscription": {
+      "required": true,
+      "free": false,
+      "paid": true
+    },
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/CheckPointHEC/overview.md",
+    "stats": {
+      "totalAnalyzers": 5,
+      "totalResponders": 0,
+      "totalFunctions": 0,
+      "totalUseCases": 0,
+      "totalExternalIntegrations": 0,
+      "totalNotifiers": 0,
+      "total": 5
+    }
+  },
   "CIRCLHashlookup": {
     "id": "CIRCLHashlookup",
     "name": "CIRCL Hash Lookup",
@@ -3226,6 +3253,33 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "total": 1
+    }
+  },
+  "OvhCloud": {
+    "id": "OvhCloud",
+    "name": "OVHcloud",
+    "description": "OVHcloud is a European cloud provider offering dedicated servers, public cloud, web hosting, and domain services with a focus on data sovereignty",
+    "category": [
+      "Cloud Infrastructure"
+    ],
+    "tags": [],
+    "homepage": "https://www.ovhcloud.com",
+    "logo_url": "",
+    "visibility": 100,
+    "subscription": {
+      "required": false,
+      "free": false,
+      "paid": false
+    },
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/OvhCloud/overview.md",
+    "stats": {
+      "totalAnalyzers": 1,
+      "totalResponders": 2,
+      "totalFunctions": 0,
+      "totalUseCases": 0,
+      "totalExternalIntegrations": 0,
+      "totalNotifiers": 0,
+      "total": 3
     }
   },
   "PaloAltoCortexXDR": {

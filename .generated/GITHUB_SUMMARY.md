@@ -2,13 +2,16 @@
 
 ## Statistics
 
-- **Total Vendors:** 191
-- **Total Analyzers:** 260
-- **Total Responders:** 137
+- **Total Vendors:** 193
+- **Total Analyzers:** 266
+- **Total Responders:** 139
 - **Total Functions:** 6
 - **Total External Integrations:** 10
-- **Total Integrations:** 421
+- **Total Integrations:** 429
 
 ## Changes
 
-No changes detected.
+### Added Vendors (2)
+
+- `CheckPointHEC`
+- `OvhCloud`

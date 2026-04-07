@@ -1,0 +1,66 @@
+# AUTO-GENERATED - DO NOT EDIT
+# Edit vendor.yml for vendor metadata, then re-run the generator
+
+id: OvhCloud
+name: OVHcloud
+description: OVHcloud is a European cloud provider offering dedicated servers, public cloud, web hosting, and domain services
+  with a focus on data sovereignty
+category: Cloud Infrastructure
+tags: []
+homepage: https://www.ovhcloud.com
+logo: {}
+useCases: []
+notifier: false
+externalIntegrations: []
+displayOnWebsite: true
+visibility: 100
+integrations:
+  analyzers:
+  - name: OVH Domain Check
+    version: '1.0'
+    author: THA-CERT
+    license: AGPL-V3
+    description: Check if a domain name is available for purchase on OVH Cloud.
+    dataTypes:
+    - domain
+    - fqdn
+    - url
+    file: .upstream/cortex/analyzers/OvhCloud/OvhDomainCheck.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/OvhCloud/OvhDomainCheck.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/OvhCloud/OvhDomainCheck.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/OvhCloud
+    integration_type: null
+  responders:
+  - name: OVH Domain Order
+    version: '1.0'
+    author: THA-CERT
+    license: AGPL-V3
+    description: Buy an available Domain Name on OVH Cloud.
+    dataTypes:
+    - thehive:case_artifact
+    file: .upstream/cortex/responders/OvhCloud/OvhDomainOrder.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/OvhCloud/OvhDomainOrder.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/OvhCloud/OvhDomainOrder.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/OvhCloud
+    integration_type: null
+  - name: OVH Domain Redirection
+    version: '1.0'
+    author: THA-CERT
+    license: AGPL-V3
+    description: Redirect an owned Domain Name on OVH Cloud, to a specific URL.
+    dataTypes:
+    - thehive:case_artifact
+    file: .upstream/cortex/responders/OvhCloud/OvhDomainRedirection.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/OvhCloud/OvhDomainRedirection.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/OvhCloud/OvhDomainRedirection.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/OvhCloud
+    integration_type: null
+  functions: []
+stats:
+  totalAnalyzers: 1
+  totalResponders: 2
+  totalFunctions: 0
+  totalUseCases: 0
+  totalExternalIntegrations: 0
+  totalNotifiers: 0
+  total: 3
