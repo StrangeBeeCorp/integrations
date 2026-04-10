@@ -30,17 +30,16 @@ subscription_required: true
 free_subscription: false
 integrations:
   analyzers:
-  - name: MSEntraID GetManagedDevicesInfo
+  - name: MSEntraID GetSignIns
     version: '1.0'
-    author: Fabien Bloume, StrangeBee
+    author: '@jahamilto'
     license: AGPL-V3
-    description: Get Microsoft Intune Managed Device(s) Details from hostname or mail
+    description: Pull all Microsoft Entra ID sign ins for a user within the specified amount of time.
     dataTypes:
     - mail
-    - hostname
-    file: .upstream/cortex/analyzers/MSEntraID/MSEntraID_GetManagedDevicesInfo.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetManagedDevicesInfo.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetManagedDevicesInfo.json
+    file: .upstream/cortex/analyzers/MSEntraID/MSEntraID_GetSignIns.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetSignIns.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetSignIns.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSEntraID
     integration_type: null
   - name: MSEntraID GetDirectoryAuditLogs
@@ -70,19 +69,44 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetUserInfo.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSEntraID
     integration_type: null
-  - name: MSEntraID GetSignIns
+  - name: MSEntraID GetManagedDevicesInfo
     version: '1.0'
-    author: '@jahamilto'
+    author: Fabien Bloume, StrangeBee
     license: AGPL-V3
-    description: Pull all Microsoft Entra ID sign ins for a user within the specified amount of time.
+    description: Get Microsoft Intune Managed Device(s) Details from hostname or mail
     dataTypes:
     - mail
-    file: .upstream/cortex/analyzers/MSEntraID/MSEntraID_GetSignIns.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetSignIns.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetSignIns.json
+    - hostname
+    file: .upstream/cortex/analyzers/MSEntraID/MSEntraID_GetManagedDevicesInfo.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetManagedDevicesInfo.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetManagedDevicesInfo.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSEntraID
     integration_type: null
   responders:
+  - name: MSEntraID disableUser
+    version: '1.0'
+    author: nusatanra-self, StrangeBee
+    license: AGPL-V3
+    description: Disable user in Microsoft Entra ID for a User Principal Name. (mail)
+    dataTypes:
+    - thehive:case_artifact
+    file: .upstream/cortex/responders/MSEntraID/MSEntraID_disableUser.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSEntraID/MSEntraID_disableUser.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSEntraID/MSEntraID_disableUser.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSEntraID
+    integration_type: null
+  - name: MSEntraID ForcePasswordReset
+    version: '1.0'
+    author: nusatanra-self, StrangeBee
+    license: AGPL-V3
+    description: Force password reset at next login for a User Principal Name. (mail)
+    dataTypes:
+    - thehive:case_artifact
+    file: .upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordReset.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordReset.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordReset.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSEntraID
+    integration_type: null
   - name: MSEntraID revokeSignInSessions
     version: '1.1'
     author: Daniel Weiner @dmweiner; revised by @jahamilto; Fabien Bloume, StrangeBee
@@ -94,18 +118,6 @@ integrations:
     file: .upstream/cortex/responders/MSEntraID/MSEntraID_revokeSignInSessions.json
     url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSEntraID/MSEntraID_revokeSignInSessions.json
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSEntraID/MSEntraID_revokeSignInSessions.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSEntraID
-    integration_type: null
-  - name: MSEntraID disableUser
-    version: '1.0'
-    author: nusatanra-self, StrangeBee
-    license: AGPL-V3
-    description: Disable user in Microsoft Entra ID for a User Principal Name. (mail)
-    dataTypes:
-    - thehive:case_artifact
-    file: .upstream/cortex/responders/MSEntraID/MSEntraID_disableUser.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSEntraID/MSEntraID_disableUser.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSEntraID/MSEntraID_disableUser.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSEntraID
     integration_type: null
   - name: MSEntraID ForcePasswordResetWithMFA
@@ -131,18 +143,6 @@ integrations:
     file: .upstream/cortex/responders/MSEntraID/MSEntraID_enableUser.json
     url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSEntraID/MSEntraID_enableUser.json
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSEntraID/MSEntraID_enableUser.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSEntraID
-    integration_type: null
-  - name: MSEntraID ForcePasswordReset
-    version: '1.0'
-    author: nusatanra-self, StrangeBee
-    license: AGPL-V3
-    description: Force password reset at next login for a User Principal Name. (mail)
-    dataTypes:
-    - thehive:case_artifact
-    file: .upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordReset.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordReset.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordReset.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSEntraID
     integration_type: null
   functions: []

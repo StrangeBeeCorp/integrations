@@ -29,6 +29,18 @@ subscription_required:
 - false
 integrations:
   analyzers:
+  - name: VirusTotal Rescan
+    version: '3.1'
+    author: CERT-LDO
+    license: AGPL-V3
+    description: Use VirusTotal to run new analysis on hash.
+    dataTypes:
+    - hash
+    file: .upstream/cortex/analyzers/VirusTotal/VirusTotal_Rescan.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/VirusTotal/VirusTotal_Rescan.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/VirusTotal/VirusTotal_Rescan.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/VirusTotal
+    integration_type: null
   - name: VirusTotal GetReport
     version: '3.1'
     author: CERT-BDF, StrangeBee
@@ -69,18 +81,6 @@ integrations:
     file: .upstream/cortex/analyzers/VirusTotal/VirusTotal_DownloadSample.json
     url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/VirusTotal/VirusTotal_DownloadSample.json
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/VirusTotal/VirusTotal_DownloadSample.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/VirusTotal
-    integration_type: null
-  - name: VirusTotal Rescan
-    version: '3.1'
-    author: CERT-LDO
-    license: AGPL-V3
-    description: Use VirusTotal to run new analysis on hash.
-    dataTypes:
-    - hash
-    file: .upstream/cortex/analyzers/VirusTotal/VirusTotal_Rescan.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/VirusTotal/VirusTotal_Rescan.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/VirusTotal/VirusTotal_Rescan.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/VirusTotal
     integration_type: null
   responders: []

@@ -17,25 +17,6 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "SEKOIAIntelligenceCenter Context",
-        "version": "1.0",
-        "author": "SEKOIA",
-        "license": "AGPL-V3",
-        "description": "Query the Intelligence Center to retrieve the context of an observable",
-        "dataTypes": [
-          "domain",
-          "fqdn",
-          "url",
-          "hash",
-          "ip"
-        ],
-        "file": ".upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Context.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Context.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Context.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SEKOIAIntelligenceCenter",
-        "integration_type": null
-      },
-      {
         "name": "SEKOIAIntelligenceCenter Observables",
         "version": "1.0",
         "author": "SEKOIA",
@@ -70,6 +51,25 @@
         "file": ".upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Indicators.json",
         "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Indicators.json",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Indicators.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SEKOIAIntelligenceCenter",
+        "integration_type": null
+      },
+      {
+        "name": "SEKOIAIntelligenceCenter Context",
+        "version": "1.0",
+        "author": "SEKOIA",
+        "license": "AGPL-V3",
+        "description": "Query the Intelligence Center to retrieve the context of an observable",
+        "dataTypes": [
+          "domain",
+          "fqdn",
+          "url",
+          "hash",
+          "ip"
+        ],
+        "file": ".upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Context.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Context.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/SEKOIAIntelligenceCenter/IntelligenceCenter_Context.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SEKOIAIntelligenceCenter",
         "integration_type": null
       }

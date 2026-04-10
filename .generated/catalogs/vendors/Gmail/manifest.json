@@ -15,6 +15,21 @@
     "analyzers": [],
     "responders": [
       {
+        "name": "Gmail BlockDomain",
+        "version": "1.0",
+        "author": "David Strassegger, @oscd_initiative",
+        "license": "MIT",
+        "description": "Move emails from a given domain to trash",
+        "dataTypes": [
+          "thehive:case_artifact"
+        ],
+        "file": ".upstream/cortex/responders/Gmail/Gmail_BlockDomain.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Gmail/Gmail_BlockDomain.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Gmail/Gmail_BlockDomain.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Gmail",
+        "integration_type": null
+      },
+      {
         "name": "Gmail UnblockDomain",
         "version": "1.0",
         "author": "David Strassegger, @oscd_initiative",
@@ -30,17 +45,17 @@
         "integration_type": null
       },
       {
-        "name": "Gmail BlockDomain",
+        "name": "Gmail BlockSender",
         "version": "1.0",
         "author": "David Strassegger, @oscd_initiative",
         "license": "MIT",
-        "description": "Move emails from a given domain to trash",
+        "description": "Move emails from a given sender to trash",
         "dataTypes": [
           "thehive:case_artifact"
         ],
-        "file": ".upstream/cortex/responders/Gmail/Gmail_BlockDomain.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Gmail/Gmail_BlockDomain.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Gmail/Gmail_BlockDomain.json",
+        "file": ".upstream/cortex/responders/Gmail/Gmail_BlockSender.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Gmail/Gmail_BlockSender.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Gmail/Gmail_BlockSender.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Gmail",
         "integration_type": null
       },
@@ -71,21 +86,6 @@
         "file": ".upstream/cortex/responders/Gmail/Gmail_DeleteMessage.json",
         "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Gmail/Gmail_DeleteMessage.json",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Gmail/Gmail_DeleteMessage.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Gmail",
-        "integration_type": null
-      },
-      {
-        "name": "Gmail BlockSender",
-        "version": "1.0",
-        "author": "David Strassegger, @oscd_initiative",
-        "license": "MIT",
-        "description": "Move emails from a given sender to trash",
-        "dataTypes": [
-          "thehive:case_artifact"
-        ],
-        "file": ".upstream/cortex/responders/Gmail/Gmail_BlockSender.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Gmail/Gmail_BlockSender.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Gmail/Gmail_BlockSender.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Gmail",
         "integration_type": null
       }

@@ -17,24 +17,6 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "ZscalerZIA URLLookup",
-        "version": "1.0",
-        "author": "Fabien Bloume, StrangeBee",
-        "license": "AGPL-V3",
-        "description": "Query Zscaler Internet Access for URL categorization and security classification. Supports OneAPI OAuth2 and legacy authentication.",
-        "dataTypes": [
-          "domain",
-          "fqdn",
-          "url",
-          "ip"
-        ],
-        "file": ".upstream/cortex/analyzers/Zscaler/ZscalerZIA_URLLookup.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Zscaler/ZscalerZIA_URLLookup.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Zscaler/ZscalerZIA_URLLookup.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Zscaler",
-        "integration_type": null
-      },
-      {
         "name": "Zscaler",
         "version": "1.3",
         "author": "Simon Lavigne, Mikael Keri",
@@ -49,6 +31,24 @@
         "file": ".upstream/cortex/analyzers/Zscaler/Zscaler.json",
         "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Zscaler/Zscaler.json",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Zscaler/Zscaler.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Zscaler",
+        "integration_type": null
+      },
+      {
+        "name": "ZscalerZIA URLLookup",
+        "version": "1.0",
+        "author": "Fabien Bloume, StrangeBee",
+        "license": "AGPL-V3",
+        "description": "Query Zscaler Internet Access for URL categorization and security classification. Supports OneAPI OAuth2 and legacy authentication.",
+        "dataTypes": [
+          "domain",
+          "fqdn",
+          "url",
+          "ip"
+        ],
+        "file": ".upstream/cortex/analyzers/Zscaler/ZscalerZIA_URLLookup.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Zscaler/ZscalerZIA_URLLookup.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Zscaler/ZscalerZIA_URLLookup.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Zscaler",
         "integration_type": null
       }

@@ -31,6 +31,21 @@
     ],
     "responders": [
       {
+        "name": "Watcher Add",
+        "version": "1.1",
+        "author": "THA-CERT // YNE",
+        "license": "AGPL-V3",
+        "description": "Add domain to Watcher. Required tags: watcher:module=LegitDomain|WebsiteMonitoring. For LegitDomain: watcher:repurchased=Yes/No (required), watcher:contact=email (optional). For WebsiteMonitoring: watcher:legitimacy=2-6 (required), watcher:takedown_request=Yes/No, watcher:legal_team=Yes/No, watcher:blocking_request=Yes/No",
+        "dataTypes": [
+          "thehive:case_artifact"
+        ],
+        "file": ".upstream/cortex/responders/Watcher/Watcher_Add.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Watcher/Watcher_Add.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Watcher/Watcher_Add.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Watcher",
+        "integration_type": null
+      },
+      {
         "name": "Watcher Remove",
         "version": "1.1",
         "author": "THA-CERT // YNE",
@@ -57,21 +72,6 @@
         "file": ".upstream/cortex/responders/Watcher/Watcher_Update.json",
         "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Watcher/Watcher_Update.json",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Watcher/Watcher_Update.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Watcher",
-        "integration_type": null
-      },
-      {
-        "name": "Watcher Add",
-        "version": "1.1",
-        "author": "THA-CERT // YNE",
-        "license": "AGPL-V3",
-        "description": "Add domain to Watcher. Required tags: watcher:module=LegitDomain|WebsiteMonitoring. For LegitDomain: watcher:repurchased=Yes/No (required), watcher:contact=email (optional). For WebsiteMonitoring: watcher:legitimacy=2-6 (required), watcher:takedown_request=Yes/No, watcher:legal_team=Yes/No, watcher:blocking_request=Yes/No",
-        "dataTypes": [
-          "thehive:case_artifact"
-        ],
-        "file": ".upstream/cortex/responders/Watcher/Watcher_Add.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Watcher/Watcher_Add.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Watcher/Watcher_Add.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Watcher",
         "integration_type": null
       },

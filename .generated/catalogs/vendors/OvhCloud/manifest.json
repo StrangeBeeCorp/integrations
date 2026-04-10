@@ -33,21 +33,6 @@
     ],
     "responders": [
       {
-        "name": "OVH Domain Order",
-        "version": "1.0",
-        "author": "THA-CERT",
-        "license": "AGPL-V3",
-        "description": "Buy an available Domain Name on OVH Cloud.",
-        "dataTypes": [
-          "thehive:case_artifact"
-        ],
-        "file": ".upstream/cortex/responders/OvhCloud/OvhDomainOrder.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/OvhCloud/OvhDomainOrder.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/OvhCloud/OvhDomainOrder.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/OvhCloud",
-        "integration_type": null
-      },
-      {
         "name": "OVH Domain Redirection",
         "version": "1.0",
         "author": "THA-CERT",
@@ -59,6 +44,21 @@
         "file": ".upstream/cortex/responders/OvhCloud/OvhDomainRedirection.json",
         "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/OvhCloud/OvhDomainRedirection.json",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/OvhCloud/OvhDomainRedirection.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/OvhCloud",
+        "integration_type": null
+      },
+      {
+        "name": "OVH Domain Order",
+        "version": "1.0",
+        "author": "THA-CERT",
+        "license": "AGPL-V3",
+        "description": "Buy an available Domain Name on OVH Cloud.",
+        "dataTypes": [
+          "thehive:case_artifact"
+        ],
+        "file": ".upstream/cortex/responders/OvhCloud/OvhDomainOrder.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/OvhCloud/OvhDomainOrder.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/OvhCloud/OvhDomainOrder.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/OvhCloud",
         "integration_type": null
       }

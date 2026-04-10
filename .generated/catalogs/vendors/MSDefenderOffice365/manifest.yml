@@ -48,16 +48,16 @@ integrations:
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSDefenderOffice365
     integration_type: null
   responders:
-  - name: MSDefenderOffice365 allow
+  - name: MSDefenderOffice365 unblock
     version: '1.0'
-    author: Vito Piserchia
+    author: Joe Lazaro
     license: AGPL-V3
     description: Add entries to the Tenant Allow/Block List in the Microsoft 365 Defender
     dataTypes:
     - thehive:case_artifact
-    file: .upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_allow.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_allow.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_allow.json
+    file: .upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_unblock.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_unblock.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_unblock.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderOffice365
     integration_type: null
   - name: MSDefenderOffice365 block
@@ -72,6 +72,18 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_block.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderOffice365
     integration_type: null
+  - name: MSDefenderOffice365 allow
+    version: '1.0'
+    author: Vito Piserchia
+    license: AGPL-V3
+    description: Add entries to the Tenant Allow/Block List in the Microsoft 365 Defender
+    dataTypes:
+    - thehive:case_artifact
+    file: .upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_allow.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_allow.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_allow.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderOffice365
+    integration_type: null
   - name: MSDefenderOffice365 disallow
     version: '1.0'
     author: Vito Piserchia
@@ -82,18 +94,6 @@ integrations:
     file: .upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_disallow.json
     url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_disallow.json
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_disallow.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderOffice365
-    integration_type: null
-  - name: MSDefenderOffice365 unblock
-    version: '1.0'
-    author: Joe Lazaro
-    license: AGPL-V3
-    description: Add entries to the Tenant Allow/Block List in the Microsoft 365 Defender
-    dataTypes:
-    - thehive:case_artifact
-    file: .upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_unblock.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_unblock.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_unblock.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderOffice365
     integration_type: null
   functions: []

@@ -17,34 +17,6 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "OpenCTI SearchExactObservable",
-        "version": "2.0",
-        "author": "ANSSI",
-        "license": "AGPL-V3",
-        "description": "Query multiple OpenCTI instances for a specific observable.",
-        "dataTypes": [
-          "domain",
-          "ip",
-          "url",
-          "fqdn",
-          "uri_path",
-          "user-agent",
-          "hash",
-          "mail",
-          "mail_subject",
-          "registry",
-          "regexp",
-          "other",
-          "filename",
-          "mail-subject"
-        ],
-        "file": ".upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchExactObservable.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchExactObservable.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchExactObservable.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/OpenCTI",
-        "integration_type": null
-      },
-      {
         "name": "OpenCTI SearchObservables",
         "version": "2.0",
         "author": "ANSSI",
@@ -69,6 +41,34 @@
         "file": ".upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchObservables.json",
         "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchObservables.json",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchObservables.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/OpenCTI",
+        "integration_type": null
+      },
+      {
+        "name": "OpenCTI SearchExactObservable",
+        "version": "2.0",
+        "author": "ANSSI",
+        "license": "AGPL-V3",
+        "description": "Query multiple OpenCTI instances for a specific observable.",
+        "dataTypes": [
+          "domain",
+          "ip",
+          "url",
+          "fqdn",
+          "uri_path",
+          "user-agent",
+          "hash",
+          "mail",
+          "mail_subject",
+          "registry",
+          "regexp",
+          "other",
+          "filename",
+          "mail-subject"
+        ],
+        "file": ".upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchExactObservable.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchExactObservable.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/OpenCTI/OpenCTI_SearchExactObservable.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/OpenCTI",
         "integration_type": null
       }
