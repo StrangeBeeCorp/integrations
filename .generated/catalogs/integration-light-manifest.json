@@ -3299,12 +3299,12 @@
     "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/PaloAltoCortexXDR/overview.md",
     "stats": {
       "totalAnalyzers": 0,
-      "totalResponders": 3,
+      "totalResponders": 8,
       "totalFunctions": 0,
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
-      "total": 3
+      "total": 8
     }
   },
   "PaloAltoNGFW": {
