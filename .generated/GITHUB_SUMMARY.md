@@ -11,6 +11,4 @@
 
 ## Changes
 
-### Updated Vendors (1)
-
-- **PAN Cortex XDR**: 3 -> 8 (+5)
+No changes detected.
