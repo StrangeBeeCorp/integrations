@@ -18,12 +18,12 @@ Built something useful? Contributions are welcome!
 ## Summary Statistics
 
 - **Total Vendors:** 193
-- **Total Analyzers:** 266
+- **Total Analyzers:** 268
 - **Total Responders:** 144
 - **Total Functions:** 6
 - **Total Notifiers:** 8
 - **Total External Integrations:** 10
-- **Total Integrations:** 434
+- **Total Integrations:** 436
 
 ## Vendors by Category
 
@@ -244,7 +244,7 @@ Built something useful? Contributions are welcome!
 **[MISP](vendors/MISP/overview.md)** (1 integrations)
   MISP is an open-source threat intelligence platform for sharing, storing and correlating Indicato...
 
-**[OpenCTI](vendors/OpenCTI/overview.md)** (2 integrations)
+**[OpenCTI](vendors/OpenCTI/overview.md)** (4 integrations)
   Open-source cyber threat intelligence platform for structuring, storing, and visualizing threat d...
 
 **[Recorded Future](vendors/RecordedFuture/overview.md)** (1 integrations)
@@ -659,7 +659,7 @@ Built something useful? Contributions are welcome!
 - **[Okta](vendors/Okta/overview.md)** - *Identity & Access Management* - 1 analyzers
 - **[ONYPHE](vendors/Onyphe/overview.md)** - *Attack Surface Intelligence* - 5 analyzers
 - **[ONYPHEActiveScan](vendors/ONYPHEActiveScan/overview.md)** - *Uncategorized* - 1 analyzers
-- **[OpenCTI](vendors/OpenCTI/overview.md)** - *Threat Intelligence* - 2 analyzers
+- **[OpenCTI](vendors/OpenCTI/overview.md)** - *Threat Intelligence* - 4 analyzers
 - **[OrionMalware](vendors/OrionMalware/overview.md)** - *Uncategorized* - 1 analyzers
 - **[OVHcloud](vendors/OvhCloud/overview.md)** - *Cloud Infrastructure* - 1 analyzers, 2 responders
 - **[PAN Cortex XDR](vendors/PaloAltoCortexXDR/overview.md)** - *Uncategorized* - 8 responders
