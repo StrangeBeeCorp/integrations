@@ -11,6 +11,4 @@
 
 ## Changes
 
-### Updated Vendors (1)
-
-- **OpenCTI**: 2 -> 4 (+2)
+No changes detected.
