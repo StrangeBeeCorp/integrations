@@ -16,16 +16,16 @@ visibility: low
 integrations:
   analyzers: []
   responders:
-  - name: AMPforEndpoints SCDRemove
+  - name: AMPforEndpoints SCDAdd
     version: '1.0'
     author: Cisco Security
     license: MIT
-    description: Remove a SHA256 to an AMP for Endpoints Simple Custom Detection list
+    description: Add a SHA256 to an AMP for Endpoints Simple Custom Detection list
     dataTypes:
     - thehive:case_artifact
-    file: .upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_SCDRemove.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_SCDRemove.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_SCDRemove.json
+    file: .upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_SCDAdd.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_SCDAdd.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_SCDAdd.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/AMPforEndpoints
     integration_type: null
   - name: AMPforEndpoints IsolationStop
@@ -40,28 +40,16 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_IsolationStop.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/AMPforEndpoints
     integration_type: null
-  - name: AMPforEndpoints MoveGUID
+  - name: AMPforEndpoints SCDRemove
     version: '1.0'
     author: Cisco Security
     license: MIT
-    description: Move an AMP for Endpoints connector GUID to a different Group
+    description: Remove a SHA256 to an AMP for Endpoints Simple Custom Detection list
     dataTypes:
     - thehive:case_artifact
-    file: .upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_MoveGUID.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_MoveGUID.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_MoveGUID.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/AMPforEndpoints
-    integration_type: null
-  - name: AMPforEndpoints SCDAdd
-    version: '1.0'
-    author: Cisco Security
-    license: MIT
-    description: Add a SHA256 to an AMP for Endpoints Simple Custom Detection list
-    dataTypes:
-    - thehive:case_artifact
-    file: .upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_SCDAdd.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_SCDAdd.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_SCDAdd.json
+    file: .upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_SCDRemove.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_SCDRemove.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_SCDRemove.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/AMPforEndpoints
     integration_type: null
   - name: AMPforEndpoints IsolationStart
@@ -74,6 +62,18 @@ integrations:
     file: .upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_IsolationStart.json
     url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_IsolationStart.json
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_IsolationStart.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/AMPforEndpoints
+    integration_type: null
+  - name: AMPforEndpoints MoveGUID
+    version: '1.0'
+    author: Cisco Security
+    license: MIT
+    description: Move an AMP for Endpoints connector GUID to a different Group
+    dataTypes:
+    - thehive:case_artifact
+    file: .upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_MoveGUID.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_MoveGUID.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_MoveGUID.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/AMPforEndpoints
     integration_type: null
   functions: []

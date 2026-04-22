@@ -15,25 +15,6 @@
     "analyzers": [],
     "responders": [
       {
-        "name": "DevTools Echo Responder",
-        "version": "1.0",
-        "author": "Fabien Bloume, StrangeBee",
-        "license": "AGPL-V3",
-        "description": "Development utility that simply echoes the input received by the responder.",
-        "dataTypes": [
-          "thehive:case",
-          "thehive:alert",
-          "thehive:case_artifact",
-          "thehive:case_task",
-          "thehive:case_task_log"
-        ],
-        "file": ".upstream/cortex/responders/Test/DevTools_Echo.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Test/DevTools_Echo.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Test/DevTools_Echo.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Test",
-        "integration_type": null
-      },
-      {
         "name": "Test",
         "version": "1.0",
         "author": "Jerome Leonard",
@@ -49,6 +30,25 @@
         "file": ".upstream/cortex/responders/Test/test.json",
         "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Test/test.json",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Test/test.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Test",
+        "integration_type": null
+      },
+      {
+        "name": "DevTools Echo Responder",
+        "version": "1.0",
+        "author": "Fabien Bloume, StrangeBee",
+        "license": "AGPL-V3",
+        "description": "Development utility that simply echoes the input received by the responder.",
+        "dataTypes": [
+          "thehive:case",
+          "thehive:alert",
+          "thehive:case_artifact",
+          "thehive:case_task",
+          "thehive:case_task_log"
+        ],
+        "file": ".upstream/cortex/responders/Test/DevTools_Echo.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Test/DevTools_Echo.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Test/DevTools_Echo.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Test",
         "integration_type": null
       }

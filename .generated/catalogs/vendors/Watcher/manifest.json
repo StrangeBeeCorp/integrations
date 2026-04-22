@@ -46,17 +46,17 @@
         "integration_type": null
       },
       {
-        "name": "Watcher Remove",
+        "name": "Watcher Transfer",
         "version": "1.1",
         "author": "THA-CERT // YNE",
         "license": "AGPL-V3",
-        "description": "Remove domain from Watcher. Required tag: watcher:module=LegitDomain|WebsiteMonitoring",
+        "description": "Transfer domain between Watcher modules. Required tag: watcher:module=LegitDomain|WebsiteMonitoring (DESTINATION module). Transfer TO LegitDomain: watcher:repurchased=Yes/No (required), watcher:contact=email (optional). Transfer TO WebsiteMonitoring: watcher:legitimacy=2-6 (required), watcher:takedown_request=Yes/No, watcher:legal_team=Yes/No, watcher:blocking_request=Yes/No",
         "dataTypes": [
           "thehive:case_artifact"
         ],
-        "file": ".upstream/cortex/responders/Watcher/Watcher_Remove.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Watcher/Watcher_Remove.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Watcher/Watcher_Remove.json",
+        "file": ".upstream/cortex/responders/Watcher/Watcher_Transfer.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Watcher/Watcher_Transfer.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Watcher/Watcher_Transfer.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Watcher",
         "integration_type": null
       },
@@ -76,17 +76,17 @@
         "integration_type": null
       },
       {
-        "name": "Watcher Transfer",
+        "name": "Watcher Remove",
         "version": "1.1",
         "author": "THA-CERT // YNE",
         "license": "AGPL-V3",
-        "description": "Transfer domain between Watcher modules. Required tag: watcher:module=LegitDomain|WebsiteMonitoring (DESTINATION module). Transfer TO LegitDomain: watcher:repurchased=Yes/No (required), watcher:contact=email (optional). Transfer TO WebsiteMonitoring: watcher:legitimacy=2-6 (required), watcher:takedown_request=Yes/No, watcher:legal_team=Yes/No, watcher:blocking_request=Yes/No",
+        "description": "Remove domain from Watcher. Required tag: watcher:module=LegitDomain|WebsiteMonitoring",
         "dataTypes": [
           "thehive:case_artifact"
         ],
-        "file": ".upstream/cortex/responders/Watcher/Watcher_Transfer.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Watcher/Watcher_Transfer.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Watcher/Watcher_Transfer.json",
+        "file": ".upstream/cortex/responders/Watcher/Watcher_Remove.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Watcher/Watcher_Remove.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Watcher/Watcher_Remove.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Watcher",
         "integration_type": null
       }

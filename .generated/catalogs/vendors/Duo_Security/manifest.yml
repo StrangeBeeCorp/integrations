@@ -16,6 +16,18 @@ visibility: 100
 integrations:
   analyzers: []
   responders:
+  - name: DuoUnlockUserAccount
+    version: '1.0'
+    author: Sven Kutzer / Gyorgy Acs, @oscd_initiative
+    license: AGPL-V3
+    description: Unlock User Account in Duo Security via AdminAPI (The user must complete secondary authentication)
+    dataTypes:
+    - thehive:case_artifact
+    file: .upstream/cortex/responders/Duo_Security/DuoUnlockUserAccount.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Duo_Security/DuoUnlockUserAccount.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Duo_Security/DuoUnlockUserAccount.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Duo_Security
+    integration_type: null
   - name: DuoLockUserAccount
     version: '1.0'
     author: Sven Kutzer / Gyorgy Acs, @oscd_initiative
@@ -39,18 +51,6 @@ integrations:
     file: .upstream/cortex/responders/Duo_Security/DuoBypassUserAccount.json
     url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Duo_Security/DuoBypassUserAccount.json
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Duo_Security/DuoBypassUserAccount.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Duo_Security
-    integration_type: null
-  - name: DuoUnlockUserAccount
-    version: '1.0'
-    author: Sven Kutzer / Gyorgy Acs, @oscd_initiative
-    license: AGPL-V3
-    description: Unlock User Account in Duo Security via AdminAPI (The user must complete secondary authentication)
-    dataTypes:
-    - thehive:case_artifact
-    file: .upstream/cortex/responders/Duo_Security/DuoUnlockUserAccount.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Duo_Security/DuoUnlockUserAccount.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Duo_Security/DuoUnlockUserAccount.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Duo_Security
     integration_type: null
   functions: []

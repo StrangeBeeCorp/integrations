@@ -15,15 +15,15 @@ Check if a domain name is available for purchase on OVH Cloud.
 
 ### Trigger automated responses
 
-#### [OVH Domain Redirection v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/OvhCloud)
-Redirect an owned Domain Name on OVH Cloud, to a specific URL.
+#### [OVH Domain Order v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/OvhCloud)
+Buy an available Domain Name on OVH Cloud.
 
 - **Author:** THA-CERT
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case_artifact`
 
-#### [OVH Domain Order v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/OvhCloud)
-Buy an available Domain Name on OVH Cloud.
+#### [OVH Domain Redirection v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/OvhCloud)
+Redirect an owned Domain Name on OVH Cloud, to a specific URL.
 
 - **Author:** THA-CERT
 - **License:** AGPL-V3

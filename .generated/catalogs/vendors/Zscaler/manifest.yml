@@ -18,22 +18,6 @@ subscription_required: true
 free_subscription: false
 integrations:
   analyzers:
-  - name: Zscaler
-    version: '1.3'
-    author: Simon Lavigne, Mikael Keri
-    license: AGPL-V3
-    description: Check Zscaler category for a domain, fqdn, IP address or FQDN. This analyzer requires a paid subscription
-      to Zscaler ZIA
-    dataTypes:
-    - ip
-    - domain
-    - url
-    - fqdn
-    file: .upstream/cortex/analyzers/Zscaler/Zscaler.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Zscaler/Zscaler.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Zscaler/Zscaler.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Zscaler
-    integration_type: null
   - name: ZscalerZIA URLLookup
     version: '1.0'
     author: Fabien Bloume, StrangeBee
@@ -48,6 +32,22 @@ integrations:
     file: .upstream/cortex/analyzers/Zscaler/ZscalerZIA_URLLookup.json
     url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Zscaler/ZscalerZIA_URLLookup.json
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Zscaler/ZscalerZIA_URLLookup.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Zscaler
+    integration_type: null
+  - name: Zscaler
+    version: '1.3'
+    author: Simon Lavigne, Mikael Keri
+    license: AGPL-V3
+    description: Check Zscaler category for a domain, fqdn, IP address or FQDN. This analyzer requires a paid subscription
+      to Zscaler ZIA
+    dataTypes:
+    - ip
+    - domain
+    - url
+    - fqdn
+    file: .upstream/cortex/analyzers/Zscaler/Zscaler.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Zscaler/Zscaler.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Zscaler/Zscaler.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Zscaler
     integration_type: null
   responders: []

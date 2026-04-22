@@ -4,6 +4,33 @@ total_functions: 16
 generic_count: 10
 vendor_count: 6
 functions:
+- name: coldCaseAutomation
+  version: 1.0.0
+  description: This function will find the "New" or "InProgress" cases that were not updated since one month. For each case,
+    add a tag "cold-case"
+  type: API
+  kind: function
+  mode: Enabled
+  file: integrations/generic/functions/function_API_coldCaseAutomation.js
+  vendor: Generic
+- name: computeTotalTimeSpent
+  version: 1.0.0
+  description: On task closure, compute the duration of the task rounded up to the nearest minute. It's then added to the
+    TASK_TIME_CUSTOMFIELD integer customfield at the case level. Use a trigger "task closed"
+  type: Notifier
+  kind: function
+  mode: Enabled
+  file: integrations/generic/functions/function_notifier_computeTotalTimeSpent.js
+  vendor: Generic
+- name: Check IP RFC 1918/4193
+  version: 1.0.0
+  description: Checks the IP Observable type and tags it as "ip:public", "ip:private", or "ip:invalid" based on RFC 1918/4193.
+    For both IPv4 and IPv6.
+  type: Notifier
+  kind: function
+  mode: Enabled
+  file: integrations/generic/functions/function_notifier_checkIpRFC.js
+  vendor: Generic
 - name: deleteIPObsFromAlert
   version: 1.0.0
   description: This function will delete all the IP Observable from an alert
@@ -12,14 +39,14 @@ functions:
   mode: Enabled
   file: integrations/generic/functions/function_Action_deleteIPObsFromAlert.js
   vendor: Generic
-- name: changeImportedAlertStatus
+- name: assignAlert
   version: 1.0.0
-  description: This function is designed to trigger on case closed event. It automatically changes imported alerts to a given
-    custom status
+  description: This function is designed to trigger on alert creation event. It automatically assignes severity High & Critical
+    alerts to a given user
   type: Notifier
   kind: function
   mode: Enabled
-  file: integrations/generic/functions/function_notifier_changeImportedAlertStatus.js
+  file: integrations/generic/functions/function_notifier_assignAlert.js
   vendor: Generic
 - name: computeCustomMetrics
   version: 1.0.0
@@ -43,16 +70,6 @@ functions:
   mode: Enabled
   file: integrations/generic/functions/function_notifier_computeCustomMetrics.js
   vendor: Generic
-- name: externalAccessAutomation
-  version: 1.0.0
-  description: Automatically grants external case access to client users when a case is closed. It reads the client custom
-    field from the case, extracts the company domain label, and retrieves the external users linked to the case. Users whose
-    email domain matches the client domain are identified and granted external access to the case.
-  type: Notifier
-  kind: function
-  mode: Enabled
-  file: integrations/generic/functions/function_notifier_externalAccessAutomation.js
-  vendor: Generic
 - name: automatedIgnoreSimilarityForNoisyObservables
   version: 1.0.0
   description: This function is intended to be triggered on ObservableCreated events. It automatically sets ignoreSimilarity
@@ -64,23 +81,24 @@ functions:
   mode: Enabled
   file: integrations/generic/functions/function_notifier_automatedIgnoreSimilarityForNoisyObservables.js
   vendor: Generic
-- name: coldCaseAutomation
+- name: changeImportedAlertStatus
   version: 1.0.0
-  description: This function will find the "New" or "InProgress" cases that were not updated since one month. For each case,
-    add a tag "cold-case"
-  type: API
-  kind: function
-  mode: Enabled
-  file: integrations/generic/functions/function_API_coldCaseAutomation.js
-  vendor: Generic
-- name: computeTotalTimeSpent
-  version: 1.0.0
-  description: On task closure, compute the duration of the task rounded up to the nearest minute. It's then added to the
-    TASK_TIME_CUSTOMFIELD integer customfield at the case level. Use a trigger "task closed"
+  description: This function is designed to trigger on case closed event. It automatically changes imported alerts to a given
+    custom status
   type: Notifier
   kind: function
   mode: Enabled
-  file: integrations/generic/functions/function_notifier_computeTotalTimeSpent.js
+  file: integrations/generic/functions/function_notifier_changeImportedAlertStatus.js
+  vendor: Generic
+- name: externalAccessAutomation
+  version: 1.0.0
+  description: Automatically grants external case access to client users when a case is closed. It reads the client custom
+    field from the case, extracts the company domain label, and retrieves the external users linked to the case. Users whose
+    email domain matches the client domain are identified and granted external access to the case.
+  type: Notifier
+  kind: function
+  mode: Enabled
+  file: integrations/generic/functions/function_notifier_externalAccessAutomation.js
   vendor: Generic
 - name: assignToMe
   version: 1.0.0
@@ -89,24 +107,6 @@ functions:
   kind: function
   mode: Enabled
   file: integrations/generic/functions/function_Action_assignToMe.js
-  vendor: Generic
-- name: assignAlert
-  version: 1.0.0
-  description: This function is designed to trigger on alert creation event. It automatically assignes severity High & Critical
-    alerts to a given user
-  type: Notifier
-  kind: function
-  mode: Enabled
-  file: integrations/generic/functions/function_notifier_assignAlert.js
-  vendor: Generic
-- name: Check IP RFC 1918/4193
-  version: 1.0.0
-  description: Checks the IP Observable type and tags it as "ip:public", "ip:private", or "ip:invalid" based on RFC 1918/4193.
-    For both IPv4 and IPv6.
-  type: Notifier
-  kind: function
-  mode: Enabled
-  file: integrations/generic/functions/function_notifier_checkIpRFC.js
   vendor: Generic
 - name: alertFromAirtable
   version: 1.0.0
@@ -148,17 +148,6 @@ functions:
   github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/JIRA/thehive/functions/function_Feeder_alertFromJIRA.js
   vendor: JIRA
   vendor_id: JIRA
-- name: alertFeeder_ProofPoint_clicksPermitted
-  version: 1.0.0
-  author: Fabien Bloume, StrangeBee
-  description: Ingests ProofPoint clicksPermitted alerts in TheHive
-  kind: function
-  mode: Enabled
-  file: integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted.js
-  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted.js
-  github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted.js
-  vendor: Proofpoint
-  vendor_id: Proofpoint
 - name: alertFeeder_ProofPoint_messageDelivered
   version: 1.0.0
   author: Fabien Bloume, StrangeBee
@@ -168,6 +157,17 @@ functions:
   file: integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered.js
   url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered.js
   github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered.js
+  vendor: Proofpoint
+  vendor_id: Proofpoint
+- name: alertFeeder_ProofPoint_clicksPermitted
+  version: 1.0.0
+  author: Fabien Bloume, StrangeBee
+  description: Ingests ProofPoint clicksPermitted alerts in TheHive
+  kind: function
+  mode: Enabled
+  file: integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted.js
+  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted.js
+  github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted.js
   vendor: Proofpoint
   vendor_id: Proofpoint
 - name: createAlertFromSplunk

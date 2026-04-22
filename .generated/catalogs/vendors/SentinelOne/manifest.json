@@ -17,21 +17,6 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "SentinelOne DNSReverseLookup",
-        "version": "1.0",
-        "author": "Fabien Bloume, StrangeBee",
-        "license": "AGPL-V3",
-        "description": "Query SentinelOne for DNS names that resolved to a given IP address. Returns the domains and the hosts that made the DNS queries. Supports both SDL (Security Data Lake) API and legacy Deep Visibility API.",
-        "dataTypes": [
-          "ip"
-        ],
-        "file": ".upstream/cortex/analyzers/SentinelOne/SentinelOne_DNSReverseLookup.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/SentinelOne/SentinelOne_DNSReverseLookup.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/SentinelOne/SentinelOne_DNSReverseLookup.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SentinelOne",
-        "integration_type": null
-      },
-      {
         "name": "SentinelOne DNSQuery",
         "version": "2.0",
         "author": "Joe Vasquez; Fabien Bloume, StrangeBee",
@@ -62,6 +47,21 @@
         "file": ".upstream/cortex/analyzers/SentinelOne/SentinelOne_DeepVisibility_DNSQuery.json",
         "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/SentinelOne/SentinelOne_DeepVisibility_DNSQuery.json",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/SentinelOne/SentinelOne_DeepVisibility_DNSQuery.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SentinelOne",
+        "integration_type": null
+      },
+      {
+        "name": "SentinelOne DNSReverseLookup",
+        "version": "1.0",
+        "author": "Fabien Bloume, StrangeBee",
+        "license": "AGPL-V3",
+        "description": "Query SentinelOne for DNS names that resolved to a given IP address. Returns the domains and the hosts that made the DNS queries. Supports both SDL (Security Data Lake) API and legacy Deep Visibility API.",
+        "dataTypes": [
+          "ip"
+        ],
+        "file": ".upstream/cortex/analyzers/SentinelOne/SentinelOne_DNSReverseLookup.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/SentinelOne/SentinelOne_DNSReverseLookup.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/SentinelOne/SentinelOne_DNSReverseLookup.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SentinelOne",
         "integration_type": null
       }

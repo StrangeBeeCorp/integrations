@@ -17,6 +17,22 @@
   "integrations": {
     "analyzers": [
       {
+        "name": "EmergingThreats DomainInfo",
+        "version": "1.0",
+        "author": "Davide Arcuri and Andrea Garavaglia, LDO-CERT",
+        "license": "AGPL-V3",
+        "description": "Retrieve ET reputation, related malware, and IDS requests for a given domain.",
+        "dataTypes": [
+          "domain",
+          "fqdn"
+        ],
+        "file": ".upstream/cortex/analyzers/EmergingThreats/EmergingThreats_DomainInfo.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/EmergingThreats/EmergingThreats_DomainInfo.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/EmergingThreats/EmergingThreats_DomainInfo.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/EmergingThreats",
+        "integration_type": null
+      },
+      {
         "name": "EmergingThreats MalwareInfo",
         "version": "1.0",
         "author": "Davide Arcuri and Andrea Garavaglia, LDO-CERT",
@@ -44,22 +60,6 @@
         "file": ".upstream/cortex/analyzers/EmergingThreats/EmergingThreats_IPInfo.json",
         "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/EmergingThreats/EmergingThreats_IPInfo.json",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/EmergingThreats/EmergingThreats_IPInfo.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/EmergingThreats",
-        "integration_type": null
-      },
-      {
-        "name": "EmergingThreats DomainInfo",
-        "version": "1.0",
-        "author": "Davide Arcuri and Andrea Garavaglia, LDO-CERT",
-        "license": "AGPL-V3",
-        "description": "Retrieve ET reputation, related malware, and IDS requests for a given domain.",
-        "dataTypes": [
-          "domain",
-          "fqdn"
-        ],
-        "file": ".upstream/cortex/analyzers/EmergingThreats/EmergingThreats_DomainInfo.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/EmergingThreats/EmergingThreats_DomainInfo.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/EmergingThreats/EmergingThreats_DomainInfo.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/EmergingThreats",
         "integration_type": null
       }

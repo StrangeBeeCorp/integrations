@@ -4,56 +4,6 @@
   "vendor_count": 6,
   "functions": [
     {
-      "name": "deleteIPObsFromAlert",
-      "version": "1.0.0",
-      "description": "This function will delete all the IP Observable from an alert",
-      "type": "Action:Alert",
-      "kind": "function",
-      "mode": "Enabled",
-      "file": "integrations/generic/functions/function_Action_deleteIPObsFromAlert.js",
-      "vendor": "Generic"
-    },
-    {
-      "name": "changeImportedAlertStatus",
-      "version": "1.0.0",
-      "description": "This function is designed to trigger on case closed event. It automatically changes imported alerts to a given custom status",
-      "type": "Notifier",
-      "kind": "function",
-      "mode": "Enabled",
-      "file": "integrations/generic/functions/function_notifier_changeImportedAlertStatus.js",
-      "vendor": "Generic"
-    },
-    {
-      "name": "computeCustomMetrics",
-      "version": "1.0.0",
-      "description": "This function computes two key response metrics for every case in TheHive:\n– **Time‑to‑Respond (TTR)**: delay (in minutes) between the case's start date and the *earliest* task in the\n  \"3 ‑ Communication\", \"4 ‑ Containment\", or \"5 ‑ Eradication\" task groups.\n– **Time‑to‑Contain (TTC)**: delay (in minutes) between the case's start date and the *latest* task in the\n  \"4 ‑ Containment\" task group.\n\nIt can run in two modes:\n• **Batch mode** (no `input` object) – loops through a page of cases to back‑fill or refresh metrics.\n• **Event‑driven mode** (`input` is a case payload) – updates metrics for the affected case only.\n\nThe function writes both the raw task timestamp and the computed metric to the following custom fields\n(create them in your Case template):\n  • `timestamp‑time‑to‑respond` (Number – epoch ms)\n  • `time‑to‑respond‑in‑minutes` (Number)\n  • `timestamp‑time‑to‑contain` (Number – epoch ms)\n  • `time‑to‑contain‑in‑minutes` (Number)\n\nParam:\n  – **input**: Either an empty object (batch trigger) or the Case JSON injected by TheHive when the\n               notification fires. This triggers a search to find all valid cases to update.\n  – **context**: Utility object providing access to TheHive API helpers (`query`, `caze`, etc.). This applies the metrics computation only on the notified case object.\n\nPrerequisites:\n  • The custom fields listed above must exist in the tenant.\n  • Task groups must follow the naming convention shown here.\n  • You may adjust page size, task groups, or field names to suit your workflows & even your own computation logic for your custom metrics. Those are shown as examples, relying on SOC-101 Metrics definition and SANS Incident Handler's handbook style tasks.\n",
-      "type": "Notifier",
-      "kind": "function",
-      "mode": "Enabled",
-      "file": "integrations/generic/functions/function_notifier_computeCustomMetrics.js",
-      "vendor": "Generic"
-    },
-    {
-      "name": "externalAccessAutomation",
-      "version": "1.0.0",
-      "description": "Automatically grants external case access to client users when a case is closed. It reads the client custom field from the case, extracts the company domain label, and retrieves the external users linked to the case. Users whose email domain matches the client domain are identified and granted external access to the case.",
-      "type": "Notifier",
-      "kind": "function",
-      "mode": "Enabled",
-      "file": "integrations/generic/functions/function_notifier_externalAccessAutomation.js",
-      "vendor": "Generic"
-    },
-    {
-      "name": "automatedIgnoreSimilarityForNoisyObservables",
-      "version": "1.0.0",
-      "description": "This function is intended to be triggered on ObservableCreated events. It automatically sets ignoreSimilarity to true for observables matching a known list of common, noisy, or non-actionable values (such as localhost, private IPs, and generic hostnames..). This reduces alert noise and avoids false correlation in TheHive. Note that it is a workaround, and such issues are better managed in your alert ingestion pipeline(s)",
-      "type": "Notifier",
-      "kind": "function",
-      "mode": "Enabled",
-      "file": "integrations/generic/functions/function_notifier_automatedIgnoreSimilarityForNoisyObservables.js",
-      "vendor": "Generic"
-    },
-    {
       "name": "coldCaseAutomation",
       "version": "1.0.0",
       "description": "This function will find the \"New\" or \"InProgress\" cases that were not updated since one month. For each case, add a tag \"cold-case\"",
@@ -74,13 +24,23 @@
       "vendor": "Generic"
     },
     {
-      "name": "assignToMe",
+      "name": "Check IP RFC 1918/4193",
       "version": "1.0.0",
-      "description": "This function changes the assignee of the Case and all the associated tasks to the user who launches the function",
-      "type": "Action:Case",
+      "description": "Checks the IP Observable type and tags it as \"ip:public\", \"ip:private\", or \"ip:invalid\" based on RFC 1918/4193. For both IPv4 and IPv6.",
+      "type": "Notifier",
       "kind": "function",
       "mode": "Enabled",
-      "file": "integrations/generic/functions/function_Action_assignToMe.js",
+      "file": "integrations/generic/functions/function_notifier_checkIpRFC.js",
+      "vendor": "Generic"
+    },
+    {
+      "name": "deleteIPObsFromAlert",
+      "version": "1.0.0",
+      "description": "This function will delete all the IP Observable from an alert",
+      "type": "Action:Alert",
+      "kind": "function",
+      "mode": "Enabled",
+      "file": "integrations/generic/functions/function_Action_deleteIPObsFromAlert.js",
       "vendor": "Generic"
     },
     {
@@ -94,13 +54,53 @@
       "vendor": "Generic"
     },
     {
-      "name": "Check IP RFC 1918/4193",
+      "name": "computeCustomMetrics",
       "version": "1.0.0",
-      "description": "Checks the IP Observable type and tags it as \"ip:public\", \"ip:private\", or \"ip:invalid\" based on RFC 1918/4193. For both IPv4 and IPv6.",
+      "description": "This function computes two key response metrics for every case in TheHive:\n– **Time‑to‑Respond (TTR)**: delay (in minutes) between the case's start date and the *earliest* task in the\n  \"3 ‑ Communication\", \"4 ‑ Containment\", or \"5 ‑ Eradication\" task groups.\n– **Time‑to‑Contain (TTC)**: delay (in minutes) between the case's start date and the *latest* task in the\n  \"4 ‑ Containment\" task group.\n\nIt can run in two modes:\n• **Batch mode** (no `input` object) – loops through a page of cases to back‑fill or refresh metrics.\n• **Event‑driven mode** (`input` is a case payload) – updates metrics for the affected case only.\n\nThe function writes both the raw task timestamp and the computed metric to the following custom fields\n(create them in your Case template):\n  • `timestamp‑time‑to‑respond` (Number – epoch ms)\n  • `time‑to‑respond‑in‑minutes` (Number)\n  • `timestamp‑time‑to‑contain` (Number – epoch ms)\n  • `time‑to‑contain‑in‑minutes` (Number)\n\nParam:\n  – **input**: Either an empty object (batch trigger) or the Case JSON injected by TheHive when the\n               notification fires. This triggers a search to find all valid cases to update.\n  – **context**: Utility object providing access to TheHive API helpers (`query`, `caze`, etc.). This applies the metrics computation only on the notified case object.\n\nPrerequisites:\n  • The custom fields listed above must exist in the tenant.\n  • Task groups must follow the naming convention shown here.\n  • You may adjust page size, task groups, or field names to suit your workflows & even your own computation logic for your custom metrics. Those are shown as examples, relying on SOC-101 Metrics definition and SANS Incident Handler's handbook style tasks.\n",
       "type": "Notifier",
       "kind": "function",
       "mode": "Enabled",
-      "file": "integrations/generic/functions/function_notifier_checkIpRFC.js",
+      "file": "integrations/generic/functions/function_notifier_computeCustomMetrics.js",
+      "vendor": "Generic"
+    },
+    {
+      "name": "automatedIgnoreSimilarityForNoisyObservables",
+      "version": "1.0.0",
+      "description": "This function is intended to be triggered on ObservableCreated events. It automatically sets ignoreSimilarity to true for observables matching a known list of common, noisy, or non-actionable values (such as localhost, private IPs, and generic hostnames..). This reduces alert noise and avoids false correlation in TheHive. Note that it is a workaround, and such issues are better managed in your alert ingestion pipeline(s)",
+      "type": "Notifier",
+      "kind": "function",
+      "mode": "Enabled",
+      "file": "integrations/generic/functions/function_notifier_automatedIgnoreSimilarityForNoisyObservables.js",
+      "vendor": "Generic"
+    },
+    {
+      "name": "changeImportedAlertStatus",
+      "version": "1.0.0",
+      "description": "This function is designed to trigger on case closed event. It automatically changes imported alerts to a given custom status",
+      "type": "Notifier",
+      "kind": "function",
+      "mode": "Enabled",
+      "file": "integrations/generic/functions/function_notifier_changeImportedAlertStatus.js",
+      "vendor": "Generic"
+    },
+    {
+      "name": "externalAccessAutomation",
+      "version": "1.0.0",
+      "description": "Automatically grants external case access to client users when a case is closed. It reads the client custom field from the case, extracts the company domain label, and retrieves the external users linked to the case. Users whose email domain matches the client domain are identified and granted external access to the case.",
+      "type": "Notifier",
+      "kind": "function",
+      "mode": "Enabled",
+      "file": "integrations/generic/functions/function_notifier_externalAccessAutomation.js",
+      "vendor": "Generic"
+    },
+    {
+      "name": "assignToMe",
+      "version": "1.0.0",
+      "description": "This function changes the assignee of the Case and all the associated tasks to the user who launches the function",
+      "type": "Action:Case",
+      "kind": "function",
+      "mode": "Enabled",
+      "file": "integrations/generic/functions/function_Action_assignToMe.js",
       "vendor": "Generic"
     },
     {
@@ -143,19 +143,6 @@
       "vendor_id": "JIRA"
     },
     {
-      "name": "alertFeeder_ProofPoint_clicksPermitted",
-      "version": "1.0.0",
-      "author": "Fabien Bloume, StrangeBee",
-      "description": "Ingests ProofPoint clicksPermitted alerts in TheHive",
-      "kind": "function",
-      "mode": "Enabled",
-      "file": "integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted.js",
-      "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted.js",
-      "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted.js",
-      "vendor": "Proofpoint",
-      "vendor_id": "Proofpoint"
-    },
-    {
       "name": "alertFeeder_ProofPoint_messageDelivered",
       "version": "1.0.0",
       "author": "Fabien Bloume, StrangeBee",
@@ -165,6 +152,19 @@
       "file": "integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered.js",
       "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered.js",
       "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered.js",
+      "vendor": "Proofpoint",
+      "vendor_id": "Proofpoint"
+    },
+    {
+      "name": "alertFeeder_ProofPoint_clicksPermitted",
+      "version": "1.0.0",
+      "author": "Fabien Bloume, StrangeBee",
+      "description": "Ingests ProofPoint clicksPermitted alerts in TheHive",
+      "kind": "function",
+      "mode": "Enabled",
+      "file": "integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted.js",
+      "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted.js",
+      "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted.js",
       "vendor": "Proofpoint",
       "vendor_id": "Proofpoint"
     },

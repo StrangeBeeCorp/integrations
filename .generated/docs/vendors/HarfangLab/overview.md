@@ -2,71 +2,8 @@
 
 ### Trigger automated responses
 
-#### [HarfangLab-SearchHash v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab)
-Search a hash in HarfangLab EDR's telemetry
-
-- **Author:** HarfangLab Product Team
-- **License:** AGPL-V3
-- **Data Types:** `thehive:case_artifact`
-
-#### [HarfangLab-GetArtifactMFT v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab)
-Get MFT artifact
-
-- **Author:** HarfangLab Product Team
-- **License:** AGPL-V3
-- **Data Types:** `thehive:case`
-
-#### [HarfangLab-UnisolateHost v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab)
-Isolate machine with HarfangLab EDR
-
-- **Author:** HarfangLab Product Team
-- **License:** AGPL-V3
-- **Data Types:** `thehive:case`, `thehive:alert`
-
-#### [HarfangLab-GetPipes v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab)
-Get pipes on a host
-
-- **Author:** HarfangLab Product Team
-- **License:** AGPL-V3
-- **Data Types:** `thehive:case`
-
-#### [HarfangLab-GetArtifactHives v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab)
-Get Hives artifact
-
-- **Author:** HarfangLab Product Team
-- **License:** AGPL-V3
-- **Data Types:** `thehive:case`
-
-#### [HarfangLab-SearchSourceIP v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab)
-Search an IP in HarfangLab EDR's telemetry
-
-- **Author:** HarfangLab Product Team
-- **License:** AGPL-V3
-- **Data Types:** `thehive:case_artifact`
-
-#### [HarfangLab-SearchDestinationIP v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab)
-Search an IP in HarfangLab EDR's telemetry
-
-- **Author:** HarfangLab Product Team
-- **License:** AGPL-V3
-- **Data Types:** `thehive:case_artifact`
-
-#### [HarfangLab-GetScheduledTasks v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab)
-Get scheduled tasks on a host
-
-- **Author:** HarfangLab Product Team
-- **License:** AGPL-V3
-- **Data Types:** `thehive:case`
-
-#### [HarfangLab-GetArtifactAll v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab)
-Get all artifacts
-
-- **Author:** HarfangLab Product Team
-- **License:** AGPL-V3
-- **Data Types:** `thehive:case`
-
-#### [HarfangLab-GetArtifactFilesystem v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab)
-Get Linux filesystem artifact
+#### [HarfangLab-GetProcesses v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab)
+Get processes running on a host
 
 - **Author:** HarfangLab Product Team
 - **License:** AGPL-V3
@@ -79,71 +16,15 @@ Get network shares on a host
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case`
 
-#### [HarfangLab SearchDriverByHash v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab)
-Search a driver load in HarfangLab EDR's telemetry per hash
-
-- **Author:** HarfangLab Product Team
-- **License:** AGPL-V3
-- **Data Types:** `thehive:case_artifact`
-
-#### [HarfangLab-GetStartupFiles v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab)
-Get startup files on a host
+#### [HarfangLab-GetArtifactFilesystem v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab)
+Get Linux filesystem artifact
 
 - **Author:** HarfangLab Product Team
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case`
 
-#### [HarfangLab-GetPrefetches v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab)
-Get prefetches on a host
-
-- **Author:** HarfangLab Product Team
-- **License:** AGPL-V3
-- **Data Types:** `thehive:case`
-
-#### [HarfangLab-GetRunKeys v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab)
-Get RUN keys on a host
-
-- **Author:** HarfangLab Product Team
-- **License:** AGPL-V3
-- **Data Types:** `thehive:case`
-
-#### [HarfangLab-GetServices v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab)
-Get services on a host
-
-- **Author:** HarfangLab Product Team
-- **License:** AGPL-V3
-- **Data Types:** `thehive:case`
-
-#### [HarfangLab-GetSessions v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab)
-Get sessions on a host
-
-- **Author:** HarfangLab Product Team
-- **License:** AGPL-V3
-- **Data Types:** `thehive:case`
-
-#### [HarfangLab-KillProcess v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab)
-Kill a process
-
-- **Author:** HarfangLab Product Team
-- **License:** AGPL-V3
-- **Data Types:** `thehive:case`, `thehive:alert`
-
-#### [HarfangLab-GetBinary v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab)
-Get binary information and download link
-
-- **Author:** HarfangLab Product Team
-- **License:** AGPL-V3
-- **Data Types:** `thehive:case_artifact`
-
-#### [HarfangLab-GetArtifactLogs v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab)
-Get Linux logs artifact
-
-- **Author:** HarfangLab Product Team
-- **License:** AGPL-V3
-- **Data Types:** `thehive:case`
-
-#### [HarfangLab-GetArtifactRamdump v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab)
-Get RAM dump artifact
+#### [HarfangLab-GetWMI v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab)
+Get WMI items on a host
 
 - **Author:** HarfangLab Product Team
 - **License:** AGPL-V3
@@ -156,43 +37,29 @@ Get prefetches artifact
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case`
 
-#### [HarfangLab-GetDrivers v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab)
-Get drivers loaded on a host
+#### [HarfangLab-KillProcess v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab)
+Kill a process
 
 - **Author:** HarfangLab Product Team
 - **License:** AGPL-V3
-- **Data Types:** `thehive:case`
+- **Data Types:** `thehive:case`, `thehive:alert`
 
-#### [HarfangLab-GetProcesses v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab)
-Get processes running on a host
-
-- **Author:** HarfangLab Product Team
-- **License:** AGPL-V3
-- **Data Types:** `thehive:case`
-
-#### [HarfangLab-GetArtifactEvtx v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab)
-Get Windows event logs artifact
+#### [HarfangLab-SearchDestinationIP v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab)
+Search an IP in HarfangLab EDR's telemetry
 
 - **Author:** HarfangLab Product Team
 - **License:** AGPL-V3
-- **Data Types:** `thehive:case`
+- **Data Types:** `thehive:case_artifact`
+
+#### [HarfangLab-SearchHash v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab)
+Search a hash in HarfangLab EDR's telemetry
+
+- **Author:** HarfangLab Product Team
+- **License:** AGPL-V3
+- **Data Types:** `thehive:case_artifact`
 
 #### [HarfangLab-GetPersistence v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab)
 Get persistence items on a Linux host
-
-- **Author:** HarfangLab Product Team
-- **License:** AGPL-V3
-- **Data Types:** `thehive:case`
-
-#### [HarfangLab-DumpProcess v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab)
-Dump process memory
-
-- **Author:** HarfangLab Product Team
-- **License:** AGPL-V3
-- **Data Types:** `thehive:case`
-
-#### [HarfangLab-GetArtifactUSN v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab)
-Get USN logs artifact
 
 - **Author:** HarfangLab Product Team
 - **License:** AGPL-V3
@@ -205,6 +72,90 @@ Search a driver load in HarfangLab EDR's telemetry per filename
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case_artifact`
 
+#### [HarfangLab-GetDrivers v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab)
+Get drivers loaded on a host
+
+- **Author:** HarfangLab Product Team
+- **License:** AGPL-V3
+- **Data Types:** `thehive:case`
+
+#### [HarfangLab-GetArtifactHives v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab)
+Get Hives artifact
+
+- **Author:** HarfangLab Product Team
+- **License:** AGPL-V3
+- **Data Types:** `thehive:case`
+
+#### [HarfangLab-UnisolateHost v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab)
+Isolate machine with HarfangLab EDR
+
+- **Author:** HarfangLab Product Team
+- **License:** AGPL-V3
+- **Data Types:** `thehive:case`, `thehive:alert`
+
+#### [HarfangLab-GetArtifactAll v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab)
+Get all artifacts
+
+- **Author:** HarfangLab Product Team
+- **License:** AGPL-V3
+- **Data Types:** `thehive:case`
+
+#### [HarfangLab-GetSessions v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab)
+Get sessions on a host
+
+- **Author:** HarfangLab Product Team
+- **License:** AGPL-V3
+- **Data Types:** `thehive:case`
+
+#### [HarfangLab SearchDriverByHash v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab)
+Search a driver load in HarfangLab EDR's telemetry per hash
+
+- **Author:** HarfangLab Product Team
+- **License:** AGPL-V3
+- **Data Types:** `thehive:case_artifact`
+
+#### [HarfangLab-SearchSourceIP v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab)
+Search an IP in HarfangLab EDR's telemetry
+
+- **Author:** HarfangLab Product Team
+- **License:** AGPL-V3
+- **Data Types:** `thehive:case_artifact`
+
+#### [HarfangLab-GetServices v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab)
+Get services on a host
+
+- **Author:** HarfangLab Product Team
+- **License:** AGPL-V3
+- **Data Types:** `thehive:case`
+
+#### [HarfangLab-GetArtifactMFT v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab)
+Get MFT artifact
+
+- **Author:** HarfangLab Product Team
+- **License:** AGPL-V3
+- **Data Types:** `thehive:case`
+
+#### [HarfangLab-GetArtifactLogs v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab)
+Get Linux logs artifact
+
+- **Author:** HarfangLab Product Team
+- **License:** AGPL-V3
+- **Data Types:** `thehive:case`
+
+#### [HarfangLab-GetBinary v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab)
+Get binary information and download link
+
+- **Author:** HarfangLab Product Team
+- **License:** AGPL-V3
+- **Data Types:** `thehive:case_artifact`
+
+#### [HarfangLab-GetPrefetches v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab)
+Get prefetches on a host
+
+- **Author:** HarfangLab Product Team
+- **License:** AGPL-V3
+- **Data Types:** `thehive:case`
+
 #### [HarfangLab-IsolateHost v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab)
 Isolate machine with HarfangLab EDR
 
@@ -212,8 +163,57 @@ Isolate machine with HarfangLab EDR
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case`, `thehive:alert`
 
-#### [HarfangLab-GetWMI v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab)
-Get WMI items on a host
+#### [HarfangLab-GetArtifactUSN v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab)
+Get USN logs artifact
+
+- **Author:** HarfangLab Product Team
+- **License:** AGPL-V3
+- **Data Types:** `thehive:case`
+
+#### [HarfangLab-GetArtifactRamdump v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab)
+Get RAM dump artifact
+
+- **Author:** HarfangLab Product Team
+- **License:** AGPL-V3
+- **Data Types:** `thehive:case`
+
+#### [HarfangLab-GetRunKeys v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab)
+Get RUN keys on a host
+
+- **Author:** HarfangLab Product Team
+- **License:** AGPL-V3
+- **Data Types:** `thehive:case`
+
+#### [HarfangLab-GetScheduledTasks v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab)
+Get scheduled tasks on a host
+
+- **Author:** HarfangLab Product Team
+- **License:** AGPL-V3
+- **Data Types:** `thehive:case`
+
+#### [HarfangLab-GetPipes v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab)
+Get pipes on a host
+
+- **Author:** HarfangLab Product Team
+- **License:** AGPL-V3
+- **Data Types:** `thehive:case`
+
+#### [HarfangLab-GetStartupFiles v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab)
+Get startup files on a host
+
+- **Author:** HarfangLab Product Team
+- **License:** AGPL-V3
+- **Data Types:** `thehive:case`
+
+#### [HarfangLab-GetArtifactEvtx v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab)
+Get Windows event logs artifact
+
+- **Author:** HarfangLab Product Team
+- **License:** AGPL-V3
+- **Data Types:** `thehive:case`
+
+#### [HarfangLab-DumpProcess v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab)
+Dump process memory
 
 - **Author:** HarfangLab Product Team
 - **License:** AGPL-V3

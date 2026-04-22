@@ -15,6 +15,13 @@ Decodes Office 365 ATP Safe Links to extract original URLs. Supports url observa
 
 ### Trigger automated responses
 
+#### [MSDefenderOffice365 disallow v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderOffice365)
+Add entries to the Tenant Allow/Block List in the Microsoft 365 Defender
+
+- **Author:** Vito Piserchia
+- **License:** AGPL-V3
+- **Data Types:** `thehive:case_artifact`
+
 #### [MSDefenderOffice365 unblock v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderOffice365)
 Add entries to the Tenant Allow/Block List in the Microsoft 365 Defender
 
@@ -30,13 +37,6 @@ Add entries to the Tenant Allow/Block List in the Microsoft 365 Defender
 - **Data Types:** `thehive:case_artifact`
 
 #### [MSDefenderOffice365 allow v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderOffice365)
-Add entries to the Tenant Allow/Block List in the Microsoft 365 Defender
-
-- **Author:** Vito Piserchia
-- **License:** AGPL-V3
-- **Data Types:** `thehive:case_artifact`
-
-#### [MSDefenderOffice365 disallow v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderOffice365)
 Add entries to the Tenant Allow/Block List in the Microsoft 365 Defender
 
 - **Author:** Vito Piserchia

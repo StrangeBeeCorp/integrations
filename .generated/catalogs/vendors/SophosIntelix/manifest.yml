@@ -15,17 +15,18 @@ displayOnWebsite: true
 visibility: 100
 integrations:
   analyzers:
-  - name: SophosIntelix Submit Dynamic
+  - name: SophosIntelix Submit Static
     version: '0.1'
     author: SOL
     license: AGPL-V3
-    description: Detonate your suspicious file in SophosLabs Sandbox and find what behaviours the file has. For more information
-      or to sign up for SophosLabs Intelix (with a free tier) see https://www.sophos.com/en-us/labs/intelix.aspx
+    description: Use SophosLabs machine learning to understand the characteristics of your suspicious file allowing you to
+      see if the file is similar to known malware. For more information or to sign up for SophosLabs Intelix (with a free
+      tier) see https://www.sophos.com/en-us/labs/intelix.aspx
     dataTypes:
     - file
-    file: .upstream/cortex/analyzers/SophosIntelix/SophosIntelix_Submit_Dynamic.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_Submit_Dynamic.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_Submit_Dynamic.json
+    file: .upstream/cortex/analyzers/SophosIntelix/SophosIntelix_Submit_Static.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_Submit_Static.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_Submit_Static.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SophosIntelix
     integration_type: null
   - name: SophosIntelix GetReport
@@ -44,18 +45,17 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_GetReport.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SophosIntelix
     integration_type: null
-  - name: SophosIntelix Submit Static
+  - name: SophosIntelix Submit Dynamic
     version: '0.1'
     author: SOL
     license: AGPL-V3
-    description: Use SophosLabs machine learning to understand the characteristics of your suspicious file allowing you to
-      see if the file is similar to known malware. For more information or to sign up for SophosLabs Intelix (with a free
-      tier) see https://www.sophos.com/en-us/labs/intelix.aspx
+    description: Detonate your suspicious file in SophosLabs Sandbox and find what behaviours the file has. For more information
+      or to sign up for SophosLabs Intelix (with a free tier) see https://www.sophos.com/en-us/labs/intelix.aspx
     dataTypes:
     - file
-    file: .upstream/cortex/analyzers/SophosIntelix/SophosIntelix_Submit_Static.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_Submit_Static.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_Submit_Static.json
+    file: .upstream/cortex/analyzers/SophosIntelix/SophosIntelix_Submit_Dynamic.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_Submit_Dynamic.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_Submit_Dynamic.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SophosIntelix
     integration_type: null
   responders: []
