@@ -48,6 +48,39 @@
         "integration_type": null
       },
       {
+        "name": "DomainTools WhoisLookup",
+        "version": "2.0",
+        "author": "CERT-BDF",
+        "license": "AGPL-V3",
+        "description": "Use DomainTools to get the ownership record for a domain or an IP address with basic registration details parsed.",
+        "dataTypes": [
+          "domain",
+          "ip"
+        ],
+        "file": ".upstream/cortex/analyzers/DomainTools/DomainTools_WhoisLookup.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/DomainTools/DomainTools_WhoisLookup.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/DomainTools/DomainTools_WhoisLookup.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainTools",
+        "integration_type": null
+      },
+      {
+        "name": "DomainTools ReverseIP",
+        "version": "2.0",
+        "author": "CERT-BDF",
+        "license": "AGPL-V3",
+        "description": "Use DomainTools to get a list of domain names sharing the same IP address.",
+        "dataTypes": [
+          "ip",
+          "domain",
+          "fqdn"
+        ],
+        "file": ".upstream/cortex/analyzers/DomainTools/DomainTools_ReverseIP.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/DomainTools/DomainTools_ReverseIP.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/DomainTools/DomainTools_ReverseIP.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainTools",
+        "integration_type": null
+      },
+      {
         "name": "DomainTools ReverseIPWhois",
         "version": "2.0",
         "author": "ANSSI",
@@ -112,23 +145,6 @@
         "integration_type": null
       },
       {
-        "name": "DomainTools ReverseIP",
-        "version": "2.0",
-        "author": "CERT-BDF",
-        "license": "AGPL-V3",
-        "description": "Use DomainTools to get a list of domain names sharing the same IP address.",
-        "dataTypes": [
-          "ip",
-          "domain",
-          "fqdn"
-        ],
-        "file": ".upstream/cortex/analyzers/DomainTools/DomainTools_ReverseIP.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/DomainTools/DomainTools_ReverseIP.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/DomainTools/DomainTools_ReverseIP.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainTools",
-        "integration_type": null
-      },
-      {
         "name": "DomainTools WhoisHistory",
         "version": "2.0",
         "author": "CERT-BDF",
@@ -140,22 +156,6 @@
         "file": ".upstream/cortex/analyzers/DomainTools/DomainTools_WhoisHistory.json",
         "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/DomainTools/DomainTools_WhoisHistory.json",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/DomainTools/DomainTools_WhoisHistory.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainTools",
-        "integration_type": null
-      },
-      {
-        "name": "DomainTools WhoisLookup",
-        "version": "2.0",
-        "author": "CERT-BDF",
-        "license": "AGPL-V3",
-        "description": "Use DomainTools to get the ownership record for a domain or an IP address with basic registration details parsed.",
-        "dataTypes": [
-          "domain",
-          "ip"
-        ],
-        "file": ".upstream/cortex/analyzers/DomainTools/DomainTools_WhoisLookup.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/DomainTools/DomainTools_WhoisLookup.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/DomainTools/DomainTools_WhoisLookup.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainTools",
         "integration_type": null
       },

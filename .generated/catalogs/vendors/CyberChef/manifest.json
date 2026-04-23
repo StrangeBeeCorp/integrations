@@ -17,17 +17,17 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "CyberChef FromCharCode",
+        "name": "CyberChef FromBase64",
         "version": "1.0",
         "author": "Wes Lambert",
         "license": "AGPL-V3",
-        "description": "Convert Char Code with CyberChef Server",
+        "description": "Convert Base64 with CyberChef Server",
         "dataTypes": [
           "other"
         ],
-        "file": ".upstream/cortex/analyzers/CyberChef/CyberChef_FromCharCode.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/CyberChef/CyberChef_FromCharCode.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/CyberChef/CyberChef_FromCharCode.json",
+        "file": ".upstream/cortex/analyzers/CyberChef/CyberChef_FromBase64.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/CyberChef/CyberChef_FromBase64.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/CyberChef/CyberChef_FromBase64.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CyberChef",
         "integration_type": null
       },
@@ -47,17 +47,17 @@
         "integration_type": null
       },
       {
-        "name": "CyberChef FromBase64",
+        "name": "CyberChef FromCharCode",
         "version": "1.0",
         "author": "Wes Lambert",
         "license": "AGPL-V3",
-        "description": "Convert Base64 with CyberChef Server",
+        "description": "Convert Char Code with CyberChef Server",
         "dataTypes": [
           "other"
         ],
-        "file": ".upstream/cortex/analyzers/CyberChef/CyberChef_FromBase64.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/CyberChef/CyberChef_FromBase64.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/CyberChef/CyberChef_FromBase64.json",
+        "file": ".upstream/cortex/analyzers/CyberChef/CyberChef_FromCharCode.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/CyberChef/CyberChef_FromCharCode.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/CyberChef/CyberChef_FromCharCode.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CyberChef",
         "integration_type": null
       }

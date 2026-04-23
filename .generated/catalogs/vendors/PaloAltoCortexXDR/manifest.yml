@@ -19,16 +19,28 @@ free_subscription: false
 integrations:
   analyzers: []
   responders:
-  - name: PaloAltoCortexXDR initiate forensics
+  - name: PaloAltoCortexXDR block list
     version: '1.0'
     author: Joe Lazaro; Fabien Bloume, StrangeBee
     license: AGPL-V3
-    description: Initiate forensics triage collection on endpoints identified by hostname or IP list
+    description: Add a file hash to the Cortex XDR block list
     dataTypes:
     - thehive:case_artifact
-    file: .upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_initiate_forensics.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_initiate_forensics.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_initiate_forensics.json
+    file: .upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_block_list.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_block_list.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_block_list.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoCortexXDR
+    integration_type: null
+  - name: PaloAltoCortexXDR restore file
+    version: '1.0'
+    author: Joe Lazaro; Fabien Bloume, StrangeBee
+    license: AGPL-V3
+    description: Restore a quarantined file on all endpoints where it was quarantined, identified by its SHA256 hash
+    dataTypes:
+    - thehive:case_artifact
+    file: .upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_restore_file.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_restore_file.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_restore_file.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoCortexXDR
     integration_type: null
   - name: PaloAltoCortexXDR unisolate
@@ -43,16 +55,28 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_unisolate.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoCortexXDR
     integration_type: null
-  - name: PaloAltoCortexXDR block list
+  - name: PaloAltoCortexXDR initiate forensics
     version: '1.0'
     author: Joe Lazaro; Fabien Bloume, StrangeBee
     license: AGPL-V3
-    description: Add a file hash to the Cortex XDR block list
+    description: Initiate forensics triage collection on endpoints identified by hostname or IP list
     dataTypes:
     - thehive:case_artifact
-    file: .upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_block_list.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_block_list.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_block_list.json
+    file: .upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_initiate_forensics.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_initiate_forensics.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_initiate_forensics.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoCortexXDR
+    integration_type: null
+  - name: PaloAltoCortexXDR isolate
+    version: '1.0'
+    author: Joe Lazaro
+    license: AGPL-V3
+    description: Isolate endpoints identified by hostname or IP list
+    dataTypes:
+    - thehive:case_artifact
+    file: .upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_isolate.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_isolate.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_isolate.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoCortexXDR
     integration_type: null
   - name: PaloAltoCortexXDR allow list
@@ -65,18 +89,6 @@ integrations:
     file: .upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_allow_list.json
     url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_allow_list.json
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_allow_list.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoCortexXDR
-    integration_type: null
-  - name: PaloAltoCortexXDR restore file
-    version: '1.0'
-    author: Joe Lazaro; Fabien Bloume, StrangeBee
-    license: AGPL-V3
-    description: Restore a quarantined file on all endpoints where it was quarantined, identified by its SHA256 hash
-    dataTypes:
-    - thehive:case_artifact
-    file: .upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_restore_file.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_restore_file.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_restore_file.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoCortexXDR
     integration_type: null
   - name: PaloAltoCortexXDR cancel scan
@@ -101,18 +113,6 @@ integrations:
     file: .upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_scan.json
     url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_scan.json
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_scan.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoCortexXDR
-    integration_type: null
-  - name: PaloAltoCortexXDR isolate
-    version: '1.0'
-    author: Joe Lazaro
-    license: AGPL-V3
-    description: Isolate endpoints identified by hostname or IP list
-    dataTypes:
-    - thehive:case_artifact
-    file: .upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_isolate.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_isolate.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/PaloAltoCortexXDR/PaloAltoCortexXDR_isolate.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoCortexXDR
     integration_type: null
   functions: []

@@ -27,6 +27,39 @@ subscription_required: true
 free_subscription: true
 integrations:
   analyzers:
+  - name: ONYPHE Ctiscan
+    version: '1.0'
+    author: James Atack
+    license: AGPL-V3
+    description: Query ONYPHE Ctiscan threat hunting data for open services (takes ip, domain, fqdn, autonomous-system or
+      hash.)
+    dataTypes:
+    - ip
+    - domain
+    - fqdn
+    - hash
+    - autonomous-system
+    - other
+    file: .upstream/cortex/analyzers/Onyphe/ONYPHE_Ctiscan.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Onyphe/ONYPHE_Ctiscan.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Onyphe/ONYPHE_Ctiscan.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Onyphe
+    integration_type: null
+  - name: ONYPHE ASM
+    version: '1.1'
+    author: Pierre Baudry, Adrien Barchapt, Andrea Garavaglia, Davide Arcuri, James Atack
+    license: AGPL-V3
+    description: Manage an attack surface from The Hive using ONYPHE riskscan category
+    dataTypes:
+    - ip
+    - domain
+    - fqdn
+    - hash
+    file: .upstream/cortex/analyzers/Onyphe/ONYPHE_ASM.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Onyphe/ONYPHE_ASM.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Onyphe/ONYPHE_ASM.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Onyphe
+    integration_type: null
   - name: ONYPHE Vulnscan
     version: '1.1'
     author: Pierre Baudry, Adrien Barchapt, Andrea Garavaglia, Davide Arcuri, James Atack
@@ -71,39 +104,6 @@ integrations:
     file: .upstream/cortex/analyzers/Onyphe/ONYPHE_Search.json
     url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Onyphe/ONYPHE_Search.json
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Onyphe/ONYPHE_Search.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Onyphe
-    integration_type: null
-  - name: ONYPHE ASM
-    version: '1.1'
-    author: Pierre Baudry, Adrien Barchapt, Andrea Garavaglia, Davide Arcuri, James Atack
-    license: AGPL-V3
-    description: Manage an attack surface from The Hive using ONYPHE riskscan category
-    dataTypes:
-    - ip
-    - domain
-    - fqdn
-    - hash
-    file: .upstream/cortex/analyzers/Onyphe/ONYPHE_ASM.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Onyphe/ONYPHE_ASM.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Onyphe/ONYPHE_ASM.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Onyphe
-    integration_type: null
-  - name: ONYPHE Ctiscan
-    version: '1.0'
-    author: James Atack
-    license: AGPL-V3
-    description: Query ONYPHE Ctiscan threat hunting data for open services (takes ip, domain, fqdn, autonomous-system or
-      hash.)
-    dataTypes:
-    - ip
-    - domain
-    - fqdn
-    - hash
-    - autonomous-system
-    - other
-    file: .upstream/cortex/analyzers/Onyphe/ONYPHE_Ctiscan.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Onyphe/ONYPHE_Ctiscan.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Onyphe/ONYPHE_Ctiscan.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Onyphe
     integration_type: null
   responders: []

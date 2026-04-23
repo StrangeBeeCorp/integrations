@@ -30,18 +30,17 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "VirusTotal Scan",
+        "name": "VirusTotal Rescan",
         "version": "3.1",
-        "author": "CERT-BDF, StrangeBee",
+        "author": "CERT-LDO",
         "license": "AGPL-V3",
-        "description": "Use VirusTotal to scan a file or URL.",
+        "description": "Use VirusTotal to run new analysis on hash.",
         "dataTypes": [
-          "file",
-          "url"
+          "hash"
         ],
-        "file": ".upstream/cortex/analyzers/VirusTotal/VirusTotal_Scan.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/VirusTotal/VirusTotal_Scan.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/VirusTotal/VirusTotal_Scan.json",
+        "file": ".upstream/cortex/analyzers/VirusTotal/VirusTotal_Rescan.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/VirusTotal/VirusTotal_Rescan.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/VirusTotal/VirusTotal_Rescan.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/VirusTotal",
         "integration_type": null
       },
@@ -66,17 +65,18 @@
         "integration_type": null
       },
       {
-        "name": "VirusTotal Rescan",
+        "name": "VirusTotal Scan",
         "version": "3.1",
-        "author": "CERT-LDO",
+        "author": "CERT-BDF, StrangeBee",
         "license": "AGPL-V3",
-        "description": "Use VirusTotal to run new analysis on hash.",
+        "description": "Use VirusTotal to scan a file or URL.",
         "dataTypes": [
-          "hash"
+          "file",
+          "url"
         ],
-        "file": ".upstream/cortex/analyzers/VirusTotal/VirusTotal_Rescan.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/VirusTotal/VirusTotal_Rescan.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/VirusTotal/VirusTotal_Rescan.json",
+        "file": ".upstream/cortex/analyzers/VirusTotal/VirusTotal_Scan.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/VirusTotal/VirusTotal_Scan.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/VirusTotal/VirusTotal_Scan.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/VirusTotal",
         "integration_type": null
       },

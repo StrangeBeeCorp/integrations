@@ -14,17 +14,18 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "DNSDB IPHistory",
+        "name": "DNSDB DomainName",
         "version": "2.0",
         "author": "CERT-BDF",
         "license": "AGPL-V3",
-        "description": "Use DNSDB to fetch historical records for an IP address.",
+        "description": "Use DNSDB to fetch historical records for a domain.",
         "dataTypes": [
-          "ip"
+          "domain",
+          "fqdn"
         ],
-        "file": ".upstream/cortex/analyzers/DNSDB/DNSDB_IPHistory.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/DNSDB/DNSDB_IPHistory.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/DNSDB/DNSDB_IPHistory.json",
+        "file": ".upstream/cortex/analyzers/DNSDB/DNSDB_DomainName.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/DNSDB/DNSDB_DomainName.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/DNSDB/DNSDB_DomainName.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DNSDB",
         "integration_type": null
       },
@@ -45,18 +46,17 @@
         "integration_type": null
       },
       {
-        "name": "DNSDB DomainName",
+        "name": "DNSDB IPHistory",
         "version": "2.0",
         "author": "CERT-BDF",
         "license": "AGPL-V3",
-        "description": "Use DNSDB to fetch historical records for a domain.",
+        "description": "Use DNSDB to fetch historical records for an IP address.",
         "dataTypes": [
-          "domain",
-          "fqdn"
+          "ip"
         ],
-        "file": ".upstream/cortex/analyzers/DNSDB/DNSDB_DomainName.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/DNSDB/DNSDB_DomainName.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/DNSDB/DNSDB_DomainName.json",
+        "file": ".upstream/cortex/analyzers/DNSDB/DNSDB_IPHistory.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/DNSDB/DNSDB_IPHistory.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/DNSDB/DNSDB_IPHistory.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DNSDB",
         "integration_type": null
       }

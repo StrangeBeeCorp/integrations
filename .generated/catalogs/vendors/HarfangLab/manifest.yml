@@ -18,91 +18,6 @@ free_subscription: false
 integrations:
   analyzers: []
   responders:
-  - name: HarfangLab-GetProcesses
-    version: '1.0'
-    author: HarfangLab Product Team
-    license: AGPL-V3
-    description: Get processes running on a host
-    dataTypes:
-    - thehive:case
-    file: .upstream/cortex/responders/HarfangLab/HarfangLab_GetProcesses.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetProcesses.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetProcesses.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
-    integration_type: null
-  - name: HarfangLab-GetNetworkShares
-    version: '1.0'
-    author: HarfangLab Product Team
-    license: AGPL-V3
-    description: Get network shares on a host
-    dataTypes:
-    - thehive:case
-    file: .upstream/cortex/responders/HarfangLab/HarfangLab_GetNetworkShares.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetNetworkShares.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetNetworkShares.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
-    integration_type: null
-  - name: HarfangLab-GetArtifactFilesystem
-    version: '1.0'
-    author: HarfangLab Product Team
-    license: AGPL-V3
-    description: Get Linux filesystem artifact
-    dataTypes:
-    - thehive:case
-    file: .upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactFilesystem.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactFilesystem.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactFilesystem.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
-    integration_type: null
-  - name: HarfangLab-GetWMI
-    version: '1.0'
-    author: HarfangLab Product Team
-    license: AGPL-V3
-    description: Get WMI items on a host
-    dataTypes:
-    - thehive:case
-    file: .upstream/cortex/responders/HarfangLab/HarfangLab_GetWMI.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetWMI.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetWMI.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
-    integration_type: null
-  - name: HarfangLab-GetArtifactPrefetch
-    version: '1.0'
-    author: HarfangLab Product Team
-    license: AGPL-V3
-    description: Get prefetches artifact
-    dataTypes:
-    - thehive:case
-    file: .upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactPrefetch.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactPrefetch.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactPrefetch.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
-    integration_type: null
-  - name: HarfangLab-KillProcess
-    version: '1.0'
-    author: HarfangLab Product Team
-    license: AGPL-V3
-    description: Kill a process
-    dataTypes:
-    - thehive:case
-    - thehive:alert
-    file: .upstream/cortex/responders/HarfangLab/HarfangLab_KillProcess.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_KillProcess.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_KillProcess.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
-    integration_type: null
-  - name: HarfangLab-SearchDestinationIP
-    version: '1.0'
-    author: HarfangLab Product Team
-    license: AGPL-V3
-    description: Search an IP in HarfangLab EDR's telemetry
-    dataTypes:
-    - thehive:case_artifact
-    file: .upstream/cortex/responders/HarfangLab/HarfangLab_SearchDestinationIP.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_SearchDestinationIP.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_SearchDestinationIP.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
-    integration_type: null
   - name: HarfangLab-SearchHash
     version: '1.0'
     author: HarfangLab Product Team
@@ -115,52 +30,16 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_SearchHash.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
     integration_type: null
-  - name: HarfangLab-GetPersistence
+  - name: HarfangLab-GetArtifactMFT
     version: '1.0'
     author: HarfangLab Product Team
     license: AGPL-V3
-    description: Get persistence items on a Linux host
+    description: Get MFT artifact
     dataTypes:
     - thehive:case
-    file: .upstream/cortex/responders/HarfangLab/HarfangLab_GetPersistence.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetPersistence.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetPersistence.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
-    integration_type: null
-  - name: HarfangLab SearchDriverByFileName
-    version: '1.0'
-    author: HarfangLab Product Team
-    license: AGPL-V3
-    description: Search a driver load in HarfangLab EDR's telemetry per filename
-    dataTypes:
-    - thehive:case_artifact
-    file: .upstream/cortex/responders/HarfangLab/HarfangLab_SearchDriverByFileName.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_SearchDriverByFileName.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_SearchDriverByFileName.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
-    integration_type: null
-  - name: HarfangLab-GetDrivers
-    version: '1.0'
-    author: HarfangLab Product Team
-    license: AGPL-V3
-    description: Get drivers loaded on a host
-    dataTypes:
-    - thehive:case
-    file: .upstream/cortex/responders/HarfangLab/HarfangLab_GetDrivers.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetDrivers.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetDrivers.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
-    integration_type: null
-  - name: HarfangLab-GetArtifactHives
-    version: '1.0'
-    author: HarfangLab Product Team
-    license: AGPL-V3
-    description: Get Hives artifact
-    dataTypes:
-    - thehive:case
-    file: .upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactHives.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactHives.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactHives.json
+    file: .upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactMFT.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactMFT.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactMFT.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
     integration_type: null
   - name: HarfangLab-UnisolateHost
@@ -176,40 +55,28 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_Unisolate.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
     integration_type: null
-  - name: HarfangLab-GetArtifactAll
+  - name: HarfangLab-GetPipes
     version: '1.0'
     author: HarfangLab Product Team
     license: AGPL-V3
-    description: Get all artifacts
+    description: Get pipes on a host
     dataTypes:
     - thehive:case
-    file: .upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactAll.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactAll.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactAll.json
+    file: .upstream/cortex/responders/HarfangLab/HarfangLab_GetPipes.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetPipes.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetPipes.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
     integration_type: null
-  - name: HarfangLab-GetSessions
+  - name: HarfangLab-GetArtifactHives
     version: '1.0'
     author: HarfangLab Product Team
     license: AGPL-V3
-    description: Get sessions on a host
+    description: Get Hives artifact
     dataTypes:
     - thehive:case
-    file: .upstream/cortex/responders/HarfangLab/HarfangLab_GetSessions.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetSessions.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetSessions.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
-    integration_type: null
-  - name: HarfangLab SearchDriverByHash
-    version: '1.0'
-    author: HarfangLab Product Team
-    license: AGPL-V3
-    description: Search a driver load in HarfangLab EDR's telemetry per hash
-    dataTypes:
-    - thehive:case_artifact
-    file: .upstream/cortex/responders/HarfangLab/HarfangLab_SearchDriverByHash.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_SearchDriverByHash.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_SearchDriverByHash.json
+    file: .upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactHives.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactHives.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactHives.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
     integration_type: null
   - name: HarfangLab-SearchSourceIP
@@ -224,6 +91,114 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_SearchSourceIP.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
     integration_type: null
+  - name: HarfangLab-SearchDestinationIP
+    version: '1.0'
+    author: HarfangLab Product Team
+    license: AGPL-V3
+    description: Search an IP in HarfangLab EDR's telemetry
+    dataTypes:
+    - thehive:case_artifact
+    file: .upstream/cortex/responders/HarfangLab/HarfangLab_SearchDestinationIP.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_SearchDestinationIP.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_SearchDestinationIP.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
+    integration_type: null
+  - name: HarfangLab-GetScheduledTasks
+    version: '1.0'
+    author: HarfangLab Product Team
+    license: AGPL-V3
+    description: Get scheduled tasks on a host
+    dataTypes:
+    - thehive:case
+    file: .upstream/cortex/responders/HarfangLab/HarfangLab_GetScheduledTasks.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetScheduledTasks.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetScheduledTasks.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
+    integration_type: null
+  - name: HarfangLab-GetArtifactAll
+    version: '1.0'
+    author: HarfangLab Product Team
+    license: AGPL-V3
+    description: Get all artifacts
+    dataTypes:
+    - thehive:case
+    file: .upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactAll.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactAll.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactAll.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
+    integration_type: null
+  - name: HarfangLab-GetArtifactFilesystem
+    version: '1.0'
+    author: HarfangLab Product Team
+    license: AGPL-V3
+    description: Get Linux filesystem artifact
+    dataTypes:
+    - thehive:case
+    file: .upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactFilesystem.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactFilesystem.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactFilesystem.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
+    integration_type: null
+  - name: HarfangLab-GetNetworkShares
+    version: '1.0'
+    author: HarfangLab Product Team
+    license: AGPL-V3
+    description: Get network shares on a host
+    dataTypes:
+    - thehive:case
+    file: .upstream/cortex/responders/HarfangLab/HarfangLab_GetNetworkShares.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetNetworkShares.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetNetworkShares.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
+    integration_type: null
+  - name: HarfangLab SearchDriverByHash
+    version: '1.0'
+    author: HarfangLab Product Team
+    license: AGPL-V3
+    description: Search a driver load in HarfangLab EDR's telemetry per hash
+    dataTypes:
+    - thehive:case_artifact
+    file: .upstream/cortex/responders/HarfangLab/HarfangLab_SearchDriverByHash.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_SearchDriverByHash.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_SearchDriverByHash.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
+    integration_type: null
+  - name: HarfangLab-GetStartupFiles
+    version: '1.0'
+    author: HarfangLab Product Team
+    license: AGPL-V3
+    description: Get startup files on a host
+    dataTypes:
+    - thehive:case
+    file: .upstream/cortex/responders/HarfangLab/HarfangLab_GetStartupFiles.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetStartupFiles.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetStartupFiles.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
+    integration_type: null
+  - name: HarfangLab-GetPrefetches
+    version: '1.0'
+    author: HarfangLab Product Team
+    license: AGPL-V3
+    description: Get prefetches on a host
+    dataTypes:
+    - thehive:case
+    file: .upstream/cortex/responders/HarfangLab/HarfangLab_GetPrefetches.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetPrefetches.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetPrefetches.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
+    integration_type: null
+  - name: HarfangLab-GetRunKeys
+    version: '1.0'
+    author: HarfangLab Product Team
+    license: AGPL-V3
+    description: Get RUN keys on a host
+    dataTypes:
+    - thehive:case
+    file: .upstream/cortex/responders/HarfangLab/HarfangLab_GetRunKeys.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetRunKeys.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetRunKeys.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
+    integration_type: null
   - name: HarfangLab-GetServices
     version: '1.0'
     author: HarfangLab Product Team
@@ -236,28 +211,29 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetServices.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
     integration_type: null
-  - name: HarfangLab-GetArtifactMFT
+  - name: HarfangLab-GetSessions
     version: '1.0'
     author: HarfangLab Product Team
     license: AGPL-V3
-    description: Get MFT artifact
+    description: Get sessions on a host
     dataTypes:
     - thehive:case
-    file: .upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactMFT.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactMFT.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactMFT.json
+    file: .upstream/cortex/responders/HarfangLab/HarfangLab_GetSessions.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetSessions.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetSessions.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
     integration_type: null
-  - name: HarfangLab-GetArtifactLogs
+  - name: HarfangLab-KillProcess
     version: '1.0'
     author: HarfangLab Product Team
     license: AGPL-V3
-    description: Get Linux logs artifact
+    description: Kill a process
     dataTypes:
     - thehive:case
-    file: .upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactLogs.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactLogs.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactLogs.json
+    - thehive:alert
+    file: .upstream/cortex/responders/HarfangLab/HarfangLab_KillProcess.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_KillProcess.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_KillProcess.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
     integration_type: null
   - name: HarfangLab-GetBinary
@@ -272,16 +248,124 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetBinary.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
     integration_type: null
-  - name: HarfangLab-GetPrefetches
+  - name: HarfangLab-GetArtifactLogs
     version: '1.0'
     author: HarfangLab Product Team
     license: AGPL-V3
-    description: Get prefetches on a host
+    description: Get Linux logs artifact
     dataTypes:
     - thehive:case
-    file: .upstream/cortex/responders/HarfangLab/HarfangLab_GetPrefetches.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetPrefetches.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetPrefetches.json
+    file: .upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactLogs.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactLogs.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactLogs.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
+    integration_type: null
+  - name: HarfangLab-GetArtifactRamdump
+    version: '1.0'
+    author: HarfangLab Product Team
+    license: AGPL-V3
+    description: Get RAM dump artifact
+    dataTypes:
+    - thehive:case
+    file: .upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactRamdump.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactRamdump.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactRamdump.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
+    integration_type: null
+  - name: HarfangLab-GetArtifactPrefetch
+    version: '1.0'
+    author: HarfangLab Product Team
+    license: AGPL-V3
+    description: Get prefetches artifact
+    dataTypes:
+    - thehive:case
+    file: .upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactPrefetch.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactPrefetch.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactPrefetch.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
+    integration_type: null
+  - name: HarfangLab-GetDrivers
+    version: '1.0'
+    author: HarfangLab Product Team
+    license: AGPL-V3
+    description: Get drivers loaded on a host
+    dataTypes:
+    - thehive:case
+    file: .upstream/cortex/responders/HarfangLab/HarfangLab_GetDrivers.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetDrivers.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetDrivers.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
+    integration_type: null
+  - name: HarfangLab-GetProcesses
+    version: '1.0'
+    author: HarfangLab Product Team
+    license: AGPL-V3
+    description: Get processes running on a host
+    dataTypes:
+    - thehive:case
+    file: .upstream/cortex/responders/HarfangLab/HarfangLab_GetProcesses.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetProcesses.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetProcesses.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
+    integration_type: null
+  - name: HarfangLab-GetArtifactEvtx
+    version: '1.0'
+    author: HarfangLab Product Team
+    license: AGPL-V3
+    description: Get Windows event logs artifact
+    dataTypes:
+    - thehive:case
+    file: .upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactEvtx.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactEvtx.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactEvtx.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
+    integration_type: null
+  - name: HarfangLab-GetPersistence
+    version: '1.0'
+    author: HarfangLab Product Team
+    license: AGPL-V3
+    description: Get persistence items on a Linux host
+    dataTypes:
+    - thehive:case
+    file: .upstream/cortex/responders/HarfangLab/HarfangLab_GetPersistence.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetPersistence.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetPersistence.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
+    integration_type: null
+  - name: HarfangLab-DumpProcess
+    version: '1.0'
+    author: HarfangLab Product Team
+    license: AGPL-V3
+    description: Dump process memory
+    dataTypes:
+    - thehive:case
+    file: .upstream/cortex/responders/HarfangLab/HarfangLab_DumpProcess.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_DumpProcess.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_DumpProcess.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
+    integration_type: null
+  - name: HarfangLab-GetArtifactUSN
+    version: '1.0'
+    author: HarfangLab Product Team
+    license: AGPL-V3
+    description: Get USN logs artifact
+    dataTypes:
+    - thehive:case
+    file: .upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactUSN.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactUSN.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactUSN.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
+    integration_type: null
+  - name: HarfangLab SearchDriverByFileName
+    version: '1.0'
+    author: HarfangLab Product Team
+    license: AGPL-V3
+    description: Search a driver load in HarfangLab EDR's telemetry per filename
+    dataTypes:
+    - thehive:case_artifact
+    file: .upstream/cortex/responders/HarfangLab/HarfangLab_SearchDriverByFileName.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_SearchDriverByFileName.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_SearchDriverByFileName.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
     integration_type: null
   - name: HarfangLab-IsolateHost
@@ -297,100 +381,16 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_Isolate.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
     integration_type: null
-  - name: HarfangLab-GetArtifactUSN
+  - name: HarfangLab-GetWMI
     version: '1.0'
     author: HarfangLab Product Team
     license: AGPL-V3
-    description: Get USN logs artifact
+    description: Get WMI items on a host
     dataTypes:
     - thehive:case
-    file: .upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactUSN.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactUSN.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactUSN.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
-    integration_type: null
-  - name: HarfangLab-GetArtifactRamdump
-    version: '1.0'
-    author: HarfangLab Product Team
-    license: AGPL-V3
-    description: Get RAM dump artifact
-    dataTypes:
-    - thehive:case
-    file: .upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactRamdump.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactRamdump.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactRamdump.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
-    integration_type: null
-  - name: HarfangLab-GetRunKeys
-    version: '1.0'
-    author: HarfangLab Product Team
-    license: AGPL-V3
-    description: Get RUN keys on a host
-    dataTypes:
-    - thehive:case
-    file: .upstream/cortex/responders/HarfangLab/HarfangLab_GetRunKeys.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetRunKeys.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetRunKeys.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
-    integration_type: null
-  - name: HarfangLab-GetScheduledTasks
-    version: '1.0'
-    author: HarfangLab Product Team
-    license: AGPL-V3
-    description: Get scheduled tasks on a host
-    dataTypes:
-    - thehive:case
-    file: .upstream/cortex/responders/HarfangLab/HarfangLab_GetScheduledTasks.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetScheduledTasks.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetScheduledTasks.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
-    integration_type: null
-  - name: HarfangLab-GetPipes
-    version: '1.0'
-    author: HarfangLab Product Team
-    license: AGPL-V3
-    description: Get pipes on a host
-    dataTypes:
-    - thehive:case
-    file: .upstream/cortex/responders/HarfangLab/HarfangLab_GetPipes.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetPipes.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetPipes.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
-    integration_type: null
-  - name: HarfangLab-GetStartupFiles
-    version: '1.0'
-    author: HarfangLab Product Team
-    license: AGPL-V3
-    description: Get startup files on a host
-    dataTypes:
-    - thehive:case
-    file: .upstream/cortex/responders/HarfangLab/HarfangLab_GetStartupFiles.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetStartupFiles.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetStartupFiles.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
-    integration_type: null
-  - name: HarfangLab-GetArtifactEvtx
-    version: '1.0'
-    author: HarfangLab Product Team
-    license: AGPL-V3
-    description: Get Windows event logs artifact
-    dataTypes:
-    - thehive:case
-    file: .upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactEvtx.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactEvtx.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetArtifactEvtx.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
-    integration_type: null
-  - name: HarfangLab-DumpProcess
-    version: '1.0'
-    author: HarfangLab Product Team
-    license: AGPL-V3
-    description: Dump process memory
-    dataTypes:
-    - thehive:case
-    file: .upstream/cortex/responders/HarfangLab/HarfangLab_DumpProcess.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_DumpProcess.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_DumpProcess.json
+    file: .upstream/cortex/responders/HarfangLab/HarfangLab_GetWMI.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetWMI.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/HarfangLab/HarfangLab_GetWMI.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/HarfangLab
     integration_type: null
   functions: []

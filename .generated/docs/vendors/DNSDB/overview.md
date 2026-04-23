@@ -2,12 +2,12 @@
 
 ### Enrich observables with intelligence
 
-#### [DNSDB IPHistory v2.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DNSDB)
-Use DNSDB to fetch historical records for an IP address.
+#### [DNSDB DomainName v2.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DNSDB)
+Use DNSDB to fetch historical records for a domain.
 
 - **Author:** CERT-BDF
 - **License:** AGPL-V3
-- **Data Types:** `ip`
+- **Data Types:** `domain`, `fqdn`
 
 #### [DNSDB NameHistory v2.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DNSDB)
 Use DNSDB to fetch historical records for a fully-qualified domain name.
@@ -16,9 +16,9 @@ Use DNSDB to fetch historical records for a fully-qualified domain name.
 - **License:** AGPL-V3
 - **Data Types:** `domain`, `fqdn`
 
-#### [DNSDB DomainName v2.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DNSDB)
-Use DNSDB to fetch historical records for a domain.
+#### [DNSDB IPHistory v2.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DNSDB)
+Use DNSDB to fetch historical records for an IP address.
 
 - **Author:** CERT-BDF
 - **License:** AGPL-V3
-- **Data Types:** `domain`, `fqdn`
+- **Data Types:** `ip`

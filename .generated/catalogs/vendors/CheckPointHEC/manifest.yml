@@ -19,6 +19,20 @@ subscription_required: true
 free_subscription: false
 integrations:
   analyzers:
+  - name: CheckPointHEC SearchEmail
+    version: '1.0'
+    author: Fabien Bloume, StrangeBee
+    license: AGPL-V3
+    description: Search for an email in Check Point Harmony Email & Collaboration and retrieve its security verdict, phishing
+      confidence, classification and scan results. Accepts an .eml file or a Message-ID as an 'other' observable.
+    dataTypes:
+    - file
+    - other
+    file: .upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchEmail.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchEmail.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchEmail.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CheckPointHEC
+    integration_type: null
   - name: CheckPointHEC SearchByDomain
     version: '1.0'
     author: Fabien Bloume, StrangeBee
@@ -31,6 +45,19 @@ integrations:
     file: .upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchByDomain.json
     url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchByDomain.json
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchByDomain.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CheckPointHEC
+    integration_type: null
+  - name: CheckPointHEC SearchByURL
+    version: '1.0'
+    author: Fabien Bloume, StrangeBee
+    license: AGPL-V3
+    description: Search for all emails containing a specific URL in Check Point Harmony Email & Collaboration and retrieve
+      their security verdicts.
+    dataTypes:
+    - url
+    file: .upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchByURL.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchByURL.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchByURL.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CheckPointHEC
     integration_type: null
   - name: CheckPointHEC SearchBySenderIP
@@ -59,33 +86,6 @@ integrations:
     file: .upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchBySender.json
     url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchBySender.json
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchBySender.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CheckPointHEC
-    integration_type: null
-  - name: CheckPointHEC SearchByURL
-    version: '1.0'
-    author: Fabien Bloume, StrangeBee
-    license: AGPL-V3
-    description: Search for all emails containing a specific URL in Check Point Harmony Email & Collaboration and retrieve
-      their security verdicts.
-    dataTypes:
-    - url
-    file: .upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchByURL.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchByURL.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchByURL.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CheckPointHEC
-    integration_type: null
-  - name: CheckPointHEC SearchEmail
-    version: '1.0'
-    author: Fabien Bloume, StrangeBee
-    license: AGPL-V3
-    description: Search for an email in Check Point Harmony Email & Collaboration and retrieve its security verdict, phishing
-      confidence, classification and scan results. Accepts an .eml file or a Message-ID as an 'other' observable.
-    dataTypes:
-    - file
-    - other
-    file: .upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchEmail.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchEmail.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchEmail.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CheckPointHEC
     integration_type: null
   responders: []
