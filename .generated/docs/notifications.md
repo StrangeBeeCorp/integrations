@@ -4,10 +4,10 @@ Ready-to-use notification filters for TheHive.
 
 ## Summary
 
-- **Total Notifications:** 12
-- **Generic Notifications:** 11
+- **Total Notifications:** 13
+- **Generic Notifications:** 12
 - **Vendor-Specific Notifications:** 1
-- **Tested:** 10
+- **Tested:** 11
 
 ## Generic Notifications
 
@@ -95,6 +95,74 @@ Triggers when a case is updated with a new assignee value. Does not trigger on c
             "_contains": {
                 "details.assignee": ""
             }
+        }
+    ]
+}
+```
+
+---
+
+### Case High or Critical Severity
+
+![Tested](https://img.shields.io/badge/Status-Tested-brightgreen)
+
+Triggers when a case is created with High/Critical severity, or a New/InProgress case is updated to High/Critical severity
+
+**Contributor:** Fabien Bloume, StrangeBee
+
+```json
+{
+    "_and": [
+        {
+            "_is": {
+                "objectType": "Case"
+            }
+        },
+        {
+            "_or": [
+                {
+                    "_and": [
+                        {
+                            "_is": {
+                                "action": "create"
+                            }
+                        },
+                        {
+                            "_gte": {
+                                "details.severity": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "_and": [
+                        {
+                            "_is": {
+                                "action": "update"
+                            }
+                        },
+                        {
+                            "_gte": {
+                                "details.severity": 3
+                            }
+                        },
+                        {
+                            "_or": [
+                                {
+                                    "_is": {
+                                        "object.status": "New"
+                                    }
+                                },
+                                {
+                                    "_is": {
+                                        "object.status": "InProgress"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
