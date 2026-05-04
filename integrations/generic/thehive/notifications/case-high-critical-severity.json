@@ -1,0 +1,62 @@
+{
+  "name": "Case High or Critical Severity",
+  "description": "Triggers when a case is created with High/Critical severity, or a New/InProgress case is updated to High/Critical severity",
+  "contributor": "Fabien Bloume, StrangeBee",
+  "type": "filteredEvent",
+  "status": "tested",
+  "filter": {
+    "_and": [
+      {
+        "_is": {
+          "objectType": "Case"
+        }
+      },
+      {
+        "_or": [
+          {
+            "_and": [
+              {
+                "_is": {
+                  "action": "create"
+                }
+              },
+              {
+                "_gte": {
+                  "details.severity": 3
+                }
+              }
+            ]
+          },
+          {
+            "_and": [
+              {
+                "_is": {
+                  "action": "update"
+                }
+              },
+              {
+                "_gte": {
+                  "details.severity": 3
+                }
+              },
+              {
+                "_or": [
+                  {
+                    "_is": {
+                      "object.status": "New"
+                    }
+                  },
+                  {
+                    "_is": {
+                      "object.status": "InProgress"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
