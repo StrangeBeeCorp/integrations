@@ -1,9 +1,18 @@
 # AUTO-GENERATED - DO NOT EDIT
 
-total_functions: 16
-generic_count: 10
+total_functions: 17
+generic_count: 11
 vendor_count: 6
 functions:
+- name: alertfeeder_ingestSentinelIncidents
+  version: 1.0.0
+  description: Ingests Microsoft Sentinel incidents from the Microsoft 365 Defender API and creates TheHive alerts, one per
+    incident
+  type: Feeder
+  kind: function
+  mode: Enabled
+  file: integrations/generic/functions/function_alertfeeder_ingestSentinelIncidents.js
+  vendor: Generic
 - name: deleteIPObsFromAlert
   version: 1.0.0
   description: This function will delete all the IP Observable from an alert

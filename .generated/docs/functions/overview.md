@@ -6,14 +6,25 @@ Example functions for TheHive. Use them as-is or as inspiration for your own.
 
 ## Summary
 
-- **Total Functions:** 16
-- **Generic Functions:** 10
+- **Total Functions:** 17
+- **Generic Functions:** 11
 - **Vendor-Specific Functions:** 6
 - **Vendors with Functions:** 5
 
 ## Generic Functions
 
 These functions are vendor-agnostic and can be used across all TheHive installations:
+
+### [alertfeeder_ingestSentinelIncidents](alertfeeder_ingestsentinelincidents.md) `v1.0.0`
+
+**Type:** Feeder
+**Mode:** Enabled
+
+Ingests Microsoft Sentinel incidents from the Microsoft 365 Defender API and creates TheHive alerts, one per incident
+
+[View full documentation](alertfeeder_ingestsentinelincidents.md)
+
+---
 
 ### [assignAlert](assignalert.md) `v1.0.0`
 
