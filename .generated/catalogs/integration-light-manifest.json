@@ -4198,6 +4198,40 @@
       "total": 1
     }
   },
+  "ThreatQ": {
+    "id": "ThreatQ",
+    "name": "ThreatQ",
+    "description": "ThreatQ is a threat intelligence platform that aggregates, contextualizes, and operationalizes threat data to accelerate investigation, collaboration, and incident response",
+    "category": [
+      "Threat Intelligence"
+    ],
+    "tags": [
+      "threat-intelligence",
+      "ioc",
+      "indicators",
+      "threat-hunting",
+      "threat-operations",
+      "enrichment"
+    ],
+    "homepage": "https://www.threatq.com",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/ThreatQ/assets/logo.png",
+    "visibility": "low",
+    "subscription": {
+      "required": false,
+      "free": false,
+      "paid": false
+    },
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/ThreatQ/overview.md",
+    "stats": {
+      "totalAnalyzers": 0,
+      "totalResponders": 0,
+      "totalFunctions": 0,
+      "totalUseCases": 0,
+      "totalExternalIntegrations": 1,
+      "totalNotifiers": 0,
+      "total": 1
+    }
+  },
   "ThreatResponse": {
     "id": "ThreatResponse",
     "name": "ThreatResponse",

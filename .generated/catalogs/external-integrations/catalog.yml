@@ -1,6 +1,6 @@
 # AUTO-GENERATED - DO NOT EDIT
 
-totalIntegrations: 10
+totalIntegrations: 11
 integrations:
 - &id001
   name: falcon2thehive
@@ -85,6 +85,16 @@ integrations:
   documentation: https://threatconnect.com/marketplace/thehive/
   category: Threat Intelligence
 - &id010
+  name: The Hive App for ThreatQ
+  vendor: ThreatQ
+  vendorId: ThreatQ
+  type: connector
+  description: Webhook-based connector that monitors TheHive case and observable events in real time and pushes them to ThreatQ
+    - mapping cases to ThreatQ events or incidents and synchronizing observables as typed indicators with TLP, tags, and bidirectional
+    attribute updates.
+  documentation: https://helpcenter.threatq.com/Integration_Documentation/app/The_Hive.htm
+  category: Threat Intelligence
+- &id011
   name: TheHive Project Connector
   vendor: Tines
   vendorId: Tines
@@ -111,8 +121,10 @@ byVendor:
   - *id008
   ThreatConnect:
   - *id009
-  Tines:
+  ThreatQ:
   - *id010
+  Tines:
+  - *id011
 byCategory:
   EDR:
   - *id001
@@ -125,14 +137,16 @@ byCategory:
   - *id004
   - *id005
   - *id006
-  - *id010
+  - *id011
   Threat Intelligence:
   - *id009
+  - *id010
 byType:
   connector:
   - *id001
   - *id002
   - *id010
+  - *id011
   workflow-nodes:
   - *id003
   integration:

@@ -4,7 +4,7 @@ Community and vendor-built integrations that connect various platforms with TheH
 
 ## Overview
 
-**Total External Integrations:** 10
+**Total External Integrations:** 11
 
 ## Browse by Type
 
@@ -19,12 +19,16 @@ Community and vendor-built integrations that connect various platforms with TheH
 </details>
 
 <details>
-<summary><strong>connector</strong> (3 integrations)</summary>
+<summary><strong>connector</strong> (4 integrations)</summary>
 
 
 **falcon2thehive** - CrowdStrike Falcon
   Real-time connector that streams CrowdStrike Falcon detection events into TheHive, turning Falcon alerts into actionable TheHive Alerts. Supports DetectionSummaryEvent, IdentityProtectionEvent, and MobileDetectionSummaryEvent with automatic observable extraction and TTP mapping.
   [Documentation](https://github.com/StrangeBeeCorp/falcon2thehive)
+
+**The Hive App for ThreatQ** - ThreatQ
+  Webhook-based connector that monitors TheHive case and observable events in real time and pushes them to ThreatQ - mapping cases to ThreatQ events or incidents and synchronizing observables as typed indicators with TLP, tags, and bidirectional attribute updates.
+  [Documentation](https://helpcenter.threatq.com/Integration_Documentation/app/The_Hive.htm)
 
 **TheHive Connector for Kibana** - Elasticsearch
   Native Kibana connector that allows Elasticsearch to create alerts and create cases in TheHive
@@ -156,13 +160,18 @@ Community and vendor-built integrations that connect various platforms with TheH
 </details>
 
 <details>
-<summary><strong>Threat Intelligence</strong> (1 integration)</summary>
+<summary><strong>Threat Intelligence</strong> (2 integrations)</summary>
 
 
 **TheHive Integration (via Polarity)** - ThreatConnect
   Polarity-TheHive integration that enables security analysts to search TheHive instances for indicators, create and manage cases, view case details including severity and status, and understand indicator context through summary tags for coordinated incident response
   Type: `integration`
   [Documentation](https://threatconnect.com/marketplace/thehive/)
+
+**The Hive App for ThreatQ** - ThreatQ
+  Webhook-based connector that monitors TheHive case and observable events in real time and pushes them to ThreatQ - mapping cases to ThreatQ events or incidents and synchronizing observables as typed indicators with TLP, tags, and bidirectional attribute updates.
+  Type: `connector`
+  [Documentation](https://helpcenter.threatq.com/Integration_Documentation/app/The_Hive.htm)
 
 </details>
 
@@ -279,6 +288,21 @@ Polarity-TheHive integration that enables security analysts to search TheHive in
 **Category:** Threat Intelligence
 
 **Documentation:** [https://threatconnect.com/marketplace/thehive/](https://threatconnect.com/marketplace/thehive/)
+
+</details>
+
+<details>
+<summary><strong>ThreatQ</strong> (1 integration)</summary>
+
+
+### The Hive App for ThreatQ
+
+Webhook-based connector that monitors TheHive case and observable events in real time and pushes them to ThreatQ - mapping cases to ThreatQ events or incidents and synchronizing observables as typed indicators with TLP, tags, and bidirectional attribute updates.
+
+**Type:** `connector`  
+**Category:** Threat Intelligence
+
+**Documentation:** [https://helpcenter.threatq.com/Integration_Documentation/app/The_Hive.htm](https://helpcenter.threatq.com/Integration_Documentation/app/The_Hive.htm)
 
 </details>
 

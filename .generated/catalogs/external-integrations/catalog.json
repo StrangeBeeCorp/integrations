@@ -1,5 +1,5 @@
 {
-  "totalIntegrations": 10,
+  "totalIntegrations": 11,
   "integrations": [
     {
       "name": "falcon2thehive",
@@ -80,6 +80,15 @@
       "type": "integration",
       "description": "Polarity-TheHive integration that enables security analysts to search TheHive instances for indicators, create and manage cases, view case details including severity and status, and understand indicator context through summary tags for coordinated incident response",
       "documentation": "https://threatconnect.com/marketplace/thehive/",
+      "category": "Threat Intelligence"
+    },
+    {
+      "name": "The Hive App for ThreatQ",
+      "vendor": "ThreatQ",
+      "vendorId": "ThreatQ",
+      "type": "connector",
+      "description": "Webhook-based connector that monitors TheHive case and observable events in real time and pushes them to ThreatQ - mapping cases to ThreatQ events or incidents and synchronizing observables as typed indicators with TLP, tags, and bidirectional attribute updates.",
+      "documentation": "https://helpcenter.threatq.com/Integration_Documentation/app/The_Hive.htm",
       "category": "Threat Intelligence"
     },
     {
@@ -187,6 +196,17 @@
         "type": "integration",
         "description": "Polarity-TheHive integration that enables security analysts to search TheHive instances for indicators, create and manage cases, view case details including severity and status, and understand indicator context through summary tags for coordinated incident response",
         "documentation": "https://threatconnect.com/marketplace/thehive/",
+        "category": "Threat Intelligence"
+      }
+    ],
+    "ThreatQ": [
+      {
+        "name": "The Hive App for ThreatQ",
+        "vendor": "ThreatQ",
+        "vendorId": "ThreatQ",
+        "type": "connector",
+        "description": "Webhook-based connector that monitors TheHive case and observable events in real time and pushes them to ThreatQ - mapping cases to ThreatQ events or incidents and synchronizing observables as typed indicators with TLP, tags, and bidirectional attribute updates.",
+        "documentation": "https://helpcenter.threatq.com/Integration_Documentation/app/The_Hive.htm",
         "category": "Threat Intelligence"
       }
     ],
@@ -299,6 +319,15 @@
         "description": "Polarity-TheHive integration that enables security analysts to search TheHive instances for indicators, create and manage cases, view case details including severity and status, and understand indicator context through summary tags for coordinated incident response",
         "documentation": "https://threatconnect.com/marketplace/thehive/",
         "category": "Threat Intelligence"
+      },
+      {
+        "name": "The Hive App for ThreatQ",
+        "vendor": "ThreatQ",
+        "vendorId": "ThreatQ",
+        "type": "connector",
+        "description": "Webhook-based connector that monitors TheHive case and observable events in real time and pushes them to ThreatQ - mapping cases to ThreatQ events or incidents and synchronizing observables as typed indicators with TLP, tags, and bidirectional attribute updates.",
+        "documentation": "https://helpcenter.threatq.com/Integration_Documentation/app/The_Hive.htm",
+        "category": "Threat Intelligence"
       }
     ]
   },
@@ -321,6 +350,15 @@
         "description": "Native Kibana connector that allows Elasticsearch to create alerts and create cases in TheHive",
         "documentation": "https://www.elastic.co/docs/reference/kibana/connectors-kibana/thehive-action-type",
         "category": "SIEM & Analytics"
+      },
+      {
+        "name": "The Hive App for ThreatQ",
+        "vendor": "ThreatQ",
+        "vendorId": "ThreatQ",
+        "type": "connector",
+        "description": "Webhook-based connector that monitors TheHive case and observable events in real time and pushes them to ThreatQ - mapping cases to ThreatQ events or incidents and synchronizing observables as typed indicators with TLP, tags, and bidirectional attribute updates.",
+        "documentation": "https://helpcenter.threatq.com/Integration_Documentation/app/The_Hive.htm",
+        "category": "Threat Intelligence"
       },
       {
         "name": "TheHive Project Connector",

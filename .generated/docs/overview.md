@@ -17,13 +17,13 @@ Built something useful? Contributions are welcome!
 
 ## Summary Statistics
 
-- **Total Vendors:** 193
+- **Total Vendors:** 194
 - **Total Analyzers:** 268
 - **Total Responders:** 144
 - **Total Functions:** 6
 - **Total Notifiers:** 8
-- **Total External Integrations:** 10
-- **Total Integrations:** 436
+- **Total External Integrations:** 11
+- **Total Integrations:** 437
 
 ## Vendors by Category
 
@@ -252,6 +252,9 @@ Built something useful? Contributions are welcome!
 
 **[ThreatConnect](vendors/ThreatConnect/overview.md)** (1 integrations)
   ThreatConnect is a threat intelligence platform that enables security teams to aggregate, analyze...
+
+**[ThreatQ](vendors/ThreatQ/overview.md)** (1 integrations)
+  ThreatQ is a threat intelligence platform that aggregates, contextualizes, and operationalizes th...
 
 **[URLhaus](vendors/URLhaus/overview.md)** (1 integrations)
   URLhaus is a community-driven platform by Abuse.ch for tracking and sharing malware distribution ...
@@ -702,6 +705,7 @@ Built something useful? Contributions are welcome!
 - **[ThreatConnect](vendors/ThreatConnect/overview.md)** - *Threat Intelligence* - 1 external
 - **[ThreatGrid](vendors/ThreatGrid/overview.md)** - *Uncategorized* - 1 analyzers
 - **[ThreatMiner](vendors/ThreatMiner/overview.md)** - *Uncategorized* - 1 analyzers
+- **[ThreatQ](vendors/ThreatQ/overview.md)** - *Threat Intelligence* - 1 external
 - **[ThreatResponse](vendors/ThreatResponse/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Thunderstorm](vendors/Thunderstorm/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Tines](vendors/Tines/overview.md)** - *SOAR & Automation* - 1 external

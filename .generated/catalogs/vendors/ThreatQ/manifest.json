@@ -1,0 +1,46 @@
+{
+  "id": "ThreatQ",
+  "name": "ThreatQ",
+  "description": "ThreatQ is a threat intelligence platform that aggregates, contextualizes, and operationalizes threat data to accelerate investigation, collaboration, and incident response",
+  "category": "Threat Intelligence",
+  "tags": [
+    "threat-intelligence",
+    "ioc",
+    "indicators",
+    "threat-hunting",
+    "threat-operations",
+    "enrichment"
+  ],
+  "homepage": "https://www.threatq.com",
+  "logo": {
+    "file": "integrations/vendors/ThreatQ/assets/logo.png",
+    "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/ThreatQ/assets/logo.png",
+    "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/ThreatQ/assets/logo.png"
+  },
+  "useCases": [],
+  "notifier": false,
+  "externalIntegrations": [
+    {
+      "name": "The Hive App for ThreatQ",
+      "description": "Webhook-based connector that monitors TheHive case and observable events in real time and pushes them to ThreatQ - mapping cases to ThreatQ events or incidents and synchronizing observables as typed indicators with TLP, tags, and bidirectional attribute updates.",
+      "type": "connector",
+      "documentation": "https://helpcenter.threatq.com/Integration_Documentation/app/The_Hive.htm"
+    }
+  ],
+  "displayOnWebsite": true,
+  "visibility": "low",
+  "integrations": {
+    "analyzers": [],
+    "responders": [],
+    "functions": []
+  },
+  "stats": {
+    "totalAnalyzers": 0,
+    "totalResponders": 0,
+    "totalFunctions": 0,
+    "totalUseCases": 0,
+    "totalExternalIntegrations": 1,
+    "totalNotifiers": 0,
+    "total": 1
+  }
+}
