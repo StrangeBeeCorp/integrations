@@ -11,6 +11,4 @@
 
 ## Changes
 
-### Added Vendors (1)
-
-- `ThreatQ`
+No changes detected.
