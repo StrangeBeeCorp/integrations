@@ -150,13 +150,13 @@
     },
     "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/AnyRun/overview.md",
     "stats": {
-      "totalAnalyzers": 1,
+      "totalAnalyzers": 7,
       "totalResponders": 0,
       "totalFunctions": 0,
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
-      "total": 1
+      "total": 7
     }
   },
   "Autofocus": {

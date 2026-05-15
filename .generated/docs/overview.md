@@ -18,12 +18,12 @@ Built something useful? Contributions are welcome!
 ## Summary Statistics
 
 - **Total Vendors:** 194
-- **Total Analyzers:** 268
+- **Total Analyzers:** 274
 - **Total Responders:** 144
 - **Total Functions:** 6
 - **Total Notifiers:** 8
 - **Total External Integrations:** 11
-- **Total Integrations:** 437
+- **Total Integrations:** 443
 
 ## Vendors by Category
 
@@ -268,7 +268,7 @@ Built something useful? Contributions are welcome!
 
 **[Anomali Staxx](vendors/StaxxSearch/overview.md)** (1 integrations)
 
-**[AnyRun](vendors/AnyRun/overview.md)** (1 integrations)
+**[AnyRun](vendors/AnyRun/overview.md)** (7 integrations)
 
 **[Autofocus](vendors/Autofocus/overview.md)** (3 integrations)
 
@@ -544,7 +544,7 @@ Built something useful? Contributions are welcome!
 - **[Airtable](vendors/Airtable/overview.md)** - *Uncategorized* - 1 functions
 - **[AlienVault OTX](vendors/OTXQuery/overview.md)** - *Threat Intelligence* - 1 analyzers
 - **[Anomali Staxx](vendors/StaxxSearch/overview.md)** - *Uncategorized* - 1 analyzers
-- **[AnyRun](vendors/AnyRun/overview.md)** - *Uncategorized* - 1 analyzers
+- **[AnyRun](vendors/AnyRun/overview.md)** - *Uncategorized* - 7 analyzers
 - **[Apache Kafka](vendors/Kafka/overview.md)** - *SOAR & Automation* - notifier
 - **[Autofocus](vendors/Autofocus/overview.md)** - *Uncategorized* - 3 analyzers
 - **[AWS Lambda](vendors/AWSLambda/overview.md)** - *Cloud Infrastructure* - 1 responders
