@@ -29,6 +29,35 @@ integrations:
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Watcher
     integration_type: null
   responders:
+  - name: Watcher Transfer
+    version: '1.1'
+    author: THA-CERT // YNE
+    license: AGPL-V3
+    description: 'Transfer domain between Watcher modules. Required tag: watcher:module=LegitDomain|WebsiteMonitoring (DESTINATION
+      module). Transfer TO LegitDomain: watcher:repurchased=Yes/No (required), watcher:contact=email (optional). Transfer
+      TO WebsiteMonitoring: watcher:legitimacy=2-6 (required), watcher:takedown_request=Yes/No, watcher:legal_team=Yes/No,
+      watcher:blocking_request=Yes/No'
+    dataTypes:
+    - thehive:case_artifact
+    file: .upstream/cortex/responders/Watcher/Watcher_Transfer.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Watcher/Watcher_Transfer.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Watcher/Watcher_Transfer.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Watcher
+    integration_type: null
+  - name: Watcher Update
+    version: '1.1'
+    author: THA-CERT // YNE
+    license: AGPL-V3
+    description: 'Update domain in Watcher. Required tags: watcher:module=LegitDomain|WebsiteMonitoring. For LegitDomain:
+      watcher:repurchased=Yes/No, watcher:contact=email (optional). For WebsiteMonitoring: watcher:legitimacy=2-6, watcher:takedown_request=Yes/No,
+      watcher:legal_team=Yes/No, watcher:blocking_request=Yes/No'
+    dataTypes:
+    - thehive:case_artifact
+    file: .upstream/cortex/responders/Watcher/Watcher_Update.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Watcher/Watcher_Update.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Watcher/Watcher_Update.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Watcher
+    integration_type: null
   - name: Watcher Add
     version: '1.1'
     author: THA-CERT // YNE
@@ -53,35 +82,6 @@ integrations:
     file: .upstream/cortex/responders/Watcher/Watcher_Remove.json
     url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Watcher/Watcher_Remove.json
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Watcher/Watcher_Remove.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Watcher
-    integration_type: null
-  - name: Watcher Update
-    version: '1.1'
-    author: THA-CERT // YNE
-    license: AGPL-V3
-    description: 'Update domain in Watcher. Required tags: watcher:module=LegitDomain|WebsiteMonitoring. For LegitDomain:
-      watcher:repurchased=Yes/No, watcher:contact=email (optional). For WebsiteMonitoring: watcher:legitimacy=2-6, watcher:takedown_request=Yes/No,
-      watcher:legal_team=Yes/No, watcher:blocking_request=Yes/No'
-    dataTypes:
-    - thehive:case_artifact
-    file: .upstream/cortex/responders/Watcher/Watcher_Update.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Watcher/Watcher_Update.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Watcher/Watcher_Update.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Watcher
-    integration_type: null
-  - name: Watcher Transfer
-    version: '1.1'
-    author: THA-CERT // YNE
-    license: AGPL-V3
-    description: 'Transfer domain between Watcher modules. Required tag: watcher:module=LegitDomain|WebsiteMonitoring (DESTINATION
-      module). Transfer TO LegitDomain: watcher:repurchased=Yes/No (required), watcher:contact=email (optional). Transfer
-      TO WebsiteMonitoring: watcher:legitimacy=2-6 (required), watcher:takedown_request=Yes/No, watcher:legal_team=Yes/No,
-      watcher:blocking_request=Yes/No'
-    dataTypes:
-    - thehive:case_artifact
-    file: .upstream/cortex/responders/Watcher/Watcher_Transfer.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Watcher/Watcher_Transfer.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Watcher/Watcher_Transfer.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Watcher
     integration_type: null
   functions: []

@@ -15,74 +15,18 @@ displayOnWebsite: false
 visibility: low
 integrations:
   analyzers:
-  - name: RiskIQ Resolutions
+  - name: RiskIQ HostpairParents
     version: '1.0'
     author: RiskIQ
     license: AGPL-V3
-    description: 'RiskIQ: PDNS resolutions for an IOC.'
+    description: 'RiskIQ: hosts with a parent web component relationship to an IOC.'
     dataTypes:
     - domain
     - fqdn
     - ip
-    file: .upstream/cortex/analyzers/RiskIQ/RiskIQ_Resolutions.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Resolutions.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Resolutions.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ
-    integration_type: null
-  - name: RiskIQ Summary
-    version: '1.0'
-    author: RiskIQ
-    license: AGPL-V3
-    description: RiskIQ Illuminate and PassiveTotal datasets with records for an indicator.
-    dataTypes:
-    - domain
-    - fqdn
-    - ip
-    file: .upstream/cortex/analyzers/RiskIQ/RiskIQ_Summary.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Summary.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Summary.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ
-    integration_type: null
-  - name: RiskIQ Trackers
-    version: '1.0'
-    author: RiskIQ
-    license: AGPL-V3
-    description: 'RiskIQ: trackers observed during a crawl on a host.'
-    dataTypes:
-    - domain
-    - fqdn
-    - ip
-    file: .upstream/cortex/analyzers/RiskIQ/RiskIQ_Trackers.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Trackers.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Trackers.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ
-    integration_type: null
-  - name: RiskIQ Cookies
-    version: '1.0'
-    author: RiskIQ
-    license: AGPL-V3
-    description: 'RiskIQ: cookies observed during crawls on a hostname.'
-    dataTypes:
-    - domain
-    - fqdn
-    - ip
-    file: .upstream/cortex/analyzers/RiskIQ/RiskIQ_Cookies.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Cookies.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Cookies.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ
-    integration_type: null
-  - name: RiskIQ Malware
-    version: '1.0'
-    author: RiskIQ
-    license: AGPL-V3
-    description: 'RiskIQ: malware hashes from various sources associated with an IOC.'
-    dataTypes:
-    - domain
-    - fqdn
-    - ip
-    file: .upstream/cortex/analyzers/RiskIQ/RiskIQ_Malware.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Malware.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Malware.json
+    file: .upstream/cortex/analyzers/RiskIQ/RiskIQ_HostpairParents.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_HostpairParents.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_HostpairParents.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ
     integration_type: null
   - name: RiskIQ Articles
@@ -99,32 +43,31 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Articles.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ
     integration_type: null
-  - name: RiskIQ Projects
+  - name: RiskIQ Summary
     version: '1.0'
     author: RiskIQ
     license: AGPL-V3
-    description: 'RiskIQ: Illuminate / PassiveTotal projects that contain an artifact which matches an IOC.'
+    description: RiskIQ Illuminate and PassiveTotal datasets with records for an indicator.
     dataTypes:
     - domain
     - fqdn
     - ip
-    file: .upstream/cortex/analyzers/RiskIQ/RiskIQ_Projects.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Projects.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Projects.json
+    file: .upstream/cortex/analyzers/RiskIQ/RiskIQ_Summary.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Summary.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Summary.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ
     integration_type: null
-  - name: RiskIQ Components
+  - name: RiskIQ Subdomains
     version: '1.0'
     author: RiskIQ
     license: AGPL-V3
-    description: 'RiskIQ: web components observed during crawls on a hostname.'
+    description: 'RiskIQ: subdomains observed historically in pDNS records.'
     dataTypes:
-    - domain
     - fqdn
-    - ip
-    file: .upstream/cortex/analyzers/RiskIQ/RiskIQ_Components.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Components.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Components.json
+    - domain
+    file: .upstream/cortex/analyzers/RiskIQ/RiskIQ_Subdomains.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Subdomains.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Subdomains.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ
     integration_type: null
   - name: RiskIQ HostpairChildren
@@ -141,6 +84,20 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_HostpairChildren.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ
     integration_type: null
+  - name: RiskIQ Trackers
+    version: '1.0'
+    author: RiskIQ
+    license: AGPL-V3
+    description: 'RiskIQ: trackers observed during a crawl on a host.'
+    dataTypes:
+    - domain
+    - fqdn
+    - ip
+    file: .upstream/cortex/analyzers/RiskIQ/RiskIQ_Trackers.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Trackers.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Trackers.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ
+    integration_type: null
   - name: RiskIQ Artifacts
     version: '1.0'
     author: RiskIQ
@@ -155,18 +112,100 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Artifacts.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ
     integration_type: null
-  - name: RiskIQ HostpairParents
+  - name: RiskIQ Resolutions
     version: '1.0'
     author: RiskIQ
     license: AGPL-V3
-    description: 'RiskIQ: hosts with a parent web component relationship to an IOC.'
+    description: 'RiskIQ: PDNS resolutions for an IOC.'
     dataTypes:
     - domain
     - fqdn
     - ip
-    file: .upstream/cortex/analyzers/RiskIQ/RiskIQ_HostpairParents.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_HostpairParents.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_HostpairParents.json
+    file: .upstream/cortex/analyzers/RiskIQ/RiskIQ_Resolutions.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Resolutions.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Resolutions.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ
+    integration_type: null
+  - name: RiskIQ Components
+    version: '1.0'
+    author: RiskIQ
+    license: AGPL-V3
+    description: 'RiskIQ: web components observed during crawls on a hostname.'
+    dataTypes:
+    - domain
+    - fqdn
+    - ip
+    file: .upstream/cortex/analyzers/RiskIQ/RiskIQ_Components.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Components.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Components.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ
+    integration_type: null
+  - name: RiskIQ Projects
+    version: '1.0'
+    author: RiskIQ
+    license: AGPL-V3
+    description: 'RiskIQ: Illuminate / PassiveTotal projects that contain an artifact which matches an IOC.'
+    dataTypes:
+    - domain
+    - fqdn
+    - ip
+    file: .upstream/cortex/analyzers/RiskIQ/RiskIQ_Projects.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Projects.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Projects.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ
+    integration_type: null
+  - name: RiskIQ Malware
+    version: '1.0'
+    author: RiskIQ
+    license: AGPL-V3
+    description: 'RiskIQ: malware hashes from various sources associated with an IOC.'
+    dataTypes:
+    - domain
+    - fqdn
+    - ip
+    file: .upstream/cortex/analyzers/RiskIQ/RiskIQ_Malware.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Malware.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Malware.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ
+    integration_type: null
+  - name: RiskIQ Services
+    version: '1.0'
+    author: RiskIQ
+    license: AGPL-V3
+    description: 'RiskIQ: services observed on an IP address.'
+    dataTypes:
+    - ip
+    file: .upstream/cortex/analyzers/RiskIQ/RiskIQ_Services.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Services.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Services.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ
+    integration_type: null
+  - name: RiskIQ Whois
+    version: '1.0'
+    author: RiskIQ
+    license: AGPL-V3
+    description: RiskIQ Whois lookup for an indicator.
+    dataTypes:
+    - domain
+    - fqdn
+    - ip
+    file: .upstream/cortex/analyzers/RiskIQ/RiskIQ_Whois.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Whois.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Whois.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ
+    integration_type: null
+  - name: RiskIQ Cookies
+    version: '1.0'
+    author: RiskIQ
+    license: AGPL-V3
+    description: 'RiskIQ: cookies observed during crawls on a hostname.'
+    dataTypes:
+    - domain
+    - fqdn
+    - ip
+    file: .upstream/cortex/analyzers/RiskIQ/RiskIQ_Cookies.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Cookies.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Cookies.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ
     integration_type: null
   - name: RiskIQ Certificates
@@ -195,45 +234,6 @@ integrations:
     file: .upstream/cortex/analyzers/RiskIQ/RiskIQ_Reputation.json
     url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Reputation.json
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Reputation.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ
-    integration_type: null
-  - name: RiskIQ Subdomains
-    version: '1.0'
-    author: RiskIQ
-    license: AGPL-V3
-    description: 'RiskIQ: subdomains observed historically in pDNS records.'
-    dataTypes:
-    - fqdn
-    - domain
-    file: .upstream/cortex/analyzers/RiskIQ/RiskIQ_Subdomains.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Subdomains.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Subdomains.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ
-    integration_type: null
-  - name: RiskIQ Whois
-    version: '1.0'
-    author: RiskIQ
-    license: AGPL-V3
-    description: RiskIQ Whois lookup for an indicator.
-    dataTypes:
-    - domain
-    - fqdn
-    - ip
-    file: .upstream/cortex/analyzers/RiskIQ/RiskIQ_Whois.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Whois.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Whois.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ
-    integration_type: null
-  - name: RiskIQ Services
-    version: '1.0'
-    author: RiskIQ
-    license: AGPL-V3
-    description: 'RiskIQ: services observed on an IP address.'
-    dataTypes:
-    - ip
-    file: .upstream/cortex/analyzers/RiskIQ/RiskIQ_Services.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Services.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Services.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ
     integration_type: null
   responders:

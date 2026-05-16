@@ -11,6 +11,4 @@
 
 ## Changes
 
-### Updated Vendors (1)
-
-- **AnyRun**: 1 -> 7 (+6)
+No changes detected.
