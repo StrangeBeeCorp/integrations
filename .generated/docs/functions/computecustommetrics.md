@@ -2,7 +2,7 @@
 
 ## Metadata
 
-- **Version:** `1.0.0`
+- **Version:** `2.0.0`
 - **Type:** Generic Function
 - **Function Type:** `Notifier`
 - **Kind:** `function`
@@ -11,87 +11,184 @@
 
 ## Description
 
-This function computes two key response metrics for every case in TheHive:
-– **Time‑to‑Respond (TTR)**: delay (in minutes) between the case's start date and the *earliest* task in the
-  "3 ‑ Communication", "4 ‑ Containment", or "5 ‑ Eradication" task groups.
-– **Time‑to‑Contain (TTC)**: delay (in minutes) between the case's start date and the *latest* task in the
-  "4 ‑ Containment" task group.
+Computes two incident response metrics on TheHive cases and writes them as custom fields.
 
-It can run in two modes:
-• **Batch mode** (no `input` object) – loops through a page of cases to back‑fill or refresh metrics.
-• **Event‑driven mode** (`input` is a case payload) – updates metrics for the affected case only.
+## Metrics
 
-The function writes both the raw task timestamp and the computed metric to the following custom fields
-(create them in your Case template):
-  • `timestamp‑time‑to‑respond` (Number – epoch ms)
-  • `time‑to‑respond‑in‑minutes` (Number)
-  • `timestamp‑time‑to‑contain` (Number – epoch ms)
-  • `time‑to‑contain‑in‑minutes` (Number)
+**Time-to-Respond (TTR)**
+How long (in minutes) between the case start date and the *earliest* started task in the
+"Communication", "Containment", or "Eradication" task groups.
+Answers: "How quickly did we begin responding?"
 
-Param:
-  – **input**: Either an empty object (batch trigger) or the Case JSON injected by TheHive when the
-               notification fires. This triggers a search to find all valid cases to update.
-  – **context**: Utility object providing access to TheHive API helpers (`query`, `caze`, etc.). This applies the metrics computation only on the notified case object.
+**Time-to-Contain (TTC)**
+How long (in minutes) between the case start date and the *latest* started task in the
+"Containment" task group.
+Answers: "How long until the threat was fully contained?"
 
-Prerequisites:
-  • The custom fields listed above must exist in the tenant.
-  • Task groups must follow the naming convention shown here.
-  • You may adjust page size, task groups, or field names to suit your workflows & even your own computation logic for your custom metrics. Those are shown as examples, relying on SOC-101 Metrics definition and SANS Incident Handler's handbook style tasks.
+## Modes
+
+- **Event-driven** (recommended): Attach as a Notifier to a case/task update notification.
+  Computes metrics for the notified case only. A good example is to trigger the function based on CaseClosed event.
+- **Batch**: Call via the API with an empty body `{}` to backfill metrics on existing cases
+  (processes the first 80 cases per run).
+
+## Required custom fields
+
+Create these four custom fields in your tenant before using:
+  - `timestamp-time-to-respond` (Date)
+  - `time-to-respond-in-minutes` (Number)
+  - `timestamp-time-to-contain` (Date)
+  - `time-to-contain-in-minutes` (Number)
+
+## Requirements
+
+- Task groups in your case templates must match the names used in this function
+  ("Communication", "Containment", "Eradication"). Adjust the constants in the code
+  if your naming differs.
+- Tasks must have been *started* (have a startDate) to be counted.
+- Cases with no matching started tasks are skipped.
+
+Metric definitions follow SOC-101 and the SANS Incident Handler's Handbook.
+Adapt task groups, field names, and computation logic to fit your workflows.
 
 
 ## Code
 
 ```javascript
-function mainRespondMetricTrigger(input, context) {
-  const taskGroup = ["3 - Communication", "4 - Containment", "5 - Eradication"];
-  const timestampCustomField = "timestamp-time-to-respond";
-  const metricCustomField = "time-to-respond-in-minutes";
-  const timestampType = "earliest";
-  const customStartDateField = "startDate";
-
-  if (Object.entries(input).length === 0 && input.constructor === Object) {
-    const filtersQuery = [
-      {
-        _name: "listCase"
-      },
-      {
-        _name: "page",
-        from: 0,
-        to: 10
-      }
-    ];
-
-    processCases(taskGroup, timestampCustomField, metricCustomField, filtersQuery, context, timestampType, customStartDateField);
-  } else {
-    processSingleCase(input, taskGroup, timestampCustomField, metricCustomField, context, timestampType, customStartDateField);
+// ---------------------------------------------------------------------------
+// Metric definitions — add or edit entries here to extend to 3, 4+ metrics
+// ---------------------------------------------------------------------------
+const METRICS = [
+  {
+    taskGroups: ["Communication", "Containment", "Eradication"],
+    timestampCustomField: "timestamp-time-to-respond",
+    metricCustomField: "time-to-respond-in-minutes",
+    timestampType: "earliest"
+  },
+  {
+    taskGroups: ["Containment"],
+    timestampCustomField: "timestamp-time-to-contain",
+    metricCustomField: "time-to-contain-in-minutes",
+    timestampType: "latest"
   }
+];
+
+// ---------------------------------------------------------------------------
+// Resolve the best timestamp for a single task:
+//   1. includeInTimeline from logs (preferred — reflects actual action time)
+//   2. task.startDate (fallback)
+//   3. null (task is excluded)
+// ---------------------------------------------------------------------------
+function getEffectiveTaskTimestamp(task, context, timestampType) {
+  const logs = context.query.execute([
+    { _name: "getTask", idOrName: task._id },
+    { _name: "logs" }
+  ]);
+
+  const timelineTimestamps = logs
+    .map(log => log.includeInTimeline)
+    .filter(ts => ts !== undefined && ts !== null);
+
+  if (timelineTimestamps.length > 0) {
+    const picked = timestampType === "earliest"
+      ? Math.min(...timelineTimestamps)
+      : Math.max(...timelineTimestamps);
+    console.log(`Task ${task._id} (${task.title}): using includeInTimeline from ${timelineTimestamps.length} log(s) → ${picked}`);
+    return picked;
+  }
+
+  if (task.startDate !== undefined) {
+    const fallback = new Date(task.startDate).getTime();
+    console.log(`Task ${task._id} (${task.title}): no includeInTimeline found, falling back to startDate → ${fallback}`);
+    return fallback;
+  }
+
+  console.log(`Task ${task._id} (${task.title}): no usable timestamp, skipping.`);
+  return null;
 }
 
-function mainContainMetricTrigger(input, context) {
-  const taskGroup = ["4 - Containment"];
-  const timestampCustomField = "timestamp-time-to-contain";
-  const metricCustomField = "time-to-contain-in-minutes";
-  const timestampType = "latest";
-  const customStartDateField = "endDate";
+// ---------------------------------------------------------------------------
+// Compute one metric for a case and push the results into allUpdates.
+// Does NOT write to TheHive — caller is responsible for the single update.
+// ---------------------------------------------------------------------------
+function collectMetric(caze, metric, context, allUpdates) {
+  const { taskGroups, timestampCustomField, metricCustomField, timestampType } = metric;
+  const caseStartDate = caze.startDate;
 
-  if (Object.entries(input).length === 0 && input.constructor === Object) {
-    const filtersQuery = [
-      {
-        _name: "listCase"
-      },
-      {
-        _name: "page",
-        from: 0,
-        to: 10
-      }
-    ];
+  const tasksOfCase = context.query.execute([
+    { _name: "getCase", idOrName: caze._id },
+    { _name: "tasks" }
+  ]);
 
-    processCases(taskGroup, timestampCustomField, metricCustomField, filtersQuery, context, timestampType, customStartDateField);
-  } else {
-    processSingleCase(input, taskGroup, timestampCustomField, metricCustomField, context, timestampType, customStartDateField);
+  const filteredTasks = tasksOfCase.filter(task => taskGroups.includes(task.group));
+  console.log(`[${metricCustomField}] Filtered tasks: ${filteredTasks.length}`);
+
+  const effectiveTimestamps = filteredTasks
+    .map(task => getEffectiveTaskTimestamp(task, context, timestampType))
+    .filter(ts => ts !== null);
+  console.log(`[${metricCustomField}] Effective timestamps resolved: ${effectiveTimestamps.length}`);
+
+  if (effectiveTimestamps.length === 0) {
+    console.log(`[${metricCustomField}] No usable timestamps in groups [${taskGroups.join(", ")}] — skipping.`);
+    return;
   }
+
+  const targetTs = timestampType === "earliest"
+    ? Math.min(...effectiveTimestamps)
+    : Math.max(...effectiveTimestamps);
+
+  let metricTimeMinutes = null;
+  let timestampValue = targetTs;
+
+  if (Number.isFinite(targetTs) && Number.isFinite(caseStartDate)) {
+    metricTimeMinutes = parseFloat(((targetTs - caseStartDate) / (60 * 1000)).toFixed(1));
+  } else {
+    console.log(`[${metricCustomField}] Cannot compute — caseStartDate: ${caseStartDate}, targetTs: ${targetTs}`);
+    timestampValue = null;
+  }
+
+  console.log(`Value for ${timestampCustomField}: ${timestampValue}`);
+  console.log(`Value for ${metricCustomField}: ${metricTimeMinutes}`);
+
+  allUpdates.push({ name: timestampCustomField, value: timestampValue });
+  allUpdates.push({ name: metricCustomField, value: metricTimeMinutes });
 }
 
+// ---------------------------------------------------------------------------
+// Compute ALL metrics for a case and write them in a single update call.
+// ---------------------------------------------------------------------------
+function computeAndUpdateCase(caze, context) {
+  console.log("---------------------");
+  console.log(`Processing case ID: ${caze._id} — Case Number: ${caze.number}`);
+
+  const allUpdates = [];
+  METRICS.forEach(metric => collectMetric(caze, metric, context, allUpdates));
+
+  if (allUpdates.length === 0) {
+    console.log("No metric updates to write — skipping case update.");
+    return;
+  }
+
+  const customFieldsUpdated = updateOrAddCustomFields(caze.customFields, allUpdates);
+  context.caze.update(caze._id, { customFields: customFieldsUpdated });
+  console.log("Case update completed — all metrics written in one call.");
+  console.log("--");
+}
+
+// ---------------------------------------------------------------------------
+// Batch: iterate over a page of cases
+// ---------------------------------------------------------------------------
+function processCases(filtersQuery, context) {
+  console.log("---------------------");
+  console.log("Batch mode: listing cases...");
+  const list = context.query.execute(filtersQuery);
+  console.log(`Cases found: ${list.length}`);
+  list.forEach(caze => computeAndUpdateCase(caze, context));
+}
+
+// ---------------------------------------------------------------------------
+// Merge custom field updates into the existing array (update or append)
+// ---------------------------------------------------------------------------
 function updateOrAddCustomFields(customFields, customFieldUpdates) {
   customFieldUpdates.forEach(customFieldUpdate => {
     if (customFieldUpdate.value === null || customFieldUpdate.value === '') {
@@ -109,111 +206,23 @@ function updateOrAddCustomFields(customFields, customFieldUpdates) {
     });
 
     if (!fieldFound) {
-      customFields.push({
-        name: customFieldUpdate.name,
-        value: customFieldUpdate.value
-      });
+      customFields.push({ name: customFieldUpdate.name, value: customFieldUpdate.value });
     }
   });
 
   return customFields;
 }
 
-function processSingleCase(caze, taskGroups, timestampCustomField, metricCustomField, context, timestampType = "earliest", customStartDateField = "startDate") {
-  console.log("---------------------");
-  const caseId = caze._id;
-  const caseCustomFields = caze.customFields;
-  const caseStartDate = caze.startDate;
-  //const caseStartDate = caze[customStartDateField];
-  console.log(`Processing case ID: ${caseId}`);
-  console.log(`Case Number: ${caze.number}`);
-
-  const taskFilters = [
-    {
-      _name: "getCase",
-      idOrName: caseId
-    },
-    {
-      _name: "tasks"
-    }
-  ];
-
-  const tasksOfCase = context.query.execute(taskFilters);
-  const filteredTasks = tasksOfCase.filter(task => taskGroups.includes(task.group));
-  console.log(`Filtered tasks in case: ${filteredTasks.length}`);
-  const filteredTasksWithStartDate = filteredTasks.filter(task => task.startDate !== undefined);
-  console.log(`Filtered tasks with start date in case: ${filteredTasksWithStartDate.length}`);
-  const startDates = filteredTasksWithStartDate.map(task => new Date(task.startDate).getTime());
-
-  let targetStartDate;
-  if (timestampType === "earliest") {
-    targetStartDate = Math.min(...startDates);
-    console.log(`Earliest ${customStartDateField}: ${targetStartDate}`);
-  } else if (timestampType === "latest") {
-    targetStartDate = Math.max(...startDates);
-    console.log(`Latest ${customStartDateField}: ${targetStartDate}`);
-  } else {
-    console.error("Invalid timestampType. Please use 'earliest' or 'latest'.");
-    return;
-  }
-
-  let metricTimeMinutes = null;
-  let timestampValue = targetStartDate;
-  if (Number.isFinite(targetStartDate) && Number.isFinite(caseStartDate)) {
-    metricTimeMinutes = (targetStartDate - caseStartDate) / (60 * 1000);
-  } else {
-    console.log(`CaseStartDate ${caseStartDate}: targetStartDate ${targetStartDate}`);
-    timestampValue = null;
-  }
-
-  console.log(`Value for ${timestampCustomField}: ${timestampValue}`);
-  console.log(`Value for ${metricCustomField}: ${metricTimeMinutes}`);
-
-  const customFieldToAdd = [
-    {
-      name: timestampCustomField,
-      value: timestampValue
-    },
-    {
-      name: metricCustomField,
-      value: metricTimeMinutes
-    }
-  ];
-
-  const customFieldsUpdated = updateOrAddCustomFields(caseCustomFields, customFieldToAdd);
-
-  const caseUpdate = {
-    customFields: customFieldsUpdated
-  };
-
-  context.caze.update(caseId, caseUpdate);
-  console.log("Case update completed!");
-  console.log("--");
-}
-
-function processCases(taskGroups, timestampCustomField, metricCustomField, filtersQuery, context, timestampType = "earliest", customStartDateField = "startDate") {
-  console.log("---------------------");
-  console.log(`Listing all cases with ${metricCustomField}`);
-
-  const list = context.query.execute(filtersQuery);
-  const count = list.length;
-  console.log(`The count of objects in the list is: ${count}`);
-
-  list.forEach(caze => {
-    processSingleCase(caze, taskGroups, timestampCustomField, metricCustomField, context, timestampType, customStartDateField);
-  });
-}
-
+// ---------------------------------------------------------------------------
+// Entry point
+// ---------------------------------------------------------------------------
 function handle(input, context) {
   if (Object.entries(input).length === 0 && input.constructor === Object) {
-    console.log("HANDLE - No input -- Triggering basic behaviour on a list of cases");
-    mainRespondMetricTrigger(input, context);
-    mainContainMetricTrigger(input, context);
+    console.log("HANDLE - No input — Batch mode");
+    processCases([{ _name: "listCase" }, { _name: "page", from: 0, to: 80 }], context);
   } else {
-    console.log("HANDLE - Input Found -- Event-driven");
-    //processSingleCase(input, ["4 - Containment"], "timestamp-time-to-contain", "time-to-contain-in-minutes", context, "latest", "endDate");
-    mainRespondMetricTrigger(input, context);
-    mainContainMetricTrigger(input, context);
+    console.log("HANDLE - Input found — Event-driven");
+    computeAndUpdateCase(input, context);
   }
 }
 ```

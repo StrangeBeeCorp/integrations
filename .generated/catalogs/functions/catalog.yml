@@ -59,22 +59,21 @@ functions:
   file: integrations/generic/functions/function_notifier_externalAccessAutomation.js
   vendor: Generic
 - name: computeCustomMetrics
-  version: 1.0.0
-  description: "This function computes two key response metrics for every case in TheHive:\n– **Time‑to‑Respond (TTR)**: delay\
-    \ (in minutes) between the case's start date and the *earliest* task in the\n  \"3 ‑ Communication\", \"4 ‑ Containment\"\
-    , or \"5 ‑ Eradication\" task groups.\n– **Time‑to‑Contain (TTC)**: delay (in minutes) between the case's start date and\
-    \ the *latest* task in the\n  \"4 ‑ Containment\" task group.\n\nIt can run in two modes:\n• **Batch mode** (no `input`\
-    \ object) – loops through a page of cases to back‑fill or refresh metrics.\n• **Event‑driven mode** (`input` is a case\
-    \ payload) – updates metrics for the affected case only.\n\nThe function writes both the raw task timestamp and the computed\
-    \ metric to the following custom fields\n(create them in your Case template):\n  • `timestamp‑time‑to‑respond` (Number\
-    \ – epoch ms)\n  • `time‑to‑respond‑in‑minutes` (Number)\n  • `timestamp‑time‑to‑contain` (Number – epoch ms)\n  • `time‑to‑contain‑in‑minutes`\
-    \ (Number)\n\nParam:\n  – **input**: Either an empty object (batch trigger) or the Case JSON injected by TheHive when\
-    \ the\n               notification fires. This triggers a search to find all valid cases to update.\n  – **context**:\
-    \ Utility object providing access to TheHive API helpers (`query`, `caze`, etc.). This applies the metrics computation\
-    \ only on the notified case object.\n\nPrerequisites:\n  • The custom fields listed above must exist in the tenant.\n\
-    \  • Task groups must follow the naming convention shown here.\n  • You may adjust page size, task groups, or field names\
-    \ to suit your workflows & even your own computation logic for your custom metrics. Those are shown as examples, relying\
-    \ on SOC-101 Metrics definition and SANS Incident Handler's handbook style tasks.\n"
+  version: 2.0.0
+  description: "Computes two incident response metrics on TheHive cases and writes them as custom fields.\n\n## Metrics\n\n\
+    **Time-to-Respond (TTR)**\nHow long (in minutes) between the case start date and the *earliest* started task in the\n\"\
+    Communication\", \"Containment\", or \"Eradication\" task groups.\nAnswers: \"How quickly did we begin responding?\"\n\
+    \n**Time-to-Contain (TTC)**\nHow long (in minutes) between the case start date and the *latest* started task in the\n\"\
+    Containment\" task group.\nAnswers: \"How long until the threat was fully contained?\"\n\n## Modes\n\n- **Event-driven**\
+    \ (recommended): Attach as a Notifier to a case/task update notification.\n  Computes metrics for the notified case only.\
+    \ A good example is to trigger the function based on CaseClosed event.\n- **Batch**: Call via the API with an empty body\
+    \ `{}` to backfill metrics on existing cases\n  (processes the first 80 cases per run).\n\n## Required custom fields\n\
+    \nCreate these four custom fields in your tenant before using:\n  - `timestamp-time-to-respond` (Date)\n  - `time-to-respond-in-minutes`\
+    \ (Number)\n  - `timestamp-time-to-contain` (Date)\n  - `time-to-contain-in-minutes` (Number)\n\n## Requirements\n\n-\
+    \ Task groups in your case templates must match the names used in this function\n  (\"Communication\", \"Containment\"\
+    , \"Eradication\"). Adjust the constants in the code\n  if your naming differs.\n- Tasks must have been *started* (have\
+    \ a startDate) to be counted.\n- Cases with no matching started tasks are skipped.\n\nMetric definitions follow SOC-101\
+    \ and the SANS Incident Handler's Handbook.\nAdapt task groups, field names, and computation logic to fit your workflows.\n"
   type: Notifier
   kind: function
   mode: Enabled

@@ -92,37 +92,50 @@ This function will find the "New" or "InProgress" cases that were not updated si
 
 ---
 
-### [computeCustomMetrics](computecustommetrics.md) `v1.0.0`
+### [computeCustomMetrics](computecustommetrics.md) `v2.0.0`
 
 **Type:** Notifier
 **Mode:** Enabled
 
-This function computes two key response metrics for every case in TheHive:
-– **Time‑to‑Respond (TTR)**: delay (in minutes) between the case's start date and the *earliest* task in the
-  "3 ‑ Communication", "4 ‑ Containment", or "5 ‑ Eradication" task groups.
-– **Time‑to‑Contain (TTC)**: delay (in minutes) between the case's start date and the *latest* task in the
-  "4 ‑ Containment" task group.
+Computes two incident response metrics on TheHive cases and writes them as custom fields.
 
-It can run in two modes:
-• **Batch mode** (no `input` object) – loops through a page of cases to back‑fill or refresh metrics.
-• **Event‑driven mode** (`input` is a case payload) – updates metrics for the affected case only.
+## Metrics
 
-The function writes both the raw task timestamp and the computed metric to the following custom fields
-(create them in your Case template):
-  • `timestamp‑time‑to‑respond` (Number – epoch ms)
-  • `time‑to‑respond‑in‑minutes` (Number)
-  • `timestamp‑time‑to‑contain` (Number – epoch ms)
-  • `time‑to‑contain‑in‑minutes` (Number)
+**Time-to-Respond (TTR)**
+How long (in minutes) between the case start date and the *earliest* started task in the
+"Communication", "Containment", or "Eradication" task groups.
+Answers: "How quickly did we begin responding?"
 
-Param:
-  – **input**: Either an empty object (batch trigger) or the Case JSON injected by TheHive when the
-               notification fires. This triggers a search to find all valid cases to update.
-  – **context**: Utility object providing access to TheHive API helpers (`query`, `caze`, etc.). This applies the metrics computation only on the notified case object.
+**Time-to-Contain (TTC)**
+How long (in minutes) between the case start date and the *latest* started task in the
+"Containment" task group.
+Answers: "How long until the threat was fully contained?"
 
-Prerequisites:
-  • The custom fields listed above must exist in the tenant.
-  • Task groups must follow the naming convention shown here.
-  • You may adjust page size, task groups, or field names to suit your workflows & even your own computation logic for your custom metrics. Those are shown as examples, relying on SOC-101 Metrics definition and SANS Incident Handler's handbook style tasks.
+## Modes
+
+- **Event-driven** (recommended): Attach as a Notifier to a case/task update notification.
+  Computes metrics for the notified case only. A good example is to trigger the function based on CaseClosed event.
+- **Batch**: Call via the API with an empty body `{}` to backfill metrics on existing cases
+  (processes the first 80 cases per run).
+
+## Required custom fields
+
+Create these four custom fields in your tenant before using:
+  - `timestamp-time-to-respond` (Date)
+  - `time-to-respond-in-minutes` (Number)
+  - `timestamp-time-to-contain` (Date)
+  - `time-to-contain-in-minutes` (Number)
+
+## Requirements
+
+- Task groups in your case templates must match the names used in this function
+  ("Communication", "Containment", "Eradication"). Adjust the constants in the code
+  if your naming differs.
+- Tasks must have been *started* (have a startDate) to be counted.
+- Cases with no matching started tasks are skipped.
+
+Metric definitions follow SOC-101 and the SANS Incident Handler's Handbook.
+Adapt task groups, field names, and computation logic to fit your workflows.
 
 
 [View full documentation](computecustommetrics.md)
