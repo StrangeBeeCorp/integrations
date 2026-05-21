@@ -72,8 +72,11 @@ functions:
     \ (Number)\n  - `timestamp-time-to-contain` (Date)\n  - `time-to-contain-in-minutes` (Number)\n\n## Requirements\n\n-\
     \ Task groups in your case templates must match the names used in this function\n  (\"Communication\", \"Containment\"\
     , \"Eradication\"). Adjust the constants in the code\n  if your naming differs.\n- Tasks must have been *started* (have\
-    \ a startDate) to be counted.\n- Cases with no matching started tasks are skipped.\n\nMetric definitions follow SOC-101\
-    \ and the SANS Incident Handler's Handbook.\nAdapt task groups, field names, and computation logic to fit your workflows.\n"
+    \ a startDate) to be counted.\n- Cases with no matching started tasks are skipped.\n\nThe baseline date used as t0 for\
+    \ all metrics is controlled by the `BASELINE_DATE`\nconstant at the top of the script. Default is `startDate` (time the\
+    \ event occurred).\nOther options: `_createdAt` (case created in TheHive), `newDate` (first New-stage\nstatus), `inProgressDate`\
+    \ (first InProgress-stage status).\n\nMetric definitions follow SOC-101 and the SANS Incident Handler's Handbook.\nAdapt\
+    \ task groups, field names, and computation logic to fit your workflows.\n"
   type: Notifier
   kind: function
   mode: Enabled

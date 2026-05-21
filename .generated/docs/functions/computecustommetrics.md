@@ -48,6 +48,11 @@ Create these four custom fields in your tenant before using:
 - Tasks must have been *started* (have a startDate) to be counted.
 - Cases with no matching started tasks are skipped.
 
+The baseline date used as t0 for all metrics is controlled by the `BASELINE_DATE`
+constant at the top of the script. Default is `startDate` (time the event occurred).
+Other options: `_createdAt` (case created in TheHive), `newDate` (first New-stage
+status), `inProgressDate` (first InProgress-stage status).
+
 Metric definitions follow SOC-101 and the SANS Incident Handler's Handbook.
 Adapt task groups, field names, and computation logic to fit your workflows.
 
@@ -55,6 +60,15 @@ Adapt task groups, field names, and computation logic to fit your workflows.
 ## Code
 
 ```javascript
+// ---------------------------------------------------------------------------
+// Baseline date field used as t0 for all metrics.
+// Options: "startDate"      (time the event occurred; shown as Start date in UI)
+//          "_createdAt"     (time the case was created in TheHive)
+//          "newDate"        (first time the case entered a New-stage status)
+//          "inProgressDate" (first time the case entered an InProgress-stage status)
+// ---------------------------------------------------------------------------
+const BASELINE_DATE = "startDate";
+
 // ---------------------------------------------------------------------------
 // Metric definitions — add or edit entries here to extend to 3, 4+ metrics
 // ---------------------------------------------------------------------------
@@ -113,7 +127,7 @@ function getEffectiveTaskTimestamp(task, context, timestampType) {
 // ---------------------------------------------------------------------------
 function collectMetric(caze, metric, context, allUpdates) {
   const { taskGroups, timestampCustomField, metricCustomField, timestampType } = metric;
-  const caseStartDate = caze.startDate;
+  const caseStartDate = caze[BASELINE_DATE];
 
   const tasksOfCase = context.query.execute([
     { _name: "getCase", idOrName: caze._id },

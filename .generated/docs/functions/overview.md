@@ -134,6 +134,11 @@ Create these four custom fields in your tenant before using:
 - Tasks must have been *started* (have a startDate) to be counted.
 - Cases with no matching started tasks are skipped.
 
+The baseline date used as t0 for all metrics is controlled by the `BASELINE_DATE`
+constant at the top of the script. Default is `startDate` (time the event occurred).
+Other options: `_createdAt` (case created in TheHive), `newDate` (first New-stage
+status), `inProgressDate` (first InProgress-stage status).
+
 Metric definitions follow SOC-101 and the SANS Incident Handler's Handbook.
 Adapt task groups, field names, and computation logic to fit your workflows.
 
