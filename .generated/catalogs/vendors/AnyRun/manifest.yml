@@ -18,6 +18,18 @@ subscription_required: true
 free_subscription: false
 integrations:
   analyzers:
+  - name: AnyRun Sandbox File Android
+    version: '1.0'
+    author: ANY.RUN Integrations Team
+    license: AGPL-V3
+    description: Run File analysis using Android VM
+    dataTypes:
+    - file
+    file: .upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_File_Android.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_File_Android.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_File_Android.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun
+    integration_type: null
   - name: AnyRun Sandbox URL Linux
     version: '1.0'
     author: ANY.RUN Integrations Team
@@ -28,6 +40,18 @@ integrations:
     file: .upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Linux.json
     url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Linux.json
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Linux.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun
+    integration_type: null
+  - name: AnyRun Sandbox URL Windows
+    version: '1.0'
+    author: ANY.RUN Integrations Team
+    license: AGPL-V3
+    description: Run URL analysis using Windows VM
+    dataTypes:
+    - url
+    file: .upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Windows.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Windows.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Windows.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun
     integration_type: null
   - name: AnyRun TI Lookup
@@ -45,30 +69,6 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/AnyRun/AnyRun_TI_Lookup.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun
     integration_type: null
-  - name: AnyRun Sandbox URL Android
-    version: '1.0'
-    author: ANY.RUN Integrations Team
-    license: AGPL-V3
-    description: Run URL analysis using Android VM
-    dataTypes:
-    - url
-    file: .upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Android.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Android.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Android.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun
-    integration_type: null
-  - name: AnyRun Sandbox URL Windows
-    version: '1.0'
-    author: ANY.RUN Integrations Team
-    license: AGPL-V3
-    description: Run URL analysis using Windows VM
-    dataTypes:
-    - url
-    file: .upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Windows.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Windows.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Windows.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun
-    integration_type: null
   - name: AnyRun Sandbox File Linux
     version: '1.0'
     author: ANY.RUN Integrations Team
@@ -81,18 +81,6 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_File_Linux.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun
     integration_type: null
-  - name: AnyRun Sandbox File Android
-    version: '1.0'
-    author: ANY.RUN Integrations Team
-    license: AGPL-V3
-    description: Run File analysis using Android VM
-    dataTypes:
-    - file
-    file: .upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_File_Android.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_File_Android.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_File_Android.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun
-    integration_type: null
   - name: AnyRun Sandbox File Windows
     version: '1.0'
     author: ANY.RUN Integrations Team
@@ -103,6 +91,18 @@ integrations:
     file: .upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_File_Windows.json
     url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_File_Windows.json
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_File_Windows.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun
+    integration_type: null
+  - name: AnyRun Sandbox URL Android
+    version: '1.0'
+    author: ANY.RUN Integrations Team
+    license: AGPL-V3
+    description: Run URL analysis using Android VM
+    dataTypes:
+    - url
+    file: .upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Android.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Android.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Android.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun
     integration_type: null
   responders: []
