@@ -14,21 +14,6 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "MetaDefenderCloud GetReport",
-        "version": "1.0",
-        "author": "Davide Arcuri and Andrea Garavaglia, LDO-CERT",
-        "license": "AGPL-V3",
-        "description": "Get the latest MetaDefender Cloud report for hash.",
-        "dataTypes": [
-          "hash"
-        ],
-        "file": ".upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_GetReport.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_GetReport.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_GetReport.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MetaDefender",
-        "integration_type": null
-      },
-      {
         "name": "MetaDefenderCore GetReport",
         "version": "1.0",
         "author": "Davide Arcuri and Andrea Garavaglia, LDO-CERT",
@@ -40,6 +25,23 @@
         "file": ".upstream/cortex/analyzers/MetaDefender/MetaDefenderCore_GetReport.json",
         "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCore_GetReport.json",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCore_GetReport.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MetaDefender",
+        "integration_type": null
+      },
+      {
+        "name": "MetaDefenderCloud Reputation",
+        "version": "1.0",
+        "author": "Davide Arcuri and Andrea Garavaglia, LDO-CERT",
+        "license": "AGPL-V3",
+        "description": "Get the latest MetaDefender Cloud reputation report .",
+        "dataTypes": [
+          "ip",
+          "url",
+          "domain"
+        ],
+        "file": ".upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_Reputation.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_Reputation.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_Reputation.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MetaDefender",
         "integration_type": null
       },
@@ -59,19 +61,17 @@
         "integration_type": null
       },
       {
-        "name": "MetaDefenderCloud Reputation",
+        "name": "MetaDefenderCloud GetReport",
         "version": "1.0",
         "author": "Davide Arcuri and Andrea Garavaglia, LDO-CERT",
         "license": "AGPL-V3",
-        "description": "Get the latest MetaDefender Cloud reputation report .",
+        "description": "Get the latest MetaDefender Cloud report for hash.",
         "dataTypes": [
-          "ip",
-          "url",
-          "domain"
+          "hash"
         ],
-        "file": ".upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_Reputation.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_Reputation.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_Reputation.json",
+        "file": ".upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_GetReport.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_GetReport.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_GetReport.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MetaDefender",
         "integration_type": null
       },

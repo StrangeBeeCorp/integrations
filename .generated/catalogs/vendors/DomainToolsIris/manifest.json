@@ -17,21 +17,6 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "DomainToolsIris Investigate",
-        "version": "1.0",
-        "author": "DomainTools",
-        "license": "AGPL-V3",
-        "description": "Use DomainTools Iris API to investigate a domain.",
-        "dataTypes": [
-          "domain"
-        ],
-        "file": ".upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Investigate.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Investigate.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Investigate.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainToolsIris",
-        "integration_type": null
-      },
-      {
         "name": "DomainToolsIris Pivot",
         "version": "1.0",
         "author": "DomainTools",
@@ -45,6 +30,21 @@
         "file": ".upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Pivot.json",
         "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Pivot.json",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Pivot.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainToolsIris",
+        "integration_type": null
+      },
+      {
+        "name": "DomainToolsIris Investigate",
+        "version": "1.0",
+        "author": "DomainTools",
+        "license": "AGPL-V3",
+        "description": "Use DomainTools Iris API to investigate a domain.",
+        "dataTypes": [
+          "domain"
+        ],
+        "file": ".upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Investigate.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Investigate.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/DomainToolsIris/DomainToolsIris_Investigate.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainToolsIris",
         "integration_type": null
       }

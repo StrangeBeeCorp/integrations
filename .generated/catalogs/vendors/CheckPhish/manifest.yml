@@ -15,18 +15,6 @@ displayOnWebsite: true
 visibility: 100
 integrations:
   analyzers:
-  - name: CheckPhish Submit
-    version: '1.0'
-    author: Peter Juhas
-    license: AGPL-V3
-    description: Submit url address to CheckPhish
-    dataTypes:
-    - url
-    file: .upstream/cortex/analyzers/CheckPhish/CheckPhish_Submit.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/CheckPhish/CheckPhish_Submit.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/CheckPhish/CheckPhish_Submit.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CheckPhish
-    integration_type: null
   - name: CheckPhish
     version: '1.0'
     author: Peter Juhas
@@ -37,6 +25,18 @@ integrations:
     file: .upstream/cortex/analyzers/CheckPhish/CheckPhish.json
     url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/CheckPhish/CheckPhish.json
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/CheckPhish/CheckPhish.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CheckPhish
+    integration_type: null
+  - name: CheckPhish Submit
+    version: '1.0'
+    author: Peter Juhas
+    license: AGPL-V3
+    description: Submit url address to CheckPhish
+    dataTypes:
+    - url
+    file: .upstream/cortex/analyzers/CheckPhish/CheckPhish_Submit.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/CheckPhish/CheckPhish_Submit.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/CheckPhish/CheckPhish_Submit.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CheckPhish
     integration_type: null
   responders: []
