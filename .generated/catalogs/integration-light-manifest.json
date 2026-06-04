@@ -4901,12 +4901,12 @@
     "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Zscaler/overview.md",
     "stats": {
       "totalAnalyzers": 2,
-      "totalResponders": 0,
+      "totalResponders": 12,
       "totalFunctions": 0,
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
-      "total": 2
+      "total": 14
     }
   }
 }

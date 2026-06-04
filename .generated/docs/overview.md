@@ -19,11 +19,11 @@ Built something useful? Contributions are welcome!
 
 - **Total Vendors:** 194
 - **Total Analyzers:** 274
-- **Total Responders:** 144
+- **Total Responders:** 156
 - **Total Functions:** 6
 - **Total Notifiers:** 8
 - **Total External Integrations:** 11
-- **Total Integrations:** 443
+- **Total Integrations:** 455
 
 ## Vendors by Category
 
@@ -140,7 +140,7 @@ Built something useful? Contributions are welcome!
 
 ### Network Security
 
-**[Zscaler](vendors/Zscaler/overview.md)** (2 integrations)
+**[Zscaler](vendors/Zscaler/overview.md)** (14 integrations)
   Cloud-native security platform providing secure web gateway, zero trust network access, and cloud...
 
 
@@ -731,7 +731,7 @@ Built something useful? Contributions are welcome!
 - **[YARA](vendors/Yara/overview.md)** - *Malware Analysis* - 1 analyzers
 - **[Yeti](vendors/Yeti/overview.md)** - *Uncategorized* - 1 analyzers
 - **[ZEROFOX](vendors/ZEROFOX/overview.md)** - *Uncategorized* - 2 responders
-- **[Zscaler](vendors/Zscaler/overview.md)** - *Network Security* - 2 analyzers
+- **[Zscaler](vendors/Zscaler/overview.md)** - *Network Security* - 2 analyzers, 12 responders
 
 ---
 
