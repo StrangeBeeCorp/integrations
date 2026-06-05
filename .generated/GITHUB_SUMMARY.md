@@ -11,6 +11,4 @@
 
 ## Changes
 
-### Updated Vendors (1)
-
-- **Zscaler**: 2 -> 14 (+12)
+No changes detected.
