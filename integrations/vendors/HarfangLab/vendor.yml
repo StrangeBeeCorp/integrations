@@ -1,0 +1,10 @@
+id: HarfangLab
+name: "HarfangLab"
+description: "European endpoint security platform (EDR/EPP) certified by ANSSI and BSI, providing real-time threat detection, protection, and investigation capabilities"
+category: EDR
+homepage: "https://www.harfanglab.io"
+visibility: 100
+externalIntegrations:
+- name: TheHive Connector
+  description: Native connector provided by HarfangLab to send security events (SecEvents) from the HarfangLab EDR Manager to TheHive.
+  documentation: https://harfanglab.io/connectors/
