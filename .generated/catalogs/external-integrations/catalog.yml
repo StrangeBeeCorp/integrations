@@ -1,6 +1,6 @@
 # AUTO-GENERATED - DO NOT EDIT
 
-totalIntegrations: 11
+totalIntegrations: 12
 integrations:
 - &id001
   name: falcon2thehive
@@ -21,6 +21,15 @@ integrations:
   documentation: https://www.elastic.co/docs/reference/kibana/connectors-kibana/thehive-action-type
   category: SIEM & Analytics
 - &id003
+  name: TheHive Connector
+  vendor: HarfangLab
+  vendorId: HarfangLab
+  type: null
+  description: Native connector provided by HarfangLab to send security events (SecEvents) from the HarfangLab EDR Manager
+    to TheHive.
+  documentation: https://harfanglab.io/connectors/
+  category: EDR
+- &id004
   name: Cortex and TheHive Nodes
   vendor: n8n
   vendorId: n8n
@@ -29,7 +38,7 @@ integrations:
     and TheHive cases/alerts/observables
   documentation: https://n8n.io/integrations/thehive-5/
   category: SOAR & Automation
-- &id004
+- &id005
   name: TheHive Project Integration
   vendor: PAN Cortex XSOAR
   vendorId: CortexXSOAR
@@ -38,7 +47,7 @@ integrations:
     handling, and automated workflows between XSOAR and TheHive with support for case merging and mirroring
   documentation: https://xsoar.pan.dev/docs/reference/integrations/the-hive-project
   category: SOAR & Automation
-- &id005
+- &id006
   name: TheHive Extension
   vendor: Rapid7 InsightConnect
   vendorId: InsightConnect
@@ -47,7 +56,7 @@ integrations:
     and incident response orchestration
   documentation: https://extensions.rapid7.com/extension/thehive
   category: SOAR & Automation
-- &id006
+- &id007
   name: TheHive 5 Integration
   vendor: Shuffle
   vendorId: Shuffle
@@ -56,7 +65,7 @@ integrations:
     alert handling, and incident response orchestration
   documentation: https://shuffler.io/apps/thehive/integrations/TheHive_5
   category: SOAR & Automation
-- &id007
+- &id008
   name: TheHive SOAR Connector
   vendor: Splunk
   vendorId: Splunk
@@ -65,7 +74,7 @@ integrations:
     TTP tracking to automate incident response workflows between Splunk and TheHive
   documentation: https://splunkbase.splunk.com/app/5939
   category: SIEM & Analytics
-- &id008
+- &id009
   name: TheHive/Cortex Technical Add-on
   vendor: Splunk
   vendorId: Splunk
@@ -74,7 +83,7 @@ integrations:
     and enables creating alerts/cases and executing functions in TheHive directly from Splunk searches and dashboards
   documentation: https://splunkbase.splunk.com/app/5329
   category: SIEM & Analytics
-- &id009
+- &id010
   name: TheHive Integration (via Polarity)
   vendor: ThreatConnect
   vendorId: ThreatConnect
@@ -84,7 +93,7 @@ integrations:
     for coordinated incident response
   documentation: https://threatconnect.com/marketplace/thehive/
   category: Threat Intelligence
-- &id010
+- &id011
   name: The Hive App for ThreatQ
   vendor: ThreatQ
   vendorId: ThreatQ
@@ -94,7 +103,7 @@ integrations:
     attribute updates.
   documentation: https://helpcenter.threatq.com/Integration_Documentation/app/The_Hive.htm
   category: Threat Intelligence
-- &id011
+- &id012
   name: TheHive Project Connector
   vendor: Tines
   vendorId: Tines
@@ -108,55 +117,60 @@ byVendor:
   - *id001
   Elasticsearch:
   - *id002
-  n8n:
+  HarfangLab:
   - *id003
-  PAN Cortex XSOAR:
+  n8n:
   - *id004
-  Rapid7 InsightConnect:
+  PAN Cortex XSOAR:
   - *id005
-  Shuffle:
+  Rapid7 InsightConnect:
   - *id006
-  Splunk:
+  Shuffle:
   - *id007
+  Splunk:
   - *id008
-  ThreatConnect:
   - *id009
-  ThreatQ:
+  ThreatConnect:
   - *id010
-  Tines:
+  ThreatQ:
   - *id011
+  Tines:
+  - *id012
 byCategory:
   EDR:
   - *id001
+  - *id003
   SIEM & Analytics:
   - *id002
-  - *id007
   - *id008
+  - *id009
   SOAR & Automation:
-  - *id003
   - *id004
   - *id005
   - *id006
-  - *id011
+  - *id007
+  - *id012
   Threat Intelligence:
-  - *id009
   - *id010
+  - *id011
 byType:
   connector:
   - *id001
   - *id002
-  - *id010
   - *id011
-  workflow-nodes:
+  - *id012
+  null:
   - *id003
-  integration:
+  workflow-nodes:
   - *id004
-  - *id009
-  extension:
+  integration:
   - *id005
-  app:
+  - *id010
+  extension:
   - *id006
-  soar-connector:
+  app:
   - *id007
-  technical-addon:
+  soar-connector:
   - *id008
+  technical-addon:
+  - *id009

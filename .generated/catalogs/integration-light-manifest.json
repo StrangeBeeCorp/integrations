@@ -1743,10 +1743,12 @@
   "HarfangLab": {
     "id": "HarfangLab",
     "name": "HarfangLab",
-    "description": "",
-    "category": [],
+    "description": "European endpoint security platform (EDR/EPP) certified by ANSSI and BSI, providing real-time threat detection, protection, and investigation capabilities",
+    "category": [
+      "EDR"
+    ],
     "tags": [],
-    "homepage": "",
+    "homepage": "https://www.harfanglab.io",
     "logo_url": "",
     "visibility": 100,
     "subscription": {
@@ -1760,9 +1762,9 @@
       "totalResponders": 31,
       "totalFunctions": 0,
       "totalUseCases": 0,
-      "totalExternalIntegrations": 0,
+      "totalExternalIntegrations": 1,
       "totalNotifiers": 0,
-      "total": 31
+      "total": 32
     }
   },
   "Hashdd": {

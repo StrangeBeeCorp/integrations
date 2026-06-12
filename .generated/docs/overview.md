@@ -22,8 +22,8 @@ Built something useful? Contributions are welcome!
 - **Total Responders:** 156
 - **Total Functions:** 6
 - **Total Notifiers:** 8
-- **Total External Integrations:** 11
-- **Total Integrations:** 455
+- **Total External Integrations:** 12
+- **Total Integrations:** 456
 
 ## Vendors by Category
 
@@ -85,6 +85,9 @@ Built something useful? Contributions are welcome!
 
 **[CrowdStrike Falcon](vendors/CrowdstrikeFalcon/overview.md)** (21 integrations)
   CrowdStrike Falcon is a cloud-native endpoint protection platform that provides real-time threat ...
+
+**[HarfangLab](vendors/HarfangLab/overview.md)** (32 integrations)
+  European endpoint security platform (EDR/EPP) certified by ANSSI and BSI, providing real-time thr...
 
 **[Microsoft Defender for Endpoint](vendors/MSDefenderEndpoints/overview.md)** (12 integrations)
   Microsoft Defender for Endpoint is an enterprise EDR platform that provides threat detection, inv...
@@ -360,8 +363,6 @@ Built something useful? Contributions are welcome!
 
 **[GoogleDNS](vendors/GoogleDNS/overview.md)** (1 integrations)
 
-**[HarfangLab](vendors/HarfangLab/overview.md)** (31 integrations)
-
 **[Hashdd](vendors/Hashdd/overview.md)** (2 integrations)
 
 **[IBM QRadar](vendors/IBMQRadar/overview.md)** (1 integrations)
@@ -609,7 +610,7 @@ Built something useful? Contributions are welcome!
 - **[GoogleDNS](vendors/GoogleDNS/overview.md)** - *Uncategorized* - 1 analyzers
 - **[GreyNoise](vendors/GreyNoise/overview.md)** - *Threat Intelligence* - 1 analyzers
 - **[GRR Rapid Response](vendors/GRR/overview.md)** - *DFIR* - 1 analyzers
-- **[HarfangLab](vendors/HarfangLab/overview.md)** - *Uncategorized* - 31 responders
+- **[HarfangLab](vendors/HarfangLab/overview.md)** - *EDR* - 31 responders, 1 external
 - **[Hashdd](vendors/Hashdd/overview.md)** - *Uncategorized* - 2 analyzers
 - **[Have I Been Pwned](vendors/HIBP/overview.md)** - *Breach Intelligence* - 1 analyzers
 - **[HTTP Request](vendors/HttpRequest/overview.md)** - *SOAR & Automation* - notifier

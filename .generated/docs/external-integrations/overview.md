@@ -4,7 +4,7 @@ Community and vendor-built integrations that connect various platforms with TheH
 
 ## Overview
 
-**Total External Integrations:** 11
+**Total External Integrations:** 12
 
 ## Browse by Type
 
@@ -65,6 +65,16 @@ Community and vendor-built integrations that connect various platforms with TheH
 </details>
 
 <details>
+<summary><strong>null</strong> (1 integration)</summary>
+
+
+**TheHive Connector** - HarfangLab
+  Native connector provided by HarfangLab to send security events (SecEvents) from the HarfangLab EDR Manager to TheHive.
+  [Documentation](https://harfanglab.io/connectors/)
+
+</details>
+
+<details>
 <summary><strong>soar-connector</strong> (1 integration)</summary>
 
 
@@ -97,13 +107,17 @@ Community and vendor-built integrations that connect various platforms with TheH
 ## Browse by Vendor Category
 
 <details>
-<summary><strong>EDR</strong> (1 integration)</summary>
+<summary><strong>EDR</strong> (2 integrations)</summary>
 
 
 **falcon2thehive** - CrowdStrike Falcon
   Real-time connector that streams CrowdStrike Falcon detection events into TheHive, turning Falcon alerts into actionable TheHive Alerts. Supports DetectionSummaryEvent, IdentityProtectionEvent, and MobileDetectionSummaryEvent with automatic observable extraction and TTP mapping.
   Type: `connector`
   [Documentation](https://github.com/StrangeBeeCorp/falcon2thehive)
+
+**TheHive Connector** - HarfangLab
+  Native connector provided by HarfangLab to send security events (SecEvents) from the HarfangLab EDR Manager to TheHive.
+  [Documentation](https://harfanglab.io/connectors/)
 
 </details>
 
@@ -204,6 +218,20 @@ Native Kibana connector that allows Elasticsearch to create alerts and create ca
 **Category:** SIEM & Analytics
 
 **Documentation:** [https://www.elastic.co/docs/reference/kibana/connectors-kibana/thehive-action-type](https://www.elastic.co/docs/reference/kibana/connectors-kibana/thehive-action-type)
+
+</details>
+
+<details>
+<summary><strong>HarfangLab</strong> (1 integration)</summary>
+
+
+### TheHive Connector
+
+Native connector provided by HarfangLab to send security events (SecEvents) from the HarfangLab EDR Manager to TheHive.
+
+**Category:** EDR
+
+**Documentation:** [https://harfanglab.io/connectors/](https://harfanglab.io/connectors/)
 
 </details>
 

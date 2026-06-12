@@ -1,5 +1,5 @@
 {
-  "totalIntegrations": 11,
+  "totalIntegrations": 12,
   "integrations": [
     {
       "name": "falcon2thehive",
@@ -18,6 +18,15 @@
       "description": "Native Kibana connector that allows Elasticsearch to create alerts and create cases in TheHive",
       "documentation": "https://www.elastic.co/docs/reference/kibana/connectors-kibana/thehive-action-type",
       "category": "SIEM & Analytics"
+    },
+    {
+      "name": "TheHive Connector",
+      "vendor": "HarfangLab",
+      "vendorId": "HarfangLab",
+      "type": null,
+      "description": "Native connector provided by HarfangLab to send security events (SecEvents) from the HarfangLab EDR Manager to TheHive.",
+      "documentation": "https://harfanglab.io/connectors/",
+      "category": "EDR"
     },
     {
       "name": "Cortex and TheHive Nodes",
@@ -122,6 +131,17 @@
         "description": "Native Kibana connector that allows Elasticsearch to create alerts and create cases in TheHive",
         "documentation": "https://www.elastic.co/docs/reference/kibana/connectors-kibana/thehive-action-type",
         "category": "SIEM & Analytics"
+      }
+    ],
+    "HarfangLab": [
+      {
+        "name": "TheHive Connector",
+        "vendor": "HarfangLab",
+        "vendorId": "HarfangLab",
+        "type": null,
+        "description": "Native connector provided by HarfangLab to send security events (SecEvents) from the HarfangLab EDR Manager to TheHive.",
+        "documentation": "https://harfanglab.io/connectors/",
+        "category": "EDR"
       }
     ],
     "n8n": [
@@ -231,6 +251,15 @@
         "type": "connector",
         "description": "Real-time connector that streams CrowdStrike Falcon detection events into TheHive, turning Falcon alerts into actionable TheHive Alerts. Supports DetectionSummaryEvent, IdentityProtectionEvent, and MobileDetectionSummaryEvent with automatic observable extraction and TTP mapping.",
         "documentation": "https://github.com/StrangeBeeCorp/falcon2thehive",
+        "category": "EDR"
+      },
+      {
+        "name": "TheHive Connector",
+        "vendor": "HarfangLab",
+        "vendorId": "HarfangLab",
+        "type": null,
+        "description": "Native connector provided by HarfangLab to send security events (SecEvents) from the HarfangLab EDR Manager to TheHive.",
+        "documentation": "https://harfanglab.io/connectors/",
         "category": "EDR"
       }
     ],
@@ -368,6 +397,17 @@
         "description": "Native Tines credential connector that enables workflows to interact with TheHive for automated incident creation, updates, and case management",
         "documentation": "https://www.tines.com/solutions/products/thehive-project/",
         "category": "SOAR & Automation"
+      }
+    ],
+    "null": [
+      {
+        "name": "TheHive Connector",
+        "vendor": "HarfangLab",
+        "vendorId": "HarfangLab",
+        "type": null,
+        "description": "Native connector provided by HarfangLab to send security events (SecEvents) from the HarfangLab EDR Manager to TheHive.",
+        "documentation": "https://harfanglab.io/connectors/",
+        "category": "EDR"
       }
     ],
     "workflow-nodes": [

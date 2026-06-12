@@ -218,3 +218,13 @@ Get Hives artifact
 - **Author:** HarfangLab Product Team
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case`
+
+---
+
+## External Integrations (1)
+
+### External integrations that connect HarfangLab with TheHive
+
+#### [TheHive Connector](https://harfanglab.io/connectors/)
+Native connector provided by HarfangLab to send security events (SecEvents) from the HarfangLab EDR Manager to TheHive.
+
