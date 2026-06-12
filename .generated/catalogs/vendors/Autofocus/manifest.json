@@ -14,24 +14,17 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "Autofocus SearchIOC",
+        "name": "Autofocus GetSampleAnalysis",
         "version": "1.0",
         "author": "ANSSI",
         "license": "AGPL-V3",
-        "description": "Search samples in Autofocus based on a single IOC",
+        "description": "Get full analysis from a sample based on its hash",
         "dataTypes": [
-          "domain",
-          "fqdn",
-          "user-agent",
-          "imphash",
-          "ip",
-          "mutex",
-          "tag",
-          "url"
+          "hash"
         ],
-        "file": ".upstream/cortex/analyzers/Autofocus/Autofocus_SearchIOC.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Autofocus/Autofocus_SearchIOC.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Autofocus/Autofocus_SearchIOC.json",
+        "file": ".upstream/cortex/analyzers/Autofocus/Autofocus_GetSampleAnalysis.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Autofocus/Autofocus_GetSampleAnalysis.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Autofocus/Autofocus_GetSampleAnalysis.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Autofocus",
         "integration_type": null
       },
@@ -51,17 +44,24 @@
         "integration_type": null
       },
       {
-        "name": "Autofocus GetSampleAnalysis",
+        "name": "Autofocus SearchIOC",
         "version": "1.0",
         "author": "ANSSI",
         "license": "AGPL-V3",
-        "description": "Get full analysis from a sample based on its hash",
+        "description": "Search samples in Autofocus based on a single IOC",
         "dataTypes": [
-          "hash"
+          "domain",
+          "fqdn",
+          "user-agent",
+          "imphash",
+          "ip",
+          "mutex",
+          "tag",
+          "url"
         ],
-        "file": ".upstream/cortex/analyzers/Autofocus/Autofocus_GetSampleAnalysis.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Autofocus/Autofocus_GetSampleAnalysis.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Autofocus/Autofocus_GetSampleAnalysis.json",
+        "file": ".upstream/cortex/analyzers/Autofocus/Autofocus_SearchIOC.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Autofocus/Autofocus_SearchIOC.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Autofocus/Autofocus_SearchIOC.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Autofocus",
         "integration_type": null
       }

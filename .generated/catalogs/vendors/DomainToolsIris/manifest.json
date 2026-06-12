@@ -51,21 +51,6 @@
     ],
     "responders": [
       {
-        "name": "DomainToolsIris AddRiskyDNSTag",
-        "version": "1.0",
-        "author": "DomainTools",
-        "license": "AGPL-V3",
-        "description": "Add Tag saying that the case contains a risky DNS.",
-        "dataTypes": [
-          "thehive:case_artifact"
-        ],
-        "file": ".upstream/cortex/responders/DomainToolsIris/DomainToolsIris_AddRiskyDNSTag.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/DomainToolsIris/DomainToolsIris_AddRiskyDNSTag.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/DomainToolsIris/DomainToolsIris_AddRiskyDNSTag.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/DomainToolsIris",
-        "integration_type": null
-      },
-      {
         "name": "DomainToolsIris CheckMaliciousTags",
         "version": "1.0",
         "author": "DomainTools",
@@ -77,6 +62,21 @@
         "file": ".upstream/cortex/responders/DomainToolsIris/DomainToolsIris_CheckMaliciousTags.json",
         "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/DomainToolsIris/DomainToolsIris_CheckMaliciousTags.json",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/DomainToolsIris/DomainToolsIris_CheckMaliciousTags.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/DomainToolsIris",
+        "integration_type": null
+      },
+      {
+        "name": "DomainToolsIris AddRiskyDNSTag",
+        "version": "1.0",
+        "author": "DomainTools",
+        "license": "AGPL-V3",
+        "description": "Add Tag saying that the case contains a risky DNS.",
+        "dataTypes": [
+          "thehive:case_artifact"
+        ],
+        "file": ".upstream/cortex/responders/DomainToolsIris/DomainToolsIris_AddRiskyDNSTag.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/DomainToolsIris/DomainToolsIris_AddRiskyDNSTag.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/DomainToolsIris/DomainToolsIris_AddRiskyDNSTag.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/DomainToolsIris",
         "integration_type": null
       }

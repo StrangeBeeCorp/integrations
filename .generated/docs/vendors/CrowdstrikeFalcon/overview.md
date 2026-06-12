@@ -18,27 +18,6 @@ Keep case/alert status in sync between TheHive and CrowdStrike Falcon using noti
 
 ### Enrich observables with intelligence
 
-#### [CrowdstrikeFalcon Sandbox Win11 v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CrowdstrikeFalcon)
-Send a file to CrowdstrikeFalcon Sandbox
-
-- **Author:** Fabien Bloume, StrangeBee
-- **License:** AGPL-V3
-- **Data Types:** `file`
-
-#### [CrowdstrikeFalcon ThreatIntel v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CrowdstrikeFalcon)
-Query threat intelligence indicators from Crowdstrike Falcon Intelligence
-
-- **Author:** Fabien Bloume, StrangeBee
-- **License:** AGPL-V3
-- **Data Types:** `hash`, `domain`, `ip`, `url`
-
-#### [CrowdstrikeFalcon Sandbox Android v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CrowdstrikeFalcon)
-Send a file to CrowdstrikeFalcon Sandbox
-
-- **Author:** Fabien Bloume, StrangeBee
-- **License:** AGPL-V3
-- **Data Types:** `file`
-
 #### [CrowdstrikeFalcon Sandbox Linux v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CrowdstrikeFalcon)
 Send a file to CrowdstrikeFalcon Sandbox
 
@@ -53,12 +32,12 @@ Send a file to CrowdstrikeFalcon Sandbox
 - **License:** AGPL-V3
 - **Data Types:** `file`
 
-#### [CrowdstrikeFalcon getDeviceAlerts v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CrowdstrikeFalcon)
-Get Device alerts from Crowdstrike Falcon
+#### [CrowdstrikeFalcon ThreatIntel v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CrowdstrikeFalcon)
+Query threat intelligence indicators from Crowdstrike Falcon Intelligence
 
 - **Author:** Fabien Bloume, StrangeBee
 - **License:** AGPL-V3
-- **Data Types:** `hostname`
+- **Data Types:** `hash`, `domain`, `ip`, `url`
 
 #### [CrowdstrikeFalcon getDeviceDetails v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CrowdstrikeFalcon)
 Get device information from Crowdstrike Falcon
@@ -74,6 +53,13 @@ Get device vulnerabilities from hostname
 - **License:** AGPL-V3
 - **Data Types:** `hostname`
 
+#### [CrowdstrikeFalcon Sandbox Win10 v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CrowdstrikeFalcon)
+Send a file to CrowdstrikeFalcon Sandbox
+
+- **Author:** Fabien Bloume, StrangeBee
+- **License:** AGPL-V3
+- **Data Types:** `file`
+
 #### [CrowdstrikeFalcon Sandbox MacOS v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CrowdstrikeFalcon)
 Send a file to CrowdstrikeFalcon Sandbox
 
@@ -81,7 +67,21 @@ Send a file to CrowdstrikeFalcon Sandbox
 - **License:** AGPL-V3
 - **Data Types:** `file`
 
-#### [CrowdstrikeFalcon Sandbox Win10 v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CrowdstrikeFalcon)
+#### [CrowdstrikeFalcon Sandbox Android v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CrowdstrikeFalcon)
+Send a file to CrowdstrikeFalcon Sandbox
+
+- **Author:** Fabien Bloume, StrangeBee
+- **License:** AGPL-V3
+- **Data Types:** `file`
+
+#### [CrowdstrikeFalcon getDeviceAlerts v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CrowdstrikeFalcon)
+Get Device alerts from Crowdstrike Falcon
+
+- **Author:** Fabien Bloume, StrangeBee
+- **License:** AGPL-V3
+- **Data Types:** `hostname`
+
+#### [CrowdstrikeFalcon Sandbox Win11 v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CrowdstrikeFalcon)
 Send a file to CrowdstrikeFalcon Sandbox
 
 - **Author:** Fabien Bloume, StrangeBee
@@ -101,15 +101,15 @@ Send a file to CrowdstrikeFalcon Sandbox
 
 ### Trigger automated responses
 
-#### [CrowdStrikeFalcon unsuppressDetections v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CrowdstrikeFalcon)
-Allow detections for the host.
+#### [CrowdStrikeFalcon AddIOC v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CrowdstrikeFalcon)
+Add IOC to IoC Management on Crowdstrike - supports domain, url, IPs & different kind of hashes
 
 - **Author:** Fabien Bloume, StrangeBee
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case_artifact`
 
-#### [CrowdStrikeFalcon HostContainment v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CrowdstrikeFalcon)
-This action contains the host, which stops any network communications to locations other than the CrowdStrike cloud and IPs specified in your containment policy
+#### [CrowdStrikeFalcon LiftContainmentHost v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CrowdstrikeFalcon)
+This action lifts containment on the host, which returns its network communications to normal
 
 - **Author:** Fabien Bloume, StrangeBee
 - **License:** AGPL-V3
@@ -122,22 +122,8 @@ Sync TheHive status back to CS Alerts or Incidents
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case`, `thehive:alert`
 
-#### [CrowdStrikeFalcon LiftContainmentHost v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CrowdstrikeFalcon)
-This action lifts containment on the host, which returns its network communications to normal
-
-- **Author:** Fabien Bloume, StrangeBee
-- **License:** AGPL-V3
-- **Data Types:** `thehive:case_artifact`
-
-#### [CrowdStrikeFalcon AddIOC v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CrowdstrikeFalcon)
-Add IOC to IoC Management on Crowdstrike - supports domain, url, IPs & different kind of hashes
-
-- **Author:** Fabien Bloume, StrangeBee
-- **License:** AGPL-V3
-- **Data Types:** `thehive:case_artifact`
-
-#### [CrowdStrikeFalcon RemoveIOC v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CrowdstrikeFalcon)
-remove IOC from IoC Management on Crowdstrike
+#### [CrowdStrikeFalcon suppressDetections v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CrowdstrikeFalcon)
+Supress detections for the host.
 
 - **Author:** Fabien Bloume, StrangeBee
 - **License:** AGPL-V3
@@ -150,6 +136,13 @@ This action will restore a host. Detection reporting will resume after the host 
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case_artifact`
 
+#### [CrowdStrikeFalcon RemoveIOC v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CrowdstrikeFalcon)
+remove IOC from IoC Management on Crowdstrike
+
+- **Author:** Fabien Bloume, StrangeBee
+- **License:** AGPL-V3
+- **Data Types:** `thehive:case_artifact`
+
 #### [CrowdStrikeFalcon hideHost v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CrowdstrikeFalcon)
 This action will delete a host. After the host is deleted, no new detections for that host will be reported via UI or APIs
 
@@ -157,8 +150,15 @@ This action will delete a host. After the host is deleted, no new detections for
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case_artifact`
 
-#### [CrowdStrikeFalcon suppressDetections v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CrowdstrikeFalcon)
-Supress detections for the host.
+#### [CrowdStrikeFalcon HostContainment v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CrowdstrikeFalcon)
+This action contains the host, which stops any network communications to locations other than the CrowdStrike cloud and IPs specified in your containment policy
+
+- **Author:** Fabien Bloume, StrangeBee
+- **License:** AGPL-V3
+- **Data Types:** `thehive:case_artifact`
+
+#### [CrowdStrikeFalcon unsuppressDetections v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CrowdstrikeFalcon)
+Allow detections for the host.
 
 - **Author:** Fabien Bloume, StrangeBee
 - **License:** AGPL-V3

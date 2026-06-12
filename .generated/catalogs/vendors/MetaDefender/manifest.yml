@@ -15,30 +15,16 @@ displayOnWebsite: true
 visibility: 100
 integrations:
   analyzers:
-  - name: MetaDefenderCore GetReport
+  - name: MetaDefenderCloud Scan
     version: '1.0'
     author: Davide Arcuri and Andrea Garavaglia, LDO-CERT
     license: AGPL-V3
-    description: Get the latest MetaDefender Core report for hash.
+    description: Scan a file with MetaDefender Cloud
     dataTypes:
-    - hash
-    file: .upstream/cortex/analyzers/MetaDefender/MetaDefenderCore_GetReport.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCore_GetReport.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCore_GetReport.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MetaDefender
-    integration_type: null
-  - name: MetaDefenderCloud Reputation
-    version: '1.0'
-    author: Davide Arcuri and Andrea Garavaglia, LDO-CERT
-    license: AGPL-V3
-    description: Get the latest MetaDefender Cloud reputation report .
-    dataTypes:
-    - ip
-    - url
-    - domain
-    file: .upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_Reputation.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_Reputation.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_Reputation.json
+    - file
+    file: .upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_Scan.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_Scan.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_Scan.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MetaDefender
     integration_type: null
   - name: MetaDefenderCore Scan
@@ -53,6 +39,18 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCore_Scan.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MetaDefender
     integration_type: null
+  - name: MetaDefenderCore GetReport
+    version: '1.0'
+    author: Davide Arcuri and Andrea Garavaglia, LDO-CERT
+    license: AGPL-V3
+    description: Get the latest MetaDefender Core report for hash.
+    dataTypes:
+    - hash
+    file: .upstream/cortex/analyzers/MetaDefender/MetaDefenderCore_GetReport.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCore_GetReport.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCore_GetReport.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MetaDefender
+    integration_type: null
   - name: MetaDefenderCloud GetReport
     version: '1.0'
     author: Davide Arcuri and Andrea Garavaglia, LDO-CERT
@@ -65,16 +63,18 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_GetReport.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MetaDefender
     integration_type: null
-  - name: MetaDefenderCloud Scan
+  - name: MetaDefenderCloud Reputation
     version: '1.0'
     author: Davide Arcuri and Andrea Garavaglia, LDO-CERT
     license: AGPL-V3
-    description: Scan a file with MetaDefender Cloud
+    description: Get the latest MetaDefender Cloud reputation report .
     dataTypes:
-    - file
-    file: .upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_Scan.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_Scan.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_Scan.json
+    - ip
+    - url
+    - domain
+    file: .upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_Reputation.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_Reputation.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_Reputation.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MetaDefender
     integration_type: null
   responders: []
