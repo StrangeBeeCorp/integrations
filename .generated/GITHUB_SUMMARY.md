@@ -11,6 +11,4 @@
 
 ## Changes
 
-### Updated Vendors (1)
-
-- **HarfangLab**: 31 -> 32 (+1)
+No changes detected.
