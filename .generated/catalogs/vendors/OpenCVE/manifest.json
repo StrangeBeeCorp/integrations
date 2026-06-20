@@ -1,0 +1,47 @@
+{
+  "id": "OpenCVE",
+  "name": "OpenCVE",
+  "description": "",
+  "category": "",
+  "tags": [],
+  "homepage": "",
+  "logo": {},
+  "useCases": [],
+  "notifier": false,
+  "externalIntegrations": [],
+  "displayOnWebsite": true,
+  "visibility": 100,
+  "registration_required": true,
+  "subscription_required": false,
+  "free_subscription": true,
+  "integrations": {
+    "analyzers": [
+      {
+        "name": "OpenCVE",
+        "version": "1.0",
+        "author": "Ali Bhutto",
+        "license": "AGPL-V3",
+        "description": "Enrich a CVE with OpenCVE data: CVSS metrics, CISA KEV status, EPSS score, CWE weaknesses and affected vendors/products.",
+        "dataTypes": [
+          "cve"
+        ],
+        "file": ".upstream/cortex/analyzers/OpenCVE/OpenCVE.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/OpenCVE/OpenCVE.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/OpenCVE/OpenCVE.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/OpenCVE",
+        "integration_type": null
+      }
+    ],
+    "responders": [],
+    "functions": []
+  },
+  "stats": {
+    "totalAnalyzers": 1,
+    "totalResponders": 0,
+    "totalFunctions": 0,
+    "totalUseCases": 0,
+    "totalExternalIntegrations": 0,
+    "totalNotifiers": 0,
+    "total": 1
+  }
+}

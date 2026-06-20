@@ -17,13 +17,13 @@ Built something useful? Contributions are welcome!
 
 ## Summary Statistics
 
-- **Total Vendors:** 194
-- **Total Analyzers:** 274
+- **Total Vendors:** 195
+- **Total Analyzers:** 275
 - **Total Responders:** 156
 - **Total Functions:** 6
 - **Total Notifiers:** 8
 - **Total External Integrations:** 12
-- **Total Integrations:** 456
+- **Total Integrations:** 457
 
 ## Vendors by Category
 
@@ -429,6 +429,8 @@ Built something useful? Contributions are welcome!
 
 **[ONYPHEActiveScan](vendors/ONYPHEActiveScan/overview.md)** (1 integrations)
 
+**[OpenCVE](vendors/OpenCVE/overview.md)** (1 integrations)
+
 **[OrionMalware](vendors/OrionMalware/overview.md)** (1 integrations)
 
 **[PAN Cortex XDR](vendors/PaloAltoCortexXDR/overview.md)** (8 integrations)
@@ -664,6 +666,7 @@ Built something useful? Contributions are welcome!
 - **[ONYPHE](vendors/Onyphe/overview.md)** - *Attack Surface Intelligence* - 5 analyzers
 - **[ONYPHEActiveScan](vendors/ONYPHEActiveScan/overview.md)** - *Uncategorized* - 1 analyzers
 - **[OpenCTI](vendors/OpenCTI/overview.md)** - *Threat Intelligence* - 4 analyzers
+- **[OpenCVE](vendors/OpenCVE/overview.md)** - *Uncategorized* - 1 analyzers
 - **[OrionMalware](vendors/OrionMalware/overview.md)** - *Uncategorized* - 1 analyzers
 - **[OVHcloud](vendors/OvhCloud/overview.md)** - *Cloud Infrastructure* - 1 analyzers, 2 responders
 - **[PAN Cortex XDR](vendors/PaloAltoCortexXDR/overview.md)** - *Uncategorized* - 8 responders

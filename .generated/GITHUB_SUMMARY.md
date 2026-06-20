@@ -2,13 +2,15 @@
 
 ## Statistics
 
-- **Total Vendors:** 194
-- **Total Analyzers:** 274
+- **Total Vendors:** 195
+- **Total Analyzers:** 275
 - **Total Responders:** 156
 - **Total Functions:** 6
 - **Total External Integrations:** 12
-- **Total Integrations:** 456
+- **Total Integrations:** 457
 
 ## Changes
 
-No changes detected.
+### Added Vendors (1)
+
+- `OpenCVE`

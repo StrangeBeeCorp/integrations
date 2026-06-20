@@ -4,9 +4,9 @@ Integrations that are either free to use or run locally without external depende
 
 ## Summary
 
-- **Total Analyzers:** 73 (9 local, 64 free)
+- **Total Analyzers:** 74 (9 local, 65 free)
 - **Total Responders:** 10 (0 local, 10 free)
-- **Total Integrations:** 83
+- **Total Integrations:** 84
 
 ## Analyzers
 
@@ -451,6 +451,16 @@ Retrieve summary information Onyphe has for given ip, domain, or fqdn.
 **Data Types:** `ip`, `domain`, `fqdn`, `hash`
 
 Retrieve vulnerability data from ONYPHE vulnscan category for a given ip, domain, fqdn or hash (sha256 TLS fingerprint)
+
+</details>
+
+<details>
+<summary><strong>OpenCVE</strong> <code>v1.0</code> [Free] - OpenCVE</summary>
+
+**Vendor:** [OpenCVE](vendors/OpenCVE/overview)
+**Data Types:** `cve`
+
+Enrich a CVE with OpenCVE data: CVSS metrics, CISA KEV status, EPSS score, CWE weaknesses and affected vendors/products.
 
 </details>
 
