@@ -339,7 +339,7 @@
           "version": "1.0",
           "author": "ANY.RUN Integrations Team",
           "license": "AGPL-V3",
-          "description": "Check URL/IP/Domain/File reputation",
+          "description": "Enrich URLs, hashes, domains, and IPs with ANY.RUN Threat Intelligence.",
           "dataTypes": [
             "ip",
             "domain",
@@ -357,7 +357,7 @@
           "version": "1.0",
           "author": "ANY.RUN Integrations Team",
           "license": "AGPL-V3",
-          "description": "Run URL analysis using Windows VM",
+          "description": "Submit URLs for Windows sandbox analysis and retrieve verdicts, IOCs, reports, and tags.",
           "dataTypes": [
             "url"
           ],
@@ -372,7 +372,7 @@
           "version": "1.0",
           "author": "ANY.RUN Integrations Team",
           "license": "AGPL-V3",
-          "description": "Run URL analysis using Android VM",
+          "description": "Submit URLs for Android sandbox analysis and retrieve verdicts, IOCs, reports, and tags.",
           "dataTypes": [
             "url"
           ],
@@ -387,7 +387,7 @@
           "version": "1.0",
           "author": "ANY.RUN Integrations Team",
           "license": "AGPL-V3",
-          "description": "Run File analysis using Android VM",
+          "description": "Submit files for Android sandbox analysis and retrieve verdicts, IOCs, reports, and tags.",
           "dataTypes": [
             "file"
           ],
@@ -402,7 +402,7 @@
           "version": "1.0",
           "author": "ANY.RUN Integrations Team",
           "license": "AGPL-V3",
-          "description": "Run URL analysis using Linux VM",
+          "description": "Submit URLs for Linux sandbox analysis and retrieve verdicts, IOCs, reports, and tags.",
           "dataTypes": [
             "url"
           ],
@@ -417,7 +417,7 @@
           "version": "1.0",
           "author": "ANY.RUN Integrations Team",
           "license": "AGPL-V3",
-          "description": "Run File analysis using Linux VM",
+          "description": "Submit files for Linux sandbox analysis and retrieve verdicts, IOCs, reports, and tags.",
           "dataTypes": [
             "file"
           ],
@@ -432,7 +432,7 @@
           "version": "1.0",
           "author": "ANY.RUN Integrations Team",
           "license": "AGPL-V3",
-          "description": "Run File analysis using Windows VM",
+          "description": "Submit files for Windows sandbox analysis and retrieve verdicts, IOCs, reports, and tags.",
           "dataTypes": [
             "file"
           ],

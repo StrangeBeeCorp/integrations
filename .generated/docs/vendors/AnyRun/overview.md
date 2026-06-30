@@ -3,49 +3,49 @@
 ### Enrich observables with intelligence
 
 #### [AnyRun TI Lookup v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun)
-Check URL/IP/Domain/File reputation
+Enrich URLs, hashes, domains, and IPs with ANY.RUN Threat Intelligence.
 
 - **Author:** ANY.RUN Integrations Team
 - **License:** AGPL-V3
 - **Data Types:** `ip`, `domain`, `url`, `hash`
 
 #### [AnyRun Sandbox URL Windows v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun)
-Run URL analysis using Windows VM
+Submit URLs for Windows sandbox analysis and retrieve verdicts, IOCs, reports, and tags.
 
 - **Author:** ANY.RUN Integrations Team
 - **License:** AGPL-V3
 - **Data Types:** `url`
 
 #### [AnyRun Sandbox URL Android v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun)
-Run URL analysis using Android VM
+Submit URLs for Android sandbox analysis and retrieve verdicts, IOCs, reports, and tags.
 
 - **Author:** ANY.RUN Integrations Team
 - **License:** AGPL-V3
 - **Data Types:** `url`
 
 #### [AnyRun Sandbox File Android v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun)
-Run File analysis using Android VM
+Submit files for Android sandbox analysis and retrieve verdicts, IOCs, reports, and tags.
 
 - **Author:** ANY.RUN Integrations Team
 - **License:** AGPL-V3
 - **Data Types:** `file`
 
 #### [AnyRun Sandbox URL Linux v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun)
-Run URL analysis using Linux VM
+Submit URLs for Linux sandbox analysis and retrieve verdicts, IOCs, reports, and tags.
 
 - **Author:** ANY.RUN Integrations Team
 - **License:** AGPL-V3
 - **Data Types:** `url`
 
 #### [AnyRun Sandbox File Linux v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun)
-Run File analysis using Linux VM
+Submit files for Linux sandbox analysis and retrieve verdicts, IOCs, reports, and tags.
 
 - **Author:** ANY.RUN Integrations Team
 - **License:** AGPL-V3
 - **Data Types:** `file`
 
 #### [AnyRun Sandbox File Windows v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun)
-Run File analysis using Windows VM
+Submit files for Windows sandbox analysis and retrieve verdicts, IOCs, reports, and tags.
 
 - **Author:** ANY.RUN Integrations Team
 - **License:** AGPL-V3
