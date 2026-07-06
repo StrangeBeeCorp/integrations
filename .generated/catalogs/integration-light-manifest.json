@@ -135,7 +135,7 @@
     }
   },
   "AnyRun": {
-    "id": "ANYRUN",
+    "id": "AnyRun",
     "name": "ANY.RUN",
     "description": "ANY.RUN provides enterprise-grade cybersecurity solutions for interactive malware analysis and threat intelligence, helping 15,000 security teams and MSSPs streamline investigations and respond to threats faster.",
     "category": [

@@ -19,6 +19,7 @@ externalIntegrations:
 displayOnWebsite: true
 visibility: 100
 analyzersTagline: ''
+analyzerDisplayName: ''
 subscription_required: true
 free_subscription: false
 integrations:

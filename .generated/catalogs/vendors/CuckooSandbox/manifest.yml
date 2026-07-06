@@ -15,6 +15,7 @@ externalIntegrations: []
 displayOnWebsite: true
 visibility: 100
 analyzersTagline: ''
+analyzerDisplayName: ''
 registration_required: false
 subscription_required: false
 free_subscription: false

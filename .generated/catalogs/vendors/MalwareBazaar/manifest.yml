@@ -23,6 +23,7 @@ externalIntegrations: []
 displayOnWebsite: true
 visibility: low
 analyzersTagline: ''
+analyzerDisplayName: ''
 registration_required: true
 subscription_required: true
 free_subscription: true

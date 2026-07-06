@@ -15,6 +15,7 @@ externalIntegrations: []
 displayOnWebsite: true
 visibility: 100
 analyzersTagline: ''
+analyzerDisplayName: ''
 integrations:
   analyzers:
   - name: OVH Domain Check

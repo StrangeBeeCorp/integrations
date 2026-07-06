@@ -12,6 +12,7 @@
   "displayOnWebsite": false,
   "visibility": 50,
   "analyzersTagline": "",
+  "analyzerDisplayName": "",
   "integrations": {
     "analyzers": [],
     "responders": [],

@@ -23,6 +23,7 @@
   "displayOnWebsite": true,
   "visibility": 3,
   "analyzersTagline": "",
+  "analyzerDisplayName": "",
   "registration_required": true,
   "subscription_required": [
     true,

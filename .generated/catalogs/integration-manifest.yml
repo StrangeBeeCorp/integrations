@@ -13,6 +13,7 @@ Abuse_Finder:
   displayOnWebsite: true
   visibility: low
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: false
   subscription_required: false
   free_subscription: false
@@ -67,6 +68,7 @@ AbuseIPDB:
   displayOnWebsite: true
   visibility: 13
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: true
   subscription_required: true
   free_subscription: true
@@ -122,6 +124,7 @@ AILOnionLookup:
   displayOnWebsite: true
   visibility: low
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: false
   subscription_required: false
   free_subscription: true
@@ -166,6 +169,7 @@ Airtable:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers: []
     responders: []
@@ -202,6 +206,7 @@ AMPforEndpoints:
   displayOnWebsite: true
   visibility: low
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers: []
     responders:
@@ -275,7 +280,7 @@ AMPforEndpoints:
     totalNotifiers: 0
     total: 5
 AnyRun:
-  id: ANYRUN
+  id: AnyRun
   name: ANY.RUN
   description: ANY.RUN provides enterprise-grade cybersecurity solutions for interactive malware analysis and threat intelligence,
     helping 15,000 security teams and MSSPs streamline investigations and respond to threats faster.
@@ -289,12 +294,13 @@ AnyRun:
   displayOnWebsite: true
   visibility: low
   analyzersTagline: Enrich observables with behavioral threat intelligence
+  analyzerDisplayName: ANY.RUN
   registration_required: true
   subscription_required: true
   free_subscription: false
   integrations:
     analyzers:
-    - name: AnyRun TI Lookup
+    - name: ANY.RUN TI Lookup
       version: '1.0'
       author: ANY.RUN Integrations Team
       license: AGPL-V3
@@ -309,7 +315,7 @@ AnyRun:
       github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/AnyRun/AnyRun_TI_Lookup.json
       upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun
       integration_type: null
-    - name: AnyRun Sandbox URL Windows
+    - name: ANY.RUN Sandbox URL Windows
       version: '1.0'
       author: ANY.RUN Integrations Team
       license: AGPL-V3
@@ -321,7 +327,7 @@ AnyRun:
       github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Windows.json
       upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun
       integration_type: null
-    - name: AnyRun Sandbox URL Android
+    - name: ANY.RUN Sandbox URL Android
       version: '1.0'
       author: ANY.RUN Integrations Team
       license: AGPL-V3
@@ -333,7 +339,7 @@ AnyRun:
       github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Android.json
       upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun
       integration_type: null
-    - name: AnyRun Sandbox File Android
+    - name: ANY.RUN Sandbox File Android
       version: '1.0'
       author: ANY.RUN Integrations Team
       license: AGPL-V3
@@ -345,7 +351,7 @@ AnyRun:
       github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_File_Android.json
       upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun
       integration_type: null
-    - name: AnyRun Sandbox URL Linux
+    - name: ANY.RUN Sandbox URL Linux
       version: '1.0'
       author: ANY.RUN Integrations Team
       license: AGPL-V3
@@ -357,7 +363,7 @@ AnyRun:
       github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Linux.json
       upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun
       integration_type: null
-    - name: AnyRun Sandbox File Linux
+    - name: ANY.RUN Sandbox File Linux
       version: '1.0'
       author: ANY.RUN Integrations Team
       license: AGPL-V3
@@ -369,7 +375,7 @@ AnyRun:
       github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_File_Linux.json
       upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun
       integration_type: null
-    - name: AnyRun Sandbox File Windows
+    - name: ANY.RUN Sandbox File Windows
       version: '1.0'
       author: ANY.RUN Integrations Team
       license: AGPL-V3
@@ -405,6 +411,7 @@ Autofocus:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers:
     - name: Autofocus GetSampleAnalysis
@@ -475,6 +482,7 @@ AWSLambda:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -520,6 +528,7 @@ AWX:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: false
   subscription_required: false
   free_subscription: false
@@ -561,6 +570,7 @@ Axur:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -606,6 +616,7 @@ BackscatterIO:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers:
     - name: BackscatterIO Enrichment
@@ -661,6 +672,7 @@ BinalyzeAIR:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -714,6 +726,7 @@ C1fApp:
   displayOnWebsite: false
   visibility: low
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers:
     - name: C1fApp
@@ -765,6 +778,7 @@ Capa:
   displayOnWebsite: true
   visibility: 19
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: false
   subscription_required: false
   free_subscription: false
@@ -806,6 +820,7 @@ Censys:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -850,6 +865,7 @@ CERTatPassiveDNS:
   displayOnWebsite: true
   visibility: low
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers:
     - name: CERTatPassiveDNS
@@ -890,6 +906,7 @@ ChainAbuse:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: true
   subscription_required: false
   integrations:
@@ -931,6 +948,7 @@ CheckPhish:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers:
     - name: CheckPhish Submit
@@ -981,6 +999,7 @@ CheckPoint:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers: []
     responders:
@@ -1032,6 +1051,7 @@ CheckPointHEC:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -1130,6 +1150,7 @@ CIRCLHashlookup:
   displayOnWebsite: true
   visibility: low
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: false
   subscription_required: false
   free_subscription: true
@@ -1171,6 +1192,7 @@ CIRCLPassiveDNS:
   displayOnWebsite: true
   visibility: low
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: true
   subscription_required: true
   free_subscription: true
@@ -1214,6 +1236,7 @@ CIRCLPassiveSSL:
   displayOnWebsite: true
   visibility: low
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: true
   subscription_required: true
   free_subscription: true
@@ -1257,6 +1280,7 @@ CIRCLVulnerabilityLookup:
   displayOnWebsite: true
   visibility: low
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: true
   subscription_required: false
   free_subscription: true
@@ -1306,6 +1330,7 @@ CiscoUmbrella:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -1360,6 +1385,7 @@ CISMCAP:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: true
   subscription_required: false
   free_subscription: false
@@ -1407,6 +1433,7 @@ ClamAV:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers:
     - name: ClamAV FileInfo
@@ -1448,6 +1475,7 @@ Cloudflare:
   displayOnWebsite: true
   visibility: 14
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -1489,6 +1517,7 @@ Cluster25:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -1535,6 +1564,7 @@ ClusterHawk:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -1584,6 +1614,7 @@ CortexXSOAR:
   displayOnWebsite: true
   visibility: low
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers: []
     responders: []
@@ -1620,6 +1651,7 @@ Crowdsec:
   displayOnWebsite: true
   visibility: low
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: true
   subscription_required: true
   free_subscription: true
@@ -1703,6 +1735,7 @@ CrowdstrikeFalcon:
   displayOnWebsite: true
   visibility: 1
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -1978,6 +2011,7 @@ Crtsh:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: true
   subscription_required: true
   free_subscription: true
@@ -2020,6 +2054,7 @@ CuckooSandbox:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: false
   subscription_required: false
   free_subscription: false
@@ -2073,6 +2108,7 @@ CyberChef:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: false
   subscription_required: false
   free_subscription: false
@@ -2138,6 +2174,7 @@ CyberCrime-Tracker:
   displayOnWebsite: false
   visibility: low
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: true
   subscription_required: true
   free_subscription: true
@@ -2183,6 +2220,7 @@ Cyberprotect:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: false
   subscription_required: false
   free_subscription: false
@@ -2228,6 +2266,7 @@ Cylance:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -2269,6 +2308,7 @@ DNS-RPZ:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers: []
     responders:
@@ -2307,6 +2347,7 @@ DNSDB:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers:
     - name: DNSDB IPHistory
@@ -2371,6 +2412,7 @@ DNSdumpster:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: false
   subscription_required: false
   free_subscription: false
@@ -2412,6 +2454,7 @@ DNSLookingglass:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: false
   subscription_required: false
   free_subscription: false
@@ -2454,6 +2497,7 @@ DNSSinkhole:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers:
     - name: DNSSinkhole
@@ -2492,6 +2536,7 @@ DomainMailSPFDMARC:
   displayOnWebsite: true
   visibility: low
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: false
   subscription_required: false
   free_subscription: false
@@ -2536,6 +2581,7 @@ DomainTools:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers:
     - name: DomainTools ReverseNameServer
@@ -2695,6 +2741,7 @@ DomainToolsIris:
   displayOnWebsite: true
   visibility: low
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -2774,6 +2821,7 @@ DShield:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: false
   subscription_required: false
   free_subscription: true
@@ -2815,6 +2863,7 @@ Duo_Security:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers: []
     responders:
@@ -2878,6 +2927,7 @@ EchoTrail:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: true
   subscription_required: false
   free_subscription: true
@@ -2921,6 +2971,7 @@ EclecticIQ:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -3001,6 +3052,7 @@ Elasticsearch:
   displayOnWebsite: true
   visibility: low
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: false
   subscription_required: false
   free_subscription: true
@@ -3052,6 +3104,7 @@ Email:
   displayOnWebsite: false
   visibility: 50
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers: []
     responders: []
@@ -3087,6 +3140,7 @@ EmailRep:
   displayOnWebsite: true
   visibility: low
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: false
   subscription_required: false
   free_subscription: true
@@ -3128,6 +3182,7 @@ EmergingThreats:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -3195,6 +3250,7 @@ EmlParser:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: false
   subscription_required: false
   integrations:
@@ -3235,6 +3291,7 @@ FileInfo:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers:
     - name: FileInfo
@@ -3274,6 +3331,7 @@ FireEyeiSight:
   displayOnWebsite: true
   visibility: low
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -3318,6 +3376,7 @@ FireHOLBlocklists:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: false
   subscription_required: false
   free_subscription: false
@@ -3359,6 +3418,7 @@ ForcepointWebsensePing:
   displayOnWebsite: true
   visibility: low
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -3403,6 +3463,7 @@ FoxIO:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: false
   subscription_required: false
   free_subscription: true
@@ -3445,6 +3506,7 @@ Gatewatcher_CTI:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -3503,6 +3565,7 @@ Gmail:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers: []
     responders:
@@ -3589,6 +3652,7 @@ GoogleDNS:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers:
     - name: GoogleDNS resolve
@@ -3629,6 +3693,7 @@ GoogleSafebrowsing:
   displayOnWebsite: true
   visibility: low
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers:
     - name: GoogleSafebrowsing
@@ -3680,6 +3745,7 @@ GoogleThreatIntelligence:
   displayOnWebsite: true
   visibility: 7
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: true
   subscription_required:
   - true
@@ -3779,6 +3845,7 @@ GoogleVisionAPI:
   displayOnWebsite: true
   visibility: low
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers:
     - name: GoogleVisionAPI WebDetection
@@ -3825,6 +3892,7 @@ GreyNoise:
   displayOnWebsite: true
   visibility: low
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: true
   subscription_required: true
   free_subscription: true
@@ -3866,6 +3934,7 @@ GRR:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers:
     - name: GRR
@@ -3910,6 +3979,7 @@ HarfangLab:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   subscription_required: true
   free_subscription: false
   integrations:
@@ -4313,6 +4383,7 @@ Hashdd:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: false
   subscription_required: false
   free_subscription: true
@@ -4375,6 +4446,7 @@ HIBP:
   displayOnWebsite: true
   visibility: low
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -4416,6 +4488,7 @@ HttpRequest:
   displayOnWebsite: false
   visibility: 50
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers: []
     responders: []
@@ -4451,6 +4524,7 @@ Hunterio:
   displayOnWebsite: true
   visibility: low
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: true
   subscription_required: true
   free_subscription: true
@@ -4502,6 +4576,7 @@ HybridAnalysis:
   displayOnWebsite: true
   visibility: low
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers:
     - name: HybridAnalysis GetReport
@@ -4544,6 +4619,7 @@ IBMQRadar:
   displayOnWebsite: true
   visibility: low
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -4585,6 +4661,7 @@ IBMXForce:
   displayOnWebsite: true
   visibility: low
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers:
     - name: IBMXForce Lookup
@@ -4626,6 +4703,7 @@ Inoitsu:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: false
   subscription_required: false
   free_subscription: true
@@ -4679,6 +4757,7 @@ InsightConnect:
   displayOnWebsite: true
   visibility: low
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers: []
     responders: []
@@ -4705,6 +4784,7 @@ IntezerCommunity:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: true
   subscription_required: true
   free_subscription: true
@@ -4747,6 +4827,7 @@ Investigate:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers:
     - name: Investigate Categorization
@@ -4798,6 +4879,7 @@ IP-API:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: false
   subscription_required: false
   integrations:
@@ -4848,6 +4930,7 @@ IPinfo:
   displayOnWebsite: true
   visibility: low
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers:
     - name: IPinfo Hosted Domains
@@ -4898,6 +4981,7 @@ IPVoid:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers:
     - name: IPVoid
@@ -4936,6 +5020,7 @@ isMalicious:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: true
   subscription_required: true
   free_subscription: true
@@ -4980,6 +5065,7 @@ IVRE:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers:
     - name: IVRE
@@ -5025,6 +5111,7 @@ JAMFProtect:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -5092,6 +5179,7 @@ JIRA:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers: []
     responders: []
@@ -5128,6 +5216,7 @@ JoeSandbox:
   displayOnWebsite: true
   visibility: low
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: true
   subscription_required: true
   integrations:
@@ -5192,6 +5281,7 @@ Jupyter:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: false
   subscription_required: false
   free_subscription: true
@@ -5264,6 +5354,7 @@ Kafka:
   displayOnWebsite: true
   visibility: 50
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers: []
     responders: []
@@ -5290,6 +5381,7 @@ KasperskyTIP:
   displayOnWebsite: true
   visibility: low
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers:
     - name: KasperskyThreatIntelligencePortal
@@ -5330,6 +5422,7 @@ KnowBe4:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers: []
     responders:
@@ -5368,6 +5461,7 @@ LdapQuery:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers:
     - name: Ldap Query
@@ -5407,6 +5501,7 @@ Lookyloo:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: false
   subscription_required: false
   free_subscription: true
@@ -5451,6 +5546,7 @@ LupovisProwl:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: true
   subscription_required: true
   integrations:
@@ -5491,6 +5587,7 @@ Mailer:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers: []
     responders:
@@ -5531,6 +5628,7 @@ MailIncidentStatus:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers: []
     responders:
@@ -5572,6 +5670,7 @@ Malpedia:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers:
     - name: Malpedia
@@ -5619,6 +5718,7 @@ Maltiverse:
   displayOnWebsite: true
   visibility: low
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: false
   subscription_required: false
   free_subscription: false
@@ -5672,6 +5772,7 @@ MalwareBazaar:
   displayOnWebsite: true
   visibility: low
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: true
   subscription_required: true
   free_subscription: true
@@ -5713,6 +5814,7 @@ MalwareClustering:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: false
   subscription_required: false
   free_subscription: false
@@ -5755,6 +5857,7 @@ Malwares:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: true
   subscription_required: true
   free_subscription: true
@@ -5812,6 +5915,7 @@ Mattermost:
   displayOnWebsite: true
   visibility: 50
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers: []
     responders: []
@@ -5847,6 +5951,7 @@ MaxMind:
   displayOnWebsite: true
   visibility: low
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers:
     - name: MaxMind GeoIP
@@ -5885,6 +5990,7 @@ MetaDefender:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers:
     - name: MetaDefenderCloud Scan
@@ -5973,6 +6079,7 @@ Minemeld:
   displayOnWebsite: false
   visibility: low
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: false
   subscription_required: false
   free_subscription: false
@@ -6023,6 +6130,7 @@ MISP:
   displayOnWebsite: true
   visibility: 6
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: false
   subscription_required: false
   free_subscription: true
@@ -6077,6 +6185,7 @@ MISPWarningLists:
   displayOnWebsite: true
   visibility: low
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: false
   subscription_required: false
   free_subscription: false
@@ -6131,6 +6240,7 @@ MnemonicPDNS:
   displayOnWebsite: true
   visibility: low
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers:
     - name: Mnemonic pDNS Public
@@ -6194,6 +6304,7 @@ MSDefenderEndpoints:
   displayOnWebsite: true
   visibility: 4
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -6377,6 +6488,7 @@ MSDefenderOffice365:
   displayOnWebsite: true
   visibility: 9
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required:
   - true
   - false
@@ -6485,6 +6597,7 @@ MSEntraID:
   displayOnWebsite: true
   visibility: 5
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -6628,6 +6741,7 @@ MsgParser:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers:
     - name: Msg Parser
@@ -6667,6 +6781,7 @@ MSTeams:
   displayOnWebsite: true
   visibility: 50
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers: []
     responders: []
@@ -6705,6 +6820,7 @@ n8n:
   displayOnWebsite: true
   visibility: low
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: false
   subscription_required: false
   free_subscription: true
@@ -6750,6 +6866,7 @@ NERD:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: true
   subscription_required: false
   free_subscription: true
@@ -6791,6 +6908,7 @@ Nessus:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers:
     - name: Nessus
@@ -6830,6 +6948,7 @@ Netcraft:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -6871,6 +6990,7 @@ NSRL:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers:
     - name: NSRL
@@ -6910,6 +7030,7 @@ Okta:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: true
   subscription_required: false
   free_subscription: false
@@ -6961,6 +7082,7 @@ Onyphe:
   displayOnWebsite: true
   visibility: 17
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: true
   subscription_required: true
   free_subscription: true
@@ -7069,6 +7191,7 @@ ONYPHEActiveScan:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -7113,6 +7236,7 @@ OpenCTI:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: true
   subscription_required: false
   free_subscription: false
@@ -7242,6 +7366,7 @@ OpenCVE:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: true
   subscription_required: false
   free_subscription: true
@@ -7284,6 +7409,7 @@ OrionMalware:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -7335,6 +7461,7 @@ OTXQuery:
   displayOnWebsite: true
   visibility: low
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: true
   subscription_required: true
   free_subscription: true
@@ -7381,6 +7508,7 @@ OvhCloud:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers:
     - name: OVH Domain Check
@@ -7445,6 +7573,7 @@ PaloAltoCortexXDR:
   displayOnWebsite: true
   visibility: low
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -7570,6 +7699,7 @@ PaloAltoNGFW:
   displayOnWebsite: true
   visibility: low
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers: []
     responders:
@@ -7820,6 +7950,7 @@ PaloAltoWildFire:
   displayOnWebsite: true
   visibility: low
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -7877,6 +8008,7 @@ PassiveTotal:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers:
     - name: PassiveTotal Whois Details
@@ -8055,6 +8187,7 @@ Patrowl:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: false
   subscription_required: false
   free_subscription: false
@@ -8098,6 +8231,7 @@ PayloadSecurity:
   displayOnWebsite: false
   visibility: low
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers:
     - name: PayloadSecurity File Analysis
@@ -8148,6 +8282,7 @@ PhishingInitiative:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: true
   subscription_required: true
   free_subscription:
@@ -8211,6 +8346,7 @@ PhishTank:
   displayOnWebsite: true
   visibility: low
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: true
   subscription_required: true
   free_subscription: true
@@ -8289,6 +8425,7 @@ Proofpoint:
   displayOnWebsite: true
   visibility: 10
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -8350,6 +8487,7 @@ Pulsedive:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers:
     - name: Pulsedive GetIndicator
@@ -8391,6 +8529,7 @@ QrDecode:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers:
     - name: QrDecode
@@ -8438,6 +8577,7 @@ RecordedFuture:
   displayOnWebsite: true
   visibility: 8
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: true
   subscription_required: true
   integrations:
@@ -8483,6 +8623,7 @@ Redis:
   displayOnWebsite: true
   visibility: 50
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers: []
     responders: []
@@ -8509,6 +8650,7 @@ Redmine:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers: []
     responders:
@@ -8548,6 +8690,7 @@ RiskIQ:
   displayOnWebsite: false
   visibility: low
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers:
     - name: RiskIQ Services
@@ -8807,6 +8950,7 @@ Robtex:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers:
     - name: Robtex Reverse PDNS Query
@@ -8870,6 +9014,7 @@ RT4:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers: []
     responders:
@@ -8910,6 +9055,7 @@ SecurityTrails:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers:
     - name: SecurityTrails Passive DNS
@@ -8960,6 +9106,7 @@ SEKOIAIntelligenceCenter:
   displayOnWebsite: true
   visibility: low
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -9037,6 +9184,7 @@ SendGrid:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers: []
     responders:
@@ -9076,6 +9224,7 @@ SentinelOne:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -9169,6 +9318,7 @@ Shodan:
   displayOnWebsite: true
   visibility: 11
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: true
   subscription_required: false
   free_subscription: true
@@ -9287,6 +9437,7 @@ Shuffle:
   displayOnWebsite: true
   visibility: low
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers: []
     responders:
@@ -9329,6 +9480,7 @@ SinkDB:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers:
     - name: SinkDB
@@ -9399,6 +9551,7 @@ Slack:
   displayOnWebsite: true
   visibility: 12
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: true
   subscription_required: false
   free_subscription: true
@@ -9454,6 +9607,7 @@ SoltraEdge:
   displayOnWebsite: false
   visibility: low
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers:
     - name: SoltraEdge
@@ -9505,6 +9659,7 @@ SophosIntelix:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers:
     - name: SophosIntelix GetReport
@@ -9574,6 +9729,7 @@ SpamAssassin:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: false
   subscription_required: false
   free_subscription: false
@@ -9615,6 +9771,7 @@ SpamhausDBL:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers:
     - name: SpamhausDBL
@@ -9674,6 +9831,7 @@ Splunk:
   displayOnWebsite: true
   visibility: 2
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: false
   subscription_required: false
   free_subscription: true
@@ -9850,6 +10008,7 @@ StamusNetworks:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers:
     - name: StamusNetworks HostID
@@ -9888,6 +10047,7 @@ StaxxSearch:
   displayOnWebsite: false
   visibility: low
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers:
     - name: StaxxSearch
@@ -9931,6 +10091,7 @@ StopForumSpam:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers:
     - name: StopForumSpam
@@ -9970,6 +10131,7 @@ TeamCymruMHR:
   displayOnWebsite: true
   visibility: low
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: false
   subscription_required: false
   free_subscription: false
@@ -10020,6 +10182,7 @@ Telegram:
   displayOnWebsite: true
   visibility: 20
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: true
   subscription_required: false
   free_subscription: true
@@ -10061,6 +10224,7 @@ Test:
   displayOnWebsite: false
   visibility: low
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers: []
     responders:
@@ -10119,6 +10283,7 @@ TestAnalyzer:
   displayOnWebsite: false
   visibility: low
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: false
   subscription_required: false
   free_subscription: false
@@ -10201,6 +10366,7 @@ ThreatConnect:
   displayOnWebsite: true
   visibility: low
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers: []
     responders: []
@@ -10227,6 +10393,7 @@ ThreatGrid:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers:
     - name: ThreatGrid
@@ -10267,6 +10434,7 @@ ThreatMiner:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers:
     - name: ThreatMiner
@@ -10322,6 +10490,7 @@ ThreatQ:
   displayOnWebsite: true
   visibility: low
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers: []
     responders: []
@@ -10348,6 +10517,7 @@ ThreatResponse:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers:
     - name: ThreatResponse
@@ -10391,6 +10561,7 @@ Thunderstorm:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -10439,6 +10610,7 @@ Tines:
   displayOnWebsite: true
   visibility: low
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers: []
     responders: []
@@ -10465,6 +10637,7 @@ TorBlutmagie:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: false
   subscription_required: false
   free_subscription: true
@@ -10509,6 +10682,7 @@ TorProject:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers:
     - name: TorProject
@@ -10547,6 +10721,7 @@ Triage:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: true
   subscription_required: true
   free_subscription: true
@@ -10591,6 +10766,7 @@ UnshortenLink:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers:
     - name: UnshortenLink
@@ -10629,6 +10805,7 @@ urlDNA.io:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: true
   subscription_required: false
   free_subscription: true
@@ -10693,6 +10870,7 @@ URLhaus:
   displayOnWebsite: true
   visibility: 16
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: true
   subscription_required: false
   free_subscription: true
@@ -10747,6 +10925,7 @@ Urlscan.io:
   displayOnWebsite: true
   visibility: 15
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required:
   - true
   - false
@@ -10808,6 +10987,7 @@ Valhalla:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: false
   subscription_required: false
   free_subscription: false
@@ -10849,6 +11029,7 @@ ValidateObservable:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: false
   subscription_required: false
   free_subscription: false
@@ -10906,6 +11087,7 @@ Velociraptor:
   displayOnWebsite: true
   visibility: low
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers: []
     responders:
@@ -10944,6 +11126,7 @@ Verifalia:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers:
     - name: Verifalia
@@ -10983,6 +11166,7 @@ Virusshare:
   displayOnWebsite: true
   visibility: low
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: false
   subscription_required: false
   free_subscription: false
@@ -11035,6 +11219,7 @@ VirusTotal:
   displayOnWebsite: true
   visibility: 3
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: true
   subscription_required:
   - true
@@ -11119,6 +11304,7 @@ VMRay:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers:
     - name: VMRay
@@ -11159,6 +11345,7 @@ Vulners:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: true
   subscription_required: true
   free_subscription: true
@@ -11214,6 +11401,7 @@ Watcher:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers:
     - name: Watcher Check
@@ -11309,6 +11497,7 @@ Wazuh:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers: []
     responders:
@@ -11348,6 +11537,7 @@ Webhook:
   displayOnWebsite: false
   visibility: 50
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers: []
     responders: []
@@ -11374,6 +11564,7 @@ WOT:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers:
     - name: WOT Lookup
@@ -11422,6 +11613,7 @@ Yara:
   displayOnWebsite: true
   visibility: 18
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: false
   subscription_required: false
   free_subscription: true
@@ -11464,6 +11656,7 @@ Yeti:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers:
     - name: Yeti
@@ -11506,6 +11699,7 @@ ZEROFOX:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   integrations:
     analyzers: []
     responders:
@@ -11556,6 +11750,7 @@ Zscaler:
   displayOnWebsite: true
   visibility: 100
   analyzersTagline: ''
+  analyzerDisplayName: ''
   registration_required: true
   subscription_required: true
   free_subscription: false

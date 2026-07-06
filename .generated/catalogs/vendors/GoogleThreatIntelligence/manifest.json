@@ -24,6 +24,7 @@
   "displayOnWebsite": true,
   "visibility": 7,
   "analyzersTagline": "",
+  "analyzerDisplayName": "",
   "registration_required": true,
   "subscription_required": [
     true,

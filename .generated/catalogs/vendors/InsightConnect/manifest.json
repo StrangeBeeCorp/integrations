@@ -27,6 +27,7 @@
   "displayOnWebsite": true,
   "visibility": "low",
   "analyzersTagline": "",
+  "analyzerDisplayName": "",
   "integrations": {
     "analyzers": [],
     "responders": [],

@@ -23,6 +23,7 @@
       "displayOnWebsite": true,
       "visibility": "low",
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": false,
       "subscription_required": false,
       "free_subscription": false,
@@ -85,6 +86,7 @@
       "displayOnWebsite": true,
       "visibility": 13,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": true,
       "subscription_required": true,
       "free_subscription": true,
@@ -149,6 +151,7 @@
       "displayOnWebsite": true,
       "visibility": "low",
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": false,
       "subscription_required": false,
       "free_subscription": true,
@@ -199,6 +202,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [],
         "responders": [],
@@ -250,6 +254,7 @@
       "displayOnWebsite": true,
       "visibility": "low",
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": true,
       "subscription_required": true,
       "free_subscription": true,
@@ -302,6 +307,7 @@
       "displayOnWebsite": false,
       "visibility": "low",
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [
           {
@@ -339,7 +345,7 @@
       }
     },
     {
-      "id": "ANYRUN",
+      "id": "AnyRun",
       "name": "ANY.RUN",
       "description": "ANY.RUN provides enterprise-grade cybersecurity solutions for interactive malware analysis and threat intelligence, helping 15,000 security teams and MSSPs streamline investigations and respond to threats faster.",
       "category": "Threat Intelligence",
@@ -352,13 +358,14 @@
       "displayOnWebsite": true,
       "visibility": "low",
       "analyzersTagline": "Enrich observables with behavioral threat intelligence",
+      "analyzerDisplayName": "ANY.RUN",
       "registration_required": true,
       "subscription_required": true,
       "free_subscription": false,
       "integrations": {
         "analyzers": [
           {
-            "name": "AnyRun TI Lookup",
+            "name": "ANY.RUN TI Lookup",
             "version": "1.0",
             "author": "ANY.RUN Integrations Team",
             "license": "AGPL-V3",
@@ -376,7 +383,7 @@
             "integration_type": null
           },
           {
-            "name": "AnyRun Sandbox URL Windows",
+            "name": "ANY.RUN Sandbox URL Windows",
             "version": "1.0",
             "author": "ANY.RUN Integrations Team",
             "license": "AGPL-V3",
@@ -391,7 +398,7 @@
             "integration_type": null
           },
           {
-            "name": "AnyRun Sandbox URL Android",
+            "name": "ANY.RUN Sandbox URL Android",
             "version": "1.0",
             "author": "ANY.RUN Integrations Team",
             "license": "AGPL-V3",
@@ -406,7 +413,7 @@
             "integration_type": null
           },
           {
-            "name": "AnyRun Sandbox File Android",
+            "name": "ANY.RUN Sandbox File Android",
             "version": "1.0",
             "author": "ANY.RUN Integrations Team",
             "license": "AGPL-V3",
@@ -421,7 +428,7 @@
             "integration_type": null
           },
           {
-            "name": "AnyRun Sandbox URL Linux",
+            "name": "ANY.RUN Sandbox URL Linux",
             "version": "1.0",
             "author": "ANY.RUN Integrations Team",
             "license": "AGPL-V3",
@@ -436,7 +443,7 @@
             "integration_type": null
           },
           {
-            "name": "AnyRun Sandbox File Linux",
+            "name": "ANY.RUN Sandbox File Linux",
             "version": "1.0",
             "author": "ANY.RUN Integrations Team",
             "license": "AGPL-V3",
@@ -451,7 +458,7 @@
             "integration_type": null
           },
           {
-            "name": "AnyRun Sandbox File Windows",
+            "name": "ANY.RUN Sandbox File Windows",
             "version": "1.0",
             "author": "ANY.RUN Integrations Team",
             "license": "AGPL-V3",
@@ -493,6 +500,7 @@
       "displayOnWebsite": true,
       "visibility": 50,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [],
         "responders": [],
@@ -522,6 +530,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [
           {
@@ -604,6 +613,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": true,
       "subscription_required": true,
       "free_subscription": false,
@@ -656,6 +666,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": false,
       "subscription_required": false,
       "free_subscription": false,
@@ -704,6 +715,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": true,
       "subscription_required": true,
       "free_subscription": false,
@@ -756,6 +768,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [
           {
@@ -821,6 +834,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": true,
       "subscription_required": true,
       "free_subscription": false,
@@ -884,6 +898,7 @@
       "displayOnWebsite": false,
       "visibility": "low",
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [
           {
@@ -942,6 +957,7 @@
       "displayOnWebsite": true,
       "visibility": 19,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": false,
       "subscription_required": false,
       "free_subscription": false,
@@ -990,6 +1006,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": true,
       "subscription_required": true,
       "free_subscription": false,
@@ -1040,6 +1057,7 @@
       "displayOnWebsite": true,
       "visibility": "low",
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [
           {
@@ -1087,6 +1105,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": true,
       "subscription_required": false,
       "integrations": {
@@ -1135,6 +1154,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": true,
       "subscription_required": true,
       "free_subscription": false,
@@ -1247,6 +1267,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [
           {
@@ -1307,6 +1328,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [],
         "responders": [
@@ -1367,6 +1389,7 @@
       "displayOnWebsite": true,
       "visibility": "low",
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": false,
       "subscription_required": false,
       "free_subscription": true,
@@ -1415,6 +1438,7 @@
       "displayOnWebsite": true,
       "visibility": "low",
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": true,
       "subscription_required": true,
       "free_subscription": true,
@@ -1465,6 +1489,7 @@
       "displayOnWebsite": true,
       "visibility": "low",
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": true,
       "subscription_required": true,
       "free_subscription": true,
@@ -1515,6 +1540,7 @@
       "displayOnWebsite": true,
       "visibility": "low",
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": true,
       "subscription_required": false,
       "free_subscription": true,
@@ -1570,6 +1596,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [],
         "responders": [
@@ -1645,6 +1672,7 @@
       "displayOnWebsite": true,
       "visibility": "low",
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [],
         "responders": [
@@ -1750,6 +1778,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": true,
       "subscription_required": true,
       "free_subscription": false,
@@ -1815,6 +1844,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": true,
       "subscription_required": false,
       "free_subscription": false,
@@ -1868,6 +1898,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [
           {
@@ -1917,6 +1948,7 @@
       "displayOnWebsite": true,
       "visibility": 14,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": true,
       "subscription_required": true,
       "free_subscription": false,
@@ -1965,6 +1997,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": true,
       "subscription_required": true,
       "free_subscription": false,
@@ -2018,6 +2051,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": true,
       "subscription_required": true,
       "free_subscription": false,
@@ -2076,6 +2110,7 @@
       "displayOnWebsite": true,
       "visibility": "low",
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": true,
       "subscription_required": true,
       "free_subscription": true,
@@ -2175,6 +2210,7 @@
       "displayOnWebsite": true,
       "visibility": 1,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": true,
       "subscription_required": true,
       "free_subscription": false,
@@ -2513,6 +2549,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": true,
       "subscription_required": true,
       "free_subscription": true,
@@ -2561,6 +2598,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": false,
       "subscription_required": false,
       "free_subscription": false,
@@ -2624,6 +2662,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": false,
       "subscription_required": false,
       "free_subscription": false,
@@ -2702,6 +2741,7 @@
       "displayOnWebsite": false,
       "visibility": "low",
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": true,
       "subscription_required": true,
       "free_subscription": true,
@@ -2754,6 +2794,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": false,
       "subscription_required": false,
       "free_subscription": false,
@@ -2806,6 +2847,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": true,
       "subscription_required": true,
       "free_subscription": false,
@@ -2854,6 +2896,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [],
         "responders": [
@@ -2899,6 +2942,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [
           {
@@ -2976,6 +3020,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": false,
       "subscription_required": false,
       "free_subscription": false,
@@ -3024,6 +3069,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": false,
       "subscription_required": false,
       "free_subscription": false,
@@ -3073,6 +3119,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [
           {
@@ -3118,6 +3165,7 @@
       "displayOnWebsite": true,
       "visibility": "low",
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": false,
       "subscription_required": false,
       "free_subscription": false,
@@ -3168,6 +3216,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [
           {
@@ -3360,6 +3409,7 @@
       "displayOnWebsite": true,
       "visibility": "low",
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": true,
       "subscription_required": true,
       "free_subscription": false,
@@ -3456,6 +3506,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": false,
       "subscription_required": false,
       "free_subscription": true,
@@ -3504,6 +3555,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": true,
       "subscription_required": false,
       "free_subscription": true,
@@ -3553,6 +3605,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": true,
       "subscription_required": true,
       "free_subscription": false,
@@ -3647,6 +3700,7 @@
       "displayOnWebsite": true,
       "visibility": "low",
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": false,
       "subscription_required": false,
       "free_subscription": true,
@@ -3705,6 +3759,7 @@
       "displayOnWebsite": false,
       "visibility": 50,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [],
         "responders": [],
@@ -3744,6 +3799,7 @@
       "displayOnWebsite": true,
       "visibility": "low",
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": false,
       "subscription_required": false,
       "free_subscription": true,
@@ -3792,6 +3848,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": true,
       "subscription_required": true,
       "free_subscription": false,
@@ -3872,6 +3929,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": false,
       "subscription_required": false,
       "integrations": {
@@ -3919,6 +3977,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [
           {
@@ -3964,6 +4023,7 @@
       "displayOnWebsite": true,
       "visibility": "low",
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": true,
       "subscription_required": true,
       "free_subscription": false,
@@ -4015,6 +4075,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": false,
       "subscription_required": false,
       "free_subscription": false,
@@ -4063,6 +4124,7 @@
       "displayOnWebsite": true,
       "visibility": "low",
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": true,
       "subscription_required": true,
       "free_subscription": false,
@@ -4114,6 +4176,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": false,
       "subscription_required": false,
       "free_subscription": true,
@@ -4163,6 +4226,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": true,
       "subscription_required": true,
       "free_subscription": false,
@@ -4232,6 +4296,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [],
         "responders": [
@@ -4337,6 +4402,7 @@
       "displayOnWebsite": true,
       "visibility": "low",
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [
           {
@@ -4395,6 +4461,7 @@
       "displayOnWebsite": true,
       "visibility": 7,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": true,
       "subscription_required": [
         true,
@@ -4510,6 +4577,7 @@
       "displayOnWebsite": true,
       "visibility": "low",
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [
           {
@@ -4556,6 +4624,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [
           {
@@ -4611,6 +4680,7 @@
       "displayOnWebsite": true,
       "visibility": "low",
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": true,
       "subscription_required": true,
       "free_subscription": true,
@@ -4659,6 +4729,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [
           {
@@ -4711,6 +4782,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "subscription_required": true,
       "free_subscription": false,
       "integrations": {
@@ -5211,6 +5283,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": false,
       "subscription_required": false,
       "free_subscription": true,
@@ -5284,6 +5357,7 @@
       "displayOnWebsite": true,
       "visibility": "low",
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": true,
       "subscription_required": true,
       "free_subscription": false,
@@ -5332,6 +5406,7 @@
       "displayOnWebsite": false,
       "visibility": 50,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [],
         "responders": [],
@@ -5371,6 +5446,7 @@
       "displayOnWebsite": true,
       "visibility": "low",
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": true,
       "subscription_required": true,
       "free_subscription": true,
@@ -5430,6 +5506,7 @@
       "displayOnWebsite": true,
       "visibility": "low",
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [
           {
@@ -5479,6 +5556,7 @@
       "displayOnWebsite": true,
       "visibility": "low",
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": true,
       "subscription_required": true,
       "free_subscription": false,
@@ -5527,6 +5605,7 @@
       "displayOnWebsite": true,
       "visibility": "low",
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [
           {
@@ -5575,6 +5654,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": false,
       "subscription_required": false,
       "free_subscription": true,
@@ -5623,6 +5703,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": true,
       "subscription_required": true,
       "free_subscription": true,
@@ -5672,6 +5753,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [
           {
@@ -5733,6 +5815,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": false,
       "subscription_required": false,
       "integrations": {
@@ -5791,6 +5874,7 @@
       "displayOnWebsite": true,
       "visibility": "low",
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [
           {
@@ -5851,6 +5935,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [
           {
@@ -5896,6 +5981,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": true,
       "subscription_required": true,
       "free_subscription": true,
@@ -5946,6 +6032,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [
           {
@@ -5998,6 +6085,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": true,
       "subscription_required": true,
       "free_subscription": false,
@@ -6073,6 +6161,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [],
         "responders": [],
@@ -6114,6 +6203,7 @@
       "displayOnWebsite": true,
       "visibility": "low",
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": true,
       "subscription_required": true,
       "integrations": {
@@ -6191,6 +6281,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": false,
       "subscription_required": false,
       "free_subscription": true,
@@ -6273,6 +6364,7 @@
       "displayOnWebsite": true,
       "visibility": "low",
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [
           {
@@ -6320,6 +6412,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [],
         "responders": [
@@ -6365,6 +6458,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [
           {
@@ -6411,6 +6505,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": false,
       "subscription_required": false,
       "free_subscription": true,
@@ -6462,6 +6557,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": true,
       "subscription_required": true,
       "integrations": {
@@ -6509,6 +6605,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [],
         "responders": [
@@ -6556,6 +6653,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [],
         "responders": [
@@ -6601,6 +6699,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [
           {
@@ -6656,6 +6755,7 @@
       "displayOnWebsite": true,
       "visibility": "low",
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": false,
       "subscription_required": false,
       "free_subscription": false,
@@ -6707,6 +6807,7 @@
       "displayOnWebsite": true,
       "visibility": "low",
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": false,
       "subscription_required": false,
       "free_subscription": false,
@@ -6765,6 +6866,7 @@
       "displayOnWebsite": true,
       "visibility": "low",
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": true,
       "subscription_required": true,
       "free_subscription": true,
@@ -6813,6 +6915,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": false,
       "subscription_required": false,
       "free_subscription": false,
@@ -6862,6 +6965,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": true,
       "subscription_required": true,
       "free_subscription": true,
@@ -6928,6 +7032,7 @@
       "displayOnWebsite": true,
       "visibility": 50,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [],
         "responders": [],
@@ -6967,6 +7072,7 @@
       "displayOnWebsite": true,
       "visibility": "low",
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [
           {
@@ -7012,6 +7118,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [
           {
@@ -7130,6 +7237,7 @@
       "displayOnWebsite": true,
       "visibility": 4,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": true,
       "subscription_required": true,
       "free_subscription": false,
@@ -7354,6 +7462,7 @@
       "displayOnWebsite": true,
       "visibility": 9,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": [
         true,
         false
@@ -7484,6 +7593,7 @@
       "displayOnWebsite": true,
       "visibility": 5,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": true,
       "subscription_required": true,
       "free_subscription": false,
@@ -7657,6 +7767,7 @@
       "displayOnWebsite": true,
       "visibility": 50,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [],
         "responders": [],
@@ -7686,6 +7797,7 @@
       "displayOnWebsite": false,
       "visibility": "low",
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": false,
       "subscription_required": false,
       "free_subscription": false,
@@ -7744,6 +7856,7 @@
       "displayOnWebsite": true,
       "visibility": 6,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": false,
       "subscription_required": false,
       "free_subscription": true,
@@ -7805,6 +7918,7 @@
       "displayOnWebsite": true,
       "visibility": "low",
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": false,
       "subscription_required": false,
       "free_subscription": false,
@@ -7867,6 +7981,7 @@
       "displayOnWebsite": true,
       "visibility": "low",
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [
           {
@@ -7929,6 +8044,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [
           {
@@ -7989,6 +8105,7 @@
       "displayOnWebsite": true,
       "visibility": "low",
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": false,
       "subscription_required": false,
       "free_subscription": true,
@@ -8041,6 +8158,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": true,
       "subscription_required": false,
       "free_subscription": true,
@@ -8089,6 +8207,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [
           {
@@ -8135,6 +8254,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": true,
       "subscription_required": true,
       "free_subscription": false,
@@ -8183,6 +8303,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [
           {
@@ -8229,6 +8350,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": true,
       "subscription_required": false,
       "free_subscription": false,
@@ -8287,6 +8409,7 @@
       "displayOnWebsite": true,
       "visibility": 17,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": true,
       "subscription_required": true,
       "free_subscription": true,
@@ -8411,6 +8534,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": true,
       "subscription_required": true,
       "free_subscription": false,
@@ -8461,6 +8585,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": true,
       "subscription_required": false,
       "free_subscription": false,
@@ -8606,6 +8731,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": true,
       "subscription_required": false,
       "free_subscription": true,
@@ -8654,6 +8780,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": true,
       "subscription_required": true,
       "free_subscription": false,
@@ -8703,6 +8830,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [
           {
@@ -8781,6 +8909,7 @@
       "displayOnWebsite": true,
       "visibility": "low",
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": true,
       "subscription_required": true,
       "free_subscription": false,
@@ -8944,6 +9073,7 @@
       "displayOnWebsite": true,
       "visibility": "low",
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [],
         "responders": [],
@@ -8973,6 +9103,7 @@
       "displayOnWebsite": true,
       "visibility": "low",
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [],
         "responders": [
@@ -9275,6 +9406,7 @@
       "displayOnWebsite": true,
       "visibility": "low",
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": true,
       "subscription_required": true,
       "free_subscription": false,
@@ -9343,6 +9475,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [
           {
@@ -9558,6 +9691,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": false,
       "subscription_required": false,
       "free_subscription": false,
@@ -9608,6 +9742,7 @@
       "displayOnWebsite": false,
       "visibility": "low",
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [
           {
@@ -9668,6 +9803,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": true,
       "subscription_required": true,
       "free_subscription": [
@@ -9743,6 +9879,7 @@
       "displayOnWebsite": true,
       "visibility": "low",
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": true,
       "subscription_required": true,
       "free_subscription": true,
@@ -9838,6 +9975,7 @@
       "displayOnWebsite": true,
       "visibility": 10,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": true,
       "subscription_required": true,
       "free_subscription": false,
@@ -9911,6 +10049,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [
           {
@@ -9959,6 +10098,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [
           {
@@ -10019,6 +10159,7 @@
       "displayOnWebsite": true,
       "visibility": "low",
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [],
         "responders": [],
@@ -10058,6 +10199,7 @@
       "displayOnWebsite": true,
       "visibility": 8,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": true,
       "subscription_required": true,
       "integrations": {
@@ -10109,6 +10251,7 @@
       "displayOnWebsite": true,
       "visibility": 50,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [],
         "responders": [],
@@ -10138,6 +10281,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [],
         "responders": [
@@ -10184,6 +10328,7 @@
       "displayOnWebsite": false,
       "visibility": "low",
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [
           {
@@ -10499,6 +10644,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [
           {
@@ -10575,6 +10721,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [],
         "responders": [
@@ -10622,6 +10769,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [
           {
@@ -10682,6 +10830,7 @@
       "displayOnWebsite": true,
       "visibility": "low",
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": true,
       "subscription_required": true,
       "free_subscription": false,
@@ -10772,6 +10921,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [],
         "responders": [
@@ -10818,6 +10968,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": true,
       "subscription_required": true,
       "free_subscription": false,
@@ -10927,6 +11078,7 @@
       "displayOnWebsite": true,
       "visibility": 11,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": true,
       "subscription_required": false,
       "free_subscription": true,
@@ -11069,6 +11221,7 @@
       "displayOnWebsite": true,
       "visibility": "low",
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [],
         "responders": [
@@ -11118,6 +11271,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [
           {
@@ -11204,6 +11358,7 @@
       "displayOnWebsite": true,
       "visibility": 12,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": true,
       "subscription_required": false,
       "free_subscription": true,
@@ -11267,6 +11422,7 @@
       "displayOnWebsite": false,
       "visibility": "low",
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [
           {
@@ -11325,6 +11481,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [
           {
@@ -11403,6 +11560,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": false,
       "subscription_required": false,
       "free_subscription": false,
@@ -11451,6 +11609,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [
           {
@@ -11520,6 +11679,7 @@
       "displayOnWebsite": true,
       "visibility": 2,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": false,
       "subscription_required": false,
       "free_subscription": true,
@@ -11735,6 +11895,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [
           {
@@ -11780,6 +11941,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [
           {
@@ -11836,6 +11998,7 @@
       "displayOnWebsite": true,
       "visibility": 20,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": true,
       "subscription_required": false,
       "free_subscription": true,
@@ -11884,6 +12047,7 @@
       "displayOnWebsite": false,
       "visibility": "low",
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [],
         "responders": [
@@ -11952,6 +12116,7 @@
       "displayOnWebsite": false,
       "visibility": "low",
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": false,
       "subscription_required": false,
       "free_subscription": false,
@@ -12044,6 +12209,7 @@
       "displayOnWebsite": true,
       "visibility": "low",
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [],
         "responders": [],
@@ -12073,6 +12239,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [
           {
@@ -12120,6 +12287,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [
           {
@@ -12184,6 +12352,7 @@
       "displayOnWebsite": true,
       "visibility": "low",
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [],
         "responders": [],
@@ -12213,6 +12382,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [
           {
@@ -12263,6 +12433,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": true,
       "subscription_required": true,
       "free_subscription": false,
@@ -12321,6 +12492,7 @@
       "displayOnWebsite": true,
       "visibility": "low",
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [],
         "responders": [],
@@ -12350,6 +12522,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": false,
       "subscription_required": false,
       "free_subscription": true,
@@ -12400,6 +12573,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [
           {
@@ -12445,6 +12619,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": true,
       "subscription_required": true,
       "free_subscription": true,
@@ -12495,6 +12670,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [
           {
@@ -12540,6 +12716,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": true,
       "subscription_required": false,
       "free_subscription": true,
@@ -12615,6 +12792,7 @@
       "displayOnWebsite": true,
       "visibility": 16,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": true,
       "subscription_required": false,
       "free_subscription": true,
@@ -12677,6 +12855,7 @@
       "displayOnWebsite": true,
       "visibility": 15,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": [
         true,
         false
@@ -12749,6 +12928,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": false,
       "subscription_required": false,
       "free_subscription": false,
@@ -12797,6 +12977,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": false,
       "subscription_required": false,
       "free_subscription": false,
@@ -12860,6 +13041,7 @@
       "displayOnWebsite": true,
       "visibility": "low",
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [],
         "responders": [
@@ -12905,6 +13087,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [
           {
@@ -12950,6 +13133,7 @@
       "displayOnWebsite": true,
       "visibility": "low",
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": false,
       "subscription_required": false,
       "free_subscription": false,
@@ -13010,6 +13194,7 @@
       "displayOnWebsite": true,
       "visibility": 3,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": true,
       "subscription_required": [
         true,
@@ -13111,6 +13296,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [
           {
@@ -13158,6 +13344,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": true,
       "subscription_required": true,
       "free_subscription": true,
@@ -13223,6 +13410,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [
           {
@@ -13329,6 +13517,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [],
         "responders": [
@@ -13375,6 +13564,7 @@
       "displayOnWebsite": false,
       "visibility": 50,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [],
         "responders": [],
@@ -13404,6 +13594,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [
           {
@@ -13459,6 +13650,7 @@
       "displayOnWebsite": true,
       "visibility": 18,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": false,
       "subscription_required": false,
       "free_subscription": true,
@@ -13507,6 +13699,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [
           {
@@ -13556,6 +13749,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "integrations": {
         "analyzers": [],
         "responders": [
@@ -13616,6 +13810,7 @@
       "displayOnWebsite": true,
       "visibility": 100,
       "analyzersTagline": "",
+      "analyzerDisplayName": "",
       "registration_required": true,
       "subscription_required": true,
       "free_subscription": false,

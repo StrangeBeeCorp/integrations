@@ -1,7 +1,7 @@
 # AUTO-GENERATED - DO NOT EDIT
 # Edit vendor.yml for vendor metadata, then re-run the generator
 
-id: ANYRUN
+id: AnyRun
 name: ANY.RUN
 description: ANY.RUN provides enterprise-grade cybersecurity solutions for interactive malware analysis and threat intelligence,
   helping 15,000 security teams and MSSPs streamline investigations and respond to threats faster.
@@ -15,12 +15,13 @@ externalIntegrations: []
 displayOnWebsite: true
 visibility: low
 analyzersTagline: Enrich observables with behavioral threat intelligence
+analyzerDisplayName: ANY.RUN
 registration_required: true
 subscription_required: true
 free_subscription: false
 integrations:
   analyzers:
-  - name: AnyRun TI Lookup
+  - name: ANY.RUN TI Lookup
     version: '1.0'
     author: ANY.RUN Integrations Team
     license: AGPL-V3
@@ -35,7 +36,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/AnyRun/AnyRun_TI_Lookup.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun
     integration_type: null
-  - name: AnyRun Sandbox URL Windows
+  - name: ANY.RUN Sandbox URL Windows
     version: '1.0'
     author: ANY.RUN Integrations Team
     license: AGPL-V3
@@ -47,7 +48,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Windows.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun
     integration_type: null
-  - name: AnyRun Sandbox URL Android
+  - name: ANY.RUN Sandbox URL Android
     version: '1.0'
     author: ANY.RUN Integrations Team
     license: AGPL-V3
@@ -59,7 +60,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Android.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun
     integration_type: null
-  - name: AnyRun Sandbox File Android
+  - name: ANY.RUN Sandbox File Android
     version: '1.0'
     author: ANY.RUN Integrations Team
     license: AGPL-V3
@@ -71,7 +72,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_File_Android.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun
     integration_type: null
-  - name: AnyRun Sandbox URL Linux
+  - name: ANY.RUN Sandbox URL Linux
     version: '1.0'
     author: ANY.RUN Integrations Team
     license: AGPL-V3
@@ -83,7 +84,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Linux.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun
     integration_type: null
-  - name: AnyRun Sandbox File Linux
+  - name: ANY.RUN Sandbox File Linux
     version: '1.0'
     author: ANY.RUN Integrations Team
     license: AGPL-V3
@@ -95,7 +96,7 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_File_Linux.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun
     integration_type: null
-  - name: AnyRun Sandbox File Windows
+  - name: ANY.RUN Sandbox File Windows
     version: '1.0'
     author: ANY.RUN Integrations Team
     license: AGPL-V3

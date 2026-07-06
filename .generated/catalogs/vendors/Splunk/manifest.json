@@ -35,6 +35,7 @@
   "displayOnWebsite": true,
   "visibility": 2,
   "analyzersTagline": "",
+  "analyzerDisplayName": "",
   "registration_required": false,
   "subscription_required": false,
   "free_subscription": true,
