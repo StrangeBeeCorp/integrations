@@ -50,6 +50,12 @@ properties:
     minLength: 5
     maxLength: 150
 
+  analyzerDisplayName:
+    type: string
+    description: "Optional display name substituted for the upstream vendor folder prefix in analyzer/responder titles (eg 'AnyRun TI Lookup' to 'ANY.RUN TI Lookup'), without impacting the underlying synced files"
+    minLength: 2
+    maxLength: 50
+
   tags:
     type: array
     description: "List of relevant tags for categorization and search"

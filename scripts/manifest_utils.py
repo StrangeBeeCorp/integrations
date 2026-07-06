@@ -242,7 +242,7 @@ def read_vendor_metadata(vendor: str) -> Dict:
         'id': vendor, 'name': default_name, 'description': '', 'category': '',
         'tags': [], 'homepage': '', 'logo': {}, 'useCases': [],
         'notifier': False, 'externalIntegrations': [],
-        'displayOnWebsite': True, 'visibility': 100, 'analyzersTagline': ''
+        'displayOnWebsite': True, 'visibility': 100, 'analyzersTagline': '', 'analyzerDisplayName': ''
     }
 
     if not vendor_yml_path.exists():
@@ -273,7 +273,8 @@ def read_vendor_metadata(vendor: str) -> Dict:
             'externalIntegrations': data.get('externalIntegrations', []),
             'displayOnWebsite': data.get('displayOnWebsite', True),
             'visibility': data.get('visibility', 'low'),
-            'analyzersTagline': data.get('analyzersTagline', '')
+            'analyzersTagline': data.get('analyzersTagline', ''),
+            'analyzerDisplayName': data.get('analyzerDisplayName', '')
         }
     except Exception as e:
         print(f"  Error reading vendor.yml for {vendor}: {e}")
@@ -295,11 +296,24 @@ def find_vendors() -> List[str]:
     return sorted(vendors, key=str.lower)
 
 
+def _rebrand_item_names(items: List[Dict], vendor: str, display_name: str) -> None:
+    if not display_name:
+        return
+    for item in items:
+        name = item.get('name', '')
+        if name.lower().startswith(vendor.lower()):
+            item['name'] = display_name + name[len(vendor):]
+
+
 def generate_vendor_manifest(vendor: str) -> Dict:
     vendor_metadata = read_vendor_metadata(vendor)
     analyzers, analyzer_sub = scan_analyzers(vendor)
     responders, responder_sub = scan_responders(vendor)
     functions = scan_functions(vendor)
+
+    display_name = vendor_metadata.get('analyzerDisplayName', '')
+    _rebrand_item_names(analyzers, vendor, display_name)
+    _rebrand_item_names(responders, vendor, display_name)
 
     subscription_info = consolidate_subscription_fields(analyzer_sub, responder_sub)
     external_count = len(vendor_metadata.get('externalIntegrations', []))
