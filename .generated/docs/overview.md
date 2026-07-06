@@ -220,6 +220,9 @@ Built something useful? Contributions are welcome!
 **[AlienVault OTX](vendors/OTXQuery/overview.md)** (1 integrations)
   AlienVault Open Threat Exchange (OTX) is a collaborative threat intelligence platform where secur...
 
+**[ANY.RUN](vendors/AnyRun/overview.md)** (7 integrations)
+  ANY.RUN provides enterprise-grade cybersecurity solutions for interactive malware analysis and th...
+
 **[CERT.AT pDNS](vendors/CERTatPassiveDNS/overview.md)** (1 integrations)
   CERT.AT pDNS is not a public service. It is only available for national / governmental CERTs in g...
 
@@ -270,8 +273,6 @@ Built something useful? Contributions are welcome!
 **[Airtable](vendors/Airtable/overview.md)** (1 integrations)
 
 **[Anomali Staxx](vendors/StaxxSearch/overview.md)** (1 integrations)
-
-**[AnyRun](vendors/AnyRun/overview.md)** (7 integrations)
 
 **[Autofocus](vendors/Autofocus/overview.md)** (3 integrations)
 
@@ -547,7 +548,7 @@ Built something useful? Contributions are welcome!
 - **[Airtable](vendors/Airtable/overview.md)** - *Uncategorized* - 1 functions
 - **[AlienVault OTX](vendors/OTXQuery/overview.md)** - *Threat Intelligence* - 1 analyzers
 - **[Anomali Staxx](vendors/StaxxSearch/overview.md)** - *Uncategorized* - 1 analyzers
-- **[AnyRun](vendors/AnyRun/overview.md)** - *Uncategorized* - 7 analyzers
+- **[ANY.RUN](vendors/AnyRun/overview.md)** - *Threat Intelligence* - 7 analyzers
 - **[Apache Kafka](vendors/Kafka/overview.md)** - *SOAR & Automation* - notifier
 - **[Autofocus](vendors/Autofocus/overview.md)** - *Uncategorized* - 3 analyzers
 - **[AWS Lambda](vendors/AWSLambda/overview.md)** - *Cloud Infrastructure* - 1 responders
