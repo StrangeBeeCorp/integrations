@@ -23,6 +23,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: low
+  analyzersTagline: ''
   registration_required: false
   subscription_required: false
   free_subscription: false
@@ -75,6 +76,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 13
+  analyzersTagline: ''
   registration_required: true
   subscription_required: true
   free_subscription: true
@@ -128,6 +130,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: low
+  analyzersTagline: ''
   registration_required: false
   subscription_required: false
   free_subscription: true
@@ -170,6 +173,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   integrations:
     analyzers: []
     responders: []
@@ -213,6 +217,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: low
+  analyzersTagline: ''
   registration_required: true
   subscription_required: true
   free_subscription: true
@@ -256,6 +261,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: false
   visibility: low
+  analyzersTagline: ''
   integrations:
     analyzers:
     - name: StaxxSearch
@@ -298,6 +304,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: low
+  analyzersTagline: Enrich observables with behavioral threat intelligence
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -413,6 +420,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 50
+  analyzersTagline: ''
   integrations:
     analyzers: []
     responders: []
@@ -437,6 +445,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   integrations:
     analyzers:
     - name: Autofocus GetSampleAnalysis
@@ -505,6 +514,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -548,6 +558,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   registration_required: false
   subscription_required: false
   free_subscription: false
@@ -587,6 +598,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -630,6 +642,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   integrations:
     analyzers:
     - name: BackscatterIO Enrichment
@@ -683,6 +696,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -734,6 +748,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: false
   visibility: low
+  analyzersTagline: ''
   integrations:
     analyzers:
     - name: C1fApp
@@ -783,6 +798,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 19
+  analyzersTagline: ''
   registration_required: false
   subscription_required: false
   free_subscription: false
@@ -822,6 +838,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -864,6 +881,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: low
+  analyzersTagline: ''
   integrations:
     analyzers:
     - name: CERTatPassiveDNS
@@ -902,6 +920,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   registration_required: true
   subscription_required: false
   integrations:
@@ -942,6 +961,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -1038,6 +1058,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   integrations:
     analyzers:
     - name: CheckPhish Submit
@@ -1086,6 +1107,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   integrations:
     analyzers: []
     responders:
@@ -1134,6 +1156,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: low
+  analyzersTagline: ''
   registration_required: false
   subscription_required: false
   free_subscription: true
@@ -1173,6 +1196,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: low
+  analyzersTagline: ''
   registration_required: true
   subscription_required: true
   free_subscription: true
@@ -1214,6 +1238,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: low
+  analyzersTagline: ''
   registration_required: true
   subscription_required: true
   free_subscription: true
@@ -1255,6 +1280,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: low
+  analyzersTagline: ''
   registration_required: true
   subscription_required: false
   free_subscription: true
@@ -1302,6 +1328,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   integrations:
     analyzers: []
     responders:
@@ -1363,6 +1390,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: low
+  analyzersTagline: ''
   integrations:
     analyzers: []
     responders:
@@ -1447,6 +1475,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -1499,6 +1528,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   registration_required: true
   subscription_required: false
   free_subscription: false
@@ -1544,6 +1574,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   integrations:
     analyzers:
     - name: ClamAV FileInfo
@@ -1583,6 +1614,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 14
+  analyzersTagline: ''
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -1622,6 +1654,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -1666,6 +1699,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -1715,6 +1749,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: low
+  analyzersTagline: ''
   registration_required: true
   subscription_required: true
   free_subscription: true
@@ -1796,6 +1831,7 @@ low:
     documentation: https://github.com/StrangeBeeCorp/falcon2thehive
   displayOnWebsite: true
   visibility: 1
+  analyzersTagline: ''
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -2069,6 +2105,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   registration_required: true
   subscription_required: true
   free_subscription: true
@@ -2109,6 +2146,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   registration_required: false
   subscription_required: false
   free_subscription: false
@@ -2160,6 +2198,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   registration_required: false
   subscription_required: false
   free_subscription: false
@@ -2223,6 +2262,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: false
   visibility: low
+  analyzersTagline: ''
   registration_required: true
   subscription_required: true
   free_subscription: true
@@ -2266,6 +2306,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   registration_required: false
   subscription_required: false
   free_subscription: false
@@ -2309,6 +2350,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -2348,6 +2390,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   integrations:
     analyzers: []
     responders:
@@ -2384,6 +2427,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   integrations:
     analyzers:
     - name: DNSDB IPHistory
@@ -2446,6 +2490,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   registration_required: false
   subscription_required: false
   free_subscription: false
@@ -2485,6 +2530,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   registration_required: false
   subscription_required: false
   free_subscription: false
@@ -2525,6 +2571,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   integrations:
     analyzers:
     - name: DNSSinkhole
@@ -2561,6 +2608,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: low
+  analyzersTagline: ''
   registration_required: false
   subscription_required: false
   free_subscription: false
@@ -2603,6 +2651,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   integrations:
     analyzers:
     - name: DomainTools ReverseNameServer
@@ -2760,6 +2809,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: low
+  analyzersTagline: ''
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -2837,6 +2887,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   registration_required: false
   subscription_required: false
   free_subscription: true
@@ -2876,6 +2927,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   registration_required: true
   subscription_required: false
   free_subscription: true
@@ -2917,6 +2969,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -2995,6 +3048,7 @@ low:
     documentation: https://www.elastic.co/docs/reference/kibana/connectors-kibana/thehive-action-type
   displayOnWebsite: true
   visibility: low
+  analyzersTagline: ''
   registration_required: false
   subscription_required: false
   free_subscription: true
@@ -3044,6 +3098,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: false
   visibility: 50
+  analyzersTagline: ''
   integrations:
     analyzers: []
     responders: []
@@ -3077,6 +3132,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: low
+  analyzersTagline: ''
   registration_required: false
   subscription_required: false
   free_subscription: true
@@ -3116,6 +3172,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -3181,6 +3238,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   registration_required: false
   subscription_required: false
   integrations:
@@ -3219,6 +3277,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   integrations:
     analyzers:
     - name: FileInfo
@@ -3256,6 +3315,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: low
+  analyzersTagline: ''
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -3298,6 +3358,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   registration_required: false
   subscription_required: false
   free_subscription: false
@@ -3337,6 +3398,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: low
+  analyzersTagline: ''
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -3379,6 +3441,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   registration_required: false
   subscription_required: false
   free_subscription: true
@@ -3419,6 +3482,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -3475,6 +3539,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   integrations:
     analyzers: []
     responders:
@@ -3559,6 +3624,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: low
+  analyzersTagline: ''
   integrations:
     analyzers:
     - name: GoogleSafebrowsing
@@ -3608,6 +3674,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 7
+  analyzersTagline: ''
   registration_required: true
   subscription_required:
   - true
@@ -3705,6 +3772,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: low
+  analyzersTagline: ''
   integrations:
     analyzers:
     - name: GoogleVisionAPI WebDetection
@@ -3742,6 +3810,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   integrations:
     analyzers:
     - name: GoogleDNS resolve
@@ -3787,6 +3856,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: low
+  analyzersTagline: ''
   registration_required: true
   subscription_required: true
   free_subscription: true
@@ -3826,6 +3896,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   integrations:
     analyzers:
     - name: GRR
@@ -3868,6 +3939,7 @@ low:
     documentation: https://harfanglab.io/connectors/
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   subscription_required: true
   free_subscription: false
   integrations:
@@ -4269,6 +4341,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   registration_required: false
   subscription_required: false
   free_subscription: true
@@ -4329,6 +4402,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: low
+  analyzersTagline: ''
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -4368,6 +4442,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: false
   visibility: 50
+  analyzersTagline: ''
   integrations:
     analyzers: []
     responders: []
@@ -4401,6 +4476,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: low
+  analyzersTagline: ''
   registration_required: true
   subscription_required: true
   free_subscription: true
@@ -4450,6 +4526,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: low
+  analyzersTagline: ''
   integrations:
     analyzers:
     - name: HybridAnalysis GetReport
@@ -4490,6 +4567,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: low
+  analyzersTagline: ''
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -4529,6 +4607,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: low
+  analyzersTagline: ''
   integrations:
     analyzers:
     - name: IBMXForce Lookup
@@ -4568,6 +4647,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   registration_required: false
   subscription_required: false
   free_subscription: true
@@ -4607,6 +4687,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   registration_required: true
   subscription_required: true
   free_subscription: true
@@ -4647,6 +4728,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   integrations:
     analyzers:
     - name: Investigate Categorization
@@ -4696,6 +4778,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   registration_required: false
   subscription_required: false
   integrations:
@@ -4744,6 +4827,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: low
+  analyzersTagline: ''
   integrations:
     analyzers:
     - name: IPinfo Hosted Domains
@@ -4792,6 +4876,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   integrations:
     analyzers:
     - name: IPVoid
@@ -4828,6 +4913,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   registration_required: true
   subscription_required: true
   free_subscription: true
@@ -4870,6 +4956,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   integrations:
     analyzers:
     - name: IVRE
@@ -4913,6 +5000,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -4978,6 +5066,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   integrations:
     analyzers: []
     responders: []
@@ -5012,6 +5101,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: low
+  analyzersTagline: ''
   registration_required: true
   subscription_required: true
   integrations:
@@ -5074,6 +5164,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   registration_required: false
   subscription_required: false
   free_subscription: true
@@ -5143,6 +5234,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: low
+  analyzersTagline: ''
   integrations:
     analyzers:
     - name: KasperskyThreatIntelligencePortal
@@ -5181,6 +5273,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   integrations:
     analyzers: []
     responders:
@@ -5217,6 +5310,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   integrations:
     analyzers:
     - name: Ldap Query
@@ -5254,6 +5348,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   registration_required: false
   subscription_required: false
   free_subscription: true
@@ -5296,6 +5391,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   registration_required: true
   subscription_required: true
   integrations:
@@ -5334,6 +5430,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   integrations:
     analyzers: []
     responders:
@@ -5372,6 +5469,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   integrations:
     analyzers: []
     responders:
@@ -5411,6 +5509,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   integrations:
     analyzers:
     - name: Malpedia
@@ -5456,6 +5555,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: low
+  analyzersTagline: ''
   registration_required: false
   subscription_required: false
   free_subscription: false
@@ -5498,6 +5598,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: low
+  analyzersTagline: ''
   registration_required: false
   subscription_required: false
   free_subscription: false
@@ -5546,6 +5647,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: low
+  analyzersTagline: ''
   registration_required: true
   subscription_required: true
   free_subscription: true
@@ -5585,6 +5687,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   registration_required: false
   subscription_required: false
   free_subscription: false
@@ -5625,6 +5728,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   registration_required: true
   subscription_required: true
   free_subscription: true
@@ -5680,6 +5784,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 50
+  analyzersTagline: ''
   integrations:
     analyzers: []
     responders: []
@@ -5713,6 +5818,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: low
+  analyzersTagline: ''
   integrations:
     analyzers:
     - name: MaxMind GeoIP
@@ -5749,6 +5855,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   integrations:
     analyzers:
     - name: MetaDefenderCloud Scan
@@ -5846,6 +5953,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 4
+  analyzersTagline: ''
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -6027,6 +6135,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 9
+  analyzersTagline: ''
   registration_required:
   - true
   - false
@@ -6133,6 +6242,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 5
+  analyzersTagline: ''
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -6275,6 +6385,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 50
+  analyzersTagline: ''
   integrations:
     analyzers: []
     responders: []
@@ -6299,6 +6410,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: false
   visibility: low
+  analyzersTagline: ''
   registration_required: false
   subscription_required: false
   free_subscription: false
@@ -6347,6 +6459,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 6
+  analyzersTagline: ''
   registration_required: false
   subscription_required: false
   free_subscription: true
@@ -6399,6 +6512,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: low
+  analyzersTagline: ''
   registration_required: false
   subscription_required: false
   free_subscription: false
@@ -6451,6 +6565,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: low
+  analyzersTagline: ''
   integrations:
     analyzers:
     - name: Mnemonic pDNS Public
@@ -6501,6 +6616,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   integrations:
     analyzers:
     - name: Msg Parser
@@ -6549,6 +6665,7 @@ low:
     documentation: https://n8n.io/integrations/thehive-5/
   displayOnWebsite: true
   visibility: low
+  analyzersTagline: ''
   registration_required: false
   subscription_required: false
   free_subscription: true
@@ -6592,6 +6709,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   registration_required: true
   subscription_required: false
   free_subscription: true
@@ -6631,6 +6749,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   integrations:
     analyzers:
     - name: Nessus
@@ -6668,6 +6787,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -6707,6 +6827,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   integrations:
     analyzers:
     - name: NSRL
@@ -6744,6 +6865,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   registration_required: true
   subscription_required: false
   free_subscription: false
@@ -6793,6 +6915,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 17
+  analyzersTagline: ''
   registration_required: true
   subscription_required: true
   free_subscription: true
@@ -6899,6 +7022,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -6941,6 +7065,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   registration_required: true
   subscription_required: false
   free_subscription: false
@@ -7068,6 +7193,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   registration_required: true
   subscription_required: false
   free_subscription: true
@@ -7108,6 +7234,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -7149,6 +7276,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   integrations:
     analyzers:
     - name: OVH Domain Check
@@ -7211,6 +7339,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: low
+  analyzersTagline: ''
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -7342,6 +7471,7 @@ low:
     documentation: https://xsoar.pan.dev/docs/reference/integrations/the-hive-project
   displayOnWebsite: true
   visibility: low
+  analyzersTagline: ''
   integrations:
     analyzers: []
     responders: []
@@ -7366,6 +7496,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: low
+  analyzersTagline: ''
   integrations:
     analyzers: []
     responders:
@@ -7614,6 +7745,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: low
+  analyzersTagline: ''
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -7669,6 +7801,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   integrations:
     analyzers:
     - name: PassiveTotal Whois Details
@@ -7845,6 +7978,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   registration_required: false
   subscription_required: false
   free_subscription: false
@@ -7886,6 +8020,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: false
   visibility: low
+  analyzersTagline: ''
   integrations:
     analyzers:
     - name: PayloadSecurity File Analysis
@@ -7934,6 +8069,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   registration_required: true
   subscription_required: true
   free_subscription:
@@ -7995,6 +8131,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: low
+  analyzersTagline: ''
   registration_required: true
   subscription_required: true
   free_subscription: true
@@ -8071,6 +8208,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 10
+  analyzersTagline: ''
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -8130,6 +8268,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   integrations:
     analyzers:
     - name: Pulsedive GetIndicator
@@ -8169,6 +8308,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   integrations:
     analyzers:
     - name: QrDecode
@@ -8217,6 +8357,7 @@ low:
     documentation: https://extensions.rapid7.com/extension/thehive
   displayOnWebsite: true
   visibility: low
+  analyzersTagline: ''
   integrations:
     analyzers: []
     responders: []
@@ -8250,6 +8391,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 8
+  analyzersTagline: ''
   registration_required: true
   subscription_required: true
   integrations:
@@ -8293,6 +8435,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 50
+  analyzersTagline: ''
   integrations:
     analyzers: []
     responders: []
@@ -8317,6 +8460,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   integrations:
     analyzers: []
     responders:
@@ -8354,6 +8498,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: false
   visibility: low
+  analyzersTagline: ''
   integrations:
     analyzers:
     - name: RiskIQ Services
@@ -8611,6 +8756,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   integrations:
     analyzers:
     - name: Robtex Reverse PDNS Query
@@ -8672,6 +8818,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   integrations:
     analyzers: []
     responders:
@@ -8710,6 +8857,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   integrations:
     analyzers:
     - name: SecurityTrails Passive DNS
@@ -8758,6 +8906,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: low
+  analyzersTagline: ''
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -8833,6 +8982,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   integrations:
     analyzers: []
     responders:
@@ -8870,6 +9020,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -8961,6 +9112,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 11
+  analyzersTagline: ''
   registration_required: true
   subscription_required: false
   free_subscription: true
@@ -9077,6 +9229,7 @@ low:
     documentation: https://shuffler.io/apps/thehive/integrations/TheHive_5
   displayOnWebsite: true
   visibility: low
+  analyzersTagline: ''
   integrations:
     analyzers: []
     responders:
@@ -9117,6 +9270,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   integrations:
     analyzers:
     - name: SinkDB
@@ -9185,6 +9339,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 12
+  analyzersTagline: ''
   registration_required: true
   subscription_required: false
   free_subscription: true
@@ -9238,6 +9393,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: false
   visibility: low
+  analyzersTagline: ''
   integrations:
     analyzers:
     - name: SoltraEdge
@@ -9287,6 +9443,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   integrations:
     analyzers:
     - name: SophosIntelix GetReport
@@ -9354,6 +9511,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   registration_required: false
   subscription_required: false
   free_subscription: false
@@ -9393,6 +9551,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   integrations:
     analyzers:
     - name: SpamhausDBL
@@ -9450,6 +9609,7 @@ low:
     documentation: https://splunkbase.splunk.com/app/5939
   displayOnWebsite: true
   visibility: 2
+  analyzersTagline: ''
   registration_required: false
   subscription_required: false
   free_subscription: true
@@ -9624,6 +9784,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   integrations:
     analyzers:
     - name: StamusNetworks HostID
@@ -9660,6 +9821,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   integrations:
     analyzers:
     - name: StopForumSpam
@@ -9706,6 +9868,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 20
+  analyzersTagline: ''
   registration_required: true
   subscription_required: false
   free_subscription: true
@@ -9745,6 +9908,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: false
   visibility: low
+  analyzersTagline: ''
   integrations:
     analyzers: []
     responders:
@@ -9801,6 +9965,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: false
   visibility: low
+  analyzersTagline: ''
   registration_required: false
   subscription_required: false
   free_subscription: false
@@ -9881,6 +10046,7 @@ low:
     documentation: https://threatconnect.com/marketplace/thehive/
   displayOnWebsite: true
   visibility: low
+  analyzersTagline: ''
   integrations:
     analyzers: []
     responders: []
@@ -9905,6 +10071,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   integrations:
     analyzers:
     - name: ThreatGrid
@@ -9943,6 +10110,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   integrations:
     analyzers:
     - name: ThreatMiner
@@ -9996,6 +10164,7 @@ low:
     documentation: https://helpcenter.threatq.com/Integration_Documentation/app/The_Hive.htm
   displayOnWebsite: true
   visibility: low
+  analyzersTagline: ''
   integrations:
     analyzers: []
     responders: []
@@ -10020,6 +10189,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   integrations:
     analyzers:
     - name: ThreatResponse
@@ -10061,6 +10231,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   registration_required: true
   subscription_required: true
   free_subscription: false
@@ -10107,6 +10278,7 @@ low:
     documentation: https://www.tines.com/solutions/products/thehive-project/
   displayOnWebsite: true
   visibility: low
+  analyzersTagline: ''
   integrations:
     analyzers: []
     responders: []
@@ -10131,6 +10303,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   registration_required: false
   subscription_required: false
   free_subscription: true
@@ -10173,6 +10346,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   integrations:
     analyzers:
     - name: TorProject
@@ -10209,6 +10383,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   registration_required: true
   subscription_required: true
   free_subscription: true
@@ -10251,6 +10426,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   integrations:
     analyzers:
     - name: UnshortenLink
@@ -10287,6 +10463,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   registration_required: true
   subscription_required: false
   free_subscription: true
@@ -10349,6 +10526,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 16
+  analyzersTagline: ''
   registration_required: true
   subscription_required: false
   free_subscription: true
@@ -10401,6 +10579,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 15
+  analyzersTagline: ''
   registration_required:
   - true
   - false
@@ -10460,6 +10639,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   registration_required: false
   subscription_required: false
   free_subscription: false
@@ -10499,6 +10679,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   registration_required: false
   subscription_required: false
   free_subscription: false
@@ -10554,6 +10735,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: low
+  analyzersTagline: ''
   integrations:
     analyzers: []
     responders:
@@ -10590,6 +10772,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   integrations:
     analyzers:
     - name: Verifalia
@@ -10627,6 +10810,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: low
+  analyzersTagline: ''
   registration_required: false
   subscription_required: false
   free_subscription: false
@@ -10677,6 +10861,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 3
+  analyzersTagline: ''
   registration_required: true
   subscription_required:
   - true
@@ -10759,6 +10944,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   integrations:
     analyzers:
     - name: VMRay
@@ -10797,6 +10983,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   registration_required: true
   subscription_required: true
   free_subscription: true
@@ -10850,6 +11037,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   integrations:
     analyzers:
     - name: Watcher Check
@@ -10943,6 +11131,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   integrations:
     analyzers: []
     responders:
@@ -10980,6 +11169,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: false
   visibility: 50
+  analyzersTagline: ''
   integrations:
     analyzers: []
     responders: []
@@ -11004,6 +11194,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   integrations:
     analyzers:
     - name: WOT Lookup
@@ -11050,6 +11241,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 18
+  analyzersTagline: ''
   registration_required: false
   subscription_required: false
   free_subscription: true
@@ -11090,6 +11282,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   integrations:
     analyzers:
     - name: Yeti
@@ -11130,6 +11323,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   integrations:
     analyzers: []
     responders:
@@ -11178,6 +11372,7 @@ low:
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
+  analyzersTagline: ''
   registration_required: true
   subscription_required: true
   free_subscription: false

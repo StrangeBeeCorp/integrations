@@ -11,6 +11,7 @@
   "externalIntegrations": [],
   "displayOnWebsite": false,
   "visibility": "low",
+  "analyzersTagline": "",
   "registration_required": false,
   "subscription_required": false,
   "free_subscription": false,

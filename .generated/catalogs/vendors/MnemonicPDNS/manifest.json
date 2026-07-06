@@ -21,6 +21,7 @@
   "externalIntegrations": [],
   "displayOnWebsite": true,
   "visibility": "low",
+  "analyzersTagline": "",
   "integrations": {
     "analyzers": [
       {

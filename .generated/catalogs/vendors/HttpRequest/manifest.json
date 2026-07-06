@@ -11,6 +11,7 @@
   "externalIntegrations": [],
   "displayOnWebsite": false,
   "visibility": 50,
+  "analyzersTagline": "",
   "integrations": {
     "analyzers": [],
     "responders": [],

@@ -62,6 +62,7 @@
   ],
   "displayOnWebsite": true,
   "visibility": 1,
+  "analyzersTagline": "",
   "registration_required": true,
   "subscription_required": true,
   "free_subscription": false,

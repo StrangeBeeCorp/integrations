@@ -22,6 +22,7 @@
   "externalIntegrations": [],
   "displayOnWebsite": true,
   "visibility": 9,
+  "analyzersTagline": "",
   "registration_required": [
     true,
     false

@@ -22,6 +22,7 @@ notifier: false
 externalIntegrations: []
 displayOnWebsite: true
 visibility: low
+analyzersTagline: ''
 integrations:
   analyzers:
   - name: HybridAnalysis GetReport

@@ -13,6 +13,7 @@ notifier: false
 externalIntegrations: []
 displayOnWebsite: false
 visibility: low
+analyzersTagline: ''
 registration_required: true
 subscription_required: true
 free_subscription: true

@@ -12,6 +12,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": "low",
+    "analyzersTagline": "",
     "registration_required": false,
     "subscription_required": false,
     "free_subscription": false,
@@ -73,6 +74,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 13,
+    "analyzersTagline": "",
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": true,
@@ -136,6 +138,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": "low",
+    "analyzersTagline": "",
     "registration_required": false,
     "subscription_required": false,
     "free_subscription": true,
@@ -185,6 +188,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [],
       "responders": [],
@@ -225,6 +229,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": "low",
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [],
       "responders": [
@@ -329,6 +334,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": "low",
+    "analyzersTagline": "Enrich observables with behavioral threat intelligence",
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": false,
@@ -469,6 +475,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [
         {
@@ -550,6 +557,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": false,
@@ -601,6 +609,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "registration_required": false,
     "subscription_required": false,
     "free_subscription": false,
@@ -648,6 +657,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": false,
@@ -699,6 +709,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [
         {
@@ -763,6 +774,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": false,
@@ -825,6 +837,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": false,
     "visibility": "low",
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [
         {
@@ -882,6 +895,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 19,
+    "analyzersTagline": "",
     "registration_required": false,
     "subscription_required": false,
     "free_subscription": false,
@@ -929,6 +943,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": false,
@@ -978,6 +993,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": "low",
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [
         {
@@ -1024,6 +1040,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "registration_required": true,
     "subscription_required": false,
     "integrations": {
@@ -1071,6 +1088,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [
         {
@@ -1130,6 +1148,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [],
       "responders": [
@@ -1189,6 +1208,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": false,
@@ -1300,6 +1320,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": "low",
+    "analyzersTagline": "",
     "registration_required": false,
     "subscription_required": false,
     "free_subscription": true,
@@ -1347,6 +1368,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": "low",
+    "analyzersTagline": "",
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": true,
@@ -1396,6 +1418,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": "low",
+    "analyzersTagline": "",
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": true,
@@ -1445,6 +1468,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": "low",
+    "analyzersTagline": "",
     "registration_required": true,
     "subscription_required": false,
     "free_subscription": true,
@@ -1499,6 +1523,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": false,
@@ -1563,6 +1588,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "registration_required": true,
     "subscription_required": false,
     "free_subscription": false,
@@ -1615,6 +1641,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [
         {
@@ -1663,6 +1690,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 14,
+    "analyzersTagline": "",
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": false,
@@ -1710,6 +1738,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": false,
@@ -1762,6 +1791,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": false,
@@ -1819,6 +1849,7 @@
     ],
     "displayOnWebsite": true,
     "visibility": "low",
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [],
       "responders": [],
@@ -1857,6 +1888,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": "low",
+    "analyzersTagline": "",
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": true,
@@ -1955,6 +1987,7 @@
     ],
     "displayOnWebsite": true,
     "visibility": 1,
+    "analyzersTagline": "",
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": false,
@@ -2292,6 +2325,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": true,
@@ -2339,6 +2373,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "registration_required": false,
     "subscription_required": false,
     "free_subscription": false,
@@ -2401,6 +2436,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "registration_required": false,
     "subscription_required": false,
     "free_subscription": false,
@@ -2478,6 +2514,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": false,
     "visibility": "low",
+    "analyzersTagline": "",
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": true,
@@ -2529,6 +2566,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "registration_required": false,
     "subscription_required": false,
     "free_subscription": false,
@@ -2580,6 +2618,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": false,
@@ -2627,6 +2666,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [],
       "responders": [
@@ -2671,6 +2711,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [
         {
@@ -2747,6 +2788,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "registration_required": false,
     "subscription_required": false,
     "free_subscription": false,
@@ -2794,6 +2836,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "registration_required": false,
     "subscription_required": false,
     "free_subscription": false,
@@ -2842,6 +2885,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [
         {
@@ -2886,6 +2930,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": "low",
+    "analyzersTagline": "",
     "registration_required": false,
     "subscription_required": false,
     "free_subscription": false,
@@ -2935,6 +2980,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [
         {
@@ -3126,6 +3172,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": "low",
+    "analyzersTagline": "",
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": false,
@@ -3221,6 +3268,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "registration_required": false,
     "subscription_required": false,
     "free_subscription": true,
@@ -3268,6 +3316,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [],
       "responders": [
@@ -3342,6 +3391,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "registration_required": true,
     "subscription_required": false,
     "free_subscription": true,
@@ -3390,6 +3440,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": false,
@@ -3483,6 +3534,7 @@
     ],
     "displayOnWebsite": true,
     "visibility": "low",
+    "analyzersTagline": "",
     "registration_required": false,
     "subscription_required": false,
     "free_subscription": true,
@@ -3540,6 +3592,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": false,
     "visibility": 50,
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [],
       "responders": [],
@@ -3578,6 +3631,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": "low",
+    "analyzersTagline": "",
     "registration_required": false,
     "subscription_required": false,
     "free_subscription": true,
@@ -3625,6 +3679,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": false,
@@ -3704,6 +3759,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "registration_required": false,
     "subscription_required": false,
     "integrations": {
@@ -3750,6 +3806,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [
         {
@@ -3794,6 +3851,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": "low",
+    "analyzersTagline": "",
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": false,
@@ -3844,6 +3902,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "registration_required": false,
     "subscription_required": false,
     "free_subscription": false,
@@ -3891,6 +3950,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": "low",
+    "analyzersTagline": "",
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": false,
@@ -3941,6 +4001,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "registration_required": false,
     "subscription_required": false,
     "free_subscription": true,
@@ -3989,6 +4050,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": false,
@@ -4057,6 +4119,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [],
       "responders": [
@@ -4161,6 +4224,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [
         {
@@ -4207,6 +4271,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": "low",
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [
         {
@@ -4264,6 +4329,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 7,
+    "analyzersTagline": "",
     "registration_required": true,
     "subscription_required": [
       true,
@@ -4378,6 +4444,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": "low",
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [
         {
@@ -4431,6 +4498,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": "low",
+    "analyzersTagline": "",
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": true,
@@ -4478,6 +4546,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [
         {
@@ -4529,6 +4598,7 @@
     ],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "subscription_required": true,
     "free_subscription": false,
     "integrations": {
@@ -5028,6 +5098,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "registration_required": false,
     "subscription_required": false,
     "free_subscription": true,
@@ -5100,6 +5171,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": "low",
+    "analyzersTagline": "",
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": false,
@@ -5147,6 +5219,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": false,
     "visibility": 50,
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [],
       "responders": [],
@@ -5185,6 +5258,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": "low",
+    "analyzersTagline": "",
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": true,
@@ -5243,6 +5317,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": "low",
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [
         {
@@ -5291,6 +5366,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": "low",
+    "analyzersTagline": "",
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": false,
@@ -5338,6 +5414,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": "low",
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [
         {
@@ -5385,6 +5462,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "registration_required": false,
     "subscription_required": false,
     "free_subscription": true,
@@ -5447,6 +5525,7 @@
     ],
     "displayOnWebsite": true,
     "visibility": "low",
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [],
       "responders": [],
@@ -5475,6 +5554,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": true,
@@ -5523,6 +5603,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [
         {
@@ -5583,6 +5664,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "registration_required": false,
     "subscription_required": false,
     "integrations": {
@@ -5640,6 +5722,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": "low",
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [
         {
@@ -5699,6 +5782,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [
         {
@@ -5743,6 +5827,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": true,
@@ -5792,6 +5877,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [
         {
@@ -5843,6 +5929,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": false,
@@ -5917,6 +6004,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [],
       "responders": [],
@@ -5957,6 +6045,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": "low",
+    "analyzersTagline": "",
     "registration_required": true,
     "subscription_required": true,
     "integrations": {
@@ -6033,6 +6122,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "registration_required": false,
     "subscription_required": false,
     "free_subscription": true,
@@ -6114,6 +6204,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 50,
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [],
       "responders": [],
@@ -6142,6 +6233,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": "low",
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [
         {
@@ -6188,6 +6280,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [],
       "responders": [
@@ -6232,6 +6325,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [
         {
@@ -6277,6 +6371,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "registration_required": false,
     "subscription_required": false,
     "free_subscription": true,
@@ -6327,6 +6422,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "registration_required": true,
     "subscription_required": true,
     "integrations": {
@@ -6373,6 +6469,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [],
       "responders": [
@@ -6419,6 +6516,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [],
       "responders": [
@@ -6463,6 +6561,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [
         {
@@ -6517,6 +6616,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": "low",
+    "analyzersTagline": "",
     "registration_required": false,
     "subscription_required": false,
     "free_subscription": false,
@@ -6577,6 +6677,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": "low",
+    "analyzersTagline": "",
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": true,
@@ -6624,6 +6725,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "registration_required": false,
     "subscription_required": false,
     "free_subscription": false,
@@ -6672,6 +6774,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": true,
@@ -6737,6 +6840,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 50,
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [],
       "responders": [],
@@ -6775,6 +6879,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": "low",
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [
         {
@@ -6819,6 +6924,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [
         {
@@ -6925,6 +7031,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": false,
     "visibility": "low",
+    "analyzersTagline": "",
     "registration_required": false,
     "subscription_required": false,
     "free_subscription": false,
@@ -6982,6 +7089,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 6,
+    "analyzersTagline": "",
     "registration_required": false,
     "subscription_required": false,
     "free_subscription": true,
@@ -7042,6 +7150,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": "low",
+    "analyzersTagline": "",
     "registration_required": false,
     "subscription_required": false,
     "free_subscription": false,
@@ -7103,6 +7212,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": "low",
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [
         {
@@ -7175,6 +7285,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 4,
+    "analyzersTagline": "",
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": false,
@@ -7398,6 +7509,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 9,
+    "analyzersTagline": "",
     "registration_required": [
       true,
       false
@@ -7527,6 +7639,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 5,
+    "analyzersTagline": "",
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": false,
@@ -7699,6 +7812,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [
         {
@@ -7743,6 +7857,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 50,
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [],
       "responders": [],
@@ -7786,6 +7901,7 @@
     ],
     "displayOnWebsite": true,
     "visibility": "low",
+    "analyzersTagline": "",
     "registration_required": false,
     "subscription_required": false,
     "free_subscription": true,
@@ -7837,6 +7953,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "registration_required": true,
     "subscription_required": false,
     "free_subscription": true,
@@ -7884,6 +8001,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [
         {
@@ -7929,6 +8047,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": false,
@@ -7976,6 +8095,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [
         {
@@ -8021,6 +8141,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "registration_required": true,
     "subscription_required": false,
     "free_subscription": false,
@@ -8078,6 +8199,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 17,
+    "analyzersTagline": "",
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": true,
@@ -8201,6 +8323,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": false,
@@ -8250,6 +8373,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "registration_required": true,
     "subscription_required": false,
     "free_subscription": false,
@@ -8394,6 +8518,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "registration_required": true,
     "subscription_required": false,
     "free_subscription": true,
@@ -8441,6 +8566,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": false,
@@ -8499,6 +8625,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": "low",
+    "analyzersTagline": "",
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": true,
@@ -8550,6 +8677,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [
         {
@@ -8627,6 +8755,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": "low",
+    "analyzersTagline": "",
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": false,
@@ -8779,6 +8908,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": "low",
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [],
       "responders": [
@@ -9080,6 +9210,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": "low",
+    "analyzersTagline": "",
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": false,
@@ -9147,6 +9278,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [
         {
@@ -9361,6 +9493,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "registration_required": false,
     "subscription_required": false,
     "free_subscription": false,
@@ -9410,6 +9543,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": false,
     "visibility": "low",
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [
         {
@@ -9469,6 +9603,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": [
@@ -9543,6 +9678,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": "low",
+    "analyzersTagline": "",
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": true,
@@ -9637,6 +9773,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 10,
+    "analyzersTagline": "",
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": false,
@@ -9709,6 +9846,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [
         {
@@ -9756,6 +9894,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [
         {
@@ -9810,6 +9949,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 8,
+    "analyzersTagline": "",
     "registration_required": true,
     "subscription_required": true,
     "integrations": {
@@ -9860,6 +10000,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 50,
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [],
       "responders": [],
@@ -9888,6 +10029,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [],
       "responders": [
@@ -9933,6 +10075,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": false,
     "visibility": "low",
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [
         {
@@ -10247,6 +10390,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [
         {
@@ -10322,6 +10466,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [],
       "responders": [
@@ -10368,6 +10513,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [
         {
@@ -10427,6 +10573,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": "low",
+    "analyzersTagline": "",
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": false,
@@ -10516,6 +10663,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [],
       "responders": [
@@ -10561,6 +10709,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": false,
@@ -10669,6 +10818,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 11,
+    "analyzersTagline": "",
     "registration_required": true,
     "subscription_required": false,
     "free_subscription": true,
@@ -10810,6 +10960,7 @@
     ],
     "displayOnWebsite": true,
     "visibility": "low",
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [],
       "responders": [
@@ -10858,6 +11009,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [
         {
@@ -10943,6 +11095,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 12,
+    "analyzersTagline": "",
     "registration_required": true,
     "subscription_required": false,
     "free_subscription": true,
@@ -11005,6 +11158,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": false,
     "visibility": "low",
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [
         {
@@ -11062,6 +11216,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [
         {
@@ -11139,6 +11294,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "registration_required": false,
     "subscription_required": false,
     "free_subscription": false,
@@ -11186,6 +11342,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [
         {
@@ -11254,6 +11411,7 @@
     ],
     "displayOnWebsite": true,
     "visibility": 2,
+    "analyzersTagline": "",
     "registration_required": false,
     "subscription_required": false,
     "free_subscription": true,
@@ -11468,6 +11626,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [
         {
@@ -11512,6 +11671,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": false,
     "visibility": "low",
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [
         {
@@ -11561,6 +11721,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [
         {
@@ -11606,6 +11767,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": "low",
+    "analyzersTagline": "",
     "registration_required": false,
     "subscription_required": false,
     "free_subscription": false,
@@ -11663,6 +11825,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 20,
+    "analyzersTagline": "",
     "registration_required": true,
     "subscription_required": false,
     "free_subscription": true,
@@ -11710,6 +11873,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": false,
     "visibility": "low",
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [],
       "responders": [
@@ -11777,6 +11941,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": false,
     "visibility": "low",
+    "analyzersTagline": "",
     "registration_required": false,
     "subscription_required": false,
     "free_subscription": false,
@@ -11868,6 +12033,7 @@
     ],
     "displayOnWebsite": true,
     "visibility": "low",
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [],
       "responders": [],
@@ -11896,6 +12062,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [
         {
@@ -11942,6 +12109,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [
         {
@@ -12005,6 +12173,7 @@
     ],
     "displayOnWebsite": true,
     "visibility": "low",
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [],
       "responders": [],
@@ -12033,6 +12202,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [
         {
@@ -12082,6 +12252,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": false,
@@ -12139,6 +12310,7 @@
     ],
     "displayOnWebsite": true,
     "visibility": "low",
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [],
       "responders": [],
@@ -12167,6 +12339,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "registration_required": false,
     "subscription_required": false,
     "free_subscription": true,
@@ -12216,6 +12389,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [
         {
@@ -12260,6 +12434,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": true,
@@ -12309,6 +12484,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [
         {
@@ -12353,6 +12529,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "registration_required": true,
     "subscription_required": false,
     "free_subscription": true,
@@ -12427,6 +12604,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 16,
+    "analyzersTagline": "",
     "registration_required": true,
     "subscription_required": false,
     "free_subscription": true,
@@ -12488,6 +12666,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 15,
+    "analyzersTagline": "",
     "registration_required": [
       true,
       false
@@ -12559,6 +12738,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "registration_required": false,
     "subscription_required": false,
     "free_subscription": false,
@@ -12606,6 +12786,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "registration_required": false,
     "subscription_required": false,
     "free_subscription": false,
@@ -12668,6 +12849,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": "low",
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [],
       "responders": [
@@ -12712,6 +12894,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [
         {
@@ -12756,6 +12939,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": "low",
+    "analyzersTagline": "",
     "registration_required": false,
     "subscription_required": false,
     "free_subscription": false,
@@ -12815,6 +12999,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 3,
+    "analyzersTagline": "",
     "registration_required": true,
     "subscription_required": [
       true,
@@ -12915,6 +13100,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [
         {
@@ -12961,6 +13147,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": true,
@@ -13025,6 +13212,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [
         {
@@ -13130,6 +13318,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [],
       "responders": [
@@ -13175,6 +13364,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": false,
     "visibility": 50,
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [],
       "responders": [],
@@ -13203,6 +13393,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [
         {
@@ -13257,6 +13448,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 18,
+    "analyzersTagline": "",
     "registration_required": false,
     "subscription_required": false,
     "free_subscription": true,
@@ -13304,6 +13496,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [
         {
@@ -13352,6 +13545,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "integrations": {
       "analyzers": [],
       "responders": [
@@ -13411,6 +13605,7 @@
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
+    "analyzersTagline": "",
     "registration_required": true,
     "subscription_required": true,
     "free_subscription": false,

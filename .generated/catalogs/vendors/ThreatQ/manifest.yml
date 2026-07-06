@@ -29,6 +29,7 @@ externalIntegrations:
   documentation: https://helpcenter.threatq.com/Integration_Documentation/app/The_Hive.htm
 displayOnWebsite: true
 visibility: low
+analyzersTagline: ''
 integrations:
   analyzers: []
   responders: []

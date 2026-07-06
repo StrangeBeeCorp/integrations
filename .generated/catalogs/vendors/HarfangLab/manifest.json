@@ -17,6 +17,7 @@
   ],
   "displayOnWebsite": true,
   "visibility": 100,
+  "analyzersTagline": "",
   "subscription_required": true,
   "free_subscription": false,
   "integrations": {

@@ -21,6 +21,7 @@ externalIntegrations:
   documentation: https://xsoar.pan.dev/docs/reference/integrations/the-hive-project
 displayOnWebsite: true
 visibility: low
+analyzersTagline: ''
 integrations:
   analyzers: []
   responders: []

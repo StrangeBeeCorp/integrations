@@ -13,6 +13,7 @@ notifier: false
 externalIntegrations: []
 displayOnWebsite: false
 visibility: low
+analyzersTagline: ''
 integrations:
   analyzers:
   - name: RiskIQ Services

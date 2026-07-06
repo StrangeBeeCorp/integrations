@@ -26,6 +26,7 @@
   ],
   "displayOnWebsite": true,
   "visibility": "low",
+  "analyzersTagline": "",
   "integrations": {
     "analyzers": [],
     "responders": [],

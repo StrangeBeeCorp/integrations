@@ -1,6 +1,6 @@
 ## Analyzers (7)
 
-### Enrich observables with intelligence
+### Enrich observables with behavioral threat intelligence
 
 #### [AnyRun TI Lookup v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun)
 Enrich URLs, hashes, domains, and IPs with ANY.RUN Threat Intelligence.

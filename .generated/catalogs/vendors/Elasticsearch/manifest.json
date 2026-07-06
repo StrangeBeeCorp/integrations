@@ -28,6 +28,7 @@
   ],
   "displayOnWebsite": true,
   "visibility": "low",
+  "analyzersTagline": "",
   "registration_required": false,
   "subscription_required": false,
   "free_subscription": true,

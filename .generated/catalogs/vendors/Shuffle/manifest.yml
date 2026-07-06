@@ -28,6 +28,7 @@ externalIntegrations:
   documentation: https://shuffler.io/apps/thehive/integrations/TheHive_5
 displayOnWebsite: true
 visibility: low
+analyzersTagline: ''
 integrations:
   analyzers: []
   responders:

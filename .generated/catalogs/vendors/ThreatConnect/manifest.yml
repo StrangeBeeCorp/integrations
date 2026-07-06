@@ -22,6 +22,7 @@ externalIntegrations:
   documentation: https://threatconnect.com/marketplace/thehive/
 displayOnWebsite: true
 visibility: low
+analyzersTagline: ''
 integrations:
   analyzers: []
   responders: []

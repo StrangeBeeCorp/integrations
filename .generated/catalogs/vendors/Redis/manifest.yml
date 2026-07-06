@@ -13,6 +13,7 @@ notifier: true
 externalIntegrations: []
 displayOnWebsite: true
 visibility: 50
+analyzersTagline: ''
 integrations:
   analyzers: []
   responders: []

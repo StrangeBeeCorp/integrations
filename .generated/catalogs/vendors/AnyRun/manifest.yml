@@ -14,6 +14,7 @@ notifier: false
 externalIntegrations: []
 displayOnWebsite: true
 visibility: low
+analyzersTagline: Enrich observables with behavioral threat intelligence
 registration_required: true
 subscription_required: true
 free_subscription: false

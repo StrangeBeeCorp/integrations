@@ -21,6 +21,7 @@
   "externalIntegrations": [],
   "displayOnWebsite": true,
   "visibility": 15,
+  "analyzersTagline": "",
   "registration_required": [
     true,
     false

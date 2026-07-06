@@ -23,6 +23,7 @@ notifier: false
 externalIntegrations: []
 displayOnWebsite: true
 visibility: 19
+analyzersTagline: ''
 registration_required: false
 subscription_required: false
 free_subscription: false

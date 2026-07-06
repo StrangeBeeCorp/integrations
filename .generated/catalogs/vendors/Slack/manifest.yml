@@ -42,6 +42,7 @@ notifier: true
 externalIntegrations: []
 displayOnWebsite: true
 visibility: 12
+analyzersTagline: ''
 registration_required: true
 subscription_required: false
 free_subscription: true
