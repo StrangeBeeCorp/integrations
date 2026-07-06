@@ -25,10 +25,10 @@ SECTION_DESCRIPTIONS = {
 }
 
 
-def _render_cortex_items(items: list, item_type: str) -> List[str]:
+def _render_cortex_items(items: list, item_type: str, tagline: str = None) -> List[str]:
     """Render a list of analyzers or responders to markdown lines."""
     lines = [f"## {item_type} ({len(items)})", ""]
-    desc = SECTION_DESCRIPTIONS.get(item_type)
+    desc = tagline or SECTION_DESCRIPTIONS.get(item_type)
     if desc:
         lines.extend([f"### {desc}", ""])
 
@@ -114,7 +114,7 @@ def generate_markdown_overview(vendor: str, manifest: Dict) -> str:
 
     # Analyzers & Responders
     if analyzers:
-        lines.extend(_render_cortex_items(analyzers, "Analyzers"))
+        lines.extend(_render_cortex_items(analyzers, "Analyzers", manifest.get('analyzersTagline')))
         _add_divider_if_more('analyzers')
 
     if responders:

@@ -44,6 +44,12 @@ properties:
     description: "Primary vendor category (see taxonomy.yml for valid values)"
     minLength: 1
 
+  analyzersTagline:
+    type: string
+    description: "Optional override for the subtitle shown under this vendor's Analyzers section (defaults to the generic 'Enrich observables with intelligence')"
+    minLength: 5
+    maxLength: 150
+
   tags:
     type: array
     description: "List of relevant tags for categorization and search"
@@ -104,5 +110,36 @@ properties:
     type: string
     description: "URL to vendor's API or integration documentation"
     format: uri
+
+  visibility:
+    type: integer
+    description: "Relative visibility weight used for ordering vendors in catalogs"
+    minimum: 0
+
+  externalIntegrations:
+    type: array
+    description: "Integrations built and maintained outside this repository (vendor-native connectors, marketplace apps, etc.)"
+    items:
+      type: object
+      required:
+        - name
+        - description
+      properties:
+        name:
+          type: string
+          description: "Display name of the external integration"
+          minLength: 2
+        description:
+          type: string
+          description: "What the integration does and how it connects to TheHive/Cortex"
+          minLength: 10
+        type:
+          type: string
+          description: "Kind of integration (e.g. connector, app, technical-addon, workflow-nodes)"
+        documentation:
+          type: string
+          description: "URL to the integration's documentation or listing"
+          format: uri
+      additionalProperties: false
 
 additionalProperties: false
