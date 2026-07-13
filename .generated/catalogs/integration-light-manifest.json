@@ -2938,7 +2938,7 @@
     ],
     "tags": [],
     "homepage": "https://azure.microsoft.com/products/microsoft-sentinel",
-    "logo_url": "",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/MSSentinel/assets/logo.svg",
     "visibility": 5,
     "subscription": {
       "required": false,

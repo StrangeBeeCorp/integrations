@@ -7760,7 +7760,11 @@
       "category": "SIEM & Analytics",
       "tags": [],
       "homepage": "https://azure.microsoft.com/products/microsoft-sentinel",
-      "logo": {},
+      "logo": {
+        "file": "integrations/vendors/MSSentinel/assets/logo.svg",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/MSSentinel/assets/logo.svg",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/MSSentinel/assets/logo.svg"
+      },
       "useCases": [],
       "notifier": false,
       "externalIntegrations": [],
