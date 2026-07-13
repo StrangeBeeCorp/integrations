@@ -1,0 +1,6 @@
+id: MSSentinel
+name: "Microsoft Sentinel"
+description: "Microsoft Sentinel is a cloud-native SIEM and SOAR solution that delivers intelligent security analytics and threat intelligence across the enterprise, enabling threat detection, investigation, and automated response at scale"
+category: SIEM & Analytics
+homepage: "https://azure.microsoft.com/products/microsoft-sentinel"
+visibility: 5
