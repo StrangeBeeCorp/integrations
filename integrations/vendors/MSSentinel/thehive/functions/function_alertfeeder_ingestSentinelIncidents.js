@@ -186,6 +186,7 @@ function handle(input, context) {
       description: description,
       date: createdTimestamp,
       severity: severityMap[primary.severity] || 2,
+      externalLink: primary.incidentWebUrl,
       tags: tags,
       observables: processObservables(group),
       procedures: procedures,
