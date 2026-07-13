@@ -2,13 +2,15 @@
 
 ## Statistics
 
-- **Total Vendors:** 195
+- **Total Vendors:** 196
 - **Total Analyzers:** 275
 - **Total Responders:** 156
-- **Total Functions:** 6
+- **Total Functions:** 7
 - **Total External Integrations:** 12
-- **Total Integrations:** 457
+- **Total Integrations:** 458
 
 ## Changes
 
-No changes detected.
+### Added Vendors (1)
+
+- `MSSentinel`

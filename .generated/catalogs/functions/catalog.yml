@@ -1,8 +1,8 @@
 # AUTO-GENERATED - DO NOT EDIT
 
-total_functions: 17
+total_functions: 18
 generic_count: 11
-vendor_count: 6
+vendor_count: 7
 functions:
 - name: Check IP RFC 1918/4193
   version: 1.0.0
@@ -159,6 +159,18 @@ functions:
   github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/JIRA/thehive/functions/function_Feeder_alertFromJIRA.js
   vendor: JIRA
   vendor_id: JIRA
+- name: alertfeeder_ingestSentinelIncidents
+  version: 1.0.0
+  author: Fabien Bloume, StrangeBee
+  description: Polls Microsoft Sentinel/Defender alerts from the Microsoft Graph Security API (/security/alerts_v2), groups
+    them by incidentId, and creates one TheHive alert per incident
+  kind: function
+  mode: Enabled
+  file: integrations/vendors/MSSentinel/thehive/functions/function_alertfeeder_ingestSentinelIncidents.js
+  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/MSSentinel/thehive/functions/function_alertfeeder_ingestSentinelIncidents.js
+  github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/MSSentinel/thehive/functions/function_alertfeeder_ingestSentinelIncidents.js
+  vendor: Microsoft Sentinel
+  vendor_id: MSSentinel
 - name: alertFeeder_ProofPoint_messageDelivered
   version: 1.0.0
   author: Fabien Bloume, StrangeBee

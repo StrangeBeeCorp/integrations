@@ -17,13 +17,13 @@ Built something useful? Contributions are welcome!
 
 ## Summary Statistics
 
-- **Total Vendors:** 195
+- **Total Vendors:** 196
 - **Total Analyzers:** 275
 - **Total Responders:** 156
-- **Total Functions:** 6
+- **Total Functions:** 7
 - **Total Notifiers:** 8
 - **Total External Integrations:** 12
-- **Total Integrations:** 457
+- **Total Integrations:** 458
 
 ## Vendors by Category
 
@@ -175,6 +175,9 @@ Built something useful? Contributions are welcome!
 
 **[Elasticsearch](vendors/Elasticsearch/overview.md)** (2 integrations)
   Elasticsearch is a distributed search and analytics engine that powers SIEM solutions and log ana...
+
+**[Microsoft Sentinel](vendors/MSSentinel/overview.md)** (1 integrations)
+  Microsoft Sentinel is a cloud-native SIEM and SOAR solution that delivers intelligent security an...
 
 **[Splunk](vendors/Splunk/overview.md)** (14 integrations)
   Splunk is a leading SIEM platform that aggregates, indexes, and analyzes machine data from across...
@@ -652,6 +655,7 @@ Built something useful? Contributions are welcome!
 - **[Microsoft Defender for Endpoint](vendors/MSDefenderEndpoints/overview.md)** - *EDR* - 12 responders
 - **[Microsoft Defender for Office 365](vendors/MSDefenderOffice365/overview.md)** - *Email Security* - 1 analyzers, 4 responders
 - **[Microsoft Entra ID](vendors/MSEntraID/overview.md)** - *Identity & Access Management* - 4 analyzers, 5 responders
+- **[Microsoft Sentinel](vendors/MSSentinel/overview.md)** - *SIEM & Analytics* - 1 functions
 - **[Microsoft Teams](vendors/MSTeams/overview.md)** - *Collaboration* - notifier
 - **[MineMeld](vendors/Minemeld/overview.md)** - *Uncategorized* - 1 responders
 - **[MISP](vendors/MISP/overview.md)** - *Threat Intelligence* - 1 analyzers

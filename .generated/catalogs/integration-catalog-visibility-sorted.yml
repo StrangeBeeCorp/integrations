@@ -3,10 +3,10 @@
 
 metadata:
   description: Vendors sorted by visibility tier (high, medium, low), then alphabetically
-  totalVendors: 195
+  totalVendors: 196
   highCount: 0
   mediumCount: 0
-  lowCount: 195
+  lowCount: 196
 high: []
 medium: []
 low:
@@ -6482,6 +6482,43 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     total: 9
+- id: MSSentinel
+  name: Microsoft Sentinel
+  description: Microsoft Sentinel is a cloud-native SIEM and SOAR solution that delivers intelligent security analytics and
+    threat intelligence across the enterprise, enabling threat detection, investigation, and automated response at scale
+  category: SIEM & Analytics
+  tags: []
+  homepage: https://azure.microsoft.com/products/microsoft-sentinel
+  logo: {}
+  useCases: []
+  notifier: false
+  externalIntegrations: []
+  displayOnWebsite: true
+  visibility: 5
+  analyzersTagline: ''
+  analyzerDisplayName: ''
+  integrations:
+    analyzers: []
+    responders: []
+    functions:
+    - name: alertfeeder_ingestSentinelIncidents
+      version: 1.0.0
+      author: Fabien Bloume, StrangeBee
+      description: Polls Microsoft Sentinel/Defender alerts from the Microsoft Graph Security API (/security/alerts_v2), groups
+        them by incidentId, and creates one TheHive alert per incident
+      kind: function
+      mode: Enabled
+      file: integrations/vendors/MSSentinel/thehive/functions/function_alertfeeder_ingestSentinelIncidents.js
+      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/MSSentinel/thehive/functions/function_alertfeeder_ingestSentinelIncidents.js
+      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/MSSentinel/thehive/functions/function_alertfeeder_ingestSentinelIncidents.js
+  stats:
+    totalAnalyzers: 0
+    totalResponders: 0
+    totalFunctions: 1
+    totalUseCases: 0
+    totalExternalIntegrations: 0
+    totalNotifiers: 0
+    total: 1
 - id: MSTeams
   name: Microsoft Teams
   description: Microsoft Teams is a collaboration platform that combines chat, video meetings, file storage, and application

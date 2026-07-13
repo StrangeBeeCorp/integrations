@@ -2929,6 +2929,33 @@
       "total": 1
     }
   },
+  "MSSentinel": {
+    "id": "MSSentinel",
+    "name": "Microsoft Sentinel",
+    "description": "Microsoft Sentinel is a cloud-native SIEM and SOAR solution that delivers intelligent security analytics and threat intelligence across the enterprise, enabling threat detection, investigation, and automated response at scale",
+    "category": [
+      "SIEM & Analytics"
+    ],
+    "tags": [],
+    "homepage": "https://azure.microsoft.com/products/microsoft-sentinel",
+    "logo_url": "",
+    "visibility": 5,
+    "subscription": {
+      "required": false,
+      "free": false,
+      "paid": false
+    },
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/MSSentinel/overview.md",
+    "stats": {
+      "totalAnalyzers": 0,
+      "totalResponders": 0,
+      "totalFunctions": 1,
+      "totalUseCases": 0,
+      "totalExternalIntegrations": 0,
+      "totalNotifiers": 0,
+      "total": 1
+    }
+  },
   "MSTeams": {
     "id": "MSTeams",
     "name": "Microsoft Teams",

@@ -6,10 +6,10 @@ Example functions for TheHive. Use them as-is or as inspiration for your own.
 
 ## Summary
 
-- **Total Functions:** 17
+- **Total Functions:** 18
 - **Generic Functions:** 11
-- **Vendor-Specific Functions:** 6
-- **Vendors with Functions:** 5
+- **Vendor-Specific Functions:** 7
+- **Vendors with Functions:** 6
 
 ## Generic Functions
 
@@ -218,6 +218,19 @@ Ingests alerts from JAMF Protect. Extracts analytic details, host and user infor
 This function creates alerts from JIRA issues. It checks if the alert already exists, then creates it with type, source, source-ref, title, and description
 
 [View full documentation](jira-alertfromjira.md)
+
+---
+
+### Microsoft Sentinel
+
+**Vendor:** [Microsoft Sentinel](../vendors/MSSentinel/overview)
+
+#### [alertfeeder_ingestSentinelIncidents](microsoft-sentinel-alertfeeder_ingestsentinelincidents.md) `v1.0.0`
+**Kind:** `function`
+
+Polls Microsoft Sentinel/Defender alerts from the Microsoft Graph Security API (/security/alerts_v2), groups them by incidentId, and creates one TheHive alert per incident
+
+[View full documentation](microsoft-sentinel-alertfeeder_ingestsentinelincidents.md)
 
 ---
 
