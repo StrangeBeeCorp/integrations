@@ -715,7 +715,7 @@ Search domains, IPs, URLs or hashes on URLhaus.
 </details>
 
 <details>
-<summary><strong>Urlscan.io Scan</strong> <code>v0.1.0</code> [Free] - URLScan.io</summary>
+<summary><strong>Urlscan.io Scan</strong> <code>v0.2.0</code> [Free] - URLScan.io</summary>
 
 **Vendor:** [URLScan.io](vendors/Urlscan.io/overview)
 **Data Types:** `url`, `domain`, `fqdn`
@@ -725,7 +725,7 @@ Scan URLs on urlscan.io
 </details>
 
 <details>
-<summary><strong>Urlscan.io Search</strong> <code>v0.1.1</code> [Free] - URLScan.io</summary>
+<summary><strong>Urlscan.io Search</strong> <code>v0.2.0</code> [Free] - URLScan.io</summary>
 
 **Vendor:** [URLScan.io](vendors/Urlscan.io/overview)
 **Data Types:** `ip`, `domain`, `hash`, `fqdn`, `url`

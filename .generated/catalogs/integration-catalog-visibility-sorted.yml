@@ -10799,15 +10799,13 @@ low:
   visibility: 15
   analyzersTagline: ''
   analyzerDisplayName: ''
-  registration_required:
-  - true
-  - false
+  registration_required: true
   subscription_required: false
   free_subscription: true
   integrations:
     analyzers:
     - name: Urlscan.io Search
-      version: 0.1.1
+      version: 0.2.0
       author: ninoseki, Kyle Parrish (@arnydo)
       license: MIT
       description: Search IPs, domains, hashes or URLs on urlscan.io
@@ -10823,8 +10821,8 @@ low:
       upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Urlscan.io
       integration_type: null
     - name: Urlscan.io Scan
-      version: 0.1.0
-      author: ninoseki, Kyle Parrish (@arnydo)
+      version: 0.2.0
+      author: ninoseki; Kyle Parrish (@arnydo); Fabien Bloume, StrangeBee
       license: MIT
       description: Scan URLs on urlscan.io
       dataTypes:
