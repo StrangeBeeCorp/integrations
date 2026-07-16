@@ -19,20 +19,32 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "ANY.RUN TI Lookup",
+        "name": "ANY.RUN Sandbox File Android",
         "version": "1.0",
         "author": "ANY.RUN Integrations Team",
         "license": "AGPL-V3",
-        "description": "Enrich URLs, hashes, domains, and IPs with ANY.RUN Threat Intelligence.",
+        "description": "Submit files for Android sandbox analysis and retrieve verdicts, IOCs, reports, and tags.",
         "dataTypes": [
-          "ip",
-          "domain",
-          "url",
-          "hash"
+          "file"
         ],
-        "file": ".upstream/cortex/analyzers/AnyRun/AnyRun_TI_Lookup.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/AnyRun/AnyRun_TI_Lookup.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/AnyRun/AnyRun_TI_Lookup.json",
+        "file": ".upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_File_Android.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_File_Android.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_File_Android.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun",
+        "integration_type": null
+      },
+      {
+        "name": "ANY.RUN Sandbox File Windows",
+        "version": "1.0",
+        "author": "ANY.RUN Integrations Team",
+        "license": "AGPL-V3",
+        "description": "Submit files for Windows sandbox analysis and retrieve verdicts, IOCs, reports, and tags.",
+        "dataTypes": [
+          "file"
+        ],
+        "file": ".upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_File_Windows.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_File_Windows.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_File_Windows.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun",
         "integration_type": null
       },
@@ -52,36 +64,6 @@
         "integration_type": null
       },
       {
-        "name": "ANY.RUN Sandbox URL Android",
-        "version": "1.0",
-        "author": "ANY.RUN Integrations Team",
-        "license": "AGPL-V3",
-        "description": "Submit URLs for Android sandbox analysis and retrieve verdicts, IOCs, reports, and tags.",
-        "dataTypes": [
-          "url"
-        ],
-        "file": ".upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Android.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Android.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Android.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun",
-        "integration_type": null
-      },
-      {
-        "name": "ANY.RUN Sandbox File Android",
-        "version": "1.0",
-        "author": "ANY.RUN Integrations Team",
-        "license": "AGPL-V3",
-        "description": "Submit files for Android sandbox analysis and retrieve verdicts, IOCs, reports, and tags.",
-        "dataTypes": [
-          "file"
-        ],
-        "file": ".upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_File_Android.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_File_Android.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_File_Android.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun",
-        "integration_type": null
-      },
-      {
         "name": "ANY.RUN Sandbox URL Linux",
         "version": "1.0",
         "author": "ANY.RUN Integrations Team",
@@ -93,6 +75,24 @@
         "file": ".upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Linux.json",
         "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Linux.json",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Linux.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun",
+        "integration_type": null
+      },
+      {
+        "name": "ANY.RUN TI Lookup",
+        "version": "1.0",
+        "author": "ANY.RUN Integrations Team",
+        "license": "AGPL-V3",
+        "description": "Enrich URLs, hashes, domains, and IPs with ANY.RUN Threat Intelligence.",
+        "dataTypes": [
+          "ip",
+          "domain",
+          "url",
+          "hash"
+        ],
+        "file": ".upstream/cortex/analyzers/AnyRun/AnyRun_TI_Lookup.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/AnyRun/AnyRun_TI_Lookup.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/AnyRun/AnyRun_TI_Lookup.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun",
         "integration_type": null
       },
@@ -112,17 +112,17 @@
         "integration_type": null
       },
       {
-        "name": "ANY.RUN Sandbox File Windows",
+        "name": "ANY.RUN Sandbox URL Android",
         "version": "1.0",
         "author": "ANY.RUN Integrations Team",
         "license": "AGPL-V3",
-        "description": "Submit files for Windows sandbox analysis and retrieve verdicts, IOCs, reports, and tags.",
+        "description": "Submit URLs for Android sandbox analysis and retrieve verdicts, IOCs, reports, and tags.",
         "dataTypes": [
-          "file"
+          "url"
         ],
-        "file": ".upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_File_Windows.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_File_Windows.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_File_Windows.json",
+        "file": ".upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Android.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Android.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/AnyRun/AnyRun_Sandbox_URL_Android.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun",
         "integration_type": null
       }
