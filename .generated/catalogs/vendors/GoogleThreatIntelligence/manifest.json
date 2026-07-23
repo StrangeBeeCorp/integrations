@@ -33,21 +33,6 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "GTI ScanPrivateFile",
-        "version": "1.0",
-        "author": "Google",
-        "license": "AGPL-V3",
-        "description": "Get the latest Google Threat Intelligence report for a file that was privately submitted to Google Threat Intelligence for scanning",
-        "dataTypes": [
-          "file"
-        ],
-        "file": ".upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateFile.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateFile.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateFile.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/GoogleThreatIntelligence",
-        "integration_type": null
-      },
-      {
         "name": "GTI ScanPrivateURL",
         "version": "1.0",
         "author": "Google",
@@ -83,17 +68,17 @@
         "integration_type": null
       },
       {
-        "name": "GTI ScanFile",
+        "name": "GTI ScanPrivateFile",
         "version": "1.0",
         "author": "Google",
         "license": "AGPL-V3",
-        "description": "Get the latest Google Threat Intelligence report for a file that was submitted to Google Threat Intelligence for scanning",
+        "description": "Get the latest Google Threat Intelligence report for a file that was privately submitted to Google Threat Intelligence for scanning",
         "dataTypes": [
           "file"
         ],
-        "file": ".upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanFile.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanFile.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanFile.json",
+        "file": ".upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateFile.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateFile.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanPrivateFile.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/GoogleThreatIntelligence",
         "integration_type": null
       },
@@ -109,6 +94,21 @@
         "file": ".upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanURL.json",
         "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanURL.json",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanURL.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/GoogleThreatIntelligence",
+        "integration_type": null
+      },
+      {
+        "name": "GTI ScanFile",
+        "version": "1.0",
+        "author": "Google",
+        "license": "AGPL-V3",
+        "description": "Get the latest Google Threat Intelligence report for a file that was submitted to Google Threat Intelligence for scanning",
+        "dataTypes": [
+          "file"
+        ],
+        "file": ".upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanFile.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanFile.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/GoogleThreatIntelligence/GTI_ScanFile.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/GoogleThreatIntelligence",
         "integration_type": null
       }

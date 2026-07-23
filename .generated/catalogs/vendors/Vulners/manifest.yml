@@ -20,6 +20,18 @@ subscription_required: true
 free_subscription: true
 integrations:
   analyzers:
+  - name: Vulners CVE
+    version: '1.0'
+    author: Dmitry Uchakin, Vulners team
+    license: AGPL-V3
+    description: Get information about CVE from powerful Vulners database.
+    dataTypes:
+    - cve
+    file: .upstream/cortex/analyzers/Vulners/Vulners_CVE.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Vulners/Vulners_CVE.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Vulners/Vulners_CVE.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Vulners
+    integration_type: null
   - name: Vulners IOC
     version: '1.0'
     author: Dmitry Uchakin, Vulners team
@@ -32,18 +44,6 @@ integrations:
     file: .upstream/cortex/analyzers/Vulners/Vulners_IOC.json
     url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Vulners/Vulners_IOC.json
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Vulners/Vulners_IOC.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Vulners
-    integration_type: null
-  - name: Vulners CVE
-    version: '1.0'
-    author: Dmitry Uchakin, Vulners team
-    license: AGPL-V3
-    description: Get information about CVE from powerful Vulners database.
-    dataTypes:
-    - cve
-    file: .upstream/cortex/analyzers/Vulners/Vulners_CVE.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Vulners/Vulners_CVE.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Vulners/Vulners_CVE.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Vulners
     integration_type: null
   responders: []
