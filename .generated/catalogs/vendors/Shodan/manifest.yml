@@ -42,6 +42,19 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Shodan/Shodan_Host.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Shodan
     integration_type: null
+  - name: Shodan DNSResolve
+    version: '1.0'
+    author: ANSSI
+    license: AGPL-V3
+    description: Retrieve domain resolutions on Shodan.
+    dataTypes:
+    - domain
+    - fqdn
+    file: .upstream/cortex/analyzers/Shodan/Shodan_DNSResolve.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Shodan/Shodan_DNSResolve.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Shodan/Shodan_DNSResolve.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Shodan
+    integration_type: null
   - name: Shodan Host History
     version: '1.0'
     author: ANSSI
@@ -54,30 +67,16 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Shodan/Shodan_Host_History.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Shodan
     integration_type: null
-  - name: Shodan InfoDomain
+  - name: Shodan ReverseDNS
     version: '1.0'
     author: ANSSI
     license: AGPL-V3
-    description: Retrieve key Shodan information on a domain.
+    description: Retrieve ip reverse DNS resolutions on Shodan.
     dataTypes:
-    - domain
-    - fqdn
-    file: .upstream/cortex/analyzers/Shodan/Shodan_InfoDomain.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Shodan/Shodan_InfoDomain.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Shodan/Shodan_InfoDomain.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Shodan
-    integration_type: null
-  - name: Shodan DNSResolve
-    version: '1.0'
-    author: ANSSI
-    license: AGPL-V3
-    description: Retrieve domain resolutions on Shodan.
-    dataTypes:
-    - domain
-    - fqdn
-    file: .upstream/cortex/analyzers/Shodan/Shodan_DNSResolve.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Shodan/Shodan_DNSResolve.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Shodan/Shodan_DNSResolve.json
+    - ip
+    file: .upstream/cortex/analyzers/Shodan/Shodan_ReverseDNS.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Shodan/Shodan_ReverseDNS.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Shodan/Shodan_ReverseDNS.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Shodan
     integration_type: null
   - name: Shodan Search
@@ -92,16 +91,17 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Shodan/Shodan_Search.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Shodan
     integration_type: null
-  - name: Shodan ReverseDNS
+  - name: Shodan InfoDomain
     version: '1.0'
     author: ANSSI
     license: AGPL-V3
-    description: Retrieve ip reverse DNS resolutions on Shodan.
+    description: Retrieve key Shodan information on a domain.
     dataTypes:
-    - ip
-    file: .upstream/cortex/analyzers/Shodan/Shodan_ReverseDNS.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Shodan/Shodan_ReverseDNS.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Shodan/Shodan_ReverseDNS.json
+    - domain
+    - fqdn
+    file: .upstream/cortex/analyzers/Shodan/Shodan_InfoDomain.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Shodan/Shodan_InfoDomain.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Shodan/Shodan_InfoDomain.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Shodan
     integration_type: null
   responders: []

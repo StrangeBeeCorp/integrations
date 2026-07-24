@@ -2,15 +2,15 @@
 
 ### Trigger automated responses
 
-#### [PaloAltoCortexXDR isolate v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoCortexXDR)
-Isolate endpoints identified by hostname or IP list
+#### [PaloAltoCortexXDR restore file v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoCortexXDR)
+Restore a quarantined file on all endpoints where it was quarantined, identified by its SHA256 hash
 
-- **Author:** Joe Lazaro
+- **Author:** Joe Lazaro; Fabien Bloume, StrangeBee
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case_artifact`
 
-#### [PaloAltoCortexXDR unisolate v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoCortexXDR)
-Unisolate endpoints identified by hostname or IP list
+#### [PaloAltoCortexXDR isolate v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoCortexXDR)
+Isolate endpoints identified by hostname or IP list
 
 - **Author:** Joe Lazaro
 - **License:** AGPL-V3
@@ -23,8 +23,8 @@ Scan endpoints identified by hostname or IP list
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case_artifact`
 
-#### [PaloAltoCortexXDR restore file v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoCortexXDR)
-Restore a quarantined file on all endpoints where it was quarantined, identified by its SHA256 hash
+#### [PaloAltoCortexXDR allow list v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoCortexXDR)
+Add a file hash to the Cortex XDR allow list
 
 - **Author:** Joe Lazaro; Fabien Bloume, StrangeBee
 - **License:** AGPL-V3
@@ -32,13 +32,6 @@ Restore a quarantined file on all endpoints where it was quarantined, identified
 
 #### [PaloAltoCortexXDR cancel scan v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoCortexXDR)
 Cancel a running scan on endpoints identified by hostname or IP list
-
-- **Author:** Joe Lazaro; Fabien Bloume, StrangeBee
-- **License:** AGPL-V3
-- **Data Types:** `thehive:case_artifact`
-
-#### [PaloAltoCortexXDR allow list v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoCortexXDR)
-Add a file hash to the Cortex XDR allow list
 
 - **Author:** Joe Lazaro; Fabien Bloume, StrangeBee
 - **License:** AGPL-V3
@@ -55,5 +48,12 @@ Add a file hash to the Cortex XDR block list
 Initiate forensics triage collection on endpoints identified by hostname or IP list
 
 - **Author:** Joe Lazaro; Fabien Bloume, StrangeBee
+- **License:** AGPL-V3
+- **Data Types:** `thehive:case_artifact`
+
+#### [PaloAltoCortexXDR unisolate v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/PaloAltoCortexXDR)
+Unisolate endpoints identified by hostname or IP list
+
+- **Author:** Joe Lazaro
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case_artifact`

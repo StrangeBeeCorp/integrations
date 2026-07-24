@@ -4,33 +4,24 @@ total_functions: 18
 generic_count: 11
 vendor_count: 7
 functions:
-- name: alertfeeder_ingestSentinelIncidents
+- name: externalAccessAutomation
   version: 1.0.0
-  description: Ingests Microsoft Sentinel incidents from the Microsoft 365 Defender API and creates TheHive alerts, one per
-    incident
-  type: Feeder
-  kind: function
-  mode: Enabled
-  file: integrations/generic/functions/function_alertfeeder_ingestSentinelIncidents.js
-  vendor: Generic
-- name: automatedIgnoreSimilarityForNoisyObservables
-  version: 1.0.0
-  description: This function is intended to be triggered on ObservableCreated events. It automatically sets ignoreSimilarity
-    to true for observables matching a known list of common, noisy, or non-actionable values (such as localhost, private IPs,
-    and generic hostnames..). This reduces alert noise and avoids false correlation in TheHive. Note that it is a workaround,
-    and such issues are better managed in your alert ingestion pipeline(s)
+  description: Automatically grants external case access to client users when a case is closed. It reads the client custom
+    field from the case, extracts the company domain label, and retrieves the external users linked to the case. Users whose
+    email domain matches the client domain are identified and granted external access to the case.
   type: Notifier
   kind: function
   mode: Enabled
-  file: integrations/generic/functions/function_notifier_automatedIgnoreSimilarityForNoisyObservables.js
+  file: integrations/generic/functions/function_notifier_externalAccessAutomation.js
   vendor: Generic
-- name: deleteIPObsFromAlert
+- name: assignAlert
   version: 1.0.0
-  description: This function will delete all the IP Observable from an alert
-  type: Action:Alert
+  description: This function is designed to trigger on alert creation event. It automatically assignes severity High & Critical
+    alerts to a given user
+  type: Notifier
   kind: function
   mode: Enabled
-  file: integrations/generic/functions/function_Action_deleteIPObsFromAlert.js
+  file: integrations/generic/functions/function_notifier_assignAlert.js
   vendor: Generic
 - name: assignToMe
   version: 1.0.0
@@ -49,6 +40,15 @@ functions:
   mode: Enabled
   file: integrations/generic/functions/function_notifier_checkIpRFC.js
   vendor: Generic
+- name: changeImportedAlertStatus
+  version: 1.0.0
+  description: This function is designed to trigger on case closed event. It automatically changes imported alerts to a given
+    custom status
+  type: Notifier
+  kind: function
+  mode: Enabled
+  file: integrations/generic/functions/function_notifier_changeImportedAlertStatus.js
+  vendor: Generic
 - name: computeTotalTimeSpent
   version: 1.0.0
   description: On task closure, compute the duration of the task rounded up to the nearest minute. It's then added to the
@@ -57,6 +57,23 @@ functions:
   kind: function
   mode: Enabled
   file: integrations/generic/functions/function_notifier_computeTotalTimeSpent.js
+  vendor: Generic
+- name: alertfeeder_ingestSentinelIncidents
+  version: 1.0.0
+  description: Ingests Microsoft Sentinel incidents from the Microsoft 365 Defender API and creates TheHive alerts, one per
+    incident
+  type: Feeder
+  kind: function
+  mode: Enabled
+  file: integrations/generic/functions/function_alertfeeder_ingestSentinelIncidents.js
+  vendor: Generic
+- name: deleteIPObsFromAlert
+  version: 1.0.0
+  description: This function will delete all the IP Observable from an alert
+  type: Action:Alert
+  kind: function
+  mode: Enabled
+  file: integrations/generic/functions/function_Action_deleteIPObsFromAlert.js
   vendor: Generic
 - name: coldCaseAutomation
   version: 1.0.0
@@ -91,33 +108,16 @@ functions:
   mode: Enabled
   file: integrations/generic/functions/function_notifier_computeCustomMetrics.js
   vendor: Generic
-- name: externalAccessAutomation
+- name: automatedIgnoreSimilarityForNoisyObservables
   version: 1.0.0
-  description: Automatically grants external case access to client users when a case is closed. It reads the client custom
-    field from the case, extracts the company domain label, and retrieves the external users linked to the case. Users whose
-    email domain matches the client domain are identified and granted external access to the case.
+  description: This function is intended to be triggered on ObservableCreated events. It automatically sets ignoreSimilarity
+    to true for observables matching a known list of common, noisy, or non-actionable values (such as localhost, private IPs,
+    and generic hostnames..). This reduces alert noise and avoids false correlation in TheHive. Note that it is a workaround,
+    and such issues are better managed in your alert ingestion pipeline(s)
   type: Notifier
   kind: function
   mode: Enabled
-  file: integrations/generic/functions/function_notifier_externalAccessAutomation.js
-  vendor: Generic
-- name: assignAlert
-  version: 1.0.0
-  description: This function is designed to trigger on alert creation event. It automatically assignes severity High & Critical
-    alerts to a given user
-  type: Notifier
-  kind: function
-  mode: Enabled
-  file: integrations/generic/functions/function_notifier_assignAlert.js
-  vendor: Generic
-- name: changeImportedAlertStatus
-  version: 1.0.0
-  description: This function is designed to trigger on case closed event. It automatically changes imported alerts to a given
-    custom status
-  type: Notifier
-  kind: function
-  mode: Enabled
-  file: integrations/generic/functions/function_notifier_changeImportedAlertStatus.js
+  file: integrations/generic/functions/function_notifier_automatedIgnoreSimilarityForNoisyObservables.js
   vendor: Generic
 - name: alertFromAirtable
   version: 1.0.0
@@ -171,17 +171,6 @@ functions:
   github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/MSSentinel/thehive/functions/function_alertfeeder_ingestSentinelIncidents.js
   vendor: Microsoft Sentinel
   vendor_id: MSSentinel
-- name: alertFeeder_ProofPoint_clicksPermitted
-  version: 1.0.0
-  author: Fabien Bloume, StrangeBee
-  description: Ingests ProofPoint clicksPermitted alerts in TheHive
-  kind: function
-  mode: Enabled
-  file: integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted.js
-  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted.js
-  github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted.js
-  vendor: Proofpoint
-  vendor_id: Proofpoint
 - name: alertFeeder_ProofPoint_messageDelivered
   version: 1.0.0
   author: Fabien Bloume, StrangeBee
@@ -191,6 +180,17 @@ functions:
   file: integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered.js
   url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered.js
   github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered.js
+  vendor: Proofpoint
+  vendor_id: Proofpoint
+- name: alertFeeder_ProofPoint_clicksPermitted
+  version: 1.0.0
+  author: Fabien Bloume, StrangeBee
+  description: Ingests ProofPoint clicksPermitted alerts in TheHive
+  kind: function
+  mode: Enabled
+  file: integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted.js
+  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted.js
+  github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted.js
   vendor: Proofpoint
   vendor_id: Proofpoint
 - name: createAlertFromSplunk

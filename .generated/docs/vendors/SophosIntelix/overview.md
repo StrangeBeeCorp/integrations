@@ -2,13 +2,6 @@
 
 ### Enrich observables with intelligence
 
-#### [SophosIntelix Submit Dynamic v0.1](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SophosIntelix)
-Detonate your suspicious file in SophosLabs Sandbox and find what behaviours the file has. For more information or to sign up for SophosLabs Intelix (with a free tier) see https://www.sophos.com/en-us/labs/intelix.aspx
-
-- **Author:** SOL
-- **License:** AGPL-V3
-- **Data Types:** `file`
-
 #### [SophosIntelix Submit Static v0.1](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SophosIntelix)
 Use SophosLabs machine learning to understand the characteristics of your suspicious file allowing you to see if the file is similar to known malware. For more information or to sign up for SophosLabs Intelix (with a free tier) see https://www.sophos.com/en-us/labs/intelix.aspx
 
@@ -22,3 +15,10 @@ Fast and easy way to find out if the file is known Good, PUA (Potentially Unwant
 - **Author:** SOL
 - **License:** AGPL-V3
 - **Data Types:** `hash`, `domain`, `fqdn`, `url`
+
+#### [SophosIntelix Submit Dynamic v0.1](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SophosIntelix)
+Detonate your suspicious file in SophosLabs Sandbox and find what behaviours the file has. For more information or to sign up for SophosLabs Intelix (with a free tier) see https://www.sophos.com/en-us/labs/intelix.aspx
+
+- **Author:** SOL
+- **License:** AGPL-V3
+- **Data Types:** `file`
