@@ -61,17 +61,17 @@
         "integration_type": null
       },
       {
-        "name": "MSDefender-PushIOC-Audit",
+        "name": "MSDefender-AutoInvestigation",
         "version": "1.0",
-        "author": "Vito Piserchia",
+        "author": "Keijo Korte, Louis-Maximilien Dupouy",
         "license": "AGPL-V3",
-        "description": "Push IOC to Defender client. Audit mode",
+        "description": "Start an automated investigation on a device",
         "dataTypes": [
           "thehive:case_artifact"
         ],
-        "file": ".upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_PushIOCAudit.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_PushIOCAudit.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_PushIOCAudit.json",
+        "file": ".upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_AutoInvestigation.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_AutoInvestigation.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_AutoInvestigation.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderEndpoints",
         "integration_type": null
       },
@@ -91,17 +91,32 @@
         "integration_type": null
       },
       {
-        "name": "MSDefender-PushIOC-BlockAndRemediate",
+        "name": "MSDefender-UnRestrictAppExecution",
         "version": "1.0",
-        "author": "Vito Piserchia",
+        "author": "Keijo Korte, Louis-Maximilien Dupouy",
         "license": "AGPL-V3",
-        "description": "Push IOC to Defender client. Block and Remediate mode",
+        "description": "Enable execution of any application on the device",
         "dataTypes": [
           "thehive:case_artifact"
         ],
-        "file": ".upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_PushIOCBlockAndRemediate.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_PushIOCBlockAndRemediate.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_PushIOCBlockAndRemediate.json",
+        "file": ".upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_UnRestrictAppExecution.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_UnRestrictAppExecution.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_UnRestrictAppExecution.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderEndpoints",
+        "integration_type": null
+      },
+      {
+        "name": "MSDefender-PushIOC-Audit",
+        "version": "1.0",
+        "author": "Vito Piserchia",
+        "license": "AGPL-V3",
+        "description": "Push IOC to Defender client. Audit mode",
+        "dataTypes": [
+          "thehive:case_artifact"
+        ],
+        "file": ".upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_PushIOCAudit.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_PushIOCAudit.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_PushIOCAudit.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderEndpoints",
         "integration_type": null
       },
@@ -121,32 +136,32 @@
         "integration_type": null
       },
       {
-        "name": "MSDefender-IsolateMachine",
+        "name": "MSDefender-FullVirusscan",
         "version": "1.0",
         "author": "Keijo Korte",
         "license": "AGPL-V3",
-        "description": "Isolate machine with Microsoft Defender for Endpoints",
+        "description": "Run full virus scan to machine with Microsoft Defender for Endpoints",
         "dataTypes": [
           "thehive:case_artifact"
         ],
-        "file": ".upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_Isolate.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_Isolate.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_Isolate.json",
+        "file": ".upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_VirusScan.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_VirusScan.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_VirusScan.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderEndpoints",
         "integration_type": null
       },
       {
-        "name": "MSDefender-PushIOC-Allowed",
+        "name": "MSDefender-PushIOC-BlockAndRemediate",
         "version": "1.0",
         "author": "Vito Piserchia",
         "license": "AGPL-V3",
-        "description": "Push IOC to Defender client. Allowed mode",
+        "description": "Push IOC to Defender client. Block and Remediate mode",
         "dataTypes": [
           "thehive:case_artifact"
         ],
-        "file": ".upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_PushIOCAllowed.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_PushIOCAllowed.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_PushIOCAllowed.json",
+        "file": ".upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_PushIOCBlockAndRemediate.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_PushIOCBlockAndRemediate.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_PushIOCBlockAndRemediate.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderEndpoints",
         "integration_type": null
       },
@@ -166,47 +181,32 @@
         "integration_type": null
       },
       {
-        "name": "MSDefender-AutoInvestigation",
+        "name": "MSDefender-PushIOC-Allowed",
         "version": "1.0",
-        "author": "Keijo Korte, Louis-Maximilien Dupouy",
+        "author": "Vito Piserchia",
         "license": "AGPL-V3",
-        "description": "Start an automated investigation on a device",
+        "description": "Push IOC to Defender client. Allowed mode",
         "dataTypes": [
           "thehive:case_artifact"
         ],
-        "file": ".upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_AutoInvestigation.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_AutoInvestigation.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_AutoInvestigation.json",
+        "file": ".upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_PushIOCAllowed.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_PushIOCAllowed.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_PushIOCAllowed.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderEndpoints",
         "integration_type": null
       },
       {
-        "name": "MSDefender-UnRestrictAppExecution",
-        "version": "1.0",
-        "author": "Keijo Korte, Louis-Maximilien Dupouy",
-        "license": "AGPL-V3",
-        "description": "Enable execution of any application on the device",
-        "dataTypes": [
-          "thehive:case_artifact"
-        ],
-        "file": ".upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_UnRestrictAppExecution.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_UnRestrictAppExecution.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_UnRestrictAppExecution.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderEndpoints",
-        "integration_type": null
-      },
-      {
-        "name": "MSDefender-FullVirusscan",
+        "name": "MSDefender-IsolateMachine",
         "version": "1.0",
         "author": "Keijo Korte",
         "license": "AGPL-V3",
-        "description": "Run full virus scan to machine with Microsoft Defender for Endpoints",
+        "description": "Isolate machine with Microsoft Defender for Endpoints",
         "dataTypes": [
           "thehive:case_artifact"
         ],
-        "file": ".upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_VirusScan.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_VirusScan.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_VirusScan.json",
+        "file": ".upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_Isolate.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_Isolate.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSDefenderEndpoints/MSDefenderEndpoints_Isolate.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderEndpoints",
         "integration_type": null
       }

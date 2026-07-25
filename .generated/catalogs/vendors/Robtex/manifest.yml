@@ -17,6 +17,19 @@ analyzersTagline: ''
 analyzerDisplayName: ''
 integrations:
   analyzers:
+  - name: Robtex Forward PDNS Query
+    version: '1.0'
+    author: Nils Kuhnert
+    license: AGPL-V3
+    description: Check domains and FQDNs using the Robtex passive DNS API.
+    dataTypes:
+    - domain
+    - fqdn
+    file: .upstream/cortex/analyzers/Robtex/Robtex_Forward_PDNS_Query.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Robtex/Robtex_Forward_PDNS_Query.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Robtex/Robtex_Forward_PDNS_Query.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Robtex
+    integration_type: null
   - name: Robtex IP Query
     version: '1.0'
     author: Nils Kuhnert
@@ -39,19 +52,6 @@ integrations:
     file: .upstream/cortex/analyzers/Robtex/Robtex_Reverse_PDNS_Query.json
     url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Robtex/Robtex_Reverse_PDNS_Query.json
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Robtex/Robtex_Reverse_PDNS_Query.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Robtex
-    integration_type: null
-  - name: Robtex Forward PDNS Query
-    version: '1.0'
-    author: Nils Kuhnert
-    license: AGPL-V3
-    description: Check domains and FQDNs using the Robtex passive DNS API.
-    dataTypes:
-    - domain
-    - fqdn
-    file: .upstream/cortex/analyzers/Robtex/Robtex_Forward_PDNS_Query.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Robtex/Robtex_Forward_PDNS_Query.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Robtex/Robtex_Forward_PDNS_Query.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Robtex
     integration_type: null
   responders: []

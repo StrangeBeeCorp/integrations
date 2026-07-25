@@ -22,10 +22,10 @@ Add entries to the Tenant Allow/Block List in the Microsoft 365 Defender
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case_artifact`
 
-#### [MSDefenderOffice365 block v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderOffice365)
+#### [MSDefenderOffice365 disallow v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderOffice365)
 Add entries to the Tenant Allow/Block List in the Microsoft 365 Defender
 
-- **Author:** Joe Lazaro
+- **Author:** Vito Piserchia
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case_artifact`
 
@@ -36,9 +36,9 @@ Add entries to the Tenant Allow/Block List in the Microsoft 365 Defender
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case_artifact`
 
-#### [MSDefenderOffice365 disallow v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderOffice365)
+#### [MSDefenderOffice365 block v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderOffice365)
 Add entries to the Tenant Allow/Block List in the Microsoft 365 Defender
 
-- **Author:** Vito Piserchia
+- **Author:** Joe Lazaro
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case_artifact`
