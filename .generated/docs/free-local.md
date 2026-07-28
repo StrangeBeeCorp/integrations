@@ -4,9 +4,9 @@ Integrations that are either free to use or run locally without external depende
 
 ## Summary
 
-- **Total Analyzers:** 74 (9 local, 65 free)
+- **Total Analyzers:** 75 (10 local, 65 free)
 - **Total Responders:** 10 (0 local, 10 free)
-- **Total Integrations:** 84
+- **Total Integrations:** 85
 
 ## Analyzers
 
@@ -69,6 +69,16 @@ Parse files in several formats such as OLE and OpenXML to detect VBA macros, ext
 **Data Types:** `file`
 
 Parse Outlook MSG files and extract the main artifacts.
+
+</details>
+
+<details>
+<summary><strong>PDFPreview</strong> <code>v1.0</code> [Local] - PDFPreview</summary>
+
+**Vendor:** [PDFPreview](vendors/PDFPreview/overview)
+**Data Types:** `file`
+
+Minimal-attack-surface PDF preview: renders pages as images via poppler (and nothing more).
 
 </details>
 

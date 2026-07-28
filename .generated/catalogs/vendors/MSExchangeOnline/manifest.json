@@ -1,0 +1,65 @@
+{
+  "id": "MSExchangeOnline",
+  "name": "MSExchangeOnline",
+  "description": "",
+  "category": "",
+  "tags": [],
+  "homepage": "",
+  "logo": {},
+  "useCases": [],
+  "notifier": false,
+  "externalIntegrations": [],
+  "displayOnWebsite": true,
+  "visibility": 100,
+  "analyzersTagline": "",
+  "analyzerDisplayName": "",
+  "registration_required": true,
+  "subscription_required": true,
+  "free_subscription": false,
+  "integrations": {
+    "analyzers": [
+      {
+        "name": "MSExchangeOnline GetInboxRules",
+        "version": "1.1",
+        "author": "Fabien Bloume ,StrangeBee",
+        "license": "AGPL-V3",
+        "description": "List a mailbox's inbox rules via Microsoft Graph and flag rules commonly abused after a mailbox compromise/BEC: external auto-forwarding, silent delete/move rules, keyword filters on security or financial terms, hiding folders (RSS Feeds...), obfuscated rule names.",
+        "dataTypes": [
+          "mail"
+        ],
+        "file": ".upstream/cortex/analyzers/MSExchangeOnline/MSExchangeOnline_GetInboxRules.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSExchangeOnline/MSExchangeOnline_GetInboxRules.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSExchangeOnline/MSExchangeOnline_GetInboxRules.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSExchangeOnline",
+        "integration_type": null
+      }
+    ],
+    "responders": [
+      {
+        "name": "MSExchangeOnline RemoveInboxRule",
+        "version": "1.0",
+        "author": "Fabien Bloume, StrangeBee",
+        "license": "AGPL-V3",
+        "description": "Removes a malicious Exchange Online inbox rule via Microsoft Graph. Reads the target mailbox UPN and Graph rule ID from a case custom field (name configurable, defaults to \"inbox-rule-input\"), formatted as \"<mailboxUPN>|<ruleId>\".",
+        "dataTypes": [
+          "thehive:case"
+        ],
+        "file": ".upstream/cortex/responders/MSExchangeOnline/MSExchangeOnline_RemoveInboxRule.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSExchangeOnline/MSExchangeOnline_RemoveInboxRule.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSExchangeOnline/MSExchangeOnline_RemoveInboxRule.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSExchangeOnline",
+        "integration_type": null
+      }
+    ],
+    "functions": []
+  },
+  "stats": {
+    "totalAnalyzers": 1,
+    "totalResponders": 1,
+    "totalFunctions": 0,
+    "totalUseCases": 0,
+    "totalExternalIntegrations": 0,
+    "totalNotifiers": 0,
+    "total": 2
+  }
+}
