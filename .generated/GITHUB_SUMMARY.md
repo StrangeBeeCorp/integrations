@@ -11,7 +11,4 @@
 
 ## Changes
 
-### Added Vendors (2)
-
-- `MSExchangeOnline`
-- `PDFPreview`
+No changes detected.

@@ -2906,12 +2906,14 @@
   },
   "MSExchangeOnline": {
     "id": "MSExchangeOnline",
-    "name": "MSExchangeOnline",
-    "description": "",
-    "category": [],
+    "name": "Microsoft Exchange Online",
+    "description": "Microsoft Exchange Online is the cloud-based email and calendaring service of Microsoft 365, enabling security teams to investigate mailboxes, trace message flows, and remediate malicious emails across the organization",
+    "category": [
+      "Email Security"
+    ],
     "tags": [],
-    "homepage": "",
-    "logo_url": "",
+    "homepage": "https://www.microsoft.com/microsoft-365/exchange/email",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/MSExchangeOnline/assets/logo.svg",
     "visibility": 100,
     "subscription": {
       "required": true,

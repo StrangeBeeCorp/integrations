@@ -101,6 +101,9 @@ Built something useful? Contributions are welcome!
 **[Microsoft Defender for Office 365](vendors/MSDefenderOffice365/overview.md)** (5 integrations)
   Microsoft Defender for Office 365 provides advanced threat protection for email and collaboration...
 
+**[Microsoft Exchange Online](vendors/MSExchangeOnline/overview.md)** (2 integrations)
+  Microsoft Exchange Online is the cloud-based email and calendaring service of Microsoft 365, enab...
+
 **[Proofpoint](vendors/Proofpoint/overview.md)** (3 integrations)
   Proofpoint is an enterprise email security and threat protection platform that provides advanced ...
 
@@ -423,8 +426,6 @@ Built something useful? Contributions are welcome!
 
 **[MISP Warning Lists](vendors/MISPWarningLists/overview.md)** (1 integrations)
 
-**[MSExchangeOnline](vendors/MSExchangeOnline/overview.md)** (2 integrations)
-
 **[MsgParser](vendors/MsgParser/overview.md)** (1 integrations)
 
 **[NERD](vendors/NERD/overview.md)** (1 integrations)
@@ -659,13 +660,13 @@ Built something useful? Contributions are welcome!
 - **[Microsoft Defender for Endpoint](vendors/MSDefenderEndpoints/overview.md)** - *EDR* - 12 responders
 - **[Microsoft Defender for Office 365](vendors/MSDefenderOffice365/overview.md)** - *Email Security* - 1 analyzers, 4 responders
 - **[Microsoft Entra ID](vendors/MSEntraID/overview.md)** - *Identity & Access Management* - 4 analyzers, 5 responders
+- **[Microsoft Exchange Online](vendors/MSExchangeOnline/overview.md)** - *Email Security* - 1 analyzers, 1 responders
 - **[Microsoft Sentinel](vendors/MSSentinel/overview.md)** - *SIEM & Analytics* - 1 functions
 - **[Microsoft Teams](vendors/MSTeams/overview.md)** - *Collaboration* - notifier
 - **[MineMeld](vendors/Minemeld/overview.md)** - *Uncategorized* - 1 responders
 - **[MISP](vendors/MISP/overview.md)** - *Threat Intelligence* - 1 analyzers
 - **[MISP Warning Lists](vendors/MISPWarningLists/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Mnemonic Passive DNS](vendors/MnemonicPDNS/overview.md)** - *OSINT & Enrichment* - 2 analyzers
-- **[MSExchangeOnline](vendors/MSExchangeOnline/overview.md)** - *Uncategorized* - 1 analyzers, 1 responders
 - **[MsgParser](vendors/MsgParser/overview.md)** - *Uncategorized* - 1 analyzers
 - **[n8n](vendors/n8n/overview.md)** - *SOAR & Automation* - 1 responders, 1 external
 - **[NERD](vendors/NERD/overview.md)** - *Uncategorized* - 1 analyzers

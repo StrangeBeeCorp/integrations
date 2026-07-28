@@ -2,12 +2,16 @@
 # Edit vendor.yml for vendor metadata, then re-run the generator
 
 id: MSExchangeOnline
-name: MSExchangeOnline
-description: ''
-category: ''
+name: Microsoft Exchange Online
+description: Microsoft Exchange Online is the cloud-based email and calendaring service of Microsoft 365, enabling security
+  teams to investigate mailboxes, trace message flows, and remediate malicious emails across the organization
+category: Email Security
 tags: []
-homepage: ''
-logo: {}
+homepage: https://www.microsoft.com/microsoft-365/exchange/email
+logo:
+  file: integrations/vendors/MSExchangeOnline/assets/logo.svg
+  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/MSExchangeOnline/assets/logo.svg
+  github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/MSExchangeOnline/assets/logo.svg
 useCases: []
 notifier: false
 externalIntegrations: []
