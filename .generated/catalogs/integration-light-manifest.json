@@ -2992,7 +2992,7 @@
     ],
     "tags": [],
     "homepage": "https://www.microsoft.com/en-us/microsoft-teams",
-    "logo_url": "",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/MSTeams/assets/logo.svg",
     "visibility": 50,
     "subscription": {
       "required": false,

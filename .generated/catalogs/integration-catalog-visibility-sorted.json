@@ -7879,7 +7879,11 @@
       "category": "Collaboration",
       "tags": [],
       "homepage": "https://www.microsoft.com/en-us/microsoft-teams",
-      "logo": {},
+      "logo": {
+        "file": "integrations/vendors/MSTeams/assets/logo.svg",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/MSTeams/assets/logo.svg",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/MSTeams/assets/logo.svg"
+      },
       "useCases": [],
       "notifier": true,
       "externalIntegrations": [],
