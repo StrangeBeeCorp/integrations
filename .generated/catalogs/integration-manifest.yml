@@ -5350,7 +5350,10 @@ Kafka:
   category: SOAR & Automation
   tags: []
   homepage: https://kafka.apache.org
-  logo: {}
+  logo:
+    file: integrations/vendors/Kafka/assets/logo.svg
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Kafka/assets/logo.svg
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Kafka/assets/logo.svg
   useCases: []
   notifier: true
   externalIntegrations: []
