@@ -968,13 +968,16 @@ low:
     totalNotifiers: 0
     total: 1
 - id: CheckPointHEC
-  name: Check Point HEC
+  name: Check Point Harmony Email & Collaboration
   description: Check Point Harmony Email & Collaboration (HEC) is a cloud email security solution protecting Microsoft 365
     and Google Workspace against phishing, malware, and business email compromise
   category: Email Security
   tags: []
   homepage: https://www.checkpoint.com/harmony/email-security/
-  logo: {}
+  logo:
+    file: integrations/vendors/CheckPointHEC/assets/logo.svg
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/CheckPointHEC/assets/logo.svg
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/CheckPointHEC/assets/logo.svg
   useCases: []
   notifier: false
   externalIntegrations: []

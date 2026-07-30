@@ -95,7 +95,7 @@ Built something useful? Contributions are welcome!
 
 ### Email Security
 
-**[Check Point HEC](vendors/CheckPointHEC/overview.md)** (5 integrations)
+**[Check Point Harmony Email & Collaboration](vendors/CheckPointHEC/overview.md)** (5 integrations)
   Check Point Harmony Email & Collaboration (HEC) is a cloud email security solution protecting Mic...
 
 **[Microsoft Defender for Office 365](vendors/MSDefenderOffice365/overview.md)** (5 integrations)
@@ -569,7 +569,7 @@ Built something useful? Contributions are welcome!
 - **[Censys](vendors/Censys/overview.md)** - *Attack Surface Intelligence* - 1 analyzers
 - **[CERT.AT pDNS](vendors/CERTatPassiveDNS/overview.md)** - *Threat Intelligence* - 1 analyzers
 - **[ChainAbuse](vendors/ChainAbuse/overview.md)** - *Uncategorized* - 1 analyzers
-- **[Check Point HEC](vendors/CheckPointHEC/overview.md)** - *Email Security* - 5 analyzers
+- **[Check Point Harmony Email & Collaboration](vendors/CheckPointHEC/overview.md)** - *Email Security* - 5 analyzers
 - **[CheckPhish](vendors/CheckPhish/overview.md)** - *Uncategorized* - 2 analyzers
 - **[CheckPoint](vendors/CheckPoint/overview.md)** - *Uncategorized* - 2 responders
 - **[CIRCL Hash Lookup](vendors/CIRCLHashlookup/overview.md)** - *Uncategorized* - 1 analyzers
