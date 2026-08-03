@@ -191,6 +191,9 @@ Built something useful? Contributions are welcome!
 
 ### SOAR & Automation
 
+**[Ansible AWX](vendors/AWX/overview.md)** (1 integrations)
+  Open-source upstream project for Red Hat Ansible Automation Platform, providing a web UI, REST AP...
+
 **[Apache Kafka](vendors/Kafka/overview.md)** (1 integrations)
   Apache Kafka is a distributed event streaming platform for high-performance data pipelines, strea...
 
@@ -281,8 +284,6 @@ Built something useful? Contributions are welcome!
 **[Anomali Staxx](vendors/StaxxSearch/overview.md)** (1 integrations)
 
 **[Autofocus](vendors/Autofocus/overview.md)** (3 integrations)
-
-**[AWX](vendors/AWX/overview.md)** (1 integrations)
 
 **[Axur](vendors/Axur/overview.md)** (1 integrations)
 
@@ -556,11 +557,11 @@ Built something useful? Contributions are welcome!
 - **[Airtable](vendors/Airtable/overview.md)** - *Uncategorized* - 1 functions
 - **[AlienVault OTX](vendors/OTXQuery/overview.md)** - *Threat Intelligence* - 1 analyzers
 - **[Anomali Staxx](vendors/StaxxSearch/overview.md)** - *Uncategorized* - 1 analyzers
+- **[Ansible AWX](vendors/AWX/overview.md)** - *SOAR & Automation* - 1 responders
 - **[ANY.RUN](vendors/AnyRun/overview.md)** - *Threat Intelligence* - 7 analyzers
 - **[Apache Kafka](vendors/Kafka/overview.md)** - *SOAR & Automation* - notifier
 - **[Autofocus](vendors/Autofocus/overview.md)** - *Uncategorized* - 3 analyzers
 - **[AWS Lambda](vendors/AWSLambda/overview.md)** - *Cloud Infrastructure* - 1 responders
-- **[AWX](vendors/AWX/overview.md)** - *Uncategorized* - 1 responders
 - **[Axur](vendors/Axur/overview.md)** - *Uncategorized* - 1 analyzers
 - **[BackscatterIO](vendors/BackscatterIO/overview.md)** - *Uncategorized* - 2 analyzers
 - **[BinalyzeAIR](vendors/BinalyzeAIR/overview.md)** - *Uncategorized* - 2 responders

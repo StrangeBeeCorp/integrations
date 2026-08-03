@@ -215,12 +215,14 @@
   },
   "AWX": {
     "id": "AWX",
-    "name": "AWX",
-    "description": "",
-    "category": [],
+    "name": "Ansible AWX",
+    "description": "Open-source upstream project for Red Hat Ansible Automation Platform, providing a web UI, REST API, and task engine for running and scheduling Ansible playbooks",
+    "category": [
+      "SOAR & Automation"
+    ],
     "tags": [],
-    "homepage": "",
-    "logo_url": "",
+    "homepage": "https://github.com/ansible/awx",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/AWX/assets/logo.svg",
     "visibility": 100,
     "subscription": {
       "required": false,
