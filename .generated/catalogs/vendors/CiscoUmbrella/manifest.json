@@ -1,11 +1,15 @@
 {
   "id": "CiscoUmbrella",
-  "name": "CiscoUmbrella",
-  "description": "",
-  "category": "",
+  "name": "Cisco Umbrella",
+  "description": "Cisco Umbrella is a cloud-delivered security platform providing DNS-layer security, secure web gateway, and threat intelligence to block malicious domains, IPs, and URLs before a connection is ever established",
+  "category": "Network Security",
   "tags": [],
-  "homepage": "",
-  "logo": {},
+  "homepage": "https://umbrella.cisco.com",
+  "logo": {
+    "file": "integrations/vendors/CiscoUmbrella/assets/logo.png",
+    "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/CiscoUmbrella/assets/logo.png",
+    "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/CiscoUmbrella/assets/logo.png"
+  },
   "useCases": [],
   "notifier": false,
   "externalIntegrations": [],

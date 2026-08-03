@@ -146,6 +146,9 @@ Built something useful? Contributions are welcome!
 
 ### Network Security
 
+**[Cisco Umbrella](vendors/CiscoUmbrella/overview.md)** (2 integrations)
+  Cisco Umbrella is a cloud-delivered security platform providing DNS-layer security, secure web ga...
+
 **[Zscaler](vendors/Zscaler/overview.md)** (14 integrations)
   Cloud-native security platform providing secure web gateway, zero trust network access, and cloud...
 
@@ -311,8 +314,6 @@ Built something useful? Contributions are welcome!
 **[CIRCL Vulnerability-Lookup](vendors/CIRCLVulnerabilityLookup/overview.md)** (1 integrations)
 
 **[Cisco Secure Endpoint (Formerly AMP for Endpoints)](vendors/AMPforEndpoints/overview.md)** (5 integrations)
-
-**[CiscoUmbrella](vendors/CiscoUmbrella/overview.md)** (2 integrations)
 
 **[CISMCAP](vendors/CISMCAP/overview.md)** (1 integrations)
 
@@ -580,7 +581,7 @@ Built something useful? Contributions are welcome!
 - **[CIRCL Vulnerability-Lookup](vendors/CIRCLVulnerabilityLookup/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Cisco Duo](vendors/Duo_Security/overview.md)** - *Identity & Access Management* - 3 responders
 - **[Cisco Secure Endpoint (Formerly AMP for Endpoints)](vendors/AMPforEndpoints/overview.md)** - *Uncategorized* - 5 responders
-- **[CiscoUmbrella](vendors/CiscoUmbrella/overview.md)** - *Uncategorized* - 1 analyzers, 1 responders
+- **[Cisco Umbrella](vendors/CiscoUmbrella/overview.md)** - *Network Security* - 1 analyzers, 1 responders
 - **[CISMCAP](vendors/CISMCAP/overview.md)** - *Uncategorized* - 1 analyzers
 - **[ClamAV](vendors/ClamAV/overview.md)** - *Malware Analysis* - 1 analyzers
 - **[Cloudflare](vendors/Cloudflare/overview.md)** - *Web Application Firewall* - 1 responders
