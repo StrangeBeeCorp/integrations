@@ -1,0 +1,6 @@
+id: AWX
+name: "Ansible AWX"
+description: "Open-source upstream project for Red Hat Ansible Automation Platform, providing a web UI, REST API, and task engine for running and scheduling Ansible playbooks"
+category: SOAR & Automation
+homepage: "https://github.com/ansible/awx"
+visibility: 100
