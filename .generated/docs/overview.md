@@ -158,6 +158,9 @@ Built something useful? Contributions are welcome!
 **[Hunter.io](vendors/Hunterio/overview.md)** (1 integrations)
   Hunter.io discovers and verifies email addresses associated with domains, enabling investigators ...
 
+**[IP-API](vendors/IP-API/overview.md)** (1 integrations)
+  IP-API is a free geolocation service providing IP address intelligence including geolocation, ISP...
+
 **[IPinfo](vendors/IPinfo/overview.md)** (2 integrations)
   IPinfo provides comprehensive IP address intelligence including geolocation, ASN ownership, compa...
 
@@ -382,8 +385,6 @@ Built something useful? Contributions are welcome!
 **[IntezerCommunity](vendors/IntezerCommunity/overview.md)** (1 integrations)
 
 **[Investigate](vendors/Investigate/overview.md)** (2 integrations)
-
-**[IP-API](vendors/IP-API/overview.md)** (1 integrations)
 
 **[IPVoid](vendors/IPVoid/overview.md)** (1 integrations)
 
@@ -633,7 +634,7 @@ Built something useful? Contributions are welcome!
 - **[Inoitsu](vendors/Inoitsu/overview.md)** - *Uncategorized* - 1 analyzers
 - **[IntezerCommunity](vendors/IntezerCommunity/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Investigate](vendors/Investigate/overview.md)** - *Uncategorized* - 2 analyzers
-- **[IP-API](vendors/IP-API/overview.md)** - *Uncategorized* - 1 analyzers
+- **[IP-API](vendors/IP-API/overview.md)** - *OSINT & Enrichment* - 1 analyzers
 - **[IPinfo](vendors/IPinfo/overview.md)** - *OSINT & Enrichment* - 2 analyzers
 - **[IPVoid](vendors/IPVoid/overview.md)** - *Uncategorized* - 1 analyzers
 - **[isMalicious](vendors/isMalicious/overview.md)** - *Uncategorized* - 1 analyzers

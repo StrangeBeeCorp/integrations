@@ -2054,11 +2054,13 @@
   "IP-API": {
     "id": "IP-API",
     "name": "IP-API",
-    "description": "",
-    "category": [],
+    "description": "IP-API is a free geolocation service providing IP address intelligence including geolocation, ISP, ASN, and proxy/VPN detection, enabling analysts to quickly profile network infrastructure and identify suspicious connections",
+    "category": [
+      "OSINT & Enrichment"
+    ],
     "tags": [],
-    "homepage": "",
-    "logo_url": "",
+    "homepage": "https://ip-api.com",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/IP-API/assets/logo.png",
     "visibility": 100,
     "subscription": {
       "required": false,
