@@ -1,0 +1,6 @@
+id: IP-API
+name: "IP-API"
+description: "IP-API is a free geolocation service providing IP address intelligence including geolocation, ISP, ASN, and proxy/VPN detection, enabling analysts to quickly profile network infrastructure and identify suspicious connections"
+category: OSINT & Enrichment
+homepage: "https://ip-api.com"
+visibility: 100
