@@ -1,0 +1,6 @@
+id: CiscoUmbrella
+name: "Cisco Umbrella"
+description: "Cisco Umbrella is a cloud-delivered security platform providing DNS-layer security, secure web gateway, and threat intelligence to block malicious domains, IPs, and URLs before a connection is ever established"
+category: Network Security
+homepage: "https://umbrella.cisco.com"
+visibility: 100
