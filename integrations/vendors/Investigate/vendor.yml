@@ -1,0 +1,6 @@
+id: Investigate
+name: "Cisco Umbrella Investigate"
+description: "Cisco Umbrella Investigate is a threat intelligence API providing domain and IP reputation, WHOIS data, and co-occurrence analysis to help analysts assess the risk of internet infrastructure during investigations"
+category: OSINT & Enrichment
+homepage: "https://umbrella.cisco.com/products/threat-intelligence"
+visibility: 100
