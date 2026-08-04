@@ -10502,6 +10502,58 @@
       }
     },
     {
+      "id": "RT4",
+      "name": "Request Tracker (RT4)",
+      "description": "Request Tracker (RT) is an open-source issue tracking and ticketing system used to manage tickets, workflows, and correspondence across support and security teams",
+      "category": "Collaboration",
+      "tags": [],
+      "homepage": "https://bestpractical.com/request-tracker",
+      "logo": {
+        "file": "integrations/vendors/RT4/assets/logo.png",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/RT4/assets/logo.png",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/RT4/assets/logo.png"
+      },
+      "useCases": [],
+      "notifier": false,
+      "externalIntegrations": [],
+      "displayOnWebsite": true,
+      "visibility": 100,
+      "analyzersTagline": "",
+      "analyzerDisplayName": "",
+      "integrations": {
+        "analyzers": [],
+        "responders": [
+          {
+            "name": "RT4-CreateTicket",
+            "version": "1.0",
+            "author": "Michael Davis, REN-ISAC",
+            "license": "MIT",
+            "description": "Cortex Responder to create a ticket in RT4 from TheHive observables or alerts",
+            "dataTypes": [
+              "thehive:case_artifact",
+              "thehive:alert",
+              "thehive:case"
+            ],
+            "file": ".upstream/cortex/responders/RT4/rt4.json",
+            "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/RT4/rt4.json",
+            "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/RT4/rt4.json",
+            "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/RT4",
+            "integration_type": null
+          }
+        ],
+        "functions": []
+      },
+      "stats": {
+        "totalAnalyzers": 0,
+        "totalResponders": 1,
+        "totalFunctions": 0,
+        "totalUseCases": 0,
+        "totalExternalIntegrations": 0,
+        "totalNotifiers": 0,
+        "total": 1
+      }
+    },
+    {
       "id": "RiskIQ",
       "name": "RiskIQ",
       "description": "",
@@ -10892,54 +10944,6 @@
         "totalExternalIntegrations": 0,
         "totalNotifiers": 0,
         "total": 3
-      }
-    },
-    {
-      "id": "RT4",
-      "name": "RT4",
-      "description": "",
-      "category": "",
-      "tags": [],
-      "homepage": "",
-      "logo": {},
-      "useCases": [],
-      "notifier": false,
-      "externalIntegrations": [],
-      "displayOnWebsite": true,
-      "visibility": 100,
-      "analyzersTagline": "",
-      "analyzerDisplayName": "",
-      "integrations": {
-        "analyzers": [],
-        "responders": [
-          {
-            "name": "RT4-CreateTicket",
-            "version": "1.0",
-            "author": "Michael Davis, REN-ISAC",
-            "license": "MIT",
-            "description": "Cortex Responder to create a ticket in RT4 from TheHive observables or alerts",
-            "dataTypes": [
-              "thehive:case_artifact",
-              "thehive:alert",
-              "thehive:case"
-            ],
-            "file": ".upstream/cortex/responders/RT4/rt4.json",
-            "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/RT4/rt4.json",
-            "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/RT4/rt4.json",
-            "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/RT4",
-            "integration_type": null
-          }
-        ],
-        "functions": []
-      },
-      "stats": {
-        "totalAnalyzers": 0,
-        "totalResponders": 1,
-        "totalFunctions": 0,
-        "totalUseCases": 0,
-        "totalExternalIntegrations": 0,
-        "totalNotifiers": 0,
-        "total": 1
       }
     },
     {

@@ -65,6 +65,9 @@ Built something useful? Contributions are welcome!
 **[Microsoft Teams](vendors/MSTeams/overview.md)** (1 integrations)
   Microsoft Teams is a collaboration platform that combines chat, video meetings, file storage, and...
 
+**[Request Tracker (RT4)](vendors/RT4/overview.md)** (1 integrations)
+  Request Tracker (RT) is an open-source issue tracking and ticketing system used to manage tickets...
+
 **[Slack](vendors/Slack/overview.md)** (3 integrations)
   Slack is a is a team collaboration platform that provides channels, direct messaging, file sharin...
 
@@ -469,8 +472,6 @@ Built something useful? Contributions are welcome!
 
 **[Robtex](vendors/Robtex/overview.md)** (3 integrations)
 
-**[RT4](vendors/RT4/overview.md)** (1 integrations)
-
 **[SecurityTrails](vendors/SecurityTrails/overview.md)** (2 integrations)
 
 **[SEKOIA Intelligence Center](vendors/SEKOIAIntelligenceCenter/overview.md)** (3 integrations)
@@ -700,9 +701,9 @@ Built something useful? Contributions are welcome!
 - **[Recorded Future](vendors/RecordedFuture/overview.md)** - *Threat Intelligence* - 1 analyzers
 - **[Redis](vendors/Redis/overview.md)** - *SOAR & Automation* - notifier
 - **[Redmine](vendors/Redmine/overview.md)** - *Uncategorized* - 1 responders
+- **[Request Tracker (RT4)](vendors/RT4/overview.md)** - *Collaboration* - 1 responders
 - **[RiskIQ](vendors/RiskIQ/overview.md)** - *Uncategorized* - 16 analyzers, 1 responders
 - **[Robtex](vendors/Robtex/overview.md)** - *Uncategorized* - 3 analyzers
-- **[RT4](vendors/RT4/overview.md)** - *Uncategorized* - 1 responders
 - **[SecurityTrails](vendors/SecurityTrails/overview.md)** - *Uncategorized* - 2 analyzers
 - **[SEKOIA Intelligence Center](vendors/SEKOIAIntelligenceCenter/overview.md)** - *Uncategorized* - 3 analyzers
 - **[SendGrid](vendors/SendGrid/overview.md)** - *Uncategorized* - 1 responders

@@ -3769,12 +3769,14 @@
   },
   "RT4": {
     "id": "RT4",
-    "name": "RT4",
-    "description": "",
-    "category": [],
+    "name": "Request Tracker (RT4)",
+    "description": "Request Tracker (RT) is an open-source issue tracking and ticketing system used to manage tickets, workflows, and correspondence across support and security teams",
+    "category": [
+      "Collaboration"
+    ],
     "tags": [],
-    "homepage": "",
-    "logo_url": "",
+    "homepage": "https://bestpractical.com/request-tracker",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/RT4/assets/logo.png",
     "visibility": 100,
     "subscription": {
       "required": false,

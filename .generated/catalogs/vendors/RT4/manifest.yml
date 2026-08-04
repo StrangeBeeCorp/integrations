@@ -2,12 +2,16 @@
 # Edit vendor.yml for vendor metadata, then re-run the generator
 
 id: RT4
-name: RT4
-description: ''
-category: ''
+name: Request Tracker (RT4)
+description: Request Tracker (RT) is an open-source issue tracking and ticketing system used to manage tickets, workflows,
+  and correspondence across support and security teams
+category: Collaboration
 tags: []
-homepage: ''
-logo: {}
+homepage: https://bestpractical.com/request-tracker
+logo:
+  file: integrations/vendors/RT4/assets/logo.png
+  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/RT4/assets/logo.png
+  github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/RT4/assets/logo.png
 useCases: []
 notifier: false
 externalIntegrations: []
