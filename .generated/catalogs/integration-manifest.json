@@ -8941,7 +8941,11 @@
     "category": "Cloud Infrastructure",
     "tags": [],
     "homepage": "https://www.ovhcloud.com",
-    "logo": {},
+    "logo": {
+      "file": "integrations/vendors/OvhCloud/assets/logo.svg",
+      "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/OvhCloud/assets/logo.svg",
+      "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/OvhCloud/assets/logo.svg"
+    },
     "useCases": [],
     "notifier": false,
     "externalIntegrations": [],
