@@ -161,6 +161,9 @@ Built something useful? Contributions are welcome!
 **[Abuse Finder](vendors/Abuse_Finder/overview.md)** (1 integrations)
   Abuse Finder identifies abuse contacts for domain names, URLs, IP addresses, and email addresses,...
 
+**[Cisco Umbrella Investigate](vendors/Investigate/overview.md)** (2 integrations)
+  Cisco Umbrella Investigate is a threat intelligence API providing domain and IP reputation, WHOIS...
+
 **[Hunter.io](vendors/Hunterio/overview.md)** (1 integrations)
   Hunter.io discovers and verifies email addresses associated with domains, enabling investigators ...
 
@@ -388,8 +391,6 @@ Built something useful? Contributions are welcome!
 
 **[IntezerCommunity](vendors/IntezerCommunity/overview.md)** (1 integrations)
 
-**[Investigate](vendors/Investigate/overview.md)** (2 integrations)
-
 **[IPVoid](vendors/IPVoid/overview.md)** (1 integrations)
 
 **[isMalicious](vendors/isMalicious/overview.md)** (1 integrations)
@@ -583,6 +584,7 @@ Built something useful? Contributions are welcome!
 - **[Cisco Duo](vendors/Duo_Security/overview.md)** - *Identity & Access Management* - 3 responders
 - **[Cisco Secure Endpoint (Formerly AMP for Endpoints)](vendors/AMPforEndpoints/overview.md)** - *Uncategorized* - 5 responders
 - **[Cisco Umbrella](vendors/CiscoUmbrella/overview.md)** - *Network Security* - 1 analyzers, 1 responders
+- **[Cisco Umbrella Investigate](vendors/Investigate/overview.md)** - *OSINT & Enrichment* - 2 analyzers
 - **[CISMCAP](vendors/CISMCAP/overview.md)** - *Uncategorized* - 1 analyzers
 - **[ClamAV](vendors/ClamAV/overview.md)** - *Malware Analysis* - 1 analyzers
 - **[Cloudflare](vendors/Cloudflare/overview.md)** - *Web Application Firewall* - 1 responders
@@ -635,7 +637,6 @@ Built something useful? Contributions are welcome!
 - **[IBM X-Force](vendors/IBMXForce/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Inoitsu](vendors/Inoitsu/overview.md)** - *Uncategorized* - 1 analyzers
 - **[IntezerCommunity](vendors/IntezerCommunity/overview.md)** - *Uncategorized* - 1 analyzers
-- **[Investigate](vendors/Investigate/overview.md)** - *Uncategorized* - 2 analyzers
 - **[IP-API](vendors/IP-API/overview.md)** - *OSINT & Enrichment* - 1 analyzers
 - **[IPinfo](vendors/IPinfo/overview.md)** - *OSINT & Enrichment* - 2 analyzers
 - **[IPVoid](vendors/IPVoid/overview.md)** - *Uncategorized* - 1 analyzers

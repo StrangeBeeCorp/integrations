@@ -1,11 +1,15 @@
 {
   "id": "Investigate",
-  "name": "Investigate",
-  "description": "",
-  "category": "",
+  "name": "Cisco Umbrella Investigate",
+  "description": "Cisco Umbrella Investigate is a threat intelligence API providing domain and IP reputation, WHOIS data, and co-occurrence analysis to help analysts assess the risk of internet infrastructure during investigations",
+  "category": "OSINT & Enrichment",
   "tags": [],
-  "homepage": "",
-  "logo": {},
+  "homepage": "https://umbrella.cisco.com/products/threat-intelligence",
+  "logo": {
+    "file": "integrations/vendors/Investigate/assets/logo.png",
+    "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Investigate/assets/logo.png",
+    "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Investigate/assets/logo.png"
+  },
   "useCases": [],
   "notifier": false,
   "externalIntegrations": [],
