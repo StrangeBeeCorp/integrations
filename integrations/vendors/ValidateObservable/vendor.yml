@@ -1,0 +1,6 @@
+id: ValidateObservable
+name: "ValidateObservable"
+description: "Built-in Cortex analyzer that locally validates whether an observable's value genuinely matches its declared data type before it is used elsewhere in an investigation"
+category: Utilities
+homepage: "https://github.com/TheHive-Project/Cortex-Analyzers/tree/master/analyzers/ValidateObservable"
+visibility: 100

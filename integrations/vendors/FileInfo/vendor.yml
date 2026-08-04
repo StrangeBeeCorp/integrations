@@ -1,0 +1,6 @@
+id: FileInfo
+name: "FileInfo"
+description: "Built-in Cortex analyzer that locally identifies a file's type, hashes, and embedded metadata to give analysts a quick technical profile of a submitted artifact"
+category: Utilities
+homepage: "https://github.com/TheHive-Project/Cortex-Analyzers/tree/master/analyzers/FileInfo"
+visibility: 100

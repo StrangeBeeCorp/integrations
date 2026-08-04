@@ -1,0 +1,6 @@
+id: LdapQuery
+name: "LdapQuery"
+description: "Built-in Cortex analyzer that queries a local LDAP or Active Directory server to enrich usernames and email addresses with directory information"
+category: Utilities
+homepage: "https://github.com/TheHive-Project/Cortex-Analyzers/tree/master/analyzers/LdapQuery"
+visibility: 100

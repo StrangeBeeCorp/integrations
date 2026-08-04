@@ -1,0 +1,6 @@
+id: QrDecode
+name: "QrDecode"
+description: "Built-in Cortex analyzer that locally decodes QR codes found in image files, extracting the encoded URL or text for further investigation"
+category: Utilities
+homepage: "https://github.com/TheHive-Project/Cortex-Analyzers/tree/master/analyzers/QrDecode"
+visibility: 100

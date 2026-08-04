@@ -1,2 +1,6 @@
 id: DomainMailSPFDMARC
 name: "Domain Mail SPF DMARC"
+description: "Built-in Cortex analyzer that locally checks a domain's SPF, DKIM, and DMARC DNS records to assess its email anti-spoofing posture"
+category: Utilities
+homepage: "https://github.com/TheHive-Project/Cortex-Analyzers/tree/master/analyzers/DomainMailSPFDMARC"
+visibility: 100

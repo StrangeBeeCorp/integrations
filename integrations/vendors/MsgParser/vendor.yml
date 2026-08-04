@@ -1,0 +1,6 @@
+id: MsgParser
+name: "MsgParser"
+description: "Built-in Cortex analyzer that parses Outlook .msg email files locally and extracts headers, body, attachments, and embedded observables for investigation"
+category: Utilities
+homepage: "https://github.com/TheHive-Project/Cortex-Analyzers/tree/master/analyzers/MsgParser"
+visibility: 100

@@ -1,0 +1,6 @@
+id: Mailer
+name: "Mailer"
+description: "Built-in Cortex responder that sends notification emails through a locally configured SMTP server directly from a case or alert"
+category: Utilities
+homepage: "https://github.com/TheHive-Project/Cortex-Analyzers/tree/master/responders/Mailer"
+visibility: 100
