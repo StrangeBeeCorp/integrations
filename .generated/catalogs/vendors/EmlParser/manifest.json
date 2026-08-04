@@ -1,11 +1,15 @@
 {
   "id": "EmlParser",
   "name": "EmlParser",
-  "description": "",
-  "category": "",
+  "description": "Built-in Cortex analyzer that parses .eml email files locally and extracts headers, body, attachments, and embedded observables for investigation",
+  "category": "Utilities",
   "tags": [],
-  "homepage": "",
-  "logo": {},
+  "homepage": "https://github.com/TheHive-Project/Cortex-Analyzers/tree/master/analyzers/EmlParser",
+  "logo": {
+    "file": "integrations/vendors/EmlParser/assets/logo.svg",
+    "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/EmlParser/assets/logo.svg",
+    "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/EmlParser/assets/logo.svg"
+  },
   "useCases": [],
   "notifier": false,
   "externalIntegrations": [],

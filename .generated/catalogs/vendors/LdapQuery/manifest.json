@@ -1,11 +1,15 @@
 {
   "id": "LdapQuery",
   "name": "LdapQuery",
-  "description": "",
-  "category": "",
+  "description": "Built-in Cortex analyzer that queries a local LDAP or Active Directory server to enrich usernames and email addresses with directory information",
+  "category": "Utilities",
   "tags": [],
-  "homepage": "",
-  "logo": {},
+  "homepage": "https://github.com/TheHive-Project/Cortex-Analyzers/tree/master/analyzers/LdapQuery",
+  "logo": {
+    "file": "integrations/vendors/LdapQuery/assets/logo.svg",
+    "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/LdapQuery/assets/logo.svg",
+    "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/LdapQuery/assets/logo.svg"
+  },
   "useCases": [],
   "notifier": false,
   "externalIntegrations": [],

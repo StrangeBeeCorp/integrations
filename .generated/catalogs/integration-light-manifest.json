@@ -1111,12 +1111,14 @@
   "DomainMailSPFDMARC": {
     "id": "DomainMailSPFDMARC",
     "name": "Domain Mail SPF DMARC",
-    "description": "",
-    "category": [],
+    "description": "Built-in Cortex analyzer that locally checks a domain's SPF, DKIM, and DMARC DNS records to assess its email anti-spoofing posture",
+    "category": [
+      "Utilities"
+    ],
     "tags": [],
-    "homepage": "",
-    "logo_url": "",
-    "visibility": "low",
+    "homepage": "https://github.com/TheHive-Project/Cortex-Analyzers/tree/master/analyzers/DomainMailSPFDMARC",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/DomainMailSPFDMARC/assets/logo.svg",
+    "visibility": 100,
     "subscription": {
       "required": false,
       "free": false,
@@ -1381,11 +1383,13 @@
   "EmlParser": {
     "id": "EmlParser",
     "name": "EmlParser",
-    "description": "",
-    "category": [],
+    "description": "Built-in Cortex analyzer that parses .eml email files locally and extracts headers, body, attachments, and embedded observables for investigation",
+    "category": [
+      "Utilities"
+    ],
     "tags": [],
-    "homepage": "",
-    "logo_url": "",
+    "homepage": "https://github.com/TheHive-Project/Cortex-Analyzers/tree/master/analyzers/EmlParser",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/EmlParser/assets/logo.svg",
     "visibility": 100,
     "subscription": {
       "required": false,
@@ -1406,11 +1410,13 @@
   "FileInfo": {
     "id": "FileInfo",
     "name": "FileInfo",
-    "description": "",
-    "category": [],
+    "description": "Built-in Cortex analyzer that locally identifies a file's type, hashes, and embedded metadata to give analysts a quick technical profile of a submitted artifact",
+    "category": [
+      "Utilities"
+    ],
     "tags": [],
-    "homepage": "",
-    "logo_url": "",
+    "homepage": "https://github.com/TheHive-Project/Cortex-Analyzers/tree/master/analyzers/FileInfo",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/FileInfo/assets/logo.svg",
     "visibility": 100,
     "subscription": {
       "required": false,
@@ -2370,11 +2376,13 @@
   "LdapQuery": {
     "id": "LdapQuery",
     "name": "LdapQuery",
-    "description": "",
-    "category": [],
+    "description": "Built-in Cortex analyzer that queries a local LDAP or Active Directory server to enrich usernames and email addresses with directory information",
+    "category": [
+      "Utilities"
+    ],
     "tags": [],
-    "homepage": "",
-    "logo_url": "",
+    "homepage": "https://github.com/TheHive-Project/Cortex-Analyzers/tree/master/analyzers/LdapQuery",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/LdapQuery/assets/logo.svg",
     "visibility": 100,
     "subscription": {
       "required": false,
@@ -2445,11 +2453,13 @@
   "Mailer": {
     "id": "Mailer",
     "name": "Mailer",
-    "description": "",
-    "category": [],
+    "description": "Built-in Cortex responder that sends notification emails through a locally configured SMTP server directly from a case or alert",
+    "category": [
+      "Utilities"
+    ],
     "tags": [],
-    "homepage": "",
-    "logo_url": "",
+    "homepage": "https://github.com/TheHive-Project/Cortex-Analyzers/tree/master/responders/Mailer",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Mailer/assets/logo.svg",
     "visibility": 100,
     "subscription": {
       "required": false,
@@ -2942,11 +2952,13 @@
   "MsgParser": {
     "id": "MsgParser",
     "name": "MsgParser",
-    "description": "",
-    "category": [],
+    "description": "Built-in Cortex analyzer that parses Outlook .msg email files locally and extracts headers, body, attachments, and embedded observables for investigation",
+    "category": [
+      "Utilities"
+    ],
     "tags": [],
-    "homepage": "",
-    "logo_url": "",
+    "homepage": "https://github.com/TheHive-Project/Cortex-Analyzers/tree/master/analyzers/MsgParser",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/MsgParser/assets/logo.svg",
     "visibility": 100,
     "subscription": {
       "required": false,
@@ -3501,11 +3513,13 @@
   "PDFPreview": {
     "id": "PDFPreview",
     "name": "PDFPreview",
-    "description": "",
-    "category": [],
+    "description": "Built-in Cortex analyzer that renders a local preview of PDF file content, letting analysts inspect a suspicious document without opening it in a full reader",
+    "category": [
+      "Utilities"
+    ],
     "tags": [],
-    "homepage": "",
-    "logo_url": "",
+    "homepage": "https://github.com/TheHive-Project/Cortex-Analyzers/tree/master/analyzers/PDFPreview",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/PDFPreview/assets/logo.svg",
     "visibility": 100,
     "subscription": {
       "required": false,
@@ -3637,11 +3651,13 @@
   "QrDecode": {
     "id": "QrDecode",
     "name": "QrDecode",
-    "description": "",
-    "category": [],
+    "description": "Built-in Cortex analyzer that locally decodes QR codes found in image files, extracting the encoded URL or text for further investigation",
+    "category": [
+      "Utilities"
+    ],
     "tags": [],
-    "homepage": "",
-    "logo_url": "",
+    "homepage": "https://github.com/TheHive-Project/Cortex-Analyzers/tree/master/analyzers/QrDecode",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/QrDecode/assets/logo.svg",
     "visibility": 100,
     "subscription": {
       "required": false,
@@ -4649,11 +4665,13 @@
   "ValidateObservable": {
     "id": "ValidateObservable",
     "name": "ValidateObservable",
-    "description": "",
-    "category": [],
+    "description": "Built-in Cortex analyzer that locally validates whether an observable's value genuinely matches its declared data type before it is used elsewhere in an investigation",
+    "category": [
+      "Utilities"
+    ],
     "tags": [],
-    "homepage": "",
-    "logo_url": "",
+    "homepage": "https://github.com/TheHive-Project/Cortex-Analyzers/tree/master/analyzers/ValidateObservable",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/ValidateObservable/assets/logo.svg",
     "visibility": 100,
     "subscription": {
       "required": false,

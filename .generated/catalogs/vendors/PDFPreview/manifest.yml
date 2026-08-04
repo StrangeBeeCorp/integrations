@@ -3,11 +3,15 @@
 
 id: PDFPreview
 name: PDFPreview
-description: ''
-category: ''
+description: Built-in Cortex analyzer that renders a local preview of PDF file content, letting analysts inspect a suspicious
+  document without opening it in a full reader
+category: Utilities
 tags: []
-homepage: ''
-logo: {}
+homepage: https://github.com/TheHive-Project/Cortex-Analyzers/tree/master/analyzers/PDFPreview
+logo:
+  file: integrations/vendors/PDFPreview/assets/logo.svg
+  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/PDFPreview/assets/logo.svg
+  github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/PDFPreview/assets/logo.svg
 useCases: []
 notifier: false
 externalIntegrations: []

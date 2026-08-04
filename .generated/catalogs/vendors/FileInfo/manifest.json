@@ -1,11 +1,15 @@
 {
   "id": "FileInfo",
   "name": "FileInfo",
-  "description": "",
-  "category": "",
+  "description": "Built-in Cortex analyzer that locally identifies a file's type, hashes, and embedded metadata to give analysts a quick technical profile of a submitted artifact",
+  "category": "Utilities",
   "tags": [],
-  "homepage": "",
-  "logo": {},
+  "homepage": "https://github.com/TheHive-Project/Cortex-Analyzers/tree/master/analyzers/FileInfo",
+  "logo": {
+    "file": "integrations/vendors/FileInfo/assets/logo.svg",
+    "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/FileInfo/assets/logo.svg",
+    "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/FileInfo/assets/logo.svg"
+  },
   "useCases": [],
   "notifier": false,
   "externalIntegrations": [],

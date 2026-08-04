@@ -347,8 +347,6 @@ Built something useful? Contributions are welcome!
 
 **[DNSSinkhole](vendors/DNSSinkhole/overview.md)** (1 integrations)
 
-**[Domain Mail SPF DMARC](vendors/DomainMailSPFDMARC/overview.md)** (1 integrations)
-
 **[DomainTools Iris](vendors/DomainToolsIris/overview.md)** (4 integrations)
 
 **[DShield](vendors/DShield/overview.md)** (1 integrations)
@@ -358,10 +356,6 @@ Built something useful? Contributions are welcome!
 **[EclecticIQ](vendors/EclecticIQ/overview.md)** (2 integrations)
 
 **[EmergingThreats](vendors/EmergingThreats/overview.md)** (3 integrations)
-
-**[EmlParser](vendors/EmlParser/overview.md)** (1 integrations)
-
-**[FileInfo](vendors/FileInfo/overview.md)** (1 integrations)
 
 **[FireEye iSIGHT](vendors/FireEyeiSight/overview.md)** (1 integrations)
 
@@ -409,13 +403,9 @@ Built something useful? Contributions are welcome!
 
 **[KnowBe4](vendors/KnowBe4/overview.md)** (1 integrations)
 
-**[LdapQuery](vendors/LdapQuery/overview.md)** (1 integrations)
-
 **[Lookyloo](vendors/Lookyloo/overview.md)** (1 integrations)
 
 **[LupovisProwl](vendors/LupovisProwl/overview.md)** (1 integrations)
-
-**[Mailer](vendors/Mailer/overview.md)** (1 integrations)
 
 **[MailIncidentStatus](vendors/MailIncidentStatus/overview.md)** (1 integrations)
 
@@ -432,8 +422,6 @@ Built something useful? Contributions are welcome!
 **[MineMeld](vendors/Minemeld/overview.md)** (1 integrations)
 
 **[MISP Warning Lists](vendors/MISPWarningLists/overview.md)** (1 integrations)
-
-**[MsgParser](vendors/MsgParser/overview.md)** (1 integrations)
 
 **[NERD](vendors/NERD/overview.md)** (1 integrations)
 
@@ -459,13 +447,9 @@ Built something useful? Contributions are welcome!
 
 **[Payload Security](vendors/PayloadSecurity/overview.md)** (2 integrations)
 
-**[PDFPreview](vendors/PDFPreview/overview.md)** (1 integrations)
-
 **[PhishingInitiative](vendors/PhishingInitiative/overview.md)** (2 integrations)
 
 **[Pulsedive](vendors/Pulsedive/overview.md)** (1 integrations)
-
-**[QrDecode](vendors/QrDecode/overview.md)** (1 integrations)
 
 **[Redmine](vendors/Redmine/overview.md)** (1 integrations)
 
@@ -519,8 +503,6 @@ Built something useful? Contributions are welcome!
 
 **[Valhalla](vendors/Valhalla/overview.md)** (1 integrations)
 
-**[ValidateObservable](vendors/ValidateObservable/overview.md)** (1 integrations)
-
 **[Verifalia](vendors/Verifalia/overview.md)** (1 integrations)
 
 **[VMRay](vendors/VMRay/overview.md)** (1 integrations)
@@ -540,6 +522,36 @@ Built something useful? Contributions are welcome!
 
 **[URLScan.io](vendors/Urlscan.io/overview.md)** (2 integrations)
   URLScan.io is an automated web scanner that analyzes URLs and websites in real-time, capturing sc...
+
+
+### Utilities
+
+**[Domain Mail SPF DMARC](vendors/DomainMailSPFDMARC/overview.md)** (1 integrations)
+  Built-in Cortex analyzer that locally checks a domain's SPF, DKIM, and DMARC DNS records to asses...
+
+**[EmlParser](vendors/EmlParser/overview.md)** (1 integrations)
+  Built-in Cortex analyzer that parses .eml email files locally and extracts headers, body, attachm...
+
+**[FileInfo](vendors/FileInfo/overview.md)** (1 integrations)
+  Built-in Cortex analyzer that locally identifies a file's type, hashes, and embedded metadata to ...
+
+**[LdapQuery](vendors/LdapQuery/overview.md)** (1 integrations)
+  Built-in Cortex analyzer that queries a local LDAP or Active Directory server to enrich usernames...
+
+**[Mailer](vendors/Mailer/overview.md)** (1 integrations)
+  Built-in Cortex responder that sends notification emails through a locally configured SMTP server...
+
+**[MsgParser](vendors/MsgParser/overview.md)** (1 integrations)
+  Built-in Cortex analyzer that parses Outlook .msg email files locally and extracts headers, body,...
+
+**[PDFPreview](vendors/PDFPreview/overview.md)** (1 integrations)
+  Built-in Cortex analyzer that renders a local preview of PDF file content, letting analysts inspe...
+
+**[QrDecode](vendors/QrDecode/overview.md)** (1 integrations)
+  Built-in Cortex analyzer that locally decodes QR codes found in image files, extracting the encod...
+
+**[ValidateObservable](vendors/ValidateObservable/overview.md)** (1 integrations)
+  Built-in Cortex analyzer that locally validates whether an observable's value genuinely matches i...
 
 
 ### Vulnerability Management
@@ -603,7 +615,7 @@ Built something useful? Contributions are welcome!
 - **[DNSdumpster](vendors/DNSdumpster/overview.md)** - *Uncategorized* - 1 analyzers
 - **[DNSLookingglass](vendors/DNSLookingglass/overview.md)** - *Uncategorized* - 1 analyzers
 - **[DNSSinkhole](vendors/DNSSinkhole/overview.md)** - *Uncategorized* - 1 analyzers
-- **[Domain Mail SPF DMARC](vendors/DomainMailSPFDMARC/overview.md)** - *Uncategorized* - 1 analyzers
+- **[Domain Mail SPF DMARC](vendors/DomainMailSPFDMARC/overview.md)** - *Utilities* - 1 analyzers
 - **[DomainTools](vendors/DomainTools/overview.md)** - *Threat Intelligence* - 10 analyzers
 - **[DomainTools Iris](vendors/DomainToolsIris/overview.md)** - *Uncategorized* - 2 analyzers, 2 responders
 - **[DShield](vendors/DShield/overview.md)** - *Uncategorized* - 1 analyzers
@@ -613,8 +625,8 @@ Built something useful? Contributions are welcome!
 - **[Email](vendors/Email/overview.md)** - *Collaboration* - notifier
 - **[EmailRep](vendors/EmailRep/overview.md)** - *Threat Intelligence* - 1 analyzers
 - **[EmergingThreats](vendors/EmergingThreats/overview.md)** - *Uncategorized* - 3 analyzers
-- **[EmlParser](vendors/EmlParser/overview.md)** - *Uncategorized* - 1 analyzers
-- **[FileInfo](vendors/FileInfo/overview.md)** - *Uncategorized* - 1 analyzers
+- **[EmlParser](vendors/EmlParser/overview.md)** - *Utilities* - 1 analyzers
+- **[FileInfo](vendors/FileInfo/overview.md)** - *Utilities* - 1 analyzers
 - **[FireEye iSIGHT](vendors/FireEyeiSight/overview.md)** - *Uncategorized* - 1 analyzers
 - **[FireHOLBlocklists](vendors/FireHOLBlocklists/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Forcepoint WebsensePing](vendors/ForcepointWebsensePing/overview.md)** - *Uncategorized* - 1 analyzers
@@ -648,10 +660,10 @@ Built something useful? Contributions are welcome!
 - **[Jupyter](vendors/Jupyter/overview.md)** - *Uncategorized* - 1 analyzers, 1 responders
 - **[Kaspersky TIP](vendors/KasperskyTIP/overview.md)** - *Uncategorized* - 1 analyzers
 - **[KnowBe4](vendors/KnowBe4/overview.md)** - *Uncategorized* - 1 responders
-- **[LdapQuery](vendors/LdapQuery/overview.md)** - *Uncategorized* - 1 analyzers
+- **[LdapQuery](vendors/LdapQuery/overview.md)** - *Utilities* - 1 analyzers
 - **[Lookyloo](vendors/Lookyloo/overview.md)** - *Uncategorized* - 1 analyzers
 - **[LupovisProwl](vendors/LupovisProwl/overview.md)** - *Uncategorized* - 1 analyzers
-- **[Mailer](vendors/Mailer/overview.md)** - *Uncategorized* - 1 responders
+- **[Mailer](vendors/Mailer/overview.md)** - *Utilities* - 1 responders
 - **[MailIncidentStatus](vendors/MailIncidentStatus/overview.md)** - *Uncategorized* - 1 responders
 - **[Malpedia](vendors/Malpedia/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Maltiverse](vendors/Maltiverse/overview.md)** - *Threat Intelligence* - 1 analyzers
@@ -672,7 +684,7 @@ Built something useful? Contributions are welcome!
 - **[MISP](vendors/MISP/overview.md)** - *Threat Intelligence* - 1 analyzers
 - **[MISP Warning Lists](vendors/MISPWarningLists/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Mnemonic Passive DNS](vendors/MnemonicPDNS/overview.md)** - *OSINT & Enrichment* - 2 analyzers
-- **[MsgParser](vendors/MsgParser/overview.md)** - *Uncategorized* - 1 analyzers
+- **[MsgParser](vendors/MsgParser/overview.md)** - *Utilities* - 1 analyzers
 - **[n8n](vendors/n8n/overview.md)** - *SOAR & Automation* - 1 responders, 1 external
 - **[NERD](vendors/NERD/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Nessus](vendors/Nessus/overview.md)** - *Vulnerability Management* - 1 analyzers
@@ -692,12 +704,12 @@ Built something useful? Contributions are welcome!
 - **[PassiveTotal](vendors/PassiveTotal/overview.md)** - *Uncategorized* - 11 analyzers
 - **[Patrowl](vendors/Patrowl/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Payload Security](vendors/PayloadSecurity/overview.md)** - *Uncategorized* - 2 analyzers
-- **[PDFPreview](vendors/PDFPreview/overview.md)** - *Uncategorized* - 1 analyzers
+- **[PDFPreview](vendors/PDFPreview/overview.md)** - *Utilities* - 1 analyzers
 - **[PhishingInitiative](vendors/PhishingInitiative/overview.md)** - *Uncategorized* - 2 analyzers
 - **[PhishTank](vendors/PhishTank/overview.md)** - *Phishing Intelligence* - 1 analyzers
 - **[Proofpoint](vendors/Proofpoint/overview.md)** - *Email Security* - 1 analyzers, 2 functions
 - **[Pulsedive](vendors/Pulsedive/overview.md)** - *Uncategorized* - 1 analyzers
-- **[QrDecode](vendors/QrDecode/overview.md)** - *Uncategorized* - 1 analyzers
+- **[QrDecode](vendors/QrDecode/overview.md)** - *Utilities* - 1 analyzers
 - **[Rapid7 InsightConnect](vendors/InsightConnect/overview.md)** - *SOAR & Automation* - 1 external
 - **[Recorded Future](vendors/RecordedFuture/overview.md)** - *Threat Intelligence* - 1 analyzers
 - **[Redis](vendors/Redis/overview.md)** - *SOAR & Automation* - notifier
@@ -738,7 +750,7 @@ Built something useful? Contributions are welcome!
 - **[URLhaus](vendors/URLhaus/overview.md)** - *Threat Intelligence* - 1 analyzers
 - **[URLScan.io](vendors/Urlscan.io/overview.md)** - *URL Analysis* - 2 analyzers
 - **[Valhalla](vendors/Valhalla/overview.md)** - *Uncategorized* - 1 analyzers
-- **[ValidateObservable](vendors/ValidateObservable/overview.md)** - *Uncategorized* - 1 analyzers
+- **[ValidateObservable](vendors/ValidateObservable/overview.md)** - *Utilities* - 1 analyzers
 - **[Velociraptor](vendors/Velociraptor/overview.md)** - *DFIR* - 1 responders
 - **[Verifalia](vendors/Verifalia/overview.md)** - *Uncategorized* - 1 analyzers
 - **[VirusShare](vendors/Virusshare/overview.md)** - *Malware Analysis* - 1 analyzers

@@ -3,11 +3,15 @@
 
 id: QrDecode
 name: QrDecode
-description: ''
-category: ''
+description: Built-in Cortex analyzer that locally decodes QR codes found in image files, extracting the encoded URL or text
+  for further investigation
+category: Utilities
 tags: []
-homepage: ''
-logo: {}
+homepage: https://github.com/TheHive-Project/Cortex-Analyzers/tree/master/analyzers/QrDecode
+logo:
+  file: integrations/vendors/QrDecode/assets/logo.svg
+  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/QrDecode/assets/logo.svg
+  github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/QrDecode/assets/logo.svg
 useCases: []
 notifier: false
 externalIntegrations: []
