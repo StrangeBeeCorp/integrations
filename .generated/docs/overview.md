@@ -158,9 +158,6 @@ Built something useful? Contributions are welcome!
 
 ### OSINT & Enrichment
 
-**[Abuse Finder](vendors/Abuse_Finder/overview.md)** (1 integrations)
-  Abuse Finder identifies abuse contacts for domain names, URLs, IP addresses, and email addresses,...
-
 **[Cisco Umbrella Investigate](vendors/Investigate/overview.md)** (2 integrations)
   Cisco Umbrella Investigate is a threat intelligence API providing domain and IP reputation, WHOIS...
 
@@ -522,6 +519,9 @@ Built something useful? Contributions are welcome!
 
 ### Utilities
 
+**[Abuse Finder](vendors/Abuse_Finder/overview.md)** (1 integrations)
+  Abuse Finder is a built-in Cortex analyzer that locally resolves abuse contacts for domain names,...
+
 **[Domain Mail SPF DMARC](vendors/DomainMailSPFDMARC/overview.md)** (1 integrations)
   Built-in Cortex analyzer that locally checks a domain's SPF, DKIM, and DMARC DNS records to asses...
 
@@ -569,7 +569,7 @@ Built something useful? Contributions are welcome!
 
 ## All Vendors (A-Z)
 
-- **[Abuse Finder](vendors/Abuse_Finder/overview.md)** - *OSINT & Enrichment* - 1 analyzers
+- **[Abuse Finder](vendors/Abuse_Finder/overview.md)** - *Utilities* - 1 analyzers
 - **[AbuseIPDB](vendors/AbuseIPDB/overview.md)** - *Threat Intelligence* - 1 analyzers, 1 responders
 - **[AIL Onion-Lookup](vendors/AILOnionLookup/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Airtable](vendors/Airtable/overview.md)** - *Uncategorized* - 1 functions

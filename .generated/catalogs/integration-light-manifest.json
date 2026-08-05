@@ -2,14 +2,14 @@
   "Abuse_Finder": {
     "id": "Abuse_Finder",
     "name": "Abuse Finder",
-    "description": "Abuse Finder identifies abuse contacts for domain names, URLs, IP addresses, and email addresses, enabling rapid incident reporting and takedown requests",
+    "description": "Abuse Finder is a built-in Cortex analyzer that locally resolves abuse contacts for domain names, URLs, IP addresses, and email addresses, enabling rapid incident reporting and takedown requests",
     "category": [
-      "OSINT & Enrichment"
+      "Utilities"
     ],
     "tags": [],
     "homepage": "https://github.com/certsocietegenerale/abuse_finder",
-    "logo_url": "",
-    "visibility": "low",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Abuse_Finder/assets/logo.svg",
+    "visibility": 100,
     "subscription": {
       "required": false,
       "free": false,
