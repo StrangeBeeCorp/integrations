@@ -1,0 +1,6 @@
+id: OpenCVE
+name: "OpenCVE"
+description: "OpenCVE is a CVE tracking platform that lets analysts subscribe to vendors and products to get notified of new vulnerabilities and changes affecting their environment"
+category: Vulnerability Management
+homepage: "https://www.opencve.io"
+visibility: 100
