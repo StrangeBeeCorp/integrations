@@ -3,11 +3,15 @@
 
 id: OpenCVE
 name: OpenCVE
-description: ''
-category: ''
+description: OpenCVE is a CVE tracking platform that lets analysts subscribe to vendors and products to get notified of new
+  vulnerabilities and changes affecting their environment
+category: Vulnerability Management
 tags: []
-homepage: ''
-logo: {}
+homepage: https://www.opencve.io
+logo:
+  file: integrations/vendors/OpenCVE/assets/logo.png
+  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/OpenCVE/assets/logo.png
+  github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/OpenCVE/assets/logo.png
 useCases: []
 notifier: false
 externalIntegrations: []

@@ -191,6 +191,8 @@ Built something useful? Contributions are welcome!
 **[Elasticsearch](vendors/Elasticsearch/overview.md)** (2 integrations)
   Elasticsearch is a distributed search and analytics engine that powers SIEM solutions and log ana...
 
+**[IBM QRadar](vendors/IBMQRadar/overview.md)** (1 integrations)
+
 **[Microsoft Sentinel](vendors/MSSentinel/overview.md)** (1 integrations)
   Microsoft Sentinel is a cloud-native SIEM and SOAR solution that delivers intelligent security an...
 
@@ -261,6 +263,8 @@ Built something useful? Contributions are welcome!
 
 **[GreyNoise](vendors/GreyNoise/overview.md)** (1 integrations)
   Filter noise from IP observables. Determine if IPs are benign internet scanners or targeted threa...
+
+**[IBM X-Force](vendors/IBMXForce/overview.md)** (1 integrations)
 
 **[Maltiverse](vendors/Maltiverse/overview.md)** (1 integrations)
   Maltiverse is a threat intelligence platform that aggregates and enriches IOCs from multiple sour...
@@ -377,10 +381,6 @@ Built something useful? Contributions are welcome!
 
 **[Hashdd](vendors/Hashdd/overview.md)** (2 integrations)
 
-**[IBM QRadar](vendors/IBMQRadar/overview.md)** (1 integrations)
-
-**[IBM X-Force](vendors/IBMXForce/overview.md)** (1 integrations)
-
 **[Inoitsu](vendors/Inoitsu/overview.md)** (1 integrations)
 
 **[IntezerCommunity](vendors/IntezerCommunity/overview.md)** (1 integrations)
@@ -407,8 +407,6 @@ Built something useful? Contributions are welcome!
 
 **[LupovisProwl](vendors/LupovisProwl/overview.md)** (1 integrations)
 
-**[MailIncidentStatus](vendors/MailIncidentStatus/overview.md)** (1 integrations)
-
 **[Malpedia](vendors/Malpedia/overview.md)** (1 integrations)
 
 **[Malware Hash Registry (MHR)](vendors/TeamCymruMHR/overview.md)** (1 integrations)
@@ -430,8 +428,6 @@ Built something useful? Contributions are welcome!
 **[NSRL](vendors/NSRL/overview.md)** (1 integrations)
 
 **[ONYPHEActiveScan](vendors/ONYPHEActiveScan/overview.md)** (1 integrations)
-
-**[OpenCVE](vendors/OpenCVE/overview.md)** (1 integrations)
 
 **[OrionMalware](vendors/OrionMalware/overview.md)** (1 integrations)
 
@@ -541,6 +537,9 @@ Built something useful? Contributions are welcome!
 **[Mailer](vendors/Mailer/overview.md)** (1 integrations)
   Built-in Cortex responder that sends notification emails through a locally configured SMTP server...
 
+**[MailIncidentStatus](vendors/MailIncidentStatus/overview.md)** (1 integrations)
+  Built-in Cortex responder that emails a case's status details, including task progress, to recipi...
+
 **[MsgParser](vendors/MsgParser/overview.md)** (1 integrations)
   Built-in Cortex analyzer that parses Outlook .msg email files locally and extracts headers, body,...
 
@@ -558,6 +557,9 @@ Built something useful? Contributions are welcome!
 
 **[Nessus](vendors/Nessus/overview.md)** (1 integrations)
   Vulnerability scanner by Tenable for identifying vulnerabilities, misconfigurations, and complian...
+
+**[OpenCVE](vendors/OpenCVE/overview.md)** (1 integrations)
+  OpenCVE is a CVE tracking platform that lets analysts subscribe to vendors and products to get no...
 
 
 ### Web Application Firewall
@@ -645,8 +647,8 @@ Built something useful? Contributions are welcome!
 - **[HTTP Request](vendors/HttpRequest/overview.md)** - *SOAR & Automation* - notifier
 - **[Hunter.io](vendors/Hunterio/overview.md)** - *OSINT & Enrichment* - 1 analyzers
 - **[Hybrid Analysis](vendors/HybridAnalysis/overview.md)** - *Malware Analysis* - 1 analyzers
-- **[IBM QRadar](vendors/IBMQRadar/overview.md)** - *Uncategorized* - 1 responders
-- **[IBM X-Force](vendors/IBMXForce/overview.md)** - *Uncategorized* - 1 analyzers
+- **[IBM QRadar](vendors/IBMQRadar/overview.md)** - *SIEM & Analytics* - 1 responders
+- **[IBM X-Force](vendors/IBMXForce/overview.md)** - *Threat Intelligence* - 1 analyzers
 - **[Inoitsu](vendors/Inoitsu/overview.md)** - *Uncategorized* - 1 analyzers
 - **[IntezerCommunity](vendors/IntezerCommunity/overview.md)** - *Uncategorized* - 1 analyzers
 - **[IP-API](vendors/IP-API/overview.md)** - *OSINT & Enrichment* - 1 analyzers
@@ -664,7 +666,7 @@ Built something useful? Contributions are welcome!
 - **[Lookyloo](vendors/Lookyloo/overview.md)** - *Uncategorized* - 1 analyzers
 - **[LupovisProwl](vendors/LupovisProwl/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Mailer](vendors/Mailer/overview.md)** - *Utilities* - 1 responders
-- **[MailIncidentStatus](vendors/MailIncidentStatus/overview.md)** - *Uncategorized* - 1 responders
+- **[MailIncidentStatus](vendors/MailIncidentStatus/overview.md)** - *Utilities* - 1 responders
 - **[Malpedia](vendors/Malpedia/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Maltiverse](vendors/Maltiverse/overview.md)** - *Threat Intelligence* - 1 analyzers
 - **[Malware Hash Registry (MHR)](vendors/TeamCymruMHR/overview.md)** - *Uncategorized* - 1 analyzers
@@ -694,7 +696,7 @@ Built something useful? Contributions are welcome!
 - **[ONYPHE](vendors/Onyphe/overview.md)** - *Attack Surface Intelligence* - 5 analyzers
 - **[ONYPHEActiveScan](vendors/ONYPHEActiveScan/overview.md)** - *Uncategorized* - 1 analyzers
 - **[OpenCTI](vendors/OpenCTI/overview.md)** - *Threat Intelligence* - 4 analyzers
-- **[OpenCVE](vendors/OpenCVE/overview.md)** - *Uncategorized* - 1 analyzers
+- **[OpenCVE](vendors/OpenCVE/overview.md)** - *Vulnerability Management* - 1 analyzers
 - **[OrionMalware](vendors/OrionMalware/overview.md)** - *Uncategorized* - 1 analyzers
 - **[OVHcloud](vendors/OvhCloud/overview.md)** - *Cloud Infrastructure* - 1 analyzers, 2 responders
 - **[PAN Cortex XDR](vendors/PaloAltoCortexXDR/overview.md)** - *Uncategorized* - 8 responders

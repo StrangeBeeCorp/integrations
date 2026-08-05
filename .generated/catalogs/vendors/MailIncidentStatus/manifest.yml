@@ -3,11 +3,15 @@
 
 id: MailIncidentStatus
 name: MailIncidentStatus
-description: ''
-category: ''
+description: Built-in Cortex responder that emails a case's status details, including task progress, to recipients through
+  a locally configured SMTP server
+category: Utilities
 tags: []
-homepage: ''
-logo: {}
+homepage: https://github.com/TheHive-Project/Cortex-Analyzers/tree/master/responders/MailIncidentStatus
+logo:
+  file: integrations/vendors/MailIncidentStatus/assets/logo.svg
+  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/MailIncidentStatus/assets/logo.svg
+  github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/MailIncidentStatus/assets/logo.svg
 useCases: []
 notifier: false
 externalIntegrations: []
