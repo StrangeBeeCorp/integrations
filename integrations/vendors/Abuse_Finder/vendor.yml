@@ -1,5 +1,6 @@
 id: Abuse_Finder
 name: "Abuse Finder"
-description: "Abuse Finder identifies abuse contacts for domain names, URLs, IP addresses, and email addresses, enabling rapid incident reporting and takedown requests"
-category: OSINT & Enrichment
+description: "Abuse Finder is a built-in Cortex analyzer that locally resolves abuse contacts for domain names, URLs, IP addresses, and email addresses, enabling rapid incident reporting and takedown requests"
+category: Utilities
 homepage: "https://github.com/certsocietegenerale/abuse_finder"
+visibility: 100
