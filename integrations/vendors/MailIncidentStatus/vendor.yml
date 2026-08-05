@@ -1,0 +1,6 @@
+id: MailIncidentStatus
+name: "MailIncidentStatus"
+description: "Built-in Cortex responder that emails a case's status details, including task progress, to recipients through a locally configured SMTP server"
+category: Utilities
+homepage: "https://github.com/TheHive-Project/Cortex-Analyzers/tree/master/responders/MailIncidentStatus"
+visibility: 100
