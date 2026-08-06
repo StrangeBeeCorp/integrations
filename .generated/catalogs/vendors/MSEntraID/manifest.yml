@@ -44,6 +44,19 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetDirectoryAuditLogs.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSEntraID
     integration_type: null
+  - name: MSEntraID GetRiskyUser
+    version: '1.0'
+    author: StrangeBee
+    license: AGPL-V3
+    description: 'Retrieve Microsoft Entra ID Identity Protection risk information for a user: current risk state (riskyUsers)
+      and risk detection history (riskDetections). Requires Entra ID P1/P2.'
+    dataTypes:
+    - mail
+    file: .upstream/cortex/analyzers/MSEntraID/MSEntraID_GetRiskyUser.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetRiskyUser.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetRiskyUser.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSEntraID
+    integration_type: null
   - name: MSEntraID GetSignIns
     version: '1.0'
     author: '@jahamilto'
@@ -54,6 +67,32 @@ integrations:
     file: .upstream/cortex/analyzers/MSEntraID/MSEntraID_GetSignIns.json
     url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetSignIns.json
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetSignIns.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSEntraID
+    integration_type: null
+  - name: MSEntraID GetSignInsByIP
+    version: '1.0'
+    author: 3lina, StrangeBee
+    license: AGPL-V3
+    description: Pull all Microsoft Entra ID sign ins across the tenant that originated from a given IP address, within the
+      specified amount of time.
+    dataTypes:
+    - ip
+    file: .upstream/cortex/analyzers/MSEntraID/MSEntraID_GetSignInsByIP.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetSignInsByIP.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetSignInsByIP.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSEntraID
+    integration_type: null
+  - name: MSEntraID GetDirectoryRoles
+    version: '1.0'
+    author: 3lina, StrangeBee
+    license: AGPL-V3
+    description: List the Microsoft Entra ID directory roles (built-in admin roles) directly assigned to a user, to help prioritize
+      investigations involving privileged accounts.
+    dataTypes:
+    - mail
+    file: .upstream/cortex/analyzers/MSEntraID/MSEntraID_GetDirectoryRoles.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetDirectoryRoles.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetDirectoryRoles.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSEntraID
     integration_type: null
   - name: MSEntraID GetManagedDevicesInfo
@@ -149,10 +188,10 @@ integrations:
     integration_type: null
   functions: []
 stats:
-  totalAnalyzers: 4
+  totalAnalyzers: 7
   totalResponders: 5
   totalFunctions: 0
   totalUseCases: 0
   totalExternalIntegrations: 0
   totalNotifiers: 0
-  total: 9
+  total: 12

@@ -1,15 +1,15 @@
 {
-  "name": "MSDefender-UnRestrictAppExecution",
+  "name": "MSDefenderForEndpoint-UnisolateMachine",
   "version": "1.0",
-  "author": "Keijo Korte, Louis-Maximilien Dupouy",
+  "author": "Keijo Korte",
   "url": "https://github.com/TheHive-Project/Cortex-Analyzers",
   "license": "AGPL-V3",
-  "description": "Enable execution of any application on the device",
+  "description": "Unisolate machine with Microsoft Defender for Endpoints",
   "dataTypeList": ["thehive:case_artifact"],
-  "command": "MSDefenderEndpoints/MSDefenderEndpoints.py",
-  "baseConfig": "MSDefenderforEndpoints",
+  "command": "MSDefenderForEndpoint/msdefender_for_endpoint.py",
+  "baseConfig": "MSDefenderForEndpoint",
   "config": {
-    "service": "unrestrictAppExecution"
+    "service": "unisolateMachine"
   },
   "configurationItems": [
     {

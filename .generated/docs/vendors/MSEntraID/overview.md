@@ -1,4 +1,4 @@
-## Analyzers (4)
+## Analyzers (7)
 
 ### Enrich observables with intelligence
 
@@ -9,10 +9,31 @@ Pull Microsoft Entra ID directory audit logs for a user within the specified tim
 - **License:** AGPL-V3
 - **Data Types:** `mail`
 
+#### [MSEntraID GetRiskyUser v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSEntraID)
+Retrieve Microsoft Entra ID Identity Protection risk information for a user: current risk state (riskyUsers) and risk detection history (riskDetections). Requires Entra ID P1/P2.
+
+- **Author:** StrangeBee
+- **License:** AGPL-V3
+- **Data Types:** `mail`
+
 #### [MSEntraID GetSignIns v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSEntraID)
 Pull all Microsoft Entra ID sign ins for a user within the specified amount of time.
 
 - **Author:** @jahamilto
+- **License:** AGPL-V3
+- **Data Types:** `mail`
+
+#### [MSEntraID GetSignInsByIP v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSEntraID)
+Pull all Microsoft Entra ID sign ins across the tenant that originated from a given IP address, within the specified amount of time.
+
+- **Author:** 3lina, StrangeBee
+- **License:** AGPL-V3
+- **Data Types:** `ip`
+
+#### [MSEntraID GetDirectoryRoles v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSEntraID)
+List the Microsoft Entra ID directory roles (built-in admin roles) directly assigned to a user, to help prioritize investigations involving privileged accounts.
+
+- **Author:** 3lina, StrangeBee
 - **License:** AGPL-V3
 - **Data Types:** `mail`
 

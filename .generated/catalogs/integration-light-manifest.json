@@ -2825,38 +2825,29 @@
       "total": 2
     }
   },
-  "MSDefenderEndpoints": {
-    "id": "MSDefenderEndpoints",
-    "name": "Microsoft Defender for Endpoint",
-    "description": "Microsoft Defender for Endpoint is an enterprise EDR platform that provides threat detection, investigation, and automated response capabilities across Windows, macOS, Linux, iOS, and Android devices for comprehensive endpoint security",
-    "category": [
-      "EDR"
-    ],
-    "tags": [
-      "edr",
-      "endpoint-protection",
-      "threat-detection",
-      "automated-response",
-      "incident-response",
-      "microsoft"
-    ],
-    "homepage": "https://www.microsoft.com/security/business/endpoint-security/microsoft-defender-endpoint",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/MSDefenderEndpoints/assets/logo.png",
-    "visibility": 4,
+  "MSDefenderForEndpoint": {
+    "id": "MSDefenderForEndpoint",
+    "name": "MSDefenderForEndpoint",
+    "description": "",
+    "category": [],
+    "tags": [],
+    "homepage": "",
+    "logo_url": "",
+    "visibility": 100,
     "subscription": {
       "required": true,
       "free": false,
       "paid": true
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/MSDefenderEndpoints/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/MSDefenderForEndpoint/overview.md",
     "stats": {
-      "totalAnalyzers": 0,
+      "totalAnalyzers": 2,
       "totalResponders": 12,
       "totalFunctions": 0,
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
-      "total": 12
+      "total": 14
     }
   },
   "MSDefenderOffice365": {
@@ -2919,13 +2910,13 @@
     },
     "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/MSEntraID/overview.md",
     "stats": {
-      "totalAnalyzers": 4,
+      "totalAnalyzers": 7,
       "totalResponders": 5,
       "totalFunctions": 0,
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
-      "total": 9
+      "total": 12
     }
   },
   "MSExchangeOnline": {

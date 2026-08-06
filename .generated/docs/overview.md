@@ -18,12 +18,12 @@ Built something useful? Contributions are welcome!
 ## Summary Statistics
 
 - **Total Vendors:** 198
-- **Total Analyzers:** 277
+- **Total Analyzers:** 282
 - **Total Responders:** 157
 - **Total Functions:** 7
 - **Total Notifiers:** 8
 - **Total External Integrations:** 12
-- **Total Integrations:** 461
+- **Total Integrations:** 466
 
 ## Vendors by Category
 
@@ -92,9 +92,6 @@ Built something useful? Contributions are welcome!
 **[HarfangLab](vendors/HarfangLab/overview.md)** (32 integrations)
   European endpoint security platform (EDR/EPP) certified by ANSSI and BSI, providing real-time thr...
 
-**[Microsoft Defender for Endpoint](vendors/MSDefenderEndpoints/overview.md)** (12 integrations)
-  Microsoft Defender for Endpoint is an enterprise EDR platform that provides threat detection, inv...
-
 
 ### Email Security
 
@@ -116,7 +113,7 @@ Built something useful? Contributions are welcome!
 **[Cisco Duo](vendors/Duo_Security/overview.md)** (3 integrations)
   Multi-factor authentication and secure access platform by Cisco for identity verification and end...
 
-**[Microsoft Entra ID](vendors/MSEntraID/overview.md)** (9 integrations)
+**[Microsoft Entra ID](vendors/MSEntraID/overview.md)** (12 integrations)
   Microsoft Entra ID (formerly Azure Active Directory) is an enterprise identity and access managem...
 
 **[Okta](vendors/Okta/overview.md)** (1 integrations)
@@ -418,6 +415,8 @@ Built something useful? Contributions are welcome!
 
 **[MISP Warning Lists](vendors/MISPWarningLists/overview.md)** (1 integrations)
 
+**[MSDefenderForEndpoint](vendors/MSDefenderForEndpoint/overview.md)** (14 integrations)
+
 **[NERD](vendors/NERD/overview.md)** (1 integrations)
 
 **[Netcraft](vendors/Netcraft/overview.md)** (1 integrations)
@@ -676,9 +675,8 @@ Built something useful? Contributions are welcome!
 - **[Mattermost](vendors/Mattermost/overview.md)** - *Collaboration* - notifier
 - **[MaxMind](vendors/MaxMind/overview.md)** - *OSINT & Enrichment* - 1 analyzers
 - **[MetaDefender](vendors/MetaDefender/overview.md)** - *Uncategorized* - 5 analyzers
-- **[Microsoft Defender for Endpoint](vendors/MSDefenderEndpoints/overview.md)** - *EDR* - 12 responders
 - **[Microsoft Defender for Office 365](vendors/MSDefenderOffice365/overview.md)** - *Email Security* - 1 analyzers, 4 responders
-- **[Microsoft Entra ID](vendors/MSEntraID/overview.md)** - *Identity & Access Management* - 4 analyzers, 5 responders
+- **[Microsoft Entra ID](vendors/MSEntraID/overview.md)** - *Identity & Access Management* - 7 analyzers, 5 responders
 - **[Microsoft Exchange Online](vendors/MSExchangeOnline/overview.md)** - *Email Security* - 1 analyzers, 1 responders
 - **[Microsoft Sentinel](vendors/MSSentinel/overview.md)** - *SIEM & Analytics* - 1 functions
 - **[Microsoft Teams](vendors/MSTeams/overview.md)** - *Collaboration* - notifier
@@ -686,6 +684,7 @@ Built something useful? Contributions are welcome!
 - **[MISP](vendors/MISP/overview.md)** - *Threat Intelligence* - 1 analyzers
 - **[MISP Warning Lists](vendors/MISPWarningLists/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Mnemonic Passive DNS](vendors/MnemonicPDNS/overview.md)** - *OSINT & Enrichment* - 2 analyzers
+- **[MSDefenderForEndpoint](vendors/MSDefenderForEndpoint/overview.md)** - *Uncategorized* - 2 analyzers, 12 responders
 - **[MsgParser](vendors/MsgParser/overview.md)** - *Utilities* - 1 analyzers
 - **[n8n](vendors/n8n/overview.md)** - *SOAR & Automation* - 1 responders, 1 external
 - **[NERD](vendors/NERD/overview.md)** - *Uncategorized* - 1 analyzers
