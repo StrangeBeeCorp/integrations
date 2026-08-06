@@ -2827,13 +2827,22 @@
   },
   "MSDefenderForEndpoint": {
     "id": "MSDefenderForEndpoint",
-    "name": "MSDefenderForEndpoint",
-    "description": "",
-    "category": [],
-    "tags": [],
-    "homepage": "",
-    "logo_url": "",
-    "visibility": 100,
+    "name": "Microsoft Defender for Endpoint",
+    "description": "Microsoft Defender for Endpoint is an enterprise EDR platform that provides threat detection, investigation, and automated response capabilities across Windows, macOS, Linux, iOS, and Android devices for comprehensive endpoint security",
+    "category": [
+      "EDR"
+    ],
+    "tags": [
+      "edr",
+      "endpoint-protection",
+      "threat-detection",
+      "automated-response",
+      "incident-response",
+      "microsoft"
+    ],
+    "homepage": "https://www.microsoft.com/security/business/endpoint-security/microsoft-defender-endpoint",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/MSDefenderForEndpoint/assets/logo.png",
+    "visibility": 4,
     "subscription": {
       "required": true,
       "free": false,
