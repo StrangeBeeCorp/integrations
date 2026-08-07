@@ -2,15 +2,15 @@
 
 ### Trigger automated responses
 
-#### [JAMFProtect addHashtoPreventList v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/JAMFProtect)
-Add IOC to JAMF Protect - creates a custom prevent list for a hash
+#### [JAMFProtect removeHashfromPreventList v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/JAMFProtect)
+Remove IOC on JAMF Protect - removes associated custom prevent list(s) containing the hash
 
 - **Author:** Fabien Bloume, StrangeBee
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case_artifact`
 
-#### [JAMFProtect removeHashfromPreventList v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/JAMFProtect)
-Remove IOC on JAMF Protect - removes associated custom prevent list(s) containing the hash
+#### [JAMFProtect addHashtoPreventList v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/JAMFProtect)
+Add IOC to JAMF Protect - creates a custom prevent list for a hash
 
 - **Author:** Fabien Bloume, StrangeBee
 - **License:** AGPL-V3

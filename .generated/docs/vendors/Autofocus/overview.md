@@ -2,12 +2,12 @@
 
 ### Enrich observables with intelligence
 
-#### [Autofocus SearchJSON v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Autofocus)
-Search samples in Autofocus with a full search query in JSON
+#### [Autofocus SearchIOC v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Autofocus)
+Search samples in Autofocus based on a single IOC
 
 - **Author:** ANSSI
 - **License:** AGPL-V3
-- **Data Types:** `other`
+- **Data Types:** `domain`, `fqdn`, `user-agent`, `imphash`, `ip`, `mutex`, `tag`, `url`
 
 #### [Autofocus GetSampleAnalysis v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Autofocus)
 Get full analysis from a sample based on its hash
@@ -16,9 +16,9 @@ Get full analysis from a sample based on its hash
 - **License:** AGPL-V3
 - **Data Types:** `hash`
 
-#### [Autofocus SearchIOC v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Autofocus)
-Search samples in Autofocus based on a single IOC
+#### [Autofocus SearchJSON v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Autofocus)
+Search samples in Autofocus with a full search query in JSON
 
 - **Author:** ANSSI
 - **License:** AGPL-V3
-- **Data Types:** `domain`, `fqdn`, `user-agent`, `imphash`, `ip`, `mutex`, `tag`, `url`
+- **Data Types:** `other`

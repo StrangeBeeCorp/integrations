@@ -17,6 +17,19 @@ analyzersTagline: ''
 analyzerDisplayName: ''
 integrations:
   analyzers:
+  - name: DomainTools Reputation
+    version: '2.0'
+    author: CERT-BDF
+    license: AGPL-V3
+    description: Use DomainTools to get a reputation score on a domain or fqdn
+    dataTypes:
+    - domain
+    - fqdn
+    file: .upstream/cortex/analyzers/DomainTools/DomainTools_Reputation.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/DomainTools/DomainTools_Reputation.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/DomainTools/DomainTools_Reputation.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainTools
+    integration_type: null
   - name: DomainTools ReverseIPWhois
     version: '2.0'
     author: ANSSI
@@ -32,16 +45,17 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/DomainTools/DomainTools_ReverseIPWhois.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainTools
     integration_type: null
-  - name: DomainTools HostingHistory
+  - name: DomainTools WhoisLookupUnparsed
     version: '2.0'
-    author: ANSSI
+    author: CERT-BDF
     license: AGPL-V3
-    description: Use DomainTools to get a list of historical registrant, name servers and IP addresses for a domain name.
+    description: Use DomainTools to get the ownership record for an IP address or a domain without parsing.
     dataTypes:
+    - ip
     - domain
-    file: .upstream/cortex/analyzers/DomainTools/DomainTools_HostingHistory.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/DomainTools/DomainTools_HostingHistory.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/DomainTools/DomainTools_HostingHistory.json
+    file: .upstream/cortex/analyzers/DomainTools/DomainTools_WhoisLookupUnparsed.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/DomainTools/DomainTools_WhoisLookupUnparsed.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/DomainTools/DomainTools_WhoisLookupUnparsed.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainTools
     integration_type: null
   - name: DomainTools Risk
@@ -55,19 +69,6 @@ integrations:
     file: .upstream/cortex/analyzers/DomainTools/DomainTools_Risk.json
     url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/DomainTools/DomainTools_Risk.json
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/DomainTools/DomainTools_Risk.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainTools
-    integration_type: null
-  - name: DomainTools WhoisLookupUnparsed
-    version: '2.0'
-    author: CERT-BDF
-    license: AGPL-V3
-    description: Use DomainTools to get the ownership record for an IP address or a domain without parsing.
-    dataTypes:
-    - ip
-    - domain
-    file: .upstream/cortex/analyzers/DomainTools/DomainTools_WhoisLookupUnparsed.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/DomainTools/DomainTools_WhoisLookupUnparsed.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/DomainTools/DomainTools_WhoisLookupUnparsed.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainTools
     integration_type: null
   - name: DomainTools ReverseIP
@@ -99,16 +100,28 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/DomainTools/DomainTools_ReverseWhois.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainTools
     integration_type: null
-  - name: DomainTools ReverseNameServer
+  - name: DomainTools WhoisHistory
     version: '2.0'
     author: CERT-BDF
     license: AGPL-V3
-    description: Use DomainTools to get a list of domain names that share the same primary or secondary name server.
+    description: Use DomainTools to get a list of historical Whois records associated with a domain name.
     dataTypes:
     - domain
-    file: .upstream/cortex/analyzers/DomainTools/DomainTools_ReverseNameServer.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/DomainTools/DomainTools_ReverseNameServer.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/DomainTools/DomainTools_ReverseNameServer.json
+    file: .upstream/cortex/analyzers/DomainTools/DomainTools_WhoisHistory.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/DomainTools/DomainTools_WhoisHistory.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/DomainTools/DomainTools_WhoisHistory.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainTools
+    integration_type: null
+  - name: DomainTools HostingHistory
+    version: '2.0'
+    author: ANSSI
+    license: AGPL-V3
+    description: Use DomainTools to get a list of historical registrant, name servers and IP addresses for a domain name.
+    dataTypes:
+    - domain
+    file: .upstream/cortex/analyzers/DomainTools/DomainTools_HostingHistory.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/DomainTools/DomainTools_HostingHistory.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/DomainTools/DomainTools_HostingHistory.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainTools
     integration_type: null
   - name: DomainTools WhoisLookup
@@ -125,29 +138,16 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/DomainTools/DomainTools_WhoisLookup.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainTools
     integration_type: null
-  - name: DomainTools WhoisHistory
+  - name: DomainTools ReverseNameServer
     version: '2.0'
     author: CERT-BDF
     license: AGPL-V3
-    description: Use DomainTools to get a list of historical Whois records associated with a domain name.
+    description: Use DomainTools to get a list of domain names that share the same primary or secondary name server.
     dataTypes:
     - domain
-    file: .upstream/cortex/analyzers/DomainTools/DomainTools_WhoisHistory.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/DomainTools/DomainTools_WhoisHistory.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/DomainTools/DomainTools_WhoisHistory.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainTools
-    integration_type: null
-  - name: DomainTools Reputation
-    version: '2.0'
-    author: CERT-BDF
-    license: AGPL-V3
-    description: Use DomainTools to get a reputation score on a domain or fqdn
-    dataTypes:
-    - domain
-    - fqdn
-    file: .upstream/cortex/analyzers/DomainTools/DomainTools_Reputation.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/DomainTools/DomainTools_Reputation.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/DomainTools/DomainTools_Reputation.json
+    file: .upstream/cortex/analyzers/DomainTools/DomainTools_ReverseNameServer.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/DomainTools/DomainTools_ReverseNameServer.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/DomainTools/DomainTools_ReverseNameServer.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainTools
     integration_type: null
   responders: []

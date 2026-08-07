@@ -2,13 +2,6 @@
 
 ### Enrich observables with intelligence
 
-#### [MetaDefenderCloud Scan v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MetaDefender)
-Scan a file with MetaDefender Cloud
-
-- **Author:** Davide Arcuri and Andrea Garavaglia, LDO-CERT
-- **License:** AGPL-V3
-- **Data Types:** `file`
-
 #### [MetaDefenderCloud Reputation v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MetaDefender)
 Get the latest MetaDefender Cloud reputation report .
 
@@ -23,15 +16,22 @@ Scan a file with MetaDefender Core
 - **License:** AGPL-V3
 - **Data Types:** `file`
 
-#### [MetaDefenderCore GetReport v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MetaDefender)
-Get the latest MetaDefender Core report for hash.
+#### [MetaDefenderCloud Scan v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MetaDefender)
+Scan a file with MetaDefender Cloud
+
+- **Author:** Davide Arcuri and Andrea Garavaglia, LDO-CERT
+- **License:** AGPL-V3
+- **Data Types:** `file`
+
+#### [MetaDefenderCloud GetReport v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MetaDefender)
+Get the latest MetaDefender Cloud report for hash.
 
 - **Author:** Davide Arcuri and Andrea Garavaglia, LDO-CERT
 - **License:** AGPL-V3
 - **Data Types:** `hash`
 
-#### [MetaDefenderCloud GetReport v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MetaDefender)
-Get the latest MetaDefender Cloud report for hash.
+#### [MetaDefenderCore GetReport v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MetaDefender)
+Get the latest MetaDefender Core report for hash.
 
 - **Author:** Davide Arcuri and Andrea Garavaglia, LDO-CERT
 - **License:** AGPL-V3
