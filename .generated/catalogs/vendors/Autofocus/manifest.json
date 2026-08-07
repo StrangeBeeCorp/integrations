@@ -16,24 +16,17 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "Autofocus SearchIOC",
+        "name": "Autofocus SearchJSON",
         "version": "1.0",
         "author": "ANSSI",
         "license": "AGPL-V3",
-        "description": "Search samples in Autofocus based on a single IOC",
+        "description": "Search samples in Autofocus with a full search query in JSON",
         "dataTypes": [
-          "domain",
-          "fqdn",
-          "user-agent",
-          "imphash",
-          "ip",
-          "mutex",
-          "tag",
-          "url"
+          "other"
         ],
-        "file": ".upstream/cortex/analyzers/Autofocus/Autofocus_SearchIOC.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Autofocus/Autofocus_SearchIOC.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Autofocus/Autofocus_SearchIOC.json",
+        "file": ".upstream/cortex/analyzers/Autofocus/Autofocus_SearchJSON.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Autofocus/Autofocus_SearchJSON.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Autofocus/Autofocus_SearchJSON.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Autofocus",
         "integration_type": null
       },
@@ -53,17 +46,24 @@
         "integration_type": null
       },
       {
-        "name": "Autofocus SearchJSON",
+        "name": "Autofocus SearchIOC",
         "version": "1.0",
         "author": "ANSSI",
         "license": "AGPL-V3",
-        "description": "Search samples in Autofocus with a full search query in JSON",
+        "description": "Search samples in Autofocus based on a single IOC",
         "dataTypes": [
-          "other"
+          "domain",
+          "fqdn",
+          "user-agent",
+          "imphash",
+          "ip",
+          "mutex",
+          "tag",
+          "url"
         ],
-        "file": ".upstream/cortex/analyzers/Autofocus/Autofocus_SearchJSON.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Autofocus/Autofocus_SearchJSON.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Autofocus/Autofocus_SearchJSON.json",
+        "file": ".upstream/cortex/analyzers/Autofocus/Autofocus_SearchIOC.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Autofocus/Autofocus_SearchIOC.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Autofocus/Autofocus_SearchIOC.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Autofocus",
         "integration_type": null
       }
