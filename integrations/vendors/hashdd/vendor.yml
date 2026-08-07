@@ -1,0 +1,6 @@
+id: hashdd
+name: "hashdd"
+description: "hashdd is a file reputation service that maintains a large database of known-good software hashes, helping analysts quickly rule out benign files and focus on genuine threats during investigations."
+category: OSINT & Enrichment
+homepage: "https://hashdd.com"
+visibility: 100
