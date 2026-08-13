@@ -35,6 +35,8 @@ Built something useful? Contributions are welcome!
 **[ONYPHE](vendors/Onyphe/overview.md)** (5 integrations)
   ONYPHE is a cyber defense search engine that collects and analyzes internet-wide scan data, provi...
 
+**[RiskIQ](vendors/MSRiskIQ/overview.md)** (17 integrations)
+
 **[Shodan](vendors/Shodan/overview.md)** (6 integrations)
   Shodan is the search engine for internet-connected devices, providing reconnaissance data on expo...
 
@@ -86,6 +88,8 @@ Built something useful? Contributions are welcome!
 
 ### EDR
 
+**[Cisco Secure Endpoint (Formerly AMP for Endpoints)](vendors/CiscoAMPforEndpoints/overview.md)** (5 integrations)
+
 **[CrowdStrike Falcon](vendors/CrowdstrikeFalcon/overview.md)** (21 integrations)
   CrowdStrike Falcon is a cloud-native endpoint protection platform that provides real-time threat ...
 
@@ -113,7 +117,7 @@ Built something useful? Contributions are welcome!
 
 ### Identity & Access Management
 
-**[Cisco Duo](vendors/Duo_Security/overview.md)** (3 integrations)
+**[Cisco Duo](vendors/CiscoDuo/overview.md)** (3 integrations)
   Multi-factor authentication and secure access platform by Cisco for identity verification and end...
 
 **[Microsoft Entra ID](vendors/MSEntraID/overview.md)** (12 integrations)
@@ -137,6 +141,9 @@ Built something useful? Contributions are welcome!
 **[Hybrid Analysis](vendors/HybridAnalysis/overview.md)** (1 integrations)
   Hybrid Analysis (Falcon Sandbox) is a free malware analysis service powered by CrowdStrike that e...
 
+**[Palo Alto AutoFocus](vendors/PaloAltoAutofocus/overview.md)** (3 integrations)
+  AutoFocus is Palo Alto Networks' cloud-based threat intelligence platform, letting analysts searc...
+
 **[VirusShare](vendors/Virusshare/overview.md)** (1 integrations)
   VirusShare is a malware sample repository containing over 110 million samples, providing research...
 
@@ -158,7 +165,7 @@ Built something useful? Contributions are welcome!
 
 ### OSINT & Enrichment
 
-**[Cisco Umbrella Investigate](vendors/Investigate/overview.md)** (2 integrations)
+**[Cisco Umbrella Investigate](vendors/CiscoUmbrellaInvestigate/overview.md)** (2 integrations)
   Cisco Umbrella Investigate is a threat intelligence API providing domain and IP reputation, WHOIS...
 
 **[Hunter.io](vendors/Hunterio/overview.md)** (1 integrations)
@@ -296,8 +303,6 @@ Built something useful? Contributions are welcome!
 
 **[Anomali Staxx](vendors/StaxxSearch/overview.md)** (1 integrations)
 
-**[Autofocus](vendors/Autofocus/overview.md)** (3 integrations)
-
 **[Axur](vendors/Axur/overview.md)** (1 integrations)
 
 **[BackscatterIO](vendors/BackscatterIO/overview.md)** (2 integrations)
@@ -320,7 +325,7 @@ Built something useful? Contributions are welcome!
 
 **[CIRCL Vulnerability-Lookup](vendors/CIRCLVulnerabilityLookup/overview.md)** (1 integrations)
 
-**[Cisco Secure Endpoint (Formerly AMP for Endpoints)](vendors/AMPforEndpoints/overview.md)** (5 integrations)
+**[CiscoThreatGrid](vendors/CiscoThreatGrid/overview.md)** (1 integrations)
 
 **[CISMCAP](vendors/CISMCAP/overview.md)** (1 integrations)
 
@@ -360,7 +365,7 @@ Built something useful? Contributions are welcome!
 
 **[FireEye iSIGHT](vendors/FireEyeiSight/overview.md)** (1 integrations)
 
-**[FireHOLBlocklists](vendors/FireHOLBlocklists/overview.md)** (1 integrations)
+**[FireHOL](vendors/FireHOL/overview.md)** (1 integrations)
 
 **[Forcepoint WebsensePing](vendors/ForcepointWebsensePing/overview.md)** (1 integrations)
 
@@ -418,6 +423,8 @@ Built something useful? Contributions are welcome!
 
 **[MISP Warning Lists](vendors/MISPWarningLists/overview.md)** (1 integrations)
 
+**[MSRiskIQPassiveTotal](vendors/MSRiskIQPassiveTotal/overview.md)** (11 integrations)
+
 **[NERD](vendors/NERD/overview.md)** (1 integrations)
 
 **[Netcraft](vendors/Netcraft/overview.md)** (1 integrations)
@@ -434,8 +441,6 @@ Built something useful? Contributions are welcome!
 
 **[PAN WildFire](vendors/PaloAltoWildFire/overview.md)** (2 integrations)
 
-**[PassiveTotal](vendors/PassiveTotal/overview.md)** (11 integrations)
-
 **[Patrowl](vendors/Patrowl/overview.md)** (1 integrations)
 
 **[Payload Security](vendors/PayloadSecurity/overview.md)** (2 integrations)
@@ -445,8 +450,6 @@ Built something useful? Contributions are welcome!
 **[Pulsedive](vendors/Pulsedive/overview.md)** (1 integrations)
 
 **[Redmine](vendors/Redmine/overview.md)** (1 integrations)
-
-**[RiskIQ](vendors/RiskIQ/overview.md)** (17 integrations)
 
 **[Robtex](vendors/Robtex/overview.md)** (3 integrations)
 
@@ -475,8 +478,6 @@ Built something useful? Contributions are welcome!
 **[Test](vendors/Test/overview.md)** (2 integrations)
 
 **[Test Analyzer](vendors/TestAnalyzer/overview.md)** (2 integrations)
-
-**[ThreatGrid](vendors/ThreatGrid/overview.md)** (1 integrations)
 
 **[ThreatMiner](vendors/ThreatMiner/overview.md)** (1 integrations)
 
@@ -578,7 +579,6 @@ Built something useful? Contributions are welcome!
 - **[Ansible AWX](vendors/AWX/overview.md)** - *SOAR & Automation* - 1 responders
 - **[ANY.RUN](vendors/AnyRun/overview.md)** - *Threat Intelligence* - 7 analyzers
 - **[Apache Kafka](vendors/Kafka/overview.md)** - *SOAR & Automation* - notifier
-- **[Autofocus](vendors/Autofocus/overview.md)** - *Uncategorized* - 3 analyzers
 - **[AWS Lambda](vendors/AWSLambda/overview.md)** - *Cloud Infrastructure* - 1 responders
 - **[Axur](vendors/Axur/overview.md)** - *Uncategorized* - 1 analyzers
 - **[BackscatterIO](vendors/BackscatterIO/overview.md)** - *Uncategorized* - 2 analyzers
@@ -595,10 +595,11 @@ Built something useful? Contributions are welcome!
 - **[CIRCL Passive DNS](vendors/CIRCLPassiveDNS/overview.md)** - *Uncategorized* - 1 analyzers
 - **[CIRCL Passive SSL](vendors/CIRCLPassiveSSL/overview.md)** - *Uncategorized* - 1 analyzers
 - **[CIRCL Vulnerability-Lookup](vendors/CIRCLVulnerabilityLookup/overview.md)** - *Uncategorized* - 1 analyzers
-- **[Cisco Duo](vendors/Duo_Security/overview.md)** - *Identity & Access Management* - 3 responders
-- **[Cisco Secure Endpoint (Formerly AMP for Endpoints)](vendors/AMPforEndpoints/overview.md)** - *Uncategorized* - 5 responders
+- **[Cisco Duo](vendors/CiscoDuo/overview.md)** - *Identity & Access Management* - 3 responders
+- **[Cisco Secure Endpoint (Formerly AMP for Endpoints)](vendors/CiscoAMPforEndpoints/overview.md)** - *EDR* - 5 responders
 - **[Cisco Umbrella](vendors/CiscoUmbrella/overview.md)** - *Network Security* - 1 analyzers, 1 responders
-- **[Cisco Umbrella Investigate](vendors/Investigate/overview.md)** - *OSINT & Enrichment* - 2 analyzers
+- **[Cisco Umbrella Investigate](vendors/CiscoUmbrellaInvestigate/overview.md)** - *OSINT & Enrichment* - 2 analyzers
+- **[CiscoThreatGrid](vendors/CiscoThreatGrid/overview.md)** - *Uncategorized* - 1 analyzers
 - **[CISMCAP](vendors/CISMCAP/overview.md)** - *Uncategorized* - 1 analyzers
 - **[ClamAV](vendors/ClamAV/overview.md)** - *Malware Analysis* - 1 analyzers
 - **[Cloudflare](vendors/Cloudflare/overview.md)** - *Web Application Firewall* - 1 responders
@@ -630,7 +631,7 @@ Built something useful? Contributions are welcome!
 - **[EmlParser](vendors/EmlParser/overview.md)** - *Utilities* - 1 analyzers
 - **[FileInfo](vendors/FileInfo/overview.md)** - *Utilities* - 1 analyzers
 - **[FireEye iSIGHT](vendors/FireEyeiSight/overview.md)** - *Uncategorized* - 1 analyzers
-- **[FireHOLBlocklists](vendors/FireHOLBlocklists/overview.md)** - *Uncategorized* - 1 analyzers
+- **[FireHOL](vendors/FireHOL/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Forcepoint WebsensePing](vendors/ForcepointWebsensePing/overview.md)** - *Uncategorized* - 1 analyzers
 - **[FoxIO](vendors/FoxIO/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Gatewatcher CTI](vendors/Gatewatcher_CTI/overview.md)** - *Uncategorized* - 1 analyzers, 1 responders
@@ -687,6 +688,7 @@ Built something useful? Contributions are welcome!
 - **[MISP Warning Lists](vendors/MISPWarningLists/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Mnemonic Passive DNS](vendors/MnemonicPDNS/overview.md)** - *OSINT & Enrichment* - 2 analyzers
 - **[MsgParser](vendors/MsgParser/overview.md)** - *Utilities* - 1 analyzers
+- **[MSRiskIQPassiveTotal](vendors/MSRiskIQPassiveTotal/overview.md)** - *Uncategorized* - 11 analyzers
 - **[n8n](vendors/n8n/overview.md)** - *SOAR & Automation* - 1 responders, 1 external
 - **[NERD](vendors/NERD/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Nessus](vendors/Nessus/overview.md)** - *Vulnerability Management* - 1 analyzers
@@ -699,11 +701,11 @@ Built something useful? Contributions are welcome!
 - **[OpenCVE](vendors/OpenCVE/overview.md)** - *Vulnerability Management* - 1 analyzers
 - **[OrionMalware](vendors/OrionMalware/overview.md)** - *Uncategorized* - 1 analyzers
 - **[OVHcloud](vendors/OvhCloud/overview.md)** - *Cloud Infrastructure* - 1 analyzers, 2 responders
+- **[Palo Alto AutoFocus](vendors/PaloAltoAutofocus/overview.md)** - *Malware Analysis* - 3 analyzers
 - **[PAN Cortex XDR](vendors/PaloAltoCortexXDR/overview.md)** - *Uncategorized* - 8 responders
 - **[PAN Cortex XSOAR](vendors/CortexXSOAR/overview.md)** - *SOAR & Automation* - 1 external
 - **[PAN Next Generation Firewall](vendors/PaloAltoNGFW/overview.md)** - *Uncategorized* - 16 responders
 - **[PAN WildFire](vendors/PaloAltoWildFire/overview.md)** - *Uncategorized* - 1 analyzers, 1 responders
-- **[PassiveTotal](vendors/PassiveTotal/overview.md)** - *Uncategorized* - 11 analyzers
 - **[Patrowl](vendors/Patrowl/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Payload Security](vendors/PayloadSecurity/overview.md)** - *Uncategorized* - 2 analyzers
 - **[PDFPreview](vendors/PDFPreview/overview.md)** - *Utilities* - 1 analyzers
@@ -717,7 +719,7 @@ Built something useful? Contributions are welcome!
 - **[Redis](vendors/Redis/overview.md)** - *SOAR & Automation* - notifier
 - **[Redmine](vendors/Redmine/overview.md)** - *Uncategorized* - 1 responders
 - **[Request Tracker (RT4)](vendors/RT4/overview.md)** - *Collaboration* - 1 responders
-- **[RiskIQ](vendors/RiskIQ/overview.md)** - *Uncategorized* - 16 analyzers, 1 responders
+- **[RiskIQ](vendors/MSRiskIQ/overview.md)** - *Attack Surface Intelligence* - 16 analyzers, 1 responders
 - **[Robtex](vendors/Robtex/overview.md)** - *Uncategorized* - 3 analyzers
 - **[SecurityTrails](vendors/SecurityTrails/overview.md)** - *Uncategorized* - 2 analyzers
 - **[SEKOIA Intelligence Center](vendors/SEKOIAIntelligenceCenter/overview.md)** - *Uncategorized* - 3 analyzers
@@ -738,7 +740,6 @@ Built something useful? Contributions are welcome!
 - **[Test](vendors/Test/overview.md)** - *Uncategorized* - 2 responders
 - **[Test Analyzer](vendors/TestAnalyzer/overview.md)** - *Uncategorized* - 2 analyzers
 - **[ThreatConnect](vendors/ThreatConnect/overview.md)** - *Threat Intelligence* - 1 external
-- **[ThreatGrid](vendors/ThreatGrid/overview.md)** - *Uncategorized* - 1 analyzers
 - **[ThreatMiner](vendors/ThreatMiner/overview.md)** - *Uncategorized* - 1 analyzers
 - **[ThreatQ](vendors/ThreatQ/overview.md)** - *Threat Intelligence* - 1 external
 - **[ThreatResponse](vendors/ThreatResponse/overview.md)** - *Uncategorized* - 1 analyzers

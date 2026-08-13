@@ -195,93 +195,6 @@ Airtable:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     total: 1
-AMPforEndpoints:
-  id: AMPforEndpoints
-  name: Cisco Secure Endpoint (Formerly AMP for Endpoints)
-  description: ''
-  category: ''
-  tags: []
-  homepage: ''
-  logo: {}
-  useCases: []
-  notifier: false
-  externalIntegrations: []
-  displayOnWebsite: true
-  visibility: low
-  analyzersTagline: ''
-  analyzerDisplayName: ''
-  integrations:
-    analyzers: []
-    responders:
-    - name: AMPforEndpoints SCDRemove
-      version: '1.0'
-      author: Cisco Security
-      license: MIT
-      description: Remove a SHA256 to an AMP for Endpoints Simple Custom Detection list
-      dataTypes:
-      - thehive:case_artifact
-      file: .upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_SCDRemove.json
-      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_SCDRemove.json
-      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_SCDRemove.json
-      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/AMPforEndpoints
-      integration_type: null
-    - name: AMPforEndpoints MoveGUID
-      version: '1.0'
-      author: Cisco Security
-      license: MIT
-      description: Move an AMP for Endpoints connector GUID to a different Group
-      dataTypes:
-      - thehive:case_artifact
-      file: .upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_MoveGUID.json
-      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_MoveGUID.json
-      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_MoveGUID.json
-      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/AMPforEndpoints
-      integration_type: null
-    - name: AMPforEndpoints IsolationStart
-      version: '1.0'
-      author: Cisco Security
-      license: MIT
-      description: Start host isolation for an AMP for Endpoints connector
-      dataTypes:
-      - thehive:case_artifact
-      file: .upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_IsolationStart.json
-      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_IsolationStart.json
-      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_IsolationStart.json
-      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/AMPforEndpoints
-      integration_type: null
-    - name: AMPforEndpoints IsolationStop
-      version: '1.0'
-      author: Cisco Security
-      license: MIT
-      description: Stop host isolation for an AMP for Endpoints connector
-      dataTypes:
-      - thehive:case_artifact
-      file: .upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_IsolationStop.json
-      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_IsolationStop.json
-      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_IsolationStop.json
-      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/AMPforEndpoints
-      integration_type: null
-    - name: AMPforEndpoints SCDAdd
-      version: '1.0'
-      author: Cisco Security
-      license: MIT
-      description: Add a SHA256 to an AMP for Endpoints Simple Custom Detection list
-      dataTypes:
-      - thehive:case_artifact
-      file: .upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_SCDAdd.json
-      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_SCDAdd.json
-      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/AMPforEndpoints/AMPforEndpoints_SCDAdd.json
-      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/AMPforEndpoints
-      integration_type: null
-    functions: []
-  stats:
-    totalAnalyzers: 0
-    totalResponders: 5
-    totalFunctions: 0
-    totalUseCases: 0
-    totalExternalIntegrations: 0
-    totalNotifiers: 0
-    total: 5
 AnyRun:
   id: AnyRun
   name: ANY.RUN
@@ -400,76 +313,6 @@ AnyRun:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     total: 7
-Autofocus:
-  id: Autofocus
-  name: Autofocus
-  description: ''
-  category: ''
-  tags: []
-  homepage: ''
-  logo: {}
-  useCases: []
-  notifier: false
-  externalIntegrations: []
-  displayOnWebsite: true
-  visibility: 100
-  analyzersTagline: ''
-  analyzerDisplayName: ''
-  integrations:
-    analyzers:
-    - name: Autofocus GetSampleAnalysis
-      version: '1.0'
-      author: ANSSI
-      license: AGPL-V3
-      description: Get full analysis from a sample based on its hash
-      dataTypes:
-      - hash
-      file: .upstream/cortex/analyzers/Autofocus/Autofocus_GetSampleAnalysis.json
-      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Autofocus/Autofocus_GetSampleAnalysis.json
-      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Autofocus/Autofocus_GetSampleAnalysis.json
-      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Autofocus
-      integration_type: null
-    - name: Autofocus SearchJSON
-      version: '1.0'
-      author: ANSSI
-      license: AGPL-V3
-      description: Search samples in Autofocus with a full search query in JSON
-      dataTypes:
-      - other
-      file: .upstream/cortex/analyzers/Autofocus/Autofocus_SearchJSON.json
-      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Autofocus/Autofocus_SearchJSON.json
-      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Autofocus/Autofocus_SearchJSON.json
-      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Autofocus
-      integration_type: null
-    - name: Autofocus SearchIOC
-      version: '1.0'
-      author: ANSSI
-      license: AGPL-V3
-      description: Search samples in Autofocus based on a single IOC
-      dataTypes:
-      - domain
-      - fqdn
-      - user-agent
-      - imphash
-      - ip
-      - mutex
-      - tag
-      - url
-      file: .upstream/cortex/analyzers/Autofocus/Autofocus_SearchIOC.json
-      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Autofocus/Autofocus_SearchIOC.json
-      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Autofocus/Autofocus_SearchIOC.json
-      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Autofocus
-      integration_type: null
-    responders: []
-    functions: []
-  stats:
-    totalAnalyzers: 3
-    totalResponders: 0
-    totalFunctions: 0
-    totalUseCases: 0
-    totalExternalIntegrations: 0
-    totalNotifiers: 0
-    total: 3
 AWSLambda:
   id: AWSLambda
   name: AWS Lambda
@@ -1326,6 +1169,198 @@ CIRCLVulnerabilityLookup:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     total: 1
+CiscoAMPforEndpoints:
+  id: CiscoAMPforEndpoints
+  name: Cisco Secure Endpoint (Formerly AMP for Endpoints)
+  description: ''
+  category: EDR
+  tags: []
+  homepage: ''
+  logo: {}
+  useCases: []
+  notifier: false
+  externalIntegrations: []
+  displayOnWebsite: true
+  visibility: low
+  analyzersTagline: ''
+  analyzerDisplayName: ''
+  integrations:
+    analyzers: []
+    responders:
+    - name: AMPforEndpoints SCDRemove
+      version: '1.0'
+      author: Cisco Security
+      license: MIT
+      description: Remove a SHA256 to an AMP for Endpoints Simple Custom Detection list
+      dataTypes:
+      - thehive:case_artifact
+      file: .upstream/cortex/responders/CiscoAMPforEndpoints/AMPforEndpoints_SCDRemove.json
+      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/CiscoAMPforEndpoints/AMPforEndpoints_SCDRemove.json
+      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/CiscoAMPforEndpoints/AMPforEndpoints_SCDRemove.json
+      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CiscoAMPforEndpoints
+      integration_type: null
+    - name: AMPforEndpoints MoveGUID
+      version: '1.0'
+      author: Cisco Security
+      license: MIT
+      description: Move an AMP for Endpoints connector GUID to a different Group
+      dataTypes:
+      - thehive:case_artifact
+      file: .upstream/cortex/responders/CiscoAMPforEndpoints/AMPforEndpoints_MoveGUID.json
+      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/CiscoAMPforEndpoints/AMPforEndpoints_MoveGUID.json
+      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/CiscoAMPforEndpoints/AMPforEndpoints_MoveGUID.json
+      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CiscoAMPforEndpoints
+      integration_type: null
+    - name: AMPforEndpoints IsolationStart
+      version: '1.0'
+      author: Cisco Security
+      license: MIT
+      description: Start host isolation for an AMP for Endpoints connector
+      dataTypes:
+      - thehive:case_artifact
+      file: .upstream/cortex/responders/CiscoAMPforEndpoints/AMPforEndpoints_IsolationStart.json
+      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/CiscoAMPforEndpoints/AMPforEndpoints_IsolationStart.json
+      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/CiscoAMPforEndpoints/AMPforEndpoints_IsolationStart.json
+      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CiscoAMPforEndpoints
+      integration_type: null
+    - name: AMPforEndpoints IsolationStop
+      version: '1.0'
+      author: Cisco Security
+      license: MIT
+      description: Stop host isolation for an AMP for Endpoints connector
+      dataTypes:
+      - thehive:case_artifact
+      file: .upstream/cortex/responders/CiscoAMPforEndpoints/AMPforEndpoints_IsolationStop.json
+      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/CiscoAMPforEndpoints/AMPforEndpoints_IsolationStop.json
+      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/CiscoAMPforEndpoints/AMPforEndpoints_IsolationStop.json
+      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CiscoAMPforEndpoints
+      integration_type: null
+    - name: AMPforEndpoints SCDAdd
+      version: '1.0'
+      author: Cisco Security
+      license: MIT
+      description: Add a SHA256 to an AMP for Endpoints Simple Custom Detection list
+      dataTypes:
+      - thehive:case_artifact
+      file: .upstream/cortex/responders/CiscoAMPforEndpoints/AMPforEndpoints_SCDAdd.json
+      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/CiscoAMPforEndpoints/AMPforEndpoints_SCDAdd.json
+      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/CiscoAMPforEndpoints/AMPforEndpoints_SCDAdd.json
+      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CiscoAMPforEndpoints
+      integration_type: null
+    functions: []
+  stats:
+    totalAnalyzers: 0
+    totalResponders: 5
+    totalFunctions: 0
+    totalUseCases: 0
+    totalExternalIntegrations: 0
+    totalNotifiers: 0
+    total: 5
+CiscoDuo:
+  id: CiscoDuo
+  name: Cisco Duo
+  description: Multi-factor authentication and secure access platform by Cisco for identity verification and endpoint trust
+  category: Identity & Access Management
+  tags: []
+  homepage: https://duo.com
+  logo: {}
+  useCases: []
+  notifier: false
+  externalIntegrations: []
+  displayOnWebsite: true
+  visibility: 100
+  analyzersTagline: ''
+  analyzerDisplayName: ''
+  integrations:
+    analyzers: []
+    responders:
+    - name: DuoLockUserAccount
+      version: '1.0'
+      author: Sven Kutzer / Gyorgy Acs, @oscd_initiative
+      license: AGPL-V3
+      description: Lock User Account in Duo Security via AdminAPI (The user will not be able to log in)
+      dataTypes:
+      - thehive:case_artifact
+      file: .upstream/cortex/responders/CiscoDuo/DuoLockUserAccount.json
+      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/CiscoDuo/DuoLockUserAccount.json
+      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/CiscoDuo/DuoLockUserAccount.json
+      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CiscoDuo
+      integration_type: null
+    - name: DuoUnlockUserAccount
+      version: '1.0'
+      author: Sven Kutzer / Gyorgy Acs, @oscd_initiative
+      license: AGPL-V3
+      description: Unlock User Account in Duo Security via AdminAPI (The user must complete secondary authentication)
+      dataTypes:
+      - thehive:case_artifact
+      file: .upstream/cortex/responders/CiscoDuo/DuoUnlockUserAccount.json
+      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/CiscoDuo/DuoUnlockUserAccount.json
+      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/CiscoDuo/DuoUnlockUserAccount.json
+      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CiscoDuo
+      integration_type: null
+    - name: DuoBypassUserAccount
+      version: '1.0'
+      author: jahamilto
+      license: AGPL-V3
+      description: Put User Account into Bypass mode in Duo Security via AdminAPI (The user will not be prompted when logging
+        in.)
+      dataTypes:
+      - thehive:case_artifact
+      file: .upstream/cortex/responders/CiscoDuo/DuoBypassUserAccount.json
+      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/CiscoDuo/DuoBypassUserAccount.json
+      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/CiscoDuo/DuoBypassUserAccount.json
+      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CiscoDuo
+      integration_type: null
+    functions: []
+  stats:
+    totalAnalyzers: 0
+    totalResponders: 3
+    totalFunctions: 0
+    totalUseCases: 0
+    totalExternalIntegrations: 0
+    totalNotifiers: 0
+    total: 3
+CiscoThreatGrid:
+  id: CiscoThreatGrid
+  name: CiscoThreatGrid
+  description: ''
+  category: ''
+  tags: []
+  homepage: ''
+  logo: {}
+  useCases: []
+  notifier: false
+  externalIntegrations: []
+  displayOnWebsite: true
+  visibility: 100
+  analyzersTagline: ''
+  analyzerDisplayName: ''
+  integrations:
+    analyzers:
+    - name: ThreatGrid
+      version: '1.0'
+      author: Cisco Security
+      license: MIT
+      description: Threat Grid Sandbox
+      dataTypes:
+      - file
+      - url
+      - hash
+      file: .upstream/cortex/analyzers/CiscoThreatGrid/ThreatGrid.json
+      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/CiscoThreatGrid/ThreatGrid.json
+      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/CiscoThreatGrid/ThreatGrid.json
+      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CiscoThreatGrid
+      integration_type: null
+    responders: []
+    functions: []
+  stats:
+    totalAnalyzers: 1
+    totalResponders: 0
+    totalFunctions: 0
+    totalUseCases: 0
+    totalExternalIntegrations: 0
+    totalNotifiers: 0
+    total: 1
 CiscoUmbrella:
   id: CiscoUmbrella
   name: Cisco Umbrella
@@ -1380,6 +1415,62 @@ CiscoUmbrella:
   stats:
     totalAnalyzers: 1
     totalResponders: 1
+    totalFunctions: 0
+    totalUseCases: 0
+    totalExternalIntegrations: 0
+    totalNotifiers: 0
+    total: 2
+CiscoUmbrellaInvestigate:
+  id: CiscoUmbrellaInvestigate
+  name: Cisco Umbrella Investigate
+  description: Cisco Umbrella Investigate is a threat intelligence API providing domain and IP reputation, WHOIS data, and
+    co-occurrence analysis to help analysts assess the risk of internet infrastructure during investigations
+  category: OSINT & Enrichment
+  tags: []
+  homepage: https://umbrella.cisco.com/products/threat-intelligence
+  logo:
+    file: integrations/vendors/CiscoUmbrellaInvestigate/assets/logo.png
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/CiscoUmbrellaInvestigate/assets/logo.png
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/CiscoUmbrellaInvestigate/assets/logo.png
+  useCases: []
+  notifier: false
+  externalIntegrations: []
+  displayOnWebsite: true
+  visibility: 100
+  analyzersTagline: ''
+  analyzerDisplayName: ''
+  integrations:
+    analyzers:
+    - name: Investigate Sample
+      version: '1.0'
+      author: Cisco Umbrella Research @opendns
+      license: AGPL-V3
+      description: Retrieve sample data from Investigate for a hash. (Sample data provided by ThreatGrid)
+      dataTypes:
+      - hash
+      file: .upstream/cortex/analyzers/CiscoUmbrellaInvestigate/Investigate_Sample.json
+      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/CiscoUmbrellaInvestigate/Investigate_Sample.json
+      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/CiscoUmbrellaInvestigate/Investigate_Sample.json
+      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CiscoUmbrellaInvestigate
+      integration_type: null
+    - name: Investigate Categorization
+      version: '1.0'
+      author: Cisco Umbrella Research @opendns
+      license: AGPL-V3
+      description: Retrieve Investigate categorization and security features for a domain.
+      dataTypes:
+      - domain
+      - fqdn
+      file: .upstream/cortex/analyzers/CiscoUmbrellaInvestigate/Investigate_Categorization.json
+      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/CiscoUmbrellaInvestigate/Investigate_Categorization.json
+      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/CiscoUmbrellaInvestigate/Investigate_Categorization.json
+      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CiscoUmbrellaInvestigate
+      integration_type: null
+    responders: []
+    functions: []
+  stats:
+    totalAnalyzers: 2
+    totalResponders: 0
     totalFunctions: 0
     totalUseCases: 0
     totalExternalIntegrations: 0
@@ -2867,70 +2958,6 @@ DShield:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     total: 1
-Duo_Security:
-  id: Duo_Security
-  name: Cisco Duo
-  description: Multi-factor authentication and secure access platform by Cisco for identity verification and endpoint trust
-  category: Identity & Access Management
-  tags: []
-  homepage: https://duo.com
-  logo: {}
-  useCases: []
-  notifier: false
-  externalIntegrations: []
-  displayOnWebsite: true
-  visibility: 100
-  analyzersTagline: ''
-  analyzerDisplayName: ''
-  integrations:
-    analyzers: []
-    responders:
-    - name: DuoLockUserAccount
-      version: '1.0'
-      author: Sven Kutzer / Gyorgy Acs, @oscd_initiative
-      license: AGPL-V3
-      description: Lock User Account in Duo Security via AdminAPI (The user will not be able to log in)
-      dataTypes:
-      - thehive:case_artifact
-      file: .upstream/cortex/responders/Duo_Security/DuoLockUserAccount.json
-      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Duo_Security/DuoLockUserAccount.json
-      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Duo_Security/DuoLockUserAccount.json
-      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Duo_Security
-      integration_type: null
-    - name: DuoUnlockUserAccount
-      version: '1.0'
-      author: Sven Kutzer / Gyorgy Acs, @oscd_initiative
-      license: AGPL-V3
-      description: Unlock User Account in Duo Security via AdminAPI (The user must complete secondary authentication)
-      dataTypes:
-      - thehive:case_artifact
-      file: .upstream/cortex/responders/Duo_Security/DuoUnlockUserAccount.json
-      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Duo_Security/DuoUnlockUserAccount.json
-      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Duo_Security/DuoUnlockUserAccount.json
-      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Duo_Security
-      integration_type: null
-    - name: DuoBypassUserAccount
-      version: '1.0'
-      author: jahamilto
-      license: AGPL-V3
-      description: Put User Account into Bypass mode in Duo Security via AdminAPI (The user will not be prompted when logging
-        in.)
-      dataTypes:
-      - thehive:case_artifact
-      file: .upstream/cortex/responders/Duo_Security/DuoBypassUserAccount.json
-      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Duo_Security/DuoBypassUserAccount.json
-      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Duo_Security/DuoBypassUserAccount.json
-      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Duo_Security
-      integration_type: null
-    functions: []
-  stats:
-    totalAnalyzers: 0
-    totalResponders: 3
-    totalFunctions: 0
-    totalUseCases: 0
-    totalExternalIntegrations: 0
-    totalNotifiers: 0
-    total: 3
 EchoTrail:
   id: EchoTrail
   name: EchoTrail
@@ -3388,9 +3415,9 @@ FireEyeiSight:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     total: 1
-FireHOLBlocklists:
-  id: FireHOLBlocklists
-  name: FireHOLBlocklists
+FireHOL:
+  id: FireHOL
+  name: FireHOL
   description: ''
   category: ''
   tags: []
@@ -3415,10 +3442,10 @@ FireHOLBlocklists:
       description: Check IP addresses against the FireHOL blocklists
       dataTypes:
       - ip
-      file: .upstream/cortex/analyzers/FireHOLBlocklists/FireHOLBlocklists.json
-      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/FireHOLBlocklists/FireHOLBlocklists.json
-      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/FireHOLBlocklists/FireHOLBlocklists.json
-      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/FireHOLBlocklists
+      file: .upstream/cortex/analyzers/FireHOL/FireHOLBlocklists.json
+      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/FireHOL/FireHOLBlocklists.json
+      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/FireHOL/FireHOLBlocklists.json
+      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/FireHOL
       integration_type: null
     responders: []
     functions: []
@@ -4839,62 +4866,6 @@ IntezerCommunity:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     total: 1
-Investigate:
-  id: Investigate
-  name: Cisco Umbrella Investigate
-  description: Cisco Umbrella Investigate is a threat intelligence API providing domain and IP reputation, WHOIS data, and
-    co-occurrence analysis to help analysts assess the risk of internet infrastructure during investigations
-  category: OSINT & Enrichment
-  tags: []
-  homepage: https://umbrella.cisco.com/products/threat-intelligence
-  logo:
-    file: integrations/vendors/Investigate/assets/logo.png
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Investigate/assets/logo.png
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Investigate/assets/logo.png
-  useCases: []
-  notifier: false
-  externalIntegrations: []
-  displayOnWebsite: true
-  visibility: 100
-  analyzersTagline: ''
-  analyzerDisplayName: ''
-  integrations:
-    analyzers:
-    - name: Investigate Sample
-      version: '1.0'
-      author: Cisco Umbrella Research @opendns
-      license: AGPL-V3
-      description: Retrieve sample data from Investigate for a hash. (Sample data provided by ThreatGrid)
-      dataTypes:
-      - hash
-      file: .upstream/cortex/analyzers/Investigate/Investigate_Sample.json
-      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Investigate/Investigate_Sample.json
-      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Investigate/Investigate_Sample.json
-      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Investigate
-      integration_type: null
-    - name: Investigate Categorization
-      version: '1.0'
-      author: Cisco Umbrella Research @opendns
-      license: AGPL-V3
-      description: Retrieve Investigate categorization and security features for a domain.
-      dataTypes:
-      - domain
-      - fqdn
-      file: .upstream/cortex/analyzers/Investigate/Investigate_Categorization.json
-      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Investigate/Investigate_Categorization.json
-      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Investigate/Investigate_Categorization.json
-      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Investigate
-      integration_type: null
-    responders: []
-    functions: []
-  stats:
-    totalAnalyzers: 2
-    totalResponders: 0
-    totalFunctions: 0
-    totalUseCases: 0
-    totalExternalIntegrations: 0
-    totalNotifiers: 0
-    total: 2
 IP-API:
   id: IP-API
   name: IP-API
@@ -5506,7 +5477,7 @@ LdapQuery:
   integrations:
     analyzers:
     - name: Ldap Query
-      version: '3.0'
+      version: '3.1'
       author: Florian Perret @cyber_pescadito & THA-CERT @tha_cert
       license: AGPL-V3
       description: Query your LDAP server to harvest informations about an user of your organization
@@ -6576,7 +6547,7 @@ MSDefenderOffice365:
   - false
   integrations:
     analyzers:
-    - name: MSDefenderOffice365 SafeLinksDecoder.json
+    - name: MSDefenderOffice365 SafeLinksDecoder
       version: '1.0'
       author: Louis HUSSON
       license: AGPL-V3
@@ -6946,6 +6917,445 @@ MsgParser:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     total: 1
+MSRiskIQ:
+  id: MSRiskIQ
+  name: RiskIQ
+  description: ''
+  category: Attack Surface Intelligence
+  tags: []
+  homepage: ''
+  logo: {}
+  useCases: []
+  notifier: false
+  externalIntegrations: []
+  displayOnWebsite: false
+  visibility: low
+  analyzersTagline: ''
+  analyzerDisplayName: ''
+  integrations:
+    analyzers:
+    - name: RiskIQ Summary
+      version: '1.0'
+      author: RiskIQ
+      license: AGPL-V3
+      description: RiskIQ Illuminate and PassiveTotal datasets with records for an indicator.
+      dataTypes:
+      - domain
+      - fqdn
+      - ip
+      file: .upstream/cortex/analyzers/MSRiskIQ/RiskIQ_Summary.json
+      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSRiskIQ/RiskIQ_Summary.json
+      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSRiskIQ/RiskIQ_Summary.json
+      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQ
+      integration_type: null
+    - name: RiskIQ Subdomains
+      version: '1.0'
+      author: RiskIQ
+      license: AGPL-V3
+      description: 'RiskIQ: subdomains observed historically in pDNS records.'
+      dataTypes:
+      - fqdn
+      - domain
+      file: .upstream/cortex/analyzers/MSRiskIQ/RiskIQ_Subdomains.json
+      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSRiskIQ/RiskIQ_Subdomains.json
+      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSRiskIQ/RiskIQ_Subdomains.json
+      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQ
+      integration_type: null
+    - name: RiskIQ HostpairParents
+      version: '1.0'
+      author: RiskIQ
+      license: AGPL-V3
+      description: 'RiskIQ: hosts with a parent web component relationship to an IOC.'
+      dataTypes:
+      - domain
+      - fqdn
+      - ip
+      file: .upstream/cortex/analyzers/MSRiskIQ/RiskIQ_HostpairParents.json
+      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSRiskIQ/RiskIQ_HostpairParents.json
+      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSRiskIQ/RiskIQ_HostpairParents.json
+      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQ
+      integration_type: null
+    - name: RiskIQ Artifacts
+      version: '1.0'
+      author: RiskIQ
+      license: AGPL-V3
+      description: 'RiskIQ: Illuminate / PassiveTotal project artifacts that match an indicator.'
+      dataTypes:
+      - domain
+      - fqdn
+      - ip
+      file: .upstream/cortex/analyzers/MSRiskIQ/RiskIQ_Artifacts.json
+      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSRiskIQ/RiskIQ_Artifacts.json
+      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSRiskIQ/RiskIQ_Artifacts.json
+      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQ
+      integration_type: null
+    - name: RiskIQ Articles
+      version: '1.0'
+      author: RiskIQ
+      license: AGPL-V3
+      description: 'RiskIQ: OSINT articles that reference an indicator.'
+      dataTypes:
+      - domain
+      - fqdn
+      - ip
+      file: .upstream/cortex/analyzers/MSRiskIQ/RiskIQ_Articles.json
+      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSRiskIQ/RiskIQ_Articles.json
+      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSRiskIQ/RiskIQ_Articles.json
+      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQ
+      integration_type: null
+    - name: RiskIQ Services
+      version: '1.0'
+      author: RiskIQ
+      license: AGPL-V3
+      description: 'RiskIQ: services observed on an IP address.'
+      dataTypes:
+      - ip
+      file: .upstream/cortex/analyzers/MSRiskIQ/RiskIQ_Services.json
+      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSRiskIQ/RiskIQ_Services.json
+      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSRiskIQ/RiskIQ_Services.json
+      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQ
+      integration_type: null
+    - name: RiskIQ Resolutions
+      version: '1.0'
+      author: RiskIQ
+      license: AGPL-V3
+      description: 'RiskIQ: PDNS resolutions for an IOC.'
+      dataTypes:
+      - domain
+      - fqdn
+      - ip
+      file: .upstream/cortex/analyzers/MSRiskIQ/RiskIQ_Resolutions.json
+      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSRiskIQ/RiskIQ_Resolutions.json
+      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSRiskIQ/RiskIQ_Resolutions.json
+      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQ
+      integration_type: null
+    - name: RiskIQ Reputation
+      version: '1.0'
+      author: RiskIQ
+      license: AGPL-V3
+      description: RiskIQ Illuminate Reputation Score for an indicator.
+      dataTypes:
+      - domain
+      - fqdn
+      - ip
+      file: .upstream/cortex/analyzers/MSRiskIQ/RiskIQ_Reputation.json
+      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSRiskIQ/RiskIQ_Reputation.json
+      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSRiskIQ/RiskIQ_Reputation.json
+      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQ
+      integration_type: null
+    - name: RiskIQ Cookies
+      version: '1.0'
+      author: RiskIQ
+      license: AGPL-V3
+      description: 'RiskIQ: cookies observed during crawls on a hostname.'
+      dataTypes:
+      - domain
+      - fqdn
+      - ip
+      file: .upstream/cortex/analyzers/MSRiskIQ/RiskIQ_Cookies.json
+      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSRiskIQ/RiskIQ_Cookies.json
+      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSRiskIQ/RiskIQ_Cookies.json
+      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQ
+      integration_type: null
+    - name: RiskIQ Components
+      version: '1.0'
+      author: RiskIQ
+      license: AGPL-V3
+      description: 'RiskIQ: web components observed during crawls on a hostname.'
+      dataTypes:
+      - domain
+      - fqdn
+      - ip
+      file: .upstream/cortex/analyzers/MSRiskIQ/RiskIQ_Components.json
+      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSRiskIQ/RiskIQ_Components.json
+      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSRiskIQ/RiskIQ_Components.json
+      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQ
+      integration_type: null
+    - name: RiskIQ Certificates
+      version: '1.0'
+      author: RiskIQ
+      license: AGPL-V3
+      description: 'RiskIQ: SSL/TLS certificates associated with an indicator.'
+      dataTypes:
+      - domain
+      - fqdn
+      - ip
+      file: .upstream/cortex/analyzers/MSRiskIQ/RiskIQ_Certificates.json
+      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSRiskIQ/RiskIQ_Certificates.json
+      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSRiskIQ/RiskIQ_Certificates.json
+      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQ
+      integration_type: null
+    - name: RiskIQ HostpairChildren
+      version: '1.0'
+      author: RiskIQ
+      license: AGPL-V3
+      description: 'RiskIQ: hosts with a child web component relationship to an IOC.'
+      dataTypes:
+      - domain
+      - fqdn
+      - ip
+      file: .upstream/cortex/analyzers/MSRiskIQ/RiskIQ_HostpairChildren.json
+      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSRiskIQ/RiskIQ_HostpairChildren.json
+      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSRiskIQ/RiskIQ_HostpairChildren.json
+      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQ
+      integration_type: null
+    - name: RiskIQ Projects
+      version: '1.0'
+      author: RiskIQ
+      license: AGPL-V3
+      description: 'RiskIQ: Illuminate / PassiveTotal projects that contain an artifact which matches an IOC.'
+      dataTypes:
+      - domain
+      - fqdn
+      - ip
+      file: .upstream/cortex/analyzers/MSRiskIQ/RiskIQ_Projects.json
+      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSRiskIQ/RiskIQ_Projects.json
+      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSRiskIQ/RiskIQ_Projects.json
+      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQ
+      integration_type: null
+    - name: RiskIQ Trackers
+      version: '1.0'
+      author: RiskIQ
+      license: AGPL-V3
+      description: 'RiskIQ: trackers observed during a crawl on a host.'
+      dataTypes:
+      - domain
+      - fqdn
+      - ip
+      file: .upstream/cortex/analyzers/MSRiskIQ/RiskIQ_Trackers.json
+      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSRiskIQ/RiskIQ_Trackers.json
+      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSRiskIQ/RiskIQ_Trackers.json
+      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQ
+      integration_type: null
+    - name: RiskIQ Whois
+      version: '1.0'
+      author: RiskIQ
+      license: AGPL-V3
+      description: RiskIQ Whois lookup for an indicator.
+      dataTypes:
+      - domain
+      - fqdn
+      - ip
+      file: .upstream/cortex/analyzers/MSRiskIQ/RiskIQ_Whois.json
+      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSRiskIQ/RiskIQ_Whois.json
+      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSRiskIQ/RiskIQ_Whois.json
+      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQ
+      integration_type: null
+    - name: RiskIQ Malware
+      version: '1.0'
+      author: RiskIQ
+      license: AGPL-V3
+      description: 'RiskIQ: malware hashes from various sources associated with an IOC.'
+      dataTypes:
+      - domain
+      - fqdn
+      - ip
+      file: .upstream/cortex/analyzers/MSRiskIQ/RiskIQ_Malware.json
+      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSRiskIQ/RiskIQ_Malware.json
+      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSRiskIQ/RiskIQ_Malware.json
+      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQ
+      integration_type: null
+    responders:
+    - name: RiskIQ PushArtifactToProject
+      version: '1.0'
+      author: RiskIQ
+      license: AGPL-V3
+      description: Push a case to a RiskIQ Illuminate project.
+      dataTypes:
+      - thehive:case_artifact
+      file: .upstream/cortex/responders/MSRiskIQ/RiskIQ_PushArtifactToProject.json
+      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSRiskIQ/RiskIQ_PushArtifactToProject.json
+      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSRiskIQ/RiskIQ_PushArtifactToProject.json
+      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSRiskIQ
+      integration_type: null
+    functions: []
+  stats:
+    totalAnalyzers: 16
+    totalResponders: 1
+    totalFunctions: 0
+    totalUseCases: 0
+    totalExternalIntegrations: 0
+    totalNotifiers: 0
+    total: 17
+MSRiskIQPassiveTotal:
+  id: MSRiskIQPassiveTotal
+  name: MSRiskIQPassiveTotal
+  description: ''
+  category: ''
+  tags: []
+  homepage: ''
+  logo: {}
+  useCases: []
+  notifier: false
+  externalIntegrations: []
+  displayOnWebsite: true
+  visibility: 100
+  analyzersTagline: ''
+  analyzerDisplayName: ''
+  integrations:
+    analyzers:
+    - name: PassiveTotal Enrichment
+      version: '2.0'
+      author: CERT-BDF
+      license: AGPL-V3
+      description: PassiveTotal Enrichment Lookup.
+      dataTypes:
+      - domain
+      - fqdn
+      - ip
+      file: .upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Enrichment.json
+      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Enrichment.json
+      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Enrichment.json
+      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQPassiveTotal
+      integration_type: null
+    - name: PassiveTotal Host Pairs
+      version: '2.0'
+      author: Brandon Dixon (9bplus)
+      license: AGPL-V3
+      description: PassiveTotal Host Pairs Lookup.
+      dataTypes:
+      - domain
+      - fqdn
+      - ip
+      file: .upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Host_Pairs.json
+      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Host_Pairs.json
+      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Host_Pairs.json
+      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQPassiveTotal
+      integration_type: null
+    - name: PassiveTotal Unique Resolutions
+      version: '2.0'
+      author: CERT-BDF
+      license: AGPL-V3
+      description: PassiveTotal Unique Resolutions Lookup.
+      dataTypes:
+      - domain
+      - fqdn
+      - ip
+      file: .upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Unique_Resolutions.json
+      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Unique_Resolutions.json
+      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Unique_Resolutions.json
+      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQPassiveTotal
+      integration_type: null
+    - name: PassiveTotal Passive Dns
+      version: '2.1'
+      author: CERT-BDF
+      license: AGPL-V3
+      description: PassiveTotal Passive DNS Lookup.
+      dataTypes:
+      - domain
+      - fqdn
+      - ip
+      file: .upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Passive_Dns.json
+      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Passive_Dns.json
+      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Passive_Dns.json
+      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQPassiveTotal
+      integration_type: null
+    - name: PassiveTotal Malware
+      version: '2.0'
+      author: CERT-BDF
+      license: AGPL-V3
+      description: PassiveTotal Malware Lookup.
+      dataTypes:
+      - domain
+      - fqdn
+      - ip
+      file: .upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Malware.json
+      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Malware.json
+      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Malware.json
+      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQPassiveTotal
+      integration_type: null
+    - name: PassiveTotal Ssl Certificate History
+      version: '2.0'
+      author: CERT-BDF
+      license: AGPL-V3
+      description: PassiveTotal SSL Certificate History Lookup.
+      dataTypes:
+      - hash
+      - ip
+      file: .upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Ssl_Certificate_History.json
+      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Ssl_Certificate_History.json
+      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Ssl_Certificate_History.json
+      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQPassiveTotal
+      integration_type: null
+    - name: PassiveTotal Whois Details
+      version: '2.0'
+      author: CERT-BDF
+      license: AGPL-V3
+      description: PassiveTotal Whois Details Lookup.
+      dataTypes:
+      - domain
+      - fqdn
+      - ip
+      file: .upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Whois_Details.json
+      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Whois_Details.json
+      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Whois_Details.json
+      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQPassiveTotal
+      integration_type: null
+    - name: PassiveTotal Ssl Certificate Details
+      version: '2.0'
+      author: CERT-BDF
+      license: AGPL-V3
+      description: PassiveTotal SSL Certificate Details Lookup.
+      dataTypes:
+      - hash
+      - ip
+      file: .upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Ssl_Certificate_Details.json
+      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Ssl_Certificate_Details.json
+      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Ssl_Certificate_Details.json
+      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQPassiveTotal
+      integration_type: null
+    - name: PassiveTotal Components
+      version: '2.0'
+      author: Brandon Dixon (9bplus)
+      license: AGPL-V3
+      description: PassiveTotal Components Lookup.
+      dataTypes:
+      - domain
+      - fqdn
+      - ip
+      file: .upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Components.json
+      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Components.json
+      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Components.json
+      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQPassiveTotal
+      integration_type: null
+    - name: PassiveTotal Osint
+      version: '2.0'
+      author: CERT-BDF
+      license: AGPL-V3
+      description: PassiveTotal OSINT Lookup.
+      dataTypes:
+      - domain
+      - fqdn
+      - ip
+      file: .upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Osint.json
+      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Osint.json
+      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Osint.json
+      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQPassiveTotal
+      integration_type: null
+    - name: PassiveTotal Trackers
+      version: '2.0'
+      author: Brandon Dixon (9bplus)
+      license: AGPL-V3
+      description: PassiveTotal Trackers Lookup.
+      dataTypes:
+      - domain
+      - fqdn
+      - ip
+      file: .upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Trackers.json
+      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Trackers.json
+      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Trackers.json
+      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQPassiveTotal
+      integration_type: null
+    responders: []
+    functions: []
+  stats:
+    totalAnalyzers: 11
+    totalResponders: 0
+    totalFunctions: 0
+    totalUseCases: 0
+    totalExternalIntegrations: 0
+    totalNotifiers: 0
+    total: 11
 MSSentinel:
   id: MSSentinel
   name: Microsoft Sentinel
@@ -7215,6 +7625,9 @@ NSRL:
   visibility: 100
   analyzersTagline: ''
   analyzerDisplayName: ''
+  registration_required: false
+  subscription_required: false
+  free_subscription: false
   integrations:
     analyzers:
     - name: NSRL
@@ -7229,7 +7642,7 @@ NSRL:
       url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/NSRL/NSRL.json
       github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/NSRL/NSRL.json
       upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/NSRL
-      integration_type: null
+      integration_type: local
     responders: []
     functions: []
   stats:
@@ -7790,6 +8203,77 @@ OvhCloud:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     total: 3
+PaloAltoAutofocus:
+  id: PaloAltoAutofocus
+  name: Palo Alto AutoFocus
+  description: AutoFocus is Palo Alto Networks' cloud-based threat intelligence platform, letting analysts search WildFire
+    malware sample data by IOC and pull full sample analysis reports
+  category: Malware Analysis
+  tags: []
+  homepage: https://www.paloaltonetworks.com/network-security/autofocus
+  logo: {}
+  useCases: []
+  notifier: false
+  externalIntegrations: []
+  displayOnWebsite: true
+  visibility: 100
+  analyzersTagline: ''
+  analyzerDisplayName: ''
+  integrations:
+    analyzers:
+    - name: Autofocus GetSampleAnalysis
+      version: '1.0'
+      author: ANSSI
+      license: AGPL-V3
+      description: Get full analysis from a sample based on its hash
+      dataTypes:
+      - hash
+      file: .upstream/cortex/analyzers/PaloAltoAutofocus/Autofocus_GetSampleAnalysis.json
+      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/PaloAltoAutofocus/Autofocus_GetSampleAnalysis.json
+      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/PaloAltoAutofocus/Autofocus_GetSampleAnalysis.json
+      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PaloAltoAutofocus
+      integration_type: null
+    - name: Autofocus SearchJSON
+      version: '1.0'
+      author: ANSSI
+      license: AGPL-V3
+      description: Search samples in Autofocus with a full search query in JSON
+      dataTypes:
+      - other
+      file: .upstream/cortex/analyzers/PaloAltoAutofocus/Autofocus_SearchJSON.json
+      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/PaloAltoAutofocus/Autofocus_SearchJSON.json
+      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/PaloAltoAutofocus/Autofocus_SearchJSON.json
+      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PaloAltoAutofocus
+      integration_type: null
+    - name: Autofocus SearchIOC
+      version: '1.0'
+      author: ANSSI
+      license: AGPL-V3
+      description: Search samples in Autofocus based on a single IOC
+      dataTypes:
+      - domain
+      - fqdn
+      - user-agent
+      - imphash
+      - ip
+      - mutex
+      - tag
+      - url
+      file: .upstream/cortex/analyzers/PaloAltoAutofocus/Autofocus_SearchIOC.json
+      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/PaloAltoAutofocus/Autofocus_SearchIOC.json
+      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/PaloAltoAutofocus/Autofocus_SearchIOC.json
+      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PaloAltoAutofocus
+      integration_type: null
+    responders: []
+    functions: []
+  stats:
+    totalAnalyzers: 3
+    totalResponders: 0
+    totalFunctions: 0
+    totalUseCases: 0
+    totalExternalIntegrations: 0
+    totalNotifiers: 0
+    total: 3
 PaloAltoCortexXDR:
   id: PaloAltoCortexXDR
   name: PAN Cortex XDR
@@ -8225,185 +8709,6 @@ PaloAltoWildFire:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     total: 2
-PassiveTotal:
-  id: PassiveTotal
-  name: PassiveTotal
-  description: ''
-  category: ''
-  tags: []
-  homepage: ''
-  logo: {}
-  useCases: []
-  notifier: false
-  externalIntegrations: []
-  displayOnWebsite: true
-  visibility: 100
-  analyzersTagline: ''
-  analyzerDisplayName: ''
-  integrations:
-    analyzers:
-    - name: PassiveTotal Enrichment
-      version: '2.0'
-      author: CERT-BDF
-      license: AGPL-V3
-      description: PassiveTotal Enrichment Lookup.
-      dataTypes:
-      - domain
-      - fqdn
-      - ip
-      file: .upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Enrichment.json
-      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Enrichment.json
-      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Enrichment.json
-      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PassiveTotal
-      integration_type: null
-    - name: PassiveTotal Host Pairs
-      version: '2.0'
-      author: Brandon Dixon (9bplus)
-      license: AGPL-V3
-      description: PassiveTotal Host Pairs Lookup.
-      dataTypes:
-      - domain
-      - fqdn
-      - ip
-      file: .upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Host_Pairs.json
-      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Host_Pairs.json
-      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Host_Pairs.json
-      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PassiveTotal
-      integration_type: null
-    - name: PassiveTotal Unique Resolutions
-      version: '2.0'
-      author: CERT-BDF
-      license: AGPL-V3
-      description: PassiveTotal Unique Resolutions Lookup.
-      dataTypes:
-      - domain
-      - fqdn
-      - ip
-      file: .upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Unique_Resolutions.json
-      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Unique_Resolutions.json
-      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Unique_Resolutions.json
-      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PassiveTotal
-      integration_type: null
-    - name: PassiveTotal Passive Dns
-      version: '2.1'
-      author: CERT-BDF
-      license: AGPL-V3
-      description: PassiveTotal Passive DNS Lookup.
-      dataTypes:
-      - domain
-      - fqdn
-      - ip
-      file: .upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Passive_Dns.json
-      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Passive_Dns.json
-      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Passive_Dns.json
-      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PassiveTotal
-      integration_type: null
-    - name: PassiveTotal Malware
-      version: '2.0'
-      author: CERT-BDF
-      license: AGPL-V3
-      description: PassiveTotal Malware Lookup.
-      dataTypes:
-      - domain
-      - fqdn
-      - ip
-      file: .upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Malware.json
-      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Malware.json
-      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Malware.json
-      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PassiveTotal
-      integration_type: null
-    - name: PassiveTotal Ssl Certificate History
-      version: '2.0'
-      author: CERT-BDF
-      license: AGPL-V3
-      description: PassiveTotal SSL Certificate History Lookup.
-      dataTypes:
-      - hash
-      - ip
-      file: .upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Ssl_Certificate_History.json
-      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Ssl_Certificate_History.json
-      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Ssl_Certificate_History.json
-      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PassiveTotal
-      integration_type: null
-    - name: PassiveTotal Whois Details
-      version: '2.0'
-      author: CERT-BDF
-      license: AGPL-V3
-      description: PassiveTotal Whois Details Lookup.
-      dataTypes:
-      - domain
-      - fqdn
-      - ip
-      file: .upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Whois_Details.json
-      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Whois_Details.json
-      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Whois_Details.json
-      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PassiveTotal
-      integration_type: null
-    - name: PassiveTotal Ssl Certificate Details
-      version: '2.0'
-      author: CERT-BDF
-      license: AGPL-V3
-      description: PassiveTotal SSL Certificate Details Lookup.
-      dataTypes:
-      - hash
-      - ip
-      file: .upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Ssl_Certificate_Details.json
-      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Ssl_Certificate_Details.json
-      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Ssl_Certificate_Details.json
-      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PassiveTotal
-      integration_type: null
-    - name: PassiveTotal Components
-      version: '2.0'
-      author: Brandon Dixon (9bplus)
-      license: AGPL-V3
-      description: PassiveTotal Components Lookup.
-      dataTypes:
-      - domain
-      - fqdn
-      - ip
-      file: .upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Components.json
-      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Components.json
-      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Components.json
-      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PassiveTotal
-      integration_type: null
-    - name: PassiveTotal Osint
-      version: '2.0'
-      author: CERT-BDF
-      license: AGPL-V3
-      description: PassiveTotal OSINT Lookup.
-      dataTypes:
-      - domain
-      - fqdn
-      - ip
-      file: .upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Osint.json
-      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Osint.json
-      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Osint.json
-      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PassiveTotal
-      integration_type: null
-    - name: PassiveTotal Trackers
-      version: '2.0'
-      author: Brandon Dixon (9bplus)
-      license: AGPL-V3
-      description: PassiveTotal Trackers Lookup.
-      dataTypes:
-      - domain
-      - fqdn
-      - ip
-      file: .upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Trackers.json
-      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Trackers.json
-      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/PassiveTotal/PassiveTotal_Trackers.json
-      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PassiveTotal
-      integration_type: null
-    responders: []
-    functions: []
-  stats:
-    totalAnalyzers: 11
-    totalResponders: 0
-    totalFunctions: 0
-    totalUseCases: 0
-    totalExternalIntegrations: 0
-    totalNotifiers: 0
-    total: 11
 Patrowl:
   id: Patrowl
   name: Patrowl
@@ -8956,266 +9261,6 @@ Redmine:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     total: 1
-RiskIQ:
-  id: RiskIQ
-  name: RiskIQ
-  description: ''
-  category: ''
-  tags: []
-  homepage: ''
-  logo: {}
-  useCases: []
-  notifier: false
-  externalIntegrations: []
-  displayOnWebsite: false
-  visibility: low
-  analyzersTagline: ''
-  analyzerDisplayName: ''
-  integrations:
-    analyzers:
-    - name: RiskIQ Summary
-      version: '1.0'
-      author: RiskIQ
-      license: AGPL-V3
-      description: RiskIQ Illuminate and PassiveTotal datasets with records for an indicator.
-      dataTypes:
-      - domain
-      - fqdn
-      - ip
-      file: .upstream/cortex/analyzers/RiskIQ/RiskIQ_Summary.json
-      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Summary.json
-      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Summary.json
-      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ
-      integration_type: null
-    - name: RiskIQ Subdomains
-      version: '1.0'
-      author: RiskIQ
-      license: AGPL-V3
-      description: 'RiskIQ: subdomains observed historically in pDNS records.'
-      dataTypes:
-      - fqdn
-      - domain
-      file: .upstream/cortex/analyzers/RiskIQ/RiskIQ_Subdomains.json
-      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Subdomains.json
-      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Subdomains.json
-      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ
-      integration_type: null
-    - name: RiskIQ HostpairParents
-      version: '1.0'
-      author: RiskIQ
-      license: AGPL-V3
-      description: 'RiskIQ: hosts with a parent web component relationship to an IOC.'
-      dataTypes:
-      - domain
-      - fqdn
-      - ip
-      file: .upstream/cortex/analyzers/RiskIQ/RiskIQ_HostpairParents.json
-      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_HostpairParents.json
-      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_HostpairParents.json
-      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ
-      integration_type: null
-    - name: RiskIQ Artifacts
-      version: '1.0'
-      author: RiskIQ
-      license: AGPL-V3
-      description: 'RiskIQ: Illuminate / PassiveTotal project artifacts that match an indicator.'
-      dataTypes:
-      - domain
-      - fqdn
-      - ip
-      file: .upstream/cortex/analyzers/RiskIQ/RiskIQ_Artifacts.json
-      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Artifacts.json
-      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Artifacts.json
-      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ
-      integration_type: null
-    - name: RiskIQ Articles
-      version: '1.0'
-      author: RiskIQ
-      license: AGPL-V3
-      description: 'RiskIQ: OSINT articles that reference an indicator.'
-      dataTypes:
-      - domain
-      - fqdn
-      - ip
-      file: .upstream/cortex/analyzers/RiskIQ/RiskIQ_Articles.json
-      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Articles.json
-      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Articles.json
-      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ
-      integration_type: null
-    - name: RiskIQ Services
-      version: '1.0'
-      author: RiskIQ
-      license: AGPL-V3
-      description: 'RiskIQ: services observed on an IP address.'
-      dataTypes:
-      - ip
-      file: .upstream/cortex/analyzers/RiskIQ/RiskIQ_Services.json
-      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Services.json
-      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Services.json
-      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ
-      integration_type: null
-    - name: RiskIQ Resolutions
-      version: '1.0'
-      author: RiskIQ
-      license: AGPL-V3
-      description: 'RiskIQ: PDNS resolutions for an IOC.'
-      dataTypes:
-      - domain
-      - fqdn
-      - ip
-      file: .upstream/cortex/analyzers/RiskIQ/RiskIQ_Resolutions.json
-      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Resolutions.json
-      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Resolutions.json
-      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ
-      integration_type: null
-    - name: RiskIQ Reputation
-      version: '1.0'
-      author: RiskIQ
-      license: AGPL-V3
-      description: RiskIQ Illuminate Reputation Score for an indicator.
-      dataTypes:
-      - domain
-      - fqdn
-      - ip
-      file: .upstream/cortex/analyzers/RiskIQ/RiskIQ_Reputation.json
-      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Reputation.json
-      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Reputation.json
-      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ
-      integration_type: null
-    - name: RiskIQ Cookies
-      version: '1.0'
-      author: RiskIQ
-      license: AGPL-V3
-      description: 'RiskIQ: cookies observed during crawls on a hostname.'
-      dataTypes:
-      - domain
-      - fqdn
-      - ip
-      file: .upstream/cortex/analyzers/RiskIQ/RiskIQ_Cookies.json
-      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Cookies.json
-      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Cookies.json
-      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ
-      integration_type: null
-    - name: RiskIQ Components
-      version: '1.0'
-      author: RiskIQ
-      license: AGPL-V3
-      description: 'RiskIQ: web components observed during crawls on a hostname.'
-      dataTypes:
-      - domain
-      - fqdn
-      - ip
-      file: .upstream/cortex/analyzers/RiskIQ/RiskIQ_Components.json
-      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Components.json
-      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Components.json
-      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ
-      integration_type: null
-    - name: RiskIQ Certificates
-      version: '1.0'
-      author: RiskIQ
-      license: AGPL-V3
-      description: 'RiskIQ: SSL/TLS certificates associated with an indicator.'
-      dataTypes:
-      - domain
-      - fqdn
-      - ip
-      file: .upstream/cortex/analyzers/RiskIQ/RiskIQ_Certificates.json
-      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Certificates.json
-      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Certificates.json
-      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ
-      integration_type: null
-    - name: RiskIQ HostpairChildren
-      version: '1.0'
-      author: RiskIQ
-      license: AGPL-V3
-      description: 'RiskIQ: hosts with a child web component relationship to an IOC.'
-      dataTypes:
-      - domain
-      - fqdn
-      - ip
-      file: .upstream/cortex/analyzers/RiskIQ/RiskIQ_HostpairChildren.json
-      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_HostpairChildren.json
-      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_HostpairChildren.json
-      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ
-      integration_type: null
-    - name: RiskIQ Projects
-      version: '1.0'
-      author: RiskIQ
-      license: AGPL-V3
-      description: 'RiskIQ: Illuminate / PassiveTotal projects that contain an artifact which matches an IOC.'
-      dataTypes:
-      - domain
-      - fqdn
-      - ip
-      file: .upstream/cortex/analyzers/RiskIQ/RiskIQ_Projects.json
-      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Projects.json
-      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Projects.json
-      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ
-      integration_type: null
-    - name: RiskIQ Trackers
-      version: '1.0'
-      author: RiskIQ
-      license: AGPL-V3
-      description: 'RiskIQ: trackers observed during a crawl on a host.'
-      dataTypes:
-      - domain
-      - fqdn
-      - ip
-      file: .upstream/cortex/analyzers/RiskIQ/RiskIQ_Trackers.json
-      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Trackers.json
-      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Trackers.json
-      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ
-      integration_type: null
-    - name: RiskIQ Whois
-      version: '1.0'
-      author: RiskIQ
-      license: AGPL-V3
-      description: RiskIQ Whois lookup for an indicator.
-      dataTypes:
-      - domain
-      - fqdn
-      - ip
-      file: .upstream/cortex/analyzers/RiskIQ/RiskIQ_Whois.json
-      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Whois.json
-      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Whois.json
-      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ
-      integration_type: null
-    - name: RiskIQ Malware
-      version: '1.0'
-      author: RiskIQ
-      license: AGPL-V3
-      description: 'RiskIQ: malware hashes from various sources associated with an IOC.'
-      dataTypes:
-      - domain
-      - fqdn
-      - ip
-      file: .upstream/cortex/analyzers/RiskIQ/RiskIQ_Malware.json
-      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Malware.json
-      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RiskIQ/RiskIQ_Malware.json
-      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RiskIQ
-      integration_type: null
-    responders:
-    - name: RiskIQ PushArtifactToProject
-      version: '1.0'
-      author: RiskIQ
-      license: AGPL-V3
-      description: Push a case to a RiskIQ Illuminate project.
-      dataTypes:
-      - thehive:case_artifact
-      file: .upstream/cortex/responders/RiskIQ/RiskIQ_PushArtifactToProject.json
-      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/RiskIQ/RiskIQ_PushArtifactToProject.json
-      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/RiskIQ/RiskIQ_PushArtifactToProject.json
-      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/RiskIQ
-      integration_type: null
-    functions: []
-  stats:
-    totalAnalyzers: 16
-    totalResponders: 1
-    totalFunctions: 0
-    totalUseCases: 0
-    totalExternalIntegrations: 0
-    totalNotifiers: 0
-    total: 17
 Robtex:
   id: Robtex
   name: Robtex
@@ -10509,6 +10554,9 @@ Test:
   visibility: low
   analyzersTagline: ''
   analyzerDisplayName: ''
+  registration_required: false
+  subscription_required: false
+  free_subscription: false
   integrations:
     analyzers: []
     responders:
@@ -10527,7 +10575,7 @@ Test:
       url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Test/test.json
       github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Test/test.json
       upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Test
-      integration_type: null
+      integration_type: local
     - name: DevTools Echo Responder
       version: '1.0'
       author: Fabien Bloume, StrangeBee
@@ -10543,7 +10591,7 @@ Test:
       url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Test/DevTools_Echo.json
       github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Test/DevTools_Echo.json
       upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Test
-      integration_type: null
+      integration_type: local
     functions: []
   stats:
     totalAnalyzers: 0
@@ -10594,7 +10642,7 @@ TestAnalyzer:
       url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/TestAnalyzer/DevTools_Echo.json
       github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/TestAnalyzer/DevTools_Echo.json
       upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/TestAnalyzer
-      integration_type: null
+      integration_type: local
     - name: TestAnalyzer
       version: '1.0'
       author: Fabien Bloume, StrangeBee
@@ -10616,7 +10664,7 @@ TestAnalyzer:
       url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/TestAnalyzer/TestAnalyzer.json
       github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/TestAnalyzer/TestAnalyzer.json
       upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/TestAnalyzer
-      integration_type: null
+      integration_type: local
     responders: []
     functions: []
   stats:
@@ -10661,47 +10709,6 @@ ThreatConnect:
     totalFunctions: 0
     totalUseCases: 0
     totalExternalIntegrations: 1
-    totalNotifiers: 0
-    total: 1
-ThreatGrid:
-  id: ThreatGrid
-  name: ThreatGrid
-  description: ''
-  category: ''
-  tags: []
-  homepage: ''
-  logo: {}
-  useCases: []
-  notifier: false
-  externalIntegrations: []
-  displayOnWebsite: true
-  visibility: 100
-  analyzersTagline: ''
-  analyzerDisplayName: ''
-  integrations:
-    analyzers:
-    - name: ThreatGrid
-      version: '1.0'
-      author: Cisco Security
-      license: MIT
-      description: Threat Grid Sandbox
-      dataTypes:
-      - file
-      - url
-      - hash
-      file: .upstream/cortex/analyzers/ThreatGrid/ThreatGrid.json
-      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/ThreatGrid/ThreatGrid.json
-      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/ThreatGrid/ThreatGrid.json
-      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/ThreatGrid
-      integration_type: null
-    responders: []
-    functions: []
-  stats:
-    totalAnalyzers: 1
-    totalResponders: 0
-    totalFunctions: 0
-    totalUseCases: 0
-    totalExternalIntegrations: 0
     totalNotifiers: 0
     total: 1
 ThreatMiner:
@@ -11366,7 +11373,10 @@ Velociraptor:
   - endpoint-visibility
   - forensic-collection
   homepage: https://docs.velociraptor.app
-  logo: {}
+  logo:
+    file: integrations/vendors/Velociraptor/assets/logo.png
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Velociraptor/assets/logo.png
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Velociraptor/assets/logo.png
   useCases: []
   notifier: false
   externalIntegrations: []
@@ -11470,7 +11480,7 @@ Virusshare:
       url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Virusshare/Virusshare.json
       github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Virusshare/Virusshare.json
       upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Virusshare
-      integration_type: null
+      integration_type: local
     responders: []
     functions: []
   stats:

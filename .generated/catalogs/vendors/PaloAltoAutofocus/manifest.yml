@@ -1,0 +1,73 @@
+# AUTO-GENERATED - DO NOT EDIT
+# Edit vendor.yml for vendor metadata, then re-run the generator
+
+id: PaloAltoAutofocus
+name: Palo Alto AutoFocus
+description: AutoFocus is Palo Alto Networks' cloud-based threat intelligence platform, letting analysts search WildFire malware
+  sample data by IOC and pull full sample analysis reports
+category: Malware Analysis
+tags: []
+homepage: https://www.paloaltonetworks.com/network-security/autofocus
+logo: {}
+useCases: []
+notifier: false
+externalIntegrations: []
+displayOnWebsite: true
+visibility: 100
+analyzersTagline: ''
+analyzerDisplayName: ''
+integrations:
+  analyzers:
+  - name: Autofocus GetSampleAnalysis
+    version: '1.0'
+    author: ANSSI
+    license: AGPL-V3
+    description: Get full analysis from a sample based on its hash
+    dataTypes:
+    - hash
+    file: .upstream/cortex/analyzers/PaloAltoAutofocus/Autofocus_GetSampleAnalysis.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/PaloAltoAutofocus/Autofocus_GetSampleAnalysis.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/PaloAltoAutofocus/Autofocus_GetSampleAnalysis.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PaloAltoAutofocus
+    integration_type: null
+  - name: Autofocus SearchJSON
+    version: '1.0'
+    author: ANSSI
+    license: AGPL-V3
+    description: Search samples in Autofocus with a full search query in JSON
+    dataTypes:
+    - other
+    file: .upstream/cortex/analyzers/PaloAltoAutofocus/Autofocus_SearchJSON.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/PaloAltoAutofocus/Autofocus_SearchJSON.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/PaloAltoAutofocus/Autofocus_SearchJSON.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PaloAltoAutofocus
+    integration_type: null
+  - name: Autofocus SearchIOC
+    version: '1.0'
+    author: ANSSI
+    license: AGPL-V3
+    description: Search samples in Autofocus based on a single IOC
+    dataTypes:
+    - domain
+    - fqdn
+    - user-agent
+    - imphash
+    - ip
+    - mutex
+    - tag
+    - url
+    file: .upstream/cortex/analyzers/PaloAltoAutofocus/Autofocus_SearchIOC.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/PaloAltoAutofocus/Autofocus_SearchIOC.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/PaloAltoAutofocus/Autofocus_SearchIOC.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PaloAltoAutofocus
+    integration_type: null
+  responders: []
+  functions: []
+stats:
+  totalAnalyzers: 3
+  totalResponders: 0
+  totalFunctions: 0
+  totalUseCases: 0
+  totalExternalIntegrations: 0
+  totalNotifiers: 0
+  total: 3

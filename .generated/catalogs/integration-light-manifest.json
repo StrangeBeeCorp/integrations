@@ -109,31 +109,6 @@
       "total": 1
     }
   },
-  "AMPforEndpoints": {
-    "id": "AMPforEndpoints",
-    "name": "Cisco Secure Endpoint (Formerly AMP for Endpoints)",
-    "description": "",
-    "category": [],
-    "tags": [],
-    "homepage": "",
-    "logo_url": "",
-    "visibility": "low",
-    "subscription": {
-      "required": false,
-      "free": false,
-      "paid": false
-    },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/AMPforEndpoints/overview.md",
-    "stats": {
-      "totalAnalyzers": 0,
-      "totalResponders": 5,
-      "totalFunctions": 0,
-      "totalUseCases": 0,
-      "totalExternalIntegrations": 0,
-      "totalNotifiers": 0,
-      "total": 5
-    }
-  },
   "AnyRun": {
     "id": "AnyRun",
     "name": "ANY.RUN",
@@ -159,31 +134,6 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "total": 7
-    }
-  },
-  "Autofocus": {
-    "id": "Autofocus",
-    "name": "Autofocus",
-    "description": "",
-    "category": [],
-    "tags": [],
-    "homepage": "",
-    "logo_url": "",
-    "visibility": 100,
-    "subscription": {
-      "required": false,
-      "free": false,
-      "paid": false
-    },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Autofocus/overview.md",
-    "stats": {
-      "totalAnalyzers": 3,
-      "totalResponders": 0,
-      "totalFunctions": 0,
-      "totalUseCases": 0,
-      "totalExternalIntegrations": 0,
-      "totalNotifiers": 0,
-      "total": 3
     }
   },
   "AWSLambda": {
@@ -604,6 +554,85 @@
       "total": 1
     }
   },
+  "CiscoAMPforEndpoints": {
+    "id": "CiscoAMPforEndpoints",
+    "name": "Cisco Secure Endpoint (Formerly AMP for Endpoints)",
+    "description": "",
+    "category": [
+      "EDR"
+    ],
+    "tags": [],
+    "homepage": "",
+    "logo_url": "",
+    "visibility": "low",
+    "subscription": {
+      "required": false,
+      "free": false,
+      "paid": false
+    },
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/CiscoAMPforEndpoints/overview.md",
+    "stats": {
+      "totalAnalyzers": 0,
+      "totalResponders": 5,
+      "totalFunctions": 0,
+      "totalUseCases": 0,
+      "totalExternalIntegrations": 0,
+      "totalNotifiers": 0,
+      "total": 5
+    }
+  },
+  "CiscoDuo": {
+    "id": "CiscoDuo",
+    "name": "Cisco Duo",
+    "description": "Multi-factor authentication and secure access platform by Cisco for identity verification and endpoint trust",
+    "category": [
+      "Identity & Access Management"
+    ],
+    "tags": [],
+    "homepage": "https://duo.com",
+    "logo_url": "",
+    "visibility": 100,
+    "subscription": {
+      "required": false,
+      "free": false,
+      "paid": false
+    },
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/CiscoDuo/overview.md",
+    "stats": {
+      "totalAnalyzers": 0,
+      "totalResponders": 3,
+      "totalFunctions": 0,
+      "totalUseCases": 0,
+      "totalExternalIntegrations": 0,
+      "totalNotifiers": 0,
+      "total": 3
+    }
+  },
+  "CiscoThreatGrid": {
+    "id": "CiscoThreatGrid",
+    "name": "CiscoThreatGrid",
+    "description": "",
+    "category": [],
+    "tags": [],
+    "homepage": "",
+    "logo_url": "",
+    "visibility": 100,
+    "subscription": {
+      "required": false,
+      "free": false,
+      "paid": false
+    },
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/CiscoThreatGrid/overview.md",
+    "stats": {
+      "totalAnalyzers": 1,
+      "totalResponders": 0,
+      "totalFunctions": 0,
+      "totalUseCases": 0,
+      "totalExternalIntegrations": 0,
+      "totalNotifiers": 0,
+      "total": 1
+    }
+  },
   "CiscoUmbrella": {
     "id": "CiscoUmbrella",
     "name": "Cisco Umbrella",
@@ -624,6 +653,33 @@
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 1,
+      "totalFunctions": 0,
+      "totalUseCases": 0,
+      "totalExternalIntegrations": 0,
+      "totalNotifiers": 0,
+      "total": 2
+    }
+  },
+  "CiscoUmbrellaInvestigate": {
+    "id": "CiscoUmbrellaInvestigate",
+    "name": "Cisco Umbrella Investigate",
+    "description": "Cisco Umbrella Investigate is a threat intelligence API providing domain and IP reputation, WHOIS data, and co-occurrence analysis to help analysts assess the risk of internet infrastructure during investigations",
+    "category": [
+      "OSINT & Enrichment"
+    ],
+    "tags": [],
+    "homepage": "https://umbrella.cisco.com/products/threat-intelligence",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/CiscoUmbrellaInvestigate/assets/logo.png",
+    "visibility": 100,
+    "subscription": {
+      "required": false,
+      "free": false,
+      "paid": false
+    },
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/CiscoUmbrellaInvestigate/overview.md",
+    "stats": {
+      "totalAnalyzers": 2,
+      "totalResponders": 0,
       "totalFunctions": 0,
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
@@ -1212,33 +1268,6 @@
       "total": 1
     }
   },
-  "Duo_Security": {
-    "id": "Duo_Security",
-    "name": "Cisco Duo",
-    "description": "Multi-factor authentication and secure access platform by Cisco for identity verification and endpoint trust",
-    "category": [
-      "Identity & Access Management"
-    ],
-    "tags": [],
-    "homepage": "https://duo.com",
-    "logo_url": "",
-    "visibility": 100,
-    "subscription": {
-      "required": false,
-      "free": false,
-      "paid": false
-    },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Duo_Security/overview.md",
-    "stats": {
-      "totalAnalyzers": 0,
-      "totalResponders": 3,
-      "totalFunctions": 0,
-      "totalUseCases": 0,
-      "totalExternalIntegrations": 0,
-      "totalNotifiers": 0,
-      "total": 3
-    }
-  },
   "EchoTrail": {
     "id": "EchoTrail",
     "name": "EchoTrail",
@@ -1459,9 +1488,9 @@
       "total": 1
     }
   },
-  "FireHOLBlocklists": {
-    "id": "FireHOLBlocklists",
-    "name": "FireHOLBlocklists",
+  "FireHOL": {
+    "id": "FireHOL",
+    "name": "FireHOL",
     "description": "",
     "category": [],
     "tags": [],
@@ -1473,7 +1502,7 @@
       "free": false,
       "paid": false
     },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/FireHOLBlocklists/overview.md",
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/FireHOL/overview.md",
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
@@ -2036,33 +2065,6 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "total": 1
-    }
-  },
-  "Investigate": {
-    "id": "Investigate",
-    "name": "Cisco Umbrella Investigate",
-    "description": "Cisco Umbrella Investigate is a threat intelligence API providing domain and IP reputation, WHOIS data, and co-occurrence analysis to help analysts assess the risk of internet infrastructure during investigations",
-    "category": [
-      "OSINT & Enrichment"
-    ],
-    "tags": [],
-    "homepage": "https://umbrella.cisco.com/products/threat-intelligence",
-    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Investigate/assets/logo.png",
-    "visibility": 100,
-    "subscription": {
-      "required": false,
-      "free": false,
-      "paid": false
-    },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Investigate/overview.md",
-    "stats": {
-      "totalAnalyzers": 2,
-      "totalResponders": 0,
-      "totalFunctions": 0,
-      "totalUseCases": 0,
-      "totalExternalIntegrations": 0,
-      "totalNotifiers": 0,
-      "total": 2
     }
   },
   "IP-API": {
@@ -2982,6 +2984,31 @@
       "total": 1
     }
   },
+  "MSRiskIQPassiveTotal": {
+    "id": "MSRiskIQPassiveTotal",
+    "name": "MSRiskIQPassiveTotal",
+    "description": "",
+    "category": [],
+    "tags": [],
+    "homepage": "",
+    "logo_url": "",
+    "visibility": 100,
+    "subscription": {
+      "required": false,
+      "free": false,
+      "paid": false
+    },
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/MSRiskIQPassiveTotal/overview.md",
+    "stats": {
+      "totalAnalyzers": 11,
+      "totalResponders": 0,
+      "totalFunctions": 0,
+      "totalUseCases": 0,
+      "totalExternalIntegrations": 0,
+      "totalNotifiers": 0,
+      "total": 11
+    }
+  },
   "MSSentinel": {
     "id": "MSSentinel",
     "name": "Microsoft Sentinel",
@@ -3393,6 +3420,33 @@
       "total": 3
     }
   },
+  "PaloAltoAutofocus": {
+    "id": "PaloAltoAutofocus",
+    "name": "Palo Alto AutoFocus",
+    "description": "AutoFocus is Palo Alto Networks' cloud-based threat intelligence platform, letting analysts search WildFire malware sample data by IOC and pull full sample analysis reports",
+    "category": [
+      "Malware Analysis"
+    ],
+    "tags": [],
+    "homepage": "https://www.paloaltonetworks.com/network-security/autofocus",
+    "logo_url": "",
+    "visibility": 100,
+    "subscription": {
+      "required": false,
+      "free": false,
+      "paid": false
+    },
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/PaloAltoAutofocus/overview.md",
+    "stats": {
+      "totalAnalyzers": 3,
+      "totalResponders": 0,
+      "totalFunctions": 0,
+      "totalUseCases": 0,
+      "totalExternalIntegrations": 0,
+      "totalNotifiers": 0,
+      "total": 3
+    }
+  },
   "PaloAltoCortexXDR": {
     "id": "PaloAltoCortexXDR",
     "name": "PAN Cortex XDR",
@@ -3466,31 +3520,6 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "total": 2
-    }
-  },
-  "PassiveTotal": {
-    "id": "PassiveTotal",
-    "name": "PassiveTotal",
-    "description": "",
-    "category": [],
-    "tags": [],
-    "homepage": "",
-    "logo_url": "",
-    "visibility": 100,
-    "subscription": {
-      "required": false,
-      "free": false,
-      "paid": false
-    },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/PassiveTotal/overview.md",
-    "stats": {
-      "totalAnalyzers": 11,
-      "totalResponders": 0,
-      "totalFunctions": 0,
-      "totalUseCases": 0,
-      "totalExternalIntegrations": 0,
-      "totalNotifiers": 0,
-      "total": 11
     }
   },
   "Patrowl": {
@@ -4290,31 +4319,6 @@
       "total": 1
     }
   },
-  "ThreatGrid": {
-    "id": "ThreatGrid",
-    "name": "ThreatGrid",
-    "description": "",
-    "category": [],
-    "tags": [],
-    "homepage": "",
-    "logo_url": "",
-    "visibility": 100,
-    "subscription": {
-      "required": false,
-      "free": false,
-      "paid": false
-    },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/ThreatGrid/overview.md",
-    "stats": {
-      "totalAnalyzers": 1,
-      "totalResponders": 0,
-      "totalFunctions": 0,
-      "totalUseCases": 0,
-      "totalExternalIntegrations": 0,
-      "totalNotifiers": 0,
-      "total": 1
-    }
-  },
   "ThreatMiner": {
     "id": "ThreatMiner",
     "name": "ThreatMiner",
@@ -4713,7 +4717,7 @@
       "forensic-collection"
     ],
     "homepage": "https://docs.velociraptor.app",
-    "logo_url": "",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Velociraptor/assets/logo.png",
     "visibility": "low",
     "subscription": {
       "required": false,

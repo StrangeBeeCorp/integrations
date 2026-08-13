@@ -22,7 +22,7 @@ analyzerDisplayName: ''
 integrations:
   analyzers:
   - name: Ldap Query
-    version: '3.0'
+    version: '3.1'
     author: Florian Perret @cyber_pescadito & THA-CERT @tha_cert
     license: AGPL-V3
     description: Query your LDAP server to harvest informations about an user of your organization

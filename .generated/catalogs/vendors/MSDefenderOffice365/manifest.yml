@@ -36,7 +36,7 @@ free_subscription:
 - false
 integrations:
   analyzers:
-  - name: MSDefenderOffice365 SafeLinksDecoder.json
+  - name: MSDefenderOffice365 SafeLinksDecoder
     version: '1.0'
     author: Louis HUSSON
     license: AGPL-V3

@@ -4,9 +4,9 @@ Integrations that are either free to use or run locally without external depende
 
 ## Summary
 
-- **Total Analyzers:** 75 (10 local, 65 free)
-- **Total Responders:** 10 (0 local, 10 free)
-- **Total Integrations:** 85
+- **Total Analyzers:** 79 (14 local, 65 free)
+- **Total Responders:** 12 (2 local, 10 free)
+- **Total Integrations:** 91
 
 ## Analyzers
 
@@ -73,6 +73,16 @@ Parse Outlook MSG files and extract the main artifacts.
 </details>
 
 <details>
+<summary><strong>NSRL</strong> <code>v1.0</code> [Local] - NSRL</summary>
+
+**Vendor:** [NSRL](vendors/NSRL/overview)
+**Data Types:** `hash`, `filename`
+
+Query NSRL
+
+</details>
+
+<details>
 <summary><strong>PDFPreview</strong> <code>v1.0</code> [Local] - PDFPreview</summary>
 
 **Vendor:** [PDFPreview](vendors/PDFPreview/overview)
@@ -93,12 +103,42 @@ Extracts data from one or more QR codes.
 </details>
 
 <details>
+<summary><strong>DevTools Echo Analyzer</strong> <code>v1.0</code> [Local] - Test Analyzer</summary>
+
+**Vendor:** [Test Analyzer](vendors/TestAnalyzer/overview)
+**Data Types:** `ip`, `domain`, `url`, `fqdn`, `mail`, `file`, `hash`, `filename`, `uri_path`, `user-agent`, `mail-subject`
+
+Development utility that simply echoes the (available) input received by the analyzer.
+
+</details>
+
+<details>
+<summary><strong>TestAnalyzer</strong> <code>v1.0</code> [Local] - Test Analyzer</summary>
+
+**Vendor:** [Test Analyzer](vendors/TestAnalyzer/overview)
+**Data Types:** `ip`, `domain`, `url`, `fqdn`, `mail`, `hash`, `filename`, `uri_path`, `user-agent`, `mail-subject`
+
+Just a simple test analyzer! No real-world use-case covered by this one, for testing, reference, dev and any other purpose only!
+
+</details>
+
+<details>
 <summary><strong>ValidateObservable</strong> <code>v1.0</code> [Local] - ValidateObservable</summary>
 
 **Vendor:** [ValidateObservable](vendors/ValidateObservable/overview)
 **Data Types:** `ip`, `domain`, `url`, `fqdn`, `mail`, `hash`, `filename`, `uri_path`, `user-agent`
 
 Use regexes and libraries to indicate if observable is valid
+
+</details>
+
+<details>
+<summary><strong>Virusshare</strong> <code>v2.0</code> [Local] - VirusShare</summary>
+
+**Vendor:** [VirusShare](vendors/Virusshare/overview)
+**Data Types:** `hash`, `file`
+
+Search for MD5 hashes in Virusshare.com hash list
 
 </details>
 
@@ -385,7 +425,7 @@ Use Malwares' API to scan a file or URL.
 </details>
 
 <details>
-<summary><strong>MSDefenderOffice365 SafeLinksDecoder.json</strong> <code>v1.0</code> [Free] - Microsoft Defender for Office 365</summary>
+<summary><strong>MSDefenderOffice365 SafeLinksDecoder</strong> <code>v1.0</code> [Free] - Microsoft Defender for Office 365</summary>
 
 **Vendor:** [Microsoft Defender for Office 365](vendors/MSDefenderOffice365/overview)
 **Data Types:** `url`
@@ -765,6 +805,28 @@ Get information from the RST Threat Feed, which integrated with Vulners, for a d
 </details>
 
 ## Responders
+
+### Local Responders
+
+<details>
+<summary><strong>DevTools Echo Responder</strong> <code>v1.0</code> [Local] - Test</summary>
+
+**Vendor:** [Test](vendors/Test/overview)
+**Data Types:** `thehive:case`, `thehive:alert`, `thehive:case_artifact`, `thehive:case_task`, `thehive:case_task_log`
+
+Development utility that simply echoes the input received by the responder.
+
+</details>
+
+<details>
+<summary><strong>Test</strong> <code>v1.0</code> [Local] - Test</summary>
+
+**Vendor:** [Test](vendors/Test/overview)
+**Data Types:** `thehive:case`, `thehive:alert`, `thehive:case_artifact`, `thehive:case_task`, `thehive:case_task_log`
+
+test
+
+</details>
 
 ### Free Subscription Responders
 

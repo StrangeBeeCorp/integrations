@@ -15,7 +15,10 @@ tags:
 - endpoint-visibility
 - forensic-collection
 homepage: https://docs.velociraptor.app
-logo: {}
+logo:
+  file: integrations/vendors/Velociraptor/assets/logo.png
+  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Velociraptor/assets/logo.png
+  github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Velociraptor/assets/logo.png
 useCases: []
 notifier: false
 externalIntegrations: []

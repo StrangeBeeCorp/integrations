@@ -15,6 +15,9 @@ displayOnWebsite: false
 visibility: low
 analyzersTagline: ''
 analyzerDisplayName: ''
+registration_required: false
+subscription_required: false
+free_subscription: false
 integrations:
   analyzers: []
   responders:
@@ -33,7 +36,7 @@ integrations:
     url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Test/test.json
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Test/test.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Test
-    integration_type: null
+    integration_type: local
   - name: DevTools Echo Responder
     version: '1.0'
     author: Fabien Bloume, StrangeBee
@@ -49,7 +52,7 @@ integrations:
     url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Test/DevTools_Echo.json
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Test/DevTools_Echo.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Test
-    integration_type: null
+    integration_type: local
   functions: []
 stats:
   totalAnalyzers: 0
