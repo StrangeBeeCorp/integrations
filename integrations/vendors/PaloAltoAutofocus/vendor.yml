@@ -1,0 +1,6 @@
+id: PaloAltoAutofocus
+name: "Palo Alto AutoFocus"
+description: "AutoFocus is Palo Alto Networks' cloud-based threat intelligence platform, letting analysts search WildFire malware sample data by IOC and pull full sample analysis reports"
+category: Malware Analysis
+homepage: "https://www.paloaltonetworks.com/network-security/autofocus"
+visibility: 100

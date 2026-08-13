@@ -1,4 +1,4 @@
-id: Duo_Security
+id: CiscoDuo
 name: "Cisco Duo"
 description: "Multi-factor authentication and secure access platform by Cisco for identity verification and endpoint trust"
 category: Identity & Access Management

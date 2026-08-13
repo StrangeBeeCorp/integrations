@@ -1,2 +1,3 @@
-id: AMPforEndpoints
+id: CiscoAMPforEndpoints
 name: "Cisco Secure Endpoint (Formerly AMP for Endpoints)"
+category: EDR
