@@ -20,22 +20,6 @@ subscription_required: true
 free_subscription: false
 integrations:
   analyzers:
-  - name: ZscalerZIA URLLookup
-    version: '1.0'
-    author: Fabien Bloume, StrangeBee
-    license: AGPL-V3
-    description: Query Zscaler Internet Access for URL categorization and security classification. Supports OneAPI OAuth2
-      and legacy authentication.
-    dataTypes:
-    - domain
-    - fqdn
-    - url
-    - ip
-    file: .upstream/cortex/analyzers/Zscaler/ZscalerZIA_URLLookup.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Zscaler/ZscalerZIA_URLLookup.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Zscaler/ZscalerZIA_URLLookup.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Zscaler
-    integration_type: null
   - name: Zscaler
     version: '1.3'
     author: Simon Lavigne, Mikael Keri
@@ -52,17 +36,47 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Zscaler/Zscaler.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Zscaler
     integration_type: null
-  responders:
-  - name: ZscalerZIA RemoveFromURLCategoryWildcard
+  - name: ZscalerZIA URLLookup
     version: '1.0'
     author: Fabien Bloume, StrangeBee
     license: AGPL-V3
-    description: Remove a domain and all its subdomains from a custom ZIA URL category
+    description: Query Zscaler Internet Access for URL categorization and security classification. Supports OneAPI OAuth2
+      and legacy authentication.
+    dataTypes:
+    - domain
+    - fqdn
+    - url
+    - ip
+    file: .upstream/cortex/analyzers/Zscaler/ZscalerZIA_URLLookup.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Zscaler/ZscalerZIA_URLLookup.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Zscaler/ZscalerZIA_URLLookup.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Zscaler
+    integration_type: null
+  responders:
+  - name: ZscalerZIA RemoveFromATPSecurityExceptions
+    version: '1.0'
+    author: Fabien Bloume, StrangeBee
+    license: AGPL-V3
+    description: Remove domains, FQDNs and URLs from ZIA Security Exceptions (Policy > Security > Advanced Threat Protection
+      > Security Exceptions)
     dataTypes:
     - thehive:case_artifact
-    file: .upstream/cortex/responders/Zscaler/ZscalerZIA_RemoveFromURLCategoryWildcard.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Zscaler/ZscalerZIA_RemoveFromURLCategoryWildcard.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Zscaler/ZscalerZIA_RemoveFromURLCategoryWildcard.json
+    file: .upstream/cortex/responders/Zscaler/ZscalerZIA_RemoveFromATPSecurityExceptions.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Zscaler/ZscalerZIA_RemoveFromATPSecurityExceptions.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Zscaler/ZscalerZIA_RemoveFromATPSecurityExceptions.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Zscaler
+    integration_type: null
+  - name: ZscalerZIA RemoveFromATPDenylist
+    version: '1.0'
+    author: Fabien Bloume, StrangeBee
+    license: AGPL-V3
+    description: Remove domains, FQDNs and URLs from the ZIA ATP Denylist (Policy > Security > Advanced Threat Protection
+      > Blocked Malicious URLs)
+    dataTypes:
+    - thehive:case_artifact
+    file: .upstream/cortex/responders/Zscaler/ZscalerZIA_RemoveFromATPDenylist.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Zscaler/ZscalerZIA_RemoveFromATPDenylist.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Zscaler/ZscalerZIA_RemoveFromATPDenylist.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Zscaler
     integration_type: null
   - name: ZscalerZIA AddToATPSecurityExceptions
@@ -76,6 +90,31 @@ integrations:
     file: .upstream/cortex/responders/Zscaler/ZscalerZIA_AddToATPSecurityExceptions.json
     url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Zscaler/ZscalerZIA_AddToATPSecurityExceptions.json
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Zscaler/ZscalerZIA_AddToATPSecurityExceptions.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Zscaler
+    integration_type: null
+  - name: ZscalerZIA AddToURLCategoryWildcard
+    version: '1.0'
+    author: Fabien Bloume, StrangeBee
+    license: AGPL-V3
+    description: Add a domain and all its subdomains to a custom ZIA URL category
+    dataTypes:
+    - thehive:case_artifact
+    file: .upstream/cortex/responders/Zscaler/ZscalerZIA_AddToURLCategoryWildcard.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Zscaler/ZscalerZIA_AddToURLCategoryWildcard.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Zscaler/ZscalerZIA_AddToURLCategoryWildcard.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Zscaler
+    integration_type: null
+  - name: ZscalerZIA RemoveFromATPDenylistWildcard
+    version: '1.0'
+    author: Fabien Bloume, StrangeBee
+    license: AGPL-V3
+    description: Remove a domain and all its subdomains from the ZIA ATP Denylist (Policy > Security > Advanced Threat Protection
+      > Blocked Malicious URLs)
+    dataTypes:
+    - thehive:case_artifact
+    file: .upstream/cortex/responders/Zscaler/ZscalerZIA_RemoveFromATPDenylistWildcard.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Zscaler/ZscalerZIA_RemoveFromATPDenylistWildcard.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Zscaler/ZscalerZIA_RemoveFromATPDenylistWildcard.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Zscaler
     integration_type: null
   - name: ZscalerZIA RemoveFromURLCategory
@@ -103,41 +142,17 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Zscaler/ZscalerZIA_AddToATPDenylist.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Zscaler
     integration_type: null
-  - name: ZscalerZIA AddToURLCategory
+  - name: ZscalerZIA AddToCloudFirewallRule
     version: '1.0'
     author: Fabien Bloume, StrangeBee
     license: AGPL-V3
-    description: Add observables (domain, fqdn, url, ip, cidr) to a custom ZIA URL category
+    description: Add an IP address or CIDR to the destination address list of a ZIA Cloud Firewall rule - network-layer block,
+      all ports/protocols (Policy > Cloud Firewall)
     dataTypes:
     - thehive:case_artifact
-    file: .upstream/cortex/responders/Zscaler/ZscalerZIA_AddToURLCategory.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Zscaler/ZscalerZIA_AddToURLCategory.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Zscaler/ZscalerZIA_AddToURLCategory.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Zscaler
-    integration_type: null
-  - name: ZscalerZIA AddToURLCategoryWildcard
-    version: '1.0'
-    author: Fabien Bloume, StrangeBee
-    license: AGPL-V3
-    description: Add a domain and all its subdomains to a custom ZIA URL category
-    dataTypes:
-    - thehive:case_artifact
-    file: .upstream/cortex/responders/Zscaler/ZscalerZIA_AddToURLCategoryWildcard.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Zscaler/ZscalerZIA_AddToURLCategoryWildcard.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Zscaler/ZscalerZIA_AddToURLCategoryWildcard.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Zscaler
-    integration_type: null
-  - name: ZscalerZIA RemoveFromATPSecurityExceptions
-    version: '1.0'
-    author: Fabien Bloume, StrangeBee
-    license: AGPL-V3
-    description: Remove domains, FQDNs and URLs from ZIA Security Exceptions (Policy > Security > Advanced Threat Protection
-      > Security Exceptions)
-    dataTypes:
-    - thehive:case_artifact
-    file: .upstream/cortex/responders/Zscaler/ZscalerZIA_RemoveFromATPSecurityExceptions.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Zscaler/ZscalerZIA_RemoveFromATPSecurityExceptions.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Zscaler/ZscalerZIA_RemoveFromATPSecurityExceptions.json
+    file: .upstream/cortex/responders/Zscaler/ZscalerZIA_AddToCloudFirewallRule.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Zscaler/ZscalerZIA_AddToCloudFirewallRule.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Zscaler/ZscalerZIA_AddToCloudFirewallRule.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Zscaler
     integration_type: null
   - name: ZscalerZIA AddToATPDenylistWildcard
@@ -153,43 +168,16 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Zscaler/ZscalerZIA_AddToATPDenylistWildcard.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Zscaler
     integration_type: null
-  - name: ZscalerZIA RemoveFromATPDenylistWildcard
+  - name: ZscalerZIA AddToURLCategory
     version: '1.0'
     author: Fabien Bloume, StrangeBee
     license: AGPL-V3
-    description: Remove a domain and all its subdomains from the ZIA ATP Denylist (Policy > Security > Advanced Threat Protection
-      > Blocked Malicious URLs)
+    description: Add observables (domain, fqdn, url, ip, cidr) to a custom ZIA URL category
     dataTypes:
     - thehive:case_artifact
-    file: .upstream/cortex/responders/Zscaler/ZscalerZIA_RemoveFromATPDenylistWildcard.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Zscaler/ZscalerZIA_RemoveFromATPDenylistWildcard.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Zscaler/ZscalerZIA_RemoveFromATPDenylistWildcard.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Zscaler
-    integration_type: null
-  - name: ZscalerZIA RemoveFromATPDenylist
-    version: '1.0'
-    author: Fabien Bloume, StrangeBee
-    license: AGPL-V3
-    description: Remove domains, FQDNs and URLs from the ZIA ATP Denylist (Policy > Security > Advanced Threat Protection
-      > Blocked Malicious URLs)
-    dataTypes:
-    - thehive:case_artifact
-    file: .upstream/cortex/responders/Zscaler/ZscalerZIA_RemoveFromATPDenylist.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Zscaler/ZscalerZIA_RemoveFromATPDenylist.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Zscaler/ZscalerZIA_RemoveFromATPDenylist.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Zscaler
-    integration_type: null
-  - name: ZscalerZIA AddToCloudFirewallRule
-    version: '1.0'
-    author: Fabien Bloume, StrangeBee
-    license: AGPL-V3
-    description: Add an IP address or CIDR to the destination address list of a ZIA Cloud Firewall rule - network-layer block,
-      all ports/protocols (Policy > Cloud Firewall)
-    dataTypes:
-    - thehive:case_artifact
-    file: .upstream/cortex/responders/Zscaler/ZscalerZIA_AddToCloudFirewallRule.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Zscaler/ZscalerZIA_AddToCloudFirewallRule.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Zscaler/ZscalerZIA_AddToCloudFirewallRule.json
+    file: .upstream/cortex/responders/Zscaler/ZscalerZIA_AddToURLCategory.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Zscaler/ZscalerZIA_AddToURLCategory.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Zscaler/ZscalerZIA_AddToURLCategory.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Zscaler
     integration_type: null
   - name: ZscalerZIA RemoveFromCloudFirewallRule
@@ -203,6 +191,18 @@ integrations:
     file: .upstream/cortex/responders/Zscaler/ZscalerZIA_RemoveFromCloudFirewallRule.json
     url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Zscaler/ZscalerZIA_RemoveFromCloudFirewallRule.json
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Zscaler/ZscalerZIA_RemoveFromCloudFirewallRule.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Zscaler
+    integration_type: null
+  - name: ZscalerZIA RemoveFromURLCategoryWildcard
+    version: '1.0'
+    author: Fabien Bloume, StrangeBee
+    license: AGPL-V3
+    description: Remove a domain and all its subdomains from a custom ZIA URL category
+    dataTypes:
+    - thehive:case_artifact
+    file: .upstream/cortex/responders/Zscaler/ZscalerZIA_RemoveFromURLCategoryWildcard.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Zscaler/ZscalerZIA_RemoveFromURLCategoryWildcard.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Zscaler/ZscalerZIA_RemoveFromURLCategoryWildcard.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Zscaler
     integration_type: null
   functions: []

@@ -2,10 +2,10 @@
 
 ### Trigger automated responses
 
-#### [DuoLockUserAccount v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CiscoDuo)
-Lock User Account in Duo Security via AdminAPI (The user will not be able to log in)
+#### [DuoBypassUserAccount v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CiscoDuo)
+Put User Account into Bypass mode in Duo Security via AdminAPI (The user will not be prompted when logging in.)
 
-- **Author:** Sven Kutzer / Gyorgy Acs, @oscd_initiative
+- **Author:** jahamilto
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case_artifact`
 
@@ -16,9 +16,9 @@ Unlock User Account in Duo Security via AdminAPI (The user must complete seconda
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case_artifact`
 
-#### [DuoBypassUserAccount v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CiscoDuo)
-Put User Account into Bypass mode in Duo Security via AdminAPI (The user will not be prompted when logging in.)
+#### [DuoLockUserAccount v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CiscoDuo)
+Lock User Account in Duo Security via AdminAPI (The user will not be able to log in)
 
-- **Author:** jahamilto
+- **Author:** Sven Kutzer / Gyorgy Acs, @oscd_initiative
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case_artifact`
