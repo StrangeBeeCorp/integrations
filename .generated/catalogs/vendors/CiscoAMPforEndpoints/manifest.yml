@@ -7,7 +7,10 @@ description: ''
 category: EDR
 tags: []
 homepage: ''
-logo: {}
+logo:
+  file: integrations/vendors/CiscoAMPforEndpoints/assets/logo.png
+  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/CiscoAMPforEndpoints/assets/logo.png
+  github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/CiscoAMPforEndpoints/assets/logo.png
 useCases: []
 notifier: false
 externalIntegrations: []

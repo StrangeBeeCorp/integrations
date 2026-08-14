@@ -11,24 +11,4 @@
 
 ## Changes
 
-### Added Vendors (8)
-
-- `CiscoAMPforEndpoints`
-- `CiscoDuo`
-- `CiscoThreatGrid`
-- `CiscoUmbrellaInvestigate`
-- `FireHOL`
-- `MSRiskIQ`
-- `MSRiskIQPassiveTotal`
-- `PaloAltoAutofocus`
-
-### Removed Vendors (8)
-
-- `AMPforEndpoints`
-- `Autofocus`
-- `Duo_Security`
-- `FireHOLBlocklists`
-- `Investigate`
-- `PassiveTotal`
-- `RiskIQ`
-- `ThreatGrid`
+No changes detected.

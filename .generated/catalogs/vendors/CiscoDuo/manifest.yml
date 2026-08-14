@@ -7,7 +7,10 @@ description: Multi-factor authentication and secure access platform by Cisco for
 category: Identity & Access Management
 tags: []
 homepage: https://duo.com
-logo: {}
+logo:
+  file: integrations/vendors/CiscoDuo/assets/logo.svg
+  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/CiscoDuo/assets/logo.svg
+  github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/CiscoDuo/assets/logo.svg
 useCases: []
 notifier: false
 externalIntegrations: []

@@ -563,7 +563,7 @@
     ],
     "tags": [],
     "homepage": "",
-    "logo_url": "",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/CiscoAMPforEndpoints/assets/logo.png",
     "visibility": "low",
     "subscription": {
       "required": false,
@@ -590,7 +590,7 @@
     ],
     "tags": [],
     "homepage": "https://duo.com",
-    "logo_url": "",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/CiscoDuo/assets/logo.svg",
     "visibility": 100,
     "subscription": {
       "required": false,
