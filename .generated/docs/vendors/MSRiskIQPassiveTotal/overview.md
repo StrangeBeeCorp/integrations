@@ -2,22 +2,15 @@
 
 ### Enrich observables with intelligence
 
-#### [PassiveTotal Ssl Certificate Details v2.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQPassiveTotal)
-PassiveTotal SSL Certificate Details Lookup.
-
-- **Author:** CERT-BDF
-- **License:** AGPL-V3
-- **Data Types:** `hash`, `ip`
-
-#### [PassiveTotal Passive Dns v2.1](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQPassiveTotal)
-PassiveTotal Passive DNS Lookup.
+#### [PassiveTotal Enrichment v2.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQPassiveTotal)
+PassiveTotal Enrichment Lookup.
 
 - **Author:** CERT-BDF
 - **License:** AGPL-V3
 - **Data Types:** `domain`, `fqdn`, `ip`
 
-#### [PassiveTotal Trackers v2.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQPassiveTotal)
-PassiveTotal Trackers Lookup.
+#### [PassiveTotal Host Pairs v2.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQPassiveTotal)
+PassiveTotal Host Pairs Lookup.
 
 - **Author:** Brandon Dixon (9bplus)
 - **License:** AGPL-V3
@@ -25,6 +18,13 @@ PassiveTotal Trackers Lookup.
 
 #### [PassiveTotal Unique Resolutions v2.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQPassiveTotal)
 PassiveTotal Unique Resolutions Lookup.
+
+- **Author:** CERT-BDF
+- **License:** AGPL-V3
+- **Data Types:** `domain`, `fqdn`, `ip`
+
+#### [PassiveTotal Passive Dns v2.1](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQPassiveTotal)
+PassiveTotal Passive DNS Lookup.
 
 - **Author:** CERT-BDF
 - **License:** AGPL-V3
@@ -44,19 +44,19 @@ PassiveTotal SSL Certificate History Lookup.
 - **License:** AGPL-V3
 - **Data Types:** `hash`, `ip`
 
-#### [PassiveTotal Host Pairs v2.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQPassiveTotal)
-PassiveTotal Host Pairs Lookup.
-
-- **Author:** Brandon Dixon (9bplus)
-- **License:** AGPL-V3
-- **Data Types:** `domain`, `fqdn`, `ip`
-
 #### [PassiveTotal Whois Details v2.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQPassiveTotal)
 PassiveTotal Whois Details Lookup.
 
 - **Author:** CERT-BDF
 - **License:** AGPL-V3
 - **Data Types:** `domain`, `fqdn`, `ip`
+
+#### [PassiveTotal Ssl Certificate Details v2.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQPassiveTotal)
+PassiveTotal SSL Certificate Details Lookup.
+
+- **Author:** CERT-BDF
+- **License:** AGPL-V3
+- **Data Types:** `hash`, `ip`
 
 #### [PassiveTotal Components v2.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQPassiveTotal)
 PassiveTotal Components Lookup.
@@ -72,9 +72,9 @@ PassiveTotal OSINT Lookup.
 - **License:** AGPL-V3
 - **Data Types:** `domain`, `fqdn`, `ip`
 
-#### [PassiveTotal Enrichment v2.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQPassiveTotal)
-PassiveTotal Enrichment Lookup.
+#### [PassiveTotal Trackers v2.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQPassiveTotal)
+PassiveTotal Trackers Lookup.
 
-- **Author:** CERT-BDF
+- **Author:** Brandon Dixon (9bplus)
 - **License:** AGPL-V3
 - **Data Types:** `domain`, `fqdn`, `ip`
