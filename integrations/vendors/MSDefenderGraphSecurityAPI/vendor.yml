@@ -1,0 +1,12 @@
+id: MSDefenderGraphSecurityAPI
+name: "Microsoft Defender (via Graph Security API)"
+description: "Aggregates security alerts from any product in the Microsoft Defender suite (Defender for Endpoint, Identity, Office 365, Cloud Apps, Sentinel, etc.) through the unified Microsoft Graph Security API, regardless of the originating source"
+category: SIEM & Analytics
+tags:
+  - microsoft
+  - microsoft-defender
+  - graph-security-api
+  - siem
+  - incident-response
+homepage: "https://learn.microsoft.com/en-us/graph/api/resources/security-api-overview"
+visibility: 5

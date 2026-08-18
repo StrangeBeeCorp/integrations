@@ -1,11 +1,11 @@
 /*---
 thehive:
-  name: alertfeeder_ingestSentinelIncidents
+  name: alertfeeder_ingestMSDefenderIncidents
   mode: Enabled
-  definition: function_alertfeeder_ingestSentinelIncidents
-  description: Polls Microsoft Sentinel/Defender alerts from the Microsoft Graph Security API (/security/alerts_v2), groups them by incidentId, and creates one TheHive alert per incident
+  definition: function_alertfeeder_ingestMSDefenderIncidents
+  description: Polls alerts from the Microsoft Graph Security API (/security/alerts_v2), groups them by incidentId regardless of the originating source product within the Microsoft Defender suite, and creates one TheHive alert per incident
   type: Feeder
-  vendor: Microsoft Sentinel
+  vendor: Microsoft Defender (via Graph Security API)
   kind: function
   version: 1.0.0
   author: Fabien Bloume, StrangeBee
@@ -109,7 +109,7 @@ function handle(input, context) {
 
   Object.keys(incidentGroups).forEach(incidentId => {
     const group = incidentGroups[incidentId];
-    const sourceRef = 'sentinel-incident-' + incidentId;
+    const sourceRef = 'msdefender-incident-' + incidentId;
 
     // Deduplication
     const filters = [{ _name: 'filter', _and: [{ _field: 'sourceRef', _value: sourceRef }] }];
@@ -138,7 +138,7 @@ function handle(input, context) {
     const unresolvedTechniques = mitreTechniques.filter(t => !tactics.some(p => p.patternId === t));
 
     const tags = [
-      'Microsoft Sentinel',
+      'Microsoft Defender',
       'severity:' + primary.severity,
       'status:' + primary.status,
       ...(primary.classification && primary.classification !== 'unknown' ? ['classification:' + primary.classification] : []),
@@ -180,9 +180,9 @@ function handle(input, context) {
 
     context.alert.create({
       type: alertType,
-      source: 'MicrosoftSentinel',
+      source: 'MicrosoftDefender',
       sourceRef: sourceRef,
-      title: '[Sentinel] ' + primary.title + ' - #' + incidentId,
+      title: '[MS Defender] ' + primary.title + ' - #' + incidentId,
       description: description,
       date: createdTimestamp,
       severity: severityMap[primary.severity] || 2,
