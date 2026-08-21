@@ -327,6 +327,8 @@ Built something useful? Contributions are welcome!
 
 **[CiscoThreatGrid](vendors/CiscoThreatGrid/overview.md)** (1 integrations)
 
+**[CiscoThreatResponse](vendors/CiscoThreatResponse/overview.md)** (1 integrations)
+
 **[CISMCAP](vendors/CISMCAP/overview.md)** (1 integrations)
 
 **[Cluster25](vendors/Cluster25/overview.md)** (1 integrations)
@@ -481,8 +483,6 @@ Built something useful? Contributions are welcome!
 
 **[ThreatMiner](vendors/ThreatMiner/overview.md)** (1 integrations)
 
-**[ThreatResponse](vendors/ThreatResponse/overview.md)** (1 integrations)
-
 **[Thunderstorm](vendors/Thunderstorm/overview.md)** (1 integrations)
 
 **[TorBlutmagie](vendors/TorBlutmagie/overview.md)** (1 integrations)
@@ -600,6 +600,7 @@ Built something useful? Contributions are welcome!
 - **[Cisco Umbrella](vendors/CiscoUmbrella/overview.md)** - *Network Security* - 1 analyzers, 1 responders
 - **[Cisco Umbrella Investigate](vendors/CiscoUmbrellaInvestigate/overview.md)** - *OSINT & Enrichment* - 2 analyzers
 - **[CiscoThreatGrid](vendors/CiscoThreatGrid/overview.md)** - *Uncategorized* - 1 analyzers
+- **[CiscoThreatResponse](vendors/CiscoThreatResponse/overview.md)** - *Uncategorized* - 1 analyzers
 - **[CISMCAP](vendors/CISMCAP/overview.md)** - *Uncategorized* - 1 analyzers
 - **[ClamAV](vendors/ClamAV/overview.md)** - *Malware Analysis* - 1 analyzers
 - **[Cloudflare](vendors/Cloudflare/overview.md)** - *Web Application Firewall* - 1 responders
@@ -742,7 +743,6 @@ Built something useful? Contributions are welcome!
 - **[ThreatConnect](vendors/ThreatConnect/overview.md)** - *Threat Intelligence* - 1 external
 - **[ThreatMiner](vendors/ThreatMiner/overview.md)** - *Uncategorized* - 1 analyzers
 - **[ThreatQ](vendors/ThreatQ/overview.md)** - *Threat Intelligence* - 1 external
-- **[ThreatResponse](vendors/ThreatResponse/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Thunderstorm](vendors/Thunderstorm/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Tines](vendors/Tines/overview.md)** - *SOAR & Automation* - 1 external
 - **[TorBlutmagie](vendors/TorBlutmagie/overview.md)** - *Uncategorized* - 1 analyzers

@@ -1594,6 +1594,49 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     total: 1
+- id: CiscoThreatResponse
+  name: CiscoThreatResponse
+  description: ''
+  category: ''
+  tags: []
+  homepage: ''
+  logo: {}
+  useCases: []
+  notifier: false
+  externalIntegrations: []
+  displayOnWebsite: true
+  visibility: 100
+  analyzersTagline: ''
+  analyzerDisplayName: ''
+  integrations:
+    analyzers:
+    - name: ThreatResponse
+      version: '1.0'
+      author: Cisco Security
+      license: MIT
+      description: Threat Response
+      dataTypes:
+      - domain
+      - filename
+      - fqdn
+      - hash
+      - ip
+      - url
+      file: .upstream/cortex/analyzers/CiscoThreatResponse/ThreatResponse.json
+      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/CiscoThreatResponse/ThreatResponse.json
+      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/CiscoThreatResponse/ThreatResponse.json
+      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CiscoThreatResponse
+      integration_type: null
+    responders: []
+    functions: []
+  stats:
+    totalAnalyzers: 1
+    totalResponders: 0
+    totalFunctions: 0
+    totalUseCases: 0
+    totalExternalIntegrations: 0
+    totalNotifiers: 0
+    total: 1
 - id: CISMCAP
   name: CISMCAP
   description: ''
@@ -10638,49 +10681,6 @@ low:
     totalFunctions: 0
     totalUseCases: 0
     totalExternalIntegrations: 1
-    totalNotifiers: 0
-    total: 1
-- id: ThreatResponse
-  name: ThreatResponse
-  description: ''
-  category: ''
-  tags: []
-  homepage: ''
-  logo: {}
-  useCases: []
-  notifier: false
-  externalIntegrations: []
-  displayOnWebsite: true
-  visibility: 100
-  analyzersTagline: ''
-  analyzerDisplayName: ''
-  integrations:
-    analyzers:
-    - name: ThreatResponse
-      version: '1.0'
-      author: Cisco Security
-      license: MIT
-      description: Threat Response
-      dataTypes:
-      - domain
-      - filename
-      - fqdn
-      - hash
-      - ip
-      - url
-      file: .upstream/cortex/analyzers/ThreatResponse/ThreatResponse.json
-      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/ThreatResponse/ThreatResponse.json
-      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/ThreatResponse/ThreatResponse.json
-      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/ThreatResponse
-      integration_type: null
-    responders: []
-    functions: []
-  stats:
-    totalAnalyzers: 1
-    totalResponders: 0
-    totalFunctions: 0
-    totalUseCases: 0
-    totalExternalIntegrations: 0
     totalNotifiers: 0
     total: 1
 - id: Thunderstorm

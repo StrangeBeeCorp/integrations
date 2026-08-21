@@ -1,8 +1,8 @@
 # AUTO-GENERATED - DO NOT EDIT
 # Edit vendor.yml for vendor metadata, then re-run the generator
 
-id: ThreatResponse
-name: ThreatResponse
+id: CiscoThreatResponse
+name: CiscoThreatResponse
 description: ''
 category: ''
 tags: []
@@ -29,10 +29,10 @@ integrations:
     - hash
     - ip
     - url
-    file: .upstream/cortex/analyzers/ThreatResponse/ThreatResponse.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/ThreatResponse/ThreatResponse.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/ThreatResponse/ThreatResponse.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/ThreatResponse
+    file: .upstream/cortex/analyzers/CiscoThreatResponse/ThreatResponse.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/CiscoThreatResponse/ThreatResponse.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/CiscoThreatResponse/ThreatResponse.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CiscoThreatResponse
     integration_type: null
   responders: []
   functions: []
