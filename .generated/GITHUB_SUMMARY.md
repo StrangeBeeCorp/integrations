@@ -11,10 +11,4 @@
 
 ## Changes
 
-### Added Vendors (1)
-
-- `CiscoThreatResponse`
-
-### Removed Vendors (1)
-
-- `ThreatResponse`
+No changes detected.
