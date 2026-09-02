@@ -9474,11 +9474,15 @@ SecurityTrails:
 SEKOIAIntelligenceCenter:
   id: SEKOIAIntelligenceCenter
   name: SEKOIA Intelligence Center
-  description: ''
-  category: ''
+  description: SEKOIA Intelligence Center is a cyber threat intelligence platform providing curated indicators, threat actor,
+    malware, and campaign context mapped to MITRE ATT&CK, enabling observable enrichment and IOC validation during investigations
+  category: Threat Intelligence
   tags: []
-  homepage: ''
-  logo: {}
+  homepage: https://www.sekoia.io
+  logo:
+    file: integrations/vendors/SEKOIAIntelligenceCenter/assets/logo.png
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/SEKOIAIntelligenceCenter/assets/logo.png
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/SEKOIAIntelligenceCenter/assets/logo.png
   useCases: []
   notifier: false
   externalIntegrations: []

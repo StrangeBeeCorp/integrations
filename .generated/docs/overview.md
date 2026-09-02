@@ -285,6 +285,9 @@ Built something useful? Contributions are welcome!
 **[Recorded Future](vendors/RecordedFuture/overview.md)** (1 integrations)
   Recorded Future is a real-time threat intelligence platform that analyzes data from the open web,...
 
+**[SEKOIA Intelligence Center](vendors/SEKOIAIntelligenceCenter/overview.md)** (3 integrations)
+  SEKOIA Intelligence Center is a cyber threat intelligence platform providing curated indicators, ...
+
 **[ThreatConnect](vendors/ThreatConnect/overview.md)** (1 integrations)
   ThreatConnect is a threat intelligence platform that enables security teams to aggregate, analyze...
 
@@ -456,8 +459,6 @@ Built something useful? Contributions are welcome!
 **[Robtex](vendors/Robtex/overview.md)** (3 integrations)
 
 **[SecurityTrails](vendors/SecurityTrails/overview.md)** (2 integrations)
-
-**[SEKOIA Intelligence Center](vendors/SEKOIAIntelligenceCenter/overview.md)** (3 integrations)
 
 **[SendGrid](vendors/SendGrid/overview.md)** (1 integrations)
 
@@ -723,7 +724,7 @@ Built something useful? Contributions are welcome!
 - **[RiskIQ](vendors/MSRiskIQ/overview.md)** - *Attack Surface Intelligence* - 16 analyzers, 1 responders
 - **[Robtex](vendors/Robtex/overview.md)** - *Uncategorized* - 3 analyzers
 - **[SecurityTrails](vendors/SecurityTrails/overview.md)** - *Uncategorized* - 2 analyzers
-- **[SEKOIA Intelligence Center](vendors/SEKOIAIntelligenceCenter/overview.md)** - *Uncategorized* - 3 analyzers
+- **[SEKOIA Intelligence Center](vendors/SEKOIAIntelligenceCenter/overview.md)** - *Threat Intelligence* - 3 analyzers
 - **[SendGrid](vendors/SendGrid/overview.md)** - *Uncategorized* - 1 responders
 - **[SentinelOne](vendors/SentinelOne/overview.md)** - *Uncategorized* - 3 analyzers, 1 responders
 - **[Shodan](vendors/Shodan/overview.md)** - *Attack Surface Intelligence* - 6 analyzers

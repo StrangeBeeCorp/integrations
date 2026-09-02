@@ -3902,11 +3902,13 @@
   "SEKOIAIntelligenceCenter": {
     "id": "SEKOIAIntelligenceCenter",
     "name": "SEKOIA Intelligence Center",
-    "description": "",
-    "category": [],
+    "description": "SEKOIA Intelligence Center is a cyber threat intelligence platform providing curated indicators, threat actor, malware, and campaign context mapped to MITRE ATT&CK, enabling observable enrichment and IOC validation during investigations",
+    "category": [
+      "Threat Intelligence"
+    ],
     "tags": [],
-    "homepage": "",
-    "logo_url": "",
+    "homepage": "https://www.sekoia.io",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/SEKOIAIntelligenceCenter/assets/logo.png",
     "visibility": "low",
     "subscription": {
       "required": true,
