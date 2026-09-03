@@ -168,6 +168,9 @@ Built something useful? Contributions are welcome!
 **[Cisco Umbrella Investigate](vendors/CiscoUmbrellaInvestigate/overview.md)** (2 integrations)
   Cisco Umbrella Investigate is a threat intelligence API providing domain and IP reputation, WHOIS...
 
+**[FoxIO](vendors/FoxIO/overview.md)** (1 integrations)
+  FoxIO is the creator of JA4+, a suite of network fingerprinting methods for identifying TLS clien...
+
 **[Hunter.io](vendors/Hunterio/overview.md)** (1 integrations)
   Hunter.io discovers and verifies email addresses associated with domains, enabling investigators ...
 
@@ -373,8 +376,6 @@ Built something useful? Contributions are welcome!
 **[FireHOL](vendors/FireHOL/overview.md)** (1 integrations)
 
 **[Forcepoint WebsensePing](vendors/ForcepointWebsensePing/overview.md)** (1 integrations)
-
-**[FoxIO](vendors/FoxIO/overview.md)** (1 integrations)
 
 **[Gatewatcher CTI](vendors/Gatewatcher_CTI/overview.md)** (2 integrations)
 
@@ -637,7 +638,7 @@ Built something useful? Contributions are welcome!
 - **[FireEye iSIGHT](vendors/FireEyeiSight/overview.md)** - *Uncategorized* - 1 analyzers
 - **[FireHOL](vendors/FireHOL/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Forcepoint WebsensePing](vendors/ForcepointWebsensePing/overview.md)** - *Uncategorized* - 1 analyzers
-- **[FoxIO](vendors/FoxIO/overview.md)** - *Uncategorized* - 1 analyzers
+- **[FoxIO](vendors/FoxIO/overview.md)** - *OSINT & Enrichment* - 1 analyzers
 - **[Gatewatcher CTI](vendors/Gatewatcher_CTI/overview.md)** - *Uncategorized* - 1 analyzers, 1 responders
 - **[Gmail](vendors/Gmail/overview.md)** - *Uncategorized* - 5 responders
 - **[Google Safe Browsing](vendors/GoogleSafebrowsing/overview.md)** - *Uncategorized* - 1 analyzers

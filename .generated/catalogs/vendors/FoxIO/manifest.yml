@@ -3,10 +3,12 @@
 
 id: FoxIO
 name: FoxIO
-description: ''
-category: ''
+description: FoxIO is the creator of JA4+, a suite of network fingerprinting methods for identifying TLS clients, servers
+  and applications, and maintains the JA4 Database (ja4db.com) that maps fingerprints to known applications, malware and user
+  agents for network-based threat detection and enrichment
+category: OSINT & Enrichment
 tags: []
-homepage: ''
+homepage: https://foxio.io
 logo: {}
 useCases: []
 notifier: false

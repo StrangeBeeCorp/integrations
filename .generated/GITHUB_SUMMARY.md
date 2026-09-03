@@ -11,11 +11,4 @@
 
 ## Changes
 
-### Added Vendors (1)
-
-- `ThreatFox`
-
-### Updated Vendors (2)
-
-- **Elasticsearch**: 2 -> 3 (+1)
-- **Check Point Harmony Email & Collaboration**: 5 -> 8 (+3)
+No changes detected.
