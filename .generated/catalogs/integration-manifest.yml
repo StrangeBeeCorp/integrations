@@ -979,16 +979,54 @@ CheckPointHEC:
       github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchBySender.json
       upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CheckPointHEC
       integration_type: null
-    responders: []
+    responders:
+    - name: CheckPointHEC Restore
+      version: '1.0'
+      author: Fabien Bloume, StrangeBee
+      license: AGPL-V3
+      description: Restore (resend) a quarantined email in Check Point Harmony Email & Collaboration by its Message-ID extracted
+        from an .eml file observable.
+      dataTypes:
+      - thehive:case_artifact
+      file: .upstream/cortex/responders/CheckPointHEC/CheckPointHEC_Restore.json
+      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/CheckPointHEC/CheckPointHEC_Restore.json
+      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/CheckPointHEC/CheckPointHEC_Restore.json
+      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CheckPointHEC
+      integration_type: null
+    - name: CheckPointHEC QuarantineByMessageId
+      version: '1.0'
+      author: Fabien Bloume, StrangeBee
+      license: AGPL-V3
+      description: Quarantine an email in Check Point Harmony Email & Collaboration by its Message-ID (text observable).
+      dataTypes:
+      - thehive:case_artifact
+      file: .upstream/cortex/responders/CheckPointHEC/CheckPointHEC_QuarantineByMessageId.json
+      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/CheckPointHEC/CheckPointHEC_QuarantineByMessageId.json
+      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/CheckPointHEC/CheckPointHEC_QuarantineByMessageId.json
+      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CheckPointHEC
+      integration_type: null
+    - name: CheckPointHEC Quarantine
+      version: '1.0'
+      author: Fabien Bloume, StrangeBee
+      license: AGPL-V3
+      description: Quarantine an email in Check Point Harmony Email & Collaboration by its Message-ID extracted from an .eml
+        file observable.
+      dataTypes:
+      - thehive:case_artifact
+      file: .upstream/cortex/responders/CheckPointHEC/CheckPointHEC_Quarantine.json
+      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/CheckPointHEC/CheckPointHEC_Quarantine.json
+      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/CheckPointHEC/CheckPointHEC_Quarantine.json
+      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CheckPointHEC
+      integration_type: null
     functions: []
   stats:
     totalAnalyzers: 5
-    totalResponders: 0
+    totalResponders: 3
     totalFunctions: 0
     totalUseCases: 0
     totalExternalIntegrations: 0
     totalNotifiers: 0
-    total: 5
+    total: 8
 CIRCLHashlookup:
   id: CIRCLHashlookup
   name: CIRCL Hash Lookup
@@ -3148,8 +3186,12 @@ Elasticsearch:
   visibility: low
   analyzersTagline: ''
   analyzerDisplayName: ''
-  registration_required: false
-  subscription_required: false
+  registration_required:
+  - true
+  - false
+  subscription_required:
+  - true
+  - false
   free_subscription: true
   integrations:
     analyzers:
@@ -3175,16 +3217,30 @@ Elasticsearch:
       github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Elasticsearch/Elasticsearch_Analysis.json
       upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Elasticsearch
       integration_type: null
-    responders: []
+    responders:
+    - name: ElasticSecurity AlertStatusSync
+      version: '1.0'
+      author: Fabien Bloume, StrangeBee
+      license: AGPL-V3
+      description: Sync TheHive case/alert status back to the corresponding Elastic Security detection alert(s), including
+        a closing reason
+      dataTypes:
+      - thehive:case
+      - thehive:alert
+      file: .upstream/cortex/responders/Elasticsearch/ElasticSecurity_AlertStatusSync.json
+      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Elasticsearch/ElasticSecurity_AlertStatusSync.json
+      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Elasticsearch/ElasticSecurity_AlertStatusSync.json
+      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Elasticsearch
+      integration_type: external_api
     functions: []
   stats:
     totalAnalyzers: 1
-    totalResponders: 0
+    totalResponders: 1
     totalFunctions: 0
     totalUseCases: 0
     totalExternalIntegrations: 1
     totalNotifiers: 0
-    total: 2
+    total: 3
 Email:
   id: Email
   name: Email
@@ -6615,7 +6671,7 @@ MSDefenderOffice365:
       version: '1.0'
       author: Vito Piserchia
       license: AGPL-V3
-      description: Add entries to the Tenant Allow/Block List in the Microsoft 365 Defender
+      description: Remove allow entries from the Tenant Allow/Block List in the Microsoft 365 Defender
       dataTypes:
       - thehive:case_artifact
       file: .upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_disallow.json
@@ -6627,7 +6683,7 @@ MSDefenderOffice365:
       version: '1.0'
       author: Joe Lazaro
       license: AGPL-V3
-      description: Add entries to the Tenant Allow/Block List in the Microsoft 365 Defender
+      description: Remove block entries from the Tenant Allow/Block List in the Microsoft 365 Defender
       dataTypes:
       - thehive:case_artifact
       file: .upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_unblock.json
@@ -10763,6 +10819,53 @@ ThreatConnect:
     totalFunctions: 0
     totalUseCases: 0
     totalExternalIntegrations: 1
+    totalNotifiers: 0
+    total: 1
+ThreatFox:
+  id: ThreatFox
+  name: ThreatFox
+  description: ''
+  category: ''
+  tags: []
+  homepage: ''
+  logo: {}
+  useCases: []
+  notifier: false
+  externalIntegrations: []
+  displayOnWebsite: true
+  visibility: 100
+  analyzersTagline: ''
+  analyzerDisplayName: ''
+  registration_required: true
+  subscription_required: false
+  free_subscription: true
+  integrations:
+    analyzers:
+    - name: ThreatFox
+      version: '1.0'
+      author: Fabien Bloume, StrangeBee
+      license: AGPL-V3
+      description: Check an IP, domain, URL or hash against ThreatFox (abuse.ch), a free platform for sharing indicators of
+        compromise associated with malware.
+      dataTypes:
+      - ip
+      - domain
+      - fqdn
+      - url
+      - hash
+      file: .upstream/cortex/analyzers/ThreatFox/ThreatFox.json
+      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/ThreatFox/ThreatFox.json
+      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/ThreatFox/ThreatFox.json
+      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/ThreatFox
+      integration_type: null
+    responders: []
+    functions: []
+  stats:
+    totalAnalyzers: 1
+    totalResponders: 0
+    totalFunctions: 0
+    totalUseCases: 0
+    totalExternalIntegrations: 0
     totalNotifiers: 0
     total: 1
 ThreatMiner:

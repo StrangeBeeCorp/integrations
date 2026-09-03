@@ -36,3 +36,30 @@ Search for all emails from a sender address in Check Point Harmony Email & Colla
 - **Author:** Fabien Bloume, StrangeBee
 - **License:** AGPL-V3
 - **Data Types:** `mail`, `file`
+
+---
+
+## Responders (3)
+
+### Trigger automated responses
+
+#### [CheckPointHEC Restore v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CheckPointHEC)
+Restore (resend) a quarantined email in Check Point Harmony Email & Collaboration by its Message-ID extracted from an .eml file observable.
+
+- **Author:** Fabien Bloume, StrangeBee
+- **License:** AGPL-V3
+- **Data Types:** `thehive:case_artifact`
+
+#### [CheckPointHEC QuarantineByMessageId v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CheckPointHEC)
+Quarantine an email in Check Point Harmony Email & Collaboration by its Message-ID (text observable).
+
+- **Author:** Fabien Bloume, StrangeBee
+- **License:** AGPL-V3
+- **Data Types:** `thehive:case_artifact`
+
+#### [CheckPointHEC Quarantine v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CheckPointHEC)
+Quarantine an email in Check Point Harmony Email & Collaboration by its Message-ID extracted from an .eml file observable.
+
+- **Author:** Fabien Bloume, StrangeBee
+- **License:** AGPL-V3
+- **Data Types:** `thehive:case_artifact`

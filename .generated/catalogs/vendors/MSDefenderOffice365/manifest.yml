@@ -54,7 +54,7 @@ integrations:
     version: '1.0'
     author: Vito Piserchia
     license: AGPL-V3
-    description: Add entries to the Tenant Allow/Block List in the Microsoft 365 Defender
+    description: Remove allow entries from the Tenant Allow/Block List in the Microsoft 365 Defender
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_disallow.json
@@ -66,7 +66,7 @@ integrations:
     version: '1.0'
     author: Joe Lazaro
     license: AGPL-V3
-    description: Add entries to the Tenant Allow/Block List in the Microsoft 365 Defender
+    description: Remove block entries from the Tenant Allow/Block List in the Microsoft 365 Defender
     dataTypes:
     - thehive:case_artifact
     file: .upstream/cortex/responders/MSDefenderOffice365/MSDefenderOffice365_unblock.json

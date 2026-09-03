@@ -1,0 +1,53 @@
+{
+  "id": "ThreatFox",
+  "name": "ThreatFox",
+  "description": "",
+  "category": "",
+  "tags": [],
+  "homepage": "",
+  "logo": {},
+  "useCases": [],
+  "notifier": false,
+  "externalIntegrations": [],
+  "displayOnWebsite": true,
+  "visibility": 100,
+  "analyzersTagline": "",
+  "analyzerDisplayName": "",
+  "registration_required": true,
+  "subscription_required": false,
+  "free_subscription": true,
+  "integrations": {
+    "analyzers": [
+      {
+        "name": "ThreatFox",
+        "version": "1.0",
+        "author": "Fabien Bloume, StrangeBee",
+        "license": "AGPL-V3",
+        "description": "Check an IP, domain, URL or hash against ThreatFox (abuse.ch), a free platform for sharing indicators of compromise associated with malware.",
+        "dataTypes": [
+          "ip",
+          "domain",
+          "fqdn",
+          "url",
+          "hash"
+        ],
+        "file": ".upstream/cortex/analyzers/ThreatFox/ThreatFox.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/ThreatFox/ThreatFox.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/ThreatFox/ThreatFox.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/ThreatFox",
+        "integration_type": null
+      }
+    ],
+    "responders": [],
+    "functions": []
+  },
+  "stats": {
+    "totalAnalyzers": 1,
+    "totalResponders": 0,
+    "totalFunctions": 0,
+    "totalUseCases": 0,
+    "totalExternalIntegrations": 0,
+    "totalNotifiers": 0,
+    "total": 1
+  }
+}

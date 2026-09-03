@@ -4,9 +4,9 @@ Integrations that are either free to use or run locally without external depende
 
 ## Summary
 
-- **Total Analyzers:** 79 (14 local, 65 free)
-- **Total Responders:** 12 (2 local, 10 free)
-- **Total Integrations:** 91
+- **Total Analyzers:** 80 (14 local, 66 free)
+- **Total Responders:** 13 (2 local, 11 free)
+- **Total Integrations:** 93
 
 ## Analyzers
 
@@ -715,6 +715,16 @@ Execute a savedsearch on a Splunk instance with a user agent as argument
 </details>
 
 <details>
+<summary><strong>ThreatFox</strong> <code>v1.0</code> [Free] - ThreatFox</summary>
+
+**Vendor:** [ThreatFox](vendors/ThreatFox/overview)
+**Data Types:** `ip`, `domain`, `fqdn`, `url`, `hash`
+
+Check an IP, domain, URL or hash against ThreatFox (abuse.ch), a free platform for sharing indicators of compromise associated with malware.
+
+</details>
+
+<details>
 <summary><strong>TorBlutmagie</strong> <code>v1.0</code> [Free] - TorBlutmagie</summary>
 
 **Vendor:** [TorBlutmagie](vendors/TorBlutmagie/overview)
@@ -841,6 +851,16 @@ Report an IP address to AbuseIPDB for abuse tracking and community sharing. Plea
 </details>
 
 <details>
+<summary><strong>ElasticSecurity AlertStatusSync</strong> <code>v1.0</code> [Free] - Elasticsearch</summary>
+
+**Vendor:** [Elasticsearch](vendors/Elasticsearch/overview)
+**Data Types:** `thehive:case`, `thehive:alert`
+
+Sync TheHive case/alert status back to the corresponding Elastic Security detection alert(s), including a closing reason
+
+</details>
+
+<details>
 <summary><strong>Jupyter Run Notebook Responder</strong> <code>v1.0</code> [Free] - Jupyter</summary>
 
 **Vendor:** [Jupyter](vendors/Jupyter/overview)
@@ -876,7 +896,7 @@ Add entries to the Tenant Allow/Block List in the Microsoft 365 Defender
 **Vendor:** [Microsoft Defender for Office 365](vendors/MSDefenderOffice365/overview)
 **Data Types:** `thehive:case_artifact`
 
-Add entries to the Tenant Allow/Block List in the Microsoft 365 Defender
+Remove allow entries from the Tenant Allow/Block List in the Microsoft 365 Defender
 
 </details>
 
@@ -886,7 +906,7 @@ Add entries to the Tenant Allow/Block List in the Microsoft 365 Defender
 **Vendor:** [Microsoft Defender for Office 365](vendors/MSDefenderOffice365/overview)
 **Data Types:** `thehive:case_artifact`
 
-Add entries to the Tenant Allow/Block List in the Microsoft 365 Defender
+Remove block entries from the Tenant Allow/Block List in the Microsoft 365 Defender
 
 </details>
 

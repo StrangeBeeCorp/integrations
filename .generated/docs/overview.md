@@ -17,13 +17,13 @@ Built something useful? Contributions are welcome!
 
 ## Summary Statistics
 
-- **Total Vendors:** 198
-- **Total Analyzers:** 282
-- **Total Responders:** 157
+- **Total Vendors:** 199
+- **Total Analyzers:** 283
+- **Total Responders:** 161
 - **Total Functions:** 7
 - **Total Notifiers:** 8
 - **Total External Integrations:** 12
-- **Total Integrations:** 466
+- **Total Integrations:** 471
 
 ## Vendors by Category
 
@@ -102,7 +102,7 @@ Built something useful? Contributions are welcome!
 
 ### Email Security
 
-**[Check Point Harmony Email & Collaboration](vendors/CheckPointHEC/overview.md)** (5 integrations)
+**[Check Point Harmony Email & Collaboration](vendors/CheckPointHEC/overview.md)** (8 integrations)
   Check Point Harmony Email & Collaboration (HEC) is a cloud email security solution protecting Mic...
 
 **[Microsoft Defender for Office 365](vendors/MSDefenderOffice365/overview.md)** (5 integrations)
@@ -192,7 +192,7 @@ Built something useful? Contributions are welcome!
 
 ### SIEM & Analytics
 
-**[Elasticsearch](vendors/Elasticsearch/overview.md)** (2 integrations)
+**[Elasticsearch](vendors/Elasticsearch/overview.md)** (3 integrations)
   Elasticsearch is a distributed search and analytics engine that powers SIEM solutions and log ana...
 
 **[IBM QRadar](vendors/IBMQRadar/overview.md)** (1 integrations)
@@ -482,6 +482,8 @@ Built something useful? Contributions are welcome!
 
 **[Test Analyzer](vendors/TestAnalyzer/overview.md)** (2 integrations)
 
+**[ThreatFox](vendors/ThreatFox/overview.md)** (1 integrations)
+
 **[ThreatMiner](vendors/ThreatMiner/overview.md)** (1 integrations)
 
 **[Thunderstorm](vendors/Thunderstorm/overview.md)** (1 integrations)
@@ -589,7 +591,7 @@ Built something useful? Contributions are welcome!
 - **[Censys](vendors/Censys/overview.md)** - *Attack Surface Intelligence* - 1 analyzers
 - **[CERT.AT pDNS](vendors/CERTatPassiveDNS/overview.md)** - *Threat Intelligence* - 1 analyzers
 - **[ChainAbuse](vendors/ChainAbuse/overview.md)** - *Uncategorized* - 1 analyzers
-- **[Check Point Harmony Email & Collaboration](vendors/CheckPointHEC/overview.md)** - *Email Security* - 5 analyzers
+- **[Check Point Harmony Email & Collaboration](vendors/CheckPointHEC/overview.md)** - *Email Security* - 5 analyzers, 3 responders
 - **[CheckPhish](vendors/CheckPhish/overview.md)** - *Uncategorized* - 2 analyzers
 - **[CheckPoint](vendors/CheckPoint/overview.md)** - *Uncategorized* - 2 responders
 - **[CIRCL Hash Lookup](vendors/CIRCLHashlookup/overview.md)** - *Uncategorized* - 1 analyzers
@@ -626,7 +628,7 @@ Built something useful? Contributions are welcome!
 - **[DShield](vendors/DShield/overview.md)** - *Uncategorized* - 1 analyzers
 - **[EchoTrail](vendors/EchoTrail/overview.md)** - *Uncategorized* - 1 analyzers
 - **[EclecticIQ](vendors/EclecticIQ/overview.md)** - *Uncategorized* - 1 analyzers, 1 responders
-- **[Elasticsearch](vendors/Elasticsearch/overview.md)** - *SIEM & Analytics* - 1 analyzers, 1 external
+- **[Elasticsearch](vendors/Elasticsearch/overview.md)** - *SIEM & Analytics* - 1 analyzers, 1 responders, 1 external
 - **[Email](vendors/Email/overview.md)** - *Collaboration* - notifier
 - **[EmailRep](vendors/EmailRep/overview.md)** - *Threat Intelligence* - 1 analyzers
 - **[EmergingThreats](vendors/EmergingThreats/overview.md)** - *Uncategorized* - 3 analyzers
@@ -742,6 +744,7 @@ Built something useful? Contributions are welcome!
 - **[Test](vendors/Test/overview.md)** - *Uncategorized* - 2 responders
 - **[Test Analyzer](vendors/TestAnalyzer/overview.md)** - *Uncategorized* - 2 analyzers
 - **[ThreatConnect](vendors/ThreatConnect/overview.md)** - *Threat Intelligence* - 1 external
+- **[ThreatFox](vendors/ThreatFox/overview.md)** - *Uncategorized* - 1 analyzers
 - **[ThreatMiner](vendors/ThreatMiner/overview.md)** - *Uncategorized* - 1 analyzers
 - **[ThreatQ](vendors/ThreatQ/overview.md)** - *Threat Intelligence* - 1 external
 - **[Thunderstorm](vendors/Thunderstorm/overview.md)** - *Uncategorized* - 1 analyzers
