@@ -1,0 +1,49 @@
+{
+  "name": "Run Suspicious_Verdict Responder",
+  "description": "Notification that triggers Suspicious_Verdict Responder when a 'suspicious:verdict=' taxonomy tag is added to a Case or an Alert.",
+  "contributor": "EB // THA-CERT",
+  "type": "filteredEvent",
+  "status": "working",
+  "comment": "Triggers RunResponder 'Suspicious_Verdict' on Alert, and RunResponder 'Suspicious_Verdict' on Case.",
+  "filter": {
+    "_and": [
+      {
+        "_or": [
+          {
+            "_eq": {
+              "_field": "objectType",
+              "_value": "Case"
+            }
+          },
+          {
+            "_eq": {
+              "_field": "objectType",
+              "_value": "Alert"
+            }
+          }
+        ]
+      },
+      {
+        "_arrayMatch": {
+          "_field": "details.tagChanges",
+          "_filter": {
+            "_and": [
+              {
+                "_eq": {
+                  "_field": "operation",
+                  "_value": "added"
+                }
+              },
+              {
+                "_startsWith": {
+                  "_field": "values",
+                  "_value": "suspicious:verdict="
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+}
