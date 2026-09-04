@@ -31,32 +31,17 @@
         "integration_type": null
       },
       {
-        "name": "MetaDefenderCloud Scan",
+        "name": "MetaDefenderCore Scan",
         "version": "1.0",
         "author": "Davide Arcuri and Andrea Garavaglia, LDO-CERT",
         "license": "AGPL-V3",
-        "description": "Scan a file with MetaDefender Cloud",
+        "description": "Scan a file with MetaDefender Core",
         "dataTypes": [
           "file"
         ],
-        "file": ".upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_Scan.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_Scan.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_Scan.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MetaDefender",
-        "integration_type": null
-      },
-      {
-        "name": "MetaDefenderCloud GetReport",
-        "version": "1.0",
-        "author": "Davide Arcuri and Andrea Garavaglia, LDO-CERT",
-        "license": "AGPL-V3",
-        "description": "Get the latest MetaDefender Cloud report for hash.",
-        "dataTypes": [
-          "hash"
-        ],
-        "file": ".upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_GetReport.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_GetReport.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_GetReport.json",
+        "file": ".upstream/cortex/analyzers/MetaDefender/MetaDefenderCore_Scan.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCore_Scan.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCore_Scan.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MetaDefender",
         "integration_type": null
       },
@@ -78,17 +63,32 @@
         "integration_type": null
       },
       {
-        "name": "MetaDefenderCore Scan",
+        "name": "MetaDefenderCloud GetReport",
         "version": "1.0",
         "author": "Davide Arcuri and Andrea Garavaglia, LDO-CERT",
         "license": "AGPL-V3",
-        "description": "Scan a file with MetaDefender Core",
+        "description": "Get the latest MetaDefender Cloud report for hash.",
+        "dataTypes": [
+          "hash"
+        ],
+        "file": ".upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_GetReport.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_GetReport.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_GetReport.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MetaDefender",
+        "integration_type": null
+      },
+      {
+        "name": "MetaDefenderCloud Scan",
+        "version": "1.0",
+        "author": "Davide Arcuri and Andrea Garavaglia, LDO-CERT",
+        "license": "AGPL-V3",
+        "description": "Scan a file with MetaDefender Cloud",
         "dataTypes": [
           "file"
         ],
-        "file": ".upstream/cortex/analyzers/MetaDefender/MetaDefenderCore_Scan.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCore_Scan.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCore_Scan.json",
+        "file": ".upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_Scan.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_Scan.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MetaDefender/MetaDefenderCloud_Scan.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MetaDefender",
         "integration_type": null
       }

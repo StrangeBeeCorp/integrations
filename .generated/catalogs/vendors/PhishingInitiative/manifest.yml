@@ -22,18 +22,6 @@ free_subscription:
 - false
 integrations:
   analyzers:
-  - name: PhishingInitiative Lookup
-    version: '2.0'
-    author: CERT-BDF
-    license: AGPL-V3
-    description: Use Phishing Initiative to check if a URL is a verified phishing site.
-    dataTypes:
-    - url
-    file: .upstream/cortex/analyzers/PhishingInitiative/PhishingInitiative_Lookup.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/PhishingInitiative/PhishingInitiative_Lookup.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/PhishingInitiative/PhishingInitiative_Lookup.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PhishingInitiative
-    integration_type: null
   - name: PhishingInitiative Scan
     version: '1.0'
     author: Remi Pointel
@@ -44,6 +32,18 @@ integrations:
     file: .upstream/cortex/analyzers/PhishingInitiative/PhishingInitiative_Scan.json
     url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/PhishingInitiative/PhishingInitiative_Scan.json
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/PhishingInitiative/PhishingInitiative_Scan.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PhishingInitiative
+    integration_type: null
+  - name: PhishingInitiative Lookup
+    version: '2.0'
+    author: CERT-BDF
+    license: AGPL-V3
+    description: Use Phishing Initiative to check if a URL is a verified phishing site.
+    dataTypes:
+    - url
+    file: .upstream/cortex/analyzers/PhishingInitiative/PhishingInitiative_Lookup.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/PhishingInitiative/PhishingInitiative_Lookup.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/PhishingInitiative/PhishingInitiative_Lookup.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/PhishingInitiative
     integration_type: null
   responders: []
