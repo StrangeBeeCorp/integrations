@@ -1,7 +1,7 @@
 # AUTO-GENERATED - DO NOT EDIT
 
-total_functions: 18
-generic_count: 11
+total_functions: 19
+generic_count: 12
 vendor_count: 7
 functions:
 - name: computeCustomMetrics
@@ -91,6 +91,16 @@ functions:
   kind: function
   mode: Enabled
   file: integrations/generic/functions/function_alertfeeder_ingestSentinelIncidents.js
+  vendor: Generic
+- name: flagCase
+  version: 1.0.0
+  description: Flags the case it is invoked for. Works as a Notifier on a Case event such as a FilteredEvent on Case update,
+    and as an Action run manually from a case (create it with type Action:Case). Alerts cannot be flagged in TheHive 5, so
+    this function only targets cases. Already flagged cases are left untouched to avoid update loops on a Case update trigger.
+  type: Notifier
+  kind: function
+  mode: Enabled
+  file: integrations/generic/functions/function_notifier_flagCase.js
   vendor: Generic
 - name: externalAccessAutomation
   version: 1.0.0

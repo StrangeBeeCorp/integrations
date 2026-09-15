@@ -6,8 +6,8 @@ Example functions for TheHive. Use them as-is or as inspiration for your own.
 
 ## Summary
 
-- **Total Functions:** 18
-- **Generic Functions:** 11
+- **Total Functions:** 19
+- **Generic Functions:** 12
 - **Vendor-Specific Functions:** 7
 - **Vendors with Functions:** 6
 
@@ -177,6 +177,17 @@ This function will delete all the IP Observable from an alert
 Automatically grants external case access to client users when a case is closed. It reads the client custom field from the case, extracts the company domain label, and retrieves the external users linked to the case. Users whose email domain matches the client domain are identified and granted external access to the case.
 
 [View full documentation](externalaccessautomation.md)
+
+---
+
+### [flagCase](flagcase.md) `v1.0.0`
+
+**Type:** Notifier
+**Mode:** Enabled
+
+Flags the case it is invoked for. Works as a Notifier on a Case event such as a FilteredEvent on Case update, and as an Action run manually from a case (create it with type Action:Case). Alerts cannot be flagged in TheHive 5, so this function only targets cases. Already flagged cases are left untouched to avoid update loops on a Case update trigger.
+
+[View full documentation](flagcase.md)
 
 ---
 
