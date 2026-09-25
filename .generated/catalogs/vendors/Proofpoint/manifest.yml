@@ -14,22 +14,6 @@ logo:
   url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Proofpoint/assets/logo.png
   github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Proofpoint/assets/logo.png
 useCases:
-- name: Ingest Proofpoint MessagesDelivered Events into TheHive Using an Alert Feeder
-  description: Ingest Proofpoint TAP messagesDelivered events as TheHive alerts to track and respond to threats that have
-    reached user mailboxes and may require investigation.
-  documentation:
-    file: integrations/vendors/Proofpoint/use-cases/alert-ingestion-messageDelivered.md
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Proofpoint/use-cases/alert-ingestion-messageDelivered.md
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Proofpoint/use-cases/alert-ingestion-messageDelivered.md
-  tags:
-  - proofpoint
-  - tap
-  - messagesDelivered
-  - alert-ingestion
-  thehive_version_required: '5.5'
-  license_required: platinum
-  linked_to:
-  - integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered.js
 - name: Ingest Proofpoint ClicksPermitted Events into TheHive Using an Alert Feeder
   description: Ingest Proofpoint TAP clicksPermitted events as TheHive alerts to track and respond to users who clicked on
     malicious links that were not blocked by Proofpoint and may require investigation.
@@ -46,6 +30,22 @@ useCases:
   license_required: platinum
   linked_to:
   - integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted.js
+- name: Ingest Proofpoint MessagesDelivered Events into TheHive Using an Alert Feeder
+  description: Ingest Proofpoint TAP messagesDelivered events as TheHive alerts to track and respond to threats that have
+    reached user mailboxes and may require investigation.
+  documentation:
+    file: integrations/vendors/Proofpoint/use-cases/alert-ingestion-messageDelivered.md
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Proofpoint/use-cases/alert-ingestion-messageDelivered.md
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Proofpoint/use-cases/alert-ingestion-messageDelivered.md
+  tags:
+  - proofpoint
+  - tap
+  - messagesDelivered
+  - alert-ingestion
+  thehive_version_required: '5.5'
+  license_required: platinum
+  linked_to:
+  - integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered.js
 notifier: false
 externalIntegrations: []
 displayOnWebsite: true
@@ -73,15 +73,6 @@ integrations:
     integration_type: null
   responders: []
   functions:
-  - name: alertFeeder_ProofPoint_clicksPermitted
-    version: 1.0.0
-    author: Fabien Bloume, StrangeBee
-    description: Ingests ProofPoint clicksPermitted alerts in TheHive
-    kind: function
-    mode: Enabled
-    file: integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted.js
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted.js
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted.js
   - name: alertFeeder_ProofPoint_messageDelivered
     version: 1.0.0
     author: Fabien Bloume, StrangeBee
@@ -91,6 +82,15 @@ integrations:
     file: integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered.js
     url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered.js
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_messageDelivered.js
+  - name: alertFeeder_ProofPoint_clicksPermitted
+    version: 1.0.0
+    author: Fabien Bloume, StrangeBee
+    description: Ingests ProofPoint clicksPermitted alerts in TheHive
+    kind: function
+    mode: Enabled
+    file: integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted.js
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted.js
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted.js
 stats:
   totalAnalyzers: 1
   totalResponders: 0

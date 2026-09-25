@@ -16,6 +16,22 @@
   "integrations": {
     "analyzers": [
       {
+        "name": "PassiveTotal Ssl Certificate Details",
+        "version": "2.0",
+        "author": "CERT-BDF",
+        "license": "AGPL-V3",
+        "description": "PassiveTotal SSL Certificate Details Lookup.",
+        "dataTypes": [
+          "hash",
+          "ip"
+        ],
+        "file": ".upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Ssl_Certificate_Details.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Ssl_Certificate_Details.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Ssl_Certificate_Details.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQPassiveTotal",
+        "integration_type": null
+      },
+      {
         "name": "PassiveTotal Enrichment",
         "version": "2.0",
         "author": "CERT-BDF",
@@ -50,19 +66,18 @@
         "integration_type": null
       },
       {
-        "name": "PassiveTotal Malware",
+        "name": "PassiveTotal Ssl Certificate History",
         "version": "2.0",
         "author": "CERT-BDF",
         "license": "AGPL-V3",
-        "description": "PassiveTotal Malware Lookup.",
+        "description": "PassiveTotal SSL Certificate History Lookup.",
         "dataTypes": [
-          "domain",
-          "fqdn",
+          "hash",
           "ip"
         ],
-        "file": ".upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Malware.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Malware.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Malware.json",
+        "file": ".upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Ssl_Certificate_History.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Ssl_Certificate_History.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Ssl_Certificate_History.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQPassiveTotal",
         "integration_type": null
       },
@@ -84,52 +99,19 @@
         "integration_type": null
       },
       {
-        "name": "PassiveTotal Host Pairs",
+        "name": "PassiveTotal Unique Resolutions",
         "version": "2.0",
-        "author": "Brandon Dixon (9bplus)",
+        "author": "CERT-BDF",
         "license": "AGPL-V3",
-        "description": "PassiveTotal Host Pairs Lookup.",
+        "description": "PassiveTotal Unique Resolutions Lookup.",
         "dataTypes": [
           "domain",
           "fqdn",
           "ip"
         ],
-        "file": ".upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Host_Pairs.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Host_Pairs.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Host_Pairs.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQPassiveTotal",
-        "integration_type": null
-      },
-      {
-        "name": "PassiveTotal Osint",
-        "version": "2.0",
-        "author": "CERT-BDF",
-        "license": "AGPL-V3",
-        "description": "PassiveTotal OSINT Lookup.",
-        "dataTypes": [
-          "domain",
-          "fqdn",
-          "ip"
-        ],
-        "file": ".upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Osint.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Osint.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Osint.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQPassiveTotal",
-        "integration_type": null
-      },
-      {
-        "name": "PassiveTotal Ssl Certificate History",
-        "version": "2.0",
-        "author": "CERT-BDF",
-        "license": "AGPL-V3",
-        "description": "PassiveTotal SSL Certificate History Lookup.",
-        "dataTypes": [
-          "hash",
-          "ip"
-        ],
-        "file": ".upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Ssl_Certificate_History.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Ssl_Certificate_History.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Ssl_Certificate_History.json",
+        "file": ".upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Unique_Resolutions.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Unique_Resolutions.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Unique_Resolutions.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQPassiveTotal",
         "integration_type": null
       },
@@ -151,6 +133,40 @@
         "integration_type": null
       },
       {
+        "name": "PassiveTotal Osint",
+        "version": "2.0",
+        "author": "CERT-BDF",
+        "license": "AGPL-V3",
+        "description": "PassiveTotal OSINT Lookup.",
+        "dataTypes": [
+          "domain",
+          "fqdn",
+          "ip"
+        ],
+        "file": ".upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Osint.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Osint.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Osint.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQPassiveTotal",
+        "integration_type": null
+      },
+      {
+        "name": "PassiveTotal Malware",
+        "version": "2.0",
+        "author": "CERT-BDF",
+        "license": "AGPL-V3",
+        "description": "PassiveTotal Malware Lookup.",
+        "dataTypes": [
+          "domain",
+          "fqdn",
+          "ip"
+        ],
+        "file": ".upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Malware.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Malware.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Malware.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQPassiveTotal",
+        "integration_type": null
+      },
+      {
         "name": "PassiveTotal Whois Details",
         "version": "2.0",
         "author": "CERT-BDF",
@@ -168,35 +184,19 @@
         "integration_type": null
       },
       {
-        "name": "PassiveTotal Unique Resolutions",
+        "name": "PassiveTotal Host Pairs",
         "version": "2.0",
-        "author": "CERT-BDF",
+        "author": "Brandon Dixon (9bplus)",
         "license": "AGPL-V3",
-        "description": "PassiveTotal Unique Resolutions Lookup.",
+        "description": "PassiveTotal Host Pairs Lookup.",
         "dataTypes": [
           "domain",
           "fqdn",
           "ip"
         ],
-        "file": ".upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Unique_Resolutions.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Unique_Resolutions.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Unique_Resolutions.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQPassiveTotal",
-        "integration_type": null
-      },
-      {
-        "name": "PassiveTotal Ssl Certificate Details",
-        "version": "2.0",
-        "author": "CERT-BDF",
-        "license": "AGPL-V3",
-        "description": "PassiveTotal SSL Certificate Details Lookup.",
-        "dataTypes": [
-          "hash",
-          "ip"
-        ],
-        "file": ".upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Ssl_Certificate_Details.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Ssl_Certificate_Details.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Ssl_Certificate_Details.json",
+        "file": ".upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Host_Pairs.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Host_Pairs.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSRiskIQPassiveTotal/PassiveTotal_Host_Pairs.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSRiskIQPassiveTotal",
         "integration_type": null
       }

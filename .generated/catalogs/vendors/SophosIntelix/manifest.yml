@@ -17,22 +17,6 @@ analyzersTagline: ''
 analyzerDisplayName: ''
 integrations:
   analyzers:
-  - name: SophosIntelix GetReport
-    version: '0.3'
-    author: SOL
-    license: AGPL-V3
-    description: Fast and easy way to find out if the file is known Good, PUA (Potentially Unwanted Application), or, Malware.
-      For more information or to sign up for SophosLabs Intelix (with a free tier) see https://www.sophos.com/en-us/labs/intelix.aspx
-    dataTypes:
-    - hash
-    - domain
-    - fqdn
-    - url
-    file: .upstream/cortex/analyzers/SophosIntelix/SophosIntelix_GetReport.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_GetReport.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_GetReport.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SophosIntelix
-    integration_type: null
   - name: SophosIntelix Submit Static
     version: '0.1'
     author: SOL
@@ -58,6 +42,22 @@ integrations:
     file: .upstream/cortex/analyzers/SophosIntelix/SophosIntelix_Submit_Dynamic.json
     url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_Submit_Dynamic.json
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_Submit_Dynamic.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SophosIntelix
+    integration_type: null
+  - name: SophosIntelix GetReport
+    version: '0.3'
+    author: SOL
+    license: AGPL-V3
+    description: Fast and easy way to find out if the file is known Good, PUA (Potentially Unwanted Application), or, Malware.
+      For more information or to sign up for SophosLabs Intelix (with a free tier) see https://www.sophos.com/en-us/labs/intelix.aspx
+    dataTypes:
+    - hash
+    - domain
+    - fqdn
+    - url
+    file: .upstream/cortex/analyzers/SophosIntelix/SophosIntelix_GetReport.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_GetReport.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/SophosIntelix/SophosIntelix_GetReport.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/SophosIntelix
     integration_type: null
   responders: []

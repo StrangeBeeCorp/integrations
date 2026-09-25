@@ -24,6 +24,19 @@ subscription_required: true
 free_subscription: false
 integrations:
   analyzers:
+  - name: CheckPointHEC SearchByURL
+    version: '1.0'
+    author: Fabien Bloume, StrangeBee
+    license: AGPL-V3
+    description: Search for all emails containing a specific URL in Check Point Harmony Email & Collaboration and retrieve
+      their security verdicts.
+    dataTypes:
+    - url
+    file: .upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchByURL.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchByURL.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchByURL.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CheckPointHEC
+    integration_type: null
   - name: CheckPointHEC SearchByDomain
     version: '1.0'
     author: Fabien Bloume, StrangeBee
@@ -52,33 +65,6 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchBySenderIP.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CheckPointHEC
     integration_type: null
-  - name: CheckPointHEC SearchBySender
-    version: '1.0'
-    author: Fabien Bloume, StrangeBee
-    license: AGPL-V3
-    description: Search for all emails from a sender address in Check Point Harmony Email & Collaboration. Accepts a mail
-      observable or an .eml file (sender is extracted automatically, with forwarded email support).
-    dataTypes:
-    - mail
-    - file
-    file: .upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchBySender.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchBySender.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchBySender.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CheckPointHEC
-    integration_type: null
-  - name: CheckPointHEC SearchByURL
-    version: '1.0'
-    author: Fabien Bloume, StrangeBee
-    license: AGPL-V3
-    description: Search for all emails containing a specific URL in Check Point Harmony Email & Collaboration and retrieve
-      their security verdicts.
-    dataTypes:
-    - url
-    file: .upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchByURL.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchByURL.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchByURL.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CheckPointHEC
-    integration_type: null
   - name: CheckPointHEC SearchEmail
     version: '1.0'
     author: Fabien Bloume, StrangeBee
@@ -93,19 +79,21 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchEmail.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CheckPointHEC
     integration_type: null
-  responders:
-  - name: CheckPointHEC QuarantineByMessageId
+  - name: CheckPointHEC SearchBySender
     version: '1.0'
     author: Fabien Bloume, StrangeBee
     license: AGPL-V3
-    description: Quarantine an email in Check Point Harmony Email & Collaboration by its Message-ID (text observable).
+    description: Search for all emails from a sender address in Check Point Harmony Email & Collaboration. Accepts a mail
+      observable or an .eml file (sender is extracted automatically, with forwarded email support).
     dataTypes:
-    - thehive:case_artifact
-    file: .upstream/cortex/responders/CheckPointHEC/CheckPointHEC_QuarantineByMessageId.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/CheckPointHEC/CheckPointHEC_QuarantineByMessageId.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/CheckPointHEC/CheckPointHEC_QuarantineByMessageId.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CheckPointHEC
+    - mail
+    - file
+    file: .upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchBySender.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchBySender.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/CheckPointHEC/CheckPointHEC_SearchBySender.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CheckPointHEC
     integration_type: null
+  responders:
   - name: CheckPointHEC Restore
     version: '1.0'
     author: Fabien Bloume, StrangeBee
@@ -130,6 +118,18 @@ integrations:
     file: .upstream/cortex/responders/CheckPointHEC/CheckPointHEC_Quarantine.json
     url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/CheckPointHEC/CheckPointHEC_Quarantine.json
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/CheckPointHEC/CheckPointHEC_Quarantine.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CheckPointHEC
+    integration_type: null
+  - name: CheckPointHEC QuarantineByMessageId
+    version: '1.0'
+    author: Fabien Bloume, StrangeBee
+    license: AGPL-V3
+    description: Quarantine an email in Check Point Harmony Email & Collaboration by its Message-ID (text observable).
+    dataTypes:
+    - thehive:case_artifact
+    file: .upstream/cortex/responders/CheckPointHEC/CheckPointHEC_QuarantineByMessageId.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/CheckPointHEC/CheckPointHEC_QuarantineByMessageId.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/CheckPointHEC/CheckPointHEC_QuarantineByMessageId.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CheckPointHEC
     integration_type: null
   functions: []
