@@ -4,9 +4,9 @@ Integrations that are either free to use or run locally without external depende
 
 ## Summary
 
-- **Total Analyzers:** 80 (14 local, 66 free)
-- **Total Responders:** 13 (2 local, 11 free)
-- **Total Integrations:** 93
+- **Total Analyzers:** 85 (14 local, 71 free)
+- **Total Responders:** 14 (2 local, 12 free)
+- **Total Integrations:** 99
 
 ## Analyzers
 
@@ -395,6 +395,16 @@ Take a screenshot of an url, domain, FQDN or IP and report all HTTP redirections
 </details>
 
 <details>
+<summary><strong>Macadress</strong> <code>v1.0</code> [Free] - Macadress</summary>
+
+**Vendor:** [Macadress](vendors/Macadress/overview)
+**Data Types:** `mac`, `other`
+
+Identify the vendor, inferred device category, virtualization, special-use role and MAC-randomization confidence of a MAC address using macadress.com.
+
+</details>
+
+<details>
 <summary><strong>MalwareBazaar</strong> <code>v1.0</code> [Free] - MalwareBazaar</summary>
 
 **Vendor:** [MalwareBazaar](vendors/MalwareBazaar/overview)
@@ -541,6 +551,26 @@ Use Phishing Initiative to scan a URL.
 **Data Types:** `url`
 
 Use PhishTank to check if a URL is a verified phishing site.
+
+</details>
+
+<details>
+<summary><strong>RDAP</strong> <code>v1.0</code> [Free] - RDAP</summary>
+
+**Vendor:** [RDAP](vendors/RDAP/overview)
+**Data Types:** `domain`, `ip`
+
+Look up domain and IP registration data over RDAP, the IETF successor to WHOIS. No API key required.
+
+</details>
+
+<details>
+<summary><strong>ScanMalware</strong> <code>v1.0</code> [Free] - ScanMalware</summary>
+
+**Vendor:** [ScanMalware](vendors/ScanMalware/overview)
+**Data Types:** `domain`, `fqdn`, `url`, `ip`
+
+Look up a domain, URL or IP in the ScanMalware archive of sandboxed URL scans: scan statistics, the scans in which it was observed, and the scanner's risk verdict. No API key required.
 
 </details>
 
@@ -814,6 +844,26 @@ Get information from the RST Threat Feed, which integrated with Vulners, for a d
 
 </details>
 
+<details>
+<summary><strong>XposedOrNot BreachAnalytics</strong> <code>v1.0</code> [Free] - XposedOrNot</summary>
+
+**Vendor:** [XposedOrNot](vendors/XposedOrNot/overview)
+**Data Types:** `mail`
+
+Detailed XposedOrNot breach analytics for an email address: per-breach detail (date, records, exposed data classes, password-storage risk), first/latest exposure and overall risk. Free, no API key required.
+
+</details>
+
+<details>
+<summary><strong>XposedOrNot CheckEmail</strong> <code>v1.0</code> [Free] - XposedOrNot</summary>
+
+**Vendor:** [XposedOrNot](vendors/XposedOrNot/overview)
+**Data Types:** `mail`
+
+Fast check of an email address against the XposedOrNot data-breach database. Returns the list of breaches the address appears in. Free, no API key required.
+
+</details>
+
 ## Responders
 
 ### Local Responders
@@ -937,6 +987,16 @@ Creates a Slack channel for a TheHive case, invites participants, and optionally
 **Data Types:** `thehive:case`
 
 Syncs Slack channel conversations to TheHive task logs. Imports messages chronologically with file attachments for traceability.
+
+</details>
+
+<details>
+<summary><strong>SplunkES NotableStatusSync</strong> <code>v1.0</code> [Free] - Splunk</summary>
+
+**Vendor:** [Splunk](vendors/Splunk/overview)
+**Data Types:** `thehive:case`, `thehive:alert`
+
+Sync TheHive case/alert status back to the corresponding Splunk Enterprise Security notable event(s)
 
 </details>
 

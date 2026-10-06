@@ -17,13 +17,13 @@ Built something useful? Contributions are welcome!
 
 ## Summary Statistics
 
-- **Total Vendors:** 199
-- **Total Analyzers:** 283
-- **Total Responders:** 161
+- **Total Vendors:** 204
+- **Total Analyzers:** 288
+- **Total Responders:** 163
 - **Total Functions:** 7
 - **Total Notifiers:** 8
 - **Total External Integrations:** 12
-- **Total Integrations:** 471
+- **Total Integrations:** 478
 
 ## Vendors by Category
 
@@ -203,7 +203,7 @@ Built something useful? Contributions are welcome!
 **[Microsoft Sentinel](vendors/MSSentinel/overview.md)** (1 integrations)
   Microsoft Sentinel is a cloud-native SIEM and SOAR solution that delivers intelligent security an...
 
-**[Splunk](vendors/Splunk/overview.md)** (14 integrations)
+**[Splunk](vendors/Splunk/overview.md)** (15 integrations)
   Splunk is a leading SIEM platform that aggregates, indexes, and analyzes machine data from across...
 
 **[Wazuh](vendors/Wazuh/overview.md)** (1 integrations)
@@ -415,6 +415,8 @@ Built something useful? Contributions are welcome!
 
 **[LupovisProwl](vendors/LupovisProwl/overview.md)** (1 integrations)
 
+**[Macadress](vendors/Macadress/overview.md)** (1 integrations)
+
 **[Malpedia](vendors/Malpedia/overview.md)** (1 integrations)
 
 **[Malware Hash Registry (MHR)](vendors/TeamCymruMHR/overview.md)** (1 integrations)
@@ -455,9 +457,13 @@ Built something useful? Contributions are welcome!
 
 **[Pulsedive](vendors/Pulsedive/overview.md)** (1 integrations)
 
+**[RDAP](vendors/RDAP/overview.md)** (1 integrations)
+
 **[Redmine](vendors/Redmine/overview.md)** (1 integrations)
 
 **[Robtex](vendors/Robtex/overview.md)** (3 integrations)
+
+**[ScanMalware](vendors/ScanMalware/overview.md)** (1 integrations)
 
 **[SecurityTrails](vendors/SecurityTrails/overview.md)** (2 integrations)
 
@@ -478,6 +484,8 @@ Built something useful? Contributions are welcome!
 **[StamusNetworks](vendors/StamusNetworks/overview.md)** (1 integrations)
 
 **[StopForumSpam](vendors/StopForumSpam/overview.md)** (1 integrations)
+
+**[Suspicious](vendors/Suspicious/overview.md)** (1 integrations)
 
 **[Test](vendors/Test/overview.md)** (2 integrations)
 
@@ -510,6 +518,8 @@ Built something useful? Contributions are welcome!
 **[Watcher](vendors/Watcher/overview.md)** (5 integrations)
 
 **[WOT](vendors/WOT/overview.md)** (1 integrations)
+
+**[XposedOrNot](vendors/XposedOrNot/overview.md)** (2 integrations)
 
 **[Yeti](vendors/Yeti/overview.md)** (1 integrations)
 
@@ -671,6 +681,7 @@ Built something useful? Contributions are welcome!
 - **[LdapQuery](vendors/LdapQuery/overview.md)** - *Utilities* - 1 analyzers
 - **[Lookyloo](vendors/Lookyloo/overview.md)** - *Uncategorized* - 1 analyzers
 - **[LupovisProwl](vendors/LupovisProwl/overview.md)** - *Uncategorized* - 1 analyzers
+- **[Macadress](vendors/Macadress/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Mailer](vendors/Mailer/overview.md)** - *Utilities* - 1 responders
 - **[MailIncidentStatus](vendors/MailIncidentStatus/overview.md)** - *Utilities* - 1 responders
 - **[Malpedia](vendors/Malpedia/overview.md)** - *Uncategorized* - 1 analyzers
@@ -720,12 +731,14 @@ Built something useful? Contributions are welcome!
 - **[Pulsedive](vendors/Pulsedive/overview.md)** - *Uncategorized* - 1 analyzers
 - **[QrDecode](vendors/QrDecode/overview.md)** - *Utilities* - 1 analyzers
 - **[Rapid7 InsightConnect](vendors/InsightConnect/overview.md)** - *SOAR & Automation* - 1 external
+- **[RDAP](vendors/RDAP/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Recorded Future](vendors/RecordedFuture/overview.md)** - *Threat Intelligence* - 1 analyzers
 - **[Redis](vendors/Redis/overview.md)** - *SOAR & Automation* - notifier
 - **[Redmine](vendors/Redmine/overview.md)** - *Uncategorized* - 1 responders
 - **[Request Tracker (RT4)](vendors/RT4/overview.md)** - *Collaboration* - 1 responders
 - **[RiskIQ](vendors/MSRiskIQ/overview.md)** - *Attack Surface Intelligence* - 16 analyzers, 1 responders
 - **[Robtex](vendors/Robtex/overview.md)** - *Uncategorized* - 3 analyzers
+- **[ScanMalware](vendors/ScanMalware/overview.md)** - *Uncategorized* - 1 analyzers
 - **[SecurityTrails](vendors/SecurityTrails/overview.md)** - *Uncategorized* - 2 analyzers
 - **[SEKOIA Intelligence Center](vendors/SEKOIAIntelligenceCenter/overview.md)** - *Threat Intelligence* - 3 analyzers
 - **[SendGrid](vendors/SendGrid/overview.md)** - *Uncategorized* - 1 responders
@@ -738,9 +751,10 @@ Built something useful? Contributions are welcome!
 - **[SophosIntelix](vendors/SophosIntelix/overview.md)** - *Uncategorized* - 3 analyzers
 - **[SpamAssassin](vendors/SpamAssassin/overview.md)** - *Uncategorized* - 1 analyzers
 - **[SpamhausDBL](vendors/SpamhausDBL/overview.md)** - *Uncategorized* - 1 analyzers
-- **[Splunk](vendors/Splunk/overview.md)** - *SIEM & Analytics* - 11 analyzers, 1 functions, 2 external
+- **[Splunk](vendors/Splunk/overview.md)** - *SIEM & Analytics* - 11 analyzers, 1 responders, 1 functions, 2 external
 - **[StamusNetworks](vendors/StamusNetworks/overview.md)** - *Uncategorized* - 1 analyzers
 - **[StopForumSpam](vendors/StopForumSpam/overview.md)** - *Uncategorized* - 1 analyzers
+- **[Suspicious](vendors/Suspicious/overview.md)** - *Uncategorized* - 1 responders
 - **[Telegram](vendors/Telegram/overview.md)** - *Collaboration* - 1 responders
 - **[Test](vendors/Test/overview.md)** - *Uncategorized* - 2 responders
 - **[Test Analyzer](vendors/TestAnalyzer/overview.md)** - *Uncategorized* - 2 analyzers
@@ -769,6 +783,7 @@ Built something useful? Contributions are welcome!
 - **[Wazuh](vendors/Wazuh/overview.md)** - *SIEM & Analytics* - 1 responders
 - **[Webhook](vendors/Webhook/overview.md)** - *SOAR & Automation* - notifier
 - **[WOT](vendors/WOT/overview.md)** - *Uncategorized* - 1 analyzers
+- **[XposedOrNot](vendors/XposedOrNot/overview.md)** - *Uncategorized* - 2 analyzers
 - **[YARA](vendors/Yara/overview.md)** - *Malware Analysis* - 1 analyzers
 - **[Yeti](vendors/Yeti/overview.md)** - *Uncategorized* - 1 analyzers
 - **[ZEROFOX](vendors/ZEROFOX/overview.md)** - *Uncategorized* - 2 responders

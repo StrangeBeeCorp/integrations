@@ -3,10 +3,10 @@
 
 metadata:
   description: Vendors sorted by visibility tier (high, medium, low), then alphabetically
-  totalVendors: 199
+  totalVendors: 204
   highCount: 0
   mediumCount: 0
-  lowCount: 199
+  lowCount: 204
 high: []
 medium: []
 low:
@@ -5633,6 +5633,49 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     total: 1
+- id: Macadress
+  name: Macadress
+  description: ''
+  category: ''
+  tags: []
+  homepage: ''
+  logo: {}
+  useCases: []
+  notifier: false
+  externalIntegrations: []
+  displayOnWebsite: true
+  visibility: 100
+  analyzersTagline: ''
+  analyzerDisplayName: ''
+  registration_required: true
+  subscription_required: true
+  free_subscription: true
+  integrations:
+    analyzers:
+    - name: Macadress
+      version: '1.0'
+      author: Samy Massoud
+      license: AGPL-V3
+      description: Identify the vendor, inferred device category, virtualization, special-use role and MAC-randomization confidence
+        of a MAC address using macadress.com.
+      dataTypes:
+      - mac
+      - other
+      file: .upstream/cortex/analyzers/Macadress/Macadress.json
+      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Macadress/Macadress.json
+      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Macadress/Macadress.json
+      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Macadress
+      integration_type: null
+    responders: []
+    functions: []
+  stats:
+    totalAnalyzers: 1
+    totalResponders: 0
+    totalFunctions: 0
+    totalUseCases: 0
+    totalExternalIntegrations: 0
+    totalNotifiers: 0
+    total: 1
 - id: Mailer
   name: Mailer
   description: Built-in Cortex responder that sends notification emails through a locally configured SMTP server directly
@@ -8939,6 +8982,48 @@ low:
     totalExternalIntegrations: 1
     totalNotifiers: 0
     total: 1
+- id: RDAP
+  name: RDAP
+  description: ''
+  category: ''
+  tags: []
+  homepage: ''
+  logo: {}
+  useCases: []
+  notifier: false
+  externalIntegrations: []
+  displayOnWebsite: true
+  visibility: 100
+  analyzersTagline: ''
+  analyzerDisplayName: ''
+  registration_required: false
+  subscription_required: false
+  free_subscription: true
+  integrations:
+    analyzers:
+    - name: RDAP
+      version: '1.0'
+      author: yatuk
+      license: AGPL-V3
+      description: Look up domain and IP registration data over RDAP, the IETF successor to WHOIS. No API key required.
+      dataTypes:
+      - domain
+      - ip
+      file: .upstream/cortex/analyzers/RDAP/RDAP.json
+      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/RDAP/RDAP.json
+      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/RDAP/RDAP.json
+      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/RDAP
+      integration_type: null
+    responders: []
+    functions: []
+  stats:
+    totalAnalyzers: 1
+    totalResponders: 0
+    totalFunctions: 0
+    totalUseCases: 0
+    totalExternalIntegrations: 0
+    totalNotifiers: 0
+    total: 1
 - id: RecordedFuture
   name: Recorded Future
   description: Recorded Future is a real-time threat intelligence platform that analyzes data from the open web, dark web,
@@ -9424,6 +9509,51 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     total: 3
+- id: ScanMalware
+  name: ScanMalware
+  description: ''
+  category: ''
+  tags: []
+  homepage: ''
+  logo: {}
+  useCases: []
+  notifier: false
+  externalIntegrations: []
+  displayOnWebsite: true
+  visibility: 100
+  analyzersTagline: ''
+  analyzerDisplayName: ''
+  registration_required: false
+  subscription_required: false
+  free_subscription: true
+  integrations:
+    analyzers:
+    - name: ScanMalware
+      version: '1.0'
+      author: Jonas Lejon
+      license: AGPL-V3
+      description: 'Look up a domain, URL or IP in the ScanMalware archive of sandboxed URL scans: scan statistics, the scans
+        in which it was observed, and the scanner''s risk verdict. No API key required.'
+      dataTypes:
+      - domain
+      - fqdn
+      - url
+      - ip
+      file: .upstream/cortex/analyzers/ScanMalware/ScanMalware.json
+      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/ScanMalware/ScanMalware.json
+      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/ScanMalware/ScanMalware.json
+      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/ScanMalware
+      integration_type: null
+    responders: []
+    functions: []
+  stats:
+    totalAnalyzers: 1
+    totalResponders: 0
+    totalFunctions: 0
+    totalUseCases: 0
+    totalExternalIntegrations: 0
+    totalNotifiers: 0
+    total: 1
 - id: SecurityTrails
   name: SecurityTrails
   description: ''
@@ -10206,9 +10336,15 @@ low:
   visibility: 2
   analyzersTagline: ''
   analyzerDisplayName: ''
-  registration_required: false
-  subscription_required: false
-  free_subscription: true
+  registration_required:
+  - true
+  - false
+  subscription_required:
+  - true
+  - false
+  free_subscription:
+  - true
+  - false
   integrations:
     analyzers:
     - name: Splunk Search User
@@ -10348,7 +10484,20 @@ low:
       github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_hash.json
       upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk
       integration_type: null
-    responders: []
+    responders:
+    - name: SplunkES NotableStatusSync
+      version: '1.0'
+      author: Fabien Bloume, StrangeBee
+      license: AGPL-V3
+      description: Sync TheHive case/alert status back to the corresponding Splunk Enterprise Security notable event(s)
+      dataTypes:
+      - thehive:case
+      - thehive:alert
+      file: .upstream/cortex/responders/Splunk/SplunkES_NotableStatusSync.json
+      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Splunk/SplunkES_NotableStatusSync.json
+      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Splunk/SplunkES_NotableStatusSync.json
+      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Splunk
+      integration_type: external_api
     functions:
     - name: createAlertFromSplunk
       version: 1.0.0
@@ -10362,12 +10511,12 @@ low:
       github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Splunk/thehive/functions/function_API_createAlertFromSplunk.js
   stats:
     totalAnalyzers: 11
-    totalResponders: 0
+    totalResponders: 1
     totalFunctions: 1
     totalUseCases: 0
     totalExternalIntegrations: 2
     totalNotifiers: 0
-    total: 14
+    total: 15
 - id: StamusNetworks
   name: StamusNetworks
   description: ''
@@ -10440,6 +10589,45 @@ low:
   stats:
     totalAnalyzers: 1
     totalResponders: 0
+    totalFunctions: 0
+    totalUseCases: 0
+    totalExternalIntegrations: 0
+    totalNotifiers: 0
+    total: 1
+- id: Suspicious
+  name: Suspicious
+  description: ''
+  category: ''
+  tags: []
+  homepage: ''
+  logo: {}
+  useCases: []
+  notifier: false
+  externalIntegrations: []
+  displayOnWebsite: true
+  visibility: 100
+  analyzersTagline: ''
+  analyzerDisplayName: ''
+  integrations:
+    analyzers: []
+    responders:
+    - name: Suspicious Verdict
+      version: '1.0'
+      author: THA-CERT // EBA
+      license: AGPL-V3
+      description: Classifies cases or alerts on the Suspicious platform.
+      dataTypes:
+      - thehive:case
+      - thehive:alert
+      file: .upstream/cortex/responders/Suspicious/Suspicious_Verdict.json
+      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/Suspicious/Suspicious_Verdict.json
+      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/Suspicious/Suspicious_Verdict.json
+      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Suspicious
+      integration_type: null
+    functions: []
+  stats:
+    totalAnalyzers: 0
+    totalResponders: 1
     totalFunctions: 0
     totalUseCases: 0
     totalExternalIntegrations: 0
@@ -11818,6 +12006,61 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     total: 1
+- id: XposedOrNot
+  name: XposedOrNot
+  description: ''
+  category: ''
+  tags: []
+  homepage: ''
+  logo: {}
+  useCases: []
+  notifier: false
+  externalIntegrations: []
+  displayOnWebsite: true
+  visibility: 100
+  analyzersTagline: ''
+  analyzerDisplayName: ''
+  registration_required: false
+  subscription_required: false
+  free_subscription: true
+  integrations:
+    analyzers:
+    - name: XposedOrNot BreachAnalytics
+      version: '1.0'
+      author: XposedOrNot
+      license: AGPL-V3
+      description: 'Detailed XposedOrNot breach analytics for an email address: per-breach detail (date, records, exposed
+        data classes, password-storage risk), first/latest exposure and overall risk. Free, no API key required.'
+      dataTypes:
+      - mail
+      file: .upstream/cortex/analyzers/XposedOrNot/XposedOrNot_BreachAnalytics.json
+      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/XposedOrNot/XposedOrNot_BreachAnalytics.json
+      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/XposedOrNot/XposedOrNot_BreachAnalytics.json
+      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/XposedOrNot
+      integration_type: null
+    - name: XposedOrNot CheckEmail
+      version: '1.0'
+      author: XposedOrNot
+      license: AGPL-V3
+      description: Fast check of an email address against the XposedOrNot data-breach database. Returns the list of breaches
+        the address appears in. Free, no API key required.
+      dataTypes:
+      - mail
+      file: .upstream/cortex/analyzers/XposedOrNot/XposedOrNot_CheckEmail.json
+      url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/XposedOrNot/XposedOrNot_CheckEmail.json
+      github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/XposedOrNot/XposedOrNot_CheckEmail.json
+      upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/XposedOrNot
+      integration_type: null
+    responders: []
+    functions: []
+  stats:
+    totalAnalyzers: 2
+    totalResponders: 0
+    totalFunctions: 0
+    totalUseCases: 0
+    totalExternalIntegrations: 0
+    totalNotifiers: 0
+    total: 2
 - id: Yara
   name: YARA
   description: YARA is a pattern matching engine for malware identification and classification that enables analysts to create

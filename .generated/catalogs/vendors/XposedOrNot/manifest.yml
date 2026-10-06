@@ -1,0 +1,58 @@
+# AUTO-GENERATED - DO NOT EDIT
+# Edit vendor.yml for vendor metadata, then re-run the generator
+
+id: XposedOrNot
+name: XposedOrNot
+description: ''
+category: ''
+tags: []
+homepage: ''
+logo: {}
+useCases: []
+notifier: false
+externalIntegrations: []
+displayOnWebsite: true
+visibility: 100
+analyzersTagline: ''
+analyzerDisplayName: ''
+registration_required: false
+subscription_required: false
+free_subscription: true
+integrations:
+  analyzers:
+  - name: XposedOrNot BreachAnalytics
+    version: '1.0'
+    author: XposedOrNot
+    license: AGPL-V3
+    description: 'Detailed XposedOrNot breach analytics for an email address: per-breach detail (date, records, exposed data
+      classes, password-storage risk), first/latest exposure and overall risk. Free, no API key required.'
+    dataTypes:
+    - mail
+    file: .upstream/cortex/analyzers/XposedOrNot/XposedOrNot_BreachAnalytics.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/XposedOrNot/XposedOrNot_BreachAnalytics.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/XposedOrNot/XposedOrNot_BreachAnalytics.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/XposedOrNot
+    integration_type: null
+  - name: XposedOrNot CheckEmail
+    version: '1.0'
+    author: XposedOrNot
+    license: AGPL-V3
+    description: Fast check of an email address against the XposedOrNot data-breach database. Returns the list of breaches
+      the address appears in. Free, no API key required.
+    dataTypes:
+    - mail
+    file: .upstream/cortex/analyzers/XposedOrNot/XposedOrNot_CheckEmail.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/XposedOrNot/XposedOrNot_CheckEmail.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/XposedOrNot/XposedOrNot_CheckEmail.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/XposedOrNot
+    integration_type: null
+  responders: []
+  functions: []
+stats:
+  totalAnalyzers: 2
+  totalResponders: 0
+  totalFunctions: 0
+  totalUseCases: 0
+  totalExternalIntegrations: 0
+  totalNotifiers: 0
+  total: 2

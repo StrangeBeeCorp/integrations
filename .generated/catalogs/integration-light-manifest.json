@@ -2483,6 +2483,31 @@
       "total": 1
     }
   },
+  "Macadress": {
+    "id": "Macadress",
+    "name": "Macadress",
+    "description": "",
+    "category": [],
+    "tags": [],
+    "homepage": "",
+    "logo_url": "",
+    "visibility": 100,
+    "subscription": {
+      "required": true,
+      "free": true,
+      "paid": true
+    },
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Macadress/overview.md",
+    "stats": {
+      "totalAnalyzers": 1,
+      "totalResponders": 0,
+      "totalFunctions": 0,
+      "totalUseCases": 0,
+      "totalExternalIntegrations": 0,
+      "totalNotifiers": 0,
+      "total": 1
+    }
+  },
   "Mailer": {
     "id": "Mailer",
     "name": "Mailer",
@@ -3739,6 +3764,31 @@
       "total": 1
     }
   },
+  "RDAP": {
+    "id": "RDAP",
+    "name": "RDAP",
+    "description": "",
+    "category": [],
+    "tags": [],
+    "homepage": "",
+    "logo_url": "",
+    "visibility": 100,
+    "subscription": {
+      "required": false,
+      "free": true,
+      "paid": false
+    },
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/RDAP/overview.md",
+    "stats": {
+      "totalAnalyzers": 1,
+      "totalResponders": 0,
+      "totalFunctions": 0,
+      "totalUseCases": 0,
+      "totalExternalIntegrations": 0,
+      "totalNotifiers": 0,
+      "total": 1
+    }
+  },
   "RecordedFuture": {
     "id": "RecordedFuture",
     "name": "Recorded Future",
@@ -3869,6 +3919,31 @@
     "stats": {
       "totalAnalyzers": 0,
       "totalResponders": 1,
+      "totalFunctions": 0,
+      "totalUseCases": 0,
+      "totalExternalIntegrations": 0,
+      "totalNotifiers": 0,
+      "total": 1
+    }
+  },
+  "ScanMalware": {
+    "id": "ScanMalware",
+    "name": "ScanMalware",
+    "description": "",
+    "category": [],
+    "tags": [],
+    "homepage": "",
+    "logo_url": "",
+    "visibility": 100,
+    "subscription": {
+      "required": false,
+      "free": true,
+      "paid": false
+    },
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/ScanMalware/overview.md",
+    "stats": {
+      "totalAnalyzers": 1,
+      "totalResponders": 0,
       "totalFunctions": 0,
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
@@ -4195,19 +4270,19 @@
     "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Splunk/assets/logo.png",
     "visibility": 2,
     "subscription": {
-      "required": false,
+      "required": true,
       "free": true,
-      "paid": false
+      "paid": true
     },
     "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Splunk/overview.md",
     "stats": {
       "totalAnalyzers": 11,
-      "totalResponders": 0,
+      "totalResponders": 1,
       "totalFunctions": 1,
       "totalUseCases": 0,
       "totalExternalIntegrations": 2,
       "totalNotifiers": 0,
-      "total": 14
+      "total": 15
     }
   },
   "StamusNetworks": {
@@ -4253,6 +4328,31 @@
     "stats": {
       "totalAnalyzers": 1,
       "totalResponders": 0,
+      "totalFunctions": 0,
+      "totalUseCases": 0,
+      "totalExternalIntegrations": 0,
+      "totalNotifiers": 0,
+      "total": 1
+    }
+  },
+  "Suspicious": {
+    "id": "Suspicious",
+    "name": "Suspicious",
+    "description": "",
+    "category": [],
+    "tags": [],
+    "homepage": "",
+    "logo_url": "",
+    "visibility": 100,
+    "subscription": {
+      "required": false,
+      "free": false,
+      "paid": false
+    },
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Suspicious/overview.md",
+    "stats": {
+      "totalAnalyzers": 0,
+      "totalResponders": 1,
       "totalFunctions": 0,
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
@@ -4975,6 +5075,31 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "total": 1
+    }
+  },
+  "XposedOrNot": {
+    "id": "XposedOrNot",
+    "name": "XposedOrNot",
+    "description": "",
+    "category": [],
+    "tags": [],
+    "homepage": "",
+    "logo_url": "",
+    "visibility": 100,
+    "subscription": {
+      "required": false,
+      "free": true,
+      "paid": false
+    },
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/XposedOrNot/overview.md",
+    "stats": {
+      "totalAnalyzers": 2,
+      "totalResponders": 0,
+      "totalFunctions": 0,
+      "totalUseCases": 0,
+      "totalExternalIntegrations": 0,
+      "totalNotifiers": 0,
+      "total": 2
     }
   },
   "Yara": {
