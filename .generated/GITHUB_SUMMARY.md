@@ -11,14 +11,4 @@
 
 ## Changes
 
-### Added Vendors (5)
-
-- `Macadress`
-- `RDAP`
-- `ScanMalware`
-- `Suspicious`
-- `XposedOrNot`
-
-### Updated Vendors (1)
-
-- **Splunk**: 14 -> 15 (+1)
+No changes detected.
