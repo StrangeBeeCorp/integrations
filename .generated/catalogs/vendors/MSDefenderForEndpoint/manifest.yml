@@ -30,6 +30,19 @@ subscription_required: true
 free_subscription: false
 integrations:
   analyzers:
+  - name: MSDefenderForEndpoint HashReputation
+    version: '1.0'
+    author: Elina Galvao, StrangeBee
+    license: AGPL-V3
+    description: 'Check a file hash (SHA1 or SHA256) against Microsoft Defender for Endpoint: organization prevalence and
+      related alerts.'
+    dataTypes:
+    - hash
+    file: .upstream/cortex/analyzers/MSDefenderForEndpoint/MSDefenderForEndpoint_HashReputation.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSDefenderForEndpoint/MSDefenderForEndpoint_HashReputation.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSDefenderForEndpoint/MSDefenderForEndpoint_HashReputation.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSDefenderForEndpoint
+    integration_type: null
   - name: MSDefenderForEndpoint DeviceLookup
     version: '1.0'
     author: Elina Galvao, StrangeBee
@@ -44,30 +57,53 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSDefenderForEndpoint/MSDefenderForEndpoint_DeviceLookup.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSDefenderForEndpoint
     integration_type: null
-  - name: MSDefenderForEndpoint HashReputation
-    version: '1.0'
-    author: Elina Galvao, StrangeBee
-    license: AGPL-V3
-    description: 'Check a file hash (SHA1 or SHA256) against Microsoft Defender for Endpoint: organization prevalence and
-      related alerts.'
-    dataTypes:
-    - hash
-    file: .upstream/cortex/analyzers/MSDefenderForEndpoint/MSDefenderForEndpoint_HashReputation.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSDefenderForEndpoint/MSDefenderForEndpoint_HashReputation.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSDefenderForEndpoint/MSDefenderForEndpoint_HashReputation.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSDefenderForEndpoint
-    integration_type: null
   responders:
-  - name: MSDefenderForEndpoint-IsolateMachine
+  - name: MSDefenderForEndpoint-UnisolateMachine
     version: '1.0'
     author: Keijo Korte
     license: AGPL-V3
-    description: Isolate machine with Microsoft Defender for Endpoints
+    description: Unisolate machine with Microsoft Defender for Endpoints
     dataTypes:
     - thehive:case_artifact
-    file: .upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_Isolate.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_Isolate.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_Isolate.json
+    file: .upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_Unisolate.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_Unisolate.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_Unisolate.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderForEndpoint
+    integration_type: null
+  - name: MSDefenderForEndpoint-StopAndQuarantineFile
+    version: '1.0'
+    author: Elina Galvao, StrangeBee
+    license: AGPL-V3
+    description: Stop execution of a file and delete it on every machine where it was seen (SHA1 hashes only)
+    dataTypes:
+    - thehive:case_artifact
+    file: .upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_StopAndQuarantineFile.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_StopAndQuarantineFile.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_StopAndQuarantineFile.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderForEndpoint
+    integration_type: null
+  - name: MSDefenderForEndpoint-FullVirusScan
+    version: '1.0'
+    author: Keijo Korte
+    license: AGPL-V3
+    description: Run full virus scan to machine with Microsoft Defender for Endpoints
+    dataTypes:
+    - thehive:case_artifact
+    file: .upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_VirusScan.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_VirusScan.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_VirusScan.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderForEndpoint
+    integration_type: null
+  - name: MSDefenderForEndpoint-PushIOC-Audit
+    version: '1.0'
+    author: Vito Piserchia
+    license: AGPL-V3
+    description: Push IOC to Defender client. Audit mode
+    dataTypes:
+    - thehive:case_artifact
+    file: .upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_PushIOCAudit.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_PushIOCAudit.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_PushIOCAudit.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderForEndpoint
     integration_type: null
   - name: MSDefenderForEndpoint-PushIOC-BlockAndRemediate
@@ -82,76 +118,16 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_PushIOCBlockAndRemediate.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderForEndpoint
     integration_type: null
-  - name: MSDefenderForEndpoint-RestrictAppExecution
-    version: '1.0'
-    author: Keijo Korte, Louis-Maximilien Dupouy
-    license: AGPL-V3
-    description: Restrict execution of all applications on the device except a predefined set
-    dataTypes:
-    - thehive:case_artifact
-    file: .upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_RestrictAppExecution.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_RestrictAppExecution.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_RestrictAppExecution.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderForEndpoint
-    integration_type: null
-  - name: MSDefenderForEndpoint-AutoInvestigation
-    version: '1.0'
-    author: Keijo Korte, Louis-Maximilien Dupouy
-    license: AGPL-V3
-    description: Start an automated investigation on a device
-    dataTypes:
-    - thehive:case_artifact
-    file: .upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_AutoInvestigation.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_AutoInvestigation.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_AutoInvestigation.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderForEndpoint
-    integration_type: null
-  - name: MSDefenderForEndpoint-PushIOC-Allowed
-    version: '1.0'
-    author: Vito Piserchia
-    license: AGPL-V3
-    description: Push IOC to Defender client. Allowed mode
-    dataTypes:
-    - thehive:case_artifact
-    file: .upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_PushIOCAllowed.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_PushIOCAllowed.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_PushIOCAllowed.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderForEndpoint
-    integration_type: null
-  - name: MSDefenderForEndpoint-UnisolateMachine
+  - name: MSDefenderForEndpoint-IsolateMachine
     version: '1.0'
     author: Keijo Korte
     license: AGPL-V3
-    description: Unisolate machine with Microsoft Defender for Endpoints
+    description: Isolate machine with Microsoft Defender for Endpoints
     dataTypes:
     - thehive:case_artifact
-    file: .upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_Unisolate.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_Unisolate.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_Unisolate.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderForEndpoint
-    integration_type: null
-  - name: MSDefenderForEndpoint-PushIOC-Warn
-    version: '1.0'
-    author: Vito Piserchia
-    license: AGPL-V3
-    description: Push IOC to Defender client. Warn mode (Microsoft Defender for Cloud only)
-    dataTypes:
-    - thehive:case_artifact
-    file: .upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_PushIOCWarn.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_PushIOCWarn.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_PushIOCWarn.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderForEndpoint
-    integration_type: null
-  - name: MSDefenderForEndpoint-PushIOC-Audit
-    version: '1.0'
-    author: Vito Piserchia
-    license: AGPL-V3
-    description: Push IOC to Defender client. Audit mode
-    dataTypes:
-    - thehive:case_artifact
-    file: .upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_PushIOCAudit.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_PushIOCAudit.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_PushIOCAudit.json
+    file: .upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_Isolate.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_Isolate.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_Isolate.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderForEndpoint
     integration_type: null
   - name: MSDefenderForEndpoint-UnRestrictAppExecution
@@ -178,28 +154,52 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_PushIOCBlock.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderForEndpoint
     integration_type: null
-  - name: MSDefenderForEndpoint-StopAndQuarantineFile
+  - name: MSDefenderForEndpoint-PushIOC-Allowed
     version: '1.0'
-    author: Elina Galvao, StrangeBee
+    author: Vito Piserchia
     license: AGPL-V3
-    description: Stop execution of a file and delete it on every machine where it was seen (SHA1 hashes only)
+    description: Push IOC to Defender client. Allowed mode
     dataTypes:
     - thehive:case_artifact
-    file: .upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_StopAndQuarantineFile.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_StopAndQuarantineFile.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_StopAndQuarantineFile.json
+    file: .upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_PushIOCAllowed.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_PushIOCAllowed.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_PushIOCAllowed.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderForEndpoint
     integration_type: null
-  - name: MSDefenderForEndpoint-FullVirusScan
+  - name: MSDefenderForEndpoint-AutoInvestigation
     version: '1.0'
-    author: Keijo Korte
+    author: Keijo Korte, Louis-Maximilien Dupouy
     license: AGPL-V3
-    description: Run full virus scan to machine with Microsoft Defender for Endpoints
+    description: Start an automated investigation on a device
     dataTypes:
     - thehive:case_artifact
-    file: .upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_VirusScan.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_VirusScan.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_VirusScan.json
+    file: .upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_AutoInvestigation.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_AutoInvestigation.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_AutoInvestigation.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderForEndpoint
+    integration_type: null
+  - name: MSDefenderForEndpoint-RestrictAppExecution
+    version: '1.0'
+    author: Keijo Korte, Louis-Maximilien Dupouy
+    license: AGPL-V3
+    description: Restrict execution of all applications on the device except a predefined set
+    dataTypes:
+    - thehive:case_artifact
+    file: .upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_RestrictAppExecution.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_RestrictAppExecution.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_RestrictAppExecution.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderForEndpoint
+    integration_type: null
+  - name: MSDefenderForEndpoint-PushIOC-Warn
+    version: '1.0'
+    author: Vito Piserchia
+    license: AGPL-V3
+    description: Push IOC to Defender client. Warn mode (Microsoft Defender for Cloud only)
+    dataTypes:
+    - thehive:case_artifact
+    file: .upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_PushIOCWarn.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_PushIOCWarn.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSDefenderForEndpoint/MSDefenderForEndpoint_PushIOCWarn.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderForEndpoint
     integration_type: null
   functions: []
