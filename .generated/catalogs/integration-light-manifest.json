@@ -3028,40 +3028,6 @@
       "total": 15
     }
   },
-  "MSDefenderGraphSecurityAPI": {
-    "id": "MSDefenderGraphSecurityAPI",
-    "name": "Microsoft Defender (via Graph Security API)",
-    "description": "Aggregates security alerts from any product in the Microsoft Defender suite (Defender for Endpoint, Identity, Office 365, Cloud Apps, Sentinel, etc.) through the unified Microsoft Graph Security API, regardless of the originating source",
-    "category": [
-      "SIEM & Analytics"
-    ],
-    "tags": [
-      "microsoft",
-      "microsoft-defender",
-      "graph-security-api",
-      "siem",
-      "incident-response"
-    ],
-    "homepage": "https://learn.microsoft.com/en-us/graph/api/resources/security-api-overview",
-    "logo_url": "",
-    "visibility": 5,
-    "subscription": {
-      "required": false,
-      "free": false,
-      "paid": false
-    },
-    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/MSDefenderGraphSecurityAPI/overview.md",
-    "stats": {
-      "totalAnalyzers": 0,
-      "totalResponders": 0,
-      "totalFunctions": 0,
-      "totalUseCases": 0,
-      "totalExternalIntegrations": 0,
-      "totalNotifiers": 0,
-      "totalFlow": 1,
-      "total": 1
-    }
-  },
   "MSDefenderOffice365": {
     "id": "MSDefenderOffice365",
     "name": "Microsoft Defender for Office 365",

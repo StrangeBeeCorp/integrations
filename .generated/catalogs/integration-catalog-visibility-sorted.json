@@ -757,7 +757,7 @@
         ]
       },
       "externalIntegrations": [],
-      "displayOnWebsite": true,
+      "displayOnWebsite": false,
       "visibility": 5,
       "analyzersTagline": "",
       "analyzerDisplayName": "",

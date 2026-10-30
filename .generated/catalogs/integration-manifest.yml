@@ -7186,7 +7186,7 @@ MSDefenderGraphSecurityAPI:
     - Assign or classify the Defender incident when the TheHive case is closed
     - Keep incident status in sync between Defender and TheHive
   externalIntegrations: []
-  displayOnWebsite: true
+  displayOnWebsite: false
   visibility: 5
   analyzersTagline: ''
   analyzerDisplayName: ''
