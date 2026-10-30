@@ -219,16 +219,16 @@ Ingests alerts from JAMF Protect. Extracts analytic details, host and user infor
 
 ---
 
-### JIRA
+### Jira Cloud
 
-**Vendor:** [JIRA](../vendors/JIRA/overview)
+**Vendor:** [Jira Cloud](../vendors/JIRA/overview)
 
-#### [alertFromJIRA](jira-alertfromjira.md) `v1.0.0`
+#### [alertFromJIRA](jira-cloud-alertfromjira.md) `v1.0.0`
 **Kind:** `function`
 
 This function creates alerts from JIRA issues. It checks if the alert already exists, then creates it with type, source, source-ref, title, and description
 
-[View full documentation](jira-alertfromjira.md)
+[View full documentation](jira-cloud-alertfromjira.md)
 
 ---
 

@@ -10,6 +10,7 @@ homepage: https://filigran.io/platforms/opencti/
 logo: {}
 useCases: []
 notifier: false
+flow: {}
 externalIntegrations: []
 displayOnWebsite: true
 visibility: 100
@@ -18,6 +19,7 @@ analyzerDisplayName: ''
 registration_required: true
 subscription_required: false
 free_subscription: false
+vendor_internal_page_content_url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/OpenCTI/overview.md
 integrations:
   analyzers:
   - name: OpenCTI v6 SearchObservables
@@ -129,4 +131,5 @@ stats:
   totalUseCases: 0
   totalExternalIntegrations: 0
   totalNotifiers: 0
+  totalFlow: 0
   total: 4

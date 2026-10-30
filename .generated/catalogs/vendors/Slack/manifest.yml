@@ -39,6 +39,12 @@ useCases:
   - communication
   - notification
 notifier: true
+flow:
+  description: Notify, coordinate and interact with people in Slack during an incident.
+  examples:
+  - Post a notification in the SOC channel when a critical case is created
+  - Create a dedicated war-room channel per major incident and invite responders
+  - DM a user to confirm whether they performed a suspicious action
 externalIntegrations: []
 displayOnWebsite: true
 visibility: 12
@@ -47,6 +53,7 @@ analyzerDisplayName: ''
 registration_required: true
 subscription_required: false
 free_subscription: true
+vendor_internal_page_content_url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Slack/overview.md
 integrations:
   analyzers: []
   responders:
@@ -84,4 +91,5 @@ stats:
   totalUseCases: 2
   totalExternalIntegrations: 0
   totalNotifiers: 1
-  total: 3
+  totalFlow: 1
+  total: 4

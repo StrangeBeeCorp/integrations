@@ -18,7 +18,7 @@ Ingest Proofpoint TAP clicksPermitted events as TheHive alerts to track and resp
 
 ---
 
-## Analyzers (1)
+## Analyzer (1)
 
 ### Enrich observables with intelligence
 

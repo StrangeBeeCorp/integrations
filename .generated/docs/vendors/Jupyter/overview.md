@@ -1,4 +1,4 @@
-## Analyzers (1)
+## Analyzer (1)
 
 ### Enrich observables with intelligence
 
@@ -11,7 +11,7 @@ Execute a parameterized notebook in Jupyter
 
 ---
 
-## Responders (1)
+## Responder (1)
 
 ### Trigger automated responses
 

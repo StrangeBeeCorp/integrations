@@ -23,6 +23,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -56,6 +57,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 2
     }
   },
@@ -67,7 +69,7 @@
     "tags": [],
     "homepage": "",
     "logo_url": "",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": false,
       "free": true,
@@ -81,6 +83,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -106,6 +109,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -119,7 +123,7 @@
     "tags": [],
     "homepage": "https://any.run/?utm_source=thehive&utm_medium=documentation&utm_campaign=thehive&utm_content=linktolanding",
     "logo_url": "",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": true,
       "free": false,
@@ -133,6 +137,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 7
     }
   },
@@ -160,6 +165,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -187,6 +193,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -212,6 +219,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -237,6 +245,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 2
     }
   },
@@ -262,6 +271,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 2
     }
   },
@@ -295,6 +305,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -322,6 +333,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -335,7 +347,7 @@
     "tags": [],
     "homepage": "https://cert.at",
     "logo_url": "",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": false,
       "free": false,
@@ -349,6 +361,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -374,6 +387,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -399,6 +413,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 2
     }
   },
@@ -424,6 +439,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 2
     }
   },
@@ -451,6 +467,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 8
     }
   },
@@ -462,7 +479,7 @@
     "tags": [],
     "homepage": "",
     "logo_url": "",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": false,
       "free": true,
@@ -476,6 +493,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -487,7 +505,7 @@
     "tags": [],
     "homepage": "",
     "logo_url": "",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": true,
       "free": true,
@@ -501,6 +519,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -512,7 +531,7 @@
     "tags": [],
     "homepage": "",
     "logo_url": "",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": true,
       "free": true,
@@ -526,6 +545,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -537,7 +557,7 @@
     "tags": [],
     "homepage": "",
     "logo_url": "",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": true,
       "free": true,
@@ -551,6 +571,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -564,7 +585,7 @@
     "tags": [],
     "homepage": "",
     "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/CiscoAMPforEndpoints/assets/logo.png",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": false,
       "free": false,
@@ -578,6 +599,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 5
     }
   },
@@ -605,6 +627,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 3
     }
   },
@@ -630,6 +653,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -655,6 +679,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -682,6 +707,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 2
     }
   },
@@ -709,6 +735,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 2
     }
   },
@@ -734,6 +761,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -761,6 +789,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -788,6 +817,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -813,6 +843,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -838,6 +869,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -854,7 +886,7 @@
     ],
     "homepage": "https://www.paloaltonetworks.com/cortex/cortex-xsoar",
     "logo_url": "",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": false,
       "free": false,
@@ -868,6 +900,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 1,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -887,7 +920,7 @@
     ],
     "homepage": "https://www.crowdsec.net",
     "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Crowdsec/assets/logo.png",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": true,
       "free": true,
@@ -901,6 +934,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -934,7 +968,8 @@
       "totalUseCases": 2,
       "totalExternalIntegrations": 1,
       "totalNotifiers": 0,
-      "total": 21
+      "totalFlow": 1,
+      "total": 22
     }
   },
   "Crtsh": {
@@ -959,6 +994,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -986,6 +1022,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 2
     }
   },
@@ -1011,6 +1048,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 3
     }
   },
@@ -1036,6 +1074,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -1061,6 +1100,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -1086,6 +1126,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -1111,6 +1152,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 3
     }
   },
@@ -1136,6 +1178,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -1161,6 +1204,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -1186,6 +1230,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -1213,6 +1258,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -1240,6 +1286,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 10
     }
   },
@@ -1251,7 +1298,7 @@
     "tags": [],
     "homepage": "",
     "logo_url": "",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": true,
       "free": false,
@@ -1265,6 +1312,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 4
     }
   },
@@ -1290,6 +1338,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -1315,6 +1364,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -1340,6 +1390,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 2
     }
   },
@@ -1359,7 +1410,7 @@
     ],
     "homepage": "https://www.elastic.co",
     "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Elasticsearch/assets/logo.png",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": true,
       "free": true,
@@ -1373,7 +1424,8 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 1,
       "totalNotifiers": 0,
-      "total": 3
+      "totalFlow": 1,
+      "total": 4
     }
   },
   "EmailRep": {
@@ -1392,7 +1444,7 @@
     ],
     "homepage": "https://emailrep.io",
     "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/EmailRep/assets/logo.png",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": false,
       "free": true,
@@ -1406,6 +1458,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -1431,6 +1484,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 3
     }
   },
@@ -1458,6 +1512,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -1485,6 +1540,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -1496,7 +1552,7 @@
     "tags": [],
     "homepage": "",
     "logo_url": "",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": true,
       "free": false,
@@ -1510,6 +1566,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -1535,6 +1592,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -1546,7 +1604,7 @@
     "tags": [],
     "homepage": "",
     "logo_url": "",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": true,
       "free": false,
@@ -1560,6 +1618,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -1587,6 +1646,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -1612,6 +1672,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 2
     }
   },
@@ -1637,6 +1698,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 5
     }
   },
@@ -1662,6 +1724,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -1673,7 +1736,7 @@
     "tags": [],
     "homepage": "",
     "logo_url": "",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": false,
       "free": false,
@@ -1687,6 +1750,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -1722,6 +1786,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 5
     }
   },
@@ -1733,7 +1798,7 @@
     "tags": [],
     "homepage": "",
     "logo_url": "",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": false,
       "free": false,
@@ -1747,6 +1812,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -1764,7 +1830,7 @@
     ],
     "homepage": "https://www.greynoise.io",
     "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/GreyNoise/assets/logo.png",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": true,
       "free": true,
@@ -1778,6 +1844,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -1805,6 +1872,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -1832,7 +1900,8 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 1,
       "totalNotifiers": 0,
-      "total": 32
+      "totalFlow": 1,
+      "total": 33
     }
   },
   "Hashdd": {
@@ -1857,6 +1926,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 2
     }
   },
@@ -1876,7 +1946,7 @@
     ],
     "homepage": "https://haveibeenpwned.com",
     "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/HIBP/assets/logo.png",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": true,
       "free": false,
@@ -1890,6 +1960,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -1909,7 +1980,7 @@
     ],
     "homepage": "https://hunter.io",
     "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Hunterio/assets/logo.png",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": true,
       "free": true,
@@ -1923,6 +1994,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -1942,7 +2014,7 @@
     ],
     "homepage": "https://www.hybrid-analysis.com",
     "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/HybridAnalysis/assets/logo.ico",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": false,
       "free": false,
@@ -1956,6 +2028,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -1969,7 +2042,7 @@
     "tags": [],
     "homepage": "",
     "logo_url": "",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": true,
       "free": false,
@@ -1983,6 +2056,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -1996,7 +2070,7 @@
     "tags": [],
     "homepage": "",
     "logo_url": "",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": false,
       "free": false,
@@ -2010,6 +2084,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -2035,6 +2110,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -2052,7 +2128,7 @@
     ],
     "homepage": "https://www.rapid7.com/products/insightconnect/",
     "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/InsightConnect/assets/logo.png",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": false,
       "free": false,
@@ -2066,6 +2142,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 1,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -2091,6 +2168,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -2118,6 +2196,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -2137,7 +2216,7 @@
     ],
     "homepage": "https://ipinfo.io",
     "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/IPinfo/assets/logo.png",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": false,
       "free": false,
@@ -2151,6 +2230,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 2
     }
   },
@@ -2176,6 +2256,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -2201,6 +2282,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -2226,6 +2308,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -2251,16 +2334,24 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 3
     }
   },
   "JIRA": {
     "id": "JIRA",
-    "name": "JIRA",
-    "description": "",
-    "category": [],
-    "tags": [],
-    "homepage": "",
+    "name": "Jira Cloud",
+    "description": "Jira Cloud is Atlassian's issue tracking and project management platform, used by security teams to open and follow remediation tickets with the teams that own the affected systems",
+    "category": [
+      "Collaboration"
+    ],
+    "tags": [
+      "ticketing",
+      "collaboration",
+      "incident-response",
+      "api"
+    ],
+    "homepage": "https://www.atlassian.com/software/jira",
     "logo_url": "",
     "visibility": 100,
     "subscription": {
@@ -2276,7 +2367,8 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
-      "total": 1
+      "totalFlow": 1,
+      "total": 2
     }
   },
   "JoeSandbox": {
@@ -2287,7 +2379,7 @@
     "tags": [],
     "homepage": "",
     "logo_url": "",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": true,
       "free": false,
@@ -2301,6 +2393,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 3
     }
   },
@@ -2326,6 +2419,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 2
     }
   },
@@ -2353,6 +2447,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 1,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -2364,7 +2459,7 @@
     "tags": [],
     "homepage": "",
     "logo_url": "",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": false,
       "free": false,
@@ -2378,6 +2473,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -2403,6 +2499,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -2430,6 +2527,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -2455,6 +2553,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -2480,6 +2579,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -2505,6 +2605,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -2532,6 +2633,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -2559,6 +2661,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -2584,6 +2687,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -2603,7 +2707,7 @@
     ],
     "homepage": "https://www.maltiverse.com",
     "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Maltiverse/assets/logo.png",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": false,
       "free": false,
@@ -2617,6 +2721,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -2636,7 +2741,7 @@
     ],
     "homepage": "https://bazaar.abuse.ch",
     "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/MalwareBazaar/assets/logo.png",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": true,
       "free": true,
@@ -2650,6 +2755,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -2675,6 +2781,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -2700,6 +2807,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 2
     }
   },
@@ -2727,6 +2835,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 1,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -2746,7 +2855,7 @@
     ],
     "homepage": "https://www.maxmind.com",
     "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/MaxMind/assets/logo.png",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": false,
       "free": false,
@@ -2760,6 +2869,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -2785,6 +2895,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 5
     }
   },
@@ -2818,6 +2929,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -2829,7 +2941,7 @@
     "tags": [],
     "homepage": "",
     "logo_url": "",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": false,
       "free": false,
@@ -2843,6 +2955,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -2862,7 +2975,7 @@
     ],
     "homepage": "https://www.mnemonic.no",
     "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/MnemonicPDNS/assets/logo.png",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": false,
       "free": false,
@@ -2876,6 +2989,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 2
     }
   },
@@ -2910,7 +3024,42 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
-      "total": 14
+      "totalFlow": 1,
+      "total": 15
+    }
+  },
+  "MSDefenderGraphSecurityAPI": {
+    "id": "MSDefenderGraphSecurityAPI",
+    "name": "Microsoft Defender (via Graph Security API)",
+    "description": "Aggregates security alerts from any product in the Microsoft Defender suite (Defender for Endpoint, Identity, Office 365, Cloud Apps, Sentinel, etc.) through the unified Microsoft Graph Security API, regardless of the originating source",
+    "category": [
+      "SIEM & Analytics"
+    ],
+    "tags": [
+      "microsoft",
+      "microsoft-defender",
+      "graph-security-api",
+      "siem",
+      "incident-response"
+    ],
+    "homepage": "https://learn.microsoft.com/en-us/graph/api/resources/security-api-overview",
+    "logo_url": "",
+    "visibility": 5,
+    "subscription": {
+      "required": false,
+      "free": false,
+      "paid": false
+    },
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/MSDefenderGraphSecurityAPI/overview.md",
+    "stats": {
+      "totalAnalyzers": 0,
+      "totalResponders": 0,
+      "totalFunctions": 0,
+      "totalUseCases": 0,
+      "totalExternalIntegrations": 0,
+      "totalNotifiers": 0,
+      "totalFlow": 1,
+      "total": 1
     }
   },
   "MSDefenderOffice365": {
@@ -2944,6 +3093,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 5
     }
   },
@@ -2979,7 +3129,8 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
-      "total": 12
+      "totalFlow": 1,
+      "total": 13
     }
   },
   "MSExchangeOnline": {
@@ -3006,6 +3157,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 2
     }
   },
@@ -3033,6 +3185,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -3058,6 +3211,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 11
     }
   },
@@ -3085,7 +3239,8 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
-      "total": 1
+      "totalFlow": 1,
+      "total": 2
     }
   },
   "MSTeams": {
@@ -3112,6 +3267,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 1,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -3129,7 +3285,7 @@
     ],
     "homepage": "https://n8n.io",
     "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/n8n/assets/logo.png",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": false,
       "free": true,
@@ -3143,6 +3299,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 1,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 2
     }
   },
@@ -3168,6 +3325,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -3195,6 +3353,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -3220,6 +3379,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -3245,6 +3405,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -3272,6 +3433,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -3305,6 +3467,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 5
     }
   },
@@ -3330,6 +3493,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -3357,6 +3521,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 4
     }
   },
@@ -3384,6 +3549,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -3409,6 +3575,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -3428,7 +3595,7 @@
     ],
     "homepage": "https://otx.alienvault.com",
     "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/OTXQuery/assets/logo.png",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": true,
       "free": true,
@@ -3442,6 +3609,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -3469,6 +3637,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 3
     }
   },
@@ -3496,6 +3665,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 3
     }
   },
@@ -3507,7 +3677,7 @@
     "tags": [],
     "homepage": "",
     "logo_url": "",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": true,
       "free": false,
@@ -3521,6 +3691,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 8
     }
   },
@@ -3532,7 +3703,7 @@
     "tags": [],
     "homepage": "",
     "logo_url": "",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": false,
       "free": false,
@@ -3546,6 +3717,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 16
     }
   },
@@ -3557,7 +3729,7 @@
     "tags": [],
     "homepage": "",
     "logo_url": "",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": true,
       "free": false,
@@ -3571,6 +3743,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 2
     }
   },
@@ -3596,6 +3769,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -3623,6 +3797,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -3648,6 +3823,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 2
     }
   },
@@ -3666,7 +3842,7 @@
     ],
     "homepage": "https://www.phishtank.com",
     "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/PhishTank/assets/logo.png",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": true,
       "free": true,
@@ -3680,6 +3856,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -3709,6 +3886,7 @@
       "totalUseCases": 2,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 3
     }
   },
@@ -3734,6 +3912,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -3761,6 +3940,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -3786,6 +3966,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -3819,7 +4000,8 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
-      "total": 1
+      "totalFlow": 1,
+      "total": 2
     }
   },
   "Redis": {
@@ -3846,6 +4028,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 1,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -3871,6 +4054,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -3896,6 +4080,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 3
     }
   },
@@ -3923,6 +4108,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -3948,6 +4134,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -3973,6 +4160,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 2
     }
   },
@@ -3986,7 +4174,7 @@
     "tags": [],
     "homepage": "https://www.sekoia.io",
     "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/SEKOIAIntelligenceCenter/assets/logo.png",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": true,
       "free": false,
@@ -4000,6 +4188,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 3
     }
   },
@@ -4025,6 +4214,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -4050,7 +4240,41 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 4
+    }
+  },
+  "ServiceNow": {
+    "id": "ServiceNow",
+    "name": "ServiceNow",
+    "description": "ServiceNow is an enterprise IT service management platform that handles incidents, change requests and configuration items, letting security teams hand off remediation work to IT and keep tickets and cases in sync",
+    "category": [
+      "Collaboration"
+    ],
+    "tags": [
+      "ticketing",
+      "automation",
+      "incident-response",
+      "api"
+    ],
+    "homepage": "https://www.servicenow.com",
+    "logo_url": "",
+    "visibility": 100,
+    "subscription": {
+      "required": false,
+      "free": false,
+      "paid": false
+    },
+    "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/ServiceNow/overview.md",
+    "stats": {
+      "totalAnalyzers": 0,
+      "totalResponders": 0,
+      "totalFunctions": 0,
+      "totalUseCases": 0,
+      "totalExternalIntegrations": 0,
+      "totalNotifiers": 0,
+      "totalFlow": 1,
+      "total": 1
     }
   },
   "Shodan": {
@@ -4084,6 +4308,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 6
     }
   },
@@ -4103,7 +4328,7 @@
     ],
     "homepage": "https://shuffler.io",
     "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Shuffle/assets/logo.png",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": false,
       "free": false,
@@ -4117,6 +4342,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 1,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 2
     }
   },
@@ -4142,6 +4368,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -4174,7 +4401,8 @@
       "totalUseCases": 2,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 1,
-      "total": 3
+      "totalFlow": 1,
+      "total": 4
     }
   },
   "SophosIntelix": {
@@ -4199,6 +4427,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 3
     }
   },
@@ -4224,6 +4453,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -4249,6 +4479,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -4282,7 +4513,8 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 2,
       "totalNotifiers": 0,
-      "total": 15
+      "totalFlow": 1,
+      "total": 16
     }
   },
   "StamusNetworks": {
@@ -4307,6 +4539,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -4332,6 +4565,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -4357,6 +4591,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -4368,7 +4603,7 @@
     "tags": [],
     "homepage": "",
     "logo_url": "",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": false,
       "free": false,
@@ -4382,6 +4617,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -4415,6 +4651,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -4431,7 +4668,7 @@
     ],
     "homepage": "https://threatconnect.com",
     "logo_url": "",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": false,
       "free": false,
@@ -4445,6 +4682,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 1,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -4470,6 +4708,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -4495,6 +4734,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -4515,7 +4755,7 @@
     ],
     "homepage": "https://www.threatq.com",
     "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/ThreatQ/assets/logo.png",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": false,
       "free": false,
@@ -4529,6 +4769,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 1,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -4554,6 +4795,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -4570,7 +4812,7 @@
     ],
     "homepage": "https://www.tines.com",
     "logo_url": "",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": false,
       "free": false,
@@ -4584,6 +4826,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 1,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -4609,6 +4852,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -4634,6 +4878,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -4659,6 +4904,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -4684,6 +4930,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -4709,6 +4956,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 2
     }
   },
@@ -4742,6 +4990,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -4775,6 +5024,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 2
     }
   },
@@ -4800,6 +5050,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -4827,6 +5078,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -4847,7 +5099,7 @@
     ],
     "homepage": "https://docs.velociraptor.app",
     "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Velociraptor/assets/logo.png",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": false,
       "free": false,
@@ -4861,6 +5113,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -4886,6 +5139,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -4899,7 +5153,7 @@
     "tags": [],
     "homepage": "https://virusshare.com",
     "logo_url": "",
-    "visibility": "low",
+    "visibility": 100,
     "subscription": {
       "required": false,
       "free": false,
@@ -4913,6 +5167,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -4947,7 +5202,8 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
-      "total": 4
+      "totalFlow": 1,
+      "total": 5
     }
   },
   "VMRay": {
@@ -4972,6 +5228,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -4997,6 +5254,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 2
     }
   },
@@ -5022,6 +5280,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 5
     }
   },
@@ -5049,6 +5308,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -5074,6 +5334,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -5099,6 +5360,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 2
     }
   },
@@ -5131,6 +5393,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -5156,6 +5419,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 1
     }
   },
@@ -5181,6 +5445,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 2
     }
   },
@@ -5208,6 +5473,7 @@
       "totalUseCases": 0,
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
+      "totalFlow": 0,
       "total": 14
     }
   }

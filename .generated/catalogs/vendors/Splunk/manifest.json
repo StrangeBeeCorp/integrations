@@ -18,6 +18,14 @@
   },
   "useCases": [],
   "notifier": false,
+  "flow": {
+    "description": "Search Splunk data, read fired alerts, and update Splunk Enterprise Security findings.",
+    "examples": [
+      "Run an SPL query to find every host that contacted a suspicious domain",
+      "Turn fired Splunk alerts into TheHive alerts",
+      "Update the Enterprise Security notable or finding status when the case is resolved"
+    ]
+  },
   "externalIntegrations": [
     {
       "name": "TheHive/Cortex Technical Add-on",
@@ -36,18 +44,10 @@
   "visibility": 2,
   "analyzersTagline": "",
   "analyzerDisplayName": "",
-  "registration_required": [
-    true,
-    false
-  ],
-  "subscription_required": [
-    true,
-    false
-  ],
-  "free_subscription": [
-    true,
-    false
-  ],
+  "registration_required": true,
+  "subscription_required": true,
+  "free_subscription": true,
+  "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Splunk/overview.md",
   "integrations": {
     "analyzers": [
       {
@@ -260,6 +260,7 @@
     "totalUseCases": 0,
     "totalExternalIntegrations": 2,
     "totalNotifiers": 0,
-    "total": 15
+    "totalFlow": 1,
+    "total": 16
   }
 }

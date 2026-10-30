@@ -20,6 +20,14 @@
   },
   "useCases": [],
   "notifier": false,
+  "flow": {
+    "description": "Investigate and contain compromised identities in Microsoft Entra ID.",
+    "examples": [
+      "On a phishing case, disable the user, revoke sessions and force a password reset",
+      "Enrich a user observable with roles, groups and MFA status to assess impact",
+      "Review recent sign-ins and risk detections for a suspected account takeover"
+    ]
+  },
   "externalIntegrations": [],
   "displayOnWebsite": true,
   "visibility": 5,
@@ -28,6 +36,7 @@
   "registration_required": true,
   "subscription_required": true,
   "free_subscription": false,
+  "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/MSEntraID/overview.md",
   "integrations": {
     "analyzers": [
       {
@@ -226,6 +235,7 @@
     "totalUseCases": 0,
     "totalExternalIntegrations": 0,
     "totalNotifiers": 0,
-    "total": 12
+    "totalFlow": 1,
+    "total": 13
   }
 }

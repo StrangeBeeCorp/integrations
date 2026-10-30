@@ -1,4 +1,4 @@
-## Analyzers (1)
+## Analyzer (1)
 
 ### Enrich observables with intelligence
 
@@ -11,7 +11,7 @@ List a mailbox's inbox rules via Microsoft Graph and flag rules commonly abused 
 
 ---
 
-## Responders (1)
+## Responder (1)
 
 ### Trigger automated responses
 

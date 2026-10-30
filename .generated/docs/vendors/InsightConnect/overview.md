@@ -1,4 +1,4 @@
-## External Integrations (1)
+## External Integration (1)
 
 ### External integrations that connect Rapid7 InsightConnect with TheHive
 

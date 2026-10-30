@@ -1,4 +1,4 @@
-## Responders (1)
+## Responder (1)
 
 ### Trigger automated responses
 

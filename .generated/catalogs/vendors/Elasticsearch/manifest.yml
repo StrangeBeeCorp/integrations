@@ -20,22 +20,25 @@ logo:
   github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Elasticsearch/assets/logo.png
 useCases: []
 notifier: false
+flow:
+  description: Query Elasticsearch data and read Elastic Security detection alerts.
+  examples:
+  - Pull Elastic detection alerts and create TheHive alerts
+  - Run an ES|QL query to scope an incident across users, hosts and time range
+  - Write enrichment results or case summaries into a dedicated index
 externalIntegrations:
 - name: TheHive Connector for Kibana
   description: Native Kibana connector that allows Elasticsearch to create alerts and create cases in TheHive
   type: connector
   documentation: https://www.elastic.co/docs/reference/kibana/connectors-kibana/thehive-action-type
 displayOnWebsite: true
-visibility: low
+visibility: 100
 analyzersTagline: ''
 analyzerDisplayName: ''
-registration_required:
-- true
-- false
-subscription_required:
-- true
-- false
+registration_required: true
+subscription_required: true
 free_subscription: true
+vendor_internal_page_content_url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Elasticsearch/overview.md
 integrations:
   analyzers:
   - name: Elasticsearch Analysis
@@ -83,4 +86,5 @@ stats:
   totalUseCases: 0
   totalExternalIntegrations: 1
   totalNotifiers: 0
-  total: 3
+  totalFlow: 1
+  total: 4

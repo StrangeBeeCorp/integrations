@@ -20,6 +20,7 @@ logo:
   github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Shuffle/assets/logo.png
 useCases: []
 notifier: false
+flow: {}
 externalIntegrations:
 - name: TheHive 5 Integration
   description: Native Shuffle app integration that enables workflow automation with TheHive 5 for automated case management,
@@ -27,9 +28,13 @@ externalIntegrations:
   type: app
   documentation: https://shuffler.io/apps/thehive/integrations/TheHive_5
 displayOnWebsite: true
-visibility: low
+visibility: 100
 analyzersTagline: ''
 analyzerDisplayName: ''
+registration_required: false
+subscription_required: false
+free_subscription: false
+vendor_internal_page_content_url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Shuffle/overview.md
 integrations:
   analyzers: []
   responders:
@@ -57,4 +62,5 @@ stats:
   totalUseCases: 0
   totalExternalIntegrations: 1
   totalNotifiers: 0
+  totalFlow: 0
   total: 2

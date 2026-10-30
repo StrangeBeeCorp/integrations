@@ -11,6 +11,12 @@ homepage: https://www.harfanglab.io
 logo: {}
 useCases: []
 notifier: false
+flow:
+  description: Investigate and respond on HarfangLab-protected endpoints, including telemetry hunting and remote jobs.
+  examples:
+  - Isolate an endpoint and launch a forensic collection job
+  - Hunt for an IOC across process, network and DNS telemetry of the whole fleet
+  - Download a suspicious binary and send it to VirusTotal or a sandbox
 externalIntegrations:
 - name: TheHive Connector
   description: Native connector provided by HarfangLab to send security events (SecEvents) from the HarfangLab EDR Manager
@@ -20,8 +26,10 @@ displayOnWebsite: true
 visibility: 100
 analyzersTagline: ''
 analyzerDisplayName: ''
+registration_required: false
 subscription_required: true
 free_subscription: false
+vendor_internal_page_content_url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/HarfangLab/overview.md
 integrations:
   analyzers: []
   responders:
@@ -408,4 +416,5 @@ stats:
   totalUseCases: 0
   totalExternalIntegrations: 1
   totalNotifiers: 0
-  total: 32
+  totalFlow: 1
+  total: 33

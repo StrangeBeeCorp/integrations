@@ -1,4 +1,20 @@
-## Functions (1)
+## TheHive Flow node (1)
+
+### Orchestrate this vendor from TheHive Flow workflows
+
+Create and follow Jira issues from SOC workflows, with full Jira Cloud REST v3 coverage.
+
+**Example use cases:**
+
+- Open a Jira ticket for the owning team when a case needs a fix such as a patch or config change
+- Link the Jira issue back to the TheHive case and comment progress
+- Close the case automatically when the Jira issue is resolved
+
+TheHive Flow is a first-party module that requires a TheHive ONE license.
+
+---
+
+## Function (1)
 
 ### Automate TheHive actions or ingest alerts
 

@@ -46,6 +46,12 @@ useCases:
   thehive_version_required: '5.0'
   license_required: platinum
 notifier: false
+flow:
+  description: 'Investigate and respond on CrowdStrike-protected endpoints: alerts, hosts, IOCs, sandbox and vulnerabilities.'
+  examples:
+  - Contain a host automatically when a critical case is opened in TheHive
+  - Detonate a suspicious attachment in the Falcon sandbox and attach the report to the case
+  - Push a confirmed malicious hash as a Falcon IOC to block it fleet-wide
 externalIntegrations:
 - name: falcon2thehive
   description: Real-time connector that streams CrowdStrike Falcon detection events into TheHive, turning Falcon alerts into
@@ -60,6 +66,7 @@ analyzerDisplayName: ''
 registration_required: true
 subscription_required: true
 free_subscription: false
+vendor_internal_page_content_url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/CrowdstrikeFalcon/overview.md
 integrations:
   analyzers:
   - name: CrowdstrikeFalcon Sandbox Win10
@@ -317,4 +324,5 @@ stats:
   totalUseCases: 2
   totalExternalIntegrations: 1
   totalNotifiers: 0
-  total: 21
+  totalFlow: 1
+  total: 22

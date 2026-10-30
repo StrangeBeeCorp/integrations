@@ -47,6 +47,7 @@ useCases:
   linked_to:
   - integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted.js
 notifier: false
+flow: {}
 externalIntegrations: []
 displayOnWebsite: true
 visibility: 10
@@ -55,6 +56,7 @@ analyzerDisplayName: ''
 registration_required: true
 subscription_required: true
 free_subscription: false
+vendor_internal_page_content_url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Proofpoint/overview.md
 integrations:
   analyzers:
   - name: Proofpoint Lookup
@@ -98,4 +100,5 @@ stats:
   totalUseCases: 2
   totalExternalIntegrations: 0
   totalNotifiers: 0
+  totalFlow: 0
   total: 3

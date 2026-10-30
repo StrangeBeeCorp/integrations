@@ -18,6 +18,7 @@
   },
   "useCases": [],
   "notifier": false,
+  "flow": {},
   "externalIntegrations": [],
   "displayOnWebsite": true,
   "visibility": 19,
@@ -26,6 +27,7 @@
   "registration_required": false,
   "subscription_required": false,
   "free_subscription": false,
+  "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Capa/overview.md",
   "integrations": {
     "analyzers": [
       {
@@ -54,6 +56,7 @@
     "totalUseCases": 0,
     "totalExternalIntegrations": 0,
     "totalNotifiers": 0,
+    "totalFlow": 0,
     "total": 1
   }
 }

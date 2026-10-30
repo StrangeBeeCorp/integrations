@@ -1,4 +1,4 @@
-## Functions (1)
+## Function (1)
 
 ### Automate TheHive actions or ingest alerts
 

@@ -105,3 +105,19 @@ Push IOC to Defender client. Warn mode (Microsoft Defender for Cloud only)
 - **Author:** Vito Piserchia
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case_artifact`
+
+---
+
+## TheHive Flow node (1)
+
+### Orchestrate this vendor from TheHive Flow workflows
+
+Respond on Windows, macOS and Linux endpoints managed by Defender for Endpoint.
+
+**Example use cases:**
+
+- Isolate a compromised machine and poll the action until it completes
+- Quarantine a malicious file on the endpoint where it was seen
+- Create a block indicator for a confirmed malicious IP, URL or hash
+
+TheHive Flow is a first-party module that requires a TheHive ONE license.

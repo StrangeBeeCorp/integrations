@@ -1,4 +1,4 @@
-## Analyzers (1)
+## Analyzer (1)
 
 ### Enrich observables with intelligence
 
@@ -11,7 +11,7 @@ Query the Cisco Umbrella Reporting API for recent DNS queries and their status.
 
 ---
 
-## Responders (1)
+## Responder (1)
 
 ### Trigger automated responses
 

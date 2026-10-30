@@ -81,7 +81,7 @@ Execute a savedsearch on a Splunk instance with a registry data as argument
 
 ---
 
-## Responders (1)
+## Responder (1)
 
 ### Trigger automated responses
 
@@ -94,7 +94,23 @@ Sync TheHive case/alert status back to the corresponding Splunk Enterprise Secur
 
 ---
 
-## Functions (1)
+## TheHive Flow node (1)
+
+### Orchestrate this vendor from TheHive Flow workflows
+
+Search Splunk data, read fired alerts, and update Splunk Enterprise Security findings.
+
+**Example use cases:**
+
+- Run an SPL query to find every host that contacted a suspicious domain
+- Turn fired Splunk alerts into TheHive alerts
+- Update the Enterprise Security notable or finding status when the case is resolved
+
+TheHive Flow is a first-party module that requires a TheHive ONE license.
+
+---
+
+## Function (1)
 
 ### Automate TheHive actions or ingest alerts
 

@@ -91,3 +91,19 @@ Disable user in Microsoft Entra ID for a User Principal Name. (mail)
 - **Author:** nusatanra-self, StrangeBee
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case_artifact`
+
+---
+
+## TheHive Flow node (1)
+
+### Orchestrate this vendor from TheHive Flow workflows
+
+Investigate and contain compromised identities in Microsoft Entra ID.
+
+**Example use cases:**
+
+- On a phishing case, disable the user, revoke sessions and force a password reset
+- Enrich a user observable with roles, groups and MFA status to assess impact
+- Review recent sign-ins and risk detections for a suspected account takeover
+
+TheHive Flow is a first-party module that requires a TheHive ONE license.

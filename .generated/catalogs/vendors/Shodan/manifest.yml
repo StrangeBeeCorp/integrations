@@ -20,6 +20,7 @@ logo:
   github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Shodan/assets/logo.png
 useCases: []
 notifier: false
+flow: {}
 externalIntegrations: []
 displayOnWebsite: true
 visibility: 11
@@ -28,6 +29,7 @@ analyzerDisplayName: ''
 registration_required: true
 subscription_required: false
 free_subscription: true
+vendor_internal_page_content_url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Shodan/overview.md
 integrations:
   analyzers:
   - name: Shodan ReverseDNS
@@ -113,4 +115,5 @@ stats:
   totalUseCases: 0
   totalExternalIntegrations: 0
   totalNotifiers: 0
+  totalFlow: 0
   total: 6

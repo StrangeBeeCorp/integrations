@@ -1,4 +1,4 @@
-## Analyzers (1)
+## Analyzer (1)
 
 ### Enrich observables with intelligence
 

@@ -19,14 +19,16 @@ logo:
   github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Hunterio/assets/logo.png
 useCases: []
 notifier: false
+flow: {}
 externalIntegrations: []
 displayOnWebsite: true
-visibility: low
+visibility: 100
 analyzersTagline: ''
 analyzerDisplayName: ''
 registration_required: true
 subscription_required: true
 free_subscription: true
+vendor_internal_page_content_url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Hunterio/overview.md
 integrations:
   analyzers:
   - name: Hunterio DomainSearch
@@ -51,4 +53,5 @@ stats:
   totalUseCases: 0
   totalExternalIntegrations: 0
   totalNotifiers: 0
+  totalFlow: 0
   total: 1

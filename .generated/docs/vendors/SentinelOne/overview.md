@@ -25,7 +25,7 @@ Query Sentinel One Deep Visibility API v2.1 for hosts that have requested DNS lo
 
 ---
 
-## Responders (1)
+## Responder (1)
 
 ### Trigger automated responses
 

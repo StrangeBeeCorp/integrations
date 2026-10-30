@@ -37,3 +37,19 @@ Creates a Slack channel for a TheHive case, invites participants, and optionally
 ### Notify external systems when events occur
 
 This integration is available as a built-in [TheHive notifier](https://docs.strangebee.com/thehive/user-guides/organization/configure-organization/manage-notifications/about-notifications/).
+
+---
+
+## TheHive Flow node (1)
+
+### Orchestrate this vendor from TheHive Flow workflows
+
+Notify, coordinate and interact with people in Slack during an incident.
+
+**Example use cases:**
+
+- Post a notification in the SOC channel when a critical case is created
+- Create a dedicated war-room channel per major incident and invite responders
+- DM a user to confirm whether they performed a suspicious action
+
+TheHive Flow is a first-party module that requires a TheHive ONE license.

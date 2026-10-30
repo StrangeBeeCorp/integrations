@@ -1,4 +1,4 @@
-## Analyzers (1)
+## Analyzer (1)
 
 ### Enrich observables with intelligence
 
@@ -11,7 +11,7 @@ Search for IoCs in Elasticsearch
 
 ---
 
-## Responders (1)
+## Responder (1)
 
 ### Trigger automated responses
 
@@ -24,7 +24,23 @@ Sync TheHive case/alert status back to the corresponding Elastic Security detect
 
 ---
 
-## External Integrations (1)
+## TheHive Flow node (1)
+
+### Orchestrate this vendor from TheHive Flow workflows
+
+Query Elasticsearch data and read Elastic Security detection alerts.
+
+**Example use cases:**
+
+- Pull Elastic detection alerts and create TheHive alerts
+- Run an ES|QL query to scope an incident across users, hosts and time range
+- Write enrichment results or case summaries into a dedicated index
+
+TheHive Flow is a first-party module that requires a TheHive ONE license.
+
+---
+
+## External Integration (1)
 
 ### External integrations that connect Elasticsearch with TheHive
 

@@ -17,6 +17,7 @@ logo:
   github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/n8n/assets/logo.png
 useCases: []
 notifier: false
+flow: {}
 externalIntegrations:
 - name: Cortex and TheHive Nodes
   description: Pre-built workflow nodes that enable automated data transfer and task orchestration between n8n, Cortex analyzers/responders,
@@ -24,12 +25,13 @@ externalIntegrations:
   type: workflow-nodes
   documentation: https://n8n.io/integrations/thehive-5/
 displayOnWebsite: true
-visibility: low
+visibility: 100
 analyzersTagline: ''
 analyzerDisplayName: ''
 registration_required: false
 subscription_required: false
 free_subscription: true
+vendor_internal_page_content_url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/n8n/overview.md
 integrations:
   analyzers: []
   responders:
@@ -57,4 +59,5 @@ stats:
   totalUseCases: 0
   totalExternalIntegrations: 1
   totalNotifiers: 0
+  totalFlow: 0
   total: 2

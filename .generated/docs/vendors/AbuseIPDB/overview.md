@@ -1,4 +1,4 @@
-## Analyzers (1)
+## Analyzer (1)
 
 ### Enrich observables with intelligence
 
@@ -11,7 +11,7 @@ Check IP addresses or CIDR blocks against AbuseIPDB. Returns abuse confidence sc
 
 ---
 
-## Responders (1)
+## Responder (1)
 
 ### Trigger automated responses
 

@@ -1,4 +1,4 @@
-## Responders (1)
+## Responder (1)
 
 ### Trigger automated responses
 
@@ -11,7 +11,7 @@ Execute a workflow in Shuffle
 
 ---
 
-## External Integrations (1)
+## External Integration (1)
 
 ### External integrations that connect Shuffle with TheHive
 

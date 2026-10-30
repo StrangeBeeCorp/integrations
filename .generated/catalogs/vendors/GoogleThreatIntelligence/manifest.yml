@@ -22,15 +22,16 @@ logo:
   github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/GoogleThreatIntelligence/assets/logo.png
 useCases: []
 notifier: false
+flow: {}
 externalIntegrations: []
 displayOnWebsite: true
 visibility: 7
 analyzersTagline: ''
 analyzerDisplayName: ''
 registration_required: true
-subscription_required:
-- true
-- false
+subscription_required: true
+free_subscription: false
+vendor_internal_page_content_url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/GoogleThreatIntelligence/overview.md
 integrations:
   analyzers:
   - name: GTI ScanPrivateURL
@@ -111,4 +112,5 @@ stats:
   totalUseCases: 0
   totalExternalIntegrations: 0
   totalNotifiers: 0
+  totalFlow: 0
   total: 5

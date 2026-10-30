@@ -1,4 +1,4 @@
-## External Integrations (1)
+## External Integration (1)
 
 ### External integrations that connect PAN Cortex XSOAR with TheHive
 

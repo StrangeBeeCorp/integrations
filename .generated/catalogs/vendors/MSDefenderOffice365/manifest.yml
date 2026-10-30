@@ -20,20 +20,16 @@ logo:
   github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/MSDefenderOffice365/assets/logo.png
 useCases: []
 notifier: false
+flow: {}
 externalIntegrations: []
 displayOnWebsite: true
 visibility: 9
 analyzersTagline: ''
 analyzerDisplayName: ''
-registration_required:
-- true
-- false
-subscription_required:
-- true
-- false
-free_subscription:
-- true
-- false
+registration_required: true
+subscription_required: true
+free_subscription: true
+vendor_internal_page_content_url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/MSDefenderOffice365/overview.md
 integrations:
   analyzers:
   - name: MSDefenderOffice365 SafeLinksDecoder
@@ -106,4 +102,5 @@ stats:
   totalUseCases: 0
   totalExternalIntegrations: 0
   totalNotifiers: 0
+  totalFlow: 0
   total: 5

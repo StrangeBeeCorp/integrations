@@ -17,13 +17,14 @@ Built something useful? Contributions are welcome!
 
 ## Summary Statistics
 
-- **Total Vendors:** 204
+- **Total Vendors:** 206
 - **Total Analyzers:** 288
 - **Total Responders:** 163
 - **Total Functions:** 7
 - **Total Notifiers:** 8
+- **Total TheHive Flow nodes:** 13
 - **Total External Integrations:** 12
-- **Total Integrations:** 478
+- **Total Integrations:** 491
 
 ## Vendors by Category
 
@@ -61,6 +62,9 @@ Built something useful? Contributions are welcome!
 **[Email](vendors/Email/overview.md)** (1 integrations)
   Send email notifications from TheHive to designated email addresses when specific events occur.
 
+**[Jira Cloud](vendors/JIRA/overview.md)** (2 integrations)
+  Jira Cloud is Atlassian's issue tracking and project management platform, used by security teams ...
+
 **[Mattermost](vendors/Mattermost/overview.md)** (1 integrations)
   Mattermost is an open-source messaging platform for team collaboration, offering channels, direct...
 
@@ -70,7 +74,10 @@ Built something useful? Contributions are welcome!
 **[Request Tracker (RT4)](vendors/RT4/overview.md)** (1 integrations)
   Request Tracker (RT) is an open-source issue tracking and ticketing system used to manage tickets...
 
-**[Slack](vendors/Slack/overview.md)** (3 integrations)
+**[ServiceNow](vendors/ServiceNow/overview.md)** (1 integrations)
+  ServiceNow is an enterprise IT service management platform that handles incidents, change request...
+
+**[Slack](vendors/Slack/overview.md)** (4 integrations)
   Slack is a is a team collaboration platform that provides channels, direct messaging, file sharin...
 
 **[Telegram](vendors/Telegram/overview.md)** (1 integrations)
@@ -90,13 +97,13 @@ Built something useful? Contributions are welcome!
 
 **[Cisco Secure Endpoint (Formerly AMP for Endpoints)](vendors/CiscoAMPforEndpoints/overview.md)** (5 integrations)
 
-**[CrowdStrike Falcon](vendors/CrowdstrikeFalcon/overview.md)** (21 integrations)
+**[CrowdStrike Falcon](vendors/CrowdstrikeFalcon/overview.md)** (22 integrations)
   CrowdStrike Falcon is a cloud-native endpoint protection platform that provides real-time threat ...
 
-**[HarfangLab](vendors/HarfangLab/overview.md)** (32 integrations)
+**[HarfangLab](vendors/HarfangLab/overview.md)** (33 integrations)
   European endpoint security platform (EDR/EPP) certified by ANSSI and BSI, providing real-time thr...
 
-**[Microsoft Defender for Endpoint](vendors/MSDefenderForEndpoint/overview.md)** (14 integrations)
+**[Microsoft Defender for Endpoint](vendors/MSDefenderForEndpoint/overview.md)** (15 integrations)
   Microsoft Defender for Endpoint is an enterprise EDR platform that provides threat detection, inv...
 
 
@@ -120,7 +127,7 @@ Built something useful? Contributions are welcome!
 **[Cisco Duo](vendors/CiscoDuo/overview.md)** (3 integrations)
   Multi-factor authentication and secure access platform by Cisco for identity verification and end...
 
-**[Microsoft Entra ID](vendors/MSEntraID/overview.md)** (12 integrations)
+**[Microsoft Entra ID](vendors/MSEntraID/overview.md)** (13 integrations)
   Microsoft Entra ID (formerly Azure Active Directory) is an enterprise identity and access managem...
 
 **[Okta](vendors/Okta/overview.md)** (1 integrations)
@@ -147,7 +154,7 @@ Built something useful? Contributions are welcome!
 **[VirusShare](vendors/Virusshare/overview.md)** (1 integrations)
   VirusShare is a malware sample repository containing over 110 million samples, providing research...
 
-**[VirusTotal](vendors/VirusTotal/overview.md)** (4 integrations)
+**[VirusTotal](vendors/VirusTotal/overview.md)** (5 integrations)
   VirusTotal is a comprehensive malware analysis platform aggregating results from 70+ antivirus en...
 
 **[YARA](vendors/Yara/overview.md)** (1 integrations)
@@ -195,15 +202,18 @@ Built something useful? Contributions are welcome!
 
 ### SIEM & Analytics
 
-**[Elasticsearch](vendors/Elasticsearch/overview.md)** (3 integrations)
+**[Elasticsearch](vendors/Elasticsearch/overview.md)** (4 integrations)
   Elasticsearch is a distributed search and analytics engine that powers SIEM solutions and log ana...
 
 **[IBM QRadar](vendors/IBMQRadar/overview.md)** (1 integrations)
 
-**[Microsoft Sentinel](vendors/MSSentinel/overview.md)** (1 integrations)
+**[Microsoft Defender (via Graph Security API)](vendors/MSDefenderGraphSecurityAPI/overview.md)** (1 integrations)
+  Aggregates security alerts from any product in the Microsoft Defender suite (Defender for Endpoin...
+
+**[Microsoft Sentinel](vendors/MSSentinel/overview.md)** (2 integrations)
   Microsoft Sentinel is a cloud-native SIEM and SOAR solution that delivers intelligent security an...
 
-**[Splunk](vendors/Splunk/overview.md)** (15 integrations)
+**[Splunk](vendors/Splunk/overview.md)** (16 integrations)
   Splunk is a leading SIEM platform that aggregates, indexes, and analyzes machine data from across...
 
 **[Wazuh](vendors/Wazuh/overview.md)** (1 integrations)
@@ -285,7 +295,7 @@ Built something useful? Contributions are welcome!
 **[OpenCTI](vendors/OpenCTI/overview.md)** (4 integrations)
   Open-source cyber threat intelligence platform for structuring, storing, and visualizing threat d...
 
-**[Recorded Future](vendors/RecordedFuture/overview.md)** (1 integrations)
+**[Recorded Future](vendors/RecordedFuture/overview.md)** (2 integrations)
   Recorded Future is a real-time threat intelligence platform that analyzes data from the open web,...
 
 **[SEKOIA Intelligence Center](vendors/SEKOIAIntelligenceCenter/overview.md)** (3 integrations)
@@ -400,8 +410,6 @@ Built something useful? Contributions are welcome!
 **[IVRE](vendors/IVRE/overview.md)** (1 integrations)
 
 **[JAMFProtect](vendors/JAMFProtect/overview.md)** (3 integrations)
-
-**[JIRA](vendors/JIRA/overview.md)** (1 integrations)
 
 **[Joe Sandbox](vendors/JoeSandbox/overview.md)** (3 integrations)
 
@@ -621,7 +629,7 @@ Built something useful? Contributions are welcome!
 - **[Cluster25](vendors/Cluster25/overview.md)** - *Uncategorized* - 1 analyzers
 - **[ClusterHawk](vendors/ClusterHawk/overview.md)** - *Uncategorized* - 1 analyzers
 - **[CrowdSec](vendors/Crowdsec/overview.md)** - *Threat Intelligence* - 1 analyzers
-- **[CrowdStrike Falcon](vendors/CrowdstrikeFalcon/overview.md)** - *EDR* - 11 analyzers, 9 responders, 1 external
+- **[CrowdStrike Falcon](vendors/CrowdstrikeFalcon/overview.md)** - *EDR* - 11 analyzers, 9 responders, TheHive Flow node, 1 external
 - **[Crtsh](vendors/Crtsh/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Cuckoo Sandbox](vendors/CuckooSandbox/overview.md)** - *Malware Analysis* - 2 analyzers
 - **[CyberChef](vendors/CyberChef/overview.md)** - *Uncategorized* - 3 analyzers
@@ -639,7 +647,7 @@ Built something useful? Contributions are welcome!
 - **[DShield](vendors/DShield/overview.md)** - *Uncategorized* - 1 analyzers
 - **[EchoTrail](vendors/EchoTrail/overview.md)** - *Uncategorized* - 1 analyzers
 - **[EclecticIQ](vendors/EclecticIQ/overview.md)** - *Uncategorized* - 1 analyzers, 1 responders
-- **[Elasticsearch](vendors/Elasticsearch/overview.md)** - *SIEM & Analytics* - 1 analyzers, 1 responders, 1 external
+- **[Elasticsearch](vendors/Elasticsearch/overview.md)** - *SIEM & Analytics* - 1 analyzers, 1 responders, TheHive Flow node, 1 external
 - **[Email](vendors/Email/overview.md)** - *Collaboration* - notifier
 - **[EmailRep](vendors/EmailRep/overview.md)** - *Threat Intelligence* - 1 analyzers
 - **[EmergingThreats](vendors/EmergingThreats/overview.md)** - *Uncategorized* - 3 analyzers
@@ -657,7 +665,7 @@ Built something useful? Contributions are welcome!
 - **[GoogleDNS](vendors/GoogleDNS/overview.md)** - *Uncategorized* - 1 analyzers
 - **[GreyNoise](vendors/GreyNoise/overview.md)** - *Threat Intelligence* - 1 analyzers
 - **[GRR Rapid Response](vendors/GRR/overview.md)** - *DFIR* - 1 analyzers
-- **[HarfangLab](vendors/HarfangLab/overview.md)** - *EDR* - 31 responders, 1 external
+- **[HarfangLab](vendors/HarfangLab/overview.md)** - *EDR* - 31 responders, TheHive Flow node, 1 external
 - **[Hashdd](vendors/Hashdd/overview.md)** - *Uncategorized* - 2 analyzers
 - **[Have I Been Pwned](vendors/HIBP/overview.md)** - *Breach Intelligence* - 1 analyzers
 - **[HTTP Request](vendors/HttpRequest/overview.md)** - *SOAR & Automation* - notifier
@@ -673,7 +681,7 @@ Built something useful? Contributions are welcome!
 - **[isMalicious](vendors/isMalicious/overview.md)** - *Uncategorized* - 1 analyzers
 - **[IVRE](vendors/IVRE/overview.md)** - *Uncategorized* - 1 analyzers
 - **[JAMFProtect](vendors/JAMFProtect/overview.md)** - *Uncategorized* - 2 responders, 1 functions
-- **[JIRA](vendors/JIRA/overview.md)** - *Uncategorized* - 1 functions
+- **[Jira Cloud](vendors/JIRA/overview.md)** - *Collaboration* - 1 functions, TheHive Flow node
 - **[Joe Sandbox](vendors/JoeSandbox/overview.md)** - *Uncategorized* - 3 analyzers
 - **[Jupyter](vendors/Jupyter/overview.md)** - *Uncategorized* - 1 analyzers, 1 responders
 - **[Kaspersky TIP](vendors/KasperskyTIP/overview.md)** - *Uncategorized* - 1 analyzers
@@ -693,11 +701,12 @@ Built something useful? Contributions are welcome!
 - **[Mattermost](vendors/Mattermost/overview.md)** - *Collaboration* - notifier
 - **[MaxMind](vendors/MaxMind/overview.md)** - *OSINT & Enrichment* - 1 analyzers
 - **[MetaDefender](vendors/MetaDefender/overview.md)** - *Uncategorized* - 5 analyzers
-- **[Microsoft Defender for Endpoint](vendors/MSDefenderForEndpoint/overview.md)** - *EDR* - 2 analyzers, 12 responders
+- **[Microsoft Defender (via Graph Security API)](vendors/MSDefenderGraphSecurityAPI/overview.md)** - *SIEM & Analytics* - TheHive Flow node
+- **[Microsoft Defender for Endpoint](vendors/MSDefenderForEndpoint/overview.md)** - *EDR* - 2 analyzers, 12 responders, TheHive Flow node
 - **[Microsoft Defender for Office 365](vendors/MSDefenderOffice365/overview.md)** - *Email Security* - 1 analyzers, 4 responders
-- **[Microsoft Entra ID](vendors/MSEntraID/overview.md)** - *Identity & Access Management* - 7 analyzers, 5 responders
+- **[Microsoft Entra ID](vendors/MSEntraID/overview.md)** - *Identity & Access Management* - 7 analyzers, 5 responders, TheHive Flow node
 - **[Microsoft Exchange Online](vendors/MSExchangeOnline/overview.md)** - *Email Security* - 1 analyzers, 1 responders
-- **[Microsoft Sentinel](vendors/MSSentinel/overview.md)** - *SIEM & Analytics* - 1 functions
+- **[Microsoft Sentinel](vendors/MSSentinel/overview.md)** - *SIEM & Analytics* - 1 functions, TheHive Flow node
 - **[Microsoft Teams](vendors/MSTeams/overview.md)** - *Collaboration* - notifier
 - **[MineMeld](vendors/Minemeld/overview.md)** - *Uncategorized* - 1 responders
 - **[MISP](vendors/MISP/overview.md)** - *Threat Intelligence* - 1 analyzers
@@ -732,7 +741,7 @@ Built something useful? Contributions are welcome!
 - **[QrDecode](vendors/QrDecode/overview.md)** - *Utilities* - 1 analyzers
 - **[Rapid7 InsightConnect](vendors/InsightConnect/overview.md)** - *SOAR & Automation* - 1 external
 - **[RDAP](vendors/RDAP/overview.md)** - *Uncategorized* - 1 analyzers
-- **[Recorded Future](vendors/RecordedFuture/overview.md)** - *Threat Intelligence* - 1 analyzers
+- **[Recorded Future](vendors/RecordedFuture/overview.md)** - *Threat Intelligence* - 1 analyzers, TheHive Flow node
 - **[Redis](vendors/Redis/overview.md)** - *SOAR & Automation* - notifier
 - **[Redmine](vendors/Redmine/overview.md)** - *Uncategorized* - 1 responders
 - **[Request Tracker (RT4)](vendors/RT4/overview.md)** - *Collaboration* - 1 responders
@@ -743,15 +752,16 @@ Built something useful? Contributions are welcome!
 - **[SEKOIA Intelligence Center](vendors/SEKOIAIntelligenceCenter/overview.md)** - *Threat Intelligence* - 3 analyzers
 - **[SendGrid](vendors/SendGrid/overview.md)** - *Uncategorized* - 1 responders
 - **[SentinelOne](vendors/SentinelOne/overview.md)** - *Uncategorized* - 3 analyzers, 1 responders
+- **[ServiceNow](vendors/ServiceNow/overview.md)** - *Collaboration* - TheHive Flow node
 - **[Shodan](vendors/Shodan/overview.md)** - *Attack Surface Intelligence* - 6 analyzers
 - **[Shuffle](vendors/Shuffle/overview.md)** - *SOAR & Automation* - 1 responders, 1 external
 - **[SinkDB](vendors/SinkDB/overview.md)** - *Uncategorized* - 1 analyzers
-- **[Slack](vendors/Slack/overview.md)** - *Collaboration* - 2 responders, notifier
+- **[Slack](vendors/Slack/overview.md)** - *Collaboration* - 2 responders, notifier, TheHive Flow node
 - **[Soltra Edge](vendors/SoltraEdge/overview.md)** - *Uncategorized* - 1 analyzers
 - **[SophosIntelix](vendors/SophosIntelix/overview.md)** - *Uncategorized* - 3 analyzers
 - **[SpamAssassin](vendors/SpamAssassin/overview.md)** - *Uncategorized* - 1 analyzers
 - **[SpamhausDBL](vendors/SpamhausDBL/overview.md)** - *Uncategorized* - 1 analyzers
-- **[Splunk](vendors/Splunk/overview.md)** - *SIEM & Analytics* - 11 analyzers, 1 responders, 1 functions, 2 external
+- **[Splunk](vendors/Splunk/overview.md)** - *SIEM & Analytics* - 11 analyzers, 1 responders, 1 functions, TheHive Flow node, 2 external
 - **[StamusNetworks](vendors/StamusNetworks/overview.md)** - *Uncategorized* - 1 analyzers
 - **[StopForumSpam](vendors/StopForumSpam/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Suspicious](vendors/Suspicious/overview.md)** - *Uncategorized* - 1 responders
@@ -776,7 +786,7 @@ Built something useful? Contributions are welcome!
 - **[Velociraptor](vendors/Velociraptor/overview.md)** - *DFIR* - 1 responders
 - **[Verifalia](vendors/Verifalia/overview.md)** - *Uncategorized* - 1 analyzers
 - **[VirusShare](vendors/Virusshare/overview.md)** - *Malware Analysis* - 1 analyzers
-- **[VirusTotal](vendors/VirusTotal/overview.md)** - *Malware Analysis* - 4 analyzers
+- **[VirusTotal](vendors/VirusTotal/overview.md)** - *Malware Analysis* - 4 analyzers, TheHive Flow node
 - **[VMRay](vendors/VMRay/overview.md)** - *Uncategorized* - 1 analyzers
 - **[Vulners](vendors/Vulners/overview.md)** - *Uncategorized* - 2 analyzers
 - **[Watcher](vendors/Watcher/overview.md)** - *Uncategorized* - 1 analyzers, 4 responders

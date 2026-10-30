@@ -1,4 +1,20 @@
-## Functions (1)
+## TheHive Flow node (1)
+
+### Orchestrate this vendor from TheHive Flow workflows
+
+Manage Microsoft Sentinel incidents and maintain Sentinel watchlists.
+
+**Example use cases:**
+
+- Import Sentinel incidents with their entities as TheHive alerts and observables
+- Write the TheHive analysis back as a comment on the Sentinel incident
+- Close the Sentinel incident with the right classification when the case is closed
+
+TheHive Flow is a first-party module that requires a TheHive ONE license.
+
+---
+
+## Function (1)
 
 ### Automate TheHive actions or ingest alerts
 

@@ -19,6 +19,14 @@
   },
   "useCases": [],
   "notifier": false,
+  "flow": {
+    "description": "Respond on Windows, macOS and Linux endpoints managed by Defender for Endpoint.",
+    "examples": [
+      "Isolate a compromised machine and poll the action until it completes",
+      "Quarantine a malicious file on the endpoint where it was seen",
+      "Create a block indicator for a confirmed malicious IP, URL or hash"
+    ]
+  },
   "externalIntegrations": [],
   "displayOnWebsite": true,
   "visibility": 4,
@@ -27,6 +35,7 @@
   "registration_required": true,
   "subscription_required": true,
   "free_subscription": false,
+  "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/MSDefenderForEndpoint/overview.md",
   "integrations": {
     "analyzers": [
       {
@@ -252,6 +261,7 @@
     "totalUseCases": 0,
     "totalExternalIntegrations": 0,
     "totalNotifiers": 0,
-    "total": 14
+    "totalFlow": 1,
+    "total": 15
   }
 }

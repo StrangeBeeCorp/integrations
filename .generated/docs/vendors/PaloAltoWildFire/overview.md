@@ -1,4 +1,4 @@
-## Analyzers (1)
+## Analyzer (1)
 
 ### Enrich observables with intelligence
 
@@ -11,7 +11,7 @@ Run Palo Alto WildFire analysis on a file, hash, or URL
 
 ---
 
-## Responders (1)
+## Responder (1)
 
 ### Trigger automated responses
 

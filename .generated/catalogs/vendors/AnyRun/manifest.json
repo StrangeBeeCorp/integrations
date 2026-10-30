@@ -8,14 +8,16 @@
   "logo": {},
   "useCases": [],
   "notifier": false,
+  "flow": {},
   "externalIntegrations": [],
   "displayOnWebsite": true,
-  "visibility": "low",
+  "visibility": 100,
   "analyzersTagline": "Enrich observables with behavioral threat intelligence",
   "analyzerDisplayName": "ANY.RUN",
   "registration_required": true,
   "subscription_required": true,
   "free_subscription": false,
+  "vendor_internal_page_content_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/AnyRun/overview.md",
   "integrations": {
     "analyzers": [
       {
@@ -137,6 +139,7 @@
     "totalUseCases": 0,
     "totalExternalIntegrations": 0,
     "totalNotifiers": 0,
+    "totalFlow": 0,
     "total": 7
   }
 }

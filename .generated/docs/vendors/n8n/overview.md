@@ -1,4 +1,4 @@
-## Responders (1)
+## Responder (1)
 
 ### Trigger automated responses
 
@@ -11,7 +11,7 @@ Send data to n8n via webhook
 
 ---
 
-## External Integrations (1)
+## External Integration (1)
 
 ### External integrations that connect n8n with TheHive
 
