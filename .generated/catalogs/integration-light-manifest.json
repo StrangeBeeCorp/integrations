@@ -4224,7 +4224,7 @@
       "api"
     ],
     "homepage": "https://www.servicenow.com",
-    "logo_url": "",
+    "logo_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/ServiceNow/assets/logo.png",
     "visibility": 100,
     "subscription": {
       "required": false,

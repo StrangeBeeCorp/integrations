@@ -12362,7 +12362,11 @@
       "api"
     ],
     "homepage": "https://www.servicenow.com",
-    "logo": {},
+    "logo": {
+      "file": "integrations/vendors/ServiceNow/assets/logo.png",
+      "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/ServiceNow/assets/logo.png",
+      "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/ServiceNow/assets/logo.png"
+    },
     "useCases": [],
     "notifier": false,
     "flow": {
