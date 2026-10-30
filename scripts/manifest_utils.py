@@ -352,6 +352,7 @@ def generate_vendor_manifest(vendor: str) -> Dict:
     return {
         **vendor_metadata,
         **subscription_info,
+        'vendor_internal_page_content_url': f"{BASE_URL}/.generated/docs/vendors/{vendor}/overview.md",
         'integrations': {
             'analyzers': analyzers,
             'responders': responders,

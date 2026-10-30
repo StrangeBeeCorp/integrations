@@ -140,7 +140,7 @@ def generate_markdown_overview(vendor: str, manifest: Dict) -> str:
     # Flow
     if flow:
         lines.extend([
-            "## Flow nodes", "",
+            f"## Flow nodes ({manifest['stats'].get('totalFlow', 1)})", "",
             f"### {SECTION_DESCRIPTIONS['Flow']}", "",
         ])
         if flow.get('description'):
