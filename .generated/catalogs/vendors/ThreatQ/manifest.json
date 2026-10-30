@@ -20,6 +20,7 @@
   "useCases": [],
   "notifier": false,
   "flow": {},
+  "workflows": [],
   "externalIntegrations": [
     {
       "name": "The Hive App for ThreatQ",
@@ -49,6 +50,7 @@
     "totalExternalIntegrations": 1,
     "totalNotifiers": 0,
     "totalFlow": 0,
+    "totalWorkflows": 0,
     "total": 1
   }
 }

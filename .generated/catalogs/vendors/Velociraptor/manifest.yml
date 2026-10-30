@@ -22,6 +22,7 @@ logo:
 useCases: []
 notifier: false
 flow: {}
+workflows: []
 externalIntegrations: []
 displayOnWebsite: true
 visibility: 100
@@ -55,4 +56,5 @@ stats:
   totalExternalIntegrations: 0
   totalNotifiers: 0
   totalFlow: 0
+  totalWorkflows: 0
   total: 1

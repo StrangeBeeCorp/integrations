@@ -27,6 +27,7 @@ high:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 13
@@ -74,6 +75,7 @@ high:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 2
 - id: Capa
   name: CAPA
@@ -95,6 +97,7 @@ high:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 19
@@ -128,6 +131,7 @@ high:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: Cloudflare
   name: Cloudflare
@@ -142,6 +146,7 @@ high:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 14
@@ -175,6 +180,7 @@ high:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: CrowdstrikeFalcon
   name: CrowdStrike Falcon
@@ -227,6 +233,7 @@ high:
     - Contain a host automatically when a critical case is opened in TheHive
     - Detonate a suspicious attachment in the Falcon sandbox and attach the report to the case
     - Push a confirmed malicious hash as a Falcon IOC to block it fleet-wide
+  workflows: []
   externalIntegrations:
   - name: falcon2thehive
     description: Real-time connector that streams CrowdStrike Falcon detection events into TheHive, turning Falcon alerts
@@ -500,6 +507,7 @@ high:
     totalExternalIntegrations: 1
     totalNotifiers: 0
     totalFlow: 1
+    totalWorkflows: 0
     total: 22
 - id: GoogleThreatIntelligence
   name: Google Threat Intelligence
@@ -523,6 +531,7 @@ high:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 7
@@ -613,6 +622,7 @@ high:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 5
 - id: MSDefenderGraphSecurityAPI
   name: Microsoft Defender (via Graph Security API)
@@ -636,6 +646,7 @@ high:
     - Pull new Defender XDR incidents on a schedule and create TheHive alerts
     - Assign or classify the Defender incident when the TheHive case is closed
     - Keep incident status in sync between Defender and TheHive
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: false
   visibility: 5
@@ -657,6 +668,7 @@ high:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 1
+    totalWorkflows: 0
     total: 1
 - id: MSDefenderForEndpoint
   name: Microsoft Defender for Endpoint
@@ -684,6 +696,7 @@ high:
     - Isolate a compromised machine and poll the action until it completes
     - Quarantine a malicious file on the endpoint where it was seen
     - Create a block indicator for a confirmed malicious IP, URL or hash
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 4
@@ -876,6 +889,7 @@ high:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 1
+    totalWorkflows: 0
     total: 15
 - id: MSDefenderOffice365
   name: Microsoft Defender for Office 365
@@ -897,6 +911,7 @@ high:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 9
@@ -979,6 +994,7 @@ high:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 5
 - id: MSEntraID
   name: Microsoft Entra ID
@@ -1007,6 +1023,7 @@ high:
     - On a phishing case, disable the user, revoke sessions and force a password reset
     - Enrich a user observable with roles, groups and MFA status to assess impact
     - Review recent sign-ins and risk detections for a suspected account takeover
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 5
@@ -1181,6 +1198,7 @@ high:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 1
+    totalWorkflows: 0
     total: 13
 - id: MSSentinel
   name: Microsoft Sentinel
@@ -1201,6 +1219,7 @@ high:
     - Import Sentinel incidents with their entities as TheHive alerts and observables
     - Write the TheHive analysis back as a comment on the Sentinel incident
     - Close the Sentinel incident with the right classification when the case is closed
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 5
@@ -1232,6 +1251,7 @@ high:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 1
+    totalWorkflows: 0
     total: 2
 - id: MISP
   name: MISP
@@ -1252,6 +1272,7 @@ high:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 6
@@ -1298,6 +1319,7 @@ high:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: Onyphe
   name: ONYPHE
@@ -1318,6 +1340,7 @@ high:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 17
@@ -1418,6 +1441,7 @@ high:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 5
 - id: Proofpoint
   name: Proofpoint
@@ -1466,6 +1490,7 @@ high:
     - integrations/vendors/Proofpoint/thehive/functions/function_Feeder_alertFromProofpoint_clicksPermitted.js
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 10
@@ -1519,6 +1544,7 @@ high:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 3
 - id: RecordedFuture
   name: Recorded Future
@@ -1544,6 +1570,12 @@ high:
     - Enrich every new observable with a risk score and tag it in TheHive
     - Bulk-triage all observables of an alert to decide whether to escalate
     - Attach threat actor context to a case when an IOC matches a known campaign
+  workflows:
+  - name: Alert Triage with Recorded Future
+    url: https://strangebee.com/workflow/alert-triage-with-recorded-future/
+    description: Automatically processes Elasticsearch security alerts in TheHive and enriches IP addresses and file hashes
+      with threat intelligence from Recorded Future. It identifies high-risk indicators, escalates critical alerts into cases,
+      and documents malicious findings to streamline incident investigation.
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 8
@@ -1582,7 +1614,8 @@ high:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 1
-    total: 2
+    totalWorkflows: 1
+    total: 3
 - id: Shodan
   name: Shodan
   description: Shodan is the search engine for internet-connected devices, providing reconnaissance data on exposed services,
@@ -1603,6 +1636,7 @@ high:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 11
@@ -1698,6 +1732,7 @@ high:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 6
 - id: Slack
   name: Slack
@@ -1743,6 +1778,12 @@ high:
     - Post a notification in the SOC channel when a critical case is created
     - Create a dedicated war-room channel per major incident and invite responders
     - DM a user to confirm whether they performed a suspicious action
+  workflows:
+  - name: Slack Alert Manager
+    url: https://strangebee.com/workflow/slack-alert-manager-workflow/
+    description: The Slack Alert Manager workflow automates alert monitoring and response tracking through Slack. It processes
+      reactions, comments, and thread replies to update alert statuses, ensuring timely follow-ups and efficient incident
+      management.
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 12
@@ -1790,7 +1831,8 @@ high:
     totalExternalIntegrations: 0
     totalNotifiers: 1
     totalFlow: 1
-    total: 4
+    totalWorkflows: 1
+    total: 5
 - id: Splunk
   name: Splunk
   description: Splunk is a leading SIEM platform that aggregates, indexes, and analyzes machine data from across the enterprise,
@@ -1816,6 +1858,7 @@ high:
     - Run an SPL query to find every host that contacted a suspicious domain
     - Turn fired Splunk alerts into TheHive alerts
     - Update the Enterprise Security notable or finding status when the case is resolved
+  workflows: []
   externalIntegrations:
   - name: TheHive/Cortex Technical Add-on
     description: Bidirectional integration add-on that pulls case and alert events from TheHive, retrieves Cortex job information,
@@ -2007,6 +2050,7 @@ high:
     totalExternalIntegrations: 2
     totalNotifiers: 0
     totalFlow: 1
+    totalWorkflows: 0
     total: 16
 - id: Telegram
   name: Telegram
@@ -2027,6 +2071,7 @@ high:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 20
@@ -2060,6 +2105,7 @@ high:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: URLhaus
   name: URLhaus
@@ -2080,6 +2126,7 @@ high:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 16
@@ -2117,6 +2164,7 @@ high:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: Urlscan.io
   name: URLScan.io
@@ -2137,6 +2185,7 @@ high:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 15
@@ -2188,6 +2237,7 @@ high:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 2
 - id: VirusTotal
   name: VirusTotal
@@ -2214,6 +2264,7 @@ high:
     - Check the reputation of a hash, URL, domain or IP found in an alert
     - Submit an unknown attachment for scanning and wait for the analysis result
     - Auto-tag observables as malicious above a detection threshold
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 3
@@ -2289,6 +2340,7 @@ high:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 1
+    totalWorkflows: 0
     total: 5
 - id: Yara
   name: YARA
@@ -2309,6 +2361,7 @@ high:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 18
@@ -2343,6 +2396,7 @@ high:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 medium:
 - id: Kafka
@@ -2359,6 +2413,7 @@ medium:
   useCases: []
   notifier: true
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 50
@@ -2380,6 +2435,7 @@ medium:
     totalExternalIntegrations: 0
     totalNotifiers: 1
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: Email
   name: Email
@@ -2391,6 +2447,7 @@ medium:
   useCases: []
   notifier: true
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: false
   visibility: 50
@@ -2412,6 +2469,7 @@ medium:
     totalExternalIntegrations: 0
     totalNotifiers: 1
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: HttpRequest
   name: HTTP Request
@@ -2423,6 +2481,7 @@ medium:
   useCases: []
   notifier: true
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: false
   visibility: 50
@@ -2444,6 +2503,7 @@ medium:
     totalExternalIntegrations: 0
     totalNotifiers: 1
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: Mattermost
   name: Mattermost
@@ -2456,6 +2516,7 @@ medium:
   useCases: []
   notifier: true
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 50
@@ -2477,6 +2538,7 @@ medium:
     totalExternalIntegrations: 0
     totalNotifiers: 1
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: MSTeams
   name: Microsoft Teams
@@ -2492,6 +2554,7 @@ medium:
   useCases: []
   notifier: true
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 50
@@ -2513,6 +2576,7 @@ medium:
     totalExternalIntegrations: 0
     totalNotifiers: 1
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: Redis
   name: Redis
@@ -2524,6 +2588,7 @@ medium:
   useCases: []
   notifier: true
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 50
@@ -2545,6 +2610,7 @@ medium:
     totalExternalIntegrations: 0
     totalNotifiers: 1
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: Webhook
   name: Webhook
@@ -2556,6 +2622,7 @@ medium:
   useCases: []
   notifier: true
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: false
   visibility: 50
@@ -2577,6 +2644,7 @@ medium:
     totalExternalIntegrations: 0
     totalNotifiers: 1
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 low:
 - id: Abuse_Finder
@@ -2593,6 +2661,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -2630,6 +2699,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: AILOnionLookup
   name: AIL Onion-Lookup
@@ -2641,6 +2711,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -2677,6 +2748,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: Airtable
   name: Airtable
@@ -2688,6 +2760,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -2719,6 +2792,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: OTXQuery
   name: AlienVault OTX
@@ -2739,6 +2813,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -2776,6 +2851,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: StaxxSearch
   name: Anomali Staxx
@@ -2787,6 +2863,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: false
   visibility: 100
@@ -2825,6 +2902,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: AWX
   name: Ansible AWX
@@ -2840,6 +2918,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -2873,6 +2952,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: AnyRun
   name: ANY.RUN
@@ -2885,6 +2965,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -2993,6 +3074,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 7
 - id: AWSLambda
   name: AWS Lambda
@@ -3005,6 +3087,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -3042,6 +3125,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: Axur
   name: Axur
@@ -3053,6 +3137,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -3090,6 +3175,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: BackscatterIO
   name: BackscatterIO
@@ -3101,6 +3187,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -3151,6 +3238,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 2
 - id: BinalyzeAIR
   name: BinalyzeAIR
@@ -3162,6 +3250,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -3207,6 +3296,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 2
 - id: C1fApp
   name: C1fApp
@@ -3218,6 +3308,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: false
   visibility: 100
@@ -3254,6 +3345,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: Censys
   name: Censys
@@ -3265,6 +3357,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -3300,6 +3393,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: CERTatPassiveDNS
   name: CERT.AT pDNS
@@ -3312,6 +3406,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -3347,6 +3442,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: ChainAbuse
   name: ChainAbuse
@@ -3358,6 +3454,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -3392,6 +3489,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: CheckPointHEC
   name: Check Point Harmony Email & Collaboration
@@ -3407,6 +3505,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -3535,6 +3634,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 8
 - id: CheckPhish
   name: CheckPhish
@@ -3546,6 +3646,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -3591,6 +3692,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 2
 - id: CheckPoint
   name: CheckPoint
@@ -3602,6 +3704,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -3647,6 +3750,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 2
 - id: CIRCLHashlookup
   name: CIRCL Hash Lookup
@@ -3658,6 +3762,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -3691,6 +3796,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: CIRCLPassiveDNS
   name: CIRCL Passive DNS
@@ -3702,6 +3808,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -3737,6 +3844,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: CIRCLPassiveSSL
   name: CIRCL Passive SSL
@@ -3748,6 +3856,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -3783,6 +3892,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: CIRCLVulnerabilityLookup
   name: CIRCL Vulnerability-Lookup
@@ -3794,6 +3904,12 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows:
+  - name: CVE Monitoring with CIRCL
+    url: https://strangebee.com/workflow/cve-monitoring-with-circl/
+    description: Automatically retrieves vulnerability information from the CIRCL CVE database for specified vendors and products.
+      It creates detailed TheHive alerts containing affected software versions, technical descriptions, vulnerability details,
+      references, and recommended remediation actions.
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -3835,7 +3951,8 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
-    total: 1
+    totalWorkflows: 1
+    total: 2
 - id: CiscoDuo
   name: Cisco Duo
   description: Multi-factor authentication and secure access platform by Cisco for identity verification and endpoint trust
@@ -3849,6 +3966,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -3907,6 +4025,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 3
 - id: CiscoAMPforEndpoints
   name: Cisco Secure Endpoint (Formerly AMP for Endpoints)
@@ -3921,6 +4040,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -4002,6 +4122,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 5
 - id: CiscoUmbrella
   name: Cisco Umbrella
@@ -4017,6 +4138,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -4063,6 +4185,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 2
 - id: CiscoUmbrellaInvestigate
   name: Cisco Umbrella Investigate
@@ -4078,6 +4201,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -4124,6 +4248,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 2
 - id: CiscoThreatGrid
   name: CiscoThreatGrid
@@ -4135,6 +4260,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -4170,6 +4296,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: CiscoThreatResponse
   name: CiscoThreatResponse
@@ -4181,6 +4308,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -4219,6 +4347,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: CISMCAP
   name: CISMCAP
@@ -4230,6 +4359,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -4269,6 +4399,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: ClamAV
   name: ClamAV
@@ -4280,6 +4411,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -4313,6 +4445,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: Cluster25
   name: Cluster25
@@ -4324,6 +4457,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -4362,6 +4496,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: ClusterHawk
   name: ClusterHawk
@@ -4373,6 +4508,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -4406,6 +4542,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: Crowdsec
   name: CrowdSec
@@ -4427,6 +4564,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -4460,6 +4598,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: Crtsh
   name: Crtsh
@@ -4471,6 +4610,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -4504,6 +4644,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: CuckooSandbox
   name: Cuckoo Sandbox
@@ -4516,6 +4657,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -4561,6 +4703,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 2
 - id: CyberChef
   name: CyberChef
@@ -4572,6 +4715,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -4629,6 +4773,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 3
 - id: CyberCrime-Tracker
   name: CyberCrime-Tracker
@@ -4640,6 +4785,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: false
   visibility: 100
@@ -4677,6 +4823,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: Cyberprotect
   name: Cyberprotect
@@ -4688,6 +4835,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -4725,6 +4873,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: Cylance
   name: Cylance
@@ -4736,6 +4885,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -4769,6 +4919,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: DNS-RPZ
   name: DNS-RPZ
@@ -4780,6 +4931,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -4813,6 +4965,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: DNSDB
   name: DNSDB
@@ -4824,6 +4977,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -4883,6 +5037,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 3
 - id: DNSdumpster
   name: DNSdumpster
@@ -4894,6 +5049,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -4927,6 +5083,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: DNSLookingglass
   name: DNSLookingglass
@@ -4938,6 +5095,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -4972,6 +5130,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: DNSSinkhole
   name: DNSSinkhole
@@ -4983,6 +5142,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -5016,6 +5176,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: DomainMailSPFDMARC
   name: Domain Mail SPF DMARC
@@ -5031,6 +5192,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -5067,6 +5229,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: DomainTools
   name: DomainTools
@@ -5078,6 +5241,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -5232,6 +5396,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 10
 - id: DomainToolsIris
   name: DomainTools Iris
@@ -5243,6 +5408,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -5314,6 +5480,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 4
 - id: DShield
   name: DShield
@@ -5325,6 +5492,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -5358,6 +5526,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: EchoTrail
   name: EchoTrail
@@ -5369,6 +5538,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -5404,6 +5574,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: EclecticIQ
   name: EclecticIQ
@@ -5415,6 +5586,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -5473,6 +5645,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 2
 - id: Elasticsearch
   name: Elasticsearch
@@ -5499,6 +5672,7 @@ low:
     - Pull Elastic detection alerts and create TheHive alerts
     - Run an ES|QL query to scope an incident across users, hosts and time range
     - Write enrichment results or case summaries into a dedicated index
+  workflows: []
   externalIntegrations:
   - name: TheHive Connector for Kibana
     description: Native Kibana connector that allows Elasticsearch to create alerts and create cases in TheHive
@@ -5560,6 +5734,7 @@ low:
     totalExternalIntegrations: 1
     totalNotifiers: 0
     totalFlow: 1
+    totalWorkflows: 0
     total: 4
 - id: EmailRep
   name: EmailRep
@@ -5580,6 +5755,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -5613,6 +5789,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: EmergingThreats
   name: EmergingThreats
@@ -5624,6 +5801,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -5683,6 +5861,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 3
 - id: EmlParser
   name: EmlParser
@@ -5698,6 +5877,12 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows:
+  - name: Suspicious Email Campaign Detection
+    url: https://strangebee.com/workflow/suspicious-email-campaign-detection/
+    description: Automatically processes suspicious email alerts, extracts key email details, and identifies related incidents.
+      It groups matching alerts into existing cases or creates new ones in TheHive, helping security teams track and investigate
+      potential email campaigns.
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -5731,7 +5916,8 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
-    total: 1
+    totalWorkflows: 1
+    total: 2
 - id: FileInfo
   name: FileInfo
   description: Built-in Cortex analyzer that locally identifies a file's type, hashes, and embedded metadata to give analysts
@@ -5746,6 +5932,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -5780,6 +5967,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: FireEyeiSight
   name: FireEye iSIGHT
@@ -5791,6 +5979,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -5827,6 +6016,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: FireHOL
   name: FireHOL
@@ -5838,6 +6028,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -5871,6 +6062,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: ForcepointWebsensePing
   name: Forcepoint WebsensePing
@@ -5882,6 +6074,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -5918,6 +6111,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: FoxIO
   name: FoxIO
@@ -5931,6 +6125,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -5965,6 +6160,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: Gatewatcher_CTI
   name: Gatewatcher CTI
@@ -5976,6 +6172,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -6026,6 +6223,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 2
 - id: Gmail
   name: Gmail
@@ -6037,6 +6235,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -6118,6 +6317,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 5
 - id: GoogleSafebrowsing
   name: Google Safe Browsing
@@ -6129,6 +6329,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -6163,6 +6364,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: GoogleVisionAPI
   name: Google Vision API
@@ -6174,6 +6376,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -6208,6 +6411,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: GoogleDNS
   name: GoogleDNS
@@ -6219,6 +6423,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -6254,6 +6459,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: GreyNoise
   name: GreyNoise
@@ -6272,6 +6478,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -6305,6 +6512,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: GRR
   name: GRR Rapid Response
@@ -6316,6 +6524,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -6350,6 +6559,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: HarfangLab
   name: HarfangLab
@@ -6367,6 +6577,7 @@ low:
     - Isolate an endpoint and launch a forensic collection job
     - Hunt for an IOC across process, network and DNS telemetry of the whole fleet
     - Download a suspicious binary and send it to VirusTotal or a sandbox
+  workflows: []
   externalIntegrations:
   - name: TheHive Connector
     description: Native connector provided by HarfangLab to send security events (SecEvents) from the HarfangLab EDR Manager
@@ -6767,6 +6978,7 @@ low:
     totalExternalIntegrations: 1
     totalNotifiers: 0
     totalFlow: 1
+    totalWorkflows: 0
     total: 33
 - id: Hashdd
   name: Hashdd
@@ -6778,6 +6990,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -6823,6 +7036,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 2
 - id: HIBP
   name: Have I Been Pwned
@@ -6843,6 +7057,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -6876,6 +7091,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: Hunterio
   name: Hunter.io
@@ -6896,6 +7112,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -6930,6 +7147,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: HybridAnalysis
   name: Hybrid Analysis
@@ -6950,6 +7168,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -6987,6 +7206,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: IBMQRadar
   name: IBM QRadar
@@ -6998,6 +7218,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -7031,6 +7252,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: IBMXForce
   name: IBM X-Force
@@ -7042,6 +7264,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -7078,6 +7301,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: Inoitsu
   name: Inoitsu
@@ -7089,6 +7313,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -7122,6 +7347,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: IntezerCommunity
   name: IntezerCommunity
@@ -7133,6 +7359,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -7167,6 +7394,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: IP-API
   name: IP-API
@@ -7182,6 +7410,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -7216,6 +7445,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: IPinfo
   name: IPinfo
@@ -7236,6 +7466,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -7281,6 +7512,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 2
 - id: IPVoid
   name: IPVoid
@@ -7292,6 +7524,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -7325,6 +7558,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: isMalicious
   name: isMalicious
@@ -7336,6 +7570,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -7372,6 +7607,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: IVRE
   name: IVRE
@@ -7383,6 +7619,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -7423,6 +7660,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: JAMFProtect
   name: JAMFProtect
@@ -7434,6 +7672,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -7493,6 +7732,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 3
 - id: JIRA
   name: Jira Cloud
@@ -7514,6 +7754,12 @@ low:
     - Open a Jira ticket for the owning team when a case needs a fix such as a patch or config change
     - Link the Jira issue back to the TheHive case and comment progress
     - Close the case automatically when the Jira issue is resolved
+  workflows:
+  - name: TheHive to Jira ITSM Sync
+    url: https://strangebee.com/workflow/thehive-to-jira-itsm-sync/
+    description: Automatically creates Jira issues from new TheHive alerts and synchronizes comments between both platforms.
+      It prevents duplicate updates, keeps incident discussions aligned, and closes Jira issues when the corresponding alerts
+      are resolved.
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -7545,7 +7791,8 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 1
-    total: 2
+    totalWorkflows: 1
+    total: 3
 - id: JoeSandbox
   name: Joe Sandbox
   description: ''
@@ -7556,6 +7803,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -7613,6 +7861,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 3
 - id: Jupyter
   name: Jupyter
@@ -7624,6 +7873,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -7687,6 +7937,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 2
 - id: KasperskyTIP
   name: Kaspersky TIP
@@ -7698,6 +7949,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -7733,6 +7985,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: KnowBe4
   name: KnowBe4
@@ -7744,6 +7997,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -7777,6 +8031,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: LdapQuery
   name: LdapQuery
@@ -7792,6 +8047,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -7826,6 +8082,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: Lookyloo
   name: Lookyloo
@@ -7837,6 +8094,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -7873,6 +8131,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: LupovisProwl
   name: LupovisProwl
@@ -7884,6 +8143,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -7917,6 +8177,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: Macadress
   name: Macadress
@@ -7928,6 +8189,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -7963,6 +8225,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: Mailer
   name: Mailer
@@ -7978,6 +8241,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -8013,6 +8277,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: MailIncidentStatus
   name: MailIncidentStatus
@@ -8028,6 +8293,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -8064,6 +8330,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: Malpedia
   name: Malpedia
@@ -8075,6 +8342,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -8108,6 +8376,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: Maltiverse
   name: Maltiverse
@@ -8128,6 +8397,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -8164,6 +8434,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: TeamCymruMHR
   name: Malware Hash Registry (MHR)
@@ -8175,6 +8446,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -8208,6 +8480,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: MalwareBazaar
   name: MalwareBazaar
@@ -8228,6 +8501,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -8261,6 +8535,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: MalwareClustering
   name: MalwareClustering
@@ -8272,6 +8547,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -8306,6 +8582,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: Malwares
   name: Malwares
@@ -8317,6 +8594,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -8365,6 +8643,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 2
 - id: MaxMind
   name: MaxMind
@@ -8385,6 +8664,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -8418,6 +8698,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: MetaDefender
   name: MetaDefender
@@ -8429,6 +8710,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -8512,6 +8794,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 5
 - id: MSExchangeOnline
   name: Microsoft Exchange Online
@@ -8527,6 +8810,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -8575,6 +8859,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 2
 - id: Minemeld
   name: MineMeld
@@ -8586,6 +8871,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: false
   visibility: 100
@@ -8619,6 +8905,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: MISPWarningLists
   name: MISP Warning Lists
@@ -8630,6 +8917,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -8667,6 +8955,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: MnemonicPDNS
   name: Mnemonic Passive DNS
@@ -8687,6 +8976,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -8734,6 +9024,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 2
 - id: MsgParser
   name: MsgParser
@@ -8749,6 +9040,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -8782,6 +9074,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: MSRiskIQPassiveTotal
   name: MSRiskIQPassiveTotal
@@ -8793,6 +9086,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -8966,6 +9260,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 11
 - id: n8n
   name: n8n
@@ -8984,6 +9279,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations:
   - name: Cortex and TheHive Nodes
     description: Pre-built workflow nodes that enable automated data transfer and task orchestration between n8n, Cortex analyzers/responders,
@@ -9026,6 +9322,7 @@ low:
     totalExternalIntegrations: 1
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 2
 - id: NERD
   name: NERD
@@ -9037,6 +9334,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -9070,6 +9368,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: Nessus
   name: Nessus
@@ -9081,6 +9380,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -9115,6 +9415,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: Netcraft
   name: Netcraft
@@ -9126,6 +9427,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -9159,6 +9461,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: NSRL
   name: NSRL
@@ -9170,6 +9473,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -9204,6 +9508,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: Okta
   name: Okta
@@ -9215,6 +9520,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -9249,6 +9555,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: ONYPHEActiveScan
   name: ONYPHEActiveScan
@@ -9260,6 +9567,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -9295,6 +9603,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: OpenCTI
   name: OpenCTI
@@ -9307,6 +9616,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -9428,6 +9738,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 4
 - id: OpenCVE
   name: OpenCVE
@@ -9443,6 +9754,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -9477,6 +9789,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: OrionMalware
   name: OrionMalware
@@ -9488,6 +9801,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -9522,6 +9836,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: OvhCloud
   name: OVHcloud
@@ -9537,6 +9852,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -9596,6 +9912,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 3
 - id: PaloAltoAutofocus
   name: Palo Alto AutoFocus
@@ -9608,6 +9925,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -9672,6 +9990,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 3
 - id: PaloAltoCortexXDR
   name: PAN Cortex XDR
@@ -9683,6 +10002,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -9800,6 +10120,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 8
 - id: CortexXSOAR
   name: PAN Cortex XSOAR
@@ -9814,6 +10135,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations:
   - name: TheHive Project Integration
     description: Native Cortex XSOAR integration that enables bidirectional case synchronization, task management, observable
@@ -9840,6 +10162,7 @@ low:
     totalExternalIntegrations: 1
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: PaloAltoNGFW
   name: PAN Next Generation Firewall
@@ -9851,6 +10174,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -10096,6 +10420,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 16
 - id: PaloAltoWildFire
   name: PAN WildFire
@@ -10107,6 +10432,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -10156,6 +10482,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 2
 - id: Patrowl
   name: Patrowl
@@ -10167,6 +10494,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -10202,6 +10530,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: PayloadSecurity
   name: Payload Security
@@ -10213,6 +10542,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: false
   visibility: 100
@@ -10258,6 +10588,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 2
 - id: PDFPreview
   name: PDFPreview
@@ -10273,6 +10604,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -10306,6 +10638,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: PhishingInitiative
   name: PhishingInitiative
@@ -10317,6 +10650,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -10362,6 +10696,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 2
 - id: PhishTank
   name: PhishTank
@@ -10381,6 +10716,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -10414,6 +10750,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: Pulsedive
   name: Pulsedive
@@ -10425,6 +10762,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -10461,6 +10799,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: QrDecode
   name: QrDecode
@@ -10476,6 +10815,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -10509,6 +10849,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: InsightConnect
   name: Rapid7 InsightConnect
@@ -10527,6 +10868,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations:
   - name: TheHive Extension
     description: Rapid7 InsightConnect extension that enables automated workflows with TheHive for case management, alert
@@ -10553,6 +10895,7 @@ low:
     totalExternalIntegrations: 1
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: RDAP
   name: RDAP
@@ -10564,6 +10907,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -10598,6 +10942,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: Redmine
   name: Redmine
@@ -10609,6 +10954,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -10643,6 +10989,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: RT4
   name: Request Tracker (RT4)
@@ -10658,6 +11005,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -10693,6 +11041,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: MSRiskIQ
   name: RiskIQ
@@ -10704,6 +11053,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: false
   visibility: 100
@@ -10958,6 +11308,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 17
 - id: Robtex
   name: Robtex
@@ -10969,6 +11320,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -11027,6 +11379,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 3
 - id: ScanMalware
   name: ScanMalware
@@ -11038,6 +11391,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -11075,6 +11429,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: SecurityTrails
   name: SecurityTrails
@@ -11086,6 +11441,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -11131,6 +11487,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 2
 - id: SEKOIAIntelligenceCenter
   name: SEKOIA Intelligence Center
@@ -11146,6 +11503,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -11215,6 +11573,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 3
 - id: SendGrid
   name: SendGrid
@@ -11226,6 +11585,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -11260,6 +11620,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: SentinelOne
   name: SentinelOne
@@ -11271,6 +11632,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -11346,6 +11708,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 4
 - id: ServiceNow
   name: ServiceNow
@@ -11370,6 +11733,7 @@ low:
     - Open a ServiceNow incident for the IT team when a remediation is needed
     - Enrich a host observable with its CMDB owner and criticality
     - Raise a change request before a firewall block or a mass password reset
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -11391,6 +11755,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 1
+    totalWorkflows: 0
     total: 1
 - id: Shuffle
   name: Shuffle
@@ -11412,6 +11777,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations:
   - name: TheHive 5 Integration
     description: Native Shuffle app integration that enables workflow automation with TheHive 5 for automated case management,
@@ -11454,6 +11820,7 @@ low:
     totalExternalIntegrations: 1
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 2
 - id: SinkDB
   name: SinkDB
@@ -11465,6 +11832,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -11501,6 +11869,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: SoltraEdge
   name: Soltra Edge
@@ -11512,6 +11881,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: false
   visibility: 100
@@ -11558,6 +11928,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: SophosIntelix
   name: SophosIntelix
@@ -11569,6 +11940,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -11633,6 +12005,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 3
 - id: SpamAssassin
   name: SpamAssassin
@@ -11644,6 +12017,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -11677,6 +12051,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: SpamhausDBL
   name: SpamhausDBL
@@ -11688,6 +12063,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -11722,6 +12098,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: StamusNetworks
   name: StamusNetworks
@@ -11733,6 +12110,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -11766,6 +12144,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: StopForumSpam
   name: StopForumSpam
@@ -11777,6 +12156,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -11811,6 +12191,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: Suspicious
   name: Suspicious
@@ -11822,6 +12203,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -11856,6 +12238,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: Test
   name: Test
@@ -11867,6 +12250,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: false
   visibility: 100
@@ -11920,6 +12304,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 2
 - id: TestAnalyzer
   name: Test Analyzer
@@ -11931,6 +12316,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: false
   visibility: 100
@@ -11996,6 +12382,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 2
 - id: ThreatConnect
   name: ThreatConnect
@@ -12010,6 +12397,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations:
   - name: TheHive Integration (via Polarity)
     description: Polarity-TheHive integration that enables security analysts to search TheHive instances for indicators, create
@@ -12037,6 +12425,7 @@ low:
     totalExternalIntegrations: 1
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: ThreatFox
   name: ThreatFox
@@ -12048,6 +12437,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -12086,6 +12476,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: ThreatMiner
   name: ThreatMiner
@@ -12097,6 +12488,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -12131,6 +12523,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: ThreatQ
   name: ThreatQ
@@ -12152,6 +12545,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations:
   - name: The Hive App for ThreatQ
     description: Webhook-based connector that monitors TheHive case and observable events in real time and pushes them to
@@ -12179,6 +12573,7 @@ low:
     totalExternalIntegrations: 1
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: Thunderstorm
   name: Thunderstorm
@@ -12190,6 +12585,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -12223,6 +12619,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: Tines
   name: Tines
@@ -12236,6 +12633,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations:
   - name: TheHive Project Connector
     description: Native Tines credential connector that enables workflows to interact with TheHive for automated incident
@@ -12262,6 +12660,7 @@ low:
     totalExternalIntegrations: 1
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: TorBlutmagie
   name: TorBlutmagie
@@ -12273,6 +12672,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -12309,6 +12709,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: TorProject
   name: TorProject
@@ -12320,6 +12721,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -12353,6 +12755,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: Triage
   name: Triage
@@ -12364,6 +12767,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -12400,6 +12804,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: UnshortenLink
   name: UnshortenLink
@@ -12411,6 +12816,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -12444,6 +12850,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: urlDNA.io
   name: urlDNA.io
@@ -12455,6 +12862,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -12502,6 +12910,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 2
 - id: Valhalla
   name: Valhalla
@@ -12513,6 +12922,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -12546,6 +12956,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: ValidateObservable
   name: ValidateObservable
@@ -12561,6 +12972,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -12602,6 +13014,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: Velociraptor
   name: Velociraptor
@@ -12624,6 +13037,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -12657,6 +13071,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: Verifalia
   name: Verifalia
@@ -12668,6 +13083,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -12701,6 +13117,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: Virusshare
   name: VirusShare
@@ -12713,6 +13130,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -12747,6 +13165,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: VMRay
   name: VMRay
@@ -12758,6 +13177,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -12793,6 +13213,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: Vulners
   name: Vulners
@@ -12804,6 +13225,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -12851,6 +13273,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 2
 - id: Watcher
   name: Watcher
@@ -12862,6 +13285,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -12951,6 +13375,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 5
 - id: Wazuh
   name: Wazuh
@@ -12963,6 +13388,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -12997,6 +13423,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: WOT
   name: WOT
@@ -13008,6 +13435,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -13042,6 +13470,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: XposedOrNot
   name: XposedOrNot
@@ -13053,6 +13482,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -13100,6 +13530,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 2
 - id: Yeti
   name: Yeti
@@ -13111,6 +13542,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -13148,6 +13580,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 1
 - id: ZEROFOX
   name: ZEROFOX
@@ -13159,6 +13592,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -13204,6 +13638,7 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 2
 - id: Zscaler
   name: Zscaler
@@ -13215,6 +13650,7 @@ low:
   useCases: []
   notifier: false
   flow: {}
+  workflows: []
   externalIntegrations: []
   displayOnWebsite: true
   visibility: 100
@@ -13420,4 +13856,5 @@ low:
     totalExternalIntegrations: 0
     totalNotifiers: 0
     totalFlow: 0
+    totalWorkflows: 0
     total: 14

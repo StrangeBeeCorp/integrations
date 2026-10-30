@@ -27,6 +27,7 @@
       "Auto-tag observables as malicious above a detection threshold"
     ]
   },
+  "workflows": [],
   "externalIntegrations": [],
   "displayOnWebsite": true,
   "visibility": 3,
@@ -116,6 +117,7 @@
     "totalExternalIntegrations": 0,
     "totalNotifiers": 0,
     "totalFlow": 1,
+    "totalWorkflows": 0,
     "total": 5
   }
 }

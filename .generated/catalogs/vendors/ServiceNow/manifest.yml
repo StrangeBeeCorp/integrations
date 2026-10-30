@@ -24,6 +24,7 @@ flow:
   - Open a ServiceNow incident for the IT team when a remediation is needed
   - Enrich a host observable with its CMDB owner and criticality
   - Raise a change request before a firewall block or a mass password reset
+workflows: []
 externalIntegrations: []
 displayOnWebsite: true
 visibility: 100
@@ -45,4 +46,5 @@ stats:
   totalExternalIntegrations: 0
   totalNotifiers: 0
   totalFlow: 1
+  totalWorkflows: 0
   total: 1

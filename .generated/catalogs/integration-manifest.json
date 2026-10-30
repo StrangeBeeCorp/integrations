@@ -14,6 +14,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -56,6 +57,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -80,6 +82,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 13,
@@ -134,6 +137,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 2
     }
   },
@@ -148,6 +152,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -188,6 +193,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -202,6 +208,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -236,6 +243,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -250,6 +258,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -381,6 +390,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 7
     }
   },
@@ -395,6 +405,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -437,6 +448,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -455,6 +467,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -493,6 +506,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -507,6 +521,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -549,6 +564,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -563,6 +579,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -621,6 +638,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 2
     }
   },
@@ -635,6 +653,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -688,6 +707,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 2
     }
   },
@@ -702,6 +722,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": false,
     "visibility": 100,
@@ -743,6 +764,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -767,6 +789,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 19,
@@ -805,6 +828,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -819,6 +843,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -859,6 +884,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -873,6 +899,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -913,6 +940,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -927,6 +955,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -966,6 +995,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -980,6 +1010,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -1033,6 +1064,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 2
     }
   },
@@ -1047,6 +1079,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -1100,6 +1133,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 2
     }
   },
@@ -1118,6 +1152,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -1266,6 +1301,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 8
     }
   },
@@ -1280,6 +1316,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -1318,6 +1355,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -1332,6 +1370,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -1372,6 +1411,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -1386,6 +1426,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -1426,6 +1467,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -1440,6 +1482,13 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [
+      {
+        "name": "CVE Monitoring with CIRCL",
+        "url": "https://strangebee.com/workflow/cve-monitoring-with-circl/",
+        "description": "Automatically retrieves vulnerability information from the CIRCL CVE database for specified vendors and products. It creates detailed TheHive alerts containing affected software versions, technical descriptions, vulnerability details, references, and recommended remediation actions."
+      }
+    ],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -1485,7 +1534,8 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
-      "total": 1
+      "totalWorkflows": 1,
+      "total": 2
     }
   },
   "CiscoAMPforEndpoints": {
@@ -1503,6 +1553,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -1601,6 +1652,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 5
     }
   },
@@ -1619,6 +1671,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -1687,6 +1740,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 3
     }
   },
@@ -1701,6 +1755,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -1741,6 +1796,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -1755,6 +1811,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -1798,6 +1855,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -1816,6 +1874,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -1871,6 +1930,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 2
     }
   },
@@ -1889,6 +1949,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -1943,6 +2004,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 2
     }
   },
@@ -1957,6 +2019,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -2000,6 +2063,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -2014,6 +2078,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -2052,6 +2117,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -2070,6 +2136,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 14,
@@ -2108,6 +2175,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -2122,6 +2190,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -2165,6 +2234,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -2179,6 +2249,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -2217,6 +2288,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -2234,6 +2306,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [
       {
         "name": "TheHive Project Integration",
@@ -2263,6 +2336,7 @@
       "totalExternalIntegrations": 1,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -2287,6 +2361,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -2325,6 +2400,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -2390,6 +2466,7 @@
         "Push a confirmed malicious hash as a Falcon IOC to block it fleet-wide"
       ]
     },
+    "workflows": [],
     "externalIntegrations": [
       {
         "name": "falcon2thehive",
@@ -2725,6 +2802,7 @@
       "totalExternalIntegrations": 1,
       "totalNotifiers": 0,
       "totalFlow": 1,
+      "totalWorkflows": 0,
       "total": 22
     }
   },
@@ -2739,6 +2817,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -2777,6 +2856,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -2791,6 +2871,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -2844,6 +2925,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 2
     }
   },
@@ -2858,6 +2940,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -2926,6 +3009,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 3
     }
   },
@@ -2940,6 +3024,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": false,
     "visibility": 100,
@@ -2982,6 +3067,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -2996,6 +3082,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -3038,6 +3125,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -3052,6 +3140,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -3090,6 +3179,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -3104,6 +3194,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -3142,6 +3233,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -3156,6 +3248,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -3226,6 +3319,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 3
     }
   },
@@ -3240,6 +3334,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -3278,6 +3373,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -3292,6 +3388,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -3331,6 +3428,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -3345,6 +3443,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -3383,6 +3482,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -3401,6 +3501,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -3441,6 +3542,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -3455,6 +3557,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -3640,6 +3743,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 10
     }
   },
@@ -3654,6 +3758,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -3740,6 +3845,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 4
     }
   },
@@ -3754,6 +3860,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -3792,6 +3899,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -3806,6 +3914,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -3845,6 +3954,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -3859,6 +3969,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -3926,6 +4037,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 2
     }
   },
@@ -3957,6 +4069,7 @@
         "Write enrichment results or case summaries into a dedicated index"
       ]
     },
+    "workflows": [],
     "externalIntegrations": [
       {
         "name": "TheHive Connector for Kibana",
@@ -4029,6 +4142,7 @@
       "totalExternalIntegrations": 1,
       "totalNotifiers": 0,
       "totalFlow": 1,
+      "totalWorkflows": 0,
       "total": 4
     }
   },
@@ -4043,6 +4157,7 @@
     "useCases": [],
     "notifier": true,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": false,
     "visibility": 50,
@@ -4065,6 +4180,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 1,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -4089,6 +4205,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -4127,6 +4244,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -4141,6 +4259,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -4211,6 +4330,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 3
     }
   },
@@ -4229,6 +4349,13 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [
+      {
+        "name": "Suspicious Email Campaign Detection",
+        "url": "https://strangebee.com/workflow/suspicious-email-campaign-detection/",
+        "description": "Automatically processes suspicious email alerts, extracts key email details, and identifies related incidents. It groups matching alerts into existing cases or creates new ones in TheHive, helping security teams track and investigate potential email campaigns."
+      }
+    ],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -4267,7 +4394,8 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
-      "total": 1
+      "totalWorkflows": 1,
+      "total": 2
     }
   },
   "FileInfo": {
@@ -4285,6 +4413,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -4323,6 +4452,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -4337,6 +4467,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -4378,6 +4509,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -4392,6 +4524,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -4430,6 +4563,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -4444,6 +4578,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -4485,6 +4620,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -4499,6 +4635,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -4538,6 +4675,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -4552,6 +4690,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -4611,6 +4750,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 2
     }
   },
@@ -4625,6 +4765,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -4723,6 +4864,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 5
     }
   },
@@ -4737,6 +4879,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -4777,6 +4920,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -4791,6 +4935,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -4830,6 +4975,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -4856,6 +5002,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 7,
@@ -4959,6 +5106,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 5
     }
   },
@@ -4973,6 +5121,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -5012,6 +5161,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -5034,6 +5184,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -5072,6 +5223,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -5086,6 +5238,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -5125,6 +5278,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -5146,6 +5300,7 @@
         "Download a suspicious binary and send it to VirusTotal or a sandbox"
       ]
     },
+    "workflows": [],
     "externalIntegrations": [
       {
         "name": "TheHive Connector",
@@ -5643,6 +5798,7 @@
       "totalExternalIntegrations": 1,
       "totalNotifiers": 0,
       "totalFlow": 1,
+      "totalWorkflows": 0,
       "total": 33
     }
   },
@@ -5657,6 +5813,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -5710,6 +5867,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 2
     }
   },
@@ -5734,6 +5892,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -5772,6 +5931,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -5786,6 +5946,7 @@
     "useCases": [],
     "notifier": true,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": false,
     "visibility": 50,
@@ -5808,6 +5969,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 1,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -5832,6 +5994,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -5871,6 +6034,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -5895,6 +6059,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -5937,6 +6102,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -5951,6 +6117,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -5989,6 +6156,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -6003,6 +6171,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -6044,6 +6213,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -6058,6 +6228,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -6096,6 +6267,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -6118,6 +6290,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [
       {
         "name": "TheHive Extension",
@@ -6147,6 +6320,7 @@
       "totalExternalIntegrations": 1,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -6161,6 +6335,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -6200,6 +6375,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -6218,6 +6394,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -6257,6 +6434,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -6281,6 +6459,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -6334,6 +6513,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 2
     }
   },
@@ -6348,6 +6528,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -6386,6 +6567,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -6400,6 +6582,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -6440,6 +6623,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -6454,6 +6638,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -6499,6 +6684,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -6513,6 +6699,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -6578,6 +6765,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 3
     }
   },
@@ -6604,6 +6792,13 @@
         "Close the case automatically when the Jira issue is resolved"
       ]
     },
+    "workflows": [
+      {
+        "name": "TheHive to Jira ITSM Sync",
+        "url": "https://strangebee.com/workflow/thehive-to-jira-itsm-sync/",
+        "description": "Automatically creates Jira issues from new TheHive alerts and synchronizes comments between both platforms. It prevents duplicate updates, keeps incident discussions aligned, and closes Jira issues when the corresponding alerts are resolved."
+      }
+    ],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -6638,7 +6833,8 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 1,
-      "total": 2
+      "totalWorkflows": 1,
+      "total": 3
     }
   },
   "JoeSandbox": {
@@ -6652,6 +6848,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -6720,6 +6917,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 3
     }
   },
@@ -6734,6 +6932,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -6806,6 +7005,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 2
     }
   },
@@ -6824,6 +7024,7 @@
     "useCases": [],
     "notifier": true,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 50,
@@ -6846,6 +7047,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 1,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -6860,6 +7062,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -6900,6 +7103,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -6914,6 +7118,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -6952,6 +7157,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -6970,6 +7176,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -7009,6 +7216,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -7023,6 +7231,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -7064,6 +7273,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -7078,6 +7288,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -7116,6 +7327,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -7130,6 +7342,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -7169,6 +7382,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -7187,6 +7401,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -7227,6 +7442,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -7245,6 +7461,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -7283,6 +7500,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -7297,6 +7515,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -7335,6 +7554,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -7359,6 +7579,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -7400,6 +7621,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -7424,6 +7646,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -7462,6 +7685,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -7476,6 +7700,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -7515,6 +7740,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -7529,6 +7755,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -7585,6 +7812,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 2
     }
   },
@@ -7599,6 +7827,7 @@
     "useCases": [],
     "notifier": true,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 50,
@@ -7621,6 +7850,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 1,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -7645,6 +7875,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -7683,6 +7914,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -7697,6 +7929,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -7797,6 +8030,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 5
     }
   },
@@ -7811,6 +8045,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": false,
     "visibility": 100,
@@ -7849,6 +8084,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -7873,6 +8109,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 6,
@@ -7924,6 +8161,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -7938,6 +8176,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -7980,6 +8219,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -8004,6 +8244,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -8059,6 +8300,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 2
     }
   },
@@ -8091,6 +8333,7 @@
         "Create a block indicator for a confirmed malicious IP, URL or hash"
       ]
     },
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 4,
@@ -8326,6 +8569,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 1,
+      "totalWorkflows": 0,
       "total": 15
     }
   },
@@ -8353,6 +8597,7 @@
         "Keep incident status in sync between Defender and TheHive"
       ]
     },
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": false,
     "visibility": 5,
@@ -8375,6 +8620,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 1,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -8400,6 +8646,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 9,
@@ -8499,6 +8746,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 5
     }
   },
@@ -8532,6 +8780,7 @@
         "Review recent sign-ins and risk detections for a suspected account takeover"
       ]
     },
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 5,
@@ -8740,6 +8989,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 1,
+      "totalWorkflows": 0,
       "total": 13
     }
   },
@@ -8758,6 +9008,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -8812,6 +9063,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 2
     }
   },
@@ -8830,6 +9082,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -8868,6 +9121,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -8882,6 +9136,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": false,
     "visibility": 100,
@@ -9190,6 +9445,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 17
     }
   },
@@ -9204,6 +9460,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -9412,6 +9669,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 11
     }
   },
@@ -9437,6 +9695,7 @@
         "Close the Sentinel incident with the right classification when the case is closed"
       ]
     },
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 5,
@@ -9471,6 +9730,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 1,
+      "totalWorkflows": 0,
       "total": 2
     }
   },
@@ -9489,6 +9749,7 @@
     "useCases": [],
     "notifier": true,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 50,
@@ -9511,6 +9772,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 1,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -9533,6 +9795,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [
       {
         "name": "Cortex and TheHive Nodes",
@@ -9582,6 +9845,7 @@
       "totalExternalIntegrations": 1,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 2
     }
   },
@@ -9596,6 +9860,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -9634,6 +9899,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -9648,6 +9914,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -9687,6 +9954,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -9701,6 +9969,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -9739,6 +10008,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -9753,6 +10023,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -9792,6 +10063,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -9806,6 +10078,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -9844,6 +10117,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -9868,6 +10142,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 17,
@@ -9982,6 +10257,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 5
     }
   },
@@ -9996,6 +10272,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -10036,6 +10313,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -10050,6 +10328,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -10185,6 +10464,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 4
     }
   },
@@ -10203,6 +10483,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -10241,6 +10522,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -10255,6 +10537,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -10294,6 +10577,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -10318,6 +10602,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -10360,6 +10645,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -10378,6 +10664,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -10449,6 +10736,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 3
     }
   },
@@ -10463,6 +10751,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -10538,6 +10827,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 3
     }
   },
@@ -10552,6 +10842,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -10695,6 +10986,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 8
     }
   },
@@ -10709,6 +11001,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -11004,6 +11297,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 16
     }
   },
@@ -11018,6 +11312,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -11076,6 +11371,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 2
     }
   },
@@ -11090,6 +11386,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -11130,6 +11427,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -11144,6 +11442,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": false,
     "visibility": 100,
@@ -11197,6 +11496,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 2
     }
   },
@@ -11215,6 +11515,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -11253,6 +11554,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -11267,6 +11569,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -11320,6 +11623,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 2
     }
   },
@@ -11343,6 +11647,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -11381,6 +11686,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -11442,6 +11748,7 @@
     ],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 10,
@@ -11505,6 +11812,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 3
     }
   },
@@ -11519,6 +11827,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -11560,6 +11869,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -11578,6 +11888,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -11616,6 +11927,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -11630,6 +11942,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -11669,6 +11982,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -11700,6 +12014,13 @@
         "Attach threat actor context to a case when an IOC matches a known campaign"
       ]
     },
+    "workflows": [
+      {
+        "name": "Alert Triage with Recorded Future",
+        "url": "https://strangebee.com/workflow/alert-triage-with-recorded-future/",
+        "description": "Automatically processes Elasticsearch security alerts in TheHive and enriches IP addresses and file hashes with threat intelligence from Recorded Future. It identifies high-risk indicators, escalates critical alerts into cases, and documents malicious findings to streamline incident investigation."
+      }
+    ],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 8,
@@ -11742,7 +12063,8 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 1,
-      "total": 2
+      "totalWorkflows": 1,
+      "total": 3
     }
   },
   "Redis": {
@@ -11756,6 +12078,7 @@
     "useCases": [],
     "notifier": true,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 50,
@@ -11778,6 +12101,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 1,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -11792,6 +12116,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -11831,6 +12156,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -11845,6 +12171,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -11914,6 +12241,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 3
     }
   },
@@ -11932,6 +12260,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -11972,6 +12301,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -11986,6 +12316,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -12027,6 +12358,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -12041,6 +12373,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -12094,6 +12427,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 2
     }
   },
@@ -12112,6 +12446,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -12192,6 +12527,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 3
     }
   },
@@ -12206,6 +12542,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -12245,6 +12582,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -12259,6 +12597,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -12347,6 +12686,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 4
     }
   },
@@ -12377,6 +12717,7 @@
         "Raise a change request before a firewall block or a mass password reset"
       ]
     },
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -12399,6 +12740,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 1,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -12424,6 +12766,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 11,
@@ -12539,6 +12882,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 6
     }
   },
@@ -12563,6 +12907,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [
       {
         "name": "TheHive 5 Integration",
@@ -12612,6 +12957,7 @@
       "totalExternalIntegrations": 1,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 2
     }
   },
@@ -12626,6 +12972,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -12667,6 +13014,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -12726,6 +13074,13 @@
         "DM a user to confirm whether they performed a suspicious action"
       ]
     },
+    "workflows": [
+      {
+        "name": "Slack Alert Manager",
+        "url": "https://strangebee.com/workflow/slack-alert-manager-workflow/",
+        "description": "The Slack Alert Manager workflow automates alert monitoring and response tracking through Slack. It processes reactions, comments, and thread replies to update alert statuses, ensuring timely follow-ups and efficient incident management."
+      }
+    ],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 12,
@@ -12779,7 +13134,8 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 1,
       "totalFlow": 1,
-      "total": 4
+      "totalWorkflows": 1,
+      "total": 5
     }
   },
   "SoltraEdge": {
@@ -12793,6 +13149,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": false,
     "visibility": 100,
@@ -12844,6 +13201,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -12858,6 +13216,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -12929,6 +13288,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 3
     }
   },
@@ -12943,6 +13303,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -12981,6 +13342,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -12995,6 +13357,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -13034,6 +13397,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -13065,6 +13429,7 @@
         "Update the Enterprise Security notable or finding status when the case is resolved"
       ]
     },
+    "workflows": [],
     "externalIntegrations": [
       {
         "name": "TheHive/Cortex Technical Add-on",
@@ -13300,6 +13665,7 @@
       "totalExternalIntegrations": 2,
       "totalNotifiers": 0,
       "totalFlow": 1,
+      "totalWorkflows": 0,
       "total": 16
     }
   },
@@ -13314,6 +13680,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -13352,6 +13719,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -13366,6 +13734,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": false,
     "visibility": 100,
@@ -13409,6 +13778,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -13423,6 +13793,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -13462,6 +13833,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -13476,6 +13848,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -13515,6 +13888,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -13529,6 +13903,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -13567,6 +13942,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -13591,6 +13967,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 20,
@@ -13629,6 +14006,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -13643,6 +14021,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": false,
     "visibility": 100,
@@ -13704,6 +14083,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 2
     }
   },
@@ -13718,6 +14098,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": false,
     "visibility": 100,
@@ -13790,6 +14171,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 2
     }
   },
@@ -13807,6 +14189,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [
       {
         "name": "TheHive Integration (via Polarity)",
@@ -13836,6 +14219,7 @@
       "totalExternalIntegrations": 1,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -13850,6 +14234,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -13892,6 +14277,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -13906,6 +14292,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -13945,6 +14332,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -13970,6 +14358,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [
       {
         "name": "The Hive App for ThreatQ",
@@ -13999,6 +14388,7 @@
       "totalExternalIntegrations": 1,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -14013,6 +14403,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -14051,6 +14442,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -14068,6 +14460,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [
       {
         "name": "TheHive Project Connector",
@@ -14097,6 +14490,7 @@
       "totalExternalIntegrations": 1,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -14111,6 +14505,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -14151,6 +14546,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -14165,6 +14561,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -14203,6 +14600,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -14217,6 +14615,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -14257,6 +14656,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -14271,6 +14671,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -14309,6 +14710,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -14323,6 +14725,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -14378,6 +14781,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 2
     }
   },
@@ -14402,6 +14806,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 16,
@@ -14444,6 +14849,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -14468,6 +14874,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 15,
@@ -14527,6 +14934,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 2
     }
   },
@@ -14541,6 +14949,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -14579,6 +14988,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -14597,6 +15007,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -14643,6 +15054,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -14668,6 +15080,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -14706,6 +15119,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -14720,6 +15134,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -14758,6 +15173,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -14772,6 +15188,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -14811,6 +15228,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -14843,6 +15261,7 @@
         "Auto-tag observables as malicious above a detection threshold"
       ]
     },
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 3,
@@ -14932,6 +15351,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 1,
+      "totalWorkflows": 0,
       "total": 5
     }
   },
@@ -14946,6 +15366,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -14986,6 +15407,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -15000,6 +15422,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -15055,6 +15478,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 2
     }
   },
@@ -15069,6 +15493,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -15168,6 +15593,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 5
     }
   },
@@ -15182,6 +15608,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -15221,6 +15648,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -15235,6 +15663,7 @@
     "useCases": [],
     "notifier": true,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": false,
     "visibility": 50,
@@ -15257,6 +15686,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 1,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -15271,6 +15701,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -15310,6 +15741,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -15324,6 +15756,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -15377,6 +15810,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 2
     }
   },
@@ -15400,6 +15834,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 18,
@@ -15438,6 +15873,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -15452,6 +15888,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -15494,6 +15931,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -15508,6 +15946,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -15561,6 +16000,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 2
     }
   },
@@ -15575,6 +16015,7 @@
     "useCases": [],
     "notifier": false,
     "flow": {},
+    "workflows": [],
     "externalIntegrations": [],
     "displayOnWebsite": true,
     "visibility": 100,
@@ -15815,6 +16256,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 14
     }
   }

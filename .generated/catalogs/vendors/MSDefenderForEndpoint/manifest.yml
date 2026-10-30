@@ -26,6 +26,7 @@ flow:
   - Isolate a compromised machine and poll the action until it completes
   - Quarantine a malicious file on the endpoint where it was seen
   - Create a block indicator for a confirmed malicious IP, URL or hash
+workflows: []
 externalIntegrations: []
 displayOnWebsite: true
 visibility: 4
@@ -218,4 +219,5 @@ stats:
   totalExternalIntegrations: 0
   totalNotifiers: 0
   totalFlow: 1
+  totalWorkflows: 0
   total: 15

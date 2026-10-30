@@ -26,6 +26,7 @@
       "Write enrichment results or case summaries into a dedicated index"
     ]
   },
+  "workflows": [],
   "externalIntegrations": [
     {
       "name": "TheHive Connector for Kibana",
@@ -98,6 +99,7 @@
     "totalExternalIntegrations": 1,
     "totalNotifiers": 0,
     "totalFlow": 1,
+    "totalWorkflows": 0,
     "total": 4
   }
 }

@@ -9,6 +9,7 @@
   "useCases": [],
   "notifier": true,
   "flow": {},
+  "workflows": [],
   "externalIntegrations": [],
   "displayOnWebsite": true,
   "visibility": 50,
@@ -31,6 +32,7 @@
     "totalExternalIntegrations": 0,
     "totalNotifiers": 1,
     "totalFlow": 0,
+    "totalWorkflows": 0,
     "total": 1
   }
 }

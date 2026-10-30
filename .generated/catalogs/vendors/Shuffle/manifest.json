@@ -19,6 +19,7 @@
   "useCases": [],
   "notifier": false,
   "flow": {},
+  "workflows": [],
   "externalIntegrations": [
     {
       "name": "TheHive 5 Integration",
@@ -68,6 +69,7 @@
     "totalExternalIntegrations": 1,
     "totalNotifiers": 0,
     "totalFlow": 0,
+    "totalWorkflows": 0,
     "total": 2
   }
 }

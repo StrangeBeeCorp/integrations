@@ -28,6 +28,7 @@ flow:
   - On a phishing case, disable the user, revoke sessions and force a password reset
   - Enrich a user observable with roles, groups and MFA status to assess impact
   - Review recent sign-ins and risk detections for a suspected account takeover
+workflows: []
 externalIntegrations: []
 displayOnWebsite: true
 visibility: 5
@@ -202,4 +203,5 @@ stats:
   totalExternalIntegrations: 0
   totalNotifiers: 0
   totalFlow: 1
+  totalWorkflows: 0
   total: 13

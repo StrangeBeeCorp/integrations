@@ -20,6 +20,7 @@ flow:
   - Import Sentinel incidents with their entities as TheHive alerts and observables
   - Write the TheHive analysis back as a comment on the Sentinel incident
   - Close the Sentinel incident with the right classification when the case is closed
+workflows: []
 externalIntegrations: []
 displayOnWebsite: true
 visibility: 5
@@ -51,4 +52,5 @@ stats:
   totalExternalIntegrations: 0
   totalNotifiers: 0
   totalFlow: 1
+  totalWorkflows: 0
   total: 2

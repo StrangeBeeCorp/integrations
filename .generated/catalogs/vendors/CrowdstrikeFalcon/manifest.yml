@@ -52,6 +52,7 @@ flow:
   - Contain a host automatically when a critical case is opened in TheHive
   - Detonate a suspicious attachment in the Falcon sandbox and attach the report to the case
   - Push a confirmed malicious hash as a Falcon IOC to block it fleet-wide
+workflows: []
 externalIntegrations:
 - name: falcon2thehive
   description: Real-time connector that streams CrowdStrike Falcon detection events into TheHive, turning Falcon alerts into
@@ -325,4 +326,5 @@ stats:
   totalExternalIntegrations: 1
   totalNotifiers: 0
   totalFlow: 1
+  totalWorkflows: 0
   total: 22

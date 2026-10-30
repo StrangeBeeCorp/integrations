@@ -60,6 +60,7 @@
       "Push a confirmed malicious hash as a Falcon IOC to block it fleet-wide"
     ]
   },
+  "workflows": [],
   "externalIntegrations": [
     {
       "name": "falcon2thehive",
@@ -395,6 +396,7 @@
     "totalExternalIntegrations": 1,
     "totalNotifiers": 0,
     "totalFlow": 1,
+    "totalWorkflows": 0,
     "total": 22
   }
 }

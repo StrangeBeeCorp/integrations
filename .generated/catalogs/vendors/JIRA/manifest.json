@@ -21,6 +21,13 @@
       "Close the case automatically when the Jira issue is resolved"
     ]
   },
+  "workflows": [
+    {
+      "name": "TheHive to Jira ITSM Sync",
+      "url": "https://strangebee.com/workflow/thehive-to-jira-itsm-sync/",
+      "description": "Automatically creates Jira issues from new TheHive alerts and synchronizes comments between both platforms. It prevents duplicate updates, keeps incident discussions aligned, and closes Jira issues when the corresponding alerts are resolved."
+    }
+  ],
   "externalIntegrations": [],
   "displayOnWebsite": true,
   "visibility": 100,
@@ -55,6 +62,7 @@
     "totalExternalIntegrations": 0,
     "totalNotifiers": 0,
     "totalFlow": 1,
-    "total": 2
+    "totalWorkflows": 1,
+    "total": 3
   }
 }

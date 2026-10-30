@@ -25,6 +25,12 @@ flow:
   - Enrich every new observable with a risk score and tag it in TheHive
   - Bulk-triage all observables of an alert to decide whether to escalate
   - Attach threat actor context to a case when an IOC matches a known campaign
+workflows:
+- name: Alert Triage with Recorded Future
+  url: https://strangebee.com/workflow/alert-triage-with-recorded-future/
+  description: Automatically processes Elasticsearch security alerts in TheHive and enriches IP addresses and file hashes
+    with threat intelligence from Recorded Future. It identifies high-risk indicators, escalates critical alerts into cases,
+    and documents malicious findings to streamline incident investigation.
 externalIntegrations: []
 displayOnWebsite: true
 visibility: 8
@@ -63,4 +69,5 @@ stats:
   totalExternalIntegrations: 0
   totalNotifiers: 0
   totalFlow: 1
-  total: 2
+  totalWorkflows: 1
+  total: 3

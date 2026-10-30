@@ -17,6 +17,7 @@ flow:
   - Isolate an endpoint and launch a forensic collection job
   - Hunt for an IOC across process, network and DNS telemetry of the whole fleet
   - Download a suspicious binary and send it to VirusTotal or a sandbox
+workflows: []
 externalIntegrations:
 - name: TheHive Connector
   description: Native connector provided by HarfangLab to send security events (SecEvents) from the HarfangLab EDR Manager
@@ -417,4 +418,5 @@ stats:
   totalExternalIntegrations: 1
   totalNotifiers: 0
   totalFlow: 1
+  totalWorkflows: 0
   total: 33

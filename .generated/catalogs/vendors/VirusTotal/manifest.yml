@@ -26,6 +26,7 @@ flow:
   - Check the reputation of a hash, URL, domain or IP found in an alert
   - Submit an unknown attachment for scanning and wait for the analysis result
   - Auto-tag observables as malicious above a detection threshold
+workflows: []
 externalIntegrations: []
 displayOnWebsite: true
 visibility: 3
@@ -101,4 +102,5 @@ stats:
   totalExternalIntegrations: 0
   totalNotifiers: 0
   totalFlow: 1
+  totalWorkflows: 0
   total: 5

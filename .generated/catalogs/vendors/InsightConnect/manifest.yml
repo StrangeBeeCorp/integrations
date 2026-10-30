@@ -18,6 +18,7 @@ logo:
 useCases: []
 notifier: false
 flow: {}
+workflows: []
 externalIntegrations:
 - name: TheHive Extension
   description: Rapid7 InsightConnect extension that enables automated workflows with TheHive for case management, alert handling,
@@ -44,4 +45,5 @@ stats:
   totalExternalIntegrations: 1
   totalNotifiers: 0
   totalFlow: 0
+  totalWorkflows: 0
   total: 1

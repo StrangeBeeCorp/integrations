@@ -28,6 +28,7 @@
       "Review recent sign-ins and risk detections for a suspected account takeover"
     ]
   },
+  "workflows": [],
   "externalIntegrations": [],
   "displayOnWebsite": true,
   "visibility": 5,
@@ -236,6 +237,7 @@
     "totalExternalIntegrations": 0,
     "totalNotifiers": 0,
     "totalFlow": 1,
+    "totalWorkflows": 0,
     "total": 13
   }
 }

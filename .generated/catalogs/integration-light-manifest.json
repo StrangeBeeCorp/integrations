@@ -24,6 +24,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -58,6 +59,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 2
     }
   },
@@ -84,6 +86,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -110,6 +113,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -138,6 +142,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 7
     }
   },
@@ -166,6 +171,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -194,6 +200,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -220,6 +227,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -246,6 +254,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 2
     }
   },
@@ -272,6 +281,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 2
     }
   },
@@ -306,6 +316,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -334,6 +345,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -362,6 +374,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -388,6 +401,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -414,6 +428,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 2
     }
   },
@@ -440,6 +455,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 2
     }
   },
@@ -468,6 +484,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 8
     }
   },
@@ -494,6 +511,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -520,6 +538,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -546,6 +565,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -572,7 +592,8 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
-      "total": 1
+      "totalWorkflows": 1,
+      "total": 2
     }
   },
   "CiscoAMPforEndpoints": {
@@ -600,6 +621,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 5
     }
   },
@@ -628,6 +650,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 3
     }
   },
@@ -654,6 +677,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -680,6 +704,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -708,6 +733,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 2
     }
   },
@@ -736,6 +762,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 2
     }
   },
@@ -762,6 +789,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -790,6 +818,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -818,6 +847,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -844,6 +874,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -870,6 +901,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -901,6 +933,7 @@
       "totalExternalIntegrations": 1,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -935,6 +968,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -969,6 +1003,7 @@
       "totalExternalIntegrations": 1,
       "totalNotifiers": 0,
       "totalFlow": 1,
+      "totalWorkflows": 0,
       "total": 22
     }
   },
@@ -995,6 +1030,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -1023,6 +1059,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 2
     }
   },
@@ -1049,6 +1086,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 3
     }
   },
@@ -1075,6 +1113,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -1101,6 +1140,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -1127,6 +1167,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -1153,6 +1194,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 3
     }
   },
@@ -1179,6 +1221,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -1205,6 +1248,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -1231,6 +1275,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -1259,6 +1304,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -1287,6 +1333,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 10
     }
   },
@@ -1313,6 +1360,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 4
     }
   },
@@ -1339,6 +1387,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -1365,6 +1414,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -1391,6 +1441,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 2
     }
   },
@@ -1425,6 +1476,7 @@
       "totalExternalIntegrations": 1,
       "totalNotifiers": 0,
       "totalFlow": 1,
+      "totalWorkflows": 0,
       "total": 4
     }
   },
@@ -1459,6 +1511,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -1485,6 +1538,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 3
     }
   },
@@ -1513,7 +1567,8 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
-      "total": 1
+      "totalWorkflows": 1,
+      "total": 2
     }
   },
   "FileInfo": {
@@ -1541,6 +1596,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -1567,6 +1623,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -1593,6 +1650,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -1619,6 +1677,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -1647,6 +1706,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -1673,6 +1733,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 2
     }
   },
@@ -1699,6 +1760,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 5
     }
   },
@@ -1725,6 +1787,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -1751,6 +1814,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -1787,6 +1851,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 5
     }
   },
@@ -1813,6 +1878,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -1845,6 +1911,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -1873,6 +1940,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -1901,6 +1969,7 @@
       "totalExternalIntegrations": 1,
       "totalNotifiers": 0,
       "totalFlow": 1,
+      "totalWorkflows": 0,
       "total": 33
     }
   },
@@ -1927,6 +1996,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 2
     }
   },
@@ -1961,6 +2031,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -1995,6 +2066,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -2029,6 +2101,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -2057,6 +2130,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -2085,6 +2159,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -2111,6 +2186,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -2143,6 +2219,7 @@
       "totalExternalIntegrations": 1,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -2169,6 +2246,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -2197,6 +2275,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -2231,6 +2310,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 2
     }
   },
@@ -2257,6 +2337,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -2283,6 +2364,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -2309,6 +2391,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -2335,6 +2418,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 3
     }
   },
@@ -2368,7 +2452,8 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 1,
-      "total": 2
+      "totalWorkflows": 1,
+      "total": 3
     }
   },
   "JoeSandbox": {
@@ -2394,6 +2479,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 3
     }
   },
@@ -2420,6 +2506,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 2
     }
   },
@@ -2448,6 +2535,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 1,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -2474,6 +2562,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -2500,6 +2589,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -2528,6 +2618,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -2554,6 +2645,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -2580,6 +2672,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -2606,6 +2699,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -2634,6 +2728,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -2662,6 +2757,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -2688,6 +2784,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -2722,6 +2819,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -2756,6 +2854,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -2782,6 +2881,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -2808,6 +2908,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 2
     }
   },
@@ -2836,6 +2937,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 1,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -2870,6 +2972,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -2896,6 +2999,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 5
     }
   },
@@ -2930,6 +3034,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -2956,6 +3061,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -2990,6 +3096,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 2
     }
   },
@@ -3025,6 +3132,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 1,
+      "totalWorkflows": 0,
       "total": 15
     }
   },
@@ -3060,6 +3168,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 5
     }
   },
@@ -3096,6 +3205,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 1,
+      "totalWorkflows": 0,
       "total": 13
     }
   },
@@ -3124,6 +3234,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 2
     }
   },
@@ -3152,6 +3263,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -3178,6 +3290,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 11
     }
   },
@@ -3206,6 +3319,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 1,
+      "totalWorkflows": 0,
       "total": 2
     }
   },
@@ -3234,6 +3348,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 1,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -3266,6 +3381,7 @@
       "totalExternalIntegrations": 1,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 2
     }
   },
@@ -3292,6 +3408,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -3320,6 +3437,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -3346,6 +3464,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -3372,6 +3491,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -3400,6 +3520,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -3434,6 +3555,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 5
     }
   },
@@ -3460,6 +3582,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -3488,6 +3611,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 4
     }
   },
@@ -3516,6 +3640,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -3542,6 +3667,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -3576,6 +3702,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -3604,6 +3731,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 3
     }
   },
@@ -3632,6 +3760,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 3
     }
   },
@@ -3658,6 +3787,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 8
     }
   },
@@ -3684,6 +3814,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 16
     }
   },
@@ -3710,6 +3841,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 2
     }
   },
@@ -3736,6 +3868,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -3764,6 +3897,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -3790,6 +3924,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 2
     }
   },
@@ -3823,6 +3958,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -3853,6 +3989,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 3
     }
   },
@@ -3879,6 +4016,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -3907,6 +4045,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -3933,6 +4072,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -3967,7 +4107,8 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 1,
-      "total": 2
+      "totalWorkflows": 1,
+      "total": 3
     }
   },
   "Redis": {
@@ -3995,6 +4136,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 1,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -4021,6 +4163,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -4047,6 +4190,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 3
     }
   },
@@ -4075,6 +4219,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -4101,6 +4246,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -4127,6 +4273,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 2
     }
   },
@@ -4155,6 +4302,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 3
     }
   },
@@ -4181,6 +4329,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -4207,6 +4356,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 4
     }
   },
@@ -4240,6 +4390,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 1,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -4275,6 +4426,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 6
     }
   },
@@ -4309,6 +4461,7 @@
       "totalExternalIntegrations": 1,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 2
     }
   },
@@ -4335,6 +4488,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -4368,7 +4522,8 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 1,
       "totalFlow": 1,
-      "total": 4
+      "totalWorkflows": 1,
+      "total": 5
     }
   },
   "SophosIntelix": {
@@ -4394,6 +4549,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 3
     }
   },
@@ -4420,6 +4576,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -4446,6 +4603,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -4480,6 +4638,7 @@
       "totalExternalIntegrations": 2,
       "totalNotifiers": 0,
       "totalFlow": 1,
+      "totalWorkflows": 0,
       "total": 16
     }
   },
@@ -4506,6 +4665,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -4532,6 +4692,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -4558,6 +4719,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -4584,6 +4746,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -4618,6 +4781,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -4649,6 +4813,7 @@
       "totalExternalIntegrations": 1,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -4675,6 +4840,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -4701,6 +4867,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -4736,6 +4903,7 @@
       "totalExternalIntegrations": 1,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -4762,6 +4930,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -4793,6 +4962,7 @@
       "totalExternalIntegrations": 1,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -4819,6 +4989,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -4845,6 +5016,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -4871,6 +5043,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -4897,6 +5070,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -4923,6 +5097,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 2
     }
   },
@@ -4957,6 +5132,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -4991,6 +5167,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 2
     }
   },
@@ -5017,6 +5194,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -5045,6 +5223,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -5080,6 +5259,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -5106,6 +5286,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -5134,6 +5315,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -5169,6 +5351,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 1,
+      "totalWorkflows": 0,
       "total": 5
     }
   },
@@ -5195,6 +5378,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -5221,6 +5405,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 2
     }
   },
@@ -5247,6 +5432,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 5
     }
   },
@@ -5275,6 +5461,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -5301,6 +5488,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -5327,6 +5515,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 2
     }
   },
@@ -5360,6 +5549,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -5386,6 +5576,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 1
     }
   },
@@ -5412,6 +5603,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 2
     }
   },
@@ -5440,6 +5632,7 @@
       "totalExternalIntegrations": 0,
       "totalNotifiers": 0,
       "totalFlow": 0,
+      "totalWorkflows": 0,
       "total": 14
     }
   }

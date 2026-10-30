@@ -14,6 +14,7 @@ logo: {}
 useCases: []
 notifier: false
 flow: {}
+workflows: []
 externalIntegrations:
 - name: TheHive Integration (via Polarity)
   description: Polarity-TheHive integration that enables security analysts to search TheHive instances for indicators, create
@@ -41,4 +42,5 @@ stats:
   totalExternalIntegrations: 1
   totalNotifiers: 0
   totalFlow: 0
+  totalWorkflows: 0
   total: 1

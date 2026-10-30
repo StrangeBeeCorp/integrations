@@ -21,6 +21,7 @@ logo:
 useCases: []
 notifier: false
 flow: {}
+workflows: []
 externalIntegrations:
 - name: TheHive 5 Integration
   description: Native Shuffle app integration that enables workflow automation with TheHive 5 for automated case management,
@@ -63,4 +64,5 @@ stats:
   totalExternalIntegrations: 1
   totalNotifiers: 0
   totalFlow: 0
+  totalWorkflows: 0
   total: 2

@@ -26,6 +26,7 @@ flow:
   - Run an SPL query to find every host that contacted a suspicious domain
   - Turn fired Splunk alerts into TheHive alerts
   - Update the Enterprise Security notable or finding status when the case is resolved
+workflows: []
 externalIntegrations:
 - name: TheHive/Cortex Technical Add-on
   description: Bidirectional integration add-on that pulls case and alert events from TheHive, retrieves Cortex job information,
@@ -217,4 +218,5 @@ stats:
   totalExternalIntegrations: 2
   totalNotifiers: 0
   totalFlow: 1
+  totalWorkflows: 0
   total: 16

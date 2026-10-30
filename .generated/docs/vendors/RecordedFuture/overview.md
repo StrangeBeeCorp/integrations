@@ -24,3 +24,11 @@ Enrich observables with Recorded Future risk scores, context and threat actor in
 - Attach threat actor context to a case when an IOC matches a known campaign
 
 TheHive Flow is a first-party module that requires a TheHive ONE license.
+
+---
+
+## Workflow (1)
+
+### Ready-to-use TheHive Flow workflows
+
+- [Alert Triage with Recorded Future](https://strangebee.com/workflow/alert-triage-with-recorded-future/) - Automatically processes Elasticsearch security alerts in TheHive and enriches IP addresses and file hashes with threat intelligence from Recorded Future. It identifies high-risk indicators, escalates critical alerts into cases, and documents malicious findings to streamline incident investigation.

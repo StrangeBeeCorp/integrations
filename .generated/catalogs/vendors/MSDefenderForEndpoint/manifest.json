@@ -27,6 +27,7 @@
       "Create a block indicator for a confirmed malicious IP, URL or hash"
     ]
   },
+  "workflows": [],
   "externalIntegrations": [],
   "displayOnWebsite": true,
   "visibility": 4,
@@ -262,6 +263,7 @@
     "totalExternalIntegrations": 0,
     "totalNotifiers": 0,
     "totalFlow": 1,
+    "totalWorkflows": 0,
     "total": 15
   }
 }

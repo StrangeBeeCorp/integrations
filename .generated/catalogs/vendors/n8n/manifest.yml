@@ -18,6 +18,7 @@ logo:
 useCases: []
 notifier: false
 flow: {}
+workflows: []
 externalIntegrations:
 - name: Cortex and TheHive Nodes
   description: Pre-built workflow nodes that enable automated data transfer and task orchestration between n8n, Cortex analyzers/responders,
@@ -60,4 +61,5 @@ stats:
   totalExternalIntegrations: 1
   totalNotifiers: 0
   totalFlow: 0
+  totalWorkflows: 0
   total: 2

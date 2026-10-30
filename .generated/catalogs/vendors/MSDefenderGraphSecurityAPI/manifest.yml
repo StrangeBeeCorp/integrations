@@ -23,6 +23,7 @@ flow:
   - Pull new Defender XDR incidents on a schedule and create TheHive alerts
   - Assign or classify the Defender incident when the TheHive case is closed
   - Keep incident status in sync between Defender and TheHive
+workflows: []
 externalIntegrations: []
 displayOnWebsite: false
 visibility: 5
@@ -44,4 +45,5 @@ stats:
   totalExternalIntegrations: 0
   totalNotifiers: 0
   totalFlow: 1
+  totalWorkflows: 0
   total: 1

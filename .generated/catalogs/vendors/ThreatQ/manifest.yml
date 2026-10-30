@@ -21,6 +21,7 @@ logo:
 useCases: []
 notifier: false
 flow: {}
+workflows: []
 externalIntegrations:
 - name: The Hive App for ThreatQ
   description: Webhook-based connector that monitors TheHive case and observable events in real time and pushes them to ThreatQ
@@ -48,4 +49,5 @@ stats:
   totalExternalIntegrations: 1
   totalNotifiers: 0
   totalFlow: 0
+  totalWorkflows: 0
   total: 1

@@ -15,6 +15,12 @@ logo:
 useCases: []
 notifier: false
 flow: {}
+workflows:
+- name: Suspicious Email Campaign Detection
+  url: https://strangebee.com/workflow/suspicious-email-campaign-detection/
+  description: Automatically processes suspicious email alerts, extracts key email details, and identifies related incidents.
+    It groups matching alerts into existing cases or creates new ones in TheHive, helping security teams track and investigate
+    potential email campaigns.
 externalIntegrations: []
 displayOnWebsite: true
 visibility: 100
@@ -48,4 +54,5 @@ stats:
   totalExternalIntegrations: 0
   totalNotifiers: 0
   totalFlow: 0
-  total: 1
+  totalWorkflows: 1
+  total: 2

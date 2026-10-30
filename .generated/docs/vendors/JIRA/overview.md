@@ -14,6 +14,14 @@ TheHive Flow is a first-party module that requires a TheHive ONE license.
 
 ---
 
+## Workflow (1)
+
+### Ready-to-use TheHive Flow workflows
+
+- [TheHive to Jira ITSM Sync](https://strangebee.com/workflow/thehive-to-jira-itsm-sync/) - Automatically creates Jira issues from new TheHive alerts and synchronizes comments between both platforms. It prevents duplicate updates, keeps incident discussions aligned, and closes Jira issues when the corresponding alerts are resolved.
+
+---
+
 ## Function (1)
 
 ### Automate TheHive actions or ingest alerts

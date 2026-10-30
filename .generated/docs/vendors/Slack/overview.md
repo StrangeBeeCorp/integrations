@@ -53,3 +53,11 @@ Notify, coordinate and interact with people in Slack during an incident.
 - DM a user to confirm whether they performed a suspicious action
 
 TheHive Flow is a first-party module that requires a TheHive ONE license.
+
+---
+
+## Workflow (1)
+
+### Ready-to-use TheHive Flow workflows
+
+- [Slack Alert Manager](https://strangebee.com/workflow/slack-alert-manager-workflow/) - The Slack Alert Manager workflow automates alert monitoring and response tracking through Slack. It processes reactions, comments, and thread replies to update alert statuses, ensuring timely follow-ups and efficient incident management.

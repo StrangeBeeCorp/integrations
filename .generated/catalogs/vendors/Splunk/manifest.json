@@ -26,6 +26,7 @@
       "Update the Enterprise Security notable or finding status when the case is resolved"
     ]
   },
+  "workflows": [],
   "externalIntegrations": [
     {
       "name": "TheHive/Cortex Technical Add-on",
@@ -261,6 +262,7 @@
     "totalExternalIntegrations": 2,
     "totalNotifiers": 0,
     "totalFlow": 1,
+    "totalWorkflows": 0,
     "total": 16
   }
 }

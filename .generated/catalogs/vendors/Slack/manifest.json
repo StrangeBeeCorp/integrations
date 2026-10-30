@@ -54,6 +54,13 @@
       "DM a user to confirm whether they performed a suspicious action"
     ]
   },
+  "workflows": [
+    {
+      "name": "Slack Alert Manager",
+      "url": "https://strangebee.com/workflow/slack-alert-manager-workflow/",
+      "description": "The Slack Alert Manager workflow automates alert monitoring and response tracking through Slack. It processes reactions, comments, and thread replies to update alert statuses, ensuring timely follow-ups and efficient incident management."
+    }
+  ],
   "externalIntegrations": [],
   "displayOnWebsite": true,
   "visibility": 12,
@@ -107,6 +114,7 @@
     "totalExternalIntegrations": 0,
     "totalNotifiers": 1,
     "totalFlow": 1,
-    "total": 4
+    "totalWorkflows": 1,
+    "total": 5
   }
 }

@@ -1,0 +1,147 @@
+{
+  "totalWorkflows": 5,
+  "workflows": [
+    {
+      "name": "CVE Monitoring with CIRCL",
+      "url": "https://strangebee.com/workflow/cve-monitoring-with-circl/",
+      "description": "Automatically retrieves vulnerability information from the CIRCL CVE database for specified vendors and products. It creates detailed TheHive alerts containing affected software versions, technical descriptions, vulnerability details, references, and recommended remediation actions.",
+      "vendor": "CIRCL Vulnerability-Lookup",
+      "vendorId": "CIRCLVulnerabilityLookup",
+      "category": ""
+    },
+    {
+      "name": "Suspicious Email Campaign Detection",
+      "url": "https://strangebee.com/workflow/suspicious-email-campaign-detection/",
+      "description": "Automatically processes suspicious email alerts, extracts key email details, and identifies related incidents. It groups matching alerts into existing cases or creates new ones in TheHive, helping security teams track and investigate potential email campaigns.",
+      "vendor": "EmlParser",
+      "vendorId": "EmlParser",
+      "category": "Utilities"
+    },
+    {
+      "name": "TheHive to Jira ITSM Sync",
+      "url": "https://strangebee.com/workflow/thehive-to-jira-itsm-sync/",
+      "description": "Automatically creates Jira issues from new TheHive alerts and synchronizes comments between both platforms. It prevents duplicate updates, keeps incident discussions aligned, and closes Jira issues when the corresponding alerts are resolved.",
+      "vendor": "Jira Cloud",
+      "vendorId": "JIRA",
+      "category": "Collaboration"
+    },
+    {
+      "name": "Alert Triage with Recorded Future",
+      "url": "https://strangebee.com/workflow/alert-triage-with-recorded-future/",
+      "description": "Automatically processes Elasticsearch security alerts in TheHive and enriches IP addresses and file hashes with threat intelligence from Recorded Future. It identifies high-risk indicators, escalates critical alerts into cases, and documents malicious findings to streamline incident investigation.",
+      "vendor": "Recorded Future",
+      "vendorId": "RecordedFuture",
+      "category": "Threat Intelligence"
+    },
+    {
+      "name": "Slack Alert Manager",
+      "url": "https://strangebee.com/workflow/slack-alert-manager-workflow/",
+      "description": "The Slack Alert Manager workflow automates alert monitoring and response tracking through Slack. It processes reactions, comments, and thread replies to update alert statuses, ensuring timely follow-ups and efficient incident management.",
+      "vendor": "Slack",
+      "vendorId": "Slack",
+      "category": "Collaboration"
+    }
+  ],
+  "byVendor": {
+    "CIRCL Vulnerability-Lookup": [
+      {
+        "name": "CVE Monitoring with CIRCL",
+        "url": "https://strangebee.com/workflow/cve-monitoring-with-circl/",
+        "description": "Automatically retrieves vulnerability information from the CIRCL CVE database for specified vendors and products. It creates detailed TheHive alerts containing affected software versions, technical descriptions, vulnerability details, references, and recommended remediation actions.",
+        "vendor": "CIRCL Vulnerability-Lookup",
+        "vendorId": "CIRCLVulnerabilityLookup",
+        "category": ""
+      }
+    ],
+    "EmlParser": [
+      {
+        "name": "Suspicious Email Campaign Detection",
+        "url": "https://strangebee.com/workflow/suspicious-email-campaign-detection/",
+        "description": "Automatically processes suspicious email alerts, extracts key email details, and identifies related incidents. It groups matching alerts into existing cases or creates new ones in TheHive, helping security teams track and investigate potential email campaigns.",
+        "vendor": "EmlParser",
+        "vendorId": "EmlParser",
+        "category": "Utilities"
+      }
+    ],
+    "Jira Cloud": [
+      {
+        "name": "TheHive to Jira ITSM Sync",
+        "url": "https://strangebee.com/workflow/thehive-to-jira-itsm-sync/",
+        "description": "Automatically creates Jira issues from new TheHive alerts and synchronizes comments between both platforms. It prevents duplicate updates, keeps incident discussions aligned, and closes Jira issues when the corresponding alerts are resolved.",
+        "vendor": "Jira Cloud",
+        "vendorId": "JIRA",
+        "category": "Collaboration"
+      }
+    ],
+    "Recorded Future": [
+      {
+        "name": "Alert Triage with Recorded Future",
+        "url": "https://strangebee.com/workflow/alert-triage-with-recorded-future/",
+        "description": "Automatically processes Elasticsearch security alerts in TheHive and enriches IP addresses and file hashes with threat intelligence from Recorded Future. It identifies high-risk indicators, escalates critical alerts into cases, and documents malicious findings to streamline incident investigation.",
+        "vendor": "Recorded Future",
+        "vendorId": "RecordedFuture",
+        "category": "Threat Intelligence"
+      }
+    ],
+    "Slack": [
+      {
+        "name": "Slack Alert Manager",
+        "url": "https://strangebee.com/workflow/slack-alert-manager-workflow/",
+        "description": "The Slack Alert Manager workflow automates alert monitoring and response tracking through Slack. It processes reactions, comments, and thread replies to update alert statuses, ensuring timely follow-ups and efficient incident management.",
+        "vendor": "Slack",
+        "vendorId": "Slack",
+        "category": "Collaboration"
+      }
+    ]
+  },
+  "byCategory": {
+    "": [
+      {
+        "name": "CVE Monitoring with CIRCL",
+        "url": "https://strangebee.com/workflow/cve-monitoring-with-circl/",
+        "description": "Automatically retrieves vulnerability information from the CIRCL CVE database for specified vendors and products. It creates detailed TheHive alerts containing affected software versions, technical descriptions, vulnerability details, references, and recommended remediation actions.",
+        "vendor": "CIRCL Vulnerability-Lookup",
+        "vendorId": "CIRCLVulnerabilityLookup",
+        "category": ""
+      }
+    ],
+    "Utilities": [
+      {
+        "name": "Suspicious Email Campaign Detection",
+        "url": "https://strangebee.com/workflow/suspicious-email-campaign-detection/",
+        "description": "Automatically processes suspicious email alerts, extracts key email details, and identifies related incidents. It groups matching alerts into existing cases or creates new ones in TheHive, helping security teams track and investigate potential email campaigns.",
+        "vendor": "EmlParser",
+        "vendorId": "EmlParser",
+        "category": "Utilities"
+      }
+    ],
+    "Collaboration": [
+      {
+        "name": "TheHive to Jira ITSM Sync",
+        "url": "https://strangebee.com/workflow/thehive-to-jira-itsm-sync/",
+        "description": "Automatically creates Jira issues from new TheHive alerts and synchronizes comments between both platforms. It prevents duplicate updates, keeps incident discussions aligned, and closes Jira issues when the corresponding alerts are resolved.",
+        "vendor": "Jira Cloud",
+        "vendorId": "JIRA",
+        "category": "Collaboration"
+      },
+      {
+        "name": "Slack Alert Manager",
+        "url": "https://strangebee.com/workflow/slack-alert-manager-workflow/",
+        "description": "The Slack Alert Manager workflow automates alert monitoring and response tracking through Slack. It processes reactions, comments, and thread replies to update alert statuses, ensuring timely follow-ups and efficient incident management.",
+        "vendor": "Slack",
+        "vendorId": "Slack",
+        "category": "Collaboration"
+      }
+    ],
+    "Threat Intelligence": [
+      {
+        "name": "Alert Triage with Recorded Future",
+        "url": "https://strangebee.com/workflow/alert-triage-with-recorded-future/",
+        "description": "Automatically processes Elasticsearch security alerts in TheHive and enriches IP addresses and file hashes with threat intelligence from Recorded Future. It identifies high-risk indicators, escalates critical alerts into cases, and documents malicious findings to streamline incident investigation.",
+        "vendor": "Recorded Future",
+        "vendorId": "RecordedFuture",
+        "category": "Threat Intelligence"
+      }
+    ]
+  }
+}

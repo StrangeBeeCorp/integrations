@@ -16,6 +16,7 @@
       "Download a suspicious binary and send it to VirusTotal or a sandbox"
     ]
   },
+  "workflows": [],
   "externalIntegrations": [
     {
       "name": "TheHive Connector",
@@ -513,6 +514,7 @@
     "totalExternalIntegrations": 1,
     "totalNotifiers": 0,
     "totalFlow": 1,
+    "totalWorkflows": 0,
     "total": 33
   }
 }

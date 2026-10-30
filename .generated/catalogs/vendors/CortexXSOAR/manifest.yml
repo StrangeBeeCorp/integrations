@@ -14,6 +14,7 @@ logo: {}
 useCases: []
 notifier: false
 flow: {}
+workflows: []
 externalIntegrations:
 - name: TheHive Project Integration
   description: Native Cortex XSOAR integration that enables bidirectional case synchronization, task management, observable
@@ -40,4 +41,5 @@ stats:
   totalExternalIntegrations: 1
   totalNotifiers: 0
   totalFlow: 0
+  totalWorkflows: 0
   total: 1
