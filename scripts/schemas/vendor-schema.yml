@@ -176,6 +176,10 @@ properties:
     description: "Relative visibility weight used for ordering vendors in catalogs"
     minimum: 0
 
+  displayOnWebsite:
+    type: boolean
+    description: "Set to false to exclude the vendor from the website catalog (light manifest). Defaults to true."
+
   externalIntegrations:
     type: array
     description: "Integrations built and maintained outside this repository (vendor-native connectors, marketplace apps, etc.)"
