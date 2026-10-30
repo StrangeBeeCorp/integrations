@@ -44,4 +44,4 @@ Get VirusTotal reputation reports and submit files and URLs for scanning.
 - Submit an unknown attachment for scanning and wait for the analysis result
 - Auto-tag observables as malicious above a detection threshold
 
-TheHive Flow is a first-party module that requires a TheHive ONE license.
+TheHive Flow is TheHive's native automation and orchestration engine, available exclusively with the TheHive ONE plan.

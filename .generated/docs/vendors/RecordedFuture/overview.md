@@ -23,7 +23,7 @@ Enrich observables with Recorded Future risk scores, context and threat actor in
 - Bulk-triage all observables of an alert to decide whether to escalate
 - Attach threat actor context to a case when an IOC matches a known campaign
 
-TheHive Flow is a first-party module that requires a TheHive ONE license.
+TheHive Flow is TheHive's native automation and orchestration engine, available exclusively with the TheHive ONE plan.
 
 ---
 

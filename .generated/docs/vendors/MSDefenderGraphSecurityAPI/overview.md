@@ -10,4 +10,4 @@ Manage Microsoft Defender XDR alerts and incidents through the unified Graph Sec
 - Assign or classify the Defender incident when the TheHive case is closed
 - Keep incident status in sync between Defender and TheHive
 
-TheHive Flow is a first-party module that requires a TheHive ONE license.
+TheHive Flow is TheHive's native automation and orchestration engine, available exclusively with the TheHive ONE plan.

@@ -10,7 +10,7 @@ Create and follow Jira issues from SOC workflows, with full Jira Cloud REST v3 c
 - Link the Jira issue back to the TheHive case and comment progress
 - Close the case automatically when the Jira issue is resolved
 
-TheHive Flow is a first-party module that requires a TheHive ONE license.
+TheHive Flow is TheHive's native automation and orchestration engine, available exclusively with the TheHive ONE plan.
 
 ---
 

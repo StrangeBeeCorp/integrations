@@ -178,7 +178,7 @@ Investigate and respond on CrowdStrike-protected endpoints: alerts, hosts, IOCs,
 - Detonate a suspicious attachment in the Falcon sandbox and attach the report to the case
 - Push a confirmed malicious hash as a Falcon IOC to block it fleet-wide
 
-TheHive Flow is a first-party module that requires a TheHive ONE license.
+TheHive Flow is TheHive's native automation and orchestration engine, available exclusively with the TheHive ONE plan.
 
 ---
 

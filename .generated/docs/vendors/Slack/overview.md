@@ -52,7 +52,7 @@ Notify, coordinate and interact with people in Slack during an incident.
 - Create a dedicated war-room channel per major incident and invite responders
 - DM a user to confirm whether they performed a suspicious action
 
-TheHive Flow is a first-party module that requires a TheHive ONE license.
+TheHive Flow is TheHive's native automation and orchestration engine, available exclusively with the TheHive ONE plan.
 
 ---
 

@@ -120,4 +120,4 @@ Respond on Windows, macOS and Linux endpoints managed by Defender for Endpoint.
 - Quarantine a malicious file on the endpoint where it was seen
 - Create a block indicator for a confirmed malicious IP, URL or hash
 
-TheHive Flow is a first-party module that requires a TheHive ONE license.
+TheHive Flow is TheHive's native automation and orchestration engine, available exclusively with the TheHive ONE plan.

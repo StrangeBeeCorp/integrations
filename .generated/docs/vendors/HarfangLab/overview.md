@@ -233,7 +233,7 @@ Investigate and respond on HarfangLab-protected endpoints, including telemetry h
 - Hunt for an IOC across process, network and DNS telemetry of the whole fleet
 - Download a suspicious binary and send it to VirusTotal or a sandbox
 
-TheHive Flow is a first-party module that requires a TheHive ONE license.
+TheHive Flow is TheHive's native automation and orchestration engine, available exclusively with the TheHive ONE plan.
 
 ---
 

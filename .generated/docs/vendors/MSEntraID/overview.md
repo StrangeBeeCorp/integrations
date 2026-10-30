@@ -106,4 +106,4 @@ Investigate and contain compromised identities in Microsoft Entra ID.
 - Enrich a user observable with roles, groups and MFA status to assess impact
 - Review recent sign-ins and risk detections for a suspected account takeover
 
-TheHive Flow is a first-party module that requires a TheHive ONE license.
+TheHive Flow is TheHive's native automation and orchestration engine, available exclusively with the TheHive ONE plan.

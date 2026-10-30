@@ -10,4 +10,4 @@ Connect SOC workflows with ServiceNow incidents, change requests, CMDB and any c
 - Enrich a host observable with its CMDB owner and criticality
 - Raise a change request before a firewall block or a mass password reset
 
-TheHive Flow is a first-party module that requires a TheHive ONE license.
+TheHive Flow is TheHive's native automation and orchestration engine, available exclusively with the TheHive ONE plan.

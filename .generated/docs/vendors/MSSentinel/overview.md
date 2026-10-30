@@ -10,7 +10,7 @@ Manage Microsoft Sentinel incidents and maintain Sentinel watchlists.
 - Write the TheHive analysis back as a comment on the Sentinel incident
 - Close the Sentinel incident with the right classification when the case is closed
 
-TheHive Flow is a first-party module that requires a TheHive ONE license.
+TheHive Flow is TheHive's native automation and orchestration engine, available exclusively with the TheHive ONE plan.
 
 ---
 

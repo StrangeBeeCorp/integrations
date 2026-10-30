@@ -36,7 +36,7 @@ Query Elasticsearch data and read Elastic Security detection alerts.
 - Run an ES|QL query to scope an incident across users, hosts and time range
 - Write enrichment results or case summaries into a dedicated index
 
-TheHive Flow is a first-party module that requires a TheHive ONE license.
+TheHive Flow is TheHive's native automation and orchestration engine, available exclusively with the TheHive ONE plan.
 
 ---
 

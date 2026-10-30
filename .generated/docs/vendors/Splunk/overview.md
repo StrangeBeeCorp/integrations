@@ -106,7 +106,7 @@ Search Splunk data, read fired alerts, and update Splunk Enterprise Security fin
 - Turn fired Splunk alerts into TheHive alerts
 - Update the Enterprise Security notable or finding status when the case is resolved
 
-TheHive Flow is a first-party module that requires a TheHive ONE license.
+TheHive Flow is TheHive's native automation and orchestration engine, available exclusively with the TheHive ONE plan.
 
 ---
 
