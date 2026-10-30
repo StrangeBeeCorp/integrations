@@ -2,6 +2,7 @@
 """Shared utilities for integration manifest generation."""
 
 import json
+import os
 import re
 import subprocess
 import yaml
@@ -20,8 +21,33 @@ def get_current_branch() -> str:
         return 'main'
 
 
-GITHUB_ORG = "StrangeBeeCorp"
-GITHUB_REPO = "integrations"
+def get_github_repo() -> tuple:
+    """Resolve the GitHub owner/repo the generated URLs should point to.
+
+    Uses GITHUB_REPOSITORY in CI (so forks generate URLs to themselves),
+    then the origin remote locally, then the canonical repository.
+    """
+    env_repo = os.environ.get('GITHUB_REPOSITORY', '')
+    if '/' in env_repo:
+        owner, repo = env_repo.split('/', 1)
+        return owner, repo
+    try:
+        result = subprocess.run(
+            ['git', 'remote', 'get-url', 'origin'],
+            capture_output=True, text=True, check=True
+        )
+        match = re.search(r'github\.com[:/]([^/]+)/([^/]+?)(?:\.git)?/?$', result.stdout.strip())
+        if match:
+            owner, repo = match.group(1), match.group(2)
+            if (owner.lower(), repo.lower()) == ('strangebeecorp', 'integrations'):
+                return 'StrangeBeeCorp', 'integrations'
+            return owner, repo
+    except (subprocess.CalledProcessError, FileNotFoundError):
+        pass
+    return 'StrangeBeeCorp', 'integrations'
+
+
+GITHUB_ORG, GITHUB_REPO = get_github_repo()
 
 CURRENT_BRANCH = get_current_branch()
 BASE_URL = f"https://raw.githubusercontent.com/{GITHUB_ORG}/{GITHUB_REPO}/refs/heads/{CURRENT_BRANCH}"
