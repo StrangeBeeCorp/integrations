@@ -10,6 +10,7 @@ tags:
   - incident-response
 homepage: "https://learn.microsoft.com/en-us/graph/api/resources/security-api-overview"
 visibility: 5
+displayOnWebsite: false
 flow:
   description: "Manage Microsoft Defender XDR alerts and incidents through the unified Graph Security API."
   examples:
