@@ -1,0 +1,17 @@
+id: ServiceNow
+name: "ServiceNow"
+description: "ServiceNow is an enterprise IT service management platform that handles incidents, change requests and configuration items, letting security teams hand off remediation work to IT and keep tickets and cases in sync"
+category: Collaboration
+tags:
+  - ticketing
+  - automation
+  - incident-response
+  - api
+homepage: "https://www.servicenow.com"
+visibility: 100
+flow:
+  description: "Connect SOC workflows with ServiceNow incidents, change requests, CMDB and any custom table."
+  examples:
+    - "Open a ServiceNow incident for the IT team when a remediation is needed"
+    - "Enrich a host observable with its CMDB owner and criticality"
+    - "Raise a change request before a firewall block or a mass password reset"

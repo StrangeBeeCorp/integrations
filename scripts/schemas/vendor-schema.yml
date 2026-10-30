@@ -112,6 +112,33 @@ properties:
     type: boolean
     description: "Whether this vendor is available as a TheHive notifier endpoint"
 
+  flow:
+    type: object
+    description: "TheHive Flow support for this vendor: orchestration nodes today, workflow templates later. TheHive Flow is a first-party module that requires a TheHive One license."
+    required:
+      - description
+    properties:
+      description:
+        type: string
+        description: "What this vendor's TheHive Flow nodes let you orchestrate"
+        minLength: 10
+        maxLength: 500
+      examples:
+        type: array
+        description: "Short example use cases (one line each) showing what the Flow nodes enable"
+        items:
+          type: string
+          minLength: 10
+          maxLength: 200
+        minItems: 2
+        maxItems: 4
+        uniqueItems: true
+      documentation:
+        type: string
+        description: "URL to the TheHive Flow nodes documentation for this vendor"
+        format: uri
+    additionalProperties: false
+
   documentation:
     type: string
     description: "URL to vendor's API or integration documentation"

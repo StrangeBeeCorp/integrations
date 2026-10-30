@@ -11,4 +11,9 @@ tags:
   - microsoft
 homepage: "https://www.microsoft.com/security/business/endpoint-security/microsoft-defender-endpoint"
 visibility: 4
-
+flow:
+  description: "Respond on Windows, macOS and Linux endpoints managed by Defender for Endpoint."
+  examples:
+    - "Isolate a compromised machine and poll the action until it completes"
+    - "Quarantine a malicious file on the endpoint where it was seen"
+    - "Create a block indicator for a confirmed malicious IP, URL or hash"

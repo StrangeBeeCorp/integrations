@@ -12,4 +12,9 @@ tags:
   - incident-response
 homepage: "https://www.microsoft.com/security/business/identity-access/microsoft-entra-id"
 visibility: 5
-
+flow:
+  description: "Investigate and contain compromised identities in Microsoft Entra ID."
+  examples:
+    - "On a phishing case, disable the user, revoke sessions and force a password reset"
+    - "Enrich a user observable with roles, groups and MFA status to assess impact"
+    - "Review recent sign-ins and risk detections for a suspected account takeover"

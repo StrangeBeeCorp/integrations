@@ -11,4 +11,9 @@ tags:
   - incident-response
 homepage: "https://www.virustotal.com"
 visibility: 3
-
+flow:
+  description: "Get VirusTotal reputation reports and submit files and URLs for scanning."
+  examples:
+    - "Check the reputation of a hash, URL, domain or IP found in an alert"
+    - "Submit an unknown attachment for scanning and wait for the analysis result"
+    - "Auto-tag observables as malicious above a detection threshold"

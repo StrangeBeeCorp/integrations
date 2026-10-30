@@ -10,4 +10,9 @@ tags:
   - incident-response
 homepage: "https://www.recordedfuture.com"
 visibility: 8
-
+flow:
+  description: "Enrich observables with Recorded Future risk scores, context and threat actor intelligence."
+  examples:
+    - "Enrich every new observable with a risk score and tag it in TheHive"
+    - "Bulk-triage all observables of an alert to decide whether to escalate"
+    - "Attach threat actor context to a case when an IOC matches a known campaign"

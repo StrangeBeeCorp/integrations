@@ -1,0 +1,17 @@
+id: JIRA
+name: "Jira Cloud"
+description: "Jira Cloud is Atlassian's issue tracking and project management platform, used by security teams to open and follow remediation tickets with the teams that own the affected systems"
+category: Collaboration
+tags:
+  - ticketing
+  - collaboration
+  - incident-response
+  - api
+homepage: "https://www.atlassian.com/software/jira"
+visibility: 100
+flow:
+  description: "Create and follow Jira issues from SOC workflows, with full Jira Cloud REST v3 coverage."
+  examples:
+    - "Open a Jira ticket for the owning team when a case needs a fix such as a patch or config change"
+    - "Link the Jira issue back to the TheHive case and comment progress"
+    - "Close the case automatically when the Jira issue is resolved"

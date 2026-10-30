@@ -22,6 +22,7 @@ SECTION_DESCRIPTIONS = {
     'Functions': 'Automate TheHive actions or ingest alerts',
     'Use Cases': 'Real-world integrations with TheHive',
     'Notifiers': 'Notify external systems when events occur',
+    'Flow': 'Orchestrate this vendor from TheHive Flow workflows',
 }
 
 
@@ -64,12 +65,14 @@ def generate_markdown_overview(vendor: str, manifest: Dict) -> str:
     functions = manifest.get('integrations', {}).get('functions', [])
     external_integrations = manifest.get('externalIntegrations', [])
     is_notifier = manifest.get('notifier', False)
+    flow = manifest.get('flow')
 
     sections = []
     if use_cases: sections.append('use_cases')
     if analyzers: sections.append('analyzers')
     if responders: sections.append('responders')
     if is_notifier: sections.append('notifier')
+    if flow: sections.append('flow')
     if functions: sections.append('functions')
     if external_integrations: sections.append('external')
 
@@ -133,6 +136,26 @@ def generate_markdown_overview(vendor: str, manifest: Dict) -> str:
             f"[TheHive notifier]({notifier_doc}).", "",
         ])
         _add_divider_if_more('notifier')
+
+    # Flow
+    if flow:
+        lines.extend([
+            "## Flow nodes", "",
+            f"### {SECTION_DESCRIPTIONS['Flow']}", "",
+        ])
+        if flow.get('description'):
+            lines.extend([flow['description'], ""])
+        examples = flow.get('examples', [])
+        if examples:
+            lines.extend(["**Example use cases:**", ""])
+            lines.extend([f"- {ex}" for ex in examples])
+            lines.append("")
+        lines.extend([
+            "TheHive Flow is a first-party module that requires a TheHive One license.", "",
+        ])
+        if flow.get('documentation'):
+            lines.extend([f"See the [Flow documentation]({flow['documentation']}).", ""])
+        _add_divider_if_more('flow')
 
     # Functions
     if functions:
@@ -198,6 +221,8 @@ def generate_catalog_index(all_manifests: Dict) -> str:
         m['stats'].get('totalExternalIntegrations', 0) for m in all_manifests.values())
     stats_totals['totalNotifiers'] = sum(
         m['stats'].get('totalNotifiers', 0) for m in all_manifests.values())
+    stats_totals['totalFlow'] = sum(
+        m['stats'].get('totalFlow', 0) for m in all_manifests.values())
 
     lines.extend([
         "## Summary Statistics", "",
@@ -206,6 +231,7 @@ def generate_catalog_index(all_manifests: Dict) -> str:
         f"- **Total Responders:** {stats_totals['totalResponders']}",
         f"- **Total Functions:** {stats_totals['totalFunctions']}",
         f"- **Total Notifiers:** {stats_totals['totalNotifiers']}",
+        f"- **Total Flow nodes:** {stats_totals['totalFlow']}",
         f"- **Total External Integrations:** {stats_totals['totalExternalIntegrations']}",
         f"- **Total Integrations:** {stats_totals['total']}", "",
     ])
@@ -239,6 +265,7 @@ def generate_catalog_index(all_manifests: Dict) -> str:
         if stats['totalResponders'] > 0: parts.append(f"{stats['totalResponders']} responders")
         if stats['totalFunctions'] > 0: parts.append(f"{stats['totalFunctions']} functions")
         if stats.get('totalNotifiers', 0) > 0: parts.append("notifier")
+        if stats.get('totalFlow', 0) > 0: parts.append("flow nodes")
         if stats.get('totalExternalIntegrations', 0) > 0: parts.append(f"{stats['totalExternalIntegrations']} external")
         breakdown = ", ".join(parts) or "No integrations"
         lines.append(f"- **[{manifest['name']}](vendors/{vendor_id}/overview.md)** - *{category}* - {breakdown}")

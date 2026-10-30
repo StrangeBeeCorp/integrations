@@ -4,6 +4,12 @@ description: "European endpoint security platform (EDR/EPP) certified by ANSSI a
 category: EDR
 homepage: "https://www.harfanglab.io"
 visibility: 100
+flow:
+  description: "Investigate and respond on HarfangLab-protected endpoints, including telemetry hunting and remote jobs."
+  examples:
+    - "Isolate an endpoint and launch a forensic collection job"
+    - "Hunt for an IOC across process, network and DNS telemetry of the whole fleet"
+    - "Download a suspicious binary and send it to VirusTotal or a sandbox"
 externalIntegrations:
 - name: TheHive Connector
   description: Native connector provided by HarfangLab to send security events (SecEvents) from the HarfangLab EDR Manager to TheHive.

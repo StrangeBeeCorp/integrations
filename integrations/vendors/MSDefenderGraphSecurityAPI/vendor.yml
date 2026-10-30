@@ -1,0 +1,18 @@
+id: MSDefenderGraphSecurityAPI
+name: "Microsoft Defender (via Graph Security API)"
+description: "Aggregates security alerts from any product in the Microsoft Defender suite (Defender for Endpoint, Identity, Office 365, Cloud Apps, Sentinel, etc.) through the unified Microsoft Graph Security API, regardless of the originating source"
+category: SIEM & Analytics
+tags:
+  - microsoft
+  - microsoft-defender
+  - graph-security-api
+  - siem
+  - incident-response
+homepage: "https://learn.microsoft.com/en-us/graph/api/resources/security-api-overview"
+visibility: 5
+flow:
+  description: "Manage Microsoft Defender XDR alerts and incidents through the unified Graph Security API."
+  examples:
+    - "Pull new Defender XDR incidents on a schedule and create TheHive alerts"
+    - "Assign or classify the Defender incident when the TheHive case is closed"
+    - "Keep incident status in sync between Defender and TheHive"

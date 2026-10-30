@@ -10,6 +10,12 @@ tags:
   - edr
 homepage: "https://www.crowdstrike.com"
 visibility: 1
+flow:
+  description: "Investigate and respond on CrowdStrike-protected endpoints: alerts, hosts, IOCs, sandbox and vulnerabilities."
+  examples:
+    - "Contain a host automatically when a critical case is opened in TheHive"
+    - "Detonate a suspicious attachment in the Falcon sandbox and attach the report to the case"
+    - "Push a confirmed malicious hash as a Falcon IOC to block it fleet-wide"
 externalIntegrations:
 - name: falcon2thehive
   description: Real-time connector that streams CrowdStrike Falcon detection events into TheHive, turning Falcon alerts into actionable TheHive Alerts. Supports DetectionSummaryEvent, IdentityProtectionEvent, and MobileDetectionSummaryEvent with automatic observable extraction and TTP mapping.

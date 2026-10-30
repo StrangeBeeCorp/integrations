@@ -4,3 +4,9 @@ description: "Microsoft Sentinel is a cloud-native SIEM and SOAR solution that d
 category: SIEM & Analytics
 homepage: "https://azure.microsoft.com/products/microsoft-sentinel"
 visibility: 5
+flow:
+  description: "Manage Microsoft Sentinel incidents and maintain Sentinel watchlists."
+  examples:
+    - "Import Sentinel incidents with their entities as TheHive alerts and observables"
+    - "Write the TheHive analysis back as a comment on the Sentinel incident"
+    - "Close the Sentinel incident with the right classification when the case is closed"

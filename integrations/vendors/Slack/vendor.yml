@@ -10,4 +10,9 @@ tags:
 homepage: "https://slack.com"
 notifier: true
 visibility: 12
-
+flow:
+  description: "Notify, coordinate and interact with people in Slack during an incident."
+  examples:
+    - "Post a notification in the SOC channel when a critical case is created"
+    - "Create a dedicated war-room channel per major incident and invite responders"
+    - "DM a user to confirm whether they performed a suspicious action"

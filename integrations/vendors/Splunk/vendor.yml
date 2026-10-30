@@ -10,6 +10,12 @@ tags:
   - correlation
 homepage: "https://www.splunk.com"
 visibility: 2
+flow:
+  description: "Search Splunk data, read fired alerts, and update Splunk Enterprise Security findings."
+  examples:
+    - "Run an SPL query to find every host that contacted a suspicious domain"
+    - "Turn fired Splunk alerts into TheHive alerts"
+    - "Update the Enterprise Security notable or finding status when the case is resolved"
 externalIntegrations:
 - name: TheHive/Cortex Technical Add-on
   description: Bidirectional integration add-on that pulls case and alert events from TheHive, retrieves Cortex job information, and enables creating alerts/cases and executing functions in TheHive directly from Splunk searches and dashboards

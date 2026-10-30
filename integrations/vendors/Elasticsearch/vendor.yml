@@ -9,6 +9,12 @@ tags:
   - event-correlation
   - threat-hunting
 homepage: "https://www.elastic.co"
+flow:
+  description: "Query Elasticsearch data and read Elastic Security detection alerts."
+  examples:
+    - "Pull Elastic detection alerts and create TheHive alerts"
+    - "Run an ES|QL query to scope an incident across users, hosts and time range"
+    - "Write enrichment results or case summaries into a dedicated index"
 externalIntegrations:
 - name: TheHive Connector for Kibana
   description: Native Kibana connector that allows Elasticsearch to create alerts and create cases in TheHive

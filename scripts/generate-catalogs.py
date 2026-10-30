@@ -70,6 +70,7 @@ def generate_light_manifest(all_manifests: Dict) -> Dict:
                 'totalUseCases': old_stats.get('totalUseCases', 0),
                 'totalExternalIntegrations': old_stats.get('totalExternalIntegrations', 0),
                 'totalNotifiers': old_stats.get('totalNotifiers', 0),
+                'totalFlow': old_stats.get('totalFlow', 0),
                 'total': old_stats.get('total', 0),
             },
         }
@@ -172,6 +173,7 @@ def generate_github_summary(all_manifests: Dict, previous_manifests: Dict = None
         'total_functions': sum(m['stats']['totalFunctions'] for m in all_manifests.values()),
         'total_external_integrations': sum(m['stats'].get('totalExternalIntegrations', 0) for m in all_manifests.values()),
         'total_notifiers': sum(m['stats'].get('totalNotifiers', 0) for m in all_manifests.values()),
+        'total_flow': sum(m['stats'].get('totalFlow', 0) for m in all_manifests.values()),
         'total_integrations': sum(m['stats']['total'] for m in all_manifests.values()),
         'added': [], 'updated': [], 'removed': []
     }
@@ -274,7 +276,7 @@ def main():
         print(f"  Processing {vendor}...")
         manifest = generate_vendor_manifest(vendor)
         if manifest['stats']['total'] == 0:
-            print(f"    Skipping {vendor}: no content (0 analyzers, responders, functions, or external integrations)")
+            print(f"    Skipping {vendor}: no content (0 analyzers, responders, functions, external integrations, notifier or flow)")
             continue
         all_manifests[vendor] = manifest
 
