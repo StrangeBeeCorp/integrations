@@ -246,7 +246,7 @@
       "analyzers": [
         {
           "name": "ANY.RUN Sandbox URL Android",
-          "version": "1.0",
+          "version": "1.1",
           "author": "ANY.RUN Integrations Team",
           "license": "AGPL-V3",
           "description": "Submit URLs for Android sandbox analysis and retrieve verdicts, IOCs, reports and tags.",
@@ -261,7 +261,7 @@
         },
         {
           "name": "ANY.RUN Sandbox File Android",
-          "version": "1.0",
+          "version": "1.1",
           "author": "ANY.RUN Integrations Team",
           "license": "AGPL-V3",
           "description": "Submit files for Android sandbox analysis and retrieve verdicts, IOCs, reports and tags.",
@@ -276,7 +276,7 @@
         },
         {
           "name": "ANY.RUN Sandbox URL Linux",
-          "version": "1.0",
+          "version": "1.1",
           "author": "ANY.RUN Integrations Team",
           "license": "AGPL-V3",
           "description": "Submit URLs for Linux sandbox analysis and retrieve verdicts, IOCs, reports and tags.",
@@ -291,7 +291,7 @@
         },
         {
           "name": "ANY.RUN Sandbox File Linux",
-          "version": "1.0",
+          "version": "1.1",
           "author": "ANY.RUN Integrations Team",
           "license": "AGPL-V3",
           "description": "Submit files for Linux sandbox analysis and retrieve verdicts, IOCs, reports and tags.",
@@ -306,7 +306,7 @@
         },
         {
           "name": "ANY.RUN TI Lookup",
-          "version": "1.0",
+          "version": "1.1",
           "author": "ANY.RUN Integrations Team",
           "license": "AGPL-V3",
           "description": "Enrich URLs, hashes, domains, and IPs with ANY.RUN Threat Intelligence.",
@@ -324,7 +324,7 @@
         },
         {
           "name": "ANY.RUN Sandbox URL Windows",
-          "version": "1.0",
+          "version": "1.1",
           "author": "ANY.RUN Integrations Team",
           "license": "AGPL-V3",
           "description": "Submit URLs for Windows sandbox analysis and retrieve verdicts, IOCs, reports and tags.",
@@ -339,7 +339,7 @@
         },
         {
           "name": "ANY.RUN Sandbox File Windows",
-          "version": "1.0",
+          "version": "1.1",
           "author": "ANY.RUN Integrations Team",
           "license": "AGPL-V3",
           "description": "Submit files for Windows sandbox analysis and retrieve verdicts, IOCs, reports and tags.",
