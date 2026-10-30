@@ -114,7 +114,7 @@ properties:
 
   flow:
     type: object
-    description: "TheHive Flow support for this vendor: orchestration nodes today, workflow templates later. TheHive Flow is a first-party module that requires a TheHive One license."
+    description: "TheHive Flow support for this vendor: orchestration nodes today, workflow templates later. TheHive Flow is TheHive's native automation and orchestration engine, available exclusively with the TheHive ONE plan."
     required:
       - description
     properties:

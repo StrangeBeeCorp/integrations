@@ -161,7 +161,7 @@ def generate_markdown_overview(vendor: str, manifest: Dict) -> str:
             lines.extend([f"- {ex}" for ex in examples])
             lines.append("")
         lines.extend([
-            "TheHive Flow is a first-party module that requires a TheHive ONE license.", "",
+            "TheHive Flow is TheHive's native automation and orchestration engine, available exclusively with the TheHive ONE plan.", "",
         ])
         if flow.get('documentation'):
             lines.extend([f"See the [Flow documentation]({flow['documentation']}).", ""])
