@@ -26,9 +26,16 @@ SECTION_DESCRIPTIONS = {
 }
 
 
+def _count_heading(label: str, count: int) -> str:
+    """Section heading with item count, e.g. '## Analyzers (3)'. Uses the singular label when there is a single item."""
+    if count == 1 and label.endswith('s'):
+        label = label[:-1]
+    return f"## {label} ({count})"
+
+
 def _render_cortex_items(items: list, item_type: str, tagline: str = None) -> List[str]:
     """Render a list of analyzers or responders to markdown lines."""
-    lines = [f"## {item_type} ({len(items)})", ""]
+    lines = [_count_heading(item_type, len(items)), ""]
     desc = tagline or SECTION_DESCRIPTIONS.get(item_type)
     if desc:
         lines.extend([f"### {desc}", ""])
@@ -83,7 +90,7 @@ def generate_markdown_overview(vendor: str, manifest: Dict) -> str:
 
     # Use Cases
     if use_cases:
-        lines.extend([f"## Use Cases ({len(use_cases)})", "",
+        lines.extend([_count_heading("Use Cases", len(use_cases)), "",
                        f"### {SECTION_DESCRIPTIONS['Use Cases']}", ""])
         function_lookup = {f.get('file', ''): f for f in functions}
 
@@ -140,7 +147,7 @@ def generate_markdown_overview(vendor: str, manifest: Dict) -> str:
     # Flow
     if flow:
         lines.extend([
-            f"## Flow nodes ({manifest['stats'].get('totalFlow', 1)})", "",
+            f"## TheHive Flow node ({manifest['stats'].get('totalFlow', 1)})", "",
             f"### {SECTION_DESCRIPTIONS['Flow']}", "",
         ])
         if flow.get('description'):
@@ -151,7 +158,7 @@ def generate_markdown_overview(vendor: str, manifest: Dict) -> str:
             lines.extend([f"- {ex}" for ex in examples])
             lines.append("")
         lines.extend([
-            "TheHive Flow is a first-party module that requires a TheHive One license.", "",
+            "TheHive Flow is a first-party module that requires a TheHive ONE license.", "",
         ])
         if flow.get('documentation'):
             lines.extend([f"See the [Flow documentation]({flow['documentation']}).", ""])
@@ -159,7 +166,7 @@ def generate_markdown_overview(vendor: str, manifest: Dict) -> str:
 
     # Functions
     if functions:
-        lines.extend([f"## Functions ({len(functions)})", "",
+        lines.extend([_count_heading("Functions", len(functions)), "",
                        f"### {SECTION_DESCRIPTIONS['Functions']}", ""])
         for func in functions:
             name = func.get('name', 'Unknown')
@@ -179,7 +186,7 @@ def generate_markdown_overview(vendor: str, manifest: Dict) -> str:
 
     # External Integrations
     if external_integrations:
-        lines.extend([f"## External Integrations ({len(external_integrations)})", "",
+        lines.extend([_count_heading("External Integrations", len(external_integrations)), "",
                        f"### External integrations that connect {manifest['name']} with TheHive", ""])
 
         for i, vi in enumerate(external_integrations):
@@ -231,7 +238,7 @@ def generate_catalog_index(all_manifests: Dict) -> str:
         f"- **Total Responders:** {stats_totals['totalResponders']}",
         f"- **Total Functions:** {stats_totals['totalFunctions']}",
         f"- **Total Notifiers:** {stats_totals['totalNotifiers']}",
-        f"- **Total Flow nodes:** {stats_totals['totalFlow']}",
+        f"- **Total TheHive Flow nodes:** {stats_totals['totalFlow']}",
         f"- **Total External Integrations:** {stats_totals['totalExternalIntegrations']}",
         f"- **Total Integrations:** {stats_totals['total']}", "",
     ])
@@ -265,7 +272,7 @@ def generate_catalog_index(all_manifests: Dict) -> str:
         if stats['totalResponders'] > 0: parts.append(f"{stats['totalResponders']} responders")
         if stats['totalFunctions'] > 0: parts.append(f"{stats['totalFunctions']} functions")
         if stats.get('totalNotifiers', 0) > 0: parts.append("notifier")
-        if stats.get('totalFlow', 0) > 0: parts.append("flow nodes")
+        if stats.get('totalFlow', 0) > 0: parts.append("TheHive Flow node")
         if stats.get('totalExternalIntegrations', 0) > 0: parts.append(f"{stats['totalExternalIntegrations']} external")
         breakdown = ", ".join(parts) or "No integrations"
         lines.append(f"- **[{manifest['name']}](vendors/{vendor_id}/overview.md)** - *{category}* - {breakdown}")
