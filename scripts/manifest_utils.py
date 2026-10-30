@@ -157,10 +157,8 @@ def consolidate_subscription_fields(analyzer_fields: Dict, responder_fields: Dic
     result = {}
     for key in ('registration_required', 'subscription_required', 'free_subscription'):
         values = analyzer_fields.get(key, []) + responder_fields.get(key, [])
-        if not values:
-            continue
-        unique = list(set(values))
-        result[key] = unique[0] if len(unique) == 1 else sorted(unique, key=lambda x: (not x, x))
+        # Always emit a boolean: true if any analyzer/responder config says so
+        result[key] = any(bool(v) for v in values)
     return result
 
 
@@ -267,7 +265,7 @@ def read_vendor_metadata(vendor: str) -> Dict:
     default_metadata = {
         'id': vendor, 'name': default_name, 'description': '', 'category': '',
         'tags': [], 'homepage': '', 'logo': {}, 'useCases': [],
-        'notifier': False, 'flow': None, 'externalIntegrations': [],
+        'notifier': False, 'flow': {}, 'externalIntegrations': [],
         'displayOnWebsite': True, 'visibility': 100, 'analyzersTagline': '', 'analyzerDisplayName': ''
     }
 
@@ -296,10 +294,10 @@ def read_vendor_metadata(vendor: str) -> Dict:
             'logo': auto_detect_logo(vendor),
             'useCases': discover_use_cases_from_markdown(vendor),
             'notifier': data.get('notifier', False),
-            'flow': data.get('flow', None),
+            'flow': data.get('flow') or {},
             'externalIntegrations': data.get('externalIntegrations', []),
             'displayOnWebsite': data.get('displayOnWebsite', True),
-            'visibility': data.get('visibility', 'low'),
+            'visibility': data.get('visibility', 100),
             'analyzersTagline': data.get('analyzersTagline', ''),
             'analyzerDisplayName': data.get('analyzerDisplayName', '')
         }

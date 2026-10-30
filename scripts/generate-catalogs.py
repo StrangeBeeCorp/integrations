@@ -56,7 +56,7 @@ def generate_light_manifest(all_manifests: Dict) -> Dict:
             'tags': vendor.get('tags', []),
             'homepage': vendor.get('homepage', ''),
             'logo_url': logo_url,
-            'visibility': vendor.get('visibility', 'low'),
+            'visibility': vendor.get('visibility', 100),
             'subscription': {
                 'required': _resolve_bool(vendor.get('registration_required', False)),
                 'free': _resolve_bool(vendor.get('free_subscription', False)),
@@ -82,11 +82,21 @@ def generate_visibility_sorted_catalog(all_manifests: Dict) -> Dict:
     """Catalog sorted by visibility tiers, then alphabetically."""
     catalog = {'high': [], 'medium': [], 'low': []}
 
+    def _tier(visibility) -> str:
+        if isinstance(visibility, str):
+            return visibility if visibility in catalog else 'low'
+        try:
+            weight = int(visibility)
+        except (TypeError, ValueError):
+            return 'low'
+        if weight <= 20:
+            return 'high'
+        if weight <= 50:
+            return 'medium'
+        return 'low'
+
     for manifest in all_manifests.values():
-        tier = manifest.get('visibility', 'low')
-        if tier not in catalog:
-            tier = 'low'
-        catalog[tier].append(manifest)
+        catalog[_tier(manifest.get('visibility', 100))].append(manifest)
 
     for tier in catalog:
         catalog[tier].sort(key=lambda x: x['name'].lower())
