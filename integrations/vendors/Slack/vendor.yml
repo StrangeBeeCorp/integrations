@@ -16,3 +16,7 @@ flow:
     - "Post a notification in the SOC channel when a critical case is created"
     - "Create a dedicated war-room channel per major incident and invite responders"
     - "DM a user to confirm whether they performed a suspicious action"
+workflows:
+  - name: "Slack Alert Manager"
+    url: "https://strangebee.com/workflow/slack-alert-manager-workflow/"
+    description: "The Slack Alert Manager workflow automates alert monitoring and response tracking through Slack. It processes reactions, comments, and thread replies to update alert statuses, ensuring timely follow-ups and efficient incident management."

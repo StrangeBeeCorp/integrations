@@ -139,6 +139,33 @@ properties:
         format: uri
     additionalProperties: false
 
+  workflows:
+    type: array
+    description: "Ready-to-use TheHive Flow workflows for this vendor. For now each entry is a manual link to the workflow page."
+    items:
+      type: object
+      required:
+        - name
+        - url
+      properties:
+        name:
+          type: string
+          description: "Display name of the workflow"
+          minLength: 2
+          maxLength: 150
+        url:
+          type: string
+          description: "URL of the workflow page"
+          format: uri
+          pattern: "^https?://"
+        description:
+          type: string
+          description: "Optional one-line summary of what the workflow does"
+          minLength: 10
+          maxLength: 300
+      additionalProperties: false
+    uniqueItems: true
+
   documentation:
     type: string
     description: "URL to vendor's API or integration documentation"

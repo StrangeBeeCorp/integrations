@@ -4,3 +4,7 @@ description: "Built-in Cortex analyzer that parses .eml email files locally and 
 category: Utilities
 homepage: "https://github.com/TheHive-Project/Cortex-Analyzers/tree/master/analyzers/EmlParser"
 visibility: 100
+workflows:
+  - name: "Suspicious Email Campaign Detection"
+    url: "https://strangebee.com/workflow/suspicious-email-campaign-detection/"
+    description: "Automatically processes suspicious email alerts, extracts key email details, and identifies related incidents. It groups matching alerts into existing cases or creates new ones in TheHive, helping security teams track and investigate potential email campaigns."

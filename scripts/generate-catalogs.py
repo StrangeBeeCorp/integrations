@@ -71,6 +71,7 @@ def generate_light_manifest(all_manifests: Dict) -> Dict:
                 'totalExternalIntegrations': old_stats.get('totalExternalIntegrations', 0),
                 'totalNotifiers': old_stats.get('totalNotifiers', 0),
                 'totalFlow': old_stats.get('totalFlow', 0),
+                'totalWorkflows': old_stats.get('totalWorkflows', 0),
                 'total': old_stats.get('total', 0),
             },
         }
@@ -139,6 +140,31 @@ def generate_external_integrations_catalog(all_manifests: Dict) -> Dict:
     }
 
 
+def generate_workflows_catalog(all_manifests: Dict) -> Dict:
+    """Catalog of TheHive Flow workflows declared in vendor.yml files (links only for now)."""
+    workflows = []
+
+    for vendor_id, manifest in all_manifests.items():
+        for workflow in manifest.get('workflows', []):
+            workflows.append({
+                'name': workflow.get('name'),
+                'url': workflow.get('url'),
+                'description': workflow.get('description'),
+                'vendor': manifest.get('name'),
+                'vendorId': vendor_id,
+                'category': manifest.get('category')
+            })
+
+    workflows.sort(key=lambda x: (x['vendor'].lower(), x['name'].lower()))
+
+    return {
+        'totalWorkflows': len(workflows),
+        'workflows': workflows,
+        'byVendor': _group_by(workflows, 'vendor'),
+        'byCategory': _group_by(workflows, 'category')
+    }
+
+
 def generate_functions_catalog_data(all_manifests: Dict) -> Dict:
     generic_functions = []
     generic_path = Path('integrations/generic/functions')
@@ -184,6 +210,7 @@ def generate_github_summary(all_manifests: Dict, previous_manifests: Dict = None
         'total_external_integrations': sum(m['stats'].get('totalExternalIntegrations', 0) for m in all_manifests.values()),
         'total_notifiers': sum(m['stats'].get('totalNotifiers', 0) for m in all_manifests.values()),
         'total_flow': sum(m['stats'].get('totalFlow', 0) for m in all_manifests.values()),
+        'total_workflows': sum(m['stats'].get('totalWorkflows', 0) for m in all_manifests.values()),
         'total_integrations': sum(m['stats']['total'] for m in all_manifests.values()),
         'added': [], 'updated': [], 'removed': []
     }
@@ -286,7 +313,7 @@ def main():
         print(f"  Processing {vendor}...")
         manifest = generate_vendor_manifest(vendor)
         if manifest['stats']['total'] == 0:
-            print(f"    Skipping {vendor}: no content (0 analyzers, responders, functions, external integrations, notifier or flow)")
+            print(f"    Skipping {vendor}: no content (0 analyzers, responders, functions, external integrations, workflows, notifier or flow)")
             continue
         all_manifests[vendor] = manifest
 
@@ -317,6 +344,14 @@ def main():
     _write_json(ext_path / 'catalog.json', ext_catalog)
     _write_yaml(ext_path / 'catalog.yml', ext_catalog, ["AUTO-GENERATED - DO NOT EDIT"])
     print(f"> External integrations catalog written")
+
+    # Workflows catalog
+    wf_catalog = generate_workflows_catalog(all_manifests)
+    wf_path = catalogs_path / 'workflows'
+    wf_path.mkdir(exist_ok=True)
+    _write_json(wf_path / 'catalog.json', wf_catalog)
+    _write_yaml(wf_path / 'catalog.yml', wf_catalog, ["AUTO-GENERATED - DO NOT EDIT"])
+    print(f"> Workflows catalog written")
 
     # Functions catalog
     func_catalog = generate_functions_catalog_data(all_manifests)
@@ -358,6 +393,7 @@ def main():
     print(f"Total Functions: {sum(m['stats']['totalFunctions'] for m in all_manifests.values())}")
     print(f"Total External Integrations: {ext_catalog['totalIntegrations']}")
     print(f"Total Notifiers: {sum(m['stats'].get('totalNotifiers', 0) for m in all_manifests.values())}")
+    print(f"Total Workflows: {wf_catalog['totalWorkflows']}")
     print(f"Total Integrations: {sum(m['stats']['total'] for m in all_manifests.values())}")
 
 

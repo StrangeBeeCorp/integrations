@@ -265,7 +265,7 @@ def read_vendor_metadata(vendor: str) -> Dict:
     default_metadata = {
         'id': vendor, 'name': default_name, 'description': '', 'category': '',
         'tags': [], 'homepage': '', 'logo': {}, 'useCases': [],
-        'notifier': False, 'flow': {}, 'externalIntegrations': [],
+        'notifier': False, 'flow': {}, 'workflows': [], 'externalIntegrations': [],
         'displayOnWebsite': True, 'visibility': 100, 'analyzersTagline': '', 'analyzerDisplayName': ''
     }
 
@@ -295,6 +295,7 @@ def read_vendor_metadata(vendor: str) -> Dict:
             'useCases': discover_use_cases_from_markdown(vendor),
             'notifier': data.get('notifier', False),
             'flow': data.get('flow') or {},
+            'workflows': data.get('workflows') or [],
             'externalIntegrations': data.get('externalIntegrations', []),
             'displayOnWebsite': data.get('displayOnWebsite', True),
             'visibility': data.get('visibility', 100),
@@ -346,6 +347,7 @@ def generate_vendor_manifest(vendor: str) -> Dict:
     is_notifier = vendor_metadata.get('notifier', False)
     notifier_count = 1 if is_notifier else 0
     flow_count = 1 if vendor_metadata.get('flow') else 0
+    workflows_count = len(vendor_metadata.get('workflows', []))
 
     return {
         **vendor_metadata,
@@ -364,6 +366,7 @@ def generate_vendor_manifest(vendor: str) -> Dict:
             'totalExternalIntegrations': external_count,
             'totalNotifiers': notifier_count,
             'totalFlow': flow_count,
-            'total': len(analyzers) + len(responders) + len(functions) + external_count + notifier_count + flow_count
+            'totalWorkflows': workflows_count,
+            'total': len(analyzers) + len(responders) + len(functions) + external_count + notifier_count + flow_count + workflows_count
         }
     }
