@@ -60,4 +60,4 @@ TheHive Flow is TheHive's native automation and orchestration engine, available 
 
 ### Ready-to-use TheHive Flow workflows
 
-- [Slack Alert Manager](https://strangebee.com/workflow/slack-alert-manager-workflow/) - The Slack Alert Manager workflow automates alert monitoring and response tracking through Slack. It processes reactions, comments, and thread replies to update alert statuses, ensuring timely follow-ups and efficient incident management.
+- [Slack Alert Manager workflow](https://strangebee.com/workflow/slack-alert-manager-workflow/) - TheHive Flow's Slack Alert Manager workflow automates alert monitoring and response tracking through Slack. It processes reactions, comments and thread replies to update alert statuses, ensuring timely follow-ups and efficient incident management.

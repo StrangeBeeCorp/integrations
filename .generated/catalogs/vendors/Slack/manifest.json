@@ -56,9 +56,9 @@
   },
   "workflows": [
     {
-      "name": "Slack Alert Manager",
+      "name": "Slack Alert Manager workflow",
       "url": "https://strangebee.com/workflow/slack-alert-manager-workflow/",
-      "description": "The Slack Alert Manager workflow automates alert monitoring and response tracking through Slack. It processes reactions, comments, and thread replies to update alert statuses, ensuring timely follow-ups and efficient incident management."
+      "description": "TheHive Flow's Slack Alert Manager workflow automates alert monitoring and response tracking through Slack. It processes reactions, comments and thread replies to update alert statuses, ensuring timely follow-ups and efficient incident management."
     }
   ],
   "externalIntegrations": [],
