@@ -1,0 +1,12 @@
+id: SOCRadar
+name: "SOCRadar"
+description: "SOCRadar is an extended threat intelligence (XTI) platform that combines external attack surface management, digital risk protection and cyber threat intelligence to detect brand, dark web, credential and exposure risks for an organization"
+category: Threat Intelligence
+tags:
+  - alerts
+  - threat-intel
+  - api
+  - saas
+homepage: "https://socradar.io"
+subscription_required: true
+visibility: 5
