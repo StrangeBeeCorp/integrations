@@ -16,15 +16,15 @@ Remove a message filter for a given sender
 - **License:** MIT
 - **Data Types:** `thehive:case_artifact`
 
-#### [Gmail BlockSender v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Gmail)
-Move emails from a given sender to trash
+#### [Gmail BlockDomain v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Gmail)
+Move emails from a given domain to trash
 
 - **Author:** David Strassegger, @oscd_initiative
 - **License:** MIT
 - **Data Types:** `thehive:case_artifact`
 
-#### [Gmail BlockDomain v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Gmail)
-Move emails from a given domain to trash
+#### [Gmail BlockSender v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/Gmail)
+Move emails from a given sender to trash
 
 - **Author:** David Strassegger, @oscd_initiative
 - **License:** MIT

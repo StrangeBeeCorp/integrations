@@ -48,19 +48,6 @@ free_subscription: true
 vendor_internal_page_content_url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.generated/docs/vendors/Splunk/overview.md
 integrations:
   analyzers:
-  - name: Splunk Search File Filename
-    version: '3.0'
-    author: Unit777, LetMeR00t
-    license: AGPL-V3
-    description: Execute a savedsearch on a Splunk instance with a file/filename as argument
-    dataTypes:
-    - file
-    - filename
-    file: .upstream/cortex/analyzers/Splunk/Splunk_Search_file_filename.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_file_filename.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_file_filename.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk
-    integration_type: null
   - name: Splunk Search Domain FQDN
     version: '3.0'
     author: Unit777, LetMeR00t
@@ -72,30 +59,6 @@ integrations:
     file: .upstream/cortex/analyzers/Splunk/Splunk_Search_domain_fqdn.json
     url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_domain_fqdn.json
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_domain_fqdn.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk
-    integration_type: null
-  - name: Splunk Search IP
-    version: '3.0'
-    author: Unit777, LetMeR00t
-    license: AGPL-V3
-    description: Execute a savedsearch on a Splunk instance with an IP as argument
-    dataTypes:
-    - ip
-    file: .upstream/cortex/analyzers/Splunk/Splunk_Search_ip.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_ip.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_ip.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk
-    integration_type: null
-  - name: Splunk Search Other
-    version: '3.0'
-    author: Unit777, LetMeR00t
-    license: AGPL-V3
-    description: Execute a savedsearch on a Splunk instance with an unidentified data as argument
-    dataTypes:
-    - other
-    file: .upstream/cortex/analyzers/Splunk/Splunk_Search_other.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_other.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_other.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk
     integration_type: null
   - name: Splunk Search Hash
@@ -110,16 +73,16 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_hash.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk
     integration_type: null
-  - name: Splunk Search User
+  - name: Splunk Search User Agent
     version: '3.0'
-    author: LetMeR00t
+    author: Unit777, LetMeR00t
     license: AGPL-V3
-    description: Execute a savedsearch on a Splunk instance with a user ID as argument
+    description: Execute a savedsearch on a Splunk instance with a user agent as argument
     dataTypes:
-    - other
-    file: .upstream/cortex/analyzers/Splunk/Splunk_Search_user.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_user.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_user.json
+    - user-agent
+    file: .upstream/cortex/analyzers/Splunk/Splunk_Search_user_agent.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_user_agent.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_user_agent.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk
     integration_type: null
   - name: Splunk Search Mail Subject
@@ -135,28 +98,17 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_mail_subject.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk
     integration_type: null
-  - name: Splunk Search User Agent
+  - name: Splunk Search Mail Email
     version: '3.0'
     author: Unit777, LetMeR00t
     license: AGPL-V3
-    description: Execute a savedsearch on a Splunk instance with a user agent as argument
+    description: Execute a savedsearch on a Splunk instance with a mail/email as argument
     dataTypes:
-    - user-agent
-    file: .upstream/cortex/analyzers/Splunk/Splunk_Search_user_agent.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_user_agent.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_user_agent.json
-    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk
-    integration_type: null
-  - name: Splunk Search Registry
-    version: '3.0'
-    author: Unit777, LetMeR00t
-    license: AGPL-V3
-    description: Execute a savedsearch on a Splunk instance with a registry data as argument
-    dataTypes:
-    - registry
-    file: .upstream/cortex/analyzers/Splunk/Splunk_Search_registry.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_registry.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_registry.json
+    - mail
+    - email
+    file: .upstream/cortex/analyzers/Splunk/Splunk_Search_mail_email.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_mail_email.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_mail_email.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk
     integration_type: null
   - name: Splunk Search URL URI Path
@@ -172,17 +124,65 @@ integrations:
     github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_url_uri_path.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk
     integration_type: null
-  - name: Splunk Search Mail Email
+  - name: Splunk Search File Filename
     version: '3.0'
     author: Unit777, LetMeR00t
     license: AGPL-V3
-    description: Execute a savedsearch on a Splunk instance with a mail/email as argument
+    description: Execute a savedsearch on a Splunk instance with a file/filename as argument
     dataTypes:
-    - mail
-    - email
-    file: .upstream/cortex/analyzers/Splunk/Splunk_Search_mail_email.json
-    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_mail_email.json
-    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_mail_email.json
+    - file
+    - filename
+    file: .upstream/cortex/analyzers/Splunk/Splunk_Search_file_filename.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_file_filename.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_file_filename.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk
+    integration_type: null
+  - name: Splunk Search Registry
+    version: '3.0'
+    author: Unit777, LetMeR00t
+    license: AGPL-V3
+    description: Execute a savedsearch on a Splunk instance with a registry data as argument
+    dataTypes:
+    - registry
+    file: .upstream/cortex/analyzers/Splunk/Splunk_Search_registry.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_registry.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_registry.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk
+    integration_type: null
+  - name: Splunk Search IP
+    version: '3.0'
+    author: Unit777, LetMeR00t
+    license: AGPL-V3
+    description: Execute a savedsearch on a Splunk instance with an IP as argument
+    dataTypes:
+    - ip
+    file: .upstream/cortex/analyzers/Splunk/Splunk_Search_ip.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_ip.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_ip.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk
+    integration_type: null
+  - name: Splunk Search User
+    version: '3.0'
+    author: LetMeR00t
+    license: AGPL-V3
+    description: Execute a savedsearch on a Splunk instance with a user ID as argument
+    dataTypes:
+    - other
+    file: .upstream/cortex/analyzers/Splunk/Splunk_Search_user.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_user.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_user.json
+    upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk
+    integration_type: null
+  - name: Splunk Search Other
+    version: '3.0'
+    author: Unit777, LetMeR00t
+    license: AGPL-V3
+    description: Execute a savedsearch on a Splunk instance with an unidentified data as argument
+    dataTypes:
+    - other
+    file: .upstream/cortex/analyzers/Splunk/Splunk_Search_other.json
+    url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_other.json
+    github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/Splunk/Splunk_Search_other.json
     upstream_url: https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Splunk
     integration_type: null
   responders:

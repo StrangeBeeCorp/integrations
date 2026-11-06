@@ -2,19 +2,12 @@
 
 ### Enrich observables with intelligence
 
-#### [DomainTools WhoisLookup v2.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainTools)
-Use DomainTools to get the ownership record for a domain or an IP address with basic registration details parsed.
+#### [DomainTools WhoisLookupUnparsed v2.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainTools)
+Use DomainTools to get the ownership record for an IP address or a domain without parsing.
 
 - **Author:** CERT-BDF
 - **License:** AGPL-V3
-- **Data Types:** `domain`, `ip`
-
-#### [DomainTools WhoisHistory v2.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainTools)
-Use DomainTools to get a list of historical Whois records associated with a domain name.
-
-- **Author:** CERT-BDF
-- **License:** AGPL-V3
-- **Data Types:** `domain`
+- **Data Types:** `ip`, `domain`
 
 #### [DomainTools ReverseNameServer v2.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainTools)
 Use DomainTools to get a list of domain names that share the same primary or secondary name server.
@@ -30,19 +23,26 @@ Use DomainTools to get a list of IP addresses which share the same registrant in
 - **License:** AGPL-V3
 - **Data Types:** `mail`, `ip`, `domain`, `other`
 
-#### [DomainTools WhoisLookupUnparsed v2.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainTools)
-Use DomainTools to get the ownership record for an IP address or a domain without parsing.
+#### [DomainTools WhoisLookup v2.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainTools)
+Use DomainTools to get the ownership record for a domain or an IP address with basic registration details parsed.
 
 - **Author:** CERT-BDF
 - **License:** AGPL-V3
-- **Data Types:** `ip`, `domain`
+- **Data Types:** `domain`, `ip`
 
-#### [DomainTools ReverseIP v2.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainTools)
-Use DomainTools to get a list of domain names sharing the same IP address.
+#### [DomainTools Risk v2.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainTools)
+Use DomainTools to get a risk score and evidence details on a domain or fqdn
 
 - **Author:** CERT-BDF
 - **License:** AGPL-V3
-- **Data Types:** `ip`, `domain`, `fqdn`
+- **Data Types:** `domain`, `fqdn`
+
+#### [DomainTools WhoisHistory v2.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainTools)
+Use DomainTools to get a list of historical Whois records associated with a domain name.
+
+- **Author:** CERT-BDF
+- **License:** AGPL-V3
+- **Data Types:** `domain`
 
 #### [DomainTools HostingHistory v2.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainTools)
 Use DomainTools to get a list of historical registrant, name servers and IP addresses for a domain name.
@@ -51,8 +51,15 @@ Use DomainTools to get a list of historical registrant, name servers and IP addr
 - **License:** AGPL-V3
 - **Data Types:** `domain`
 
-#### [DomainTools Risk v2.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainTools)
-Use DomainTools to get a risk score and evidence details on a domain or fqdn
+#### [DomainTools ReverseIP v2.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainTools)
+Use DomainTools to get a list of domain names sharing the same IP address.
+
+- **Author:** CERT-BDF
+- **License:** AGPL-V3
+- **Data Types:** `ip`, `domain`, `fqdn`
+
+#### [DomainTools Reputation v2.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainTools)
+Use DomainTools to get a reputation score on a domain or fqdn
 
 - **Author:** CERT-BDF
 - **License:** AGPL-V3
@@ -64,10 +71,3 @@ Use DomainTools to get a list of domain names which share the same registrant in
 - **Author:** CERT-BDF
 - **License:** AGPL-V3
 - **Data Types:** `mail`, `ip`, `domain`, `other`
-
-#### [DomainTools Reputation v2.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainTools)
-Use DomainTools to get a reputation score on a domain or fqdn
-
-- **Author:** CERT-BDF
-- **License:** AGPL-V3
-- **Data Types:** `domain`, `fqdn`
