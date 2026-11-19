@@ -500,7 +500,10 @@ def scan_case_templates(root: Path, relative_root: str, owner: Dict) -> tuple[Li
         is_root = pack_dir == root
         pack_rel = relative_root if is_root else f"{relative_root}/{pack_dir.name}"
         display_name = owner.get('name', owner['id']) if is_root else pack_dir.name
-        pack_id = _slugify(f"{owner['id']}-{display_name}") if owner['type'] == 'vendor' else _slugify(display_name)
+        if owner['type'] == 'vendor':
+            pack_id = _slugify(owner['id']) if is_root else _slugify(f"{owner['id']}-{pack_dir.name}")
+        else:
+            pack_id = _slugify(display_name)
         readme = _read_pack_readme(pack_dir / 'README.md')
         meta = _read_pack_metadata(pack_dir)
 
@@ -532,3 +535,71 @@ def scan_case_templates(root: Path, relative_root: str, owner: Dict) -> tuple[Li
         templates.extend(pack_templates)
 
     return packs, templates
+
+
+# ---------------------------------------------------------------------------
+# Dashboards
+# ---------------------------------------------------------------------------
+
+def _read_dashboard(file_path: Path, relative_path: str, owner: Dict) -> Optional[Dict]:
+    """Catalog entry for one exported dashboard. Export metadata (_id, owner, group, ...) is never copied."""
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+    except Exception as e:
+        print(f"  Warning: cannot read dashboard {relative_path}: {e}")
+        return None
+    if not isinstance(data, dict) or 'title' not in data:
+        return None
+
+    definition = data.get('definition') or {}
+    if isinstance(definition, str):
+        try:
+            definition = json.loads(definition)
+        except Exception:
+            definition = {}
+
+    # A definition is a list of containers (rows), each holding the widgets. Only that level is
+    # read: deeper objects are widget options and filters, not widgets.
+    widgets = []
+    for container in definition.get('items') or []:
+        if not isinstance(container, dict):
+            continue
+        for widget in container.get('items') or []:
+            if not isinstance(widget, dict):
+                continue
+            options = widget.get('options') or {}
+            widgets.append({
+                'title': options.get('title') or widget.get('title') or '',
+                'type': widget.get('type'),
+                'entity': options.get('entity') or widget.get('entity'),
+            })
+
+    entities = sorted({w['entity'] for w in widgets if w['entity']})
+
+    return {
+        'id': f"{_slugify(owner['id'])}/{_slugify(file_path.stem)}",
+        'name': data.get('title'),
+        'description': _summarize_markdown(data.get('description', '')),
+        'version': data.get('version'),
+        'period': definition.get('period'),
+        'entities': entities,
+        'widgets': len(widgets),
+        'widgetList': widgets,
+        'owner': owner,
+        'file': relative_path,
+        'url': build_url(relative_path),
+        'github_url': build_github_url(relative_path),
+    }
+
+
+def scan_dashboards(root: Path, relative_root: str, owner: Dict) -> List[Dict]:
+    """Scan a flat directory of exported dashboards."""
+    if not root.exists():
+        return []
+    dashboards = []
+    for file_path in sorted(root.glob('*.json')):
+        entry = _read_dashboard(file_path, f"{relative_root}/{file_path.name}", owner)
+        if entry:
+            dashboards.append(entry)
+    return dashboards

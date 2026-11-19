@@ -13,7 +13,7 @@ from typing import Dict
 
 from manifest_utils import (
     CURRENT_BRANCH, BASE_URL,
-    find_vendors, generate_vendor_manifest, parse_function_metadata, scan_case_templates
+    find_vendors, generate_vendor_manifest, parse_function_metadata, scan_case_templates, scan_dashboards
 )
 
 
@@ -209,11 +209,13 @@ def generate_case_templates_catalog(all_manifests: Dict) -> Dict:
         {'type': 'generic', 'id': 'generic', 'name': 'Generic'},
     )
 
-    for vendor_id, manifest in all_manifests.items():
+    # All vendor directories, not only those with a manifest: a vendor may ship templates and nothing else
+    for vendor_id in find_vendors():
+        vendor_name = all_manifests.get(vendor_id, {}).get('name', vendor_id)
         vendor_packs, vendor_templates = scan_case_templates(
             Path('integrations/vendors') / vendor_id / 'thehive' / 'case-templates',
             f"integrations/vendors/{vendor_id}/thehive/case-templates",
-            {'type': 'vendor', 'id': vendor_id, 'name': manifest.get('name', vendor_id)},
+            {'type': 'vendor', 'id': vendor_id, 'name': vendor_name},
         )
         packs.extend(vendor_packs)
         templates.extend(vendor_templates)
@@ -229,6 +231,38 @@ def generate_case_templates_catalog(all_manifests: Dict) -> Dict:
         'packs': packs,
         'templates': templates,
         'byPack': _group_by(templates, 'pack'),
+    }
+
+
+def generate_dashboards_catalog(all_manifests: Dict) -> Dict:
+    """Catalog of TheHive dashboards: generic templates plus any vendor-provided ones."""
+    dashboards = scan_dashboards(
+        Path('integrations/generic/dashboard-templates'),
+        'integrations/generic/dashboard-templates',
+        {'type': 'generic', 'id': 'generic', 'name': 'Generic'},
+    )
+
+    for vendor_id in find_vendors():
+        vendor_name = all_manifests.get(vendor_id, {}).get('name', vendor_id)
+        dashboards.extend(scan_dashboards(
+            Path('integrations/vendors') / vendor_id / 'thehive' / 'dashboards',
+            f"integrations/vendors/{vendor_id}/thehive/dashboards",
+            {'type': 'vendor', 'id': vendor_id, 'name': vendor_name},
+        ))
+
+    dashboards.sort(key=lambda d: (d['name'] or '').lower())
+
+    by_entity = {}
+    for dashboard in dashboards:
+        for entity in dashboard['entities'] or ['none']:
+            by_entity.setdefault(entity, []).append(dashboard)
+
+    return {
+        'total_dashboards': len(dashboards),
+        'generic_count': sum(1 for d in dashboards if d['owner']['type'] == 'generic'),
+        'vendor_count': sum(1 for d in dashboards if d['owner']['type'] == 'vendor'),
+        'dashboards': dashboards,
+        'byEntity': by_entity,
     }
 
 
@@ -399,6 +433,14 @@ def main():
     _write_json(ct_path / 'catalog.json', ct_catalog)
     _write_yaml(ct_path / 'catalog.yml', ct_catalog, ["AUTO-GENERATED - DO NOT EDIT"])
     print(f"> Case templates catalog: {ct_catalog['total_templates']} templates in {ct_catalog['total_packs']} packs")
+
+    # Dashboards catalog
+    db_catalog = generate_dashboards_catalog(all_manifests)
+    db_path = catalogs_path / 'dashboards'
+    db_path.mkdir(exist_ok=True)
+    _write_json(db_path / 'catalog.json', db_catalog)
+    _write_yaml(db_path / 'catalog.yml', db_catalog, ["AUTO-GENERATED - DO NOT EDIT"])
+    print(f"> Dashboards catalog: {db_catalog['total_dashboards']} dashboards")
 
     # Visibility-sorted catalog
     vis_catalog = generate_visibility_sorted_catalog(all_manifests)
