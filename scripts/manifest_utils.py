@@ -603,3 +603,83 @@ def scan_dashboards(root: Path, relative_root: str, owner: Dict) -> List[Dict]:
         if entry:
             dashboards.append(entry)
     return dashboards
+
+
+def _collect_filter_values(node, key: str, found: set) -> None:
+    """Walk a notification filter and collect every value `key` is matched against.
+
+    Handles both forms, {"_is": {"objectType": "Case"}} and
+    {"_in": {"_field": "objectType", "_values": ["Case", "Alert"]}}. Negated branches are
+    skipped: a value the filter excludes is not one it triggers on.
+    """
+    if isinstance(node, list):
+        for item in node:
+            _collect_filter_values(item, key, found)
+        return
+    if not isinstance(node, dict):
+        return
+    if node.get('_field') == key:
+        values = node.get('_values', node.get('_value'))
+        for value in values if isinstance(values, list) else [values]:
+            if isinstance(value, (str, int, bool)):
+                found.add(value)
+        return
+    for k, value in node.items():
+        if k in ('_not', '_ne'):
+            continue
+        if k == key:
+            for item in value if isinstance(value, list) else [value]:
+                if isinstance(item, (str, int, bool)):
+                    found.add(item)
+        else:
+            _collect_filter_values(value, key, found)
+
+
+def _read_notification(file_path: Path, relative_path: str, owner: Dict) -> Optional[Dict]:
+    """Catalog entry for one notification filter definition."""
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+    except Exception as e:
+        print(f"  Warning: cannot read notification {relative_path}: {e}")
+        return None
+    if not isinstance(data, dict) or 'name' not in data or 'filter' not in data:
+        return None
+    # Filters known not to work stay in the repo but are not published
+    if data.get('status') == 'not_working':
+        return None
+
+    object_types, actions = set(), set()
+    _collect_filter_values(data['filter'], 'objectType', object_types)
+    _collect_filter_values(data['filter'], 'action', actions)
+
+    entry = {
+        'id': f"{_slugify(owner['id'])}/{_slugify(file_path.stem)}",
+        'name': data.get('name'),
+        'description': data.get('description', ''),
+        'type': data.get('type'),
+        'status': data.get('status'),
+        'objectTypes': sorted(object_types),
+        'actions': sorted(actions),
+        'filter': data['filter'],
+        'owner': owner,
+        'file': relative_path,
+        'url': build_url(relative_path),
+        'github_url': build_github_url(relative_path),
+    }
+    for key in ('comment', 'contributor'):
+        if data.get(key):
+            entry[key] = data[key]
+    return entry
+
+
+def scan_notifications(root: Path, relative_root: str, owner: Dict) -> List[Dict]:
+    """Scan a flat directory of notification filter definitions."""
+    if not root.exists():
+        return []
+    notifications = []
+    for file_path in sorted(root.glob('*.json')):
+        entry = _read_notification(file_path, f"{relative_root}/{file_path.name}", owner)
+        if entry:
+            notifications.append(entry)
+    return notifications

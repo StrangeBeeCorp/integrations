@@ -13,7 +13,8 @@ from typing import Dict
 
 from manifest_utils import (
     CURRENT_BRANCH, BASE_URL,
-    find_vendors, generate_vendor_manifest, parse_function_metadata, scan_case_templates, scan_dashboards
+    find_vendors, generate_vendor_manifest, parse_function_metadata, scan_case_templates, scan_dashboards,
+    scan_notifications
 )
 
 
@@ -201,6 +202,19 @@ def generate_functions_catalog_data(all_manifests: Dict) -> Dict:
     }
 
 
+def _vendor_display_name(all_manifests: Dict, vendor_id: str) -> str:
+    """Vendor name for catalog owners. Vendors whose only content is templates, dashboards or
+    notifications have no manifest, so fall back to their vendor.yml, then to the directory name."""
+    if vendor_id in all_manifests:
+        return all_manifests[vendor_id].get('name', vendor_id)
+    vendor_yml = Path('integrations/vendors') / vendor_id / 'vendor.yml'
+    try:
+        with open(vendor_yml, 'r', encoding='utf-8') as f:
+            return (yaml.safe_load(f) or {}).get('name') or vendor_id
+    except (OSError, yaml.YAMLError):
+        return vendor_id
+
+
 def generate_case_templates_catalog(all_manifests: Dict) -> Dict:
     """Catalog of TheHive case templates: generic packs plus any vendor-provided templates."""
     packs, templates = scan_case_templates(
@@ -211,7 +225,7 @@ def generate_case_templates_catalog(all_manifests: Dict) -> Dict:
 
     # All vendor directories, not only those with a manifest: a vendor may ship templates and nothing else
     for vendor_id in find_vendors():
-        vendor_name = all_manifests.get(vendor_id, {}).get('name', vendor_id)
+        vendor_name = _vendor_display_name(all_manifests, vendor_id)
         vendor_packs, vendor_templates = scan_case_templates(
             Path('integrations/vendors') / vendor_id / 'thehive' / 'case-templates',
             f"integrations/vendors/{vendor_id}/thehive/case-templates",
@@ -234,6 +248,36 @@ def generate_case_templates_catalog(all_manifests: Dict) -> Dict:
     }
 
 
+def generate_notifications_catalog(all_manifests: Dict) -> Dict:
+    """Catalog of TheHive notification filters: generic ones plus any vendor-provided ones."""
+    notifications = scan_notifications(
+        Path('integrations/generic/thehive/notifications'),
+        'integrations/generic/thehive/notifications',
+        {'type': 'generic', 'id': 'generic', 'name': 'Generic'},
+    )
+    for vendor_id in find_vendors():
+        vendor_name = _vendor_display_name(all_manifests, vendor_id)
+        notifications.extend(scan_notifications(
+            Path('integrations/vendors') / vendor_id / 'thehive' / 'notifications',
+            f"integrations/vendors/{vendor_id}/thehive/notifications",
+            {'type': 'vendor', 'id': vendor_id, 'name': vendor_name},
+        ))
+    notifications.sort(key=lambda n: (n['name'] or '').lower())
+
+    by_object_type: Dict[str, List[Dict]] = {}
+    for notification in notifications:
+        for object_type in notification['objectTypes'] or ['none']:
+            by_object_type.setdefault(object_type, []).append(notification)
+
+    return {
+        'total_notifications': len(notifications),
+        'generic_count': sum(1 for n in notifications if n['owner']['type'] == 'generic'),
+        'vendor_count': sum(1 for n in notifications if n['owner']['type'] == 'vendor'),
+        'notifications': notifications,
+        'byObjectType': by_object_type,
+    }
+
+
 def generate_dashboards_catalog(all_manifests: Dict) -> Dict:
     """Catalog of TheHive dashboards: generic templates plus any vendor-provided ones."""
     dashboards = scan_dashboards(
@@ -243,7 +287,7 @@ def generate_dashboards_catalog(all_manifests: Dict) -> Dict:
     )
 
     for vendor_id in find_vendors():
-        vendor_name = all_manifests.get(vendor_id, {}).get('name', vendor_id)
+        vendor_name = _vendor_display_name(all_manifests, vendor_id)
         dashboards.extend(scan_dashboards(
             Path('integrations/vendors') / vendor_id / 'thehive' / 'dashboards',
             f"integrations/vendors/{vendor_id}/thehive/dashboards",
@@ -441,6 +485,14 @@ def main():
     _write_json(db_path / 'catalog.json', db_catalog)
     _write_yaml(db_path / 'catalog.yml', db_catalog, ["AUTO-GENERATED - DO NOT EDIT"])
     print(f"> Dashboards catalog: {db_catalog['total_dashboards']} dashboards")
+
+    # Notifications catalog
+    nt_catalog = generate_notifications_catalog(all_manifests)
+    nt_path = catalogs_path / 'notifications'
+    nt_path.mkdir(exist_ok=True)
+    _write_json(nt_path / 'catalog.json', nt_catalog)
+    _write_yaml(nt_path / 'catalog.yml', nt_catalog, ["AUTO-GENERATED - DO NOT EDIT"])
+    print(f"> Notifications catalog: {nt_catalog['total_notifications']} notifications")
 
     # Visibility-sorted catalog
     vis_catalog = generate_visibility_sorted_catalog(all_manifests)
