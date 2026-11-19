@@ -22,20 +22,18 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "DomainTools ReverseWhois",
+        "name": "DomainTools WhoisLookupUnparsed",
         "version": "2.0",
         "author": "CERT-BDF",
         "license": "AGPL-V3",
-        "description": "Use DomainTools to get a list of domain names which share the same registrant information.",
+        "description": "Use DomainTools to get the ownership record for an IP address or a domain without parsing.",
         "dataTypes": [
-          "mail",
           "ip",
-          "domain",
-          "other"
+          "domain"
         ],
-        "file": ".upstream/cortex/analyzers/DomainTools/DomainTools_ReverseWhois.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/DomainTools/DomainTools_ReverseWhois.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/DomainTools/DomainTools_ReverseWhois.json",
+        "file": ".upstream/cortex/analyzers/DomainTools/DomainTools_WhoisLookupUnparsed.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/DomainTools/DomainTools_WhoisLookupUnparsed.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/DomainTools/DomainTools_WhoisLookupUnparsed.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainTools",
         "integration_type": null
       },
@@ -55,19 +53,20 @@
         "integration_type": null
       },
       {
-        "name": "DomainTools ReverseIP",
+        "name": "DomainTools ReverseIPWhois",
         "version": "2.0",
-        "author": "CERT-BDF",
+        "author": "ANSSI",
         "license": "AGPL-V3",
-        "description": "Use DomainTools to get a list of domain names sharing the same IP address.",
+        "description": "Use DomainTools to get a list of IP addresses which share the same registrant information.",
         "dataTypes": [
+          "mail",
           "ip",
           "domain",
-          "fqdn"
+          "other"
         ],
-        "file": ".upstream/cortex/analyzers/DomainTools/DomainTools_ReverseIP.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/DomainTools/DomainTools_ReverseIP.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/DomainTools/DomainTools_ReverseIP.json",
+        "file": ".upstream/cortex/analyzers/DomainTools/DomainTools_ReverseIPWhois.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/DomainTools/DomainTools_ReverseIPWhois.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/DomainTools/DomainTools_ReverseIPWhois.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainTools",
         "integration_type": null
       },
@@ -88,18 +87,18 @@
         "integration_type": null
       },
       {
-        "name": "DomainTools WhoisLookupUnparsed",
+        "name": "DomainTools Risk",
         "version": "2.0",
         "author": "CERT-BDF",
         "license": "AGPL-V3",
-        "description": "Use DomainTools to get the ownership record for an IP address or a domain without parsing.",
+        "description": "Use DomainTools to get a risk score and evidence details on a domain or fqdn",
         "dataTypes": [
-          "ip",
-          "domain"
+          "domain",
+          "fqdn"
         ],
-        "file": ".upstream/cortex/analyzers/DomainTools/DomainTools_WhoisLookupUnparsed.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/DomainTools/DomainTools_WhoisLookupUnparsed.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/DomainTools/DomainTools_WhoisLookupUnparsed.json",
+        "file": ".upstream/cortex/analyzers/DomainTools/DomainTools_Risk.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/DomainTools/DomainTools_Risk.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/DomainTools/DomainTools_Risk.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainTools",
         "integration_type": null
       },
@@ -134,18 +133,19 @@
         "integration_type": null
       },
       {
-        "name": "DomainTools Risk",
+        "name": "DomainTools ReverseIP",
         "version": "2.0",
         "author": "CERT-BDF",
         "license": "AGPL-V3",
-        "description": "Use DomainTools to get a risk score and evidence details on a domain or fqdn",
+        "description": "Use DomainTools to get a list of domain names sharing the same IP address.",
         "dataTypes": [
+          "ip",
           "domain",
           "fqdn"
         ],
-        "file": ".upstream/cortex/analyzers/DomainTools/DomainTools_Risk.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/DomainTools/DomainTools_Risk.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/DomainTools/DomainTools_Risk.json",
+        "file": ".upstream/cortex/analyzers/DomainTools/DomainTools_ReverseIP.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/DomainTools/DomainTools_ReverseIP.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/DomainTools/DomainTools_ReverseIP.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainTools",
         "integration_type": null
       },
@@ -166,20 +166,20 @@
         "integration_type": null
       },
       {
-        "name": "DomainTools ReverseIPWhois",
+        "name": "DomainTools ReverseWhois",
         "version": "2.0",
-        "author": "ANSSI",
+        "author": "CERT-BDF",
         "license": "AGPL-V3",
-        "description": "Use DomainTools to get a list of IP addresses which share the same registrant information.",
+        "description": "Use DomainTools to get a list of domain names which share the same registrant information.",
         "dataTypes": [
           "mail",
           "ip",
           "domain",
           "other"
         ],
-        "file": ".upstream/cortex/analyzers/DomainTools/DomainTools_ReverseIPWhois.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/DomainTools/DomainTools_ReverseIPWhois.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/DomainTools/DomainTools_ReverseIPWhois.json",
+        "file": ".upstream/cortex/analyzers/DomainTools/DomainTools_ReverseWhois.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/DomainTools/DomainTools_ReverseWhois.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/DomainTools/DomainTools_ReverseWhois.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainTools",
         "integration_type": null
       }
