@@ -75,6 +75,10 @@ categories:
     description: Web application firewalls and web traffic filtering
     examples: [Cloudflare]
 
+  - name: Utilities
+    description: Parsers, format converters and helper analyzers that do not map to a security vendor
+    examples: [EmlParser, MsgParser, FileInfo, PDFPreview]
+
 # Standard tags for vendor classification
 tags:
   # Use Case Tags

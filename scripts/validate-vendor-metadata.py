@@ -73,6 +73,8 @@ def validate_vendor_file(vendor_name: str, schema: Dict, taxonomy: Dict) -> Tupl
         if 'id' in vendor_data and vendor_data['id'] != vendor_name:
             errors.append(f"ID mismatch: vendor.yml has id '{vendor_data['id']}' but directory is '{vendor_name}'")
 
+        if errors and vendor_data.get('displayOnWebsite') is False:
+            return 'hidden', errors
         return ('valid' if not errors else 'invalid'), errors
 
     except yaml.YAMLError as e:
@@ -93,10 +95,11 @@ def validate_all_vendors(schema: Dict, taxonomy: Dict, specific_vendor: str = No
     label = f"vendor: {specific_vendor}" if specific_vendor else f"{len(vendors)} vendors"
     print(f"{BLUE}Validating {label}{NC}\n")
 
-    valid_count = missing_count = invalid_count = 0
+    valid_count = missing_count = invalid_count = hidden_count = 0
     status_config = {
         'valid': (GREEN, 'V'),
         'missing': (YELLOW, '?'),
+        'hidden': (YELLOW, '~'),
         'invalid': (RED, 'X'),
     }
 
@@ -111,12 +114,15 @@ def validate_all_vendors(schema: Dict, taxonomy: Dict, specific_vendor: str = No
             valid_count += 1
         elif status == 'missing':
             missing_count += 1
+        elif status == 'hidden':
+            hidden_count += 1
         else:
             invalid_count += 1
 
     print(f"\n{CYAN}{'='*60}{NC}")
     print(f"Total: {len(vendors)} | {GREEN}Valid: {valid_count}{NC} | "
-          f"{YELLOW}Missing: {missing_count}{NC} | {RED}Invalid: {invalid_count}{NC}")
+          f"{YELLOW}Missing: {missing_count}{NC} | {YELLOW}Hidden with issues: {hidden_count}{NC} | "
+          f"{RED}Invalid: {invalid_count}{NC}")
 
     if valid_count < len(vendors):
         coverage = (valid_count / len(vendors) * 100) if vendors else 0

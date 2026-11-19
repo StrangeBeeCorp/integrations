@@ -16,7 +16,7 @@ properties:
   id:
     type: string
     description: "Unique vendor identifier (should match directory name)"
-    pattern: "^[A-Za-z0-9]+$"
+    pattern: "^[A-Za-z0-9][A-Za-z0-9._-]*$"
     minLength: 2
     examples:
       - "Slack"
