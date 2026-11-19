@@ -370,3 +370,165 @@ def generate_vendor_manifest(vendor: str) -> Dict:
             'total': len(analyzers) + len(responders) + len(functions) + external_count + notifier_count + flow_count + workflows_count
         }
     }
+
+
+# ---------------------------------------------------------------------------
+# Case templates
+# ---------------------------------------------------------------------------
+
+def _summarize_markdown(text: str, limit: int = 200) -> str:
+    """First paragraph line of a markdown description. Headings, rules and tables are skipped."""
+    for line in (text or '').splitlines():
+        stripped = line.strip()
+        if not stripped or stripped.startswith(('#', '---', '|', '>', '```')):
+            continue
+        # Drop emphasis, inline code and leading list or emoji markers
+        stripped = re.sub(r'(\*\*|__|`)', '', stripped)
+        stripped = re.sub(r'^[^\w(]+', '', stripped).strip()
+        if stripped:
+            return stripped if len(stripped) <= limit else stripped[:limit - 1].rstrip() + '…'
+    return ''
+
+
+def _read_pack_metadata(pack_dir: Path) -> Dict:
+    """Optional pack.yml next to the templates: name, description, language, credit, license."""
+    pack_yml = pack_dir / 'pack.yml'
+    if not pack_yml.exists():
+        return {}
+    try:
+        with open(pack_yml, 'r', encoding='utf-8') as f:
+            return yaml.safe_load(f) or {}
+    except Exception as e:
+        print(f"  Warning: cannot read {pack_yml}: {e}")
+        return {}
+
+
+def _read_pack_readme(readme_path: Path) -> Dict:
+    """Title and first paragraph from a pack README. Both optional."""
+    if not readme_path.exists():
+        return {}
+    try:
+        lines = readme_path.read_text(encoding='utf-8').splitlines()
+    except Exception:
+        return {}
+    title = ''
+    paragraph: List[str] = []
+    for line in lines:
+        stripped = line.strip()
+        if not title:
+            if stripped.startswith('# '):
+                title = stripped[2:].strip()
+            continue
+        if stripped.startswith('#'):
+            if paragraph:
+                break
+            continue
+        if stripped:
+            paragraph.append(stripped)
+        elif paragraph:
+            break
+    return {'name': title, 'description': ' '.join(paragraph)}
+
+
+def _pack_language(dir_name: str) -> str:
+    upper = dir_name.upper()
+    if upper.endswith('_FR') or upper.endswith('-FR'):
+        return 'fr'
+    return 'en'
+
+
+def _slugify(value: str) -> str:
+    return re.sub(r'[^a-z0-9]+', '-', value.lower()).strip('-')
+
+
+def _read_case_template(file_path: Path, relative_path: str, pack_id: str, owner: Dict) -> Optional[Dict]:
+    """Catalog entry for one exported case template. Export metadata (_id, _createdBy, ...) is never copied."""
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+    except Exception as e:
+        print(f"  Warning: cannot read case template {relative_path}: {e}")
+        return None
+    if not isinstance(data, dict) or 'name' not in data:
+        return None
+
+    tasks = data.get('tasks') or []
+    custom_fields = data.get('customFields') or []
+    if isinstance(custom_fields, dict):
+        custom_fields = list(custom_fields.keys())
+
+    return {
+        'id': f"{pack_id}/{_slugify(file_path.stem)}",
+        'name': data.get('displayName') or data.get('name'),
+        'templateName': data.get('name'),
+        'description': _summarize_markdown(data.get('description', '')),
+        'titlePrefix': data.get('titlePrefix') or '',
+        'severity': data.get('severity'),
+        'tlp': data.get('tlp'),
+        'pap': data.get('pap'),
+        'flag': bool(data.get('flag', False)),
+        'tags': data.get('tags') or [],
+        'tasks': len(tasks),
+        'taskTitles': [t.get('title') for t in tasks if isinstance(t, dict) and t.get('title')],
+        'customFields': len(custom_fields),
+        'pack': pack_id,
+        'owner': owner,
+        'file': relative_path,
+        'url': build_url(relative_path),
+        'github_url': build_github_url(relative_path),
+    }
+
+
+def scan_case_templates(root: Path, relative_root: str, owner: Dict) -> tuple[List[Dict], List[Dict]]:
+    """Scan a case-templates directory.
+
+    Two layouts are accepted:
+      <root>/<Pack>/*.json   one pack per sub-directory, optional README.md per pack (generic content)
+      <root>/*.json          a single pack named after the owner (vendor content)
+    Returns (packs, templates).
+    """
+    if not root.exists():
+        return [], []
+
+    pack_dirs = sorted(p for p in root.iterdir() if p.is_dir() and not p.name.startswith('.'))
+    if any(root.glob('*.json')):
+        pack_dirs.insert(0, root)
+
+    packs: List[Dict] = []
+    templates: List[Dict] = []
+    for pack_dir in pack_dirs:
+        is_root = pack_dir == root
+        pack_rel = relative_root if is_root else f"{relative_root}/{pack_dir.name}"
+        display_name = owner.get('name', owner['id']) if is_root else pack_dir.name
+        pack_id = _slugify(f"{owner['id']}-{display_name}") if owner['type'] == 'vendor' else _slugify(display_name)
+        readme = _read_pack_readme(pack_dir / 'README.md')
+        meta = _read_pack_metadata(pack_dir)
+
+        pack_templates = []
+        for file_path in sorted(pack_dir.glob('*.json')):
+            entry = _read_case_template(file_path, f"{pack_rel}/{file_path.name}", pack_id, owner)
+            if entry:
+                pack_templates.append(entry)
+        if not pack_templates:
+            continue
+
+        # Precedence: pack.yml, then README, then the directory name
+        pack = {
+            'id': pack_id,
+            'name': meta.get('name') or display_name,
+            'description': meta.get('description') or readme.get('description', ''),
+            'language': meta.get('language') or _pack_language(pack_dir.name),
+            'owner': owner,
+            'path': pack_rel,
+            'github_url': build_github_url(pack_rel),
+            'templates': len(pack_templates),
+        }
+        for optional in ('credit', 'license', 'source'):
+            if meta.get(optional):
+                pack[optional] = meta[optional]
+        if (pack_dir / 'README.md').exists():
+            pack['readme_url'] = build_github_url(f"{pack_rel}/README.md")
+        packs.append(pack)
+        templates.extend(pack_templates)
+
+    return packs, templates

@@ -13,7 +13,7 @@ from typing import Dict
 
 from manifest_utils import (
     CURRENT_BRANCH, BASE_URL,
-    find_vendors, generate_vendor_manifest, parse_function_metadata
+    find_vendors, generate_vendor_manifest, parse_function_metadata, scan_case_templates
 )
 
 
@@ -201,6 +201,37 @@ def generate_functions_catalog_data(all_manifests: Dict) -> Dict:
     }
 
 
+def generate_case_templates_catalog(all_manifests: Dict) -> Dict:
+    """Catalog of TheHive case templates: generic packs plus any vendor-provided templates."""
+    packs, templates = scan_case_templates(
+        Path('integrations/generic/case-templates'),
+        'integrations/generic/case-templates',
+        {'type': 'generic', 'id': 'generic', 'name': 'Generic'},
+    )
+
+    for vendor_id, manifest in all_manifests.items():
+        vendor_packs, vendor_templates = scan_case_templates(
+            Path('integrations/vendors') / vendor_id / 'thehive' / 'case-templates',
+            f"integrations/vendors/{vendor_id}/thehive/case-templates",
+            {'type': 'vendor', 'id': vendor_id, 'name': manifest.get('name', vendor_id)},
+        )
+        packs.extend(vendor_packs)
+        templates.extend(vendor_templates)
+
+    templates.sort(key=lambda t: (t['pack'].lower(), (t['name'] or '').lower()))
+    packs.sort(key=lambda p: p['name'].lower())
+
+    return {
+        'total_templates': len(templates),
+        'total_packs': len(packs),
+        'generic_count': sum(1 for t in templates if t['owner']['type'] == 'generic'),
+        'vendor_count': sum(1 for t in templates if t['owner']['type'] == 'vendor'),
+        'packs': packs,
+        'templates': templates,
+        'byPack': _group_by(templates, 'pack'),
+    }
+
+
 def generate_github_summary(all_manifests: Dict, previous_manifests: Dict = None) -> Dict:
     summary = {
         'total_vendors': len(all_manifests),
@@ -360,6 +391,14 @@ def main():
     _write_json(func_path / 'catalog.json', func_catalog)
     _write_yaml(func_path / 'catalog.yml', func_catalog, ["AUTO-GENERATED - DO NOT EDIT"])
     print(f"> Functions catalog written")
+
+    # Case templates catalog
+    ct_catalog = generate_case_templates_catalog(all_manifests)
+    ct_path = catalogs_path / 'case-templates'
+    ct_path.mkdir(exist_ok=True)
+    _write_json(ct_path / 'catalog.json', ct_catalog)
+    _write_yaml(ct_path / 'catalog.yml', ct_catalog, ["AUTO-GENERATED - DO NOT EDIT"])
+    print(f"> Case templates catalog: {ct_catalog['total_templates']} templates in {ct_catalog['total_packs']} packs")
 
     # Visibility-sorted catalog
     vis_catalog = generate_visibility_sorted_catalog(all_manifests)
