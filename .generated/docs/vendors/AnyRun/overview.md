@@ -2,12 +2,19 @@
 
 ### Enrich observables with behavioral threat intelligence
 
-#### [ANY.RUN Sandbox File Windows v1.1](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun)
-Submit files for Windows sandbox analysis and retrieve verdicts, IOCs, reports and tags.
+#### [ANY.RUN Sandbox File Linux v1.1](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun)
+Submit files for Linux sandbox analysis and retrieve verdicts, IOCs, reports and tags.
 
 - **Author:** ANY.RUN Integrations Team
 - **License:** AGPL-V3
 - **Data Types:** `file`
+
+#### [ANY.RUN Sandbox URL Windows v1.1](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun)
+Submit URLs for Windows sandbox analysis and retrieve verdicts, IOCs, reports and tags.
+
+- **Author:** ANY.RUN Integrations Team
+- **License:** AGPL-V3
+- **Data Types:** `url`
 
 #### [ANY.RUN TI Lookup v1.1](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun)
 Enrich URLs, hashes, domains, and IPs with ANY.RUN Threat Intelligence.
@@ -37,16 +44,9 @@ Submit URLs for Android sandbox analysis and retrieve verdicts, IOCs, reports an
 - **License:** AGPL-V3
 - **Data Types:** `url`
 
-#### [ANY.RUN Sandbox File Linux v1.1](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun)
-Submit files for Linux sandbox analysis and retrieve verdicts, IOCs, reports and tags.
+#### [ANY.RUN Sandbox File Windows v1.1](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun)
+Submit files for Windows sandbox analysis and retrieve verdicts, IOCs, reports and tags.
 
 - **Author:** ANY.RUN Integrations Team
 - **License:** AGPL-V3
 - **Data Types:** `file`
-
-#### [ANY.RUN Sandbox URL Windows v1.1](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/AnyRun)
-Submit URLs for Windows sandbox analysis and retrieve verdicts, IOCs, reports and tags.
-
-- **Author:** ANY.RUN Integrations Team
-- **License:** AGPL-V3
-- **Data Types:** `url`
