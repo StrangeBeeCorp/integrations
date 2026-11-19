@@ -1,0 +1,435 @@
+{
+  "total_dashboards": 4,
+  "generic_count": 4,
+  "vendor_count": 0,
+  "dashboards": [
+    {
+      "id": "generic/alerts-statistics",
+      "name": "Alerts statistics",
+      "description": "Alerts statistics",
+      "version": 1,
+      "period": "all",
+      "entities": [
+        "alert"
+      ],
+      "widgets": 8,
+      "widgetList": [
+        {
+          "title": "Alerts creation",
+          "type": "line",
+          "entity": null
+        },
+        {
+          "title": "Alerts per severity",
+          "type": "donut",
+          "entity": "alert"
+        },
+        {
+          "title": "Alerts per status",
+          "type": "donut",
+          "entity": "alert"
+        },
+        {
+          "title": "Alerts per source",
+          "type": "donut",
+          "entity": "alert"
+        },
+        {
+          "title": "Alerts KPI",
+          "type": "counter",
+          "entity": "alert"
+        },
+        {
+          "title": "Alerts TLP",
+          "type": "radar",
+          "entity": "alert"
+        },
+        {
+          "title": "Analysts workload",
+          "type": "gauge",
+          "entity": "alert"
+        },
+        {
+          "title": "Alerts PAP",
+          "type": "radar",
+          "entity": "alert"
+        }
+      ],
+      "owner": {
+        "type": "generic",
+        "id": "generic",
+        "name": "Generic"
+      },
+      "file": "integrations/generic/dashboard-templates/alerts-statistics.json",
+      "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/dashboard-templates/alerts-statistics.json",
+      "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/generic/dashboard-templates/alerts-statistics.json"
+    },
+    {
+      "id": "generic/cases-statistics",
+      "name": "Cases statistics",
+      "description": "Case statistics",
+      "version": 1,
+      "period": "all",
+      "entities": [
+        "case"
+      ],
+      "widgets": 9,
+      "widgetList": [
+        {
+          "title": "Cases creation",
+          "type": "line",
+          "entity": null
+        },
+        {
+          "title": "Cases per severity",
+          "type": "donut",
+          "entity": "case"
+        },
+        {
+          "title": "Cases KPI",
+          "type": "counter",
+          "entity": "case"
+        },
+        {
+          "title": "Open cases owners",
+          "type": "donut",
+          "entity": "case"
+        },
+        {
+          "title": "Case severity over time",
+          "type": "bar",
+          "entity": "case"
+        },
+        {
+          "title": "Cases per TLP",
+          "type": "radar",
+          "entity": "case"
+        },
+        {
+          "title": "Cases impacts",
+          "type": "donut",
+          "entity": "case"
+        },
+        {
+          "title": "Cases per PAP",
+          "type": "radar",
+          "entity": "case"
+        },
+        {
+          "title": "Cases with handling duration >= 10 days per month",
+          "type": "line",
+          "entity": null
+        }
+      ],
+      "owner": {
+        "type": "generic",
+        "id": "generic",
+        "name": "Generic"
+      },
+      "file": "integrations/generic/dashboard-templates/cases-statistics.json",
+      "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/dashboard-templates/cases-statistics.json",
+      "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/generic/dashboard-templates/cases-statistics.json"
+    },
+    {
+      "id": "generic/observables-statistics",
+      "name": "Observables statistics",
+      "description": "Observables statistics",
+      "version": 1,
+      "period": "all",
+      "entities": [
+        "observable"
+      ],
+      "widgets": 6,
+      "widgetList": [
+        {
+          "title": "Observables vs IOC vs Sighted over time",
+          "type": "line",
+          "entity": null
+        },
+        {
+          "title": "Observables per type",
+          "type": "donut",
+          "entity": "observable"
+        },
+        {
+          "title": "Observables statistics",
+          "type": "counter",
+          "entity": "observable"
+        },
+        {
+          "title": "Observables per TLP",
+          "type": "donut",
+          "entity": "observable"
+        },
+        {
+          "title": "Observables TLP",
+          "type": "radar",
+          "entity": "observable"
+        },
+        {
+          "title": "Observables PAP",
+          "type": "radar",
+          "entity": "observable"
+        }
+      ],
+      "owner": {
+        "type": "generic",
+        "id": "generic",
+        "name": "Generic"
+      },
+      "file": "integrations/generic/dashboard-templates/observables-statistics.json",
+      "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/dashboard-templates/observables-statistics.json",
+      "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/generic/dashboard-templates/observables-statistics.json"
+    },
+    {
+      "id": "generic/ttps-statistics",
+      "name": "TTPs statistics",
+      "description": "TTPs statistics",
+      "version": 1,
+      "period": "all",
+      "entities": [
+        "procedure"
+      ],
+      "widgets": 2,
+      "widgetList": [
+        {
+          "title": "Tactics sighted over time",
+          "type": "line",
+          "entity": null
+        },
+        {
+          "title": "Tactics sighted",
+          "type": "donut",
+          "entity": "procedure"
+        }
+      ],
+      "owner": {
+        "type": "generic",
+        "id": "generic",
+        "name": "Generic"
+      },
+      "file": "integrations/generic/dashboard-templates/ttps-statistics.json",
+      "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/dashboard-templates/ttps-statistics.json",
+      "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/generic/dashboard-templates/ttps-statistics.json"
+    }
+  ],
+  "byEntity": {
+    "alert": [
+      {
+        "id": "generic/alerts-statistics",
+        "name": "Alerts statistics",
+        "description": "Alerts statistics",
+        "version": 1,
+        "period": "all",
+        "entities": [
+          "alert"
+        ],
+        "widgets": 8,
+        "widgetList": [
+          {
+            "title": "Alerts creation",
+            "type": "line",
+            "entity": null
+          },
+          {
+            "title": "Alerts per severity",
+            "type": "donut",
+            "entity": "alert"
+          },
+          {
+            "title": "Alerts per status",
+            "type": "donut",
+            "entity": "alert"
+          },
+          {
+            "title": "Alerts per source",
+            "type": "donut",
+            "entity": "alert"
+          },
+          {
+            "title": "Alerts KPI",
+            "type": "counter",
+            "entity": "alert"
+          },
+          {
+            "title": "Alerts TLP",
+            "type": "radar",
+            "entity": "alert"
+          },
+          {
+            "title": "Analysts workload",
+            "type": "gauge",
+            "entity": "alert"
+          },
+          {
+            "title": "Alerts PAP",
+            "type": "radar",
+            "entity": "alert"
+          }
+        ],
+        "owner": {
+          "type": "generic",
+          "id": "generic",
+          "name": "Generic"
+        },
+        "file": "integrations/generic/dashboard-templates/alerts-statistics.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/dashboard-templates/alerts-statistics.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/generic/dashboard-templates/alerts-statistics.json"
+      }
+    ],
+    "case": [
+      {
+        "id": "generic/cases-statistics",
+        "name": "Cases statistics",
+        "description": "Case statistics",
+        "version": 1,
+        "period": "all",
+        "entities": [
+          "case"
+        ],
+        "widgets": 9,
+        "widgetList": [
+          {
+            "title": "Cases creation",
+            "type": "line",
+            "entity": null
+          },
+          {
+            "title": "Cases per severity",
+            "type": "donut",
+            "entity": "case"
+          },
+          {
+            "title": "Cases KPI",
+            "type": "counter",
+            "entity": "case"
+          },
+          {
+            "title": "Open cases owners",
+            "type": "donut",
+            "entity": "case"
+          },
+          {
+            "title": "Case severity over time",
+            "type": "bar",
+            "entity": "case"
+          },
+          {
+            "title": "Cases per TLP",
+            "type": "radar",
+            "entity": "case"
+          },
+          {
+            "title": "Cases impacts",
+            "type": "donut",
+            "entity": "case"
+          },
+          {
+            "title": "Cases per PAP",
+            "type": "radar",
+            "entity": "case"
+          },
+          {
+            "title": "Cases with handling duration >= 10 days per month",
+            "type": "line",
+            "entity": null
+          }
+        ],
+        "owner": {
+          "type": "generic",
+          "id": "generic",
+          "name": "Generic"
+        },
+        "file": "integrations/generic/dashboard-templates/cases-statistics.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/dashboard-templates/cases-statistics.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/generic/dashboard-templates/cases-statistics.json"
+      }
+    ],
+    "observable": [
+      {
+        "id": "generic/observables-statistics",
+        "name": "Observables statistics",
+        "description": "Observables statistics",
+        "version": 1,
+        "period": "all",
+        "entities": [
+          "observable"
+        ],
+        "widgets": 6,
+        "widgetList": [
+          {
+            "title": "Observables vs IOC vs Sighted over time",
+            "type": "line",
+            "entity": null
+          },
+          {
+            "title": "Observables per type",
+            "type": "donut",
+            "entity": "observable"
+          },
+          {
+            "title": "Observables statistics",
+            "type": "counter",
+            "entity": "observable"
+          },
+          {
+            "title": "Observables per TLP",
+            "type": "donut",
+            "entity": "observable"
+          },
+          {
+            "title": "Observables TLP",
+            "type": "radar",
+            "entity": "observable"
+          },
+          {
+            "title": "Observables PAP",
+            "type": "radar",
+            "entity": "observable"
+          }
+        ],
+        "owner": {
+          "type": "generic",
+          "id": "generic",
+          "name": "Generic"
+        },
+        "file": "integrations/generic/dashboard-templates/observables-statistics.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/dashboard-templates/observables-statistics.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/generic/dashboard-templates/observables-statistics.json"
+      }
+    ],
+    "procedure": [
+      {
+        "id": "generic/ttps-statistics",
+        "name": "TTPs statistics",
+        "description": "TTPs statistics",
+        "version": 1,
+        "period": "all",
+        "entities": [
+          "procedure"
+        ],
+        "widgets": 2,
+        "widgetList": [
+          {
+            "title": "Tactics sighted over time",
+            "type": "line",
+            "entity": null
+          },
+          {
+            "title": "Tactics sighted",
+            "type": "donut",
+            "entity": "procedure"
+          }
+        ],
+        "owner": {
+          "type": "generic",
+          "id": "generic",
+          "name": "Generic"
+        },
+        "file": "integrations/generic/dashboard-templates/ttps-statistics.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/dashboard-templates/ttps-statistics.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/generic/dashboard-templates/ttps-statistics.json"
+      }
+    ]
+  }
+}
