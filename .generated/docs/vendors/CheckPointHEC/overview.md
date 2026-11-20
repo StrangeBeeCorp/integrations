@@ -2,12 +2,12 @@
 
 ### Enrich observables with intelligence
 
-#### [CheckPointHEC SearchBySender v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CheckPointHEC)
-Search for all emails from a sender address in Check Point Harmony Email & Collaboration. Accepts a mail observable or an .eml file (sender is extracted automatically, with forwarded email support).
+#### [CheckPointHEC SearchByURL v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CheckPointHEC)
+Search for all emails containing a specific URL in Check Point Harmony Email & Collaboration and retrieve their security verdicts.
 
 - **Author:** Fabien Bloume, StrangeBee
 - **License:** AGPL-V3
-- **Data Types:** `mail`, `file`
+- **Data Types:** `url`
 
 #### [CheckPointHEC SearchBySenderIP v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CheckPointHEC)
 Search for all emails from a sender IP in Check Point Harmony Email & Collaboration. Accepts an IP observable or an .eml file (sender IP is extracted from Received headers, with forwarded email support).
@@ -16,13 +16,6 @@ Search for all emails from a sender IP in Check Point Harmony Email & Collaborat
 - **License:** AGPL-V3
 - **Data Types:** `ip`, `file`
 
-#### [CheckPointHEC SearchByDomain v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CheckPointHEC)
-Search for all emails from a sender domain in Check Point Harmony Email & Collaboration. Accepts a domain observable or an .eml file (sender domain is extracted automatically, with forwarded email support).
-
-- **Author:** Fabien Bloume, StrangeBee
-- **License:** AGPL-V3
-- **Data Types:** `domain`, `file`
-
 #### [CheckPointHEC SearchEmail v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CheckPointHEC)
 Search for an email in Check Point Harmony Email & Collaboration and retrieve its security verdict, phishing confidence, classification and scan results. Accepts an .eml file or a Message-ID as an 'other' observable.
 
@@ -30,12 +23,19 @@ Search for an email in Check Point Harmony Email & Collaboration and retrieve it
 - **License:** AGPL-V3
 - **Data Types:** `file`, `other`
 
-#### [CheckPointHEC SearchByURL v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CheckPointHEC)
-Search for all emails containing a specific URL in Check Point Harmony Email & Collaboration and retrieve their security verdicts.
+#### [CheckPointHEC SearchBySender v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CheckPointHEC)
+Search for all emails from a sender address in Check Point Harmony Email & Collaboration. Accepts a mail observable or an .eml file (sender is extracted automatically, with forwarded email support).
 
 - **Author:** Fabien Bloume, StrangeBee
 - **License:** AGPL-V3
-- **Data Types:** `url`
+- **Data Types:** `mail`, `file`
+
+#### [CheckPointHEC SearchByDomain v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/CheckPointHEC)
+Search for all emails from a sender domain in Check Point Harmony Email & Collaboration. Accepts a domain observable or an .eml file (sender domain is extracted automatically, with forwarded email support).
+
+- **Author:** Fabien Bloume, StrangeBee
+- **License:** AGPL-V3
+- **Data Types:** `domain`, `file`
 
 ---
 
@@ -50,15 +50,15 @@ Quarantine an email in Check Point Harmony Email & Collaboration by its Message-
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case_artifact`
 
-#### [CheckPointHEC Restore v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CheckPointHEC)
-Restore (resend) a quarantined email in Check Point Harmony Email & Collaboration by its Message-ID extracted from an .eml file observable.
+#### [CheckPointHEC QuarantineByMessageId v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CheckPointHEC)
+Quarantine an email in Check Point Harmony Email & Collaboration by its Message-ID (text observable).
 
 - **Author:** Fabien Bloume, StrangeBee
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case_artifact`
 
-#### [CheckPointHEC QuarantineByMessageId v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CheckPointHEC)
-Quarantine an email in Check Point Harmony Email & Collaboration by its Message-ID (text observable).
+#### [CheckPointHEC Restore v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/CheckPointHEC)
+Restore (resend) a quarantined email in Check Point Harmony Email & Collaboration by its Message-ID extracted from an .eml file observable.
 
 - **Author:** Fabien Bloume, StrangeBee
 - **License:** AGPL-V3
