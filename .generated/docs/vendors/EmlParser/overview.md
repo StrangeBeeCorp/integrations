@@ -15,4 +15,4 @@ Parse and visualise EML email message. Submit a .eml formatted file and extract 
 
 ### Ready-to-use TheHive Flow workflows
 
-- [Suspicious email campaign detection](https://strangebee.com/workflow/suspicious-email-campaign-detection/) - Automatically processes suspicious email alerts, extracts key email details and identifies related incidents. It groups matching alerts into existing cases or creates new ones in TheHive, helping security teams track and investigate potential email campaigns.
+- [Suspicious email campaign detection](https://strangebee.com/workflow/suspicious-email-campaign-detection/) - Automatically processes suspicious email alerts, extracts key email details and identifies related incidents. It groups matching alerts into existing cases or creates new ones in TheHive, helping security teams track and investigate potential email campaigns. ([code on GitHub](https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/EmlParser/thehive/workflows/suspicious-email-campaign-detection.yml))

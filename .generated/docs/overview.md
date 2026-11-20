@@ -23,9 +23,9 @@ Built something useful? Contributions are welcome!
 - **Total Functions:** 7
 - **Total Notifiers:** 8
 - **Total TheHive Flow nodes:** 13
-- **Total Workflows:** 5
+- **Total Workflows:** 6
 - **Total External Integrations:** 12
-- **Total Integrations:** 496
+- **Total Integrations:** 497
 
 ## Vendors by Category
 

@@ -9,13 +9,6 @@ Retrieve ip reverse DNS resolutions on Shodan.
 - **License:** AGPL-V3
 - **Data Types:** `ip`
 
-#### [Shodan Host v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Shodan)
-Retrieve key Shodan information on an IP address.
-
-- **Author:** Sebastien Larinier @Sebdraven
-- **License:** AGPL-V3
-- **Data Types:** `ip`
-
 #### [Shodan Host History v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Shodan)
 Retrieve Shodan history scan results  for an IP address.
 
@@ -23,8 +16,8 @@ Retrieve Shodan history scan results  for an IP address.
 - **License:** AGPL-V3
 - **Data Types:** `ip`
 
-#### [Shodan DNSResolve v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Shodan)
-Retrieve domain resolutions on Shodan.
+#### [Shodan InfoDomain v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Shodan)
+Retrieve key Shodan information on a domain.
 
 - **Author:** ANSSI
 - **License:** AGPL-V3
@@ -37,8 +30,15 @@ Search query on Shodan
 - **License:** AGPL-V3
 - **Data Types:** `other`
 
-#### [Shodan InfoDomain v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Shodan)
-Retrieve key Shodan information on a domain.
+#### [Shodan Host v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Shodan)
+Retrieve key Shodan information on an IP address.
+
+- **Author:** Sebastien Larinier @Sebdraven
+- **License:** AGPL-V3
+- **Data Types:** `ip`
+
+#### [Shodan DNSResolve v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Shodan)
+Retrieve domain resolutions on Shodan.
 
 - **Author:** ANSSI
 - **License:** AGPL-V3

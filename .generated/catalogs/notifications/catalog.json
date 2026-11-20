@@ -1,0 +1,1319 @@
+{
+  "total_notifications": 12,
+  "generic_count": 11,
+  "vendor_count": 1,
+  "notifications": [
+    {
+      "id": "generic/alert-update",
+      "name": "Alert Update",
+      "description": "Triggers when an alert is updated",
+      "type": "filteredEvent",
+      "status": "tested",
+      "objectTypes": [
+        "Alert"
+      ],
+      "actions": [
+        "update"
+      ],
+      "filter": {
+        "_and": [
+          {
+            "_is": {
+              "action": "update"
+            }
+          },
+          {
+            "_is": {
+              "objectType": "Alert"
+            }
+          }
+        ]
+      },
+      "owner": {
+        "type": "generic",
+        "id": "generic",
+        "name": "Generic"
+      },
+      "file": "integrations/generic/thehive/notifications/alert-update.json",
+      "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/thehive/notifications/alert-update.json",
+      "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/generic/thehive/notifications/alert-update.json",
+      "contributor": "Fabien Bloume, StrangeBee"
+    },
+    {
+      "id": "generic/assignee-change-alert",
+      "name": "Assignee change on Alert",
+      "description": "Triggers when an alert is updated with a new assignee value. Does not trigger on alert creation with an assignee provided.",
+      "type": "filteredEvent",
+      "status": "tested",
+      "objectTypes": [
+        "Alert"
+      ],
+      "actions": [
+        "update"
+      ],
+      "filter": {
+        "_and": [
+          {
+            "_is": {
+              "action": "update"
+            }
+          },
+          {
+            "_is": {
+              "objectType": "Alert"
+            }
+          },
+          {
+            "_contains": {
+              "details.assignee": ""
+            }
+          }
+        ]
+      },
+      "owner": {
+        "type": "generic",
+        "id": "generic",
+        "name": "Generic"
+      },
+      "file": "integrations/generic/thehive/notifications/assignee-change-alert.json",
+      "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/thehive/notifications/assignee-change-alert.json",
+      "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/generic/thehive/notifications/assignee-change-alert.json",
+      "contributor": "Fabien Bloume, StrangeBee"
+    },
+    {
+      "id": "generic/assignee-change-case",
+      "name": "Assignee change on Case",
+      "description": "Triggers when a case is updated with a new assignee value. Does not trigger on case creation or when an alert is imported as a case.",
+      "type": "filteredEvent",
+      "status": "tested",
+      "objectTypes": [
+        "Case"
+      ],
+      "actions": [
+        "update"
+      ],
+      "filter": {
+        "_and": [
+          {
+            "_is": {
+              "action": "update"
+            }
+          },
+          {
+            "_is": {
+              "objectType": "Case"
+            }
+          },
+          {
+            "_contains": {
+              "details.assignee": ""
+            }
+          }
+        ]
+      },
+      "owner": {
+        "type": "generic",
+        "id": "generic",
+        "name": "Generic"
+      },
+      "file": "integrations/generic/thehive/notifications/assignee-change-case.json",
+      "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/thehive/notifications/assignee-change-case.json",
+      "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/generic/thehive/notifications/assignee-change-case.json",
+      "contributor": "Fabien Bloume, StrangeBee"
+    },
+    {
+      "id": "generic/case-high-critical-severity",
+      "name": "Case High or Critical Severity",
+      "description": "Triggers when a case is created with High/Critical severity, or a New/InProgress case is updated to High/Critical severity",
+      "type": "filteredEvent",
+      "status": "tested",
+      "objectTypes": [
+        "Case"
+      ],
+      "actions": [
+        "create",
+        "update"
+      ],
+      "filter": {
+        "_and": [
+          {
+            "_is": {
+              "objectType": "Case"
+            }
+          },
+          {
+            "_or": [
+              {
+                "_and": [
+                  {
+                    "_is": {
+                      "action": "create"
+                    }
+                  },
+                  {
+                    "_gte": {
+                      "details.severity": 3
+                    }
+                  }
+                ]
+              },
+              {
+                "_and": [
+                  {
+                    "_is": {
+                      "action": "update"
+                    }
+                  },
+                  {
+                    "_gte": {
+                      "details.severity": 3
+                    }
+                  },
+                  {
+                    "_or": [
+                      {
+                        "_is": {
+                          "object.status": "New"
+                        }
+                      },
+                      {
+                        "_is": {
+                          "object.status": "InProgress"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "owner": {
+        "type": "generic",
+        "id": "generic",
+        "name": "Generic"
+      },
+      "file": "integrations/generic/thehive/notifications/case-high-critical-severity.json",
+      "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/thehive/notifications/case-high-critical-severity.json",
+      "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/generic/thehive/notifications/case-high-critical-severity.json",
+      "contributor": "Fabien Bloume, StrangeBee"
+    },
+    {
+      "id": "generic/case-update",
+      "name": "Case Update",
+      "description": "Triggers when a case is updated",
+      "type": "filteredEvent",
+      "status": "tested",
+      "objectTypes": [
+        "Case"
+      ],
+      "actions": [
+        "update"
+      ],
+      "filter": {
+        "_and": [
+          {
+            "_is": {
+              "action": "update"
+            }
+          },
+          {
+            "_is": {
+              "objectType": "Case"
+            }
+          }
+        ]
+      },
+      "owner": {
+        "type": "generic",
+        "id": "generic",
+        "name": "Generic"
+      },
+      "file": "integrations/generic/thehive/notifications/case-update.json",
+      "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/thehive/notifications/case-update.json",
+      "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/generic/thehive/notifications/case-update.json",
+      "contributor": "Fabien Bloume, StrangeBee"
+    },
+    {
+      "id": "generic/comment-creation",
+      "name": "Comment Creation",
+      "description": "Triggers when a comment is created",
+      "type": "filteredEvent",
+      "status": "tested",
+      "objectTypes": [
+        "Comment"
+      ],
+      "actions": [
+        "create"
+      ],
+      "filter": {
+        "_and": [
+          {
+            "_is": {
+              "action": "create"
+            }
+          },
+          {
+            "_is": {
+              "objectType": "Comment"
+            }
+          }
+        ]
+      },
+      "owner": {
+        "type": "generic",
+        "id": "generic",
+        "name": "Generic"
+      },
+      "file": "integrations/generic/thehive/notifications/comment-creation.json",
+      "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/thehive/notifications/comment-creation.json",
+      "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/generic/thehive/notifications/comment-creation.json",
+      "contributor": "Fabien Bloume, StrangeBee"
+    },
+    {
+      "id": "generic/flagged-case",
+      "name": "Flagged Case",
+      "description": "Triggers when a case is flagged",
+      "type": "filteredEvent",
+      "status": "tested",
+      "objectTypes": [
+        "Case"
+      ],
+      "actions": [
+        "update"
+      ],
+      "filter": {
+        "_and": [
+          {
+            "_is": {
+              "action": "update"
+            }
+          },
+          {
+            "_is": {
+              "objectType": "Case"
+            }
+          },
+          {
+            "_is": {
+              "details.flag": true
+            }
+          }
+        ]
+      },
+      "owner": {
+        "type": "generic",
+        "id": "generic",
+        "name": "Generic"
+      },
+      "file": "integrations/generic/thehive/notifications/flagged-case.json",
+      "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/thehive/notifications/flagged-case.json",
+      "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/generic/thehive/notifications/flagged-case.json",
+      "comment": "This is a way to get a single notification for an out-of-sla case (or soon out-of-sla), only if the flag is used only for this purpose.",
+      "contributor": "Fabien Bloume, StrangeBee"
+    },
+    {
+      "id": "generic/stage-change-case-or-alert",
+      "name": "Stage change on Case or Alert",
+      "description": "Triggers when the stage changes on a Case or Alert",
+      "type": "filteredEvent",
+      "status": "tested",
+      "objectTypes": [
+        "Alert",
+        "Case"
+      ],
+      "actions": [
+        "update"
+      ],
+      "filter": {
+        "_and": [
+          {
+            "_is": {
+              "action": "update"
+            }
+          },
+          {
+            "_or": [
+              {
+                "_is": {
+                  "objectType": "Alert"
+                }
+              },
+              {
+                "_is": {
+                  "objectType": "Case"
+                }
+              }
+            ]
+          },
+          {
+            "_contains": {
+              "details.stage": ""
+            }
+          }
+        ]
+      },
+      "owner": {
+        "type": "generic",
+        "id": "generic",
+        "name": "Generic"
+      },
+      "file": "integrations/generic/thehive/notifications/stage-change-case-or-alert.json",
+      "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/thehive/notifications/stage-change-case-or-alert.json",
+      "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/generic/thehive/notifications/stage-change-case-or-alert.json",
+      "contributor": "Fabien Bloume, StrangeBee"
+    },
+    {
+      "id": "crowdstrikefalcon/stage-change-with-crowdstrike-link",
+      "name": "Stage change on Case or Alert linked to CrowdStrike",
+      "description": "Triggers when the stage changes on a Case or Alert that has a linked CrowdStrike Falcon alert or incident",
+      "type": "filteredEvent",
+      "status": "tested",
+      "objectTypes": [
+        "Alert",
+        "Case"
+      ],
+      "actions": [
+        "update"
+      ],
+      "filter": {
+        "_and": [
+          {
+            "_is": {
+              "action": "update"
+            }
+          },
+          {
+            "_or": [
+              {
+                "_is": {
+                  "objectType": "Alert"
+                }
+              },
+              {
+                "_is": {
+                  "objectType": "Case"
+                }
+              }
+            ]
+          },
+          {
+            "_contains": {
+              "details.stage": ""
+            }
+          },
+          {
+            "_or": [
+              {
+                "_contains": {
+                  "context.customFieldValues.csfalcon-alert-id": ""
+                }
+              },
+              {
+                "_contains": {
+                  "context.customFieldValues.csfalcon-incident-id": ""
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "owner": {
+        "type": "vendor",
+        "id": "CrowdstrikeFalcon",
+        "name": "CrowdStrike Falcon"
+      },
+      "file": "integrations/vendors/CrowdstrikeFalcon/thehive/notifications/stage-change-with-crowdstrike-link.json",
+      "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/CrowdstrikeFalcon/thehive/notifications/stage-change-with-crowdstrike-link.json",
+      "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/CrowdstrikeFalcon/thehive/notifications/stage-change-with-crowdstrike-link.json",
+      "comment": "If customfield exists but has empty values, no notification is triggered. As a result, this notification will only trigger when the values are not empty for the custom fields (and not just 'existing' in the UI)."
+    },
+    {
+      "id": "generic/stage-change-with-priority",
+      "name": "Stage change on Case or Alert with priority custom field",
+      "description": "Triggers when the stage changes on a Case or Alert and the priority custom field is not empty",
+      "type": "filteredEvent",
+      "status": "tested",
+      "objectTypes": [
+        "Alert",
+        "Case"
+      ],
+      "actions": [
+        "update"
+      ],
+      "filter": {
+        "_and": [
+          {
+            "_is": {
+              "action": "update"
+            }
+          },
+          {
+            "_or": [
+              {
+                "_is": {
+                  "objectType": "Alert"
+                }
+              },
+              {
+                "_is": {
+                  "objectType": "Case"
+                }
+              }
+            ]
+          },
+          {
+            "_contains": {
+              "details.stage": ""
+            }
+          },
+          {
+            "_contains": {
+              "context.customFieldValues.priority": ""
+            }
+          }
+        ]
+      },
+      "owner": {
+        "type": "generic",
+        "id": "generic",
+        "name": "Generic"
+      },
+      "file": "integrations/generic/thehive/notifications/stage-change-with-priority.json",
+      "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/thehive/notifications/stage-change-with-priority.json",
+      "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/generic/thehive/notifications/stage-change-with-priority.json",
+      "contributor": "Fabien Bloume, StrangeBee"
+    },
+    {
+      "id": "generic/tag-added-case",
+      "name": "Tag added to Case",
+      "description": "Triggers when a specific tag is added to a case",
+      "type": "filteredEvent",
+      "status": "tested_with_issues",
+      "objectTypes": [
+        "Case"
+      ],
+      "actions": [
+        "update"
+      ],
+      "filter": {
+        "_and": [
+          {
+            "_is": {
+              "action": "update"
+            }
+          },
+          {
+            "_is": {
+              "objectType": "Case"
+            }
+          },
+          {
+            "_contains": {
+              "details.tags": "out-of-sla"
+            }
+          }
+        ]
+      },
+      "owner": {
+        "type": "generic",
+        "id": "generic",
+        "name": "Generic"
+      },
+      "file": "integrations/generic/thehive/notifications/tag-added-case.json",
+      "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/thehive/notifications/tag-added-case.json",
+      "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/generic/thehive/notifications/tag-added-case.json",
+      "comment": "Whether we use tags or custom fields, all tags (or custom fields) are included in the payload at each update. As a result, any later update operation on tags or custom fields will trigger undesired notifications. For example: If we want to alert when a case is soon out-of-sla with 'out-of-sla' tag, then any later added tag will trigger the notification again.",
+      "contributor": "Fabien Bloume, StrangeBee"
+    },
+    {
+      "id": "generic/task-manually-assigned",
+      "name": "Task Manually Assigned",
+      "description": "Triggers when a task is manually assigned to a user. Does not trigger when a task is automatically assigned to the user who saves the first task log.",
+      "type": "filteredEvent",
+      "status": "tested",
+      "objectTypes": [
+        "Task"
+      ],
+      "actions": [
+        "update"
+      ],
+      "filter": {
+        "_and": [
+          {
+            "_is": {
+              "action": "update"
+            }
+          },
+          {
+            "_is": {
+              "objectType": "Task"
+            }
+          },
+          {
+            "_contains": {
+              "details.assignee": ""
+            }
+          }
+        ]
+      },
+      "owner": {
+        "type": "generic",
+        "id": "generic",
+        "name": "Generic"
+      },
+      "file": "integrations/generic/thehive/notifications/task-manually-assigned.json",
+      "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/thehive/notifications/task-manually-assigned.json",
+      "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/generic/thehive/notifications/task-manually-assigned.json",
+      "contributor": "Fabien Bloume, StrangeBee"
+    }
+  ],
+  "byObjectType": {
+    "Alert": [
+      {
+        "id": "generic/alert-update",
+        "name": "Alert Update",
+        "description": "Triggers when an alert is updated",
+        "type": "filteredEvent",
+        "status": "tested",
+        "objectTypes": [
+          "Alert"
+        ],
+        "actions": [
+          "update"
+        ],
+        "filter": {
+          "_and": [
+            {
+              "_is": {
+                "action": "update"
+              }
+            },
+            {
+              "_is": {
+                "objectType": "Alert"
+              }
+            }
+          ]
+        },
+        "owner": {
+          "type": "generic",
+          "id": "generic",
+          "name": "Generic"
+        },
+        "file": "integrations/generic/thehive/notifications/alert-update.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/thehive/notifications/alert-update.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/generic/thehive/notifications/alert-update.json",
+        "contributor": "Fabien Bloume, StrangeBee"
+      },
+      {
+        "id": "generic/assignee-change-alert",
+        "name": "Assignee change on Alert",
+        "description": "Triggers when an alert is updated with a new assignee value. Does not trigger on alert creation with an assignee provided.",
+        "type": "filteredEvent",
+        "status": "tested",
+        "objectTypes": [
+          "Alert"
+        ],
+        "actions": [
+          "update"
+        ],
+        "filter": {
+          "_and": [
+            {
+              "_is": {
+                "action": "update"
+              }
+            },
+            {
+              "_is": {
+                "objectType": "Alert"
+              }
+            },
+            {
+              "_contains": {
+                "details.assignee": ""
+              }
+            }
+          ]
+        },
+        "owner": {
+          "type": "generic",
+          "id": "generic",
+          "name": "Generic"
+        },
+        "file": "integrations/generic/thehive/notifications/assignee-change-alert.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/thehive/notifications/assignee-change-alert.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/generic/thehive/notifications/assignee-change-alert.json",
+        "contributor": "Fabien Bloume, StrangeBee"
+      },
+      {
+        "id": "generic/stage-change-case-or-alert",
+        "name": "Stage change on Case or Alert",
+        "description": "Triggers when the stage changes on a Case or Alert",
+        "type": "filteredEvent",
+        "status": "tested",
+        "objectTypes": [
+          "Alert",
+          "Case"
+        ],
+        "actions": [
+          "update"
+        ],
+        "filter": {
+          "_and": [
+            {
+              "_is": {
+                "action": "update"
+              }
+            },
+            {
+              "_or": [
+                {
+                  "_is": {
+                    "objectType": "Alert"
+                  }
+                },
+                {
+                  "_is": {
+                    "objectType": "Case"
+                  }
+                }
+              ]
+            },
+            {
+              "_contains": {
+                "details.stage": ""
+              }
+            }
+          ]
+        },
+        "owner": {
+          "type": "generic",
+          "id": "generic",
+          "name": "Generic"
+        },
+        "file": "integrations/generic/thehive/notifications/stage-change-case-or-alert.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/thehive/notifications/stage-change-case-or-alert.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/generic/thehive/notifications/stage-change-case-or-alert.json",
+        "contributor": "Fabien Bloume, StrangeBee"
+      },
+      {
+        "id": "crowdstrikefalcon/stage-change-with-crowdstrike-link",
+        "name": "Stage change on Case or Alert linked to CrowdStrike",
+        "description": "Triggers when the stage changes on a Case or Alert that has a linked CrowdStrike Falcon alert or incident",
+        "type": "filteredEvent",
+        "status": "tested",
+        "objectTypes": [
+          "Alert",
+          "Case"
+        ],
+        "actions": [
+          "update"
+        ],
+        "filter": {
+          "_and": [
+            {
+              "_is": {
+                "action": "update"
+              }
+            },
+            {
+              "_or": [
+                {
+                  "_is": {
+                    "objectType": "Alert"
+                  }
+                },
+                {
+                  "_is": {
+                    "objectType": "Case"
+                  }
+                }
+              ]
+            },
+            {
+              "_contains": {
+                "details.stage": ""
+              }
+            },
+            {
+              "_or": [
+                {
+                  "_contains": {
+                    "context.customFieldValues.csfalcon-alert-id": ""
+                  }
+                },
+                {
+                  "_contains": {
+                    "context.customFieldValues.csfalcon-incident-id": ""
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "owner": {
+          "type": "vendor",
+          "id": "CrowdstrikeFalcon",
+          "name": "CrowdStrike Falcon"
+        },
+        "file": "integrations/vendors/CrowdstrikeFalcon/thehive/notifications/stage-change-with-crowdstrike-link.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/CrowdstrikeFalcon/thehive/notifications/stage-change-with-crowdstrike-link.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/CrowdstrikeFalcon/thehive/notifications/stage-change-with-crowdstrike-link.json",
+        "comment": "If customfield exists but has empty values, no notification is triggered. As a result, this notification will only trigger when the values are not empty for the custom fields (and not just 'existing' in the UI)."
+      },
+      {
+        "id": "generic/stage-change-with-priority",
+        "name": "Stage change on Case or Alert with priority custom field",
+        "description": "Triggers when the stage changes on a Case or Alert and the priority custom field is not empty",
+        "type": "filteredEvent",
+        "status": "tested",
+        "objectTypes": [
+          "Alert",
+          "Case"
+        ],
+        "actions": [
+          "update"
+        ],
+        "filter": {
+          "_and": [
+            {
+              "_is": {
+                "action": "update"
+              }
+            },
+            {
+              "_or": [
+                {
+                  "_is": {
+                    "objectType": "Alert"
+                  }
+                },
+                {
+                  "_is": {
+                    "objectType": "Case"
+                  }
+                }
+              ]
+            },
+            {
+              "_contains": {
+                "details.stage": ""
+              }
+            },
+            {
+              "_contains": {
+                "context.customFieldValues.priority": ""
+              }
+            }
+          ]
+        },
+        "owner": {
+          "type": "generic",
+          "id": "generic",
+          "name": "Generic"
+        },
+        "file": "integrations/generic/thehive/notifications/stage-change-with-priority.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/thehive/notifications/stage-change-with-priority.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/generic/thehive/notifications/stage-change-with-priority.json",
+        "contributor": "Fabien Bloume, StrangeBee"
+      }
+    ],
+    "Case": [
+      {
+        "id": "generic/assignee-change-case",
+        "name": "Assignee change on Case",
+        "description": "Triggers when a case is updated with a new assignee value. Does not trigger on case creation or when an alert is imported as a case.",
+        "type": "filteredEvent",
+        "status": "tested",
+        "objectTypes": [
+          "Case"
+        ],
+        "actions": [
+          "update"
+        ],
+        "filter": {
+          "_and": [
+            {
+              "_is": {
+                "action": "update"
+              }
+            },
+            {
+              "_is": {
+                "objectType": "Case"
+              }
+            },
+            {
+              "_contains": {
+                "details.assignee": ""
+              }
+            }
+          ]
+        },
+        "owner": {
+          "type": "generic",
+          "id": "generic",
+          "name": "Generic"
+        },
+        "file": "integrations/generic/thehive/notifications/assignee-change-case.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/thehive/notifications/assignee-change-case.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/generic/thehive/notifications/assignee-change-case.json",
+        "contributor": "Fabien Bloume, StrangeBee"
+      },
+      {
+        "id": "generic/case-high-critical-severity",
+        "name": "Case High or Critical Severity",
+        "description": "Triggers when a case is created with High/Critical severity, or a New/InProgress case is updated to High/Critical severity",
+        "type": "filteredEvent",
+        "status": "tested",
+        "objectTypes": [
+          "Case"
+        ],
+        "actions": [
+          "create",
+          "update"
+        ],
+        "filter": {
+          "_and": [
+            {
+              "_is": {
+                "objectType": "Case"
+              }
+            },
+            {
+              "_or": [
+                {
+                  "_and": [
+                    {
+                      "_is": {
+                        "action": "create"
+                      }
+                    },
+                    {
+                      "_gte": {
+                        "details.severity": 3
+                      }
+                    }
+                  ]
+                },
+                {
+                  "_and": [
+                    {
+                      "_is": {
+                        "action": "update"
+                      }
+                    },
+                    {
+                      "_gte": {
+                        "details.severity": 3
+                      }
+                    },
+                    {
+                      "_or": [
+                        {
+                          "_is": {
+                            "object.status": "New"
+                          }
+                        },
+                        {
+                          "_is": {
+                            "object.status": "InProgress"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "owner": {
+          "type": "generic",
+          "id": "generic",
+          "name": "Generic"
+        },
+        "file": "integrations/generic/thehive/notifications/case-high-critical-severity.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/thehive/notifications/case-high-critical-severity.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/generic/thehive/notifications/case-high-critical-severity.json",
+        "contributor": "Fabien Bloume, StrangeBee"
+      },
+      {
+        "id": "generic/case-update",
+        "name": "Case Update",
+        "description": "Triggers when a case is updated",
+        "type": "filteredEvent",
+        "status": "tested",
+        "objectTypes": [
+          "Case"
+        ],
+        "actions": [
+          "update"
+        ],
+        "filter": {
+          "_and": [
+            {
+              "_is": {
+                "action": "update"
+              }
+            },
+            {
+              "_is": {
+                "objectType": "Case"
+              }
+            }
+          ]
+        },
+        "owner": {
+          "type": "generic",
+          "id": "generic",
+          "name": "Generic"
+        },
+        "file": "integrations/generic/thehive/notifications/case-update.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/thehive/notifications/case-update.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/generic/thehive/notifications/case-update.json",
+        "contributor": "Fabien Bloume, StrangeBee"
+      },
+      {
+        "id": "generic/flagged-case",
+        "name": "Flagged Case",
+        "description": "Triggers when a case is flagged",
+        "type": "filteredEvent",
+        "status": "tested",
+        "objectTypes": [
+          "Case"
+        ],
+        "actions": [
+          "update"
+        ],
+        "filter": {
+          "_and": [
+            {
+              "_is": {
+                "action": "update"
+              }
+            },
+            {
+              "_is": {
+                "objectType": "Case"
+              }
+            },
+            {
+              "_is": {
+                "details.flag": true
+              }
+            }
+          ]
+        },
+        "owner": {
+          "type": "generic",
+          "id": "generic",
+          "name": "Generic"
+        },
+        "file": "integrations/generic/thehive/notifications/flagged-case.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/thehive/notifications/flagged-case.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/generic/thehive/notifications/flagged-case.json",
+        "comment": "This is a way to get a single notification for an out-of-sla case (or soon out-of-sla), only if the flag is used only for this purpose.",
+        "contributor": "Fabien Bloume, StrangeBee"
+      },
+      {
+        "id": "generic/stage-change-case-or-alert",
+        "name": "Stage change on Case or Alert",
+        "description": "Triggers when the stage changes on a Case or Alert",
+        "type": "filteredEvent",
+        "status": "tested",
+        "objectTypes": [
+          "Alert",
+          "Case"
+        ],
+        "actions": [
+          "update"
+        ],
+        "filter": {
+          "_and": [
+            {
+              "_is": {
+                "action": "update"
+              }
+            },
+            {
+              "_or": [
+                {
+                  "_is": {
+                    "objectType": "Alert"
+                  }
+                },
+                {
+                  "_is": {
+                    "objectType": "Case"
+                  }
+                }
+              ]
+            },
+            {
+              "_contains": {
+                "details.stage": ""
+              }
+            }
+          ]
+        },
+        "owner": {
+          "type": "generic",
+          "id": "generic",
+          "name": "Generic"
+        },
+        "file": "integrations/generic/thehive/notifications/stage-change-case-or-alert.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/thehive/notifications/stage-change-case-or-alert.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/generic/thehive/notifications/stage-change-case-or-alert.json",
+        "contributor": "Fabien Bloume, StrangeBee"
+      },
+      {
+        "id": "crowdstrikefalcon/stage-change-with-crowdstrike-link",
+        "name": "Stage change on Case or Alert linked to CrowdStrike",
+        "description": "Triggers when the stage changes on a Case or Alert that has a linked CrowdStrike Falcon alert or incident",
+        "type": "filteredEvent",
+        "status": "tested",
+        "objectTypes": [
+          "Alert",
+          "Case"
+        ],
+        "actions": [
+          "update"
+        ],
+        "filter": {
+          "_and": [
+            {
+              "_is": {
+                "action": "update"
+              }
+            },
+            {
+              "_or": [
+                {
+                  "_is": {
+                    "objectType": "Alert"
+                  }
+                },
+                {
+                  "_is": {
+                    "objectType": "Case"
+                  }
+                }
+              ]
+            },
+            {
+              "_contains": {
+                "details.stage": ""
+              }
+            },
+            {
+              "_or": [
+                {
+                  "_contains": {
+                    "context.customFieldValues.csfalcon-alert-id": ""
+                  }
+                },
+                {
+                  "_contains": {
+                    "context.customFieldValues.csfalcon-incident-id": ""
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "owner": {
+          "type": "vendor",
+          "id": "CrowdstrikeFalcon",
+          "name": "CrowdStrike Falcon"
+        },
+        "file": "integrations/vendors/CrowdstrikeFalcon/thehive/notifications/stage-change-with-crowdstrike-link.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/CrowdstrikeFalcon/thehive/notifications/stage-change-with-crowdstrike-link.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/CrowdstrikeFalcon/thehive/notifications/stage-change-with-crowdstrike-link.json",
+        "comment": "If customfield exists but has empty values, no notification is triggered. As a result, this notification will only trigger when the values are not empty for the custom fields (and not just 'existing' in the UI)."
+      },
+      {
+        "id": "generic/stage-change-with-priority",
+        "name": "Stage change on Case or Alert with priority custom field",
+        "description": "Triggers when the stage changes on a Case or Alert and the priority custom field is not empty",
+        "type": "filteredEvent",
+        "status": "tested",
+        "objectTypes": [
+          "Alert",
+          "Case"
+        ],
+        "actions": [
+          "update"
+        ],
+        "filter": {
+          "_and": [
+            {
+              "_is": {
+                "action": "update"
+              }
+            },
+            {
+              "_or": [
+                {
+                  "_is": {
+                    "objectType": "Alert"
+                  }
+                },
+                {
+                  "_is": {
+                    "objectType": "Case"
+                  }
+                }
+              ]
+            },
+            {
+              "_contains": {
+                "details.stage": ""
+              }
+            },
+            {
+              "_contains": {
+                "context.customFieldValues.priority": ""
+              }
+            }
+          ]
+        },
+        "owner": {
+          "type": "generic",
+          "id": "generic",
+          "name": "Generic"
+        },
+        "file": "integrations/generic/thehive/notifications/stage-change-with-priority.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/thehive/notifications/stage-change-with-priority.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/generic/thehive/notifications/stage-change-with-priority.json",
+        "contributor": "Fabien Bloume, StrangeBee"
+      },
+      {
+        "id": "generic/tag-added-case",
+        "name": "Tag added to Case",
+        "description": "Triggers when a specific tag is added to a case",
+        "type": "filteredEvent",
+        "status": "tested_with_issues",
+        "objectTypes": [
+          "Case"
+        ],
+        "actions": [
+          "update"
+        ],
+        "filter": {
+          "_and": [
+            {
+              "_is": {
+                "action": "update"
+              }
+            },
+            {
+              "_is": {
+                "objectType": "Case"
+              }
+            },
+            {
+              "_contains": {
+                "details.tags": "out-of-sla"
+              }
+            }
+          ]
+        },
+        "owner": {
+          "type": "generic",
+          "id": "generic",
+          "name": "Generic"
+        },
+        "file": "integrations/generic/thehive/notifications/tag-added-case.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/thehive/notifications/tag-added-case.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/generic/thehive/notifications/tag-added-case.json",
+        "comment": "Whether we use tags or custom fields, all tags (or custom fields) are included in the payload at each update. As a result, any later update operation on tags or custom fields will trigger undesired notifications. For example: If we want to alert when a case is soon out-of-sla with 'out-of-sla' tag, then any later added tag will trigger the notification again.",
+        "contributor": "Fabien Bloume, StrangeBee"
+      }
+    ],
+    "Comment": [
+      {
+        "id": "generic/comment-creation",
+        "name": "Comment Creation",
+        "description": "Triggers when a comment is created",
+        "type": "filteredEvent",
+        "status": "tested",
+        "objectTypes": [
+          "Comment"
+        ],
+        "actions": [
+          "create"
+        ],
+        "filter": {
+          "_and": [
+            {
+              "_is": {
+                "action": "create"
+              }
+            },
+            {
+              "_is": {
+                "objectType": "Comment"
+              }
+            }
+          ]
+        },
+        "owner": {
+          "type": "generic",
+          "id": "generic",
+          "name": "Generic"
+        },
+        "file": "integrations/generic/thehive/notifications/comment-creation.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/thehive/notifications/comment-creation.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/generic/thehive/notifications/comment-creation.json",
+        "contributor": "Fabien Bloume, StrangeBee"
+      }
+    ],
+    "Task": [
+      {
+        "id": "generic/task-manually-assigned",
+        "name": "Task Manually Assigned",
+        "description": "Triggers when a task is manually assigned to a user. Does not trigger when a task is automatically assigned to the user who saves the first task log.",
+        "type": "filteredEvent",
+        "status": "tested",
+        "objectTypes": [
+          "Task"
+        ],
+        "actions": [
+          "update"
+        ],
+        "filter": {
+          "_and": [
+            {
+              "_is": {
+                "action": "update"
+              }
+            },
+            {
+              "_is": {
+                "objectType": "Task"
+              }
+            },
+            {
+              "_contains": {
+                "details.assignee": ""
+              }
+            }
+          ]
+        },
+        "owner": {
+          "type": "generic",
+          "id": "generic",
+          "name": "Generic"
+        },
+        "file": "integrations/generic/thehive/notifications/task-manually-assigned.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/thehive/notifications/task-manually-assigned.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/generic/thehive/notifications/task-manually-assigned.json",
+        "contributor": "Fabien Bloume, StrangeBee"
+      }
+    ]
+  }
+}

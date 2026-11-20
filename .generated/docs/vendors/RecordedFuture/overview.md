@@ -31,4 +31,4 @@ TheHive Flow is TheHive's native automation and orchestration engine, available 
 
 ### Ready-to-use TheHive Flow workflows
 
-- [Alert triage with Recorded Future](https://strangebee.com/workflow/alert-triage-with-recorded-future/) - Automatically processes Elasticsearch security alerts in TheHive and enriches IP addresses and file hashes with threat intelligence from Recorded Future. It identifies high-risk indicators, escalates critical alerts into cases and documents malicious findings to streamline incident investigation.
+- [Alert triage with Recorded Future](https://strangebee.com/workflow/alert-triage-with-recorded-future/) - Automatically processes Elasticsearch security alerts in TheHive and enriches IP addresses and file hashes with threat intelligence from Recorded Future. It identifies high-risk indicators, escalates critical alerts into cases and documents malicious findings to streamline incident investigation. ([code on GitHub](https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/RecordedFuture/thehive/workflows/alert-triage-with-recorded-future.yml))

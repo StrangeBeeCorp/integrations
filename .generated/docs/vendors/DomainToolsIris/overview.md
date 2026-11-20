@@ -2,19 +2,19 @@
 
 ### Enrich observables with intelligence
 
-#### [DomainToolsIris Pivot v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainToolsIris)
-Use DomainTools Iris API to pivot on ssl_hash, ip, or email.
-
-- **Author:** DomainTools
-- **License:** AGPL-V3
-- **Data Types:** `hash`, `ip`, `mail`
-
 #### [DomainToolsIris Investigate v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainToolsIris)
 Use DomainTools Iris API to investigate a domain.
 
 - **Author:** DomainTools
 - **License:** AGPL-V3
 - **Data Types:** `domain`
+
+#### [DomainToolsIris Pivot v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/DomainToolsIris)
+Use DomainTools Iris API to pivot on ssl_hash, ip, or email.
+
+- **Author:** DomainTools
+- **License:** AGPL-V3
+- **Data Types:** `hash`, `ip`, `mail`
 
 ---
 

@@ -31,6 +31,9 @@ workflows:
   description: Automatically processes Elasticsearch security alerts in TheHive and enriches IP addresses and file hashes
     with threat intelligence from Recorded Future. It identifies high-risk indicators, escalates critical alerts into cases
     and documents malicious findings to streamline incident investigation.
+  file: integrations/vendors/RecordedFuture/thehive/workflows/alert-triage-with-recorded-future.yml
+  file_url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/RecordedFuture/thehive/workflows/alert-triage-with-recorded-future.yml
+  github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/RecordedFuture/thehive/workflows/alert-triage-with-recorded-future.yml
 externalIntegrations: []
 displayOnWebsite: true
 visibility: 8

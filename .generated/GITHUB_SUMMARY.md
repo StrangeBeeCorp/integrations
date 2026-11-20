@@ -7,7 +7,7 @@
 - **Total Responders:** 163
 - **Total Functions:** 7
 - **Total External Integrations:** 12
-- **Total Integrations:** 496
+- **Total Integrations:** 497
 
 ## Changes
 
