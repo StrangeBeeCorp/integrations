@@ -194,7 +194,8 @@ def generate_workflows_catalog(all_manifests: Dict) -> Dict:
     def _norm(value: str) -> str:
         return ''.join(c for c in value.lower() if c.isalnum())
 
-    vendors_by_norm = {_norm(v): v for v in find_vendors()}
+    # Only vendors that have a manifest, so every id given out exists in integration-manifest.json
+    vendors_by_norm = {_norm(v): v for v in all_manifests}
 
     def _vendor_logo(vendor_id: str):
         logo = all_manifests.get(vendor_id, {}).get('logo')
@@ -215,6 +216,13 @@ def generate_workflows_catalog(all_manifests: Dict) -> Dict:
             nodes[name] = {'name': name, 'vendor_id': node_vendor,
                            'icon': _vendor_logo(node_vendor) if node_vendor else None}
         workflow['nodes'] = [nodes[name] for name in sorted(nodes)]
+
+        # Vendors (manifest ids) the workflow belongs with: the one it is stored under, then any
+        # vendor one of its nodes matches. Empty for a generic workflow that uses no vendor.
+        related = [workflow['vendor_id']] if workflow['vendor_id'] in all_manifests else []
+        related += sorted({node['vendor_id'] for node in workflow['nodes']
+                           if node['vendor_id'] and node['vendor_id'] not in related})
+        workflow['integrations'] = related
 
         # Author: as declared, else implied by who maintains the workflow
         if not workflow['author']:
@@ -251,12 +259,11 @@ def generate_workflows_catalog(all_manifests: Dict) -> Dict:
 
 def generate_workflows_library(wf_catalog: Dict) -> list:
     """The workflows catalog reduced to the shape the website's workflow library was specified with:
-    a bare list, nine fields per workflow. Same data as the catalog, nothing added.
-    `id` is the vendor id here (null for a generic workflow), so it is not unique per workflow."""
+    a bare list, nine fields per workflow. Same data as the catalog, nothing added."""
     return [{
-        'id': workflow['vendor_id'],
         'name': workflow['name'],
         'description': workflow['description'],
+        'integrations': workflow['integrations'],
         'nodes': [{'name': node['name'], 'icon': node['icon']} for node in workflow['nodes']],
         'author': workflow['author'],
         'agent': workflow['agent'],

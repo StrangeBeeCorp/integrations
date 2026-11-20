@@ -746,7 +746,7 @@ def _read_workflow_export(file_path: Path) -> Optional[Dict]:
             'version': _text(data.get('version')),
             'timeout': _text(data.get('timeout')),
             'steps': sum(1 for s in steps if s.get('type') != 'start'),
-            'integrations': integrations,
+            'flow_integrations': integrations,
             'commands': sorted(commands),
             'inputs': inputs,
             # What the importer has to bind in their own instance before the workflow can run
@@ -823,7 +823,7 @@ def scan_workflows(root: Path, relative_root: str, declared: List[Dict], owner: 
             # Same keys whether or not there is an export file: null or empty when there is none
             'file': None, 'file_url': None, 'github_url': None,
             'export_name': None, 'spec_version': None, 'version': None, 'timeout': None, 'steps': None,
-            'integrations': [], 'commands': [], 'inputs': [], 'requires': None,
+            'flow_integrations': [], 'commands': [], 'inputs': [], 'requires': None,
         }
         if slug in exports:
             file_path, export = exports.pop(slug)

@@ -605,8 +605,8 @@ def _render_workflow(workflow: Dict, heading_level: str = "###") -> List[str]:
     if workflow.get('has_file'):
         requires = workflow.get('requires') or {}
         lines.append(f"- **Steps:** {workflow.get('steps', 0)}")
-        if workflow.get('integrations'):
-            lines.append(f"- **Flow integrations used:** {', '.join(workflow['integrations'])}")
+        if workflow.get('flow_integrations'):
+            lines.append(f"- **Flow integrations used:** {', '.join(workflow['flow_integrations'])}")
         lines.append(f"- **To set up after import:** {requires.get('secrets', 0)} secret(s), "
                      f"{requires.get('globals', 0)} global variable(s)")
     links = []
