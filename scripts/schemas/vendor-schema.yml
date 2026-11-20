@@ -141,7 +141,7 @@ properties:
 
   workflows:
     type: array
-    description: "Ready-to-use TheHive Flow workflows for this vendor. For now each entry is a manual link to the workflow page."
+    description: "Ready-to-use TheHive Flow workflows for this vendor. Each entry links to the workflow page. The export file, when stored here, is thehive/workflows/<slug>.yml where <slug> is the last segment of the url."
     items:
       type: object
       required:

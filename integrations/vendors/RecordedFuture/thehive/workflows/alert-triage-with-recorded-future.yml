@@ -1,0 +1,787 @@
+version: v1.0.0
+spec_version: chocolate-v2.0.0
+id: playbook-01a08bdf-0d1d-7e2c-ae33-ad5c08405e65
+name: Alert Triage - Recorded Future
+organisation: ~942084232
+timeout: 10m0s
+description: Lorem Ipsum
+variables:
+  input:
+    - id: 65b11c1d-bf38-4a47-bb40-428732c1db01
+      name: ElasticAlert
+      type: object
+workflow_start: start--new-playbook--51fb5721-2254-4021-b46f-5a4141967f95
+workflow:
+  1a9beb00-2000-4057-869c-380a2f4d1b04:
+    id: 1a9beb00-2000-4057-869c-380a2f4d1b04
+    name: Create TheHive Alert
+    type: action
+    on_success: 5307d63f-c47c-4d31-a739-f5fdaba1b273
+    command:
+      command: strangebee.integration.thehive.v1
+      version: v1.0.0
+      type: strangebee
+      parameters:
+        Proxy: disabled
+        Server Verification: default
+        action: create_alert
+        authentication: bearer_token
+        base_url: '{{ $global["01a03e0a-ef44-73c0-b013-dbadd5f4c448"] }}'
+        bearer_token: '{{ $secret["01a024b0-50c1-7ad8-add6-485a1c769236"] }}'
+        create_alert__body: '{{ $steps["cae7a2aa-b33e-4c61-b60b-f36cda75993e"].thehiveAlert }}'
+        editor_mode: raw
+        mTLS: disabled
+        manual_status_handling: false
+    ui:
+      position:
+        x: 400.99999999999994
+        'y': 281
+      variableInputs:
+        command.parameters.base_url:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: global["01a03e0a-ef44-73c0-b013-dbadd5f4c448"]
+                      type: variable
+        command.parameters.bearer_token:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: secret["01a024b0-50c1-7ad8-add6-485a1c769236"]
+                      type: variable
+        command.parameters.x_organisation:
+          wireDoc:
+            nodes:
+              - type: text
+                value: Matrix
+        command.parameters.create_alert__body:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["cae7a2aa-b33e-4c61-b60b-f36cda75993e"].thehiveAlert
+                      type: variable
+  3267308b-6ee2-4d65-a50a-c1f3c25cfcc7:
+    id: 3267308b-6ee2-4d65-a50a-c1f3c25cfcc7
+    name: TheHive add Comment Case
+    type: action
+    command:
+      command: strangebee.integration.thehive.v1
+      version: v1.0.0
+      type: strangebee
+      parameters:
+        action: create_comment_in_case
+        auth_type: bearer_token
+        base_url: '{{ $global["01a03e0a-ef44-73c0-b013-dbadd5f4c448"] }}'
+        bearer_token: '{{ $secret["01a024b0-50c1-7ad8-add6-485a1c769236"] }}'
+        create_comment_in_case__caseId: '{{ $steps["b1d26c8e-c00c-4ad1-bd06-cf153dcc4c2f"].body._id }}'
+        create_comment_in_case__message: >-
+          Malicious indicators : {{
+          $steps["627e10fb-1d2d-45cf-9637-db95495fca46"].RecordedFutureIpReport
+          +
+          $steps["627e10fb-1d2d-45cf-9637-db95495fca46"].RecordedFutureHashReport
+          | map(select(. != null))
+            | map(select(.data.results[0].risk.score >= 65))
+            | map(.data.results[0].entity.id)
+            | join(", ") }}
+        editor_mode: form
+        manual_status_handling: false
+        proxy_mode: disabled
+        ssl_mtls: disabled
+        ssl_verification: default
+    ui:
+      position:
+        x: 518
+        'y': 917
+      variableInputs:
+        command.parameters.base_url:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: global["01a03e0a-ef44-73c0-b013-dbadd5f4c448"]
+                      type: variable
+        command.parameters.bearer_token:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: secret["01a024b0-50c1-7ad8-add6-485a1c769236"]
+                      type: variable
+        command.parameters.update_alert__alertId:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["5307d63f-c47c-4d31-a739-f5fdaba1b273"]["2bf721bf-3fab-491b-ba04-cba52076a353"]
+                      type: variable
+        command.parameters.create_comment_in_case__caseId:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["b1d26c8e-c00c-4ad1-bd06-cf153dcc4c2f"].body
+                      type: variable
+                    - type: text
+                      value: ._id
+        command.parameters.create_comment_in_case__message:
+          wireDoc:
+            nodes:
+              - type: text
+                value: 'Malicious indicators : '
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["627e10fb-1d2d-45cf-9637-db95495fca46"].RecordedFutureIpReport
+                      type: variable
+                    - type: text
+                      value: ' + '
+                    - key: steps["627e10fb-1d2d-45cf-9637-db95495fca46"].RecordedFutureHashReport
+                      type: variable
+                    - type: text
+                      value: |2-
+                         | map(select(. != null))
+                          | map(select(.data.results[0].risk.score >= 65))
+                          | map(.data.results[0].entity.id)
+                          | join(", ")
+  4786405f-f7a2-432b-847b-962e32a87386:
+    id: 4786405f-f7a2-432b-847b-962e32a87386
+    name: Set observables array
+    type: action
+    on_success: 627e10fb-1d2d-45cf-9637-db95495fca46
+    command:
+      command: strangebee.variable.new
+      version: v1.0.0
+      type: strangebee
+      parameters:
+        variables:
+          - id: 6b0b56ca-e1bc-4bf4-bf11-d37012fa5b42
+            name: observables
+            type: array
+            value: '{{ $steps["aa686157-1643-45e2-975e-398f89be5940"].body }}'
+    ui:
+      position:
+        x: 400.99999999999994
+        'y': 509
+      variableInputs:
+        command.parameters.variables:
+          wireDocs:
+            - nodes:
+                - type: context
+                  expression:
+                    nodes:
+                      - key: steps["aa686157-1643-45e2-975e-398f89be5940"].body
+                        type: variable
+  5307d63f-c47c-4d31-a739-f5fdaba1b273:
+    id: 5307d63f-c47c-4d31-a739-f5fdaba1b273
+    name: Set TheHive Alert ID
+    type: action
+    on_success: aa686157-1643-45e2-975e-398f89be5940
+    command:
+      command: strangebee.variable.new
+      version: v1.0.0
+      type: strangebee
+      parameters:
+        variables:
+          - id: 2bf721bf-3fab-491b-ba04-cba52076a353
+            name: alertID
+            type: string
+            value: '{{ $steps["1a9beb00-2000-4057-869c-380a2f4d1b04"].body._id }}'
+    ui:
+      position:
+        x: 400.99999999999994
+        'y': 357
+      variableInputs:
+        command.parameters.variables:
+          wireDocs:
+            - nodes:
+                - type: context
+                  expression:
+                    nodes:
+                      - key: steps["1a9beb00-2000-4057-869c-380a2f4d1b04"].body
+                        type: variable
+                      - type: text
+                        value: ._id
+  54cd1c54-4ea6-41b7-9da9-da937ff68726:
+    id: 54cd1c54-4ea6-41b7-9da9-da937ff68726
+    name: If Recorded Report Malicious
+    type: if-condition
+    condition: >-
+      $steps["627e10fb-1d2d-45cf-9637-db95495fca46"].RecordedFutureIpReport +
+      $steps["627e10fb-1d2d-45cf-9637-db95495fca46"].RecordedFutureHashReport 
+        | map(select(. != null))
+        | map(.data.results[0].risk.score)
+        | any(. >= 65)
+    on_true: b61ad5d9-f409-4cc4-837c-8d4711326d8c
+    ui:
+      position:
+        x: 660
+        'y': 689
+      variableInputs:
+        condition:
+          wireDoc:
+            nodes:
+              - key: steps["627e10fb-1d2d-45cf-9637-db95495fca46"].RecordedFutureIpReport
+                type: variable
+              - type: text
+                value: ' + '
+              - key: steps["627e10fb-1d2d-45cf-9637-db95495fca46"].RecordedFutureHashReport
+                type: variable
+              - type: text
+                value: |2-
+                   
+                    | map(select(. != null))
+                    | map(.data.results[0].risk.score)
+                    | any(. >= 65)
+  627e10fb-1d2d-45cf-9637-db95495fca46:
+    id: 627e10fb-1d2d-45cf-9637-db95495fca46
+    name: For Each Observables
+    type: foreach
+    on_success: 54cd1c54-4ea6-41b7-9da9-da937ff68726
+    foreach:
+      foreach: $steps["4786405f-f7a2-432b-847b-962e32a87386"]["6b0b56ca-e1bc-4bf4-bf11-d37012fa5b42"]
+      key_variable: idx
+      key_variable_id: e03f2734-49bc-4b98-9ab9-05d0dd4a9fbd
+      value_variable: item
+      value_variable_id: 12a1f827-3df3-458a-b1d3-3a68f86f8602
+      body: bcdb2541-9f2c-44b1-b610-33c39796c69d
+      output:
+        - name: RecordedFutureIpReport
+          value: $steps["856169e3-fb0e-48d0-98c1-fbca7db27b9a"].body
+        - name: RecordedFutureHashReport
+          value: $steps["a38f8916-c615-4d9a-b302-093254e8c7f9"].body
+    ui:
+      position:
+        x: 400.99999999999994
+        'y': 585
+      variableInputs:
+        foreach.output:
+          wireDocs:
+            - nodes:
+                - key: steps["856169e3-fb0e-48d0-98c1-fbca7db27b9a"].body
+                  type: variable
+            - nodes:
+                - key: steps["a38f8916-c615-4d9a-b302-093254e8c7f9"].body
+                  type: variable
+        foreach.foreach:
+          wireDoc:
+            nodes:
+              - key: steps["4786405f-f7a2-432b-847b-962e32a87386"]["6b0b56ca-e1bc-4bf4-bf11-d37012fa5b42"]
+                type: variable
+        foreach.key_variable:
+          wireDoc:
+            nodes:
+              - type: text
+                value: idx
+        foreach.value_variable:
+          wireDoc:
+            nodes:
+              - type: text
+                value: item
+  856169e3-fb0e-48d0-98c1-fbca7db27b9a:
+    id: 856169e3-fb0e-48d0-98c1-fbca7db27b9a
+    name: Recorded Future IP check
+    type: action
+    command:
+      command: strangebee.integration.recorded_future.v2
+      version: v1.0.0
+      type: strangebee
+      parameters:
+        Proxy: disabled
+        Server Verification: default
+        action: enrich_indicators
+        api_key: '{{ $secret["01a0816c-c961-7a00-aae9-612062874a3b"] }}'
+        authentication: none
+        base_url: https://api.recordedfuture.com
+        editor_mode: form
+        enrich_indicators__ip: >-
+          ["{{
+          $steps["627e10fb-1d2d-45cf-9637-db95495fca46"]["12a1f827-3df3-458a-b1d3-3a68f86f8602"].data
+          }}"]
+        mTLS: disabled
+        manual_status_handling: true
+    ui:
+      position:
+        x: 0
+        'y': 765
+      variableInputs:
+        command.parameters.api_key:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: secret["01a0816c-c961-7a00-aae9-612062874a3b"]
+                      type: variable
+        command.parameters.base_url:
+          wireDoc:
+            nodes:
+              - type: text
+                value: https://api.recordedfuture.com
+        command.parameters.enrich_indicators__ip:
+          wireDoc:
+            nodes:
+              - type: text
+                value: '["'
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["627e10fb-1d2d-45cf-9637-db95495fca46"]["12a1f827-3df3-458a-b1d3-3a68f86f8602"]
+                      type: variable
+                    - type: text
+                      value: .data
+              - type: text
+                value: '"]'
+        command.parameters.enrich_indicators__url:
+          wireDoc:
+            nodes:
+              - type: text
+                value: '["'
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["627e10fb-1d2d-45cf-9637-db95495fca46"]["12a1f827-3df3-458a-b1d3-3a68f86f8602"]
+                      type: variable
+              - type: text
+                value: .data"] // empty
+        command.parameters.enrich_indicators__hash:
+          wireDoc:
+            nodes:
+              - type: text
+                value: '["'
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["627e10fb-1d2d-45cf-9637-db95495fca46"]["12a1f827-3df3-458a-b1d3-3a68f86f8602"]
+                      type: variable
+              - type: text
+                value: .data"] // emp
+        command.parameters.enrich_indicators__domain:
+          wireDoc:
+            nodes:
+              - type: text
+                value: '["'
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["627e10fb-1d2d-45cf-9637-db95495fca46"]["12a1f827-3df3-458a-b1d3-3a68f86f8602"]
+                      type: variable
+              - type: text
+                value: .data"] // empty
+        command.parameters.enrich_indicators__companybydomain:
+          wireDoc:
+            nodes:
+              - type: text
+                value: '["'
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["627e10fb-1d2d-45cf-9637-db95495fca46"]["12a1f827-3df3-458a-b1d3-3a68f86f8602"]
+                      type: variable
+              - type: text
+                value: .data"] // empty
+  a38f8916-c615-4d9a-b302-093254e8c7f9:
+    id: a38f8916-c615-4d9a-b302-093254e8c7f9
+    name: Recorded Future Hash check
+    type: action
+    command:
+      command: strangebee.integration.recorded_future.v2
+      version: v1.0.0
+      type: strangebee
+      parameters:
+        Proxy: disabled
+        Server Verification: default
+        action: enrich_indicators
+        api_key: '{{ $secret["01a0816c-c961-7a00-aae9-612062874a3b"] }}'
+        authentication: none
+        base_url: https://api.recordedfuture.com
+        editor_mode: form
+        enrich_indicators__hash: >-
+          ["{{
+          $steps["627e10fb-1d2d-45cf-9637-db95495fca46"]["12a1f827-3df3-458a-b1d3-3a68f86f8602"].data
+          }}"]
+        mTLS: disabled
+        manual_status_handling: true
+    ui:
+      position:
+        x: 141.99999999999997
+        'y': 841
+      variableInputs:
+        command.parameters.api_key:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: secret["01a0816c-c961-7a00-aae9-612062874a3b"]
+                      type: variable
+        command.parameters.base_url:
+          wireDoc:
+            nodes:
+              - type: text
+                value: https://api.recordedfuture.com
+        command.parameters.enrich_indicators__ip:
+          wireDoc:
+            nodes:
+              - type: text
+                value: '["'
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["627e10fb-1d2d-45cf-9637-db95495fca46"]["12a1f827-3df3-458a-b1d3-3a68f86f8602"]
+                      type: variable
+                    - type: text
+                      value: .data
+              - type: text
+                value: '"]'
+        command.parameters.enrich_indicators__url:
+          wireDoc:
+            nodes:
+              - type: text
+                value: '["'
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["627e10fb-1d2d-45cf-9637-db95495fca46"]["12a1f827-3df3-458a-b1d3-3a68f86f8602"]
+                      type: variable
+              - type: text
+                value: .data"] // empty
+        command.parameters.enrich_indicators__hash:
+          wireDoc:
+            nodes:
+              - type: text
+                value: '["'
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["627e10fb-1d2d-45cf-9637-db95495fca46"]["12a1f827-3df3-458a-b1d3-3a68f86f8602"]
+                      type: variable
+                    - type: text
+                      value: .data
+              - type: text
+                value: '"]'
+        command.parameters.enrich_indicators__domain:
+          wireDoc:
+            nodes:
+              - type: text
+                value: '["'
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["627e10fb-1d2d-45cf-9637-db95495fca46"]["12a1f827-3df3-458a-b1d3-3a68f86f8602"]
+                      type: variable
+              - type: text
+                value: .data"] // empty
+        command.parameters.enrich_indicators__companybydomain:
+          wireDoc:
+            nodes:
+              - type: text
+                value: '["'
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["627e10fb-1d2d-45cf-9637-db95495fca46"]["12a1f827-3df3-458a-b1d3-3a68f86f8602"]
+                      type: variable
+              - type: text
+                value: .data"] // empty
+  aa686157-1643-45e2-975e-398f89be5940:
+    id: aa686157-1643-45e2-975e-398f89be5940
+    name: Get Alert Observables
+    type: action
+    on_success: 4786405f-f7a2-432b-847b-962e32a87386
+    command:
+      command: strangebee.integration.thehive.v1
+      version: v1.0.0
+      type: strangebee
+      parameters:
+        Proxy: disabled
+        Server Verification: default
+        action: post_query
+        authentication: bearer_token
+        base_url: '{{ $global["01a03e0a-ef44-73c0-b013-dbadd5f4c448"] }}'
+        bearer_token: '{{ $secret["01a024b0-50c1-7ad8-add6-485a1c769236"] }}'
+        editor_mode: raw
+        mTLS: disabled
+        manual_status_handling: false
+        post_query__body: |-
+          {
+              "query": [
+                  {
+                      "_name": "getAlert",
+                      "idOrName": "{{ $steps["5307d63f-c47c-4d31-a739-f5fdaba1b273"]["2bf721bf-3fab-491b-ba04-cba52076a353"] }}"
+                  },
+                  {"_name": "observables"}
+              ]
+          }
+    ui:
+      position:
+        x: 400.99999999999994
+        'y': 433
+      variableInputs:
+        command.parameters.base_url:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: global["01a03e0a-ef44-73c0-b013-dbadd5f4c448"]
+                      type: variable
+        command.parameters.bearer_token:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: secret["01a024b0-50c1-7ad8-add6-485a1c769236"]
+                      type: variable
+        command.parameters.x_organisation:
+          wireDoc:
+            nodes:
+              - type: text
+                value: Matrix
+        command.parameters.post_query__body:
+          wireDoc:
+            nodes:
+              - type: text
+                value: |-
+                  {
+                      "query": [
+                          {
+                              "_name": "getAlert",
+                              "idOrName": "
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["5307d63f-c47c-4d31-a739-f5fdaba1b273"]["2bf721bf-3fab-491b-ba04-cba52076a353"]
+                      type: variable
+              - type: text
+                value: |-
+                  "
+                          },
+                          {"_name": "observables"}
+                      ]
+                  }
+        command.parameters.post_query__query:
+          wireDoc:
+            nodes:
+              - type: text
+                value: |-
+                  {
+                      "query": [
+                          {
+                              "_name": "getAlert",
+                              "idOrName": "
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["5307d63f-c47c-4d31-a739-f5fdaba1b273"]["2bf721bf-3fab-491b-ba04-cba52076a353"]
+                      type: variable
+              - type: text
+                value: |-
+                  "
+                          },
+                          {"_name": "observables"}
+                      ]
+                  }
+  b1d26c8e-c00c-4ad1-bd06-cf153dcc4c2f:
+    id: b1d26c8e-c00c-4ad1-bd06-cf153dcc4c2f
+    name: TheHive escalate alert to case
+    type: action
+    on_success: 3267308b-6ee2-4d65-a50a-c1f3c25cfcc7
+    command:
+      command: strangebee.integration.thehive.v1
+      version: v1.0.0
+      type: strangebee
+      parameters:
+        action: escalate_alert_to_case
+        auth_type: bearer_token
+        base_url: '{{ $global["01a03e0a-ef44-73c0-b013-dbadd5f4c448"] }}'
+        bearer_token: '{{ $secret["01a024b0-50c1-7ad8-add6-485a1c769236"] }}'
+        editor_mode: form
+        escalate_alert_to_case__alertId: >-
+          {{
+          $steps["5307d63f-c47c-4d31-a739-f5fdaba1b273"]["2bf721bf-3fab-491b-ba04-cba52076a353"]
+          }}
+        escalate_alert_to_case__flag: no_change
+        headers:
+          - name: Content-Type
+            value: application/json
+        manual_status_handling: false
+        proxy_mode: disabled
+        ssl_mtls: disabled
+        ssl_verification: default
+    ui:
+      position:
+        x: 518
+        'y': 841
+      variableInputs:
+        command.parameters.headers:
+          wireDocs:
+            - nodes:
+                - type: text
+                  value: application/json
+        command.parameters.base_url:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: global["01a03e0a-ef44-73c0-b013-dbadd5f4c448"]
+                      type: variable
+        command.parameters.bearer_token:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: secret["01a024b0-50c1-7ad8-add6-485a1c769236"]
+                      type: variable
+        command.parameters.update_alert__alertId:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["5307d63f-c47c-4d31-a739-f5fdaba1b273"]["2bf721bf-3fab-491b-ba04-cba52076a353"]
+                      type: variable
+        command.parameters.escalate_alert_to_case__alertId:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["5307d63f-c47c-4d31-a739-f5fdaba1b273"]["2bf721bf-3fab-491b-ba04-cba52076a353"]
+                      type: variable
+  b61ad5d9-f409-4cc4-837c-8d4711326d8c:
+    id: b61ad5d9-f409-4cc4-837c-8d4711326d8c
+    name: TheHive set critical severity
+    type: action
+    on_success: b1d26c8e-c00c-4ad1-bd06-cf153dcc4c2f
+    command:
+      command: strangebee.integration.thehive.v1
+      version: v1.0.0
+      type: strangebee
+      parameters:
+        Proxy: disabled
+        Server Verification: default
+        action: update_alert
+        authentication: bearer_token
+        base_url: '{{ $global["01a03e0a-ef44-73c0-b013-dbadd5f4c448"] }}'
+        bearer_token: '{{ $secret["01a024b0-50c1-7ad8-add6-485a1c769236"] }}'
+        editor_mode: form
+        mTLS: disabled
+        manual_status_handling: false
+        update_alert__alertId: >-
+          {{
+          $steps["5307d63f-c47c-4d31-a739-f5fdaba1b273"]["2bf721bf-3fab-491b-ba04-cba52076a353"]
+          }}
+        update_alert__follow: no_change
+        update_alert__severity: 4
+    ui:
+      position:
+        x: 518
+        'y': 765
+      variableInputs:
+        command.parameters.base_url:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: global["01a03e0a-ef44-73c0-b013-dbadd5f4c448"]
+                      type: variable
+        command.parameters.bearer_token:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: secret["01a024b0-50c1-7ad8-add6-485a1c769236"]
+                      type: variable
+        command.parameters.update_alert__alertId:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["5307d63f-c47c-4d31-a739-f5fdaba1b273"]["2bf721bf-3fab-491b-ba04-cba52076a353"]
+                      type: variable
+  bcdb2541-9f2c-44b1-b610-33c39796c69d:
+    id: bcdb2541-9f2c-44b1-b610-33c39796c69d
+    name: If dataType IP
+    type: if-condition
+    condition: >-
+      $steps["627e10fb-1d2d-45cf-9637-db95495fca46"]["12a1f827-3df3-458a-b1d3-3a68f86f8602"].dataType
+      == "ip"
+    on_true: 856169e3-fb0e-48d0-98c1-fbca7db27b9a
+    on_false: c79881cc-2b74-436e-8d66-390b612a96a2
+    ui:
+      position:
+        x: 141.99999999999997
+        'y': 689
+      variableInputs:
+        condition:
+          wireDoc:
+            nodes:
+              - key: steps["627e10fb-1d2d-45cf-9637-db95495fca46"]["12a1f827-3df3-458a-b1d3-3a68f86f8602"]
+                type: variable
+              - type: text
+                value: .dataType == "ip"
+  c79881cc-2b74-436e-8d66-390b612a96a2:
+    id: c79881cc-2b74-436e-8d66-390b612a96a2
+    name: If dataType Hash
+    type: if-condition
+    condition: >-
+      $steps["627e10fb-1d2d-45cf-9637-db95495fca46"]["12a1f827-3df3-458a-b1d3-3a68f86f8602"].dataType
+      == "hash"
+    on_true: a38f8916-c615-4d9a-b302-093254e8c7f9
+    ui:
+      position:
+        x: 284
+        'y': 765
+      variableInputs:
+        condition:
+          wireDoc:
+            nodes:
+              - key: steps["627e10fb-1d2d-45cf-9637-db95495fca46"]["12a1f827-3df3-458a-b1d3-3a68f86f8602"]
+                type: variable
+              - type: text
+                value: .dataType == "hash"
+  cae7a2aa-b33e-4c61-b60b-f36cda75993e:
+    id: cae7a2aa-b33e-4c61-b60b-f36cda75993e
+    name: Normalize Alert
+    type: action
+    on_success: 1a9beb00-2000-4057-869c-380a2f4d1b04
+    command:
+      command: strangebee.code.execute.python@v3_11
+      version: v1.0.0
+      type: strangebee
+      parameters:
+        script: "from datetime import datetime, timezone\n\ndata = flow.get('$input[\"65b11c1d-bf38-4a47-bb40-428732c1db01\"]')\n\n# Store the \"fields\" array present in the source alert JSON\nsourceFields = data[\"fields\"]\n\n# Severity mapping \"low\": 1, \"medium\": 2, \"high\": 3, \"critical\": 4\nm = {\"low\": 1, \"medium\": 2, \"high\": 3, \"critical\": 4}\nif sourceFields[\"kibana.alert.severity\"][0] in m:\n    severity = m[sourceFields[\"kibana.alert.severity\"][0]]\n\n# Dynamic, deduplicated procedures, keeping order\nraw_ttps = sourceFields.get(\"signal.rule.threat.technique.subtechnique.id\", [])\nraw_ttps = raw_ttps if isinstance(raw_ttps, list) else [raw_ttps]\n\nprocedures = []\nseen_ids = set()\n\n# Direct extraction of occurDate and tactic\noriginal_time = (\n    sourceFields[\"signal.original_time\"][0]\n    if \"signal.original_time\" in sourceFields and sourceFields[\"signal.original_time\"]\n    else None\n)\noccur_date = int(datetime.fromisoformat(original_time.replace(\"Z\", \"+00:00\")).timestamp())*1000 if original_time else None\n\ntactic = (\n    sourceFields[\"signal.rule.threat.tactic.name\"][0]\n    if \"signal.rule.threat.tactic.name\" in sourceFields and sourceFields[\"signal.rule.threat.tactic.name\"]\n    else None\n)\n\nfor tid in raw_ttps:\n    if tid and tid not in seen_ids:\n        seen_ids.add(tid)\n        procedures.append({\n            \"patternId\": tid,\n            \"occurDate\": occur_date,\n            \"tactic\": tactic\n        })\n\nobservables = [\n    {\"dataType\": \"ip\", \"data\": sourceFields[\"host.ip\"][0]},\n    {\"dataType\": \"filename\", \"data\": sourceFields[\"process.name.text\"][0]},\n    {\"dataType\": \"fqdn\", \"data\": sourceFields[\"host.hostname\"][0]},\n    {\"dataType\": \"registry\", \"data\": sourceFields[\"registry.path\"][0]},\n    {\"dataType\": \"registry\", \"data\": sourceFields[\"registry.value\"][0]},\n]\n\n# Optional: process hash (ECS field process.hash.sha256) -> \"hash\" observable,\n# without this the Recorded Future Hash check branch never has anything to run on\nprocess_hash = (\n    sourceFields[\"process.hash.sha256\"][0]\n    if \"process.hash.sha256\" in sourceFields and sourceFields[\"process.hash.sha256\"]\n    else None\n)\nif process_hash:\n    observables.append({\"dataType\": \"hash\", \"data\": process_hash})\n\nNormalize_Alert={\n    \"type\": sourceFields[\"message\"][0],\n    \"source\": \"Elasticsearch\",\n    \"sourceRef\": data[\"_id\"],\n    \"title\": sourceFields[\"kibana.alert.rule.name\"][0],\n    \"description\": \"# **Alert description** : \"+ \"\\n\" + sourceFields[\"signal.rule.description\"][0]+\"\\n\"+\"# **Alert reason** :\"+sourceFields[\"kibana.alert.reason\"][0]+\"\\n # **MITRE ATT&CK Reference** : \"+\"\\n\"+sourceFields[\"kibana.alert.rule.threat.technique.subtechnique.reference\"][0]+\"\\n\"+sourceFields[\"kibana.alert.rule.threat.tactic.reference\"][0],\n    \"severity\": severity,\n    \"date\": int(datetime.fromisoformat(sourceFields[\"signal.original_time\"][0].replace(\"Z\", \"+00:00\")).timestamp())*1000,\n    \"tags\": sourceFields[\"signal.rule.tags\"],\n    \"customFields\": [\n    \t{\"name\":\"sourcefields\",\"value\":sourceFields[\"host.os.full.text\"][0]},\n    \t{\"name\":\"sourcefields\",\"value\":sourceFields[\"host.hostname\"][0]},\n       \t{\"name\":\"sourcefields\",\"value\":sourceFields[\"process.executable.text\"][0]}\n    ],\n    \"observables\": observables,\n    \"procedures\": procedures\n}\n\nflow.set(\"thehiveAlert\",Normalize_Alert)"
+    ui:
+      position:
+        x: 400.99999999999994
+        'y': 205
+      variableInputs: {}
+  start--new-playbook--51fb5721-2254-4021-b46f-5a4141967f95:
+    id: start--new-playbook--51fb5721-2254-4021-b46f-5a4141967f95
+    type: start
+    on_success: cae7a2aa-b33e-4c61-b60b-f36cda75993e
+    ui:
+      position:
+        x: 400.99999999999994
+        'y': 0
+created_by: lucas.burte@strangebee.com
+created: '2026-09-10T15:10:46.045929Z'
+modified_by: lucas.burte@strangebee.com
+modified: '2026-10-05T13:55:54.092435Z'
+revoked: false

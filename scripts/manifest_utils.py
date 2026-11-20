@@ -331,6 +331,30 @@ def _rebrand_item_names(items: List[Dict], vendor: str, display_name: str) -> No
             item['name'] = display_name + name[len(vendor):]
 
 
+def _link_workflow_files(vendor: str, workflows: List[Dict]) -> List[Dict]:
+    """Add the export file links to each declared workflow whose thehive/workflows/<slug>.yml exists."""
+    root = Path('integrations') / 'vendors' / vendor / 'thehive' / 'workflows'
+    files = {}
+    if root.exists():
+        for file_path in sorted(list(root.glob('*.yml')) + list(root.glob('*.yaml'))):
+            if not file_path.name.startswith('_'):
+                files.setdefault(file_path.stem.lower(), file_path.name)
+
+    linked = []
+    for workflow in workflows or []:
+        if not isinstance(workflow, dict):
+            continue
+        workflow = dict(workflow)
+        file_name = files.get(workflow_slug(workflow))
+        if file_name:
+            relative_path = f"integrations/vendors/{vendor}/thehive/workflows/{file_name}"
+            workflow['file'] = relative_path
+            workflow['file_url'] = build_url(relative_path)
+            workflow['github_url'] = build_github_url(relative_path)
+        linked.append(workflow)
+    return linked
+
+
 def generate_vendor_manifest(vendor: str) -> Dict:
     vendor_metadata = read_vendor_metadata(vendor)
     analyzers, analyzer_sub = scan_analyzers(vendor)
@@ -348,6 +372,7 @@ def generate_vendor_manifest(vendor: str) -> Dict:
     notifier_count = 1 if is_notifier else 0
     flow_count = 1 if vendor_metadata.get('flow') else 0
     workflows_count = len(vendor_metadata.get('workflows', []))
+    vendor_metadata['workflows'] = _link_workflow_files(vendor, vendor_metadata.get('workflows', []))
 
     return {
         **vendor_metadata,
@@ -683,3 +708,117 @@ def scan_notifications(root: Path, relative_root: str, owner: Dict) -> List[Dict
         if entry:
             notifications.append(entry)
     return notifications
+
+
+def _read_workflow_export(file_path: Path) -> Optional[Dict]:
+    """Facts derived from one TheHive Flow export. The export is only read, never rewritten, and
+    its instance metadata (id, organisation, created_by, modified_by) is never copied.
+    Any file that does not have the expected shape is skipped with a warning."""
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            raw = f.read()
+        data = yaml.safe_load(raw)
+        if not isinstance(data, dict) or not isinstance(data.get('workflow'), dict):
+            print(f"  Warning: {file_path} is not a TheHive Flow export, skipped")
+            return None
+
+        steps = [s for s in data['workflow'].values() if isinstance(s, dict)]
+        commands = set()
+        for step in steps:
+            command = step.get('command')
+            if isinstance(command, dict) and isinstance(command.get('command'), str):
+                commands.add(command['command'])
+        # strangebee.integration.<name>.<version> -> <name>
+        integrations = sorted({c.split('.')[2] for c in commands
+                               if c.startswith('strangebee.integration.') and len(c.split('.')) > 2})
+        variables = data.get('variables')
+        declared_inputs = variables.get('input') if isinstance(variables, dict) else None
+        inputs = [v['name'] for v in declared_inputs or [] if isinstance(v, dict) and v.get('name')]
+
+        return {
+            'exportName': data.get('name'),
+            'specVersion': data.get('spec_version'),
+            'version': data.get('version'),
+            'timeout': data.get('timeout'),
+            'steps': sum(1 for s in steps if s.get('type') != 'start'),
+            'integrations': integrations,
+            'commands': sorted(commands),
+            'inputs': inputs,
+            # What the importer has to bind in their own instance before the workflow can run
+            'requires': {
+                'secrets': len(set(re.findall(r'\$secret\["([^"]+)"\]', raw))),
+                'globals': len(set(re.findall(r'\$global\["([^"]+)"\]', raw))),
+            },
+        }
+    except Exception as e:
+        print(f"  Warning: cannot read workflow {file_path}: {e}")
+        return None
+
+
+def workflow_slug_from_url(url: str) -> str:
+    """https://strangebee.com/workflow/Command-Line-Analysis/?x=1 -> command-line-analysis"""
+    path = re.split(r'[?#]', url or '', maxsplit=1)[0]
+    return path.rstrip('/').rsplit('/', 1)[-1].lower()
+
+
+def workflow_slug(workflow: Dict) -> str:
+    """Slug that ties a declared workflow to its export file: from the page url, else from the name."""
+    return (workflow_slug_from_url(workflow.get('url'))
+            or re.sub(r'[^a-z0-9]+', '-', (workflow.get('name') or '').lower()).strip('-'))
+
+
+def scan_workflows(root: Path, relative_root: str, declared: List[Dict], owner: Dict) -> List[Dict]:
+    """Workflows of one owner: the declared entries (name, url, description), each joined to its
+    export file <root>/<slug>.yml when present. Export files with no declaration are listed too,
+    with a warning, since that usually means the url and the file name do not match.
+    Files starting with '_' are metadata, not exports."""
+    exports = {}
+    if root.exists():
+        for file_path in sorted(list(root.glob('*.yml')) + list(root.glob('*.yaml'))):
+            if file_path.name.startswith('_'):
+                continue
+            slug = file_path.stem.lower()
+            if slug in exports:
+                print(f"  Warning: {file_path} ignored, {exports[slug][0].name} already provides '{slug}'")
+                continue
+            export = _read_workflow_export(file_path)
+            if export:
+                exports[slug] = (file_path, export)
+
+    def entry(slug: str, name: str, url: Optional[str], description: Optional[str]) -> Dict:
+        item = {
+            'id': f"{owner['id'].lower()}/{slug}",
+            'name': name,
+            'url': url,
+            'description': description,
+            'owner': owner,
+            'hasFile': slug in exports,
+        }
+        if slug in exports:
+            file_path, export = exports.pop(slug)
+            relative_path = f"{relative_root}/{file_path.name}"
+            item.update({
+                'file': relative_path,
+                'file_url': build_url(relative_path),
+                'github_url': build_github_url(relative_path),
+                **export,
+            })
+        return item
+
+    workflows = []
+    seen = set()
+    for workflow in declared or []:
+        if not isinstance(workflow, dict) or not workflow.get('name'):
+            print(f"  Warning: workflow entry without a name ignored for {owner['id']}")
+            continue
+        slug = workflow_slug(workflow)
+        if slug in seen:
+            print(f"  Warning: workflow '{workflow['name']}' ignored for {owner['id']}, '{slug}' is declared twice")
+            continue
+        seen.add(slug)
+        workflows.append(entry(slug, workflow['name'], workflow.get('url'), workflow.get('description')))
+    for slug in sorted(exports):
+        file_path, export = exports[slug]
+        print(f"  Warning: {relative_root}/{file_path.name} has no declared workflow (name, url, description)")
+        workflows.append(entry(slug, export.get('exportName') or slug, None, None))
+    return workflows

@@ -1,0 +1,7 @@
+# Catalog metadata for the generic workflows in this folder.
+# Same shape as the `workflows:` list of a vendor.yml. An entry is matched to its export file by
+# the last segment of its url: .../workflow/command-line-analysis/ -> command-line-analysis.yml
+workflows:
+  - name: "Command line analysis"
+    url: "https://strangebee.com/workflow/command-line-analysis/"
+    description: "Automatically analyzes command-line activity in TheHive alerts to extract indicators of compromise (IOCs), including IP addresses, URLs, domains and file hashes. It decodes Base64-encoded PowerShell commands and adds extracted indicators as observables for further investigation."

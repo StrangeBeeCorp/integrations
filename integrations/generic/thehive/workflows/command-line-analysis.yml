@@ -1,0 +1,789 @@
+version: v1.0.0
+spec_version: chocolate-v2.0.0
+id: playbook-01a07b39-1637-771d-9263-aba813af36e0
+name: Command Line Analysis
+organisation: ~942084232
+timeout: 10m0s
+workflow_start: start--new-playbook--bd7096d6-201e-46ce-993f-a1c99b55ddd6
+workflow:
+  0c857c79-c296-4247-b075-4f01b82089d0:
+    id: 0c857c79-c296-4247-b075-4f01b82089d0
+    name: Create Raw Observable
+    type: action
+    command:
+      command: strangebee.integration.thehive.v1
+      version: v1.0.0
+      type: strangebee
+      parameters:
+        Proxy: disabled
+        Server Verification: default
+        action: create_observable_in_alert
+        authentication: bearer_token
+        base_url: '{{ $global["01a03e0a-ef44-73c0-b013-dbadd5f4c448"] }}'
+        bearer_token: '{{ $secret["01a024b0-50c1-7ad8-add6-485a1c769236"] }}'
+        create_observable_in_alert__alertId: '{{ $steps["31721baf-87b1-4dd8-a12c-5072d7ed0cf0"].body._id }}'
+        create_observable_in_alert__data: >-
+          {{
+          $steps["35e37c17-3fcc-4882-b3f6-596e79fe1f14"]["275dbcec-88ec-4671-85dd-40e9cb04118c"].data
+          }}
+        create_observable_in_alert__dataType: >-
+          {{
+          $steps["35e37c17-3fcc-4882-b3f6-596e79fe1f14"]["275dbcec-88ec-4671-85dd-40e9cb04118c"].dataType
+          }}
+        create_observable_in_alert__ignoreSimilarity: no_change
+        create_observable_in_alert__ioc: no_change
+        create_observable_in_alert__message: Extracted from command line via regex
+        create_observable_in_alert__sighted: no_change
+        editor_mode: form
+        mTLS: disabled
+        manual_status_handling: 'false'
+    ui:
+      position:
+        x: 709.4137550000002
+        'y': 723.0036100000001
+      variableInputs:
+        command.parameters.base_url:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: global["01a03e0a-ef44-73c0-b013-dbadd5f4c448"]
+                      type: variable
+        command.parameters.bearer_token:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: secret["01a024b0-50c1-7ad8-add6-485a1c769236"]
+                      type: variable
+        command.parameters.create_observable_in_alert__data:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["35e37c17-3fcc-4882-b3f6-596e79fe1f14"]["275dbcec-88ec-4671-85dd-40e9cb04118c"]
+                      type: variable
+                    - type: text
+                      value: .data
+        command.parameters.create_observable_in_alert__alertId:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["31721baf-87b1-4dd8-a12c-5072d7ed0cf0"].body
+                      type: variable
+                    - type: text
+                      value: ._id
+        command.parameters.create_observable_in_alert__message:
+          wireDoc:
+            nodes:
+              - type: text
+                value: Extracted from command line via regex
+        command.parameters.create_observable_in_alert__dataType:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["35e37c17-3fcc-4882-b3f6-596e79fe1f14"]["275dbcec-88ec-4671-85dd-40e9cb04118c"]
+                      type: variable
+                    - type: text
+                      value: .dataType
+  0d87781c-739f-40e6-8e84-add53fa70554:
+    id: 0d87781c-739f-40e6-8e84-add53fa70554
+    name: Decode Base64
+    type: action
+    on_success:
+      - 41035bf3-1836-4350-81da-67d81ade597c
+      - f7eedfd1-22c7-4cd4-840a-9b679c7260a5
+      - 3ff19619-cb57-4545-9f90-b61f3c159f6e
+    command:
+      command: strangebee.code.execute.python@v3_11
+      version: v1.0.0
+      type: strangebee
+      parameters:
+        script: >-
+          import base64
+
+
+          b64 =
+          flow.get('$steps["0e244b75-e8f5-492d-8a1f-c3ed5f3dd836"]["ac73121f-cfc5-4cf2-b517-e156c1acdff2"]')
+
+
+          decoded = base64.b64decode(b64).decode("utf-16-le")
+
+
+          flow.set("b64_decode",decoded)
+    ui:
+      position:
+        x: 232.42000000000002
+        'y': 602.92
+      variableInputs: {}
+  0e244b75-e8f5-492d-8a1f-c3ed5f3dd836:
+    id: 0e244b75-e8f5-492d-8a1f-c3ed5f3dd836
+    name: Set Encoded Command Line
+    type: action
+    on_success: 0d87781c-739f-40e6-8e84-add53fa70554
+    command:
+      command: strangebee.variable.new
+      version: v1.0.0
+      type: strangebee
+      parameters:
+        variables:
+          - id: ac73121f-cfc5-4cf2-b517-e156c1acdff2
+            name: EncodeCommandLine
+            type: string
+            value: >-
+              {{
+              $steps["5f0f112a-b6b0-4458-b44a-218e8974e722"]["ee1a38ff-22d9-41cf-9a0f-ad728d1fb813"].data
+              | capture("-Enc\\s+(?P<b64>[A-Za-z0-9+/]{20,}={0,2})") | .b64 }}
+    ui:
+      position:
+        x: 234.00000000000006
+        'y': 501.6400000000001
+      variableInputs:
+        command.parameters.variables:
+          wireDocs:
+            - nodes:
+                - type: context
+                  expression:
+                    nodes:
+                      - key: steps["5f0f112a-b6b0-4458-b44a-218e8974e722"]["ee1a38ff-22d9-41cf-9a0f-ad728d1fb813"]
+                        type: variable
+                      - type: text
+                        value: >-
+                          .data |
+                          capture("-Enc\\s+(?P<b64>[A-Za-z0-9+/]{20,}={0,2})") |
+                          .b64
+  31721baf-87b1-4dd8-a12c-5072d7ed0cf0:
+    id: 31721baf-87b1-4dd8-a12c-5072d7ed0cf0
+    name: Get Alert
+    type: action
+    on_success: 87719176-dad5-4d20-a797-fc672593d9ca
+    command:
+      command: strangebee.integration.thehive.v1
+      version: v1.0.0
+      type: strangebee
+      parameters:
+        Proxy: disabled
+        Server Verification: default
+        action: get_alert
+        authentication: bearer_token
+        base_url: '{{ $global["01a03e0a-ef44-73c0-b013-dbadd5f4c448"] }}'
+        bearer_token: '{{ $secret["01a024b0-50c1-7ad8-add6-485a1c769236"] }}'
+        get_alert__alertId: '{{ $input.payload.alert_id }}'
+        mTLS: disabled
+        manual_status_handling: false
+    ui:
+      position:
+        x: 456.94000000000005
+        'y': 23.680000000000007
+      variableInputs:
+        command.parameters.base_url:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: global["01a03e0a-ef44-73c0-b013-dbadd5f4c448"]
+                      type: variable
+        command.parameters.bearer_token:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: secret["01a024b0-50c1-7ad8-add6-485a1c769236"]
+                      type: variable
+        command.parameters.get_alert__alertId:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: input.payload
+                      type: variable
+                    - type: text
+                      value: .alert_id
+  35e37c17-3fcc-4882-b3f6-596e79fe1f14:
+    id: 35e37c17-3fcc-4882-b3f6-596e79fe1f14
+    name: For Each Raw IOC
+    type: foreach
+    foreach:
+      foreach: $steps["9673a43c-6478-4e2c-9239-a662e4c15ee5"].iocs
+      key_variable: idx
+      key_variable_id: 9979df16-c500-4703-b37e-a300053b8878
+      value_variable: item
+      value_variable_id: 275dbcec-88ec-4671-85dd-40e9cb04118c
+      body: 0c857c79-c296-4247-b075-4f01b82089d0
+    ui:
+      position:
+        x: 708.9277075
+        'y': 606.282635
+      variableInputs:
+        foreach.foreach:
+          wireDoc:
+            nodes:
+              - key: steps["9673a43c-6478-4e2c-9239-a662e4c15ee5"].iocs
+                type: variable
+        foreach.key_variable:
+          wireDoc:
+            nodes:
+              - type: text
+                value: idx
+        foreach.value_variable:
+          wireDoc:
+            nodes:
+              - type: text
+                value: item
+  3ad6fed0-5376-4fad-b304-13f1181ee05d:
+    id: 3ad6fed0-5376-4fad-b304-13f1181ee05d
+    name: Create Decoded Observable
+    type: action
+    command:
+      command: strangebee.integration.thehive.v1
+      version: v1.0.0
+      type: strangebee
+      parameters:
+        Proxy: disabled
+        Server Verification: default
+        action: create_observable_in_alert
+        authentication: bearer_token
+        base_url: '{{ $global["01a03e0a-ef44-73c0-b013-dbadd5f4c448"] }}'
+        bearer_token: '{{ $secret["01a024b0-50c1-7ad8-add6-485a1c769236"] }}'
+        create_observable_in_alert__alertId: '{{ $steps["31721baf-87b1-4dd8-a12c-5072d7ed0cf0"].body._id }}'
+        create_observable_in_alert__data: >-
+          {{
+          $steps["7a6dff56-9d50-4ecb-a8cd-9e59673da929"]["e6ff411b-9460-4cf1-8d53-067227faae0e"].data
+          }}
+        create_observable_in_alert__dataType: >-
+          {{
+          $steps["7a6dff56-9d50-4ecb-a8cd-9e59673da929"]["e6ff411b-9460-4cf1-8d53-067227faae0e"].dataType
+          }}
+        create_observable_in_alert__ignoreSimilarity: no_change
+        create_observable_in_alert__ioc: no_change
+        create_observable_in_alert__message: Extracted from decoded PowerShell command
+        create_observable_in_alert__sighted: no_change
+        editor_mode: form
+        mTLS: disabled
+        manual_status_handling: 'false'
+    ui:
+      position:
+        x: 476.54819499999996
+        'y': 927.1479549999998
+      variableInputs:
+        command.parameters.base_url:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: global["01a03e0a-ef44-73c0-b013-dbadd5f4c448"]
+                      type: variable
+        command.parameters.bearer_token:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: secret["01a024b0-50c1-7ad8-add6-485a1c769236"]
+                      type: variable
+        command.parameters.create_observable_in_alert__data:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["7a6dff56-9d50-4ecb-a8cd-9e59673da929"]["e6ff411b-9460-4cf1-8d53-067227faae0e"]
+                      type: variable
+                    - type: text
+                      value: .data
+        command.parameters.create_observable_in_alert__alertId:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["31721baf-87b1-4dd8-a12c-5072d7ed0cf0"].body
+                      type: variable
+                    - type: text
+                      value: ._id
+        command.parameters.create_observable_in_alert__message:
+          wireDoc:
+            nodes:
+              - type: text
+                value: Extracted from decoded PowerShell command
+        command.parameters.create_observable_in_alert__dataType:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["7a6dff56-9d50-4ecb-a8cd-9e59673da929"]["e6ff411b-9460-4cf1-8d53-067227faae0e"]
+                      type: variable
+                    - type: text
+                      value: .dataType
+  3ff19619-cb57-4545-9f90-b61f3c159f6e:
+    id: 3ff19619-cb57-4545-9f90-b61f3c159f6e
+    name: Extract IOCs Decoded Command
+    type: action
+    on_success: 7a6dff56-9d50-4ecb-a8cd-9e59673da929
+    command:
+      command: strangebee.code.execute.python@v3_11
+      version: v1.0.0
+      type: strangebee
+      parameters:
+        script: >-
+          import re
+
+
+          cmd =
+          flow.get('$steps["0d87781c-739f-40e6-8e84-add53fa70554"].b64_decode')
+          or ""
+
+
+          patterns = {
+              "ip":     r'\b(?:(?:25[0-5]|2[0-4]\d|[01]?\d\d?)\.){3}(?:25[0-5]|2[0-4]\d|[01]?\d\d?)\b',
+              "url":    r'https?://[^\s"\'<>]+',
+              "domain": r'\b(?:[a-zA-Z0-9](?:[a-zA-Z0-9\-]{0,61}[a-zA-Z0-9])?\.)+[a-zA-Z]{2,}\b',
+              "hash":   r'\b[a-fA-F0-9]{64}\b|\b[a-fA-F0-9]{40}\b|\b[a-fA-F0-9]{32}\b',
+          }
+
+
+          FILE_EXTS = {'.exe', '.dll', '.ps1', '.bat', '.cmd', '.sys', '.vbs',
+          '.js', '.msi'}
+
+
+          seen = set()
+
+          iocs = []
+
+          for dtype, pattern in patterns.items():
+              for match in re.findall(pattern, cmd):
+                  if dtype == "domain" and any(match.lower().endswith(e) for e in FILE_EXTS):
+                      continue
+                  key = f"{dtype}:{match}"
+                  if key not in seen:
+                      seen.add(key)
+                      iocs.append({"dataType": dtype, "data": match})
+
+          flow.set("iocs", iocs)
+    ui:
+      position:
+        x: 471.15999999999997
+        'y': 724.3000000000001
+      variableInputs: {}
+  41035bf3-1836-4350-81da-67d81ade597c:
+    id: 41035bf3-1836-4350-81da-67d81ade597c
+    name: Add Comment to Alert
+    type: action
+    command:
+      command: strangebee.integration.thehive.v1
+      version: v1.0.0
+      type: strangebee
+      parameters:
+        Proxy: disabled
+        Server Verification: default
+        action: create_comment_in_alert
+        authentication: bearer_token
+        base_url: '{{ $global["01a03e0a-ef44-73c0-b013-dbadd5f4c448"] }}'
+        bearer_token: '{{ $secret["01a024b0-50c1-7ad8-add6-485a1c769236"] }}'
+        create_comment_in_alert__alertId: '{{ $steps["31721baf-87b1-4dd8-a12c-5072d7ed0cf0"].body._id }}'
+        create_comment_in_alert__message: >-
+          Base64 encoded command line detected : {{
+          $steps["0d87781c-739f-40e6-8e84-add53fa70554"].b64_decode }}
+        editor_mode: form
+        mTLS: disabled
+        manual_status_handling: 'false'
+    ui:
+      position:
+        x: -11.060000000000002
+        'y': 724.3
+      variableInputs:
+        command.parameters.base_url:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: global["01a03e0a-ef44-73c0-b013-dbadd5f4c448"]
+                      type: variable
+        command.parameters.bearer_token:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: secret["01a024b0-50c1-7ad8-add6-485a1c769236"]
+                      type: variable
+        command.parameters.create_comment_in_alert__alertId:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["31721baf-87b1-4dd8-a12c-5072d7ed0cf0"].body
+                      type: variable
+                    - type: text
+                      value: ._id
+        command.parameters.create_comment_in_alert__message:
+          wireDoc:
+            nodes:
+              - type: text
+                value: 'Base64 encoded command line detected : '
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["0d87781c-739f-40e6-8e84-add53fa70554"].b64_decode
+                      type: variable
+  5de1a4e2-b1f2-4391-8630-e692fef1c95a:
+    id: 5de1a4e2-b1f2-4391-8630-e692fef1c95a
+    name: Set Command Line Array
+    type: action
+    on_success: b10693d0-3910-4d75-9866-81b2cf165b44
+    command:
+      command: strangebee.variable.new
+      version: v1.0.0
+      type: strangebee
+      parameters:
+        variables:
+          - id: 8ee41b75-5197-4f57-9697-8e1d75b6d507
+            name: CommandLineArray
+            type: array
+            value: ''
+    ui:
+      position:
+        x: 455.6450876923077
+        'y': 188.69154673076923
+      variableInputs:
+        command.parameters.variables:
+          wireDocs:
+            - nodes: []
+  62907ebe-ef59-4709-b231-a42cce3f3d33:
+    id: 62907ebe-ef59-4709-b231-a42cce3f3d33
+    name: If Base64 Encoded
+    type: if-condition
+    condition: >-
+      $steps["b10693d0-3910-4d75-9866-81b2cf165b44"]["53b22c14-0f49-4abb-a3a9-fbf65054b9dd"].data
+      | test("-Enc\\s+[A-Za-z0-9+/]{20,}={0,2}")
+    on_true: 0e244b75-e8f5-492d-8a1f-c3ed5f3dd836
+    on_false: 9673a43c-6478-4e2c-9239-a662e4c15ee5
+    ui:
+      position:
+        x: 453.7800000000002
+        'y': 387.4027834848258
+      variableInputs:
+        condition:
+          wireDoc:
+            nodes:
+              - key: steps["b10693d0-3910-4d75-9866-81b2cf165b44"]["53b22c14-0f49-4abb-a3a9-fbf65054b9dd"]
+                type: variable
+              - type: text
+                value: .data | test("-Enc\\s+[A-Za-z0-9+/]{20,}={0,2}")
+  7a6dff56-9d50-4ecb-a8cd-9e59673da929:
+    id: 7a6dff56-9d50-4ecb-a8cd-9e59673da929
+    name: For Each Decoded IOC
+    type: foreach
+    foreach:
+      foreach: $steps["3ff19619-cb57-4545-9f90-b61f3c159f6e"].iocs
+      key_variable: idx
+      key_variable_id: 6e188896-b2a2-42e8-b57c-f6b1790c7b2c
+      value_variable: item
+      value_variable_id: e6ff411b-9460-4cf1-8d53-067227faae0e
+      body: 3ad6fed0-5376-4fad-b304-13f1181ee05d
+    ui:
+      position:
+        x: 472.45638999999994
+        'y': 826.1466275
+      variableInputs:
+        foreach.foreach:
+          wireDoc:
+            nodes:
+              - key: steps["3ff19619-cb57-4545-9f90-b61f3c159f6e"].iocs
+                type: variable
+        foreach.key_variable:
+          wireDoc:
+            nodes:
+              - type: text
+                value: idx
+        foreach.value_variable:
+          wireDoc:
+            nodes:
+              - type: text
+                value: item
+  87719176-dad5-4d20-a797-fc672593d9ca:
+    id: 87719176-dad5-4d20-a797-fc672593d9ca
+    name: Get Alert Observables
+    type: action
+    on_success: 5de1a4e2-b1f2-4391-8630-e692fef1c95a
+    command:
+      command: strangebee.integration.thehive.v1
+      version: v1.0.0
+      type: strangebee
+      parameters:
+        Proxy: disabled
+        Server Verification: default
+        action: post_query
+        authentication: bearer_token
+        base_url: '{{ $global["01a03e0a-ef44-73c0-b013-dbadd5f4c448"] }}'
+        bearer_token: '{{ $secret["01a024b0-50c1-7ad8-add6-485a1c769236"] }}'
+        editor_mode: form
+        mTLS: disabled
+        manual_status_handling: false
+        post_query__query: |-
+          [
+                  {
+                      "_name": "getAlert",
+                      "idOrName": "{{ $steps["31721baf-87b1-4dd8-a12c-5072d7ed0cf0"].body._id }}"
+                  },
+                  {
+                      "_name": "observables"
+                  }
+          ]
+    ui:
+      position:
+        x: 456.6968775
+        'y': 112.157655
+      variableInputs:
+        command.parameters.base_url:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: global["01a03e0a-ef44-73c0-b013-dbadd5f4c448"]
+                      type: variable
+        command.parameters.bearer_token:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: secret["01a024b0-50c1-7ad8-add6-485a1c769236"]
+                      type: variable
+        command.parameters.post_query__query:
+          wireDoc:
+            nodes:
+              - type: text
+                value: |-
+                  [
+                          {
+                              "_name": "getAlert",
+                              "idOrName": "
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["31721baf-87b1-4dd8-a12c-5072d7ed0cf0"].body
+                      type: variable
+                    - type: text
+                      value: ._id
+              - type: text
+                value: |-
+                  "
+                          },
+                          {
+                              "_name": "observables"
+                          }
+                  ]
+  9673a43c-6478-4e2c-9239-a662e4c15ee5:
+    id: 9673a43c-6478-4e2c-9239-a662e4c15ee5
+    name: Extract IOCs Raw Command
+    type: action
+    on_success: 35e37c17-3fcc-4882-b3f6-596e79fe1f14
+    command:
+      command: strangebee.code.execute.python@v3_11
+      version: v1.0.0
+      type: strangebee
+      parameters:
+        script: >-
+          import re
+
+          import json
+
+
+          cmd =
+          flow.get('$steps["b10693d0-3910-4d75-9866-81b2cf165b44"]["53b22c14-0f49-4abb-a3a9-fbf65054b9dd"]').get("data")
+          or ""
+
+
+          patterns = {
+              "ip":     r'\b(?:(?:25[0-5]|2[0-4]\d|[01]?\d\d?)\.){3}(?:25[0-5]|2[0-4]\d|[01]?\d\d?)\b',
+              "url":    r'https?://[^\s"\'<>]+',
+              "domain": r'\b(?:[a-zA-Z0-9](?:[a-zA-Z0-9\-]{0,61}[a-zA-Z0-9])?\.)+[a-zA-Z]{2,}\b',
+              "hash":   r'\b[a-fA-F0-9]{64}\b|\b[a-fA-F0-9]{40}\b|\b[a-fA-F0-9]{32}\b',
+          }
+
+
+          FILE_EXTS = {'.exe', '.dll', '.ps1', '.bat', '.cmd', '.sys', '.vbs',
+          '.js', '.msi'}
+
+
+          seen = set()
+
+          iocs = []
+
+          for dtype, pattern in patterns.items():
+              for match in re.findall(pattern, cmd):
+                  if dtype == "domain" and any(match.lower().endswith(e) for e in FILE_EXTS):
+                      continue
+                  key = f"{dtype}:{match}"
+                  if key not in seen:
+                      seen.add(key)
+                      iocs.append({"dataType": dtype, "data": match})
+
+          flow.set("iocs", iocs)
+    ui:
+      position:
+        x: 708.3199999999999
+        'y': 503.22
+      variableInputs: {}
+  b10693d0-3910-4d75-9866-81b2cf165b44:
+    id: b10693d0-3910-4d75-9866-81b2cf165b44
+    name: For Each Command Line
+    type: foreach
+    foreach:
+      foreach: $steps["5de1a4e2-b1f2-4391-8630-e692fef1c95a"]["8ee41b75-5197-4f57-9697-8e1d75b6d507"]
+      key_variable: idx
+      key_variable_id: 19fee10b-c149-46a9-9b1d-55b4d788894c
+      value_variable: item
+      value_variable_id: 53b22c14-0f49-4abb-a3a9-fbf65054b9dd
+      body: 62907ebe-ef59-4709-b231-a42cce3f3d33
+    ui:
+      position:
+        x: 453.2487721039158
+        'y': 276.54852516391605
+      variableInputs:
+        foreach.foreach:
+          wireDoc:
+            nodes:
+              - key: steps["5de1a4e2-b1f2-4391-8630-e692fef1c95a"]["8ee41b75-5197-4f57-9697-8e1d75b6d507"]
+                type: variable
+        foreach.key_variable:
+          wireDoc:
+            nodes:
+              - type: text
+                value: idx
+        foreach.value_variable:
+          wireDoc:
+            nodes:
+              - type: text
+                value: item
+  f7eedfd1-22c7-4cd4-840a-9b679c7260a5:
+    id: f7eedfd1-22c7-4cd4-840a-9b679c7260a5
+    name: Create Observable for Decoded Command
+    type: action
+    command:
+      command: strangebee.integration.thehive.v1
+      version: v1.0.0
+      type: strangebee
+      parameters:
+        Proxy: disabled
+        Server Verification: default
+        action: create_observable_in_alert
+        authentication: bearer_token
+        base_url: '{{ $global["01a03e0a-ef44-73c0-b013-dbadd5f4c448"] }}'
+        bearer_token: '{{ $secret["01a024b0-50c1-7ad8-add6-485a1c769236"] }}'
+        create_observable_in_alert__alertId: '{{ $steps["31721baf-87b1-4dd8-a12c-5072d7ed0cf0"].body._id }}'
+        create_observable_in_alert__data: '{{ $steps["0d87781c-739f-40e6-8e84-add53fa70554"].b64_decode }}'
+        create_observable_in_alert__dataType: command-line
+        create_observable_in_alert__ignoreSimilarity: no_change
+        create_observable_in_alert__ioc: no_change
+        create_observable_in_alert__message: >-
+          command obfuscated behind the following Base64: {{
+          $steps["0e244b75-e8f5-492d-8a1f-c3ed5f3dd836"]["ac73121f-cfc5-4cf2-b517-e156c1acdff2"]
+          }}
+        create_observable_in_alert__sighted: no_change
+        editor_mode: form
+        mTLS: disabled
+        manual_status_handling: 'false'
+    ui:
+      position:
+        x: 230.83999999999997
+        'y': 725.8800000000001
+      variableInputs:
+        command.parameters.base_url:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: global["01a03e0a-ef44-73c0-b013-dbadd5f4c448"]
+                      type: variable
+        command.parameters.bearer_token:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: secret["01a024b0-50c1-7ad8-add6-485a1c769236"]
+                      type: variable
+        command.parameters.create_comment_in_alert__alertId:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["31721baf-87b1-4dd8-a12c-5072d7ed0cf0"].body
+                      type: variable
+                    - type: text
+                      value: ._id
+        command.parameters.create_comment_in_alert__message:
+          wireDoc:
+            nodes:
+              - type: text
+                value: 'Base64 encoded command line detected : '
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["0d87781c-739f-40e6-8e84-add53fa70554"].b64_decode
+                      type: variable
+        command.parameters.create_observable_in_alert__data:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["0d87781c-739f-40e6-8e84-add53fa70554"].b64_decode
+                      type: variable
+        command.parameters.create_observable_in_alert__alertId:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["31721baf-87b1-4dd8-a12c-5072d7ed0cf0"].body
+                      type: variable
+                    - type: text
+                      value: ._id
+        command.parameters.create_observable_in_alert__message:
+          wireDoc:
+            nodes:
+              - type: text
+                value: 'command obfuscated behind the following Base64: '
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["0e244b75-e8f5-492d-8a1f-c3ed5f3dd836"]["ac73121f-cfc5-4cf2-b517-e156c1acdff2"]
+                      type: variable
+        command.parameters.create_observable_in_alert__dataType:
+          wireDoc:
+            nodes:
+              - type: text
+                value: command-line
+  start--new-playbook--bd7096d6-201e-46ce-993f-a1c99b55ddd6:
+    id: start--new-playbook--bd7096d6-201e-46ce-993f-a1c99b55ddd6
+    type: start
+    on_success: 31721baf-87b1-4dd8-a12c-5072d7ed0cf0
+    ui:
+      position:
+        x: 458.52
+        'y': -107.44
+created_by: lucas.burte@strangebee.com
+created: '2026-09-07T09:35:33.943466Z'
+modified_by: martin.bridenne@strangebee.com
+modified: '2026-09-22T08:31:24.178157Z'
+revoked: false

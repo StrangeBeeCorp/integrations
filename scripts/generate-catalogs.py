@@ -14,7 +14,7 @@ from typing import Dict
 from manifest_utils import (
     CURRENT_BRANCH, BASE_URL,
     find_vendors, generate_vendor_manifest, parse_function_metadata, scan_case_templates, scan_dashboards,
-    scan_notifications
+    scan_notifications, scan_workflows
 )
 
 
@@ -142,27 +142,59 @@ def generate_external_integrations_catalog(all_manifests: Dict) -> Dict:
 
 
 def generate_workflows_catalog(all_manifests: Dict) -> Dict:
-    """Catalog of TheHive Flow workflows declared in vendor.yml files (links only for now)."""
+    """Catalog of TheHive Flow workflows, generic and vendor.
+
+    Name, page url and description are declared by hand: in the `workflows:` list of vendor.yml,
+    or in integrations/generic/thehive/workflows/_metadata.yml for generic ones. The export file
+    lives next to them as thehive/workflows/<slug>.yml and only adds derived facts.
+    """
+    generic_root = Path('integrations/generic/thehive/workflows')
+    generic_declared = []
+    metadata_path = generic_root / '_metadata.yml'
+    if metadata_path.exists():
+        try:
+            with open(metadata_path, 'r', encoding='utf-8') as f:
+                metadata = yaml.safe_load(f)
+            generic_declared = metadata.get('workflows') or [] if isinstance(metadata, dict) else []
+            if not isinstance(generic_declared, list):
+                generic_declared = []
+        except (OSError, yaml.YAMLError) as e:
+            print(f"  Warning: cannot read {metadata_path}: {e}")
+
     workflows = []
+    for workflow in scan_workflows(generic_root, 'integrations/generic/thehive/workflows', generic_declared,
+                                   {'type': 'generic', 'id': 'generic', 'name': 'Generic'}):
+        workflows.append({**workflow, 'vendor': 'Generic', 'vendorId': None, 'category': ''})
 
-    for vendor_id, manifest in all_manifests.items():
-        for workflow in manifest.get('workflows', []):
-            workflows.append({
-                'name': workflow.get('name'),
-                'url': workflow.get('url'),
-                'description': workflow.get('description'),
-                'vendor': manifest.get('name'),
-                'vendorId': vendor_id,
-                'category': manifest.get('category')
-            })
+    for vendor_id in find_vendors():
+        manifest = all_manifests.get(vendor_id, {})
+        vendor_name = _vendor_display_name(all_manifests, vendor_id)
+        for workflow in scan_workflows(
+                Path('integrations/vendors') / vendor_id / 'thehive' / 'workflows',
+                f"integrations/vendors/{vendor_id}/thehive/workflows",
+                manifest.get('workflows', []),
+                {'type': 'vendor', 'id': vendor_id, 'name': vendor_name}):
+            workflows.append({**workflow, 'vendor': vendor_name, 'vendorId': vendor_id,
+                              'category': manifest.get('category')})
 
-    workflows.sort(key=lambda x: (x['vendor'].lower(), x['name'].lower()))
+    workflows.sort(key=lambda x: (x['vendor'].lower(), (x['name'] or '').lower()))
+
+    by_integration: Dict[str, list] = {}
+    for workflow in workflows:
+        for integration in workflow.get('integrations', []):
+            by_integration.setdefault(integration, []).append(workflow)
 
     return {
         'totalWorkflows': len(workflows),
+        # A workflow declared by several vendors is one workflow: same page url, else same id
+        'unique_count': len({w.get('url') or w['id'] for w in workflows}),
+        'generic_count': sum(1 for w in workflows if w['owner']['type'] == 'generic'),
+        'vendor_count': sum(1 for w in workflows if w['owner']['type'] == 'vendor'),
+        'with_file_count': sum(1 for w in workflows if w['hasFile']),
         'workflows': workflows,
         'byVendor': _group_by(workflows, 'vendor'),
-        'byCategory': _group_by(workflows, 'category')
+        'byCategory': _group_by(workflows, 'category'),
+        'byIntegration': by_integration,
     }
 
 
@@ -310,7 +342,11 @@ def generate_dashboards_catalog(all_manifests: Dict) -> Dict:
     }
 
 
-def generate_github_summary(all_manifests: Dict, previous_manifests: Dict = None) -> Dict:
+def generate_github_summary(all_manifests: Dict, previous_manifests: Dict = None,
+                            wf_catalog: Dict = None) -> Dict:
+    # Workflows are counted from the catalog: all unique ones, generic included
+    vendor_workflows = sum(m['stats'].get('totalWorkflows', 0) for m in all_manifests.values())
+    unique_workflows = wf_catalog['unique_count'] if wf_catalog else vendor_workflows
     summary = {
         'total_vendors': len(all_manifests),
         'total_analyzers': sum(m['stats']['totalAnalyzers'] for m in all_manifests.values()),
@@ -319,8 +355,9 @@ def generate_github_summary(all_manifests: Dict, previous_manifests: Dict = None
         'total_external_integrations': sum(m['stats'].get('totalExternalIntegrations', 0) for m in all_manifests.values()),
         'total_notifiers': sum(m['stats'].get('totalNotifiers', 0) for m in all_manifests.values()),
         'total_flow': sum(m['stats'].get('totalFlow', 0) for m in all_manifests.values()),
-        'total_workflows': sum(m['stats'].get('totalWorkflows', 0) for m in all_manifests.values()),
-        'total_integrations': sum(m['stats']['total'] for m in all_manifests.values()),
+        'total_workflows': unique_workflows,
+        'total_integrations': (sum(m['stats']['total'] for m in all_manifests.values())
+                               - vendor_workflows + unique_workflows),
         'added': [], 'updated': [], 'removed': []
     }
 
@@ -515,7 +552,7 @@ def main():
         pass
 
     # GitHub Actions summary
-    summary = generate_github_summary(all_manifests, previous_manifests)
+    summary = generate_github_summary(all_manifests, previous_manifests, wf_catalog)
     write_github_summary(summary, generated_path / 'GITHUB_SUMMARY.md')
 
     # Print summary
@@ -526,8 +563,8 @@ def main():
     print(f"Total Functions: {sum(m['stats']['totalFunctions'] for m in all_manifests.values())}")
     print(f"Total External Integrations: {ext_catalog['totalIntegrations']}")
     print(f"Total Notifiers: {sum(m['stats'].get('totalNotifiers', 0) for m in all_manifests.values())}")
-    print(f"Total Workflows: {wf_catalog['totalWorkflows']}")
-    print(f"Total Integrations: {sum(m['stats']['total'] for m in all_manifests.values())}")
+    print(f"Total Workflows: {wf_catalog['unique_count']}")
+    print(f"Total Integrations: {summary['total_integrations']}")
 
 
 if __name__ == '__main__':

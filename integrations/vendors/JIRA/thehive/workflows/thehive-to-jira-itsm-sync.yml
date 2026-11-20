@@ -1,0 +1,1282 @@
+version: v1.0.0
+spec_version: chocolate-v2.0.0
+id: playbook-01a08bd5-2c92-77df-aa88-aea4bb4c57ee
+name: TheHive to Jira ITSM Sync
+organisation: ~942084232
+timeout: 24h0m0s
+description: >-
+  Exemple : a chaque nouvelle alerte TheHive (via webhook), cree une issue Jira
+  miroir puis synchronise les commentaires dans les deux sens (avec marqueur
+  anti-boucle) tant que l'alerte n'est pas cloturee. A la cloture, pousse le
+  resume de l'alerte en commentaire final sur l'issue Jira.
+workflow_start: start--0
+workflow:
+  40571689-460a-49ac-8651-75dc99eb395e:
+    id: 40571689-460a-49ac-8651-75dc99eb395e
+    name: Jira add comment
+    type: action
+    on_success: 9cae18b7-85f2-4d55-ac89-479008bc952b
+    command:
+      command: strangebee.integration.jira.v3
+      version: v1.0.0
+      type: strangebee
+      parameters:
+        Proxy: disabled
+        Server Verification: default
+        action: add_comment
+        add_comment__body_content: |-
+          {
+              "type": "doc",
+              "version": 1,
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": {{ "[From TheHive] " + $steps["55b8600c-4bbb-44fe-b673-a5dcbb90269f"]["bcd7e0db-ec92-4b76-b964-723be675ef7c"].message | tojson  }}
+                    }
+                  ]
+                }
+              ]
+            }
+        add_comment__issueIdOrKey: '{{ $steps["b3bc5fb5-305d-437c-9ffb-ee2a4cc6c1b5"].body.id }}'
+        add_comment__jsdPublic: no_change
+        authentication: basic_auth
+        base_url: '{{ $global["01a08bf0-d2b0-7362-af4c-d5533136c638"] }}'
+        basic_auth_password: '{{ $secret["01a08bf1-5fe2-7185-b6c5-8ae5a5deed53"] }}'
+        editor_mode: form
+        mTLS: disabled
+        manual_status_handling: false
+    ui:
+      position:
+        x: 234
+        'y': 897
+      inputMode:
+        command.parameters.add_comment__body_content: json
+      variableInputs:
+        command.parameters.base_url:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: global["01a08bf0-d2b0-7362-af4c-d5533136c638"]
+                      type: variable
+        command.parameters.basic_auth_login:
+          wireDoc:
+            nodes:
+              - type: text
+                value: lucas.burte@strangebee.com
+        command.parameters.update_comment__id:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["d2783791-2971-4932-8c0c-7d0dc9a4f04a"]["92405c94-bc64-4d40-8b7f-b833477f367c"]
+                      type: variable
+                    - type: text
+                      value: .i
+        command.parameters.basic_auth_password:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: secret["01a08bf1-5fe2-7185-b6c5-8ae5a5deed53"]
+                      type: variable
+        command.parameters.add_comment__body_content:
+          wireDoc:
+            nodes:
+              - type: text
+                value: |-
+                  {
+                      "type": "doc",
+                      "version": 1,
+                      "content": [
+                        {
+                          "type": "paragraph",
+                          "content": [
+                            {
+                              "type": "text",
+                              "text": 
+              - type: context
+                expression:
+                  nodes:
+                    - type: text
+                      value: '"[From TheHive] " + '
+                    - key: steps["55b8600c-4bbb-44fe-b673-a5dcbb90269f"]["bcd7e0db-ec92-4b76-b964-723be675ef7c"]
+                      type: variable
+                    - type: text
+                      value: '.message | tojson '
+              - type: text
+                value: |2-
+
+                            }
+                          ]
+                        }
+                      ]
+                    }
+        command.parameters.add_comment__issueIdOrKey:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["b3bc5fb5-305d-437c-9ffb-ee2a4cc6c1b5"].body
+                      type: variable
+                    - type: text
+                      value: .id
+        command.parameters.update_comment__body_content:
+          wireDoc:
+            nodes:
+              - type: text
+                value: |-
+                  {
+                      "type": "doc",
+                      "version": 1,
+                      "content": [
+                        {
+                          "type": "paragraph",
+                          "content": [
+                            {
+                              "type": "text",
+                              "text":
+              - type: context
+                expression:
+                  nodes:
+                    - type: text
+                      value: '"[Synced] " + (['
+                    - key: steps["d2783791-2971-4932-8c0c-7d0dc9a4f04a"]["92405c94-bc64-4d40-8b7f-b833477f367c"]
+                      type: variable
+                    - type: text
+                      value: >-
+                        .body | .. | objects | select(has("text")) | .text] |
+                        join("")) | tojson
+              - type: text
+                value: |2-
+
+                            }
+                          ]
+                        }
+                      ]
+                    }
+        command.parameters.update_comment__issueIdOrKey:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["b3bc5fb5-305d-437c-9ffb-ee2a4cc6c1b5"].body
+                      type: variable
+                    - type: text
+                      value: .key
+  47f251b7-69b7-4a5b-a65a-0d9b372705b8:
+    id: 47f251b7-69b7-4a5b-a65a-0d9b372705b8
+    name: Jira update comment
+    type: action
+    command:
+      command: strangebee.integration.jira.v3
+      version: v1.0.0
+      type: strangebee
+      parameters:
+        Proxy: disabled
+        Server Verification: default
+        action: update_comment
+        authentication: basic_auth
+        base_url: '{{ $global["01a08bf0-d2b0-7362-af4c-d5533136c638"] }}'
+        basic_auth_password: '{{ $secret["01a08bf1-5fe2-7185-b6c5-8ae5a5deed53"] }}'
+        editor_mode: form
+        mTLS: disabled
+        manual_status_handling: false
+        update_comment__body_content: |-
+          {
+              "type": "doc",
+              "version": 1,
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": {{ "[Synced] " + ([$steps["d2783791-2971-4932-8c0c-7d0dc9a4f04a"]["92405c94-bc64-4d40-8b7f-b833477f367c"].body | .. | objects | select(has("text")) | .text] | join("")) | tojson   }}
+                    }
+                  ]
+                }
+              ]
+            }
+        update_comment__id: >-
+          {{
+          $steps["d2783791-2971-4932-8c0c-7d0dc9a4f04a"]["92405c94-bc64-4d40-8b7f-b833477f367c"].id
+          }}
+        update_comment__issueIdOrKey: '{{ $steps["b3bc5fb5-305d-437c-9ffb-ee2a4cc6c1b5"].body.key }}'
+        update_comment__jsdPublic: no_change
+    ui:
+      position:
+        x: 0
+        'y': 821
+      inputMode:
+        command.parameters.update_comment__body_content: json
+      variableInputs:
+        command.parameters.base_url:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: global["01a08bf0-d2b0-7362-af4c-d5533136c638"]
+                      type: variable
+        command.parameters.basic_auth_login:
+          wireDoc:
+            nodes:
+              - type: text
+                value: lucas.burte@strangebee.com
+        command.parameters.update_comment__id:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["d2783791-2971-4932-8c0c-7d0dc9a4f04a"]["92405c94-bc64-4d40-8b7f-b833477f367c"]
+                      type: variable
+                    - type: text
+                      value: .id
+        command.parameters.basic_auth_password:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: secret["01a08bf1-5fe2-7185-b6c5-8ae5a5deed53"]
+                      type: variable
+        command.parameters.update_comment__body_content:
+          wireDoc:
+            nodes:
+              - type: text
+                value: |-
+                  {
+                      "type": "doc",
+                      "version": 1,
+                      "content": [
+                        {
+                          "type": "paragraph",
+                          "content": [
+                            {
+                              "type": "text",
+                              "text": 
+              - type: context
+                expression:
+                  nodes:
+                    - type: text
+                      value: '"[Synced] " + (['
+                    - key: steps["d2783791-2971-4932-8c0c-7d0dc9a4f04a"]["92405c94-bc64-4d40-8b7f-b833477f367c"]
+                      type: variable
+                    - type: text
+                      value: >-
+                        .body | .. | objects | select(has("text")) | .text] |
+                        join("")) | tojson  
+              - type: text
+                value: |2-
+
+                            }
+                          ]
+                        }
+                      ]
+                    }
+        command.parameters.update_comment__issueIdOrKey:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["b3bc5fb5-305d-437c-9ffb-ee2a4cc6c1b5"].body
+                      type: variable
+                    - type: text
+                      value: .key
+  55b8600c-4bbb-44fe-b673-a5dcbb90269f:
+    id: 55b8600c-4bbb-44fe-b673-a5dcbb90269f
+    name: For Each TheHive Comments
+    type: foreach
+    foreach:
+      foreach: >-
+        $steps["a62d3626-4a91-4803-a1ea-0430d7ffd39e"].body|
+        map(select((.message // "")
+            | (startswith("[From Jira]") | not)
+            and (startswith("[Synced]") | not)))
+      key_variable: idx
+      key_variable_id: 917d7de6-9a7b-42c8-9669-b584eb69e54e
+      value_variable: item
+      value_variable_id: bcd7e0db-ec92-4b76-b964-723be675ef7c
+      body: 40571689-460a-49ac-8651-75dc99eb395e
+    ui:
+      position:
+        x: 234
+        'y': 821
+      variableInputs:
+        foreach.foreach:
+          wireDoc:
+            nodes:
+              - key: steps["a62d3626-4a91-4803-a1ea-0430d7ffd39e"].body
+                type: variable
+              - type: text
+                value: |-
+                  | map(select((.message // "")
+                      | (startswith("[From Jira]") | not)
+                      and (startswith("[Synced]") | not)))
+        foreach.key_variable:
+          wireDoc:
+            nodes:
+              - type: text
+                value: idx
+        foreach.value_variable:
+          wireDoc:
+            nodes:
+              - type: text
+                value: item
+  5ab01604-2730-4928-b69d-7465c17169fc:
+    id: 5ab01604-2730-4928-b69d-7465c17169fc
+    name: Sleep
+    type: action
+    on_success: 5d90b86c-6832-486c-b8e9-d214ed360c44
+    command:
+      command: strangebee.sleep
+      version: v1.0.0
+      type: strangebee
+      parameters:
+        duration: 10s
+    ui:
+      position:
+        x: 117
+        'y': 489
+  5d90b86c-6832-486c-b8e9-d214ed360c44:
+    id: 5d90b86c-6832-486c-b8e9-d214ed360c44
+    name: List Jira comments
+    type: action
+    on_success: d2783791-2971-4932-8c0c-7d0dc9a4f04a
+    command:
+      command: strangebee.integration.jira.v3
+      version: v1.0.0
+      type: strangebee
+      parameters:
+        Proxy: disabled
+        Server Verification: default
+        action: get_comments
+        authentication: basic_auth
+        base_url: '{{ $global["01a08bf0-d2b0-7362-af4c-d5533136c638"] }}'
+        basic_auth_password: '{{ $secret["01a08bf1-5fe2-7185-b6c5-8ae5a5deed53"] }}'
+        get_comments__issueIdOrKey: '{{ $steps["b3bc5fb5-305d-437c-9ffb-ee2a4cc6c1b5"].body.key }}'
+        mTLS: disabled
+        manual_status_handling: false
+    ui:
+      position:
+        x: 117
+        'y': 565
+      inputMode:
+        command.parameters.create_issue__fields: json
+      variableInputs:
+        command.parameters.base_url:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: global["01a08bf0-d2b0-7362-af4c-d5533136c638"]
+                      type: variable
+        command.parameters.basic_auth_login:
+          wireDoc:
+            nodes:
+              - type: text
+                value: lucas.burte@strangebee.com
+        command.parameters.basic_auth_password:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: secret["01a08bf1-5fe2-7185-b6c5-8ae5a5deed53"]
+                      type: variable
+        command.parameters.create_issue__fields:
+          wireDoc:
+            nodes:
+              - type: text
+                value: |-
+                  {
+                    "summary": "New TheHive Alert :
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["97eb0a62-dcd5-4d4a-9785-4e0ad76a4c8d"].body
+                      type: variable
+                    - type: text
+                      value: ._id
+              - type: text
+                value: ' - '
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["97eb0a62-dcd5-4d4a-9785-4e0ad76a4c8d"].body
+                      type: variable
+                    - type: text
+                      value: .title
+              - type: text
+                value: |-
+                  ",
+                    "project": {
+                      "key": "
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["e1d9a445-6ea6-4b01-ab09-ccbb08524a8d"]["2ae594c8-4eed-47e0-b301-07479f51b12b"]
+                      type: variable
+              - type: text
+                value: |-
+                  "
+                    },
+                    "issuetype": {
+                      "name": "
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["e1d9a445-6ea6-4b01-ab09-ccbb08524a8d"]["476856f8-d6b0-4e3b-ad6b-4c62218d6987"]
+                      type: variable
+              - type: text
+                value: |-
+                  "
+                    },
+                    "description": {
+                      "type": "doc",
+                      "version": 1,
+                      "content": [
+                        {
+                          "type": "paragraph",
+                          "content": [
+                            {
+                              "type": "text",
+                              "text":
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["97eb0a62-dcd5-4d4a-9785-4e0ad76a4c8d"].body
+                      type: variable
+                    - type: text
+                      value: .description | tojson
+              - type: text
+                value: |2-
+
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  }
+        command.parameters.get_comments__issueIdOrKey:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["b3bc5fb5-305d-437c-9ffb-ee2a4cc6c1b5"].body
+                      type: variable
+                    - type: text
+                      value: .key
+  80008f0f-e5b4-4737-8327-a73cb7272549:
+    id: 80008f0f-e5b4-4737-8327-a73cb7272549
+    name: Jira Get Transition
+    type: action
+    on_success: b6108bab-2bd2-48b7-81b8-a20b0c660518
+    command:
+      command: strangebee.integration.jira.v3
+      version: v1.0.0
+      type: strangebee
+      parameters:
+        Proxy: disabled
+        Server Verification: default
+        action: get_transitions
+        authentication: basic_auth
+        base_url: '{{ $global["01a08bf0-d2b0-7362-af4c-d5533136c638"] }}'
+        basic_auth_password: '{{ $global["01a08bf0-d2b0-7362-af4c-d5533136c638"] }}'
+        get_transitions__issueIdOrKey: '{{ $steps["b3bc5fb5-305d-437c-9ffb-ee2a4cc6c1b5"].body.key }}'
+        mTLS: disabled
+        manual_status_handling: false
+    ui:
+      position:
+        x: 351
+        'y': 489
+      inputMode:
+        command.parameters.create_issue__fields: json
+      variableInputs:
+        command.parameters.base_url:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: global["01a08bf0-d2b0-7362-af4c-d5533136c638"]
+                      type: variable
+        command.parameters.basic_auth_login:
+          wireDoc:
+            nodes:
+              - type: text
+                value: lucas.burte@strangebee.com
+        command.parameters.basic_auth_password:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: global["01a08bf0-d2b0-7362-af4c-d5533136c638"]
+                      type: variable
+        command.parameters.create_issue__fields:
+          wireDoc:
+            nodes:
+              - type: text
+                value: |-
+                  {
+                    "summary": "New TheHive Alert :
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["97eb0a62-dcd5-4d4a-9785-4e0ad76a4c8d"].body
+                      type: variable
+                    - type: text
+                      value: ._id
+              - type: text
+                value: ' - '
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["97eb0a62-dcd5-4d4a-9785-4e0ad76a4c8d"].body
+                      type: variable
+                    - type: text
+                      value: .title
+              - type: text
+                value: |-
+                  ",
+                    "project": {
+                      "key": "
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["e1d9a445-6ea6-4b01-ab09-ccbb08524a8d"]["2ae594c8-4eed-47e0-b301-07479f51b12b"]
+                      type: variable
+              - type: text
+                value: |-
+                  "
+                    },
+                    "issuetype": {
+                      "name": "
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["e1d9a445-6ea6-4b01-ab09-ccbb08524a8d"]["476856f8-d6b0-4e3b-ad6b-4c62218d6987"]
+                      type: variable
+              - type: text
+                value: |-
+                  "
+                    },
+                    "description": {
+                      "type": "doc",
+                      "version": 1,
+                      "content": [
+                        {
+                          "type": "paragraph",
+                          "content": [
+                            {
+                              "type": "text",
+                              "text":
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["97eb0a62-dcd5-4d4a-9785-4e0ad76a4c8d"].body
+                      type: variable
+                    - type: text
+                      value: .description | tojson
+              - type: text
+                value: |2-
+
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  }
+        command.parameters.get_transitions__issueIdOrKey:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["b3bc5fb5-305d-437c-9ffb-ee2a4cc6c1b5"].body
+                      type: variable
+                    - type: text
+                      value: .key
+  92be09bd-c18a-4c3d-8679-7ba518f1d7aa:
+    id: 92be09bd-c18a-4c3d-8679-7ba518f1d7aa
+    name: For Each (While)
+    type: foreach
+    on_success: 80008f0f-e5b4-4737-8327-a73cb7272549
+    foreach:
+      foreach: range(1;10)
+      key_variable: idx
+      key_variable_id: 6a6672a5-d01e-4e27-a6c7-542d43266e00
+      value_variable: item
+      value_variable_id: 2181c18b-77eb-4db7-b16d-06cbb46f3c19
+      body: 5ab01604-2730-4928-b69d-7465c17169fc
+    ui:
+      position:
+        x: 233.99999999999997
+        'y': 385
+      variableInputs:
+        foreach.foreach:
+          wireDoc:
+            nodes:
+              - type: text
+                value: range(1;10)
+        foreach.key_variable:
+          wireDoc:
+            nodes:
+              - type: text
+                value: idx
+        foreach.value_variable:
+          wireDoc:
+            nodes:
+              - type: text
+                value: item
+  97eb0a62-dcd5-4d4a-9785-4e0ad76a4c8d:
+    id: 97eb0a62-dcd5-4d4a-9785-4e0ad76a4c8d
+    name: TheHive Get Alert
+    type: action
+    on_success: b3bc5fb5-305d-437c-9ffb-ee2a4cc6c1b5
+    command:
+      command: strangebee.integration.thehive.v1
+      version: v1.0.0
+      type: strangebee
+      parameters:
+        Proxy: disabled
+        Server Verification: default
+        action: get_alert
+        authentication: bearer_token
+        base_url: '{{ $global["01a03e0a-ef44-73c0-b013-dbadd5f4c448"] }}'
+        bearer_token: '{{ $secret["01a024b0-50c1-7ad8-add6-485a1c769236"] }}'
+        get_alert__alertId: '{{ $input.payload.body.context._id }}'
+        mTLS: disabled
+        manual_status_handling: false
+    ui:
+      position:
+        x: 233.99999999999997
+        'y': 233
+      variableInputs:
+        command.parameters.base_url:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: global["01a03e0a-ef44-73c0-b013-dbadd5f4c448"]
+                      type: variable
+        command.parameters.bearer_token:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: secret["01a024b0-50c1-7ad8-add6-485a1c769236"]
+                      type: variable
+        command.parameters.get_alert__alertId:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: input.payload
+                      type: variable
+                    - type: text
+                      value: .body.context._id
+  9cae18b7-85f2-4d55-ac89-479008bc952b:
+    id: 9cae18b7-85f2-4d55-ac89-479008bc952b
+    name: TheHive Update Comments
+    type: action
+    command:
+      command: strangebee.integration.thehive.v1
+      version: v1.0.0
+      type: strangebee
+      parameters:
+        Proxy: disabled
+        Server Verification: default
+        action: update_comment
+        authentication: bearer_token
+        base_url: '{{ $global["01a03e0a-ef44-73c0-b013-dbadd5f4c448"] }}'
+        bearer_token: '{{ $secret["01a024b0-50c1-7ad8-add6-485a1c769236"] }}'
+        editor_mode: form
+        mTLS: disabled
+        manual_status_handling: false
+        update_comment__commentId: >-
+          {{
+          $steps["55b8600c-4bbb-44fe-b673-a5dcbb90269f"]["bcd7e0db-ec92-4b76-b964-723be675ef7c"]._id
+          }}
+        update_comment__message: >-
+          {{ "[Synced]
+          "+($steps["55b8600c-4bbb-44fe-b673-a5dcbb90269f"]["bcd7e0db-ec92-4b76-b964-723be675ef7c"].message
+          // "") }}
+    ui:
+      position:
+        x: 234
+        'y': 973
+      variableInputs:
+        command.parameters.base_url:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: global["01a03e0a-ef44-73c0-b013-dbadd5f4c448"]
+                      type: variable
+        command.parameters.bearer_token:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: secret["01a024b0-50c1-7ad8-add6-485a1c769236"]
+                      type: variable
+        command.parameters.post_query__query:
+          wireDoc:
+            nodes:
+              - type: text
+                value: |-
+                  [
+                          {
+                              "_name": "getAlert",
+                              "idOrName":
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["97eb0a62-dcd5-4d4a-9785-4e0ad76a4c8d"].body
+                      type: variable
+                    - type: text
+                      value: ._id
+              - type: text
+                value: |2-
+
+                          },
+                          {
+                              "_name": "comments"
+                          }
+                  ]
+        command.parameters.get_alert__alertId:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: input.payload
+                      type: variable
+                    - type: text
+                      value: .body.context._id
+        command.parameters.update_comment__message:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - type: text
+                      value: '"[Synced] "+('
+                    - key: steps["55b8600c-4bbb-44fe-b673-a5dcbb90269f"]["bcd7e0db-ec92-4b76-b964-723be675ef7c"]
+                      type: variable
+                    - type: text
+                      value: .message // "")
+        command.parameters.update_comment__commentId:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["55b8600c-4bbb-44fe-b673-a5dcbb90269f"]["bcd7e0db-ec92-4b76-b964-723be675ef7c"]
+                      type: variable
+                    - type: text
+                      value: ._id
+  a62d3626-4a91-4803-a1ea-0430d7ffd39e:
+    id: a62d3626-4a91-4803-a1ea-0430d7ffd39e
+    name: TheHive Get Comments
+    type: action
+    on_success: 55b8600c-4bbb-44fe-b673-a5dcbb90269f
+    command:
+      command: strangebee.integration.thehive.v1
+      version: v1.0.0
+      type: strangebee
+      parameters:
+        Proxy: disabled
+        Server Verification: default
+        action: post_query
+        authentication: bearer_token
+        base_url: '{{ $global["01a03e0a-ef44-73c0-b013-dbadd5f4c448"] }}'
+        bearer_token: '{{ $secret["01a024b0-50c1-7ad8-add6-485a1c769236"] }}'
+        editor_mode: form
+        mTLS: disabled
+        manual_status_handling: false
+        post_query__query: |-
+          [
+                  {
+                      "_name": "getAlert",
+                      "idOrName": "{{ $steps["97eb0a62-dcd5-4d4a-9785-4e0ad76a4c8d"].body._id }}"
+                  },
+                  {
+                      "_name": "comments"
+                  }
+          ]
+    ui:
+      position:
+        x: 234
+        'y': 745
+      variableInputs:
+        command.parameters.base_url:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: global["01a03e0a-ef44-73c0-b013-dbadd5f4c448"]
+                      type: variable
+        command.parameters.bearer_token:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: secret["01a024b0-50c1-7ad8-add6-485a1c769236"]
+                      type: variable
+        command.parameters.post_query__query:
+          wireDoc:
+            nodes:
+              - type: text
+                value: |-
+                  [
+                          {
+                              "_name": "getAlert",
+                              "idOrName": "
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["97eb0a62-dcd5-4d4a-9785-4e0ad76a4c8d"].body
+                      type: variable
+                    - type: text
+                      value: ._id
+              - type: text
+                value: |-
+                  "
+                          },
+                          {
+                              "_name": "comments"
+                          }
+                  ]
+        command.parameters.get_alert__alertId:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: input.payload
+                      type: variable
+                    - type: text
+                      value: .body.context._id
+  b3bc5fb5-305d-437c-9ffb-ee2a4cc6c1b5:
+    id: b3bc5fb5-305d-437c-9ffb-ee2a4cc6c1b5
+    name: Create Jira Issue
+    type: action
+    on_success: 92be09bd-c18a-4c3d-8679-7ba518f1d7aa
+    command:
+      command: strangebee.integration.jira.v3
+      version: v1.0.0
+      type: strangebee
+      parameters:
+        Proxy: disabled
+        Server Verification: default
+        action: create_issue
+        authentication: basic_auth
+        base_url: '{{ $global["01a08bf0-d2b0-7362-af4c-d5533136c638"] }}'
+        basic_auth_login: lucas.burte@strangebee.com
+        basic_auth_password: '{{ $secret["01a08bf1-5fe2-7185-b6c5-8ae5a5deed53"] }}'
+        create_issue__fields: |-
+          {
+            "summary": "New TheHive Alert : {{ $steps["97eb0a62-dcd5-4d4a-9785-4e0ad76a4c8d"].body._id }} }} - {{ $steps["97eb0a62-dcd5-4d4a-9785-4e0ad76a4c8d"].body.title }}",
+            "project": {
+              "key": "{{ $steps["e1d9a445-6ea6-4b01-ab09-ccbb08524a8d"]["2ae594c8-4eed-47e0-b301-07479f51b12b"] }}"
+            },
+            "issuetype": {
+              "name": "{{ $steps["e1d9a445-6ea6-4b01-ab09-ccbb08524a8d"]["476856f8-d6b0-4e3b-ad6b-4c62218d6987"] }}"
+            },
+            "description": {
+              "type": "doc",
+              "version": 1,
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": {{ $steps["97eb0a62-dcd5-4d4a-9785-4e0ad76a4c8d"].body.description | tojson  }}
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        editor_mode: form
+        mTLS: disabled
+        manual_status_handling: false
+    ui:
+      position:
+        x: 233.99999999999997
+        'y': 309
+      inputMode:
+        command.parameters.create_issue__fields: json
+      variableInputs:
+        command.parameters.base_url:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: global["01a08bf0-d2b0-7362-af4c-d5533136c638"]
+                      type: variable
+        command.parameters.basic_auth_login:
+          wireDoc:
+            nodes:
+              - type: text
+                value: lucas.burte@strangebee.com
+        command.parameters.basic_auth_password:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: secret["01a08bf1-5fe2-7185-b6c5-8ae5a5deed53"]
+                      type: variable
+        command.parameters.create_issue__fields:
+          wireDoc:
+            nodes:
+              - type: text
+                value: |-
+                  {
+                    "summary": "New TheHive Alert : 
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["97eb0a62-dcd5-4d4a-9785-4e0ad76a4c8d"].body
+                      type: variable
+                    - type: text
+                      value: ._id
+              - type: text
+                value: ' }} - '
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["97eb0a62-dcd5-4d4a-9785-4e0ad76a4c8d"].body
+                      type: variable
+                    - type: text
+                      value: .title
+              - type: text
+                value: |-
+                  ",
+                    "project": {
+                      "key": "
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["e1d9a445-6ea6-4b01-ab09-ccbb08524a8d"]["2ae594c8-4eed-47e0-b301-07479f51b12b"]
+                      type: variable
+              - type: text
+                value: |-
+                  "
+                    },
+                    "issuetype": {
+                      "name": "
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["e1d9a445-6ea6-4b01-ab09-ccbb08524a8d"]["476856f8-d6b0-4e3b-ad6b-4c62218d6987"]
+                      type: variable
+              - type: text
+                value: |-
+                  "
+                    },
+                    "description": {
+                      "type": "doc",
+                      "version": 1,
+                      "content": [
+                        {
+                          "type": "paragraph",
+                          "content": [
+                            {
+                              "type": "text",
+                              "text": 
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["97eb0a62-dcd5-4d4a-9785-4e0ad76a4c8d"].body
+                      type: variable
+                    - type: text
+                      value: '.description | tojson '
+              - type: text
+                value: |2-
+
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  }
+  b6108bab-2bd2-48b7-81b8-a20b0c660518:
+    id: b6108bab-2bd2-48b7-81b8-a20b0c660518
+    name: Jira close issue
+    type: action
+    command:
+      command: strangebee.integration.jira.v3
+      version: v1.0.0
+      type: strangebee
+      parameters:
+        Proxy: disabled
+        Server Verification: default
+        action: do_transition
+        authentication: basic_auth
+        base_url: '{{ $global["01a08bf0-d2b0-7362-af4c-d5533136c638"] }}'
+        basic_auth_password: '{{ $secret["01a08bf1-5fe2-7185-b6c5-8ae5a5deed53"] }}'
+        do_transition__issueIdOrKey: '{{ $steps["b3bc5fb5-305d-437c-9ffb-ee2a4cc6c1b5"].body.key }}'
+        do_transition__transition: >-
+          {"id" : {{
+          $steps["80008f0f-e5b4-4737-8327-a73cb7272549"].body.transitions[] |
+          select(.name == "Done") | .id }}}
+        editor_mode: form
+        mTLS: disabled
+        manual_status_handling: false
+    ui:
+      position:
+        x: 351
+        'y': 565
+      variableInputs:
+        command.parameters.base_url:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: global["01a08bf0-d2b0-7362-af4c-d5533136c638"]
+                      type: variable
+        command.parameters.basic_auth_login:
+          wireDoc:
+            nodes:
+              - type: text
+                value: lucas.burte@strangebee.com
+        command.parameters.basic_auth_password:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: secret["01a08bf1-5fe2-7185-b6c5-8ae5a5deed53"]
+                      type: variable
+        command.parameters.add_comment__issueIdOrKey:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["b3bc5fb5-305d-437c-9ffb-ee2a4cc6c1b5"].body
+                      type: variable
+                    - type: text
+                      value: .key
+        command.parameters.do_transition__transition:
+          wireDoc:
+            nodes:
+              - type: text
+                value: '{"id" : '
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["80008f0f-e5b4-4737-8327-a73cb7272549"].body
+                      type: variable
+                    - type: text
+                      value: .transitions[] | select(.name == "Done") | .id
+              - type: text
+                value: '}'
+        command.parameters.do_transition__issueIdOrKey:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["b3bc5fb5-305d-437c-9ffb-ee2a4cc6c1b5"].body
+                      type: variable
+                    - type: text
+                      value: .key
+  bfcd8d69-1923-4441-b52b-fcfdb5e3976f:
+    id: bfcd8d69-1923-4441-b52b-fcfdb5e3976f
+    name: Create TheHive comment
+    type: action
+    on_success: 47f251b7-69b7-4a5b-a65a-0d9b372705b8
+    command:
+      command: strangebee.integration.thehive.v1
+      version: v1.0.0
+      type: strangebee
+      parameters:
+        Proxy: disabled
+        Server Verification: default
+        action: create_comment_in_alert
+        authentication: bearer_token
+        base_url: '{{ $global["01a03e0a-ef44-73c0-b013-dbadd5f4c448"] }}'
+        bearer_token: '{{ $secret["01a024b0-50c1-7ad8-add6-485a1c769236"] }}'
+        create_comment_in_alert__alertId: '{{ $steps["97eb0a62-dcd5-4d4a-9785-4e0ad76a4c8d"].body._id }}'
+        create_comment_in_alert__message: >-
+          [From Jira] {{
+          [$steps["d2783791-2971-4932-8c0c-7d0dc9a4f04a"]["92405c94-bc64-4d40-8b7f-b833477f367c"].body
+          | .. | objects | select(has("text")) | .text] | join("") }}
+        editor_mode: form
+        mTLS: disabled
+        manual_status_handling: false
+    ui:
+      position:
+        x: 0
+        'y': 745
+      variableInputs:
+        command.parameters.base_url:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: global["01a03e0a-ef44-73c0-b013-dbadd5f4c448"]
+                      type: variable
+        command.parameters.bearer_token:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: secret["01a024b0-50c1-7ad8-add6-485a1c769236"]
+                      type: variable
+        command.parameters.get_alert__alertId:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: input.payload
+                      type: variable
+                    - type: text
+                      value: .body.context._id
+        command.parameters.create_comment_in_alert__alertId:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["97eb0a62-dcd5-4d4a-9785-4e0ad76a4c8d"].body
+                      type: variable
+                    - type: text
+                      value: ._id
+        command.parameters.create_comment_in_alert__message:
+          wireDoc:
+            nodes:
+              - type: text
+                value: '[From Jira] '
+              - type: context
+                expression:
+                  nodes:
+                    - type: text
+                      value: '['
+                    - key: steps["d2783791-2971-4932-8c0c-7d0dc9a4f04a"]["92405c94-bc64-4d40-8b7f-b833477f367c"]
+                      type: variable
+                    - type: text
+                      value: >-
+                        .body | .. | objects | select(has("text")) | .text] |
+                        join("")
+  d2783791-2971-4932-8c0c-7d0dc9a4f04a:
+    id: d2783791-2971-4932-8c0c-7d0dc9a4f04a
+    name: ForEach Jira comments
+    type: foreach
+    on_success: a62d3626-4a91-4803-a1ea-0430d7ffd39e
+    foreach:
+      foreach: >-
+        $steps["5d90b86c-6832-486c-b8e9-d214ed360c44"].body.comments
+
+        | map(select((([.body | .. | objects | select(has("text")) | .text] |
+        join(""))
+            | startswith("[From TheHive]") | not)
+          and (([.body | .. | objects | select(has("text")) | .text] | join(""))
+            | startswith("[Synced]") | not)))
+      key_variable: idx
+      key_variable_id: 7c946d4f-8435-4ffa-a76b-f9d1e5bec055
+      value_variable: item
+      value_variable_id: 92405c94-bc64-4d40-8b7f-b833477f367c
+      body: bfcd8d69-1923-4441-b52b-fcfdb5e3976f
+    ui:
+      position:
+        x: 117
+        'y': 641
+      variableInputs:
+        foreach.foreach:
+          wireDoc:
+            nodes:
+              - key: steps["5d90b86c-6832-486c-b8e9-d214ed360c44"].body
+                type: variable
+              - type: text
+                value: >-
+                  .comments
+
+                  | map(select((([.body | .. | objects | select(has("text")) |
+                  .text] | join(""))
+                      | startswith("[From TheHive]") | not)
+                    and (([.body | .. | objects | select(has("text")) | .text] | join(""))
+                      | startswith("[Synced]") | not)))
+        foreach.key_variable:
+          wireDoc:
+            nodes:
+              - type: text
+                value: idx
+        foreach.value_variable:
+          wireDoc:
+            nodes:
+              - type: text
+                value: item
+  e1d9a445-6ea6-4b01-ab09-ccbb08524a8d:
+    id: e1d9a445-6ea6-4b01-ab09-ccbb08524a8d
+    name: Set Jira Project Key and Issue Type
+    type: action
+    on_success: 97eb0a62-dcd5-4d4a-9785-4e0ad76a4c8d
+    command:
+      command: strangebee.variable.new
+      version: v1.0.0
+      type: strangebee
+      parameters:
+        variables:
+          - id: 2ae594c8-4eed-47e0-b301-07479f51b12b
+            name: jira_project_key
+            type: string
+            value: ''
+          - id: 476856f8-d6b0-4e3b-ad6b-4c62218d6987
+            name: jira_issue_type
+            type: string
+            value: ''
+    ui:
+      position:
+        x: 233.99999999999997
+        'y': 157
+      variableInputs:
+        command.parameters.variables:
+          wireDocs:
+            - nodes: []
+            - nodes: []
+  start--0:
+    id: start--0
+    type: start
+    on_success: e1d9a445-6ea6-4b01-ab09-ccbb08524a8d
+    ui:
+      position:
+        x: 233.99999999999997
+        'y': 0
+created_by: lucas.burte@strangebee.com
+created: '2026-09-10T14:59:58.738516Z'
+modified_by: lucas.burte@strangebee.com
+modified: '2026-09-16T13:41:05.533609Z'
+revoked: false

@@ -1,0 +1,1934 @@
+version: v1.0.0
+spec_version: chocolate-v2.0.0
+id: playbook-01a05746-0268-7096-98ac-e31db24ee09d
+name: Suspicious email campaign
+organisation: ~942084232
+workflow_start: start--new-playbook--451736e4-1afc-4506-ac04-ab2fe0196d8a
+workflow:
+  2cda2dd9-2d15-4a18-b5fa-804b055dca26:
+    id: 2cda2dd9-2d15-4a18-b5fa-804b055dca26
+    name: Set Campaign Custom Field
+    type: action
+    command:
+      command: strangebee.integration.thehive.v1
+      version: v1.0.0
+      type: strangebee
+      parameters:
+        Proxy: disabled
+        Server Verification: default
+        action: update_case
+        authentication: bearer_token
+        base_url: '{{ $global["01a03e0a-ef44-73c0-b013-dbadd5f4c448"] }}'
+        bearer_token: '{{ $secret["01a024b0-50c1-7ad8-add6-485a1c769236"] }}'
+        editor_mode: form
+        mTLS: disabled
+        manual_status_handling: false
+        update_case__customFields: >-
+          {"campaign":"{{
+          $steps["50535d2c-4d14-4335-abae-ac3bf18de6b3"].uuid_campaign }}"}
+        update_case__flag: no_change
+        update_case__idOrName: '{{ $steps["5bbdcc84-fda0-4c84-8b86-466534e456b1"].body._id }}'
+    ui:
+      position:
+        x: 361.00396039603964
+        'y': 1662.1188118811883
+      variableInputs:
+        command.parameters.base_url:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: global["01a03e0a-ef44-73c0-b013-dbadd5f4c448"]
+                      type: variable
+        command.parameters.bearer_token:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: secret["01a024b0-50c1-7ad8-add6-485a1c769236"]
+                      type: variable
+        command.parameters.x_organisation:
+          wireDoc:
+            nodes:
+              - type: text
+                value: Matrix
+        command.parameters.get_alert__alertId:
+          wireDoc:
+            nodes:
+              - type: text
+                value: ~4336
+        command.parameters.update_alert__title:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["9d59f0a9-5d62-46a4-8424-77f524b9e026"]["b748a447-129c-4f0d-8ae3-4e46648a0eb1"]
+                      type: variable
+        command.parameters.update_alert__alertId:
+          wireDoc:
+            nodes:
+              - type: text
+                value: ~4264
+        command.parameters.update_case__idOrName:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["5bbdcc84-fda0-4c84-8b86-466534e456b1"].body
+                      type: variable
+                    - type: text
+                      value: ._id
+        command.parameters.update_alert__description:
+          wireDoc:
+            nodes:
+              - type: text
+                value: '**From** : '
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["9d59f0a9-5d62-46a4-8424-77f524b9e026"]["eea864bd-0b06-40b6-b5b2-d58190e922e4"]
+                      type: variable
+              - type: text
+                value: |-
+
+                  **To** : 
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["9d59f0a9-5d62-46a4-8424-77f524b9e026"]["160491e7-d34b-442d-a239-c15f72fcbc45"]
+                      type: variable
+              - type: text
+                value: |-
+
+                  **Subject** : 
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["9d59f0a9-5d62-46a4-8424-77f524b9e026"]["b748a447-129c-4f0d-8ae3-4e46648a0eb1"]
+                      type: variable
+              - type: text
+                value: |-
+
+                  **CC** : 
+                  **Date**: 
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["711cb520-75b9-446f-844e-ff1c4a9de5dc"].original_email_date
+                      type: variable
+              - type: text
+                value: |-
+
+
+                  **Preview of the EMAIL :**
+                  ![
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["90ceb241-9c2b-4362-8668-cb492f68885f"].body
+                      type: variable
+                    - type: text
+                      value: .attachments.[0].name
+              - type: text
+                value: ']('
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["90ceb241-9c2b-4362-8668-cb492f68885f"].body
+                      type: variable
+                    - type: text
+                      value: .attachments.[0].path
+              - type: text
+                value: )
+        command.parameters.update_case__customFields:
+          wireDoc:
+            nodes:
+              - type: text
+                value: '{"campaign":"'
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["50535d2c-4d14-4335-abae-ac3bf18de6b3"].uuid_campaign
+                      type: variable
+              - type: text
+                value: '"}'
+        command.parameters.update_alert__customFields:
+          wireDoc:
+            nodes:
+              - type: text
+                value: '{"sender":"'
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["9d59f0a9-5d62-46a4-8424-77f524b9e026"]["eea864bd-0b06-40b6-b5b2-d58190e922e4"]
+                      type: variable
+              - type: text
+                value: '","recipient":"'
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["9d59f0a9-5d62-46a4-8424-77f524b9e026"]["160491e7-d34b-442d-a239-c15f72fcbc45"]
+                      type: variable
+              - type: text
+                value: '","reporter":"'
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["9d59f0a9-5d62-46a4-8424-77f524b9e026"]["160491e7-d34b-442d-a239-c15f72fcbc45"]
+                      type: variable
+              - type: text
+                value: '","reporteddate":"'
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["9d59f0a9-5d62-46a4-8424-77f524b9e026"]["22e963a1-4db7-4a21-a366-b54c6353cec0"]
+                      type: variable
+              - type: text
+                value: '"}'
+        command.parameters.get_observable__observableId:
+          wireDoc:
+            nodes:
+              - type: text
+                value: ~8360
+  2ce4fb8d-e14b-4a3b-8931-a9dd78ae5560:
+    id: 2ce4fb8d-e14b-4a3b-8931-a9dd78ae5560
+    name: Upload Email Screenshot as Attachment
+    type: action
+    on_success: 74e842b1-deba-4c43-9e4e-c6599f581edf
+    command:
+      command: strangebee.http.request
+      version: v1.0.0
+      type: strangebee
+      parameters:
+        auth_type: bearer_token
+        bearer_token: '{{ $secret["01a024b0-50c1-7ad8-add6-485a1c769236"] }}'
+        body: >-
+          {{ $steps["c448f6e0-49fc-4827-9463-2b5d1f947692"].multipart_body_b64|
+          @base64d }}
+        headers:
+          - name: Content-Type
+            value: >-
+              multipart/form-data; boundary={{
+              $steps["c448f6e0-49fc-4827-9463-2b5d1f947692"].multipart_boundary
+              }}
+        method: POST
+        url: >-
+          {{ $global["01a03e0a-ef44-73c0-b013-dbadd5f4c448"] }}/api/v1/alert/{{
+          $steps["7ceeaf25-1fcd-4786-b743-aac5288b4fdd"]["59dc7ffe-008c-42b3-b399-d71cc6f06afd"]._id
+          }}/attachments
+    ui:
+      position:
+        x: 263.31624037403736
+        'y': 827.0267189218921
+      inputMode:
+        command.parameters.body: raw
+      variableInputs:
+        command.parameters.url:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: global["01a03e0a-ef44-73c0-b013-dbadd5f4c448"]
+                      type: variable
+              - type: text
+                value: /api/v1/alert/
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["7ceeaf25-1fcd-4786-b743-aac5288b4fdd"]["59dc7ffe-008c-42b3-b399-d71cc6f06afd"]
+                      type: variable
+                    - type: text
+                      value: ._id
+              - type: text
+                value: /attachments
+        command.parameters.body:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["c448f6e0-49fc-4827-9463-2b5d1f947692"].multipart_body_b64
+                      type: variable
+                    - type: text
+                      value: '| @base64d'
+        command.parameters.headers:
+          wireDocs:
+            - nodes:
+                - type: text
+                  value: multipart/form-data; boundary=
+                - type: context
+                  expression:
+                    nodes:
+                      - key: steps["c448f6e0-49fc-4827-9463-2b5d1f947692"].multipart_boundary
+                        type: variable
+        command.parameters.bearer_token:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: secret["01a024b0-50c1-7ad8-add6-485a1c769236"]
+                      type: variable
+      optionalSections:
+        - authentication
+  33410592-8702-42e1-8c58-efa08a9c4d34:
+    id: 33410592-8702-42e1-8c58-efa08a9c4d34
+    name: Add Email Headers Page to Case (Merged)
+    type: action
+    command:
+      command: strangebee.http.request
+      version: v1.0.0
+      type: strangebee
+      parameters:
+        auth_type: bearer_token
+        bearer_token: '{{ $secret["01a024b0-50c1-7ad8-add6-485a1c769236"] }}'
+        body: '{{ $steps["c448f6e0-49fc-4827-9463-2b5d1f947692"].page_body_json }}'
+        headers:
+          - name: Content-Type
+            value: application/json
+        method: POST
+        url: >-
+          {{ $global["01a03e0a-ef44-73c0-b013-dbadd5f4c448"] }}/api/v1/case/{{
+          $steps["7ec958b8-34a4-492a-9a34-d62e328f6cda"].body[0]._id }}/page
+    ui:
+      position:
+        x: 115.57827159499382
+        'y': 1450.040498615453
+      variableInputs:
+        command.parameters.url:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: global["01a03e0a-ef44-73c0-b013-dbadd5f4c448"]
+                      type: variable
+              - type: text
+                value: /api/v1/case/
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["7ec958b8-34a4-492a-9a34-d62e328f6cda"].body
+                      type: variable
+                    - type: text
+                      value: '[0]._id'
+              - type: text
+                value: /page
+        command.parameters.body:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["c448f6e0-49fc-4827-9463-2b5d1f947692"].page_body_json
+                      type: variable
+        command.parameters.headers:
+          wireDocs:
+            - nodes:
+                - type: text
+                  value: application/json
+        command.parameters.bearer_token:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: secret["01a024b0-50c1-7ad8-add6-485a1c769236"]
+                      type: variable
+      optionalSections:
+        - authentication
+  464bfe90-380e-4bbb-86e0-d1875c58e898:
+    id: 464bfe90-380e-4bbb-86e0-d1875c58e898
+    name: Set Variables
+    type: action
+    on_success: 2ce4fb8d-e14b-4a3b-8931-a9dd78ae5560
+    command:
+      command: strangebee.variable.new
+      version: v1.0.0
+      type: strangebee
+      parameters:
+        variables:
+          - id: b748a447-129c-4f0d-8ae3-4e46648a0eb1
+            name: title
+            type: string
+            value: '{{ $steps["c448f6e0-49fc-4827-9463-2b5d1f947692"].email_title }}'
+          - id: eea864bd-0b06-40b6-b5b2-d58190e922e4
+            name: suspiciousSender
+            type: string
+            value: >-
+              {{ $steps["c448f6e0-49fc-4827-9463-2b5d1f947692"].suspect_sender
+              }}
+          - id: 160491e7-d34b-442d-a239-c15f72fcbc45
+            name: recipient
+            type: string
+            value: >-
+              {{
+              $steps["b8864bcb-a36f-4cdd-98a3-f3c49ebdd9fa"].analyzer_report.full.headers.from.[0]
+              }}
+          - id: 22e963a1-4db7-4a21-a366-b54c6353cec0
+            name: reportedDate
+            type: string
+            value: >-
+              {{
+              $steps["b8864bcb-a36f-4cdd-98a3-f3c49ebdd9fa"].analyzer_report.full.headers.date
+              }}
+          - id: a8d948a5-cff7-4210-a12d-b4d316a99359
+            name: renderedHTMLb64
+            type: string
+            value: >-
+              {{
+              $steps["b8864bcb-a36f-4cdd-98a3-f3c49ebdd9fa"].analyzer_report.full.body.text_html.[0].rendered_html
+              }}
+    ui:
+      position:
+        x: 264
+        'y': 745.5673267326732
+      variableInputs:
+        command.parameters.variables:
+          wireDocs:
+            - nodes:
+                - type: context
+                  expression:
+                    nodes:
+                      - key: steps["c448f6e0-49fc-4827-9463-2b5d1f947692"].email_title
+                        type: variable
+            - nodes:
+                - type: context
+                  expression:
+                    nodes:
+                      - key: steps["c448f6e0-49fc-4827-9463-2b5d1f947692"].suspect_sender
+                        type: variable
+            - nodes:
+                - type: context
+                  expression:
+                    nodes:
+                      - key: steps["b8864bcb-a36f-4cdd-98a3-f3c49ebdd9fa"].analyzer_report
+                        type: variable
+                      - type: text
+                        value: .full.headers.from.[0]
+            - nodes:
+                - type: context
+                  expression:
+                    nodes:
+                      - key: steps["b8864bcb-a36f-4cdd-98a3-f3c49ebdd9fa"].analyzer_report
+                        type: variable
+                      - type: text
+                        value: .full.headers.date
+            - nodes:
+                - type: context
+                  expression:
+                    nodes:
+                      - key: steps["b8864bcb-a36f-4cdd-98a3-f3c49ebdd9fa"].analyzer_report
+                        type: variable
+                      - type: text
+                        value: .full.body.text_html.[0].rendered_html
+  4a6dfb46-ea23-4288-a25f-da25c0cf41e6:
+    id: 4a6dfb46-ea23-4288-a25f-da25c0cf41e6
+    name: Find EML Attachment Observable
+    type: action
+    on_success: b8864bcb-a36f-4cdd-98a3-f3c49ebdd9fa
+    command:
+      command: strangebee.integration.thehive.v1
+      version: v1.0.0
+      type: strangebee
+      parameters:
+        Proxy: disabled
+        Server Verification: default
+        action: post_query
+        authentication: bearer_token
+        base_url: '{{ $global["01a03e0a-ef44-73c0-b013-dbadd5f4c448"] }}'
+        bearer_token: '{{ $secret["01a024b0-50c1-7ad8-add6-485a1c769236"] }}'
+        editor_mode: form
+        mTLS: disabled
+        manual_status_handling: false
+        post_query__query: |-
+          [
+                  {
+                      "_name": "getAlert",
+                      "idOrName": "{{ $steps["7ceeaf25-1fcd-4786-b743-aac5288b4fdd"]["59dc7ffe-008c-42b3-b399-d71cc6f06afd"]._id }}"
+                  },
+                  {
+                      "_name": "observables"
+                  },
+                  {
+                      "_name": "filter",
+                      "_endsWith": { "_field": "attachment.name", "_value": "eml"}
+                  }
+          ]
+    ui:
+      position:
+        x: 261.408910891089
+        'y': 459.6237623762376
+      variableInputs:
+        command.parameters.base_url:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: global["01a03e0a-ef44-73c0-b013-dbadd5f4c448"]
+                      type: variable
+        command.parameters.bearer_token:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: secret["01a024b0-50c1-7ad8-add6-485a1c769236"]
+                      type: variable
+        command.parameters.x_organisation:
+          wireDoc:
+            nodes:
+              - type: text
+                value: Matrix
+        command.parameters.post_query__query:
+          wireDoc:
+            nodes:
+              - type: text
+                value: |-
+                  [
+                          {
+                              "_name": "getAlert",
+                              "idOrName": "
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["7ceeaf25-1fcd-4786-b743-aac5288b4fdd"]["59dc7ffe-008c-42b3-b399-d71cc6f06afd"]
+                      type: variable
+                    - type: text
+                      value: ._id
+              - type: text
+                value: |-
+                  "
+                          },
+                          {
+                              "_name": "observables"
+                          },
+                          {
+                              "_name": "filter",
+                              "_endsWith": { "_field": "attachment.name", "_value": "eml"}
+                          }
+                  ]
+        command.parameters.get_alert__alertId:
+          wireDoc:
+            nodes:
+              - type: text
+                value: ~4264
+  50535d2c-4d14-4335-abae-ac3bf18de6b3:
+    id: 50535d2c-4d14-4335-abae-ac3bf18de6b3
+    name: Generate Campaign UUID
+    type: action
+    on_success: 2cda2dd9-2d15-4a18-b5fa-804b055dca26
+    command:
+      command: strangebee.code.execute.python@v3_11
+      version: v1.0.0
+      type: strangebee
+      parameters:
+        script: |-
+          import uuid
+
+          uuid_campaign = uuid.uuid4()
+
+          flow.set("uuid_campaign",str(uuid_campaign))
+    ui:
+      position:
+        x: 361.0039603960396
+        'y': 1568.5316831683172
+  56681fd2-b59f-4013-a05b-7db50ec9129c:
+    id: 56681fd2-b59f-4013-a05b-7db50ec9129c
+    name: Similar Case Found?
+    type: if-condition
+    condition: $steps["7ec958b8-34a4-492a-9a34-d62e328f6cda"].body | length > 0
+    on_true: 7dfd39f6-d9eb-4ead-9afd-b3b640fe8e76
+    on_false: 5bbdcc84-fda0-4c84-8b86-466534e456b1
+    ui:
+      position:
+        x: 259.7774844151082
+        'y': 1262.7039833149984
+      variableInputs:
+        condition:
+          wireDoc:
+            nodes:
+              - key: steps["7ec958b8-34a4-492a-9a34-d62e328f6cda"].body
+                type: variable
+              - type: text
+                value: ' | length > 0'
+  5bbdcc84-fda0-4c84-8b86-466534e456b1:
+    id: 5bbdcc84-fda0-4c84-8b86-466534e456b1
+    name: Escalate Alert to New Case
+    type: action
+    on_success:
+      - 50535d2c-4d14-4335-abae-ac3bf18de6b3
+      - 5d0a1020-9e7c-4b16-af5f-35b9b971bbe2
+    command:
+      command: strangebee.http.request
+      version: v1.0.0
+      type: strangebee
+      parameters:
+        auth_type: bearer_token
+        bearer_token: '{{ $secret["01a024b0-50c1-7ad8-add6-485a1c769236"] }}'
+        headers:
+          - name: Content-Type
+            value: application/json
+        method: POST
+        url: >-
+          {{ $global["01a03e0a-ef44-73c0-b013-dbadd5f4c448"] }}/api/v1/alert/{{
+          $steps["7ceeaf25-1fcd-4786-b743-aac5288b4fdd"]["59dc7ffe-008c-42b3-b399-d71cc6f06afd"]._id
+          }}/case
+    ui:
+      position:
+        x: 466.38861184179325
+        'y': 1398.419466555223
+      variableInputs:
+        command.parameters.url:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: global["01a03e0a-ef44-73c0-b013-dbadd5f4c448"]
+                      type: variable
+              - type: text
+                value: /api/v1/alert/
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["7ceeaf25-1fcd-4786-b743-aac5288b4fdd"]["59dc7ffe-008c-42b3-b399-d71cc6f06afd"]
+                      type: variable
+                    - type: text
+                      value: ._id
+              - type: text
+                value: /case
+        command.parameters.headers:
+          wireDocs:
+            - nodes:
+                - type: text
+                  value: application/json
+        command.parameters.bearer_token:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: secret["01a024b0-50c1-7ad8-add6-485a1c769236"]
+                      type: variable
+      optionalSections:
+        - authentication
+  5d0a1020-9e7c-4b16-af5f-35b9b971bbe2:
+    id: 5d0a1020-9e7c-4b16-af5f-35b9b971bbe2
+    name: Add Email Headers Page to Case (New)
+    type: action
+    command:
+      command: strangebee.http.request
+      version: v1.0.0
+      type: strangebee
+      parameters:
+        auth_type: bearer_token
+        bearer_token: '{{ $secret["01a024b0-50c1-7ad8-add6-485a1c769236"] }}'
+        body: '{{ $steps["c448f6e0-49fc-4827-9463-2b5d1f947692"].page_body_json }}'
+        headers:
+          - name: Content-Type
+            value: application/json
+        method: POST
+        url: >-
+          {{ $global["01a03e0a-ef44-73c0-b013-dbadd5f4c448"] }}/api/v1/case/{{
+          $steps["5bbdcc84-fda0-4c84-8b86-466534e456b1"].body._id }}/page
+    ui:
+      position:
+        x: 614.639603960396
+        'y': 1565.940594059406
+      variableInputs:
+        command.parameters.url:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: global["01a03e0a-ef44-73c0-b013-dbadd5f4c448"]
+                      type: variable
+              - type: text
+                value: /api/v1/case/
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["5bbdcc84-fda0-4c84-8b86-466534e456b1"].body
+                      type: variable
+                    - type: text
+                      value: ._id
+              - type: text
+                value: /page
+        command.parameters.body:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["c448f6e0-49fc-4827-9463-2b5d1f947692"].page_body_json
+                      type: variable
+        command.parameters.headers:
+          wireDocs:
+            - nodes:
+                - type: text
+                  value: application/json
+        command.parameters.bearer_token:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: secret["01a024b0-50c1-7ad8-add6-485a1c769236"]
+                      type: variable
+      optionalSections:
+        - authentication
+  6c33e6f6-0dba-4e78-8378-f3e2a6d82f5b:
+    id: 6c33e6f6-0dba-4e78-8378-f3e2a6d82f5b
+    name: Add Suspicious Domain Observable
+    type: action
+    on_success: 7ec958b8-34a4-492a-9a34-d62e328f6cda
+    command:
+      command: strangebee.integration.thehive.v1
+      version: v1.0.0
+      type: strangebee
+      parameters:
+        Proxy: disabled
+        Server Verification: default
+        action: create_observable_in_alert
+        authentication: bearer_token
+        base_url: '{{ $global["01a03e0a-ef44-73c0-b013-dbadd5f4c448"] }}'
+        bearer_token: '{{ $secret["01a024b0-50c1-7ad8-add6-485a1c769236"] }}'
+        create_observable_in_alert__alertId: >-
+          {{
+          $steps["7ceeaf25-1fcd-4786-b743-aac5288b4fdd"]["59dc7ffe-008c-42b3-b399-d71cc6f06afd"]._id
+          }}
+        create_observable_in_alert__data: '{{ $steps["c448f6e0-49fc-4827-9463-2b5d1f947692"].suspect_domain }}'
+        create_observable_in_alert__dataType: domain
+        create_observable_in_alert__ignoreSimilarity: no_change
+        create_observable_in_alert__ioc: no_change
+        create_observable_in_alert__sighted: no_change
+        editor_mode: form
+        mTLS: disabled
+        manual_status_handling: false
+    ui:
+      position:
+        x: 261.0954253758709
+        'y': 1095.3556013934724
+      variableInputs:
+        command.parameters.base_url:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: global["01a03e0a-ef44-73c0-b013-dbadd5f4c448"]
+                      type: variable
+        command.parameters.bearer_token:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: secret["01a024b0-50c1-7ad8-add6-485a1c769236"]
+                      type: variable
+        command.parameters.x_organisation:
+          wireDoc:
+            nodes:
+              - type: text
+                value: Matrix
+        command.parameters.get_alert__alertId:
+          wireDoc:
+            nodes:
+              - type: text
+                value: ~4336
+        command.parameters.update_alert__title:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["464bfe90-380e-4bbb-86e0-d1875c58e898"]["b748a447-129c-4f0d-8ae3-4e46648a0eb1"]
+                      type: variable
+        command.parameters.update_alert__alertId:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["7ceeaf25-1fcd-4786-b743-aac5288b4fdd"]["59dc7ffe-008c-42b3-b399-d71cc6f06afd"]
+                      type: variable
+                    - type: text
+                      value: ._id
+        command.parameters.update_alert__description:
+          wireDoc:
+            nodes:
+              - type: text
+                value: '**From** : '
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["464bfe90-380e-4bbb-86e0-d1875c58e898"]["eea864bd-0b06-40b6-b5b2-d58190e922e4"]
+                      type: variable
+              - type: text
+                value: |-
+
+                  **To** : 
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["464bfe90-380e-4bbb-86e0-d1875c58e898"]["160491e7-d34b-442d-a239-c15f72fcbc45"]
+                      type: variable
+              - type: text
+                value: |-
+
+                  **Subject** : 
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["464bfe90-380e-4bbb-86e0-d1875c58e898"]["b748a447-129c-4f0d-8ae3-4e46648a0eb1"]
+                      type: variable
+              - type: text
+                value: |-
+
+                  **CC** : 
+                  **Date**: 
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["c448f6e0-49fc-4827-9463-2b5d1f947692"].original_email_date
+                      type: variable
+              - type: text
+                value: |-
+
+
+                  **Preview of the EMAIL :**
+                  [
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["2ce4fb8d-e14b-4a3b-8931-a9dd78ae5560"].body
+                      type: variable
+                    - type: text
+                      value: .attachments.[0].name
+              - type: text
+                value: ']('
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["2ce4fb8d-e14b-4a3b-8931-a9dd78ae5560"].body
+                      type: variable
+                    - type: text
+                      value: .attachments.[0].path
+              - type: text
+                value: )
+        command.parameters.update_alert__customFields:
+          wireDoc:
+            nodes:
+              - type: text
+                value: '{"sender":"'
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["464bfe90-380e-4bbb-86e0-d1875c58e898"]["eea864bd-0b06-40b6-b5b2-d58190e922e4"]
+                      type: variable
+              - type: text
+                value: '","recipient":"'
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["464bfe90-380e-4bbb-86e0-d1875c58e898"]["160491e7-d34b-442d-a239-c15f72fcbc45"]
+                      type: variable
+              - type: text
+                value: '","reporter":"'
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["464bfe90-380e-4bbb-86e0-d1875c58e898"]["160491e7-d34b-442d-a239-c15f72fcbc45"]
+                      type: variable
+              - type: text
+                value: '","reporteddate":"'
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["464bfe90-380e-4bbb-86e0-d1875c58e898"]["22e963a1-4db7-4a21-a366-b54c6353cec0"]
+                      type: variable
+              - type: text
+                value: '"}'
+        command.parameters.get_observable__observableId:
+          wireDoc:
+            nodes:
+              - type: text
+                value: ~8360
+        command.parameters.create_observable_in_alert__data:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["c448f6e0-49fc-4827-9463-2b5d1f947692"].suspect_domain
+                      type: variable
+        command.parameters.create_observable_in_alert__alertId:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["7ceeaf25-1fcd-4786-b743-aac5288b4fdd"]["59dc7ffe-008c-42b3-b399-d71cc6f06afd"]
+                      type: variable
+                    - type: text
+                      value: ._id
+        command.parameters.create_observable_in_alert__dataType:
+          wireDoc:
+            nodes:
+              - type: text
+                value: domain
+  74e842b1-deba-4c43-9e4e-c6599f581edf:
+    id: 74e842b1-deba-4c43-9e4e-c6599f581edf
+    name: Update Alert Information
+    type: action
+    on_success: bcb7cf27-3181-4018-85e3-c15c5f7d2089
+    command:
+      command: strangebee.integration.thehive.v1
+      version: v1.0.0
+      type: strangebee
+      parameters:
+        Proxy: disabled
+        Server Verification: default
+        action: update_alert
+        authentication: bearer_token
+        base_url: '{{ $global["01a03e0a-ef44-73c0-b013-dbadd5f4c448"] }}'
+        bearer_token: '{{ $secret["01a024b0-50c1-7ad8-add6-485a1c769236"] }}'
+        editor_mode: form
+        mTLS: disabled
+        manual_status_handling: false
+        update_alert__alertId: >-
+          {{
+          $steps["7ceeaf25-1fcd-4786-b743-aac5288b4fdd"]["59dc7ffe-008c-42b3-b399-d71cc6f06afd"]._id
+          }}
+        update_alert__customFields: >-
+          {"sender":"{{
+          $steps["464bfe90-380e-4bbb-86e0-d1875c58e898"]["eea864bd-0b06-40b6-b5b2-d58190e922e4"]
+          }}","recipient":"{{
+          $steps["464bfe90-380e-4bbb-86e0-d1875c58e898"]["160491e7-d34b-442d-a239-c15f72fcbc45"]
+          }}","reporter":"{{
+          $steps["464bfe90-380e-4bbb-86e0-d1875c58e898"]["160491e7-d34b-442d-a239-c15f72fcbc45"]
+          }}","reporteddate":"{{
+          $steps["464bfe90-380e-4bbb-86e0-d1875c58e898"]["22e963a1-4db7-4a21-a366-b54c6353cec0"]
+          }}"}
+        update_alert__description: >-
+          **From** : {{
+          $steps["464bfe90-380e-4bbb-86e0-d1875c58e898"]["eea864bd-0b06-40b6-b5b2-d58190e922e4"]
+          }}
+
+          **To** : {{
+          $steps["464bfe90-380e-4bbb-86e0-d1875c58e898"]["160491e7-d34b-442d-a239-c15f72fcbc45"]
+          }}
+
+          **Subject** : {{
+          $steps["464bfe90-380e-4bbb-86e0-d1875c58e898"]["b748a447-129c-4f0d-8ae3-4e46648a0eb1"]
+          }}
+
+          **CC** : 
+
+          **Date**: {{
+          $steps["c448f6e0-49fc-4827-9463-2b5d1f947692"].original_email_date }}
+
+
+          **Preview of the EMAIL :**
+
+          ![{{
+          $steps["2ce4fb8d-e14b-4a3b-8931-a9dd78ae5560"].body.attachments.[0].name
+          }}]({{
+          $steps["2ce4fb8d-e14b-4a3b-8931-a9dd78ae5560"].body.attachments.[0].path
+          }})
+        update_alert__follow: no_change
+        update_alert__title: >-
+          Suspicious Email : "{{
+          $steps["464bfe90-380e-4bbb-86e0-d1875c58e898"]["b748a447-129c-4f0d-8ae3-4e46648a0eb1"]
+          }}"
+    ui:
+      position:
+        x: 261.07462412907955
+        'y': 910.8964475614224
+      variableInputs:
+        command.parameters.base_url:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: global["01a03e0a-ef44-73c0-b013-dbadd5f4c448"]
+                      type: variable
+        command.parameters.bearer_token:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: secret["01a024b0-50c1-7ad8-add6-485a1c769236"]
+                      type: variable
+        command.parameters.x_organisation:
+          wireDoc:
+            nodes:
+              - type: text
+                value: Matrix
+        command.parameters.get_alert__alertId:
+          wireDoc:
+            nodes:
+              - type: text
+                value: ~4336
+        command.parameters.update_alert__title:
+          wireDoc:
+            nodes:
+              - type: text
+                value: 'Suspicious Email : "'
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["464bfe90-380e-4bbb-86e0-d1875c58e898"]["b748a447-129c-4f0d-8ae3-4e46648a0eb1"]
+                      type: variable
+              - type: text
+                value: '"'
+        command.parameters.update_alert__alertId:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["7ceeaf25-1fcd-4786-b743-aac5288b4fdd"]["59dc7ffe-008c-42b3-b399-d71cc6f06afd"]
+                      type: variable
+                    - type: text
+                      value: ._id
+        command.parameters.update_alert__description:
+          wireDoc:
+            nodes:
+              - type: text
+                value: '**From** : '
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["464bfe90-380e-4bbb-86e0-d1875c58e898"]["eea864bd-0b06-40b6-b5b2-d58190e922e4"]
+                      type: variable
+              - type: text
+                value: |-
+
+                  **To** : 
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["464bfe90-380e-4bbb-86e0-d1875c58e898"]["160491e7-d34b-442d-a239-c15f72fcbc45"]
+                      type: variable
+              - type: text
+                value: |-
+
+                  **Subject** : 
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["464bfe90-380e-4bbb-86e0-d1875c58e898"]["b748a447-129c-4f0d-8ae3-4e46648a0eb1"]
+                      type: variable
+              - type: text
+                value: |-
+
+                  **CC** : 
+                  **Date**: 
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["c448f6e0-49fc-4827-9463-2b5d1f947692"].original_email_date
+                      type: variable
+              - type: text
+                value: |-
+
+
+                  **Preview of the EMAIL :**
+                  ![
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["2ce4fb8d-e14b-4a3b-8931-a9dd78ae5560"].body
+                      type: variable
+                    - type: text
+                      value: .attachments.[0].name
+              - type: text
+                value: ']('
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["2ce4fb8d-e14b-4a3b-8931-a9dd78ae5560"].body
+                      type: variable
+                    - type: text
+                      value: .attachments.[0].path
+              - type: text
+                value: )
+        command.parameters.update_alert__customFields:
+          wireDoc:
+            nodes:
+              - type: text
+                value: '{"sender":"'
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["464bfe90-380e-4bbb-86e0-d1875c58e898"]["eea864bd-0b06-40b6-b5b2-d58190e922e4"]
+                      type: variable
+              - type: text
+                value: '","recipient":"'
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["464bfe90-380e-4bbb-86e0-d1875c58e898"]["160491e7-d34b-442d-a239-c15f72fcbc45"]
+                      type: variable
+              - type: text
+                value: '","reporter":"'
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["464bfe90-380e-4bbb-86e0-d1875c58e898"]["160491e7-d34b-442d-a239-c15f72fcbc45"]
+                      type: variable
+              - type: text
+                value: '","reporteddate":"'
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["464bfe90-380e-4bbb-86e0-d1875c58e898"]["22e963a1-4db7-4a21-a366-b54c6353cec0"]
+                      type: variable
+              - type: text
+                value: '"}'
+        command.parameters.get_observable__observableId:
+          wireDoc:
+            nodes:
+              - type: text
+                value: ~8360
+  7ceeaf25-1fcd-4786-b743-aac5288b4fdd:
+    id: 7ceeaf25-1fcd-4786-b743-aac5288b4fdd
+    name: For Each Email-Intake Alert
+    type: foreach
+    foreach:
+      foreach: $steps["d49ca3d1-7e3d-4981-b94f-99d65201dd12"]["20f83926-1cb0-40e2-af6b-32f0c5cedc06"]
+      key_variable: idx
+      key_variable_id: a1addc84-1fb7-402b-b50e-9da24d028f2a
+      value_variable: item
+      value_variable_id: 59dc7ffe-008c-42b3-b399-d71cc6f06afd
+      body: 4a6dfb46-ea23-4288-a25f-da25c0cf41e6
+    ui:
+      position:
+        x: 264
+        'y': 340.1257425742574
+      variableInputs:
+        foreach.foreach:
+          wireDoc:
+            nodes:
+              - key: steps["d49ca3d1-7e3d-4981-b94f-99d65201dd12"]["20f83926-1cb0-40e2-af6b-32f0c5cedc06"]
+                type: variable
+        foreach.key_variable:
+          wireDoc:
+            nodes:
+              - type: text
+                value: idx
+        foreach.value_variable:
+          wireDoc:
+            nodes:
+              - type: text
+                value: item
+  7dfd39f6-d9eb-4ead-9afd-b3b640fe8e76:
+    id: 7dfd39f6-d9eb-4ead-9afd-b3b640fe8e76
+    name: Merge Alert into Existing Case
+    type: action
+    on_success: 33410592-8702-42e1-8c58-efa08a9c4d34
+    command:
+      command: strangebee.integration.thehive.v1
+      version: v1.0.0
+      type: strangebee
+      parameters:
+        Proxy: disabled
+        Server Verification: default
+        action: merge_alert_with_case
+        authentication: bearer_token
+        base_url: '{{ $global["01a03e0a-ef44-73c0-b013-dbadd5f4c448"] }}'
+        bearer_token: '{{ $secret["01a024b0-50c1-7ad8-add6-485a1c769236"] }}'
+        mTLS: disabled
+        manual_status_handling: false
+        merge_alert_with_case__alertId: >-
+          {{
+          $steps["7ceeaf25-1fcd-4786-b743-aac5288b4fdd"]["59dc7ffe-008c-42b3-b399-d71cc6f06afd"]._id
+          }}
+        merge_alert_with_case__caseId: '{{ $steps["7ec958b8-34a4-492a-9a34-d62e328f6cda"].body[0]._id }}'
+    ui:
+      position:
+        x: 115.57827159499384
+        'y': 1364.148356223509
+      variableInputs:
+        command.parameters.base_url:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: global["01a03e0a-ef44-73c0-b013-dbadd5f4c448"]
+                      type: variable
+        command.parameters.bearer_token:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: secret["01a024b0-50c1-7ad8-add6-485a1c769236"]
+                      type: variable
+        command.parameters.x_organisation:
+          wireDoc:
+            nodes:
+              - type: text
+                value: Matrix
+        command.parameters.get_case__idOrName:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["1bac090b-3852-41d9-acab-790c56fa1ec9"].body
+                      type: variable
+                    - type: text
+                      value: .[0]._id
+        command.parameters.merge_alert_with_case__caseId:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["7ec958b8-34a4-492a-9a34-d62e328f6cda"].body
+                      type: variable
+                    - type: text
+                      value: '[0]._id'
+        command.parameters.merge_alert_with_case__alertId:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["7ceeaf25-1fcd-4786-b743-aac5288b4fdd"]["59dc7ffe-008c-42b3-b399-d71cc6f06afd"]
+                      type: variable
+                    - type: text
+                      value: ._id
+  7ec958b8-34a4-492a-9a34-d62e328f6cda:
+    id: 7ec958b8-34a4-492a-9a34-d62e328f6cda
+    name: Search for Similar Case
+    type: action
+    on_success: 56681fd2-b59f-4013-a05b-7db50ec9129c
+    command:
+      command: strangebee.integration.thehive.v1
+      version: v1.0.0
+      type: strangebee
+      parameters:
+        Proxy: disabled
+        Server Verification: default
+        action: post_query
+        authentication: bearer_token
+        base_url: '{{ $global["01a03e0a-ef44-73c0-b013-dbadd5f4c448"] }}'
+        bearer_token: '{{ $secret["01a024b0-50c1-7ad8-add6-485a1c769236"] }}'
+        editor_mode: form
+        mTLS: disabled
+        manual_status_handling: false
+        post_query__query: |-
+          [
+                  {
+                      "_name": "listCase"
+                  },
+                  {
+                      "_name": "filter",
+                      "_eq": {
+                          "_field": "title",
+                          "_value": "{{ $steps["464bfe90-380e-4bbb-86e0-d1875c58e898"]["b748a447-129c-4f0d-8ae3-4e46648a0eb1"] }}"
+                      }
+                  },
+                  {
+                      "_name": "filter",
+                      "_eq": {
+                          "_field": "customFields.sender",
+                          "_value": "{{ $steps["464bfe90-380e-4bbb-86e0-d1875c58e898"]["eea864bd-0b06-40b6-b5b2-d58190e922e4"] }}"
+                      }
+                  }
+
+              ]
+    ui:
+      position:
+        x: 261.00105427209394
+        'y': 1172.6436147781449
+      variableInputs:
+        command.parameters.base_url:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: global["01a03e0a-ef44-73c0-b013-dbadd5f4c448"]
+                      type: variable
+        command.parameters.bearer_token:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: secret["01a024b0-50c1-7ad8-add6-485a1c769236"]
+                      type: variable
+        command.parameters.x_organisation:
+          wireDoc:
+            nodes:
+              - type: text
+                value: Matrix
+        command.parameters.post_query__query:
+          wireDoc:
+            nodes:
+              - type: text
+                value: |-
+                  [
+                          {
+                              "_name": "listCase"
+                          },
+                          {
+                              "_name": "filter",
+                              "_eq": {
+                                  "_field": "title",
+                                  "_value": "
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["464bfe90-380e-4bbb-86e0-d1875c58e898"]["b748a447-129c-4f0d-8ae3-4e46648a0eb1"]
+                      type: variable
+              - type: text
+                value: |-
+                  "
+                              }
+                          },
+                          {
+                              "_name": "filter",
+                              "_eq": {
+                                  "_field": "customFields.sender",
+                                  "_value": "
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["464bfe90-380e-4bbb-86e0-d1875c58e898"]["eea864bd-0b06-40b6-b5b2-d58190e922e4"]
+                      type: variable
+              - type: text
+                value: |-
+                  "
+                              }
+                          }
+
+                      ]
+        command.parameters.get_alert__alertId:
+          wireDoc:
+            nodes:
+              - type: text
+                value: ~4336
+        command.parameters.update_alert__title:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["464bfe90-380e-4bbb-86e0-d1875c58e898"]["b748a447-129c-4f0d-8ae3-4e46648a0eb1"]
+                      type: variable
+        command.parameters.update_alert__alertId:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["7ceeaf25-1fcd-4786-b743-aac5288b4fdd"]["59dc7ffe-008c-42b3-b399-d71cc6f06afd"]
+                      type: variable
+                    - type: text
+                      value: ._id
+        command.parameters.update_alert__description:
+          wireDoc:
+            nodes:
+              - type: text
+                value: '**From** : '
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["464bfe90-380e-4bbb-86e0-d1875c58e898"]["eea864bd-0b06-40b6-b5b2-d58190e922e4"]
+                      type: variable
+              - type: text
+                value: |-
+
+                  **To** : 
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["464bfe90-380e-4bbb-86e0-d1875c58e898"]["160491e7-d34b-442d-a239-c15f72fcbc45"]
+                      type: variable
+              - type: text
+                value: |-
+
+                  **Subject** : 
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["464bfe90-380e-4bbb-86e0-d1875c58e898"]["b748a447-129c-4f0d-8ae3-4e46648a0eb1"]
+                      type: variable
+              - type: text
+                value: |-
+
+                  **CC** : 
+                  **Date**: 
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["c448f6e0-49fc-4827-9463-2b5d1f947692"].original_email_date
+                      type: variable
+              - type: text
+                value: |-
+
+
+                  **Preview of the EMAIL :**
+                  ![
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["2ce4fb8d-e14b-4a3b-8931-a9dd78ae5560"].body
+                      type: variable
+                    - type: text
+                      value: .attachments.[0].name
+              - type: text
+                value: ']('
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["2ce4fb8d-e14b-4a3b-8931-a9dd78ae5560"].body
+                      type: variable
+                    - type: text
+                      value: .attachments.[0].path
+              - type: text
+                value: )
+        command.parameters.update_alert__customFields:
+          wireDoc:
+            nodes:
+              - type: text
+                value: '{"sender":"'
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["464bfe90-380e-4bbb-86e0-d1875c58e898"]["eea864bd-0b06-40b6-b5b2-d58190e922e4"]
+                      type: variable
+              - type: text
+                value: '","recipient":"'
+              - type: context
+                expression:
+                  nodes:
+                    - key: files.steps["464bfe90-380e-4bbb-86e0-d1875c58e898"]["160491e7-d34b-442d-a239-c15f72fcbc45"]
+                      type: variable
+              - type: text
+                value: '","reporter":"'
+              - type: context
+                expression:
+                  nodes:
+                    - key: files.steps["464bfe90-380e-4bbb-86e0-d1875c58e898"]["160491e7-d34b-442d-a239-c15f72fcbc45"]
+                      type: variable
+              - type: text
+                value: '","reporteddate":"'
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["464bfe90-380e-4bbb-86e0-d1875c58e898"]["22e963a1-4db7-4a21-a366-b54c6353cec0"]
+                      type: variable
+              - type: text
+                value: '"}'
+        command.parameters.get_observable__observableId:
+          wireDoc:
+            nodes:
+              - type: text
+                value: ~8360
+  966bc137-dfcc-40e8-9105-ba42039a74bd:
+    id: 966bc137-dfcc-40e8-9105-ba42039a74bd
+    name: Get Unprocessed Email-Intake Alerts
+    type: action
+    on_success: d49ca3d1-7e3d-4981-b94f-99d65201dd12
+    command:
+      command: strangebee.integration.thehive.v1
+      version: v1.0.0
+      type: strangebee
+      parameters:
+        Proxy: disabled
+        Server Verification: default
+        action: post_query
+        authentication: bearer_token
+        base_url: '{{ $global["01a03e0a-ef44-73c0-b013-dbadd5f4c448"] }}'
+        bearer_token: '{{ $secret["01a024b0-50c1-7ad8-add6-485a1c769236"] }}'
+        editor_mode: form
+        mTLS: disabled
+        manual_status_handling: false
+        post_query__query: |-
+          [
+                  {
+                      "_name": "listAlert"
+                  },
+                  {
+                      "_name": "filter",
+                      "_in": {
+                          "_field": "tags",
+                          "_values": [
+                              "email-intake"
+                          ]
+                      }
+                  },
+                  {
+                     "_name": "filter",
+                     "_eq": { "_field": "status", "_value": "New" }
+                   }
+              ]
+    ui:
+      position:
+        x: 264
+        'y': 142.58712871287128
+      variableInputs:
+        command.parameters.base_url:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: global["01a03e0a-ef44-73c0-b013-dbadd5f4c448"]
+                      type: variable
+        command.parameters.bearer_token:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: secret["01a024b0-50c1-7ad8-add6-485a1c769236"]
+                      type: variable
+        command.parameters.x_organisation:
+          wireDoc:
+            nodes:
+              - type: text
+                value: Matrix
+        command.parameters.post_query__query:
+          wireDoc:
+            nodes:
+              - type: text
+                value: |-
+                  [
+                          {
+                              "_name": "listAlert"
+                          },
+                          {
+                              "_name": "filter",
+                              "_in": {
+                                  "_field": "tags",
+                                  "_values": [
+                                      "email-intake"
+                                  ]
+                              }
+                          },
+                          {
+                             "_name": "filter",
+                             "_eq": { "_field": "status", "_value": "New" }
+                           }
+                      ]
+        command.parameters.get_alert__alertId:
+          wireDoc:
+            nodes:
+              - type: text
+                value: ~4264
+  b8864bcb-a36f-4cdd-98a3-f3c49ebdd9fa:
+    id: b8864bcb-a36f-4cdd-98a3-f3c49ebdd9fa
+    name: Run EmlParser Analyzer
+    type: action
+    on_success: c448f6e0-49fc-4827-9463-2b5d1f947692
+    command:
+      command: strangebee.cortex.analyzer
+      version: v1.0.0
+      type: strangebee
+      parameters:
+        analyzer: cac07b0c41a23681a33a3a1ffc8e8b4b
+        cortex_id: Local Cortex
+        observable_id: '{{ $steps["4a6dfb46-ea23-4288-a25f-da25c0cf41e6"].body[0]._id }}'
+        observable_type: file
+    ui:
+      position:
+        x: 261.4089108910891
+        'y': 563.5752475247525
+      variableInputs:
+        command.parameters.observable_id:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["4a6dfb46-ea23-4288-a25f-da25c0cf41e6"].body
+                      type: variable
+                    - type: text
+                      value: '[0]._id'
+  bcb7cf27-3181-4018-85e3-c15c5f7d2089:
+    id: bcb7cf27-3181-4018-85e3-c15c5f7d2089
+    name: Add Suspicious Sender Observable
+    type: action
+    on_success: 6c33e6f6-0dba-4e78-8378-f3e2a6d82f5b
+    command:
+      command: strangebee.integration.thehive.v1
+      version: v1.0.0
+      type: strangebee
+      parameters:
+        Proxy: disabled
+        Server Verification: default
+        action: create_observable_in_alert
+        authentication: bearer_token
+        base_url: '{{ $global["01a03e0a-ef44-73c0-b013-dbadd5f4c448"] }}'
+        bearer_token: '{{ $secret["01a024b0-50c1-7ad8-add6-485a1c769236"] }}'
+        create_observable_in_alert__alertId: >-
+          {{
+          $steps["7ceeaf25-1fcd-4786-b743-aac5288b4fdd"]["59dc7ffe-008c-42b3-b399-d71cc6f06afd"]._id
+          }}
+        create_observable_in_alert__data: >-
+          {{
+          $steps["464bfe90-380e-4bbb-86e0-d1875c58e898"]["eea864bd-0b06-40b6-b5b2-d58190e922e4"]
+          }}
+        create_observable_in_alert__dataType: mail
+        create_observable_in_alert__ignoreSimilarity: no_change
+        create_observable_in_alert__ioc: no_change
+        create_observable_in_alert__sighted: no_change
+        editor_mode: form
+        mTLS: disabled
+        manual_status_handling: false
+    ui:
+      position:
+        x: 259.59595251191786
+        'y': 993.7193023469011
+      variableInputs:
+        command.parameters.base_url:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: global["01a03e0a-ef44-73c0-b013-dbadd5f4c448"]
+                      type: variable
+        command.parameters.bearer_token:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: secret["01a024b0-50c1-7ad8-add6-485a1c769236"]
+                      type: variable
+        command.parameters.x_organisation:
+          wireDoc:
+            nodes:
+              - type: text
+                value: Matrix
+        command.parameters.get_alert__alertId:
+          wireDoc:
+            nodes:
+              - type: text
+                value: ~4336
+        command.parameters.update_alert__title:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["464bfe90-380e-4bbb-86e0-d1875c58e898"]["b748a447-129c-4f0d-8ae3-4e46648a0eb1"]
+                      type: variable
+        command.parameters.update_alert__alertId:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["7ceeaf25-1fcd-4786-b743-aac5288b4fdd"]["59dc7ffe-008c-42b3-b399-d71cc6f06afd"]
+                      type: variable
+                    - type: text
+                      value: ._id
+        command.parameters.update_alert__description:
+          wireDoc:
+            nodes:
+              - type: text
+                value: '**From** : '
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["464bfe90-380e-4bbb-86e0-d1875c58e898"]["eea864bd-0b06-40b6-b5b2-d58190e922e4"]
+                      type: variable
+              - type: text
+                value: |-
+
+                  **To** : 
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["464bfe90-380e-4bbb-86e0-d1875c58e898"]["160491e7-d34b-442d-a239-c15f72fcbc45"]
+                      type: variable
+              - type: text
+                value: |-
+
+                  **Subject** : 
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["464bfe90-380e-4bbb-86e0-d1875c58e898"]["b748a447-129c-4f0d-8ae3-4e46648a0eb1"]
+                      type: variable
+              - type: text
+                value: |-
+
+                  **CC** : 
+                  **Date**: 
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["c448f6e0-49fc-4827-9463-2b5d1f947692"].original_email_date
+                      type: variable
+              - type: text
+                value: |-
+
+
+                  **Preview of the EMAIL :**
+                  [
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["2ce4fb8d-e14b-4a3b-8931-a9dd78ae5560"].body
+                      type: variable
+                    - type: text
+                      value: .attachments.[0].name
+              - type: text
+                value: ']('
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["2ce4fb8d-e14b-4a3b-8931-a9dd78ae5560"].body
+                      type: variable
+                    - type: text
+                      value: .attachments.[0].path
+              - type: text
+                value: )
+        command.parameters.update_alert__customFields:
+          wireDoc:
+            nodes:
+              - type: text
+                value: '{"sender":"'
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["464bfe90-380e-4bbb-86e0-d1875c58e898"]["eea864bd-0b06-40b6-b5b2-d58190e922e4"]
+                      type: variable
+              - type: text
+                value: '","recipient":"'
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["464bfe90-380e-4bbb-86e0-d1875c58e898"]["160491e7-d34b-442d-a239-c15f72fcbc45"]
+                      type: variable
+              - type: text
+                value: '","reporter":"'
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["464bfe90-380e-4bbb-86e0-d1875c58e898"]["160491e7-d34b-442d-a239-c15f72fcbc45"]
+                      type: variable
+              - type: text
+                value: '","reporteddate":"'
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["464bfe90-380e-4bbb-86e0-d1875c58e898"]["22e963a1-4db7-4a21-a366-b54c6353cec0"]
+                      type: variable
+              - type: text
+                value: '"}'
+        command.parameters.get_observable__observableId:
+          wireDoc:
+            nodes:
+              - type: text
+                value: ~8360
+        command.parameters.create_observable_in_alert__data:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["464bfe90-380e-4bbb-86e0-d1875c58e898"]["eea864bd-0b06-40b6-b5b2-d58190e922e4"]
+                      type: variable
+        command.parameters.create_observable_in_alert__alertId:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["7ceeaf25-1fcd-4786-b743-aac5288b4fdd"]["59dc7ffe-008c-42b3-b399-d71cc6f06afd"]
+                      type: variable
+                    - type: text
+                      value: ._id
+        command.parameters.create_observable_in_alert__dataType:
+          wireDoc:
+            nodes:
+              - type: text
+                value: mail
+  c448f6e0-49fc-4827-9463-2b5d1f947692:
+    id: c448f6e0-49fc-4827-9463-2b5d1f947692
+    name: Extract Email Metadata
+    type: action
+    on_success: 464bfe90-380e-4bbb-86e0-d1875c58e898
+    command:
+      command: strangebee.code.execute.python@v3_11
+      version: v1.0.0
+      type: strangebee
+      parameters:
+        script: >-
+          import json, re, base64
+
+
+          report =
+          flow.get('$steps["b8864bcb-a36f-4cdd-98a3-f3c49ebdd9fa"].analyzer_report')
+          or {}
+
+
+          full = report.get("full") or {}
+
+
+          png_b64 = (full.get('body', {}).get('text_html') or
+          [{}])[0].get('rendered_html', '')
+
+          iocs_emails = full.get('iocs', {}).get('email', [])
+
+          raw = base64.b64decode(png_b64.split(",", 1)[1] if "," in png_b64 else
+          png_b64)
+
+          headers = full.get('headers', {})
+
+          raw_email = full.get('raw_email', '')
+
+
+          # Addresses from the current envelope (IT relay/forwarder) - excluded
+          from suspects
+
+          envelope_addrs = {
+              e['data'] for e in iocs_emails
+              if 'envelope' in e.get('tag', [])
+          }
+
+
+          # Original sender = found in the body, not in the envelope
+
+          suspects = [
+              e['data'] for e in iocs_emails
+              if ('body:text/plain' in e.get('tag', []) or 'body:text/html' in e.get('tag', []))
+              and e['data'] not in envelope_addrs
+          ]
+
+
+          flow.set("suspect_sender", suspects[0] if suspects else "")
+
+          flow.set("suspect_domain", suspects[0].split('@')[1] if suspects else
+          "")
+
+          flow.set("all_suspects", json.dumps(suspects))
+
+
+          # Subject cleaned of the TR/FWD prefix
+
+          raw_subject = (full.get('headers', {}).get('subject') or [''])[0]
+
+          email_title = re.sub(r'^((TR|FWD?)\s*:\s*)+', '', raw_subject,
+          flags=re.IGNORECASE).strip()
+
+          flow.set("email_title", email_title)
+
+
+          # Forwarded "From / Date / To / Subject" block: only present in the
+          HTML (text_plain is empty)
+
+          html_content = (full.get('body', {}).get('text_html') or
+          [{}])[0].get('content', '')
+
+
+          def extract_header_field(label, html):
+              m = re.search(
+                  rf'<b>\s*{label}\s*(?:&nbsp;)?\s*:\s*</b>\s*(.+?)\s*<br',
+                  html, re.IGNORECASE | re.DOTALL
+              )
+              return m.group(1).strip() if m else ""
+
+          original_date_raw = extract_header_field("Date", html_content)
+
+          flow.set("original_email_date", original_date_raw)  # e.g. "Tuesday,
+          August 4, 2026 at 2:52 PM"
+
+
+          original_cc_raw = extract_header_field("Cc", html_content)
+
+          flow.set("original_cc", original_cc_raw)
+
+          # -> "" if absent, or "email1@domain.com; email2@domain.com" if
+          present
+
+
+          boundary = "BeeFlowBoundary7MA4YWxkTrZu0gW"
+
+          body = (
+              f'--{boundary}\r\n'
+              f'Content-Disposition: form-data; name="attachments"; filename="report.png"\r\n'
+              f'Content-Type: image/png\r\n\r\n'
+          ).encode() + raw + f'\r\n--{boundary}--\r\n'.encode()
+
+
+          flow.set("multipart_boundary", boundary)
+
+          flow.set("multipart_body_b64", base64.b64encode(body).decode())
+
+
+          page_body_json = json.dumps({
+              "title": "Email Headers",
+              "category": "default",
+              "content": json.dumps(headers, indent=2) + "\n\n" + raw_email
+          })
+
+
+          flow.set("page_body_json", page_body_json)
+    ui:
+      position:
+        x: 266.59108910891086
+        'y': 651.9801980198021
+  d49ca3d1-7e3d-4981-b94f-99d65201dd12:
+    id: d49ca3d1-7e3d-4981-b94f-99d65201dd12
+    name: Store Alerts as Array
+    type: action
+    on_success: 7ceeaf25-1fcd-4786-b743-aac5288b4fdd
+    command:
+      command: strangebee.variable.new
+      version: v1.0.0
+      type: strangebee
+      parameters:
+        variables:
+          - id: 20f83926-1cb0-40e2-af6b-32f0c5cedc06
+            name: alertArray
+            type: array
+            value: '{{ $steps["966bc137-dfcc-40e8-9105-ba42039a74bd"].body }}'
+    ui:
+      position:
+        x: 264
+        'y': 230.99207920792077
+      variableInputs:
+        command.parameters.variables:
+          wireDocs:
+            - nodes:
+                - type: context
+                  expression:
+                    nodes:
+                      - key: steps["966bc137-dfcc-40e8-9105-ba42039a74bd"].body
+                        type: variable
+  start--new-playbook--451736e4-1afc-4506-ac04-ab2fe0196d8a:
+    id: start--new-playbook--451736e4-1afc-4506-ac04-ab2fe0196d8a
+    type: start
+    on_success: 966bc137-dfcc-40e8-9105-ba42039a74bd
+    ui:
+      position:
+        x: 262.72536813101374
+        'y': -6.059907587592555
+created_by: lucas.burte@strangebee.com
+created: '2026-08-31T10:03:21.064038Z'
+modified_by: lucas.burte@strangebee.com
+modified: '2026-09-08T13:31:55.761674Z'
+revoked: false

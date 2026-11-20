@@ -1,0 +1,895 @@
+version: v1.0.0
+spec_version: chocolate-v2.0.0
+id: playbook-01a07c23-dfc8-7d81-ad51-b9392ca4435a
+name: Slack Alert Manager
+organisation: ~942084232
+timeout: 1h0m0s
+variables:
+  input:
+    - id: 3c77345a-f5ac-467c-be5e-0a80da3c25fe
+      name: TheHiveAlert
+      type: object
+workflow_start: start--new-playbook--9f02b2a4-76dc-4f46-8ca4-6a36d5e12876
+workflow:
+  0307ae94-ef69-467c-b907-def6775b748f:
+    id: 0307ae94-ef69-467c-b907-def6775b748f
+    name: Update Alert - Severity Critical
+    type: action
+    command:
+      command: strangebee.integration.thehive.v1
+      version: v1.0.0
+      type: strangebee
+      parameters:
+        Proxy: disabled
+        Server Verification: default
+        action: update_alert
+        authentication: bearer_token
+        base_url: '{{ $global["01a03e0a-ef44-73c0-b013-dbadd5f4c448"] }}'
+        bearer_token: '{{ $secret["01a024b0-50c1-7ad8-add6-485a1c769236"] }}'
+        editor_mode: form
+        mTLS: disabled
+        manual_status_handling: false
+        update_alert__alertId: '{{ $input["3c77345a-f5ac-467c-be5e-0a80da3c25fe"].details._id }}'
+        update_alert__follow: no_change
+        update_alert__severity: 4
+    ui:
+      position:
+        x: 204
+        'y': 851
+      variableInputs:
+        command.parameters.base_url:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: global["01a03e0a-ef44-73c0-b013-dbadd5f4c448"]
+                      type: variable
+        command.parameters.bearer_token:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: secret["01a024b0-50c1-7ad8-add6-485a1c769236"]
+                      type: variable
+        command.parameters.update_alert__alertId:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: input["3c77345a-f5ac-467c-be5e-0a80da3c25fe"]
+                      type: variable
+                    - type: text
+                      value: .details._id
+  0836526c-5035-450a-bc40-ba04709eec19:
+    id: 0836526c-5035-450a-bc40-ba04709eec19
+    name: Update Alert - False Positive
+    type: action
+    command:
+      command: strangebee.integration.thehive.v1
+      version: v1.0.0
+      type: strangebee
+      parameters:
+        Proxy: disabled
+        Server Verification: default
+        action: update_alert
+        authentication: bearer_token
+        base_url: '{{ $global["01a03e0a-ef44-73c0-b013-dbadd5f4c448"] }}'
+        bearer_token: '{{ $secret["01a024b0-50c1-7ad8-add6-485a1c769236"] }}'
+        editor_mode: form
+        mTLS: disabled
+        manual_status_handling: false
+        update_alert__alertId: '{{ $input["3c77345a-f5ac-467c-be5e-0a80da3c25fe"]._id }}'
+        update_alert__follow: no_change
+        update_alert__status: FalsePositive
+    ui:
+      position:
+        x: 772
+        'y': 851
+      variableInputs:
+        command.parameters.base_url:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: global["01a03e0a-ef44-73c0-b013-dbadd5f4c448"]
+                      type: variable
+        command.parameters.bearer_token:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: secret["01a024b0-50c1-7ad8-add6-485a1c769236"]
+                      type: variable
+        command.parameters.update_alert__status:
+          wireDoc:
+            nodes:
+              - type: text
+                value: FalsePositive
+        command.parameters.update_alert__alertId:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: input["3c77345a-f5ac-467c-be5e-0a80da3c25fe"]
+                      type: variable
+                    - type: text
+                      value: ._id
+  234afd9b-a38c-4a85-a8fd-0daa277ae93f:
+    id: 234afd9b-a38c-4a85-a8fd-0daa277ae93f
+    name: Comment - acknowledged via Slack
+    type: action
+    command:
+      command: strangebee.integration.thehive.v1
+      version: v1.0.0
+      type: strangebee
+      parameters:
+        Proxy: disabled
+        Server Verification: default
+        action: create_comment_in_alert
+        authentication: bearer_token
+        base_url: '{{ $global["01a03e0a-ef44-73c0-b013-dbadd5f4c448"] }}'
+        bearer_token: '{{ $secret["01a024b0-50c1-7ad8-add6-485a1c769236"] }}'
+        create_comment_in_alert__alertId: '{{ $input["3c77345a-f5ac-467c-be5e-0a80da3c25fe"].details._id }}'
+        create_comment_in_alert__message: >-
+          Acknowledged via Slack by user : {{
+          $steps["fc3b3d9f-5874-4550-b173-80ba55741c9e"].body.user.real_name }}
+        editor_mode: form
+        mTLS: disabled
+        manual_status_handling: false
+    ui:
+      position:
+        x: 346
+        'y': 1003
+      variableInputs:
+        command.parameters.base_url:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: global["01a03e0a-ef44-73c0-b013-dbadd5f4c448"]
+                      type: variable
+        command.parameters.bearer_token:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: secret["01a024b0-50c1-7ad8-add6-485a1c769236"]
+                      type: variable
+        command.parameters.create_comment_in_alert__alertId:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: input["3c77345a-f5ac-467c-be5e-0a80da3c25fe"]
+                      type: variable
+                    - type: text
+                      value: .details._id
+        command.parameters.create_comment_in_alert__message:
+          wireDoc:
+            nodes:
+              - type: text
+                value: 'Acknowledged via Slack by user : '
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["fc3b3d9f-5874-4550-b173-80ba55741c9e"].body
+                      type: variable
+                    - type: text
+                      value: .user.real_name
+  2426e4a1-34c8-48a4-8bc8-b8deddcdf029:
+    id: 2426e4a1-34c8-48a4-8bc8-b8deddcdf029
+    name: For Each
+    type: foreach
+    foreach:
+      foreach: range(1;10)
+      key_variable: idx
+      key_variable_id: 175771b6-70d9-4cca-a956-75d612365cdb
+      value_variable: item
+      value_variable_id: c812a5c2-2093-4dc7-bbef-c6dce2415c2f
+      body: c3d85645-f6c6-4a1c-9a22-5035a8379e6a
+    ui:
+      position:
+        x: 802.6666666666666
+        'y': 281
+      variableInputs:
+        foreach.foreach:
+          wireDoc:
+            nodes:
+              - type: text
+                value: range(1;10)
+        foreach.key_variable:
+          wireDoc:
+            nodes:
+              - type: text
+                value: idx
+        foreach.value_variable:
+          wireDoc:
+            nodes:
+              - type: text
+                value: item
+  321049cc-f0d1-4bbe-ac44-85d454c4f490:
+    id: 321049cc-f0d1-4bbe-ac44-85d454c4f490
+    name: If "exclamation" reaction and severity not yet critical
+    type: if-condition
+    condition: >-
+      ($steps["e0b96ab0-017b-4d67-8a70-cbcd591786e3"]["8910187f-e9c7-4e70-9218-f4af527b50dd"].name
+      == "exclamation") and
+      ($steps["7f3a9c1e-2b4d-4a6f-8c3e-9d1b5a7f2e6c"].body.severity != 4)
+    on_true: 0307ae94-ef69-467c-b907-def6775b748f
+    ui:
+      position:
+        x: 346
+        'y': 775
+      variableInputs:
+        condition:
+          wireDoc:
+            nodes:
+              - type: text
+                value: (
+              - key: steps["e0b96ab0-017b-4d67-8a70-cbcd591786e3"]["8910187f-e9c7-4e70-9218-f4af527b50dd"]
+                type: variable
+              - type: text
+                value: .name == "exclamation") and (
+              - key: steps["7f3a9c1e-2b4d-4a6f-8c3e-9d1b5a7f2e6c"].body
+                type: variable
+              - type: text
+                value: .severity != 4)
+  369c34f4-e7d7-48f2-adfe-cd2fa6e1db50:
+    id: 369c34f4-e7d7-48f2-adfe-cd2fa6e1db50
+    name: If "x" reaction and not already False Positive
+    type: if-condition
+    condition: >-
+      ($steps["e0b96ab0-017b-4d67-8a70-cbcd591786e3"]["8910187f-e9c7-4e70-9218-f4af527b50dd"].name
+      == "x") and ($steps["7f3a9c1e-2b4d-4a6f-8c3e-9d1b5a7f2e6c"].body.status !=
+      "FalsePositive")
+    on_true: 0836526c-5035-450a-bc40-ba04709eec19
+    ui:
+      position:
+        x: 914
+        'y': 775
+      variableInputs:
+        condition:
+          wireDoc:
+            nodes:
+              - type: text
+                value: (
+              - key: steps["e0b96ab0-017b-4d67-8a70-cbcd591786e3"]["8910187f-e9c7-4e70-9218-f4af527b50dd"]
+                type: variable
+              - type: text
+                value: .name == "x") and (
+              - key: steps["7f3a9c1e-2b4d-4a6f-8c3e-9d1b5a7f2e6c"].body
+                type: variable
+              - type: text
+                value: .status != "FalsePositive")
+  3d781a50-1355-405a-909b-a07b98cc0fa9:
+    id: 3d781a50-1355-405a-909b-a07b98cc0fa9
+    name: Slack Get Replies
+    type: action
+    on_success: 74111d71-4453-4d3e-8ccf-ad6289b83742
+    command:
+      command: strangebee.integration.slack.2.0.0
+      version: v1.0.0
+      type: strangebee
+      parameters:
+        Proxy: disabled
+        Server Verification: default
+        action: get_thread_replies
+        authentication: bearer_token
+        base_url: https://slack.com/api
+        bearer_token: '{{ $secret["01a06d11-1d17-74d3-bfaf-a358a40cdae8"] }}'
+        get_thread_replies__query_params:
+          - name: channel
+            value: '{{ $steps["ab91afe4-1fca-4c89-8393-a86d308b1a07"].body.channel }}'
+          - name: ts
+            value: '{{ $steps["ab91afe4-1fca-4c89-8393-a86d308b1a07"].body.ts }}'
+        mTLS: disabled
+        manual_status_handling: false
+    ui:
+      position:
+        x: 1148
+        'y': 775
+      variableInputs:
+        command.parameters.base_url:
+          wireDoc:
+            nodes:
+              - type: text
+                value: https://slack.com/api
+        command.parameters.bearer_token:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: secret["01a06d11-1d17-74d3-bfaf-a358a40cdae8"]
+                      type: variable
+        command.parameters.post_message__text:
+          wireDoc:
+            nodes:
+              - type: text
+                value: 'New alert created in TheHive : '
+        command.parameters.post_message__channel:
+          wireDoc:
+            nodes:
+              - type: text
+                value: C0BTXCXHH6V
+        command.parameters.get_thread_replies__query_params:
+          wireDocs:
+            - nodes:
+                - type: context
+                  expression:
+                    nodes:
+                      - key: steps["ab91afe4-1fca-4c89-8393-a86d308b1a07"].body
+                        type: variable
+                      - type: text
+                        value: .channel
+            - nodes:
+                - type: context
+                  expression:
+                    nodes:
+                      - key: steps["ab91afe4-1fca-4c89-8393-a86d308b1a07"].body
+                        type: variable
+                      - type: text
+                        value: .ts
+  57ed6553-5bd3-4f02-bcfd-85efd7f1fda6:
+    id: 57ed6553-5bd3-4f02-bcfd-85efd7f1fda6
+    name: If "hand" reaction
+    type: if-condition
+    condition: >-
+      $steps["e0b96ab0-017b-4d67-8a70-cbcd591786e3"]["8910187f-e9c7-4e70-9218-f4af527b50dd"].name
+      == "hand"
+    on_true: c3d5f7b9-4a2e-4bcd-8ef0-b2c3d4e5f6a7
+    ui:
+      position:
+        x: 630
+        'y': 775
+      variableInputs:
+        condition:
+          wireDoc:
+            nodes:
+              - key: steps["e0b96ab0-017b-4d67-8a70-cbcd591786e3"]["8910187f-e9c7-4e70-9218-f4af527b50dd"]
+                type: variable
+              - type: text
+                value: .name == "hand"
+  74111d71-4453-4d3e-8ccf-ad6289b83742:
+    id: 74111d71-4453-4d3e-8ccf-ad6289b83742
+    name: For Each Thread Reply
+    type: foreach
+    foreach:
+      foreach: >-
+        ($steps["3d781a50-1355-405a-909b-a07b98cc0fa9"].body.messages // []) |
+        [.[] | select(.ts !=
+        $steps["ab91afe4-1fca-4c89-8393-a86d308b1a07"].body.ts)]
+      key_variable: idx
+      key_variable_id: cf20734c-0bdb-4ee4-902e-e511c4ccfda4
+      value_variable: item
+      value_variable_id: 47e1272f-c52a-4c11-b17a-ed00a937f731
+      body: a3b4c5d6-7e8f-4091-a213-c4d5e6f7a8b9
+    ui:
+      position:
+        x: 1148
+        'y': 851
+      variableInputs:
+        foreach.foreach:
+          wireDoc:
+            nodes:
+              - type: text
+                value: (
+              - key: steps["3d781a50-1355-405a-909b-a07b98cc0fa9"].body
+                type: variable
+              - type: text
+                value: '.messages // []) | [.[] | select(.ts != '
+              - key: steps["ab91afe4-1fca-4c89-8393-a86d308b1a07"].body
+                type: variable
+              - type: text
+                value: .ts)]
+        foreach.key_variable:
+          wireDoc:
+            nodes:
+              - type: text
+                value: idx
+        foreach.value_variable:
+          wireDoc:
+            nodes:
+              - type: text
+                value: item
+  7f3a9c1e-2b4d-4a6f-8c3e-9d1b5a7f2e6c:
+    id: 7f3a9c1e-2b4d-4a6f-8c3e-9d1b5a7f2e6c
+    name: Get Alert (Fresh State)
+    type: action
+    on_success: ed2eced1-3cce-43d9-8adf-424f41ae5ef1
+    command:
+      command: strangebee.integration.thehive.v1
+      version: v1.0.0
+      type: strangebee
+      parameters:
+        Proxy: disabled
+        Server Verification: default
+        action: get_alert
+        authentication: bearer_token
+        base_url: '{{ $global["01a03e0a-ef44-73c0-b013-dbadd5f4c448"] }}'
+        bearer_token: '{{ $secret["01a024b0-50c1-7ad8-add6-485a1c769236"] }}'
+        get_alert__alertId: '{{ $input["3c77345a-f5ac-467c-be5e-0a80da3c25fe"].details._id }}'
+        mTLS: disabled
+        manual_status_handling: false
+    ui:
+      position:
+        x: 802.6666666666666
+        'y': 433
+      variableInputs:
+        command.parameters.base_url:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: global["01a03e0a-ef44-73c0-b013-dbadd5f4c448"]
+                      type: variable
+        command.parameters.bearer_token:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: secret["01a024b0-50c1-7ad8-add6-485a1c769236"]
+                      type: variable
+        command.parameters.get_alert__alertId:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: input["3c77345a-f5ac-467c-be5e-0a80da3c25fe"]
+                      type: variable
+                    - type: text
+                      value: .details._id
+  a3b4c5d6-7e8f-4091-a213-c4d5e6f7a8b9:
+    id: a3b4c5d6-7e8f-4091-a213-c4d5e6f7a8b9
+    name: If Reply Not Already Logged
+    type: if-condition
+    condition: >-
+      ($steps["b2c4e6a8-2f1a-4abc-9def-a1b2c3d4e5f6"].body | [.[] |
+      select(.message |
+      contains($steps["74111d71-4453-4d3e-8ccf-ad6289b83742"]["47e1272f-c52a-4c11-b17a-ed00a937f731"].text))]
+      | length) == 0
+    on_true: acb65564-24ea-4f13-bbf1-94c0f56cc28e
+    ui:
+      position:
+        x: 1100.1668773704173
+        'y': 958.8887484197219
+      variableInputs:
+        condition:
+          wireDoc:
+            nodes:
+              - type: text
+                value: (
+              - key: steps["b2c4e6a8-2f1a-4abc-9def-a1b2c3d4e5f6"].body
+                type: variable
+              - type: text
+                value: ' | [.[] | select(.message | contains('
+              - key: steps["74111d71-4453-4d3e-8ccf-ad6289b83742"]["47e1272f-c52a-4c11-b17a-ed00a937f731"]
+                type: variable
+              - type: text
+                value: .text))] | length) == 0
+  ab91afe4-1fca-4c89-8393-a86d308b1a07:
+    id: ab91afe4-1fca-4c89-8393-a86d308b1a07
+    name: Slack Send Message
+    type: action
+    on_success: 2426e4a1-34c8-48a4-8bc8-b8deddcdf029
+    command:
+      command: strangebee.integration.slack.2.0.0
+      version: v1.0.0
+      type: strangebee
+      parameters:
+        Proxy: disabled
+        Server Verification: default
+        action: post_message
+        authentication: bearer_token
+        base_url: https://slack.com/api
+        bearer_token: '{{ $secret["01a06d11-1d17-74d3-bfaf-a358a40cdae8"] }}'
+        editor_mode: form
+        mTLS: disabled
+        manual_status_handling: false
+        post_message__channel: '{{ $secret["01a08031-7d78-7f88-a7c0-2f969e175a2a"] }}'
+        post_message__mrkdwn: 'true'
+        post_message__text: >-
+          New alert created in TheHive : {{
+          $input["3c77345a-f5ac-467c-be5e-0a80da3c25fe"].details.title }} ,
+          Severity : {{
+          $input["3c77345a-f5ac-467c-be5e-0a80da3c25fe"].details.severity }}
+        post_message__unfurl_links: no_change
+    ui:
+      position:
+        x: 802.6666666666666
+        'y': 205
+      variableInputs:
+        command.parameters.base_url:
+          wireDoc:
+            nodes:
+              - type: text
+                value: https://slack.com/api
+        command.parameters.bearer_token:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: secret["01a06d11-1d17-74d3-bfaf-a358a40cdae8"]
+                      type: variable
+        command.parameters.post_message__text:
+          wireDoc:
+            nodes:
+              - type: text
+                value: 'New alert created in TheHive : '
+              - type: context
+                expression:
+                  nodes:
+                    - key: input["3c77345a-f5ac-467c-be5e-0a80da3c25fe"]
+                      type: variable
+                    - type: text
+                      value: .details.title
+              - type: text
+                value: ' , Severity : '
+              - type: context
+                expression:
+                  nodes:
+                    - key: input["3c77345a-f5ac-467c-be5e-0a80da3c25fe"]
+                      type: variable
+                    - type: text
+                      value: .details.severity
+        command.parameters.post_message__channel:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: secret["01a08031-7d78-7f88-a7c0-2f969e175a2a"]
+                      type: variable
+  acb65564-24ea-4f13-bbf1-94c0f56cc28e:
+    id: acb65564-24ea-4f13-bbf1-94c0f56cc28e
+    name: Comment - new thread reply
+    type: action
+    command:
+      command: strangebee.integration.thehive.v1
+      version: v1.0.0
+      type: strangebee
+      parameters:
+        action: create_comment_in_alert
+        auth_type: bearer_token
+        base_url: '{{ $global["01a03e0a-ef44-73c0-b013-dbadd5f4c448"] }}'
+        bearer_token: '{{ $secret["01a024b0-50c1-7ad8-add6-485a1c769236"] }}'
+        create_comment_in_alert__alertId: '{{ $input["3c77345a-f5ac-467c-be5e-0a80da3c25fe"].details._id }}'
+        create_comment_in_alert__message: >-
+          Slack thread reply: {{
+          $steps["74111d71-4453-4d3e-8ccf-ad6289b83742"]["47e1272f-c52a-4c11-b17a-ed00a937f731"].text
+          }}
+        editor_mode: form
+        manual_status_handling: false
+        proxy_mode: disabled
+        ssl_mtls: disabled
+        ssl_verification: default
+    ui:
+      position:
+        x: 1054.7534766118836
+        'y': 1064.1201011378005
+      variableInputs:
+        command.parameters.base_url:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: global["01a03e0a-ef44-73c0-b013-dbadd5f4c448"]
+                      type: variable
+        command.parameters.bearer_token:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: secret["01a024b0-50c1-7ad8-add6-485a1c769236"]
+                      type: variable
+        command.parameters.create_comment_in_alert__alertId:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: input["3c77345a-f5ac-467c-be5e-0a80da3c25fe"]
+                      type: variable
+                    - type: text
+                      value: .details._id
+        command.parameters.create_comment_in_alert__message:
+          wireDoc:
+            nodes:
+              - type: text
+                value: 'Slack thread reply: '
+              - type: context
+                expression:
+                  nodes:
+                    - key: steps["74111d71-4453-4d3e-8ccf-ad6289b83742"]["47e1272f-c52a-4c11-b17a-ed00a937f731"]
+                      type: variable
+                    - type: text
+                      value: .text
+  b2c4e6a8-2f1a-4abc-9def-a1b2c3d4e5f6:
+    id: b2c4e6a8-2f1a-4abc-9def-a1b2c3d4e5f6
+    name: Get Alert Comments
+    type: action
+    on_success: e0b96ab0-017b-4d67-8a70-cbcd591786e3
+    command:
+      command: strangebee.integration.thehive.v1
+      version: v1.0.0
+      type: strangebee
+      parameters:
+        Proxy: disabled
+        Server Verification: default
+        action: post_query
+        authentication: bearer_token
+        base_url: '{{ $global["01a03e0a-ef44-73c0-b013-dbadd5f4c448"] }}'
+        bearer_token: '{{ $secret["01a024b0-50c1-7ad8-add6-485a1c769236"] }}'
+        editor_mode: form
+        mTLS: disabled
+        manual_status_handling: false
+        post_query__query: |-
+          [
+                  {
+                      "_name": "getAlert",
+                      "idOrName": "{{ $input["3c77345a-f5ac-467c-be5e-0a80da3c25fe"].details._id }}"
+                  },
+                  {
+                      "_name": "comments"
+                  }
+          ]
+    ui:
+      position:
+        x: 802.6666666666666
+        'y': 585
+      variableInputs:
+        command.parameters.base_url:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: global["01a03e0a-ef44-73c0-b013-dbadd5f4c448"]
+                      type: variable
+        command.parameters.bearer_token:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: secret["01a024b0-50c1-7ad8-add6-485a1c769236"]
+                      type: variable
+        command.parameters.post_query__query:
+          wireDoc:
+            nodes:
+              - type: text
+                value: |-
+                  [
+                          {
+                              "_name": "getAlert",
+                              "idOrName": "
+              - type: context
+                expression:
+                  nodes:
+                    - key: input["3c77345a-f5ac-467c-be5e-0a80da3c25fe"]
+                      type: variable
+                    - type: text
+                      value: .details._id
+              - type: text
+                value: |-
+                  "
+                          },
+                          {
+                              "_name": "comments"
+                          }
+                  ]
+  c3d5f7b9-4a2e-4bcd-8ef0-b2c3d4e5f6a7:
+    id: c3d5f7b9-4a2e-4bcd-8ef0-b2c3d4e5f6a7
+    name: If Not Already Acknowledged
+    type: if-condition
+    condition: >-
+      ($steps["b2c4e6a8-2f1a-4abc-9def-a1b2c3d4e5f6"].body | [.[] |
+      select(.message | test("Acknowledged via Slack"))] | length) == 0
+    on_true: fc3b3d9f-5874-4550-b173-80ba55741c9e
+    ui:
+      position:
+        x: 488
+        'y': 851
+      variableInputs:
+        condition:
+          wireDoc:
+            nodes:
+              - type: text
+                value: (
+              - key: steps["b2c4e6a8-2f1a-4abc-9def-a1b2c3d4e5f6"].body
+                type: variable
+              - type: text
+                value: ' | [.[] | select(.message | test("Acknowledged via Slack"))] | length) == 0'
+  c3d85645-f6c6-4a1c-9a22-5035a8379e6a:
+    id: c3d85645-f6c6-4a1c-9a22-5035a8379e6a
+    name: Sleep
+    type: action
+    on_success: 7f3a9c1e-2b4d-4a6f-8c3e-9d1b5a7f2e6c
+    command:
+      command: strangebee.sleep
+      version: v1.0.0
+      type: strangebee
+      parameters:
+        duration: 20s
+    ui:
+      position:
+        x: 802.6666666666666
+        'y': 357
+  e0b96ab0-017b-4d67-8a70-cbcd591786e3:
+    id: e0b96ab0-017b-4d67-8a70-cbcd591786e3
+    name: For Each Reaction
+    type: foreach
+    on_success: 3d781a50-1355-405a-909b-a07b98cc0fa9
+    foreach:
+      foreach: >-
+        $steps["ed2eced1-3cce-43d9-8adf-424f41ae5ef1"].body.message.reactions //
+        []
+      key_variable: idx
+      key_variable_id: 98d7272a-14a4-4351-b1a9-85d485cd7fb4
+      value_variable: item
+      value_variable_id: 8910187f-e9c7-4e70-9218-f4af527b50dd
+      body:
+        - 57ed6553-5bd3-4f02-bcfd-85efd7f1fda6
+        - 321049cc-f0d1-4bbe-ac44-85d454c4f490
+        - 369c34f4-e7d7-48f2-adfe-cd2fa6e1db50
+    ui:
+      position:
+        x: 802.6666666666666
+        'y': 661
+      variableInputs:
+        foreach.foreach:
+          wireDoc:
+            nodes:
+              - key: steps["ed2eced1-3cce-43d9-8adf-424f41ae5ef1"].body
+                type: variable
+              - type: text
+                value: .message.reactions // []
+        foreach.key_variable:
+          wireDoc:
+            nodes:
+              - type: text
+                value: idx
+        foreach.value_variable:
+          wireDoc:
+            nodes:
+              - type: text
+                value: item
+  ed2eced1-3cce-43d9-8adf-424f41ae5ef1:
+    id: ed2eced1-3cce-43d9-8adf-424f41ae5ef1
+    name: Slack Get Reactions
+    type: action
+    on_success: b2c4e6a8-2f1a-4abc-9def-a1b2c3d4e5f6
+    command:
+      command: strangebee.integration.slack.2.0.0
+      version: v1.0.0
+      type: strangebee
+      parameters:
+        Proxy: disabled
+        Server Verification: default
+        action: get_reactions
+        authentication: bearer_token
+        base_url: https://slack.com/api
+        bearer_token: '{{ $secret["01a06d11-1d17-74d3-bfaf-a358a40cdae8"] }}'
+        get_reactions__query_params:
+          - name: channel
+            value: '{{ $steps["ab91afe4-1fca-4c89-8393-a86d308b1a07"].body.channel }}'
+          - name: timestamp
+            value: '{{ $steps["ab91afe4-1fca-4c89-8393-a86d308b1a07"].body.ts }}'
+        mTLS: disabled
+        manual_status_handling: false
+    ui:
+      position:
+        x: 802.6666666666666
+        'y': 509
+      variableInputs:
+        command.parameters.base_url:
+          wireDoc:
+            nodes:
+              - type: text
+                value: https://slack.com/api
+        command.parameters.bearer_token:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: secret["01a06d11-1d17-74d3-bfaf-a358a40cdae8"]
+                      type: variable
+        command.parameters.get_reactions__query_params:
+          wireDocs:
+            - nodes:
+                - type: context
+                  expression:
+                    nodes:
+                      - key: steps["ab91afe4-1fca-4c89-8393-a86d308b1a07"].body
+                        type: variable
+                      - type: text
+                        value: .channel
+            - nodes:
+                - type: context
+                  expression:
+                    nodes:
+                      - key: steps["ab91afe4-1fca-4c89-8393-a86d308b1a07"].body
+                        type: variable
+                      - type: text
+                        value: .ts
+  fc3b3d9f-5874-4550-b173-80ba55741c9e:
+    id: fc3b3d9f-5874-4550-b173-80ba55741c9e
+    name: Slack Get User Information
+    type: action
+    on_success: 234afd9b-a38c-4a85-a8fd-0daa277ae93f
+    command:
+      command: strangebee.integration.slack.2.0.0
+      version: v1.0.0
+      type: strangebee
+      parameters:
+        Proxy: disabled
+        Server Verification: default
+        action: get_user_info
+        authentication: bearer_token
+        base_url: https://slack.com/api
+        bearer_token: '{{ $secret["01a06d11-1d17-74d3-bfaf-a358a40cdae8"] }}'
+        get_user_info__query_params:
+          - name: user
+            value: >-
+              {{
+              $steps["e0b96ab0-017b-4d67-8a70-cbcd591786e3"]["8910187f-e9c7-4e70-9218-f4af527b50dd"].users[0]
+              }}
+        mTLS: disabled
+        manual_status_handling: false
+    ui:
+      position:
+        x: 346
+        'y': 927
+      variableInputs:
+        command.parameters.base_url:
+          wireDoc:
+            nodes:
+              - type: text
+                value: https://slack.com/api
+        command.parameters.bearer_token:
+          wireDoc:
+            nodes:
+              - type: context
+                expression:
+                  nodes:
+                    - key: secret["01a06d11-1d17-74d3-bfaf-a358a40cdae8"]
+                      type: variable
+        command.parameters.get_user_info__query_params:
+          wireDocs:
+            - nodes:
+                - type: context
+                  expression:
+                    nodes:
+                      - key: steps["e0b96ab0-017b-4d67-8a70-cbcd591786e3"]["8910187f-e9c7-4e70-9218-f4af527b50dd"]
+                        type: variable
+                      - type: text
+                        value: .users[0]
+  start--new-playbook--9f02b2a4-76dc-4f46-8ca4-6a36d5e12876:
+    id: start--new-playbook--9f02b2a4-76dc-4f46-8ca4-6a36d5e12876
+    type: start
+    on_success: ab91afe4-1fca-4c89-8393-a86d308b1a07
+    ui:
+      position:
+        x: 802.6666666666666
+        'y': 0
+created_by: lucas.burte@strangebee.com
+created: '2026-09-07T13:52:00.968885Z'
+modified_by: lucas.burte@strangebee.com
+modified: '2026-10-07T11:17:22.370709Z'
+revoked: false

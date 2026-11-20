@@ -177,6 +177,8 @@ def generate_markdown_overview(vendor: str, manifest: Dict) -> str:
             entry = f"- [{workflow.get('name', 'Workflow')}]({workflow.get('url', '')})"
             if workflow.get('description'):
                 entry += f" - {workflow['description']}"
+            if workflow.get('github_url'):
+                entry += f" ([code on GitHub]({workflow['github_url']}))"
             lines.append(entry)
         lines.append("")
         _add_divider_if_more('workflows')
@@ -223,7 +225,7 @@ def generate_markdown_overview(vendor: str, manifest: Dict) -> str:
     return '\n'.join(lines)
 
 
-def generate_catalog_index(all_manifests: Dict) -> str:
+def generate_catalog_index(all_manifests: Dict, unique_workflows: int = None) -> str:
     lines = [
         "# Integration Catalog", "",
         "Auto-generated catalog of TheHive and Cortex integrations.", "",
@@ -247,8 +249,10 @@ def generate_catalog_index(all_manifests: Dict) -> str:
         m['stats'].get('totalNotifiers', 0) for m in all_manifests.values())
     stats_totals['totalFlow'] = sum(
         m['stats'].get('totalFlow', 0) for m in all_manifests.values())
-    stats_totals['totalWorkflows'] = sum(
-        m['stats'].get('totalWorkflows', 0) for m in all_manifests.values())
+    vendor_workflows = sum(m['stats'].get('totalWorkflows', 0) for m in all_manifests.values())
+    # All unique workflows, generic included, when the workflows catalog is available
+    stats_totals['totalWorkflows'] = vendor_workflows if unique_workflows is None else unique_workflows
+    stats_totals['total'] += stats_totals['totalWorkflows'] - vendor_workflows
 
     lines.extend([
         "## Summary Statistics", "",
@@ -585,6 +589,65 @@ def generate_notifications_documentation(notifications: Dict) -> str:
     return '\n'.join(lines)
 
 
+def _render_workflow(workflow: Dict, heading_level: str = "###") -> List[str]:
+    lines = [f"{heading_level} {workflow.get('name', 'Workflow')}", ""]
+    if workflow.get('description'):
+        lines.extend([workflow['description'], ""])
+    if workflow.get('hasFile'):
+        requires = workflow.get('requires') or {}
+        lines.append(f"- **Steps:** {workflow.get('steps', 0)}")
+        if workflow.get('integrations'):
+            lines.append(f"- **Flow integrations used:** {', '.join(workflow['integrations'])}")
+        lines.append(f"- **To set up after import:** {requires.get('secrets', 0)} secret(s), "
+                     f"{requires.get('globals', 0)} global variable(s)")
+        if workflow.get('timeout'):
+            lines.append(f"- **Timeout:** {workflow['timeout']}")
+    links = []
+    if workflow.get('url'):
+        links.append(f"[Workflow page]({workflow['url']})")
+    if workflow.get('github_url'):
+        links.append(f"[Code on GitHub]({workflow['github_url']})")
+    if workflow.get('file_url'):
+        links.append(f"[Raw file]({workflow['file_url']})")
+    if links:
+        lines.append(f"- **Links:** {' | '.join(links)}")
+    lines.append("")
+    return lines
+
+
+def generate_workflows_documentation(wf_catalog: Dict) -> str:
+    """One page listing every TheHive Flow workflow, generic and vendor, from the workflows catalog."""
+    workflows = wf_catalog.get('workflows', [])
+    generic = [w for w in workflows if (w.get('owner') or {}).get('type') == 'generic']
+    by_vendor: Dict[str, List[Dict]] = {}
+    for workflow in workflows:
+        if workflow not in generic:
+            by_vendor.setdefault(workflow.get('vendor') or 'Other', []).append(workflow)
+
+    lines = [
+        "# TheHive Flow Workflows", "",
+        "Ready-to-use workflows for TheHive Flow. Import the file into your instance, then set up "
+        "the secrets and global variables it refers to.", "",
+        "## Summary", "",
+        f"- **Total Workflows:** {wf_catalog.get('unique_count', len(workflows))}",
+        f"- **Generic Workflows:** {len(generic)}",
+        f"- **Vendor-Specific Workflows:** {len(workflows) - len(generic)}", "",
+    ]
+    if generic:
+        lines.extend(["## Generic Workflows", ""])
+        for workflow in generic:
+            lines.extend(_render_workflow(workflow, "###"))
+    if by_vendor:
+        lines.extend(["## Vendor-Specific Workflows", ""])
+        for vendor_name in sorted(by_vendor, key=str.lower):
+            lines.extend([f"### {vendor_name}", ""])
+            for workflow in by_vendor[vendor_name]:
+                lines.extend(_render_workflow(workflow, "####"))
+
+    lines.extend(["*This documentation is auto-generated. Do not edit manually.*", ""])
+    return '\n'.join(lines)
+
+
 def generate_free_local_integrations(all_manifests: Dict) -> str:
     lines = [
         "# Free & Local Integrations", "",
@@ -688,8 +751,13 @@ def main():
     print(f"> Generated {len(vendors)} vendor documentation pages")
 
     # Catalog index
+    wf_catalog = {}
+    wf_catalog_path = catalogs_path / 'workflows' / 'catalog.json'
+    if wf_catalog_path.exists():
+        with open(wf_catalog_path, 'r', encoding='utf-8') as f:
+            wf_catalog = json.load(f)
     with open(docs_path / 'overview.md', 'w', encoding='utf-8') as f:
-        f.write(generate_catalog_index(all_manifests))
+        f.write(generate_catalog_index(all_manifests, wf_catalog.get('unique_count')))
     print(f"> Catalog index written")
 
     # External integrations docs
@@ -756,6 +824,12 @@ def main():
         with open(docs_path / 'notifications.md', 'w', encoding='utf-8') as f:
             f.write(generate_notifications_documentation(notifications))
         print(f"> Notifications docs written ({total_notifs} filters)")
+
+    # Workflows
+    if wf_catalog.get('workflows'):
+        with open(docs_path / 'workflows.md', 'w', encoding='utf-8') as f:
+            f.write(generate_workflows_documentation(wf_catalog))
+        print(f"> Workflows docs written ({len(wf_catalog['workflows'])} workflows)")
 
     print('\n=== Documentation Generation Complete ===')
 
