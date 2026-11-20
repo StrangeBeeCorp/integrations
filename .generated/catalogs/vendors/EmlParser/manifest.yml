@@ -41,7 +41,7 @@ workflows:
   github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/EmlParser/thehive/workflows/suspicious-email-campaign-detection.yml
   version: v1.0.0
   steps: 19
-  integrations:
+  flow_integrations:
   - thehive
   requires:
     secrets: 1
@@ -62,6 +62,8 @@ workflows:
   - name: thehive
     vendor_id: null
     icon: null
+  integrations:
+  - EmlParser
   agent: false
   workflow: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/EmlParser/thehive/workflows/suspicious-email-campaign-detection.yml
 externalIntegrations: []

@@ -31,7 +31,7 @@ workflows:
   github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/CIRCLVulnerabilityLookup/thehive/workflows/cve-monitoring-with-circl.yml
   version: v1.0.0
   steps: 8
-  integrations:
+  flow_integrations:
   - thehive
   requires:
     secrets: 1
@@ -46,6 +46,8 @@ workflows:
   - name: thehive
     vendor_id: null
     icon: null
+  integrations:
+  - CIRCLVulnerabilityLookup
   agent: false
   workflow: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/CIRCLVulnerabilityLookup/thehive/workflows/cve-monitoring-with-circl.yml
 - &id002
@@ -74,7 +76,7 @@ workflows:
   github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/EmlParser/thehive/workflows/suspicious-email-campaign-detection.yml
   version: v1.0.0
   steps: 19
-  integrations:
+  flow_integrations:
   - thehive
   requires:
     secrets: 1
@@ -95,6 +97,8 @@ workflows:
   - name: thehive
     vendor_id: null
     icon: null
+  integrations:
+  - EmlParser
   agent: false
   workflow: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/EmlParser/thehive/workflows/suspicious-email-campaign-detection.yml
 - &id003
@@ -122,7 +126,7 @@ workflows:
   github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/generic/thehive/workflows/command-line-analysis.yml
   version: v1.0.0
   steps: 15
-  integrations:
+  flow_integrations:
   - thehive
   requires:
     secrets: 1
@@ -137,6 +141,7 @@ workflows:
   - name: thehive
     vendor_id: null
     icon: null
+  integrations: []
   agent: false
   workflow: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/thehive/workflows/command-line-analysis.yml
 - &id004
@@ -164,7 +169,7 @@ workflows:
   github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/JIRA/thehive/workflows/thehive-to-jira-itsm-sync.yml
   version: v1.0.0
   steps: 15
-  integrations:
+  flow_integrations:
   - jira
   - thehive
   requires:
@@ -180,6 +185,8 @@ workflows:
   - name: thehive
     vendor_id: null
     icon: null
+  integrations:
+  - JIRA
   agent: false
   workflow: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/JIRA/thehive/workflows/thehive-to-jira-itsm-sync.yml
 - &id005
@@ -208,7 +215,7 @@ workflows:
   github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/RecordedFuture/thehive/workflows/alert-triage-with-recorded-future.yml
   version: v1.0.0
   steps: 14
-  integrations:
+  flow_integrations:
   - recorded_future
   - thehive
   requires:
@@ -227,6 +234,8 @@ workflows:
   - name: thehive
     vendor_id: null
     icon: null
+  integrations:
+  - RecordedFuture
   agent: false
   workflow: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/RecordedFuture/thehive/workflows/alert-triage-with-recorded-future.yml
 - &id006
@@ -255,7 +264,7 @@ workflows:
   github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Slack/thehive/workflows/slack-alert-manager-workflow.yml
   version: v1.0.0
   steps: 19
-  integrations:
+  flow_integrations:
   - slack
   - thehive
   requires:
@@ -271,6 +280,8 @@ workflows:
   - name: thehive
     vendor_id: null
     icon: null
+  integrations:
+  - Slack
   agent: false
   workflow: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Slack/thehive/workflows/slack-alert-manager-workflow.yml
 by_vendor:
@@ -287,16 +298,13 @@ by_vendor:
   Slack:
   - *id006
 by_integration:
-  thehive:
+  CIRCLVulnerabilityLookup:
   - *id001
+  EmlParser:
   - *id002
-  - *id003
+  JIRA:
   - *id004
+  RecordedFuture:
   - *id005
-  - *id006
-  jira:
-  - *id004
-  recorded_future:
-  - *id005
-  slack:
+  Slack:
   - *id006

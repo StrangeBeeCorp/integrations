@@ -33,7 +33,7 @@
       "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/CIRCLVulnerabilityLookup/thehive/workflows/cve-monitoring-with-circl.yml",
       "version": "v1.0.0",
       "steps": 8,
-      "integrations": [
+      "flow_integrations": [
         "thehive"
       ],
       "requires": {
@@ -54,6 +54,9 @@
           "vendor_id": null,
           "icon": null
         }
+      ],
+      "integrations": [
+        "CIRCLVulnerabilityLookup"
       ],
       "agent": false,
       "workflow": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/CIRCLVulnerabilityLookup/thehive/workflows/cve-monitoring-with-circl.yml"
@@ -87,7 +90,7 @@
       "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/EmlParser/thehive/workflows/suspicious-email-campaign-detection.yml",
       "version": "v1.0.0",
       "steps": 19,
-      "integrations": [
+      "flow_integrations": [
         "thehive"
       ],
       "requires": {
@@ -118,6 +121,9 @@
           "vendor_id": null,
           "icon": null
         }
+      ],
+      "integrations": [
+        "EmlParser"
       ],
       "agent": false,
       "workflow": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/EmlParser/thehive/workflows/suspicious-email-campaign-detection.yml"
@@ -150,7 +156,7 @@
       "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/generic/thehive/workflows/command-line-analysis.yml",
       "version": "v1.0.0",
       "steps": 15,
-      "integrations": [
+      "flow_integrations": [
         "thehive"
       ],
       "requires": {
@@ -172,6 +178,7 @@
           "icon": null
         }
       ],
+      "integrations": [],
       "agent": false,
       "workflow": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/thehive/workflows/command-line-analysis.yml"
     },
@@ -203,7 +210,7 @@
       "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/JIRA/thehive/workflows/thehive-to-jira-itsm-sync.yml",
       "version": "v1.0.0",
       "steps": 15,
-      "integrations": [
+      "flow_integrations": [
         "jira",
         "thehive"
       ],
@@ -225,6 +232,9 @@
           "vendor_id": null,
           "icon": null
         }
+      ],
+      "integrations": [
+        "JIRA"
       ],
       "agent": false,
       "workflow": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/JIRA/thehive/workflows/thehive-to-jira-itsm-sync.yml"
@@ -258,7 +268,7 @@
       "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/RecordedFuture/thehive/workflows/alert-triage-with-recorded-future.yml",
       "version": "v1.0.0",
       "steps": 14,
-      "integrations": [
+      "flow_integrations": [
         "recorded_future",
         "thehive"
       ],
@@ -285,6 +295,9 @@
           "vendor_id": null,
           "icon": null
         }
+      ],
+      "integrations": [
+        "RecordedFuture"
       ],
       "agent": false,
       "workflow": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/RecordedFuture/thehive/workflows/alert-triage-with-recorded-future.yml"
@@ -318,7 +331,7 @@
       "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Slack/thehive/workflows/slack-alert-manager-workflow.yml",
       "version": "v1.0.0",
       "steps": 19,
-      "integrations": [
+      "flow_integrations": [
         "slack",
         "thehive"
       ],
@@ -340,6 +353,9 @@
           "vendor_id": null,
           "icon": null
         }
+      ],
+      "integrations": [
+        "Slack"
       ],
       "agent": false,
       "workflow": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Slack/thehive/workflows/slack-alert-manager-workflow.yml"
@@ -375,7 +391,7 @@
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/CIRCLVulnerabilityLookup/thehive/workflows/cve-monitoring-with-circl.yml",
         "version": "v1.0.0",
         "steps": 8,
-        "integrations": [
+        "flow_integrations": [
           "thehive"
         ],
         "requires": {
@@ -396,6 +412,9 @@
             "vendor_id": null,
             "icon": null
           }
+        ],
+        "integrations": [
+          "CIRCLVulnerabilityLookup"
         ],
         "agent": false,
         "workflow": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/CIRCLVulnerabilityLookup/thehive/workflows/cve-monitoring-with-circl.yml"
@@ -431,7 +450,7 @@
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/EmlParser/thehive/workflows/suspicious-email-campaign-detection.yml",
         "version": "v1.0.0",
         "steps": 19,
-        "integrations": [
+        "flow_integrations": [
           "thehive"
         ],
         "requires": {
@@ -462,6 +481,9 @@
             "vendor_id": null,
             "icon": null
           }
+        ],
+        "integrations": [
+          "EmlParser"
         ],
         "agent": false,
         "workflow": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/EmlParser/thehive/workflows/suspicious-email-campaign-detection.yml"
@@ -496,7 +518,7 @@
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/generic/thehive/workflows/command-line-analysis.yml",
         "version": "v1.0.0",
         "steps": 15,
-        "integrations": [
+        "flow_integrations": [
           "thehive"
         ],
         "requires": {
@@ -518,6 +540,7 @@
             "icon": null
           }
         ],
+        "integrations": [],
         "agent": false,
         "workflow": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/thehive/workflows/command-line-analysis.yml"
       }
@@ -551,7 +574,7 @@
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/JIRA/thehive/workflows/thehive-to-jira-itsm-sync.yml",
         "version": "v1.0.0",
         "steps": 15,
-        "integrations": [
+        "flow_integrations": [
           "jira",
           "thehive"
         ],
@@ -573,6 +596,9 @@
             "vendor_id": null,
             "icon": null
           }
+        ],
+        "integrations": [
+          "JIRA"
         ],
         "agent": false,
         "workflow": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/JIRA/thehive/workflows/thehive-to-jira-itsm-sync.yml"
@@ -608,7 +634,7 @@
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/RecordedFuture/thehive/workflows/alert-triage-with-recorded-future.yml",
         "version": "v1.0.0",
         "steps": 14,
-        "integrations": [
+        "flow_integrations": [
           "recorded_future",
           "thehive"
         ],
@@ -635,6 +661,9 @@
             "vendor_id": null,
             "icon": null
           }
+        ],
+        "integrations": [
+          "RecordedFuture"
         ],
         "agent": false,
         "workflow": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/RecordedFuture/thehive/workflows/alert-triage-with-recorded-future.yml"
@@ -670,7 +699,7 @@
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Slack/thehive/workflows/slack-alert-manager-workflow.yml",
         "version": "v1.0.0",
         "steps": 19,
-        "integrations": [
+        "flow_integrations": [
           "slack",
           "thehive"
         ],
@@ -693,13 +722,16 @@
             "icon": null
           }
         ],
+        "integrations": [
+          "Slack"
+        ],
         "agent": false,
         "workflow": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Slack/thehive/workflows/slack-alert-manager-workflow.yml"
       }
     ]
   },
   "by_integration": {
-    "thehive": [
+    "CIRCLVulnerabilityLookup": [
       {
         "id": "circlvulnerabilitylookup/cve-monitoring-with-circl",
         "name": "CVE monitoring with CIRCL",
@@ -728,7 +760,7 @@
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/CIRCLVulnerabilityLookup/thehive/workflows/cve-monitoring-with-circl.yml",
         "version": "v1.0.0",
         "steps": 8,
-        "integrations": [
+        "flow_integrations": [
           "thehive"
         ],
         "requires": {
@@ -750,9 +782,14 @@
             "icon": null
           }
         ],
+        "integrations": [
+          "CIRCLVulnerabilityLookup"
+        ],
         "agent": false,
         "workflow": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/CIRCLVulnerabilityLookup/thehive/workflows/cve-monitoring-with-circl.yml"
-      },
+      }
+    ],
+    "EmlParser": [
       {
         "id": "emlparser/suspicious-email-campaign-detection",
         "name": "Suspicious email campaign detection",
@@ -782,7 +819,7 @@
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/EmlParser/thehive/workflows/suspicious-email-campaign-detection.yml",
         "version": "v1.0.0",
         "steps": 19,
-        "integrations": [
+        "flow_integrations": [
           "thehive"
         ],
         "requires": {
@@ -814,62 +851,14 @@
             "icon": null
           }
         ],
+        "integrations": [
+          "EmlParser"
+        ],
         "agent": false,
         "workflow": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/EmlParser/thehive/workflows/suspicious-email-campaign-detection.yml"
-      },
-      {
-        "id": "generic/command-line-analysis",
-        "name": "Command line analysis",
-        "url": "https://strangebee.com/workflow/command-line-analysis/",
-        "description": "Automatically analyzes command-line activity in TheHive alerts to extract indicators of compromise (IOCs), including IP addresses, URLs, domains and file hashes. It decodes Base64-encoded PowerShell commands and adds extracted indicators as observables for further investigation.",
-        "maintainer": "strangebee",
-        "use_cases": [
-          "Investigation & analysis"
-        ],
-        "popular": false,
-        "author": [
-          {
-            "name": "StrangeBee",
-            "url": "https://strangebee.com",
-            "icon": "https://strangebee.com/wp-content/themes/strange_bee/src/assets/fav/favicon-32x32.png"
-          }
-        ],
-        "owner": {
-          "type": "generic",
-          "id": "generic",
-          "name": "Generic"
-        },
-        "has_file": true,
-        "file": "integrations/generic/thehive/workflows/command-line-analysis.yml",
-        "file_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/thehive/workflows/command-line-analysis.yml",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/generic/thehive/workflows/command-line-analysis.yml",
-        "version": "v1.0.0",
-        "steps": 15,
-        "integrations": [
-          "thehive"
-        ],
-        "requires": {
-          "secrets": 1,
-          "globals": 1
-        },
-        "vendor": "Generic",
-        "vendor_id": null,
-        "vendor_category": null,
-        "nodes": [
-          {
-            "name": "code",
-            "vendor_id": null,
-            "icon": null
-          },
-          {
-            "name": "thehive",
-            "vendor_id": null,
-            "icon": null
-          }
-        ],
-        "agent": false,
-        "workflow": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/thehive/workflows/command-line-analysis.yml"
-      },
+      }
+    ],
+    "JIRA": [
       {
         "id": "jira/thehive-to-jira-itsm-sync",
         "name": "TheHive to Jira ITSM sync",
@@ -898,7 +887,7 @@
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/JIRA/thehive/workflows/thehive-to-jira-itsm-sync.yml",
         "version": "v1.0.0",
         "steps": 15,
-        "integrations": [
+        "flow_integrations": [
           "jira",
           "thehive"
         ],
@@ -921,9 +910,14 @@
             "icon": null
           }
         ],
+        "integrations": [
+          "JIRA"
+        ],
         "agent": false,
         "workflow": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/JIRA/thehive/workflows/thehive-to-jira-itsm-sync.yml"
-      },
+      }
+    ],
+    "RecordedFuture": [
       {
         "id": "recordedfuture/alert-triage-with-recorded-future",
         "name": "Alert triage with Recorded Future",
@@ -953,7 +947,7 @@
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/RecordedFuture/thehive/workflows/alert-triage-with-recorded-future.yml",
         "version": "v1.0.0",
         "steps": 14,
-        "integrations": [
+        "flow_integrations": [
           "recorded_future",
           "thehive"
         ],
@@ -981,9 +975,14 @@
             "icon": null
           }
         ],
+        "integrations": [
+          "RecordedFuture"
+        ],
         "agent": false,
         "workflow": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/RecordedFuture/thehive/workflows/alert-triage-with-recorded-future.yml"
-      },
+      }
+    ],
+    "Slack": [
       {
         "id": "slack/slack-alert-manager-workflow",
         "name": "Slack Alert Manager workflow",
@@ -1013,7 +1012,7 @@
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Slack/thehive/workflows/slack-alert-manager-workflow.yml",
         "version": "v1.0.0",
         "steps": 19,
-        "integrations": [
+        "flow_integrations": [
           "slack",
           "thehive"
         ],
@@ -1036,180 +1035,8 @@
             "icon": null
           }
         ],
-        "agent": false,
-        "workflow": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Slack/thehive/workflows/slack-alert-manager-workflow.yml"
-      }
-    ],
-    "jira": [
-      {
-        "id": "jira/thehive-to-jira-itsm-sync",
-        "name": "TheHive to Jira ITSM sync",
-        "url": "https://strangebee.com/workflow/thehive-to-jira-itsm-sync/",
-        "description": "Automatically creates Jira issues from new TheHive alerts and synchronizes comments between both platforms. It prevents duplicate updates, keeps incident discussions aligned and closes Jira issues when the corresponding alerts are resolved.",
-        "maintainer": "strangebee",
-        "use_cases": [
-          "Ticketing & ITSM"
-        ],
-        "popular": false,
-        "author": [
-          {
-            "name": "StrangeBee",
-            "url": "https://strangebee.com",
-            "icon": "https://strangebee.com/wp-content/themes/strange_bee/src/assets/fav/favicon-32x32.png"
-          }
-        ],
-        "owner": {
-          "type": "vendor",
-          "id": "JIRA",
-          "name": "Jira Cloud"
-        },
-        "has_file": true,
-        "file": "integrations/vendors/JIRA/thehive/workflows/thehive-to-jira-itsm-sync.yml",
-        "file_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/JIRA/thehive/workflows/thehive-to-jira-itsm-sync.yml",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/JIRA/thehive/workflows/thehive-to-jira-itsm-sync.yml",
-        "version": "v1.0.0",
-        "steps": 15,
         "integrations": [
-          "jira",
-          "thehive"
-        ],
-        "requires": {
-          "secrets": 2,
-          "globals": 2
-        },
-        "vendor": "Jira Cloud",
-        "vendor_id": "JIRA",
-        "vendor_category": "Collaboration",
-        "nodes": [
-          {
-            "name": "jira",
-            "vendor_id": "JIRA",
-            "icon": null
-          },
-          {
-            "name": "thehive",
-            "vendor_id": null,
-            "icon": null
-          }
-        ],
-        "agent": false,
-        "workflow": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/JIRA/thehive/workflows/thehive-to-jira-itsm-sync.yml"
-      }
-    ],
-    "recorded_future": [
-      {
-        "id": "recordedfuture/alert-triage-with-recorded-future",
-        "name": "Alert triage with Recorded Future",
-        "url": "https://strangebee.com/workflow/alert-triage-with-recorded-future/",
-        "description": "Automatically processes Elasticsearch security alerts in TheHive and enriches IP addresses and file hashes with threat intelligence from Recorded Future. It identifies high-risk indicators, escalates critical alerts into cases and documents malicious findings to streamline incident investigation.",
-        "maintainer": "strangebee",
-        "use_cases": [
-          "Alert triage",
-          "Threat intelligence enrichment"
-        ],
-        "popular": false,
-        "author": [
-          {
-            "name": "StrangeBee",
-            "url": "https://strangebee.com",
-            "icon": "https://strangebee.com/wp-content/themes/strange_bee/src/assets/fav/favicon-32x32.png"
-          }
-        ],
-        "owner": {
-          "type": "vendor",
-          "id": "RecordedFuture",
-          "name": "Recorded Future"
-        },
-        "has_file": true,
-        "file": "integrations/vendors/RecordedFuture/thehive/workflows/alert-triage-with-recorded-future.yml",
-        "file_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/RecordedFuture/thehive/workflows/alert-triage-with-recorded-future.yml",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/RecordedFuture/thehive/workflows/alert-triage-with-recorded-future.yml",
-        "version": "v1.0.0",
-        "steps": 14,
-        "integrations": [
-          "recorded_future",
-          "thehive"
-        ],
-        "requires": {
-          "secrets": 2,
-          "globals": 1
-        },
-        "vendor": "Recorded Future",
-        "vendor_id": "RecordedFuture",
-        "vendor_category": "Threat Intelligence",
-        "nodes": [
-          {
-            "name": "code",
-            "vendor_id": null,
-            "icon": null
-          },
-          {
-            "name": "recorded_future",
-            "vendor_id": "RecordedFuture",
-            "icon": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/RecordedFuture/assets/logo.png"
-          },
-          {
-            "name": "thehive",
-            "vendor_id": null,
-            "icon": null
-          }
-        ],
-        "agent": false,
-        "workflow": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/RecordedFuture/thehive/workflows/alert-triage-with-recorded-future.yml"
-      }
-    ],
-    "slack": [
-      {
-        "id": "slack/slack-alert-manager-workflow",
-        "name": "Slack Alert Manager workflow",
-        "url": "https://strangebee.com/workflow/slack-alert-manager-workflow/",
-        "description": "TheHive Flow's Slack Alert Manager workflow automates alert monitoring and response tracking through Slack. It processes reactions, comments and thread replies to update alert statuses, ensuring timely follow-ups and efficient incident management.",
-        "maintainer": "strangebee",
-        "use_cases": [
-          "Alert triage",
-          "Notification & collaboration"
-        ],
-        "popular": false,
-        "author": [
-          {
-            "name": "StrangeBee",
-            "url": "https://strangebee.com",
-            "icon": "https://strangebee.com/wp-content/themes/strange_bee/src/assets/fav/favicon-32x32.png"
-          }
-        ],
-        "owner": {
-          "type": "vendor",
-          "id": "Slack",
-          "name": "Slack"
-        },
-        "has_file": true,
-        "file": "integrations/vendors/Slack/thehive/workflows/slack-alert-manager-workflow.yml",
-        "file_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Slack/thehive/workflows/slack-alert-manager-workflow.yml",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Slack/thehive/workflows/slack-alert-manager-workflow.yml",
-        "version": "v1.0.0",
-        "steps": 19,
-        "integrations": [
-          "slack",
-          "thehive"
-        ],
-        "requires": {
-          "secrets": 3,
-          "globals": 1
-        },
-        "vendor": "Slack",
-        "vendor_id": "Slack",
-        "vendor_category": "Collaboration",
-        "nodes": [
-          {
-            "name": "slack",
-            "vendor_id": "Slack",
-            "icon": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Slack/assets/logo.png"
-          },
-          {
-            "name": "thehive",
-            "vendor_id": null,
-            "icon": null
-          }
+          "Slack"
         ],
         "agent": false,
         "workflow": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Slack/thehive/workflows/slack-alert-manager-workflow.yml"

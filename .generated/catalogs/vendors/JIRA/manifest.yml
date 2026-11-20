@@ -46,7 +46,7 @@ workflows:
   github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/JIRA/thehive/workflows/thehive-to-jira-itsm-sync.yml
   version: v1.0.0
   steps: 15
-  integrations:
+  flow_integrations:
   - jira
   - thehive
   requires:
@@ -62,6 +62,8 @@ workflows:
   - name: thehive
     vendor_id: null
     icon: null
+  integrations:
+  - JIRA
   agent: false
   workflow: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/JIRA/thehive/workflows/thehive-to-jira-itsm-sync.yml
 externalIntegrations: []

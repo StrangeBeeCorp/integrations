@@ -15,8 +15,8 @@ Decodes Office 365 ATP Safe Links to extract original URLs. Supports url observa
 
 ### Trigger automated responses
 
-#### [MSDefenderOffice365 block v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderOffice365)
-Add entries to the Tenant Allow/Block List in the Microsoft 365 Defender
+#### [MSDefenderOffice365 unblock v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderOffice365)
+Remove block entries from the Tenant Allow/Block List in the Microsoft 365 Defender
 
 - **Author:** Joe Lazaro
 - **License:** AGPL-V3
@@ -29,16 +29,16 @@ Remove allow entries from the Tenant Allow/Block List in the Microsoft 365 Defen
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case_artifact`
 
+#### [MSDefenderOffice365 block v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderOffice365)
+Add entries to the Tenant Allow/Block List in the Microsoft 365 Defender
+
+- **Author:** Joe Lazaro
+- **License:** AGPL-V3
+- **Data Types:** `thehive:case_artifact`
+
 #### [MSDefenderOffice365 allow v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderOffice365)
 Add entries to the Tenant Allow/Block List in the Microsoft 365 Defender
 
 - **Author:** Vito Piserchia
-- **License:** AGPL-V3
-- **Data Types:** `thehive:case_artifact`
-
-#### [MSDefenderOffice365 unblock v1.0](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSDefenderOffice365)
-Remove block entries from the Tenant Allow/Block List in the Microsoft 365 Defender
-
-- **Author:** Joe Lazaro
 - **License:** AGPL-V3
 - **Data Types:** `thehive:case_artifact`

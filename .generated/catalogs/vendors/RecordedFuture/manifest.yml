@@ -51,7 +51,7 @@ workflows:
   github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/RecordedFuture/thehive/workflows/alert-triage-with-recorded-future.yml
   version: v1.0.0
   steps: 14
-  integrations:
+  flow_integrations:
   - recorded_future
   - thehive
   requires:
@@ -70,6 +70,8 @@ workflows:
   - name: thehive
     vendor_id: null
     icon: null
+  integrations:
+  - RecordedFuture
   agent: false
   workflow: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/RecordedFuture/thehive/workflows/alert-triage-with-recorded-future.yml
 externalIntegrations: []
