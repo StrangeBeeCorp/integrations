@@ -1,5 +1,5 @@
 {
-  "totalWorkflows": 6,
+  "total_count": 6,
   "unique_count": 6,
   "generic_count": 1,
   "vendor_count": 5,
@@ -10,266 +10,395 @@
       "name": "CVE monitoring with CIRCL",
       "url": "https://strangebee.com/workflow/cve-monitoring-with-circl/",
       "description": "Automatically retrieves vulnerability information from the CIRCL CVE database for specified vendors and products. It creates detailed TheHive alerts containing affected software versions, technical descriptions, vulnerability details, references and recommended remediation actions.",
+      "maintainer": "strangebee",
+      "use_cases": [
+        "Vulnerability management"
+      ],
+      "popular": false,
+      "author": [
+        {
+          "name": "StrangeBee",
+          "url": "https://strangebee.com",
+          "icon": "https://strangebee.com/wp-content/themes/strange_bee/src/assets/fav/favicon-32x32.png"
+        }
+      ],
       "owner": {
         "type": "vendor",
         "id": "CIRCLVulnerabilityLookup",
         "name": "CIRCL Vulnerability-Lookup"
       },
-      "hasFile": true,
+      "has_file": true,
       "file": "integrations/vendors/CIRCLVulnerabilityLookup/thehive/workflows/cve-monitoring-with-circl.yml",
       "file_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/CIRCLVulnerabilityLookup/thehive/workflows/cve-monitoring-with-circl.yml",
       "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/CIRCLVulnerabilityLookup/thehive/workflows/cve-monitoring-with-circl.yml",
-      "exportName": "GetCVECircl",
-      "specVersion": "chocolate-v2.0.0",
       "version": "v1.0.0",
-      "timeout": "10m0s",
       "steps": 8,
       "integrations": [
         "thehive"
       ],
-      "commands": [
-        "strangebee.http.request",
-        "strangebee.integration.thehive.v1",
-        "strangebee.variable.new"
-      ],
-      "inputs": [],
       "requires": {
         "secrets": 1,
         "globals": 1
       },
       "vendor": "CIRCL Vulnerability-Lookup",
-      "vendorId": "CIRCLVulnerabilityLookup",
-      "category": ""
+      "vendor_id": "CIRCLVulnerabilityLookup",
+      "vendor_category": null,
+      "nodes": [
+        {
+          "name": "http",
+          "vendor_id": null,
+          "icon": null
+        },
+        {
+          "name": "thehive",
+          "vendor_id": null,
+          "icon": null
+        }
+      ],
+      "agent": false,
+      "workflow": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/CIRCLVulnerabilityLookup/thehive/workflows/cve-monitoring-with-circl.yml"
     },
     {
       "id": "emlparser/suspicious-email-campaign-detection",
       "name": "Suspicious email campaign detection",
       "url": "https://strangebee.com/workflow/suspicious-email-campaign-detection/",
       "description": "Automatically processes suspicious email alerts, extracts key email details and identifies related incidents. It groups matching alerts into existing cases or creates new ones in TheHive, helping security teams track and investigate potential email campaigns.",
+      "maintainer": "strangebee",
+      "use_cases": [
+        "Phishing & email analysis",
+        "Alert triage"
+      ],
+      "popular": false,
+      "author": [
+        {
+          "name": "StrangeBee",
+          "url": "https://strangebee.com",
+          "icon": "https://strangebee.com/wp-content/themes/strange_bee/src/assets/fav/favicon-32x32.png"
+        }
+      ],
       "owner": {
         "type": "vendor",
         "id": "EmlParser",
         "name": "EmlParser"
       },
-      "hasFile": true,
+      "has_file": true,
       "file": "integrations/vendors/EmlParser/thehive/workflows/suspicious-email-campaign-detection.yml",
       "file_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/EmlParser/thehive/workflows/suspicious-email-campaign-detection.yml",
       "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/EmlParser/thehive/workflows/suspicious-email-campaign-detection.yml",
-      "exportName": "Suspicious email campaign",
-      "specVersion": "chocolate-v2.0.0",
       "version": "v1.0.0",
-      "timeout": null,
       "steps": 19,
       "integrations": [
         "thehive"
       ],
-      "commands": [
-        "strangebee.code.execute.python@v3_11",
-        "strangebee.cortex.analyzer",
-        "strangebee.http.request",
-        "strangebee.integration.thehive.v1",
-        "strangebee.variable.new"
-      ],
-      "inputs": [],
       "requires": {
         "secrets": 1,
         "globals": 1
       },
       "vendor": "EmlParser",
-      "vendorId": "EmlParser",
-      "category": "Utilities"
+      "vendor_id": "EmlParser",
+      "vendor_category": "Utilities",
+      "nodes": [
+        {
+          "name": "code",
+          "vendor_id": null,
+          "icon": null
+        },
+        {
+          "name": "cortex",
+          "vendor_id": null,
+          "icon": null
+        },
+        {
+          "name": "http",
+          "vendor_id": null,
+          "icon": null
+        },
+        {
+          "name": "thehive",
+          "vendor_id": null,
+          "icon": null
+        }
+      ],
+      "agent": false,
+      "workflow": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/EmlParser/thehive/workflows/suspicious-email-campaign-detection.yml"
     },
     {
       "id": "generic/command-line-analysis",
       "name": "Command line analysis",
       "url": "https://strangebee.com/workflow/command-line-analysis/",
       "description": "Automatically analyzes command-line activity in TheHive alerts to extract indicators of compromise (IOCs), including IP addresses, URLs, domains and file hashes. It decodes Base64-encoded PowerShell commands and adds extracted indicators as observables for further investigation.",
+      "maintainer": "strangebee",
+      "use_cases": [
+        "Investigation & analysis"
+      ],
+      "popular": false,
+      "author": [
+        {
+          "name": "StrangeBee",
+          "url": "https://strangebee.com",
+          "icon": "https://strangebee.com/wp-content/themes/strange_bee/src/assets/fav/favicon-32x32.png"
+        }
+      ],
       "owner": {
         "type": "generic",
         "id": "generic",
         "name": "Generic"
       },
-      "hasFile": true,
+      "has_file": true,
       "file": "integrations/generic/thehive/workflows/command-line-analysis.yml",
       "file_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/thehive/workflows/command-line-analysis.yml",
       "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/generic/thehive/workflows/command-line-analysis.yml",
-      "exportName": "Command Line Analysis",
-      "specVersion": "chocolate-v2.0.0",
       "version": "v1.0.0",
-      "timeout": "10m0s",
       "steps": 15,
       "integrations": [
         "thehive"
       ],
-      "commands": [
-        "strangebee.code.execute.python@v3_11",
-        "strangebee.integration.thehive.v1",
-        "strangebee.variable.new"
-      ],
-      "inputs": [],
       "requires": {
         "secrets": 1,
         "globals": 1
       },
       "vendor": "Generic",
-      "vendorId": null,
-      "category": ""
+      "vendor_id": null,
+      "vendor_category": null,
+      "nodes": [
+        {
+          "name": "code",
+          "vendor_id": null,
+          "icon": null
+        },
+        {
+          "name": "thehive",
+          "vendor_id": null,
+          "icon": null
+        }
+      ],
+      "agent": false,
+      "workflow": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/thehive/workflows/command-line-analysis.yml"
     },
     {
       "id": "jira/thehive-to-jira-itsm-sync",
       "name": "TheHive to Jira ITSM sync",
       "url": "https://strangebee.com/workflow/thehive-to-jira-itsm-sync/",
       "description": "Automatically creates Jira issues from new TheHive alerts and synchronizes comments between both platforms. It prevents duplicate updates, keeps incident discussions aligned and closes Jira issues when the corresponding alerts are resolved.",
+      "maintainer": "strangebee",
+      "use_cases": [
+        "Ticketing & ITSM"
+      ],
+      "popular": false,
+      "author": [
+        {
+          "name": "StrangeBee",
+          "url": "https://strangebee.com",
+          "icon": "https://strangebee.com/wp-content/themes/strange_bee/src/assets/fav/favicon-32x32.png"
+        }
+      ],
       "owner": {
         "type": "vendor",
         "id": "JIRA",
         "name": "Jira Cloud"
       },
-      "hasFile": true,
+      "has_file": true,
       "file": "integrations/vendors/JIRA/thehive/workflows/thehive-to-jira-itsm-sync.yml",
       "file_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/JIRA/thehive/workflows/thehive-to-jira-itsm-sync.yml",
       "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/JIRA/thehive/workflows/thehive-to-jira-itsm-sync.yml",
-      "exportName": "TheHive to Jira ITSM Sync",
-      "specVersion": "chocolate-v2.0.0",
       "version": "v1.0.0",
-      "timeout": "24h0m0s",
       "steps": 15,
       "integrations": [
         "jira",
         "thehive"
       ],
-      "commands": [
-        "strangebee.integration.jira.v3",
-        "strangebee.integration.thehive.v1",
-        "strangebee.sleep",
-        "strangebee.variable.new"
-      ],
-      "inputs": [],
       "requires": {
         "secrets": 2,
         "globals": 2
       },
       "vendor": "Jira Cloud",
-      "vendorId": "JIRA",
-      "category": "Collaboration"
+      "vendor_id": "JIRA",
+      "vendor_category": "Collaboration",
+      "nodes": [
+        {
+          "name": "jira",
+          "vendor_id": "JIRA",
+          "icon": null
+        },
+        {
+          "name": "thehive",
+          "vendor_id": null,
+          "icon": null
+        }
+      ],
+      "agent": false,
+      "workflow": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/JIRA/thehive/workflows/thehive-to-jira-itsm-sync.yml"
     },
     {
       "id": "recordedfuture/alert-triage-with-recorded-future",
       "name": "Alert triage with Recorded Future",
       "url": "https://strangebee.com/workflow/alert-triage-with-recorded-future/",
       "description": "Automatically processes Elasticsearch security alerts in TheHive and enriches IP addresses and file hashes with threat intelligence from Recorded Future. It identifies high-risk indicators, escalates critical alerts into cases and documents malicious findings to streamline incident investigation.",
+      "maintainer": "strangebee",
+      "use_cases": [
+        "Alert triage",
+        "Threat intelligence enrichment"
+      ],
+      "popular": false,
+      "author": [
+        {
+          "name": "StrangeBee",
+          "url": "https://strangebee.com",
+          "icon": "https://strangebee.com/wp-content/themes/strange_bee/src/assets/fav/favicon-32x32.png"
+        }
+      ],
       "owner": {
         "type": "vendor",
         "id": "RecordedFuture",
         "name": "Recorded Future"
       },
-      "hasFile": true,
+      "has_file": true,
       "file": "integrations/vendors/RecordedFuture/thehive/workflows/alert-triage-with-recorded-future.yml",
       "file_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/RecordedFuture/thehive/workflows/alert-triage-with-recorded-future.yml",
       "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/RecordedFuture/thehive/workflows/alert-triage-with-recorded-future.yml",
-      "exportName": "Alert Triage - Recorded Future",
-      "specVersion": "chocolate-v2.0.0",
       "version": "v1.0.0",
-      "timeout": "10m0s",
       "steps": 14,
       "integrations": [
         "recorded_future",
         "thehive"
-      ],
-      "commands": [
-        "strangebee.code.execute.python@v3_11",
-        "strangebee.integration.recorded_future.v2",
-        "strangebee.integration.thehive.v1",
-        "strangebee.variable.new"
-      ],
-      "inputs": [
-        "ElasticAlert"
       ],
       "requires": {
         "secrets": 2,
         "globals": 1
       },
       "vendor": "Recorded Future",
-      "vendorId": "RecordedFuture",
-      "category": "Threat Intelligence"
+      "vendor_id": "RecordedFuture",
+      "vendor_category": "Threat Intelligence",
+      "nodes": [
+        {
+          "name": "code",
+          "vendor_id": null,
+          "icon": null
+        },
+        {
+          "name": "recorded_future",
+          "vendor_id": "RecordedFuture",
+          "icon": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/RecordedFuture/assets/logo.png"
+        },
+        {
+          "name": "thehive",
+          "vendor_id": null,
+          "icon": null
+        }
+      ],
+      "agent": false,
+      "workflow": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/RecordedFuture/thehive/workflows/alert-triage-with-recorded-future.yml"
     },
     {
       "id": "slack/slack-alert-manager-workflow",
       "name": "Slack Alert Manager workflow",
       "url": "https://strangebee.com/workflow/slack-alert-manager-workflow/",
       "description": "TheHive Flow's Slack Alert Manager workflow automates alert monitoring and response tracking through Slack. It processes reactions, comments and thread replies to update alert statuses, ensuring timely follow-ups and efficient incident management.",
+      "maintainer": "strangebee",
+      "use_cases": [
+        "Alert triage",
+        "Notification & collaboration"
+      ],
+      "popular": false,
+      "author": [
+        {
+          "name": "StrangeBee",
+          "url": "https://strangebee.com",
+          "icon": "https://strangebee.com/wp-content/themes/strange_bee/src/assets/fav/favicon-32x32.png"
+        }
+      ],
       "owner": {
         "type": "vendor",
         "id": "Slack",
         "name": "Slack"
       },
-      "hasFile": true,
+      "has_file": true,
       "file": "integrations/vendors/Slack/thehive/workflows/slack-alert-manager-workflow.yml",
       "file_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Slack/thehive/workflows/slack-alert-manager-workflow.yml",
       "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Slack/thehive/workflows/slack-alert-manager-workflow.yml",
-      "exportName": "Slack Alert Manager",
-      "specVersion": "chocolate-v2.0.0",
       "version": "v1.0.0",
-      "timeout": "1h0m0s",
       "steps": 19,
       "integrations": [
         "slack",
         "thehive"
-      ],
-      "commands": [
-        "strangebee.integration.slack.2.0.0",
-        "strangebee.integration.thehive.v1",
-        "strangebee.sleep"
-      ],
-      "inputs": [
-        "TheHiveAlert"
       ],
       "requires": {
         "secrets": 3,
         "globals": 1
       },
       "vendor": "Slack",
-      "vendorId": "Slack",
-      "category": "Collaboration"
+      "vendor_id": "Slack",
+      "vendor_category": "Collaboration",
+      "nodes": [
+        {
+          "name": "slack",
+          "vendor_id": "Slack",
+          "icon": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Slack/assets/logo.png"
+        },
+        {
+          "name": "thehive",
+          "vendor_id": null,
+          "icon": null
+        }
+      ],
+      "agent": false,
+      "workflow": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Slack/thehive/workflows/slack-alert-manager-workflow.yml"
     }
   ],
-  "byVendor": {
+  "by_vendor": {
     "CIRCL Vulnerability-Lookup": [
       {
         "id": "circlvulnerabilitylookup/cve-monitoring-with-circl",
         "name": "CVE monitoring with CIRCL",
         "url": "https://strangebee.com/workflow/cve-monitoring-with-circl/",
         "description": "Automatically retrieves vulnerability information from the CIRCL CVE database for specified vendors and products. It creates detailed TheHive alerts containing affected software versions, technical descriptions, vulnerability details, references and recommended remediation actions.",
+        "maintainer": "strangebee",
+        "use_cases": [
+          "Vulnerability management"
+        ],
+        "popular": false,
+        "author": [
+          {
+            "name": "StrangeBee",
+            "url": "https://strangebee.com",
+            "icon": "https://strangebee.com/wp-content/themes/strange_bee/src/assets/fav/favicon-32x32.png"
+          }
+        ],
         "owner": {
           "type": "vendor",
           "id": "CIRCLVulnerabilityLookup",
           "name": "CIRCL Vulnerability-Lookup"
         },
-        "hasFile": true,
+        "has_file": true,
         "file": "integrations/vendors/CIRCLVulnerabilityLookup/thehive/workflows/cve-monitoring-with-circl.yml",
         "file_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/CIRCLVulnerabilityLookup/thehive/workflows/cve-monitoring-with-circl.yml",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/CIRCLVulnerabilityLookup/thehive/workflows/cve-monitoring-with-circl.yml",
-        "exportName": "GetCVECircl",
-        "specVersion": "chocolate-v2.0.0",
         "version": "v1.0.0",
-        "timeout": "10m0s",
         "steps": 8,
         "integrations": [
           "thehive"
         ],
-        "commands": [
-          "strangebee.http.request",
-          "strangebee.integration.thehive.v1",
-          "strangebee.variable.new"
-        ],
-        "inputs": [],
         "requires": {
           "secrets": 1,
           "globals": 1
         },
         "vendor": "CIRCL Vulnerability-Lookup",
-        "vendorId": "CIRCLVulnerabilityLookup",
-        "category": ""
+        "vendor_id": "CIRCLVulnerabilityLookup",
+        "vendor_category": null,
+        "nodes": [
+          {
+            "name": "http",
+            "vendor_id": null,
+            "icon": null
+          },
+          {
+            "name": "thehive",
+            "vendor_id": null,
+            "icon": null
+          }
+        ],
+        "agent": false,
+        "workflow": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/CIRCLVulnerabilityLookup/thehive/workflows/cve-monitoring-with-circl.yml"
       }
     ],
     "EmlParser": [
@@ -278,38 +407,64 @@
         "name": "Suspicious email campaign detection",
         "url": "https://strangebee.com/workflow/suspicious-email-campaign-detection/",
         "description": "Automatically processes suspicious email alerts, extracts key email details and identifies related incidents. It groups matching alerts into existing cases or creates new ones in TheHive, helping security teams track and investigate potential email campaigns.",
+        "maintainer": "strangebee",
+        "use_cases": [
+          "Phishing & email analysis",
+          "Alert triage"
+        ],
+        "popular": false,
+        "author": [
+          {
+            "name": "StrangeBee",
+            "url": "https://strangebee.com",
+            "icon": "https://strangebee.com/wp-content/themes/strange_bee/src/assets/fav/favicon-32x32.png"
+          }
+        ],
         "owner": {
           "type": "vendor",
           "id": "EmlParser",
           "name": "EmlParser"
         },
-        "hasFile": true,
+        "has_file": true,
         "file": "integrations/vendors/EmlParser/thehive/workflows/suspicious-email-campaign-detection.yml",
         "file_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/EmlParser/thehive/workflows/suspicious-email-campaign-detection.yml",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/EmlParser/thehive/workflows/suspicious-email-campaign-detection.yml",
-        "exportName": "Suspicious email campaign",
-        "specVersion": "chocolate-v2.0.0",
         "version": "v1.0.0",
-        "timeout": null,
         "steps": 19,
         "integrations": [
           "thehive"
         ],
-        "commands": [
-          "strangebee.code.execute.python@v3_11",
-          "strangebee.cortex.analyzer",
-          "strangebee.http.request",
-          "strangebee.integration.thehive.v1",
-          "strangebee.variable.new"
-        ],
-        "inputs": [],
         "requires": {
           "secrets": 1,
           "globals": 1
         },
         "vendor": "EmlParser",
-        "vendorId": "EmlParser",
-        "category": "Utilities"
+        "vendor_id": "EmlParser",
+        "vendor_category": "Utilities",
+        "nodes": [
+          {
+            "name": "code",
+            "vendor_id": null,
+            "icon": null
+          },
+          {
+            "name": "cortex",
+            "vendor_id": null,
+            "icon": null
+          },
+          {
+            "name": "http",
+            "vendor_id": null,
+            "icon": null
+          },
+          {
+            "name": "thehive",
+            "vendor_id": null,
+            "icon": null
+          }
+        ],
+        "agent": false,
+        "workflow": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/EmlParser/thehive/workflows/suspicious-email-campaign-detection.yml"
       }
     ],
     "Generic": [
@@ -318,36 +473,53 @@
         "name": "Command line analysis",
         "url": "https://strangebee.com/workflow/command-line-analysis/",
         "description": "Automatically analyzes command-line activity in TheHive alerts to extract indicators of compromise (IOCs), including IP addresses, URLs, domains and file hashes. It decodes Base64-encoded PowerShell commands and adds extracted indicators as observables for further investigation.",
+        "maintainer": "strangebee",
+        "use_cases": [
+          "Investigation & analysis"
+        ],
+        "popular": false,
+        "author": [
+          {
+            "name": "StrangeBee",
+            "url": "https://strangebee.com",
+            "icon": "https://strangebee.com/wp-content/themes/strange_bee/src/assets/fav/favicon-32x32.png"
+          }
+        ],
         "owner": {
           "type": "generic",
           "id": "generic",
           "name": "Generic"
         },
-        "hasFile": true,
+        "has_file": true,
         "file": "integrations/generic/thehive/workflows/command-line-analysis.yml",
         "file_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/thehive/workflows/command-line-analysis.yml",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/generic/thehive/workflows/command-line-analysis.yml",
-        "exportName": "Command Line Analysis",
-        "specVersion": "chocolate-v2.0.0",
         "version": "v1.0.0",
-        "timeout": "10m0s",
         "steps": 15,
         "integrations": [
           "thehive"
         ],
-        "commands": [
-          "strangebee.code.execute.python@v3_11",
-          "strangebee.integration.thehive.v1",
-          "strangebee.variable.new"
-        ],
-        "inputs": [],
         "requires": {
           "secrets": 1,
           "globals": 1
         },
         "vendor": "Generic",
-        "vendorId": null,
-        "category": ""
+        "vendor_id": null,
+        "vendor_category": null,
+        "nodes": [
+          {
+            "name": "code",
+            "vendor_id": null,
+            "icon": null
+          },
+          {
+            "name": "thehive",
+            "vendor_id": null,
+            "icon": null
+          }
+        ],
+        "agent": false,
+        "workflow": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/thehive/workflows/command-line-analysis.yml"
       }
     ],
     "Jira Cloud": [
@@ -356,38 +528,54 @@
         "name": "TheHive to Jira ITSM sync",
         "url": "https://strangebee.com/workflow/thehive-to-jira-itsm-sync/",
         "description": "Automatically creates Jira issues from new TheHive alerts and synchronizes comments between both platforms. It prevents duplicate updates, keeps incident discussions aligned and closes Jira issues when the corresponding alerts are resolved.",
+        "maintainer": "strangebee",
+        "use_cases": [
+          "Ticketing & ITSM"
+        ],
+        "popular": false,
+        "author": [
+          {
+            "name": "StrangeBee",
+            "url": "https://strangebee.com",
+            "icon": "https://strangebee.com/wp-content/themes/strange_bee/src/assets/fav/favicon-32x32.png"
+          }
+        ],
         "owner": {
           "type": "vendor",
           "id": "JIRA",
           "name": "Jira Cloud"
         },
-        "hasFile": true,
+        "has_file": true,
         "file": "integrations/vendors/JIRA/thehive/workflows/thehive-to-jira-itsm-sync.yml",
         "file_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/JIRA/thehive/workflows/thehive-to-jira-itsm-sync.yml",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/JIRA/thehive/workflows/thehive-to-jira-itsm-sync.yml",
-        "exportName": "TheHive to Jira ITSM Sync",
-        "specVersion": "chocolate-v2.0.0",
         "version": "v1.0.0",
-        "timeout": "24h0m0s",
         "steps": 15,
         "integrations": [
           "jira",
           "thehive"
         ],
-        "commands": [
-          "strangebee.integration.jira.v3",
-          "strangebee.integration.thehive.v1",
-          "strangebee.sleep",
-          "strangebee.variable.new"
-        ],
-        "inputs": [],
         "requires": {
           "secrets": 2,
           "globals": 2
         },
         "vendor": "Jira Cloud",
-        "vendorId": "JIRA",
-        "category": "Collaboration"
+        "vendor_id": "JIRA",
+        "vendor_category": "Collaboration",
+        "nodes": [
+          {
+            "name": "jira",
+            "vendor_id": "JIRA",
+            "icon": null
+          },
+          {
+            "name": "thehive",
+            "vendor_id": null,
+            "icon": null
+          }
+        ],
+        "agent": false,
+        "workflow": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/JIRA/thehive/workflows/thehive-to-jira-itsm-sync.yml"
       }
     ],
     "Recorded Future": [
@@ -396,40 +584,60 @@
         "name": "Alert triage with Recorded Future",
         "url": "https://strangebee.com/workflow/alert-triage-with-recorded-future/",
         "description": "Automatically processes Elasticsearch security alerts in TheHive and enriches IP addresses and file hashes with threat intelligence from Recorded Future. It identifies high-risk indicators, escalates critical alerts into cases and documents malicious findings to streamline incident investigation.",
+        "maintainer": "strangebee",
+        "use_cases": [
+          "Alert triage",
+          "Threat intelligence enrichment"
+        ],
+        "popular": false,
+        "author": [
+          {
+            "name": "StrangeBee",
+            "url": "https://strangebee.com",
+            "icon": "https://strangebee.com/wp-content/themes/strange_bee/src/assets/fav/favicon-32x32.png"
+          }
+        ],
         "owner": {
           "type": "vendor",
           "id": "RecordedFuture",
           "name": "Recorded Future"
         },
-        "hasFile": true,
+        "has_file": true,
         "file": "integrations/vendors/RecordedFuture/thehive/workflows/alert-triage-with-recorded-future.yml",
         "file_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/RecordedFuture/thehive/workflows/alert-triage-with-recorded-future.yml",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/RecordedFuture/thehive/workflows/alert-triage-with-recorded-future.yml",
-        "exportName": "Alert Triage - Recorded Future",
-        "specVersion": "chocolate-v2.0.0",
         "version": "v1.0.0",
-        "timeout": "10m0s",
         "steps": 14,
         "integrations": [
           "recorded_future",
           "thehive"
-        ],
-        "commands": [
-          "strangebee.code.execute.python@v3_11",
-          "strangebee.integration.recorded_future.v2",
-          "strangebee.integration.thehive.v1",
-          "strangebee.variable.new"
-        ],
-        "inputs": [
-          "ElasticAlert"
         ],
         "requires": {
           "secrets": 2,
           "globals": 1
         },
         "vendor": "Recorded Future",
-        "vendorId": "RecordedFuture",
-        "category": "Threat Intelligence"
+        "vendor_id": "RecordedFuture",
+        "vendor_category": "Threat Intelligence",
+        "nodes": [
+          {
+            "name": "code",
+            "vendor_id": null,
+            "icon": null
+          },
+          {
+            "name": "recorded_future",
+            "vendor_id": "RecordedFuture",
+            "icon": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/RecordedFuture/assets/logo.png"
+          },
+          {
+            "name": "thehive",
+            "vendor_id": null,
+            "icon": null
+          }
+        ],
+        "agent": false,
+        "workflow": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/RecordedFuture/thehive/workflows/alert-triage-with-recorded-future.yml"
       }
     ],
     "Slack": [
@@ -438,507 +646,398 @@
         "name": "Slack Alert Manager workflow",
         "url": "https://strangebee.com/workflow/slack-alert-manager-workflow/",
         "description": "TheHive Flow's Slack Alert Manager workflow automates alert monitoring and response tracking through Slack. It processes reactions, comments and thread replies to update alert statuses, ensuring timely follow-ups and efficient incident management.",
+        "maintainer": "strangebee",
+        "use_cases": [
+          "Alert triage",
+          "Notification & collaboration"
+        ],
+        "popular": false,
+        "author": [
+          {
+            "name": "StrangeBee",
+            "url": "https://strangebee.com",
+            "icon": "https://strangebee.com/wp-content/themes/strange_bee/src/assets/fav/favicon-32x32.png"
+          }
+        ],
         "owner": {
           "type": "vendor",
           "id": "Slack",
           "name": "Slack"
         },
-        "hasFile": true,
+        "has_file": true,
         "file": "integrations/vendors/Slack/thehive/workflows/slack-alert-manager-workflow.yml",
         "file_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Slack/thehive/workflows/slack-alert-manager-workflow.yml",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Slack/thehive/workflows/slack-alert-manager-workflow.yml",
-        "exportName": "Slack Alert Manager",
-        "specVersion": "chocolate-v2.0.0",
         "version": "v1.0.0",
-        "timeout": "1h0m0s",
         "steps": 19,
         "integrations": [
           "slack",
           "thehive"
-        ],
-        "commands": [
-          "strangebee.integration.slack.2.0.0",
-          "strangebee.integration.thehive.v1",
-          "strangebee.sleep"
-        ],
-        "inputs": [
-          "TheHiveAlert"
         ],
         "requires": {
           "secrets": 3,
           "globals": 1
         },
         "vendor": "Slack",
-        "vendorId": "Slack",
-        "category": "Collaboration"
+        "vendor_id": "Slack",
+        "vendor_category": "Collaboration",
+        "nodes": [
+          {
+            "name": "slack",
+            "vendor_id": "Slack",
+            "icon": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Slack/assets/logo.png"
+          },
+          {
+            "name": "thehive",
+            "vendor_id": null,
+            "icon": null
+          }
+        ],
+        "agent": false,
+        "workflow": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Slack/thehive/workflows/slack-alert-manager-workflow.yml"
       }
     ]
   },
-  "byCategory": {
-    "": [
-      {
-        "id": "circlvulnerabilitylookup/cve-monitoring-with-circl",
-        "name": "CVE monitoring with CIRCL",
-        "url": "https://strangebee.com/workflow/cve-monitoring-with-circl/",
-        "description": "Automatically retrieves vulnerability information from the CIRCL CVE database for specified vendors and products. It creates detailed TheHive alerts containing affected software versions, technical descriptions, vulnerability details, references and recommended remediation actions.",
-        "owner": {
-          "type": "vendor",
-          "id": "CIRCLVulnerabilityLookup",
-          "name": "CIRCL Vulnerability-Lookup"
-        },
-        "hasFile": true,
-        "file": "integrations/vendors/CIRCLVulnerabilityLookup/thehive/workflows/cve-monitoring-with-circl.yml",
-        "file_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/CIRCLVulnerabilityLookup/thehive/workflows/cve-monitoring-with-circl.yml",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/CIRCLVulnerabilityLookup/thehive/workflows/cve-monitoring-with-circl.yml",
-        "exportName": "GetCVECircl",
-        "specVersion": "chocolate-v2.0.0",
-        "version": "v1.0.0",
-        "timeout": "10m0s",
-        "steps": 8,
-        "integrations": [
-          "thehive"
-        ],
-        "commands": [
-          "strangebee.http.request",
-          "strangebee.integration.thehive.v1",
-          "strangebee.variable.new"
-        ],
-        "inputs": [],
-        "requires": {
-          "secrets": 1,
-          "globals": 1
-        },
-        "vendor": "CIRCL Vulnerability-Lookup",
-        "vendorId": "CIRCLVulnerabilityLookup",
-        "category": ""
-      },
-      {
-        "id": "generic/command-line-analysis",
-        "name": "Command line analysis",
-        "url": "https://strangebee.com/workflow/command-line-analysis/",
-        "description": "Automatically analyzes command-line activity in TheHive alerts to extract indicators of compromise (IOCs), including IP addresses, URLs, domains and file hashes. It decodes Base64-encoded PowerShell commands and adds extracted indicators as observables for further investigation.",
-        "owner": {
-          "type": "generic",
-          "id": "generic",
-          "name": "Generic"
-        },
-        "hasFile": true,
-        "file": "integrations/generic/thehive/workflows/command-line-analysis.yml",
-        "file_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/thehive/workflows/command-line-analysis.yml",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/generic/thehive/workflows/command-line-analysis.yml",
-        "exportName": "Command Line Analysis",
-        "specVersion": "chocolate-v2.0.0",
-        "version": "v1.0.0",
-        "timeout": "10m0s",
-        "steps": 15,
-        "integrations": [
-          "thehive"
-        ],
-        "commands": [
-          "strangebee.code.execute.python@v3_11",
-          "strangebee.integration.thehive.v1",
-          "strangebee.variable.new"
-        ],
-        "inputs": [],
-        "requires": {
-          "secrets": 1,
-          "globals": 1
-        },
-        "vendor": "Generic",
-        "vendorId": null,
-        "category": ""
-      }
-    ],
-    "Utilities": [
-      {
-        "id": "emlparser/suspicious-email-campaign-detection",
-        "name": "Suspicious email campaign detection",
-        "url": "https://strangebee.com/workflow/suspicious-email-campaign-detection/",
-        "description": "Automatically processes suspicious email alerts, extracts key email details and identifies related incidents. It groups matching alerts into existing cases or creates new ones in TheHive, helping security teams track and investigate potential email campaigns.",
-        "owner": {
-          "type": "vendor",
-          "id": "EmlParser",
-          "name": "EmlParser"
-        },
-        "hasFile": true,
-        "file": "integrations/vendors/EmlParser/thehive/workflows/suspicious-email-campaign-detection.yml",
-        "file_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/EmlParser/thehive/workflows/suspicious-email-campaign-detection.yml",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/EmlParser/thehive/workflows/suspicious-email-campaign-detection.yml",
-        "exportName": "Suspicious email campaign",
-        "specVersion": "chocolate-v2.0.0",
-        "version": "v1.0.0",
-        "timeout": null,
-        "steps": 19,
-        "integrations": [
-          "thehive"
-        ],
-        "commands": [
-          "strangebee.code.execute.python@v3_11",
-          "strangebee.cortex.analyzer",
-          "strangebee.http.request",
-          "strangebee.integration.thehive.v1",
-          "strangebee.variable.new"
-        ],
-        "inputs": [],
-        "requires": {
-          "secrets": 1,
-          "globals": 1
-        },
-        "vendor": "EmlParser",
-        "vendorId": "EmlParser",
-        "category": "Utilities"
-      }
-    ],
-    "Collaboration": [
-      {
-        "id": "jira/thehive-to-jira-itsm-sync",
-        "name": "TheHive to Jira ITSM sync",
-        "url": "https://strangebee.com/workflow/thehive-to-jira-itsm-sync/",
-        "description": "Automatically creates Jira issues from new TheHive alerts and synchronizes comments between both platforms. It prevents duplicate updates, keeps incident discussions aligned and closes Jira issues when the corresponding alerts are resolved.",
-        "owner": {
-          "type": "vendor",
-          "id": "JIRA",
-          "name": "Jira Cloud"
-        },
-        "hasFile": true,
-        "file": "integrations/vendors/JIRA/thehive/workflows/thehive-to-jira-itsm-sync.yml",
-        "file_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/JIRA/thehive/workflows/thehive-to-jira-itsm-sync.yml",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/JIRA/thehive/workflows/thehive-to-jira-itsm-sync.yml",
-        "exportName": "TheHive to Jira ITSM Sync",
-        "specVersion": "chocolate-v2.0.0",
-        "version": "v1.0.0",
-        "timeout": "24h0m0s",
-        "steps": 15,
-        "integrations": [
-          "jira",
-          "thehive"
-        ],
-        "commands": [
-          "strangebee.integration.jira.v3",
-          "strangebee.integration.thehive.v1",
-          "strangebee.sleep",
-          "strangebee.variable.new"
-        ],
-        "inputs": [],
-        "requires": {
-          "secrets": 2,
-          "globals": 2
-        },
-        "vendor": "Jira Cloud",
-        "vendorId": "JIRA",
-        "category": "Collaboration"
-      },
-      {
-        "id": "slack/slack-alert-manager-workflow",
-        "name": "Slack Alert Manager workflow",
-        "url": "https://strangebee.com/workflow/slack-alert-manager-workflow/",
-        "description": "TheHive Flow's Slack Alert Manager workflow automates alert monitoring and response tracking through Slack. It processes reactions, comments and thread replies to update alert statuses, ensuring timely follow-ups and efficient incident management.",
-        "owner": {
-          "type": "vendor",
-          "id": "Slack",
-          "name": "Slack"
-        },
-        "hasFile": true,
-        "file": "integrations/vendors/Slack/thehive/workflows/slack-alert-manager-workflow.yml",
-        "file_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Slack/thehive/workflows/slack-alert-manager-workflow.yml",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Slack/thehive/workflows/slack-alert-manager-workflow.yml",
-        "exportName": "Slack Alert Manager",
-        "specVersion": "chocolate-v2.0.0",
-        "version": "v1.0.0",
-        "timeout": "1h0m0s",
-        "steps": 19,
-        "integrations": [
-          "slack",
-          "thehive"
-        ],
-        "commands": [
-          "strangebee.integration.slack.2.0.0",
-          "strangebee.integration.thehive.v1",
-          "strangebee.sleep"
-        ],
-        "inputs": [
-          "TheHiveAlert"
-        ],
-        "requires": {
-          "secrets": 3,
-          "globals": 1
-        },
-        "vendor": "Slack",
-        "vendorId": "Slack",
-        "category": "Collaboration"
-      }
-    ],
-    "Threat Intelligence": [
-      {
-        "id": "recordedfuture/alert-triage-with-recorded-future",
-        "name": "Alert triage with Recorded Future",
-        "url": "https://strangebee.com/workflow/alert-triage-with-recorded-future/",
-        "description": "Automatically processes Elasticsearch security alerts in TheHive and enriches IP addresses and file hashes with threat intelligence from Recorded Future. It identifies high-risk indicators, escalates critical alerts into cases and documents malicious findings to streamline incident investigation.",
-        "owner": {
-          "type": "vendor",
-          "id": "RecordedFuture",
-          "name": "Recorded Future"
-        },
-        "hasFile": true,
-        "file": "integrations/vendors/RecordedFuture/thehive/workflows/alert-triage-with-recorded-future.yml",
-        "file_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/RecordedFuture/thehive/workflows/alert-triage-with-recorded-future.yml",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/RecordedFuture/thehive/workflows/alert-triage-with-recorded-future.yml",
-        "exportName": "Alert Triage - Recorded Future",
-        "specVersion": "chocolate-v2.0.0",
-        "version": "v1.0.0",
-        "timeout": "10m0s",
-        "steps": 14,
-        "integrations": [
-          "recorded_future",
-          "thehive"
-        ],
-        "commands": [
-          "strangebee.code.execute.python@v3_11",
-          "strangebee.integration.recorded_future.v2",
-          "strangebee.integration.thehive.v1",
-          "strangebee.variable.new"
-        ],
-        "inputs": [
-          "ElasticAlert"
-        ],
-        "requires": {
-          "secrets": 2,
-          "globals": 1
-        },
-        "vendor": "Recorded Future",
-        "vendorId": "RecordedFuture",
-        "category": "Threat Intelligence"
-      }
-    ]
-  },
-  "byIntegration": {
+  "by_integration": {
     "thehive": [
       {
         "id": "circlvulnerabilitylookup/cve-monitoring-with-circl",
         "name": "CVE monitoring with CIRCL",
         "url": "https://strangebee.com/workflow/cve-monitoring-with-circl/",
         "description": "Automatically retrieves vulnerability information from the CIRCL CVE database for specified vendors and products. It creates detailed TheHive alerts containing affected software versions, technical descriptions, vulnerability details, references and recommended remediation actions.",
+        "maintainer": "strangebee",
+        "use_cases": [
+          "Vulnerability management"
+        ],
+        "popular": false,
+        "author": [
+          {
+            "name": "StrangeBee",
+            "url": "https://strangebee.com",
+            "icon": "https://strangebee.com/wp-content/themes/strange_bee/src/assets/fav/favicon-32x32.png"
+          }
+        ],
         "owner": {
           "type": "vendor",
           "id": "CIRCLVulnerabilityLookup",
           "name": "CIRCL Vulnerability-Lookup"
         },
-        "hasFile": true,
+        "has_file": true,
         "file": "integrations/vendors/CIRCLVulnerabilityLookup/thehive/workflows/cve-monitoring-with-circl.yml",
         "file_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/CIRCLVulnerabilityLookup/thehive/workflows/cve-monitoring-with-circl.yml",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/CIRCLVulnerabilityLookup/thehive/workflows/cve-monitoring-with-circl.yml",
-        "exportName": "GetCVECircl",
-        "specVersion": "chocolate-v2.0.0",
         "version": "v1.0.0",
-        "timeout": "10m0s",
         "steps": 8,
         "integrations": [
           "thehive"
         ],
-        "commands": [
-          "strangebee.http.request",
-          "strangebee.integration.thehive.v1",
-          "strangebee.variable.new"
-        ],
-        "inputs": [],
         "requires": {
           "secrets": 1,
           "globals": 1
         },
         "vendor": "CIRCL Vulnerability-Lookup",
-        "vendorId": "CIRCLVulnerabilityLookup",
-        "category": ""
+        "vendor_id": "CIRCLVulnerabilityLookup",
+        "vendor_category": null,
+        "nodes": [
+          {
+            "name": "http",
+            "vendor_id": null,
+            "icon": null
+          },
+          {
+            "name": "thehive",
+            "vendor_id": null,
+            "icon": null
+          }
+        ],
+        "agent": false,
+        "workflow": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/CIRCLVulnerabilityLookup/thehive/workflows/cve-monitoring-with-circl.yml"
       },
       {
         "id": "emlparser/suspicious-email-campaign-detection",
         "name": "Suspicious email campaign detection",
         "url": "https://strangebee.com/workflow/suspicious-email-campaign-detection/",
         "description": "Automatically processes suspicious email alerts, extracts key email details and identifies related incidents. It groups matching alerts into existing cases or creates new ones in TheHive, helping security teams track and investigate potential email campaigns.",
+        "maintainer": "strangebee",
+        "use_cases": [
+          "Phishing & email analysis",
+          "Alert triage"
+        ],
+        "popular": false,
+        "author": [
+          {
+            "name": "StrangeBee",
+            "url": "https://strangebee.com",
+            "icon": "https://strangebee.com/wp-content/themes/strange_bee/src/assets/fav/favicon-32x32.png"
+          }
+        ],
         "owner": {
           "type": "vendor",
           "id": "EmlParser",
           "name": "EmlParser"
         },
-        "hasFile": true,
+        "has_file": true,
         "file": "integrations/vendors/EmlParser/thehive/workflows/suspicious-email-campaign-detection.yml",
         "file_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/EmlParser/thehive/workflows/suspicious-email-campaign-detection.yml",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/EmlParser/thehive/workflows/suspicious-email-campaign-detection.yml",
-        "exportName": "Suspicious email campaign",
-        "specVersion": "chocolate-v2.0.0",
         "version": "v1.0.0",
-        "timeout": null,
         "steps": 19,
         "integrations": [
           "thehive"
         ],
-        "commands": [
-          "strangebee.code.execute.python@v3_11",
-          "strangebee.cortex.analyzer",
-          "strangebee.http.request",
-          "strangebee.integration.thehive.v1",
-          "strangebee.variable.new"
-        ],
-        "inputs": [],
         "requires": {
           "secrets": 1,
           "globals": 1
         },
         "vendor": "EmlParser",
-        "vendorId": "EmlParser",
-        "category": "Utilities"
+        "vendor_id": "EmlParser",
+        "vendor_category": "Utilities",
+        "nodes": [
+          {
+            "name": "code",
+            "vendor_id": null,
+            "icon": null
+          },
+          {
+            "name": "cortex",
+            "vendor_id": null,
+            "icon": null
+          },
+          {
+            "name": "http",
+            "vendor_id": null,
+            "icon": null
+          },
+          {
+            "name": "thehive",
+            "vendor_id": null,
+            "icon": null
+          }
+        ],
+        "agent": false,
+        "workflow": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/EmlParser/thehive/workflows/suspicious-email-campaign-detection.yml"
       },
       {
         "id": "generic/command-line-analysis",
         "name": "Command line analysis",
         "url": "https://strangebee.com/workflow/command-line-analysis/",
         "description": "Automatically analyzes command-line activity in TheHive alerts to extract indicators of compromise (IOCs), including IP addresses, URLs, domains and file hashes. It decodes Base64-encoded PowerShell commands and adds extracted indicators as observables for further investigation.",
+        "maintainer": "strangebee",
+        "use_cases": [
+          "Investigation & analysis"
+        ],
+        "popular": false,
+        "author": [
+          {
+            "name": "StrangeBee",
+            "url": "https://strangebee.com",
+            "icon": "https://strangebee.com/wp-content/themes/strange_bee/src/assets/fav/favicon-32x32.png"
+          }
+        ],
         "owner": {
           "type": "generic",
           "id": "generic",
           "name": "Generic"
         },
-        "hasFile": true,
+        "has_file": true,
         "file": "integrations/generic/thehive/workflows/command-line-analysis.yml",
         "file_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/thehive/workflows/command-line-analysis.yml",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/generic/thehive/workflows/command-line-analysis.yml",
-        "exportName": "Command Line Analysis",
-        "specVersion": "chocolate-v2.0.0",
         "version": "v1.0.0",
-        "timeout": "10m0s",
         "steps": 15,
         "integrations": [
           "thehive"
         ],
-        "commands": [
-          "strangebee.code.execute.python@v3_11",
-          "strangebee.integration.thehive.v1",
-          "strangebee.variable.new"
-        ],
-        "inputs": [],
         "requires": {
           "secrets": 1,
           "globals": 1
         },
         "vendor": "Generic",
-        "vendorId": null,
-        "category": ""
+        "vendor_id": null,
+        "vendor_category": null,
+        "nodes": [
+          {
+            "name": "code",
+            "vendor_id": null,
+            "icon": null
+          },
+          {
+            "name": "thehive",
+            "vendor_id": null,
+            "icon": null
+          }
+        ],
+        "agent": false,
+        "workflow": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/thehive/workflows/command-line-analysis.yml"
       },
       {
         "id": "jira/thehive-to-jira-itsm-sync",
         "name": "TheHive to Jira ITSM sync",
         "url": "https://strangebee.com/workflow/thehive-to-jira-itsm-sync/",
         "description": "Automatically creates Jira issues from new TheHive alerts and synchronizes comments between both platforms. It prevents duplicate updates, keeps incident discussions aligned and closes Jira issues when the corresponding alerts are resolved.",
+        "maintainer": "strangebee",
+        "use_cases": [
+          "Ticketing & ITSM"
+        ],
+        "popular": false,
+        "author": [
+          {
+            "name": "StrangeBee",
+            "url": "https://strangebee.com",
+            "icon": "https://strangebee.com/wp-content/themes/strange_bee/src/assets/fav/favicon-32x32.png"
+          }
+        ],
         "owner": {
           "type": "vendor",
           "id": "JIRA",
           "name": "Jira Cloud"
         },
-        "hasFile": true,
+        "has_file": true,
         "file": "integrations/vendors/JIRA/thehive/workflows/thehive-to-jira-itsm-sync.yml",
         "file_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/JIRA/thehive/workflows/thehive-to-jira-itsm-sync.yml",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/JIRA/thehive/workflows/thehive-to-jira-itsm-sync.yml",
-        "exportName": "TheHive to Jira ITSM Sync",
-        "specVersion": "chocolate-v2.0.0",
         "version": "v1.0.0",
-        "timeout": "24h0m0s",
         "steps": 15,
         "integrations": [
           "jira",
           "thehive"
         ],
-        "commands": [
-          "strangebee.integration.jira.v3",
-          "strangebee.integration.thehive.v1",
-          "strangebee.sleep",
-          "strangebee.variable.new"
-        ],
-        "inputs": [],
         "requires": {
           "secrets": 2,
           "globals": 2
         },
         "vendor": "Jira Cloud",
-        "vendorId": "JIRA",
-        "category": "Collaboration"
+        "vendor_id": "JIRA",
+        "vendor_category": "Collaboration",
+        "nodes": [
+          {
+            "name": "jira",
+            "vendor_id": "JIRA",
+            "icon": null
+          },
+          {
+            "name": "thehive",
+            "vendor_id": null,
+            "icon": null
+          }
+        ],
+        "agent": false,
+        "workflow": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/JIRA/thehive/workflows/thehive-to-jira-itsm-sync.yml"
       },
       {
         "id": "recordedfuture/alert-triage-with-recorded-future",
         "name": "Alert triage with Recorded Future",
         "url": "https://strangebee.com/workflow/alert-triage-with-recorded-future/",
         "description": "Automatically processes Elasticsearch security alerts in TheHive and enriches IP addresses and file hashes with threat intelligence from Recorded Future. It identifies high-risk indicators, escalates critical alerts into cases and documents malicious findings to streamline incident investigation.",
+        "maintainer": "strangebee",
+        "use_cases": [
+          "Alert triage",
+          "Threat intelligence enrichment"
+        ],
+        "popular": false,
+        "author": [
+          {
+            "name": "StrangeBee",
+            "url": "https://strangebee.com",
+            "icon": "https://strangebee.com/wp-content/themes/strange_bee/src/assets/fav/favicon-32x32.png"
+          }
+        ],
         "owner": {
           "type": "vendor",
           "id": "RecordedFuture",
           "name": "Recorded Future"
         },
-        "hasFile": true,
+        "has_file": true,
         "file": "integrations/vendors/RecordedFuture/thehive/workflows/alert-triage-with-recorded-future.yml",
         "file_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/RecordedFuture/thehive/workflows/alert-triage-with-recorded-future.yml",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/RecordedFuture/thehive/workflows/alert-triage-with-recorded-future.yml",
-        "exportName": "Alert Triage - Recorded Future",
-        "specVersion": "chocolate-v2.0.0",
         "version": "v1.0.0",
-        "timeout": "10m0s",
         "steps": 14,
         "integrations": [
           "recorded_future",
           "thehive"
-        ],
-        "commands": [
-          "strangebee.code.execute.python@v3_11",
-          "strangebee.integration.recorded_future.v2",
-          "strangebee.integration.thehive.v1",
-          "strangebee.variable.new"
-        ],
-        "inputs": [
-          "ElasticAlert"
         ],
         "requires": {
           "secrets": 2,
           "globals": 1
         },
         "vendor": "Recorded Future",
-        "vendorId": "RecordedFuture",
-        "category": "Threat Intelligence"
+        "vendor_id": "RecordedFuture",
+        "vendor_category": "Threat Intelligence",
+        "nodes": [
+          {
+            "name": "code",
+            "vendor_id": null,
+            "icon": null
+          },
+          {
+            "name": "recorded_future",
+            "vendor_id": "RecordedFuture",
+            "icon": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/RecordedFuture/assets/logo.png"
+          },
+          {
+            "name": "thehive",
+            "vendor_id": null,
+            "icon": null
+          }
+        ],
+        "agent": false,
+        "workflow": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/RecordedFuture/thehive/workflows/alert-triage-with-recorded-future.yml"
       },
       {
         "id": "slack/slack-alert-manager-workflow",
         "name": "Slack Alert Manager workflow",
         "url": "https://strangebee.com/workflow/slack-alert-manager-workflow/",
         "description": "TheHive Flow's Slack Alert Manager workflow automates alert monitoring and response tracking through Slack. It processes reactions, comments and thread replies to update alert statuses, ensuring timely follow-ups and efficient incident management.",
+        "maintainer": "strangebee",
+        "use_cases": [
+          "Alert triage",
+          "Notification & collaboration"
+        ],
+        "popular": false,
+        "author": [
+          {
+            "name": "StrangeBee",
+            "url": "https://strangebee.com",
+            "icon": "https://strangebee.com/wp-content/themes/strange_bee/src/assets/fav/favicon-32x32.png"
+          }
+        ],
         "owner": {
           "type": "vendor",
           "id": "Slack",
           "name": "Slack"
         },
-        "hasFile": true,
+        "has_file": true,
         "file": "integrations/vendors/Slack/thehive/workflows/slack-alert-manager-workflow.yml",
         "file_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Slack/thehive/workflows/slack-alert-manager-workflow.yml",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Slack/thehive/workflows/slack-alert-manager-workflow.yml",
-        "exportName": "Slack Alert Manager",
-        "specVersion": "chocolate-v2.0.0",
         "version": "v1.0.0",
-        "timeout": "1h0m0s",
         "steps": 19,
         "integrations": [
           "slack",
           "thehive"
-        ],
-        "commands": [
-          "strangebee.integration.slack.2.0.0",
-          "strangebee.integration.thehive.v1",
-          "strangebee.sleep"
-        ],
-        "inputs": [
-          "TheHiveAlert"
         ],
         "requires": {
           "secrets": 3,
           "globals": 1
         },
         "vendor": "Slack",
-        "vendorId": "Slack",
-        "category": "Collaboration"
+        "vendor_id": "Slack",
+        "vendor_category": "Collaboration",
+        "nodes": [
+          {
+            "name": "slack",
+            "vendor_id": "Slack",
+            "icon": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Slack/assets/logo.png"
+          },
+          {
+            "name": "thehive",
+            "vendor_id": null,
+            "icon": null
+          }
+        ],
+        "agent": false,
+        "workflow": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Slack/thehive/workflows/slack-alert-manager-workflow.yml"
       }
     ],
     "jira": [
@@ -947,38 +1046,54 @@
         "name": "TheHive to Jira ITSM sync",
         "url": "https://strangebee.com/workflow/thehive-to-jira-itsm-sync/",
         "description": "Automatically creates Jira issues from new TheHive alerts and synchronizes comments between both platforms. It prevents duplicate updates, keeps incident discussions aligned and closes Jira issues when the corresponding alerts are resolved.",
+        "maintainer": "strangebee",
+        "use_cases": [
+          "Ticketing & ITSM"
+        ],
+        "popular": false,
+        "author": [
+          {
+            "name": "StrangeBee",
+            "url": "https://strangebee.com",
+            "icon": "https://strangebee.com/wp-content/themes/strange_bee/src/assets/fav/favicon-32x32.png"
+          }
+        ],
         "owner": {
           "type": "vendor",
           "id": "JIRA",
           "name": "Jira Cloud"
         },
-        "hasFile": true,
+        "has_file": true,
         "file": "integrations/vendors/JIRA/thehive/workflows/thehive-to-jira-itsm-sync.yml",
         "file_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/JIRA/thehive/workflows/thehive-to-jira-itsm-sync.yml",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/JIRA/thehive/workflows/thehive-to-jira-itsm-sync.yml",
-        "exportName": "TheHive to Jira ITSM Sync",
-        "specVersion": "chocolate-v2.0.0",
         "version": "v1.0.0",
-        "timeout": "24h0m0s",
         "steps": 15,
         "integrations": [
           "jira",
           "thehive"
         ],
-        "commands": [
-          "strangebee.integration.jira.v3",
-          "strangebee.integration.thehive.v1",
-          "strangebee.sleep",
-          "strangebee.variable.new"
-        ],
-        "inputs": [],
         "requires": {
           "secrets": 2,
           "globals": 2
         },
         "vendor": "Jira Cloud",
-        "vendorId": "JIRA",
-        "category": "Collaboration"
+        "vendor_id": "JIRA",
+        "vendor_category": "Collaboration",
+        "nodes": [
+          {
+            "name": "jira",
+            "vendor_id": "JIRA",
+            "icon": null
+          },
+          {
+            "name": "thehive",
+            "vendor_id": null,
+            "icon": null
+          }
+        ],
+        "agent": false,
+        "workflow": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/JIRA/thehive/workflows/thehive-to-jira-itsm-sync.yml"
       }
     ],
     "recorded_future": [
@@ -987,40 +1102,60 @@
         "name": "Alert triage with Recorded Future",
         "url": "https://strangebee.com/workflow/alert-triage-with-recorded-future/",
         "description": "Automatically processes Elasticsearch security alerts in TheHive and enriches IP addresses and file hashes with threat intelligence from Recorded Future. It identifies high-risk indicators, escalates critical alerts into cases and documents malicious findings to streamline incident investigation.",
+        "maintainer": "strangebee",
+        "use_cases": [
+          "Alert triage",
+          "Threat intelligence enrichment"
+        ],
+        "popular": false,
+        "author": [
+          {
+            "name": "StrangeBee",
+            "url": "https://strangebee.com",
+            "icon": "https://strangebee.com/wp-content/themes/strange_bee/src/assets/fav/favicon-32x32.png"
+          }
+        ],
         "owner": {
           "type": "vendor",
           "id": "RecordedFuture",
           "name": "Recorded Future"
         },
-        "hasFile": true,
+        "has_file": true,
         "file": "integrations/vendors/RecordedFuture/thehive/workflows/alert-triage-with-recorded-future.yml",
         "file_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/RecordedFuture/thehive/workflows/alert-triage-with-recorded-future.yml",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/RecordedFuture/thehive/workflows/alert-triage-with-recorded-future.yml",
-        "exportName": "Alert Triage - Recorded Future",
-        "specVersion": "chocolate-v2.0.0",
         "version": "v1.0.0",
-        "timeout": "10m0s",
         "steps": 14,
         "integrations": [
           "recorded_future",
           "thehive"
-        ],
-        "commands": [
-          "strangebee.code.execute.python@v3_11",
-          "strangebee.integration.recorded_future.v2",
-          "strangebee.integration.thehive.v1",
-          "strangebee.variable.new"
-        ],
-        "inputs": [
-          "ElasticAlert"
         ],
         "requires": {
           "secrets": 2,
           "globals": 1
         },
         "vendor": "Recorded Future",
-        "vendorId": "RecordedFuture",
-        "category": "Threat Intelligence"
+        "vendor_id": "RecordedFuture",
+        "vendor_category": "Threat Intelligence",
+        "nodes": [
+          {
+            "name": "code",
+            "vendor_id": null,
+            "icon": null
+          },
+          {
+            "name": "recorded_future",
+            "vendor_id": "RecordedFuture",
+            "icon": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/RecordedFuture/assets/logo.png"
+          },
+          {
+            "name": "thehive",
+            "vendor_id": null,
+            "icon": null
+          }
+        ],
+        "agent": false,
+        "workflow": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/RecordedFuture/thehive/workflows/alert-triage-with-recorded-future.yml"
       }
     ],
     "slack": [
@@ -1029,39 +1164,55 @@
         "name": "Slack Alert Manager workflow",
         "url": "https://strangebee.com/workflow/slack-alert-manager-workflow/",
         "description": "TheHive Flow's Slack Alert Manager workflow automates alert monitoring and response tracking through Slack. It processes reactions, comments and thread replies to update alert statuses, ensuring timely follow-ups and efficient incident management.",
+        "maintainer": "strangebee",
+        "use_cases": [
+          "Alert triage",
+          "Notification & collaboration"
+        ],
+        "popular": false,
+        "author": [
+          {
+            "name": "StrangeBee",
+            "url": "https://strangebee.com",
+            "icon": "https://strangebee.com/wp-content/themes/strange_bee/src/assets/fav/favicon-32x32.png"
+          }
+        ],
         "owner": {
           "type": "vendor",
           "id": "Slack",
           "name": "Slack"
         },
-        "hasFile": true,
+        "has_file": true,
         "file": "integrations/vendors/Slack/thehive/workflows/slack-alert-manager-workflow.yml",
         "file_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Slack/thehive/workflows/slack-alert-manager-workflow.yml",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Slack/thehive/workflows/slack-alert-manager-workflow.yml",
-        "exportName": "Slack Alert Manager",
-        "specVersion": "chocolate-v2.0.0",
         "version": "v1.0.0",
-        "timeout": "1h0m0s",
         "steps": 19,
         "integrations": [
           "slack",
           "thehive"
-        ],
-        "commands": [
-          "strangebee.integration.slack.2.0.0",
-          "strangebee.integration.thehive.v1",
-          "strangebee.sleep"
-        ],
-        "inputs": [
-          "TheHiveAlert"
         ],
         "requires": {
           "secrets": 3,
           "globals": 1
         },
         "vendor": "Slack",
-        "vendorId": "Slack",
-        "category": "Collaboration"
+        "vendor_id": "Slack",
+        "vendor_category": "Collaboration",
+        "nodes": [
+          {
+            "name": "slack",
+            "vendor_id": "Slack",
+            "icon": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Slack/assets/logo.png"
+          },
+          {
+            "name": "thehive",
+            "vendor_id": null,
+            "icon": null
+          }
+        ],
+        "agent": false,
+        "workflow": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Slack/thehive/workflows/slack-alert-manager-workflow.yml"
       }
     ]
   }

@@ -46,14 +46,49 @@ flow:
   - Create a dedicated war-room channel per major incident and invite responders
   - DM a user to confirm whether they performed a suspicious action
 workflows:
-- name: Slack Alert Manager workflow
+- id: slack/slack-alert-manager-workflow
+  name: Slack Alert Manager workflow
   url: https://strangebee.com/workflow/slack-alert-manager-workflow/
   description: TheHive Flow's Slack Alert Manager workflow automates alert monitoring and response tracking through Slack.
     It processes reactions, comments and thread replies to update alert statuses, ensuring timely follow-ups and efficient
     incident management.
+  maintainer: strangebee
+  use_cases:
+  - Alert triage
+  - Notification & collaboration
+  popular: false
+  author:
+  - name: StrangeBee
+    url: https://strangebee.com
+    icon: https://strangebee.com/wp-content/themes/strange_bee/src/assets/fav/favicon-32x32.png
+  owner:
+    type: vendor
+    id: Slack
+    name: Slack
+  has_file: true
   file: integrations/vendors/Slack/thehive/workflows/slack-alert-manager-workflow.yml
   file_url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Slack/thehive/workflows/slack-alert-manager-workflow.yml
   github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/Slack/thehive/workflows/slack-alert-manager-workflow.yml
+  version: v1.0.0
+  steps: 19
+  integrations:
+  - slack
+  - thehive
+  requires:
+    secrets: 3
+    globals: 1
+  vendor: Slack
+  vendor_id: Slack
+  vendor_category: Collaboration
+  nodes:
+  - name: slack
+    vendor_id: Slack
+    icon: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Slack/assets/logo.png
+  - name: thehive
+    vendor_id: null
+    icon: null
+  agent: false
+  workflow: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Slack/thehive/workflows/slack-alert-manager-workflow.yml
 externalIntegrations: []
 displayOnWebsite: true
 visibility: 12

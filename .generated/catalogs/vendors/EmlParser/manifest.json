@@ -15,12 +15,68 @@
   "flow": {},
   "workflows": [
     {
+      "id": "emlparser/suspicious-email-campaign-detection",
       "name": "Suspicious email campaign detection",
       "url": "https://strangebee.com/workflow/suspicious-email-campaign-detection/",
       "description": "Automatically processes suspicious email alerts, extracts key email details and identifies related incidents. It groups matching alerts into existing cases or creates new ones in TheHive, helping security teams track and investigate potential email campaigns.",
+      "maintainer": "strangebee",
+      "use_cases": [
+        "Phishing & email analysis",
+        "Alert triage"
+      ],
+      "popular": false,
+      "author": [
+        {
+          "name": "StrangeBee",
+          "url": "https://strangebee.com",
+          "icon": "https://strangebee.com/wp-content/themes/strange_bee/src/assets/fav/favicon-32x32.png"
+        }
+      ],
+      "owner": {
+        "type": "vendor",
+        "id": "EmlParser",
+        "name": "EmlParser"
+      },
+      "has_file": true,
       "file": "integrations/vendors/EmlParser/thehive/workflows/suspicious-email-campaign-detection.yml",
       "file_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/EmlParser/thehive/workflows/suspicious-email-campaign-detection.yml",
-      "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/EmlParser/thehive/workflows/suspicious-email-campaign-detection.yml"
+      "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/EmlParser/thehive/workflows/suspicious-email-campaign-detection.yml",
+      "version": "v1.0.0",
+      "steps": 19,
+      "integrations": [
+        "thehive"
+      ],
+      "requires": {
+        "secrets": 1,
+        "globals": 1
+      },
+      "vendor": "EmlParser",
+      "vendor_id": "EmlParser",
+      "vendor_category": "Utilities",
+      "nodes": [
+        {
+          "name": "code",
+          "vendor_id": null,
+          "icon": null
+        },
+        {
+          "name": "cortex",
+          "vendor_id": null,
+          "icon": null
+        },
+        {
+          "name": "http",
+          "vendor_id": null,
+          "icon": null
+        },
+        {
+          "name": "thehive",
+          "vendor_id": null,
+          "icon": null
+        }
+      ],
+      "agent": false,
+      "workflow": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/EmlParser/thehive/workflows/suspicious-email-campaign-detection.yml"
     }
   ],
   "externalIntegrations": [],

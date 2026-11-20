@@ -23,12 +23,58 @@
   },
   "workflows": [
     {
+      "id": "jira/thehive-to-jira-itsm-sync",
       "name": "TheHive to Jira ITSM sync",
       "url": "https://strangebee.com/workflow/thehive-to-jira-itsm-sync/",
       "description": "Automatically creates Jira issues from new TheHive alerts and synchronizes comments between both platforms. It prevents duplicate updates, keeps incident discussions aligned and closes Jira issues when the corresponding alerts are resolved.",
+      "maintainer": "strangebee",
+      "use_cases": [
+        "Ticketing & ITSM"
+      ],
+      "popular": false,
+      "author": [
+        {
+          "name": "StrangeBee",
+          "url": "https://strangebee.com",
+          "icon": "https://strangebee.com/wp-content/themes/strange_bee/src/assets/fav/favicon-32x32.png"
+        }
+      ],
+      "owner": {
+        "type": "vendor",
+        "id": "JIRA",
+        "name": "Jira Cloud"
+      },
+      "has_file": true,
       "file": "integrations/vendors/JIRA/thehive/workflows/thehive-to-jira-itsm-sync.yml",
       "file_url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/JIRA/thehive/workflows/thehive-to-jira-itsm-sync.yml",
-      "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/JIRA/thehive/workflows/thehive-to-jira-itsm-sync.yml"
+      "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/JIRA/thehive/workflows/thehive-to-jira-itsm-sync.yml",
+      "version": "v1.0.0",
+      "steps": 15,
+      "integrations": [
+        "jira",
+        "thehive"
+      ],
+      "requires": {
+        "secrets": 2,
+        "globals": 2
+      },
+      "vendor": "Jira Cloud",
+      "vendor_id": "JIRA",
+      "vendor_category": "Collaboration",
+      "nodes": [
+        {
+          "name": "jira",
+          "vendor_id": "JIRA",
+          "icon": null
+        },
+        {
+          "name": "thehive",
+          "vendor_id": null,
+          "icon": null
+        }
+      ],
+      "agent": false,
+      "workflow": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/JIRA/thehive/workflows/thehive-to-jira-itsm-sync.yml"
     }
   ],
   "externalIntegrations": [],

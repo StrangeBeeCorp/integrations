@@ -26,14 +26,52 @@ flow:
   - Bulk-triage all observables of an alert to decide whether to escalate
   - Attach threat actor context to a case when an IOC matches a known campaign
 workflows:
-- name: Alert triage with Recorded Future
+- id: recordedfuture/alert-triage-with-recorded-future
+  name: Alert triage with Recorded Future
   url: https://strangebee.com/workflow/alert-triage-with-recorded-future/
   description: Automatically processes Elasticsearch security alerts in TheHive and enriches IP addresses and file hashes
     with threat intelligence from Recorded Future. It identifies high-risk indicators, escalates critical alerts into cases
     and documents malicious findings to streamline incident investigation.
+  maintainer: strangebee
+  use_cases:
+  - Alert triage
+  - Threat intelligence enrichment
+  popular: false
+  author:
+  - name: StrangeBee
+    url: https://strangebee.com
+    icon: https://strangebee.com/wp-content/themes/strange_bee/src/assets/fav/favicon-32x32.png
+  owner:
+    type: vendor
+    id: RecordedFuture
+    name: Recorded Future
+  has_file: true
   file: integrations/vendors/RecordedFuture/thehive/workflows/alert-triage-with-recorded-future.yml
   file_url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/RecordedFuture/thehive/workflows/alert-triage-with-recorded-future.yml
   github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/RecordedFuture/thehive/workflows/alert-triage-with-recorded-future.yml
+  version: v1.0.0
+  steps: 14
+  integrations:
+  - recorded_future
+  - thehive
+  requires:
+    secrets: 2
+    globals: 1
+  vendor: Recorded Future
+  vendor_id: RecordedFuture
+  vendor_category: Threat Intelligence
+  nodes:
+  - name: code
+    vendor_id: null
+    icon: null
+  - name: recorded_future
+    vendor_id: RecordedFuture
+    icon: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/RecordedFuture/assets/logo.png
+  - name: thehive
+    vendor_id: null
+    icon: null
+  agent: false
+  workflow: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/RecordedFuture/thehive/workflows/alert-triage-with-recorded-future.yml
 externalIntegrations: []
 displayOnWebsite: true
 visibility: 8
