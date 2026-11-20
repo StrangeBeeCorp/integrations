@@ -710,6 +710,10 @@ def scan_notifications(root: Path, relative_root: str, owner: Dict) -> List[Dict
     return notifications
 
 
+def _text(value) -> Optional[str]:
+    return None if value is None else str(value)
+
+
 def _read_workflow_export(file_path: Path) -> Optional[Dict]:
     """Facts derived from one TheHive Flow export. The export is only read, never rewritten, and
     its instance metadata (id, organisation, created_by, modified_by) is never copied.
@@ -736,10 +740,11 @@ def _read_workflow_export(file_path: Path) -> Optional[Dict]:
         inputs = [v['name'] for v in declared_inputs or [] if isinstance(v, dict) and v.get('name')]
 
         return {
-            'exportName': data.get('name'),
-            'specVersion': data.get('spec_version'),
-            'version': data.get('version'),
-            'timeout': data.get('timeout'),
+            # Always text or null, whatever YAML made of the value (a bare `version: 1` is a number)
+            'export_name': _text(data.get('name')),
+            'spec_version': _text(data.get('spec_version')),
+            'version': _text(data.get('version')),
+            'timeout': _text(data.get('timeout')),
             'steps': sum(1 for s in steps if s.get('type') != 'start'),
             'integrations': integrations,
             'commands': sorted(commands),
@@ -753,6 +758,26 @@ def _read_workflow_export(file_path: Path) -> Optional[Dict]:
     except Exception as e:
         print(f"  Warning: cannot read workflow {file_path}: {e}")
         return None
+
+
+WORKFLOW_MAINTAINERS = ('strangebee', 'partner', 'community')
+
+
+def workflow_declared_fields(workflow: Optional[Dict]) -> Dict:
+    """Hand-declared catalog fields of a workflow entry, with their defaults.
+    A workflow is 'community' unless its entry says otherwise, so nothing is presented as
+    maintained by StrangeBee or a partner by omission."""
+    workflow = workflow if isinstance(workflow, dict) else {}
+    maintainer = workflow.get('maintainer')
+    use_cases = workflow.get('use_cases')
+    authors = workflow.get('author')
+    return {
+        'maintainer': maintainer if maintainer in WORKFLOW_MAINTAINERS else 'community',
+        'use_cases': [u for u in use_cases if isinstance(u, str)] if isinstance(use_cases, list) else [],
+        'popular': workflow.get('popular') is True,
+        'author': [{'name': a['name'], 'url': a.get('url'), 'icon': a.get('icon')}
+                   for a in authors if isinstance(a, dict) and a.get('name')] if isinstance(authors, list) else [],
+    }
 
 
 def workflow_slug_from_url(url: str) -> str:
@@ -785,14 +810,20 @@ def scan_workflows(root: Path, relative_root: str, declared: List[Dict], owner: 
             if export:
                 exports[slug] = (file_path, export)
 
-    def entry(slug: str, name: str, url: Optional[str], description: Optional[str]) -> Dict:
+    def entry(slug: str, name: str, url: Optional[str], description: Optional[str],
+              declared_entry: Optional[Dict] = None) -> Dict:
         item = {
             'id': f"{owner['id'].lower()}/{slug}",
             'name': name,
             'url': url,
             'description': description,
+            **workflow_declared_fields(declared_entry),
             'owner': owner,
-            'hasFile': slug in exports,
+            'has_file': slug in exports,
+            # Same keys whether or not there is an export file: null or empty when there is none
+            'file': None, 'file_url': None, 'github_url': None,
+            'export_name': None, 'spec_version': None, 'version': None, 'timeout': None, 'steps': None,
+            'integrations': [], 'commands': [], 'inputs': [], 'requires': None,
         }
         if slug in exports:
             file_path, export = exports.pop(slug)
@@ -816,9 +847,9 @@ def scan_workflows(root: Path, relative_root: str, declared: List[Dict], owner: 
             print(f"  Warning: workflow '{workflow['name']}' ignored for {owner['id']}, '{slug}' is declared twice")
             continue
         seen.add(slug)
-        workflows.append(entry(slug, workflow['name'], workflow.get('url'), workflow.get('description')))
+        workflows.append(entry(slug, workflow['name'], workflow.get('url'), workflow.get('description'), workflow))
     for slug in sorted(exports):
         file_path, export = exports[slug]
         print(f"  Warning: {relative_root}/{file_path.name} has no declared workflow (name, url, description)")
-        workflows.append(entry(slug, export.get('exportName') or slug, None, None))
+        workflows.append(entry(slug, export.get('export_name') or slug, None, None))
     return workflows

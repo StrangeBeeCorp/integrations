@@ -163,6 +163,44 @@ properties:
           description: "Optional one-line summary of what the workflow does"
           minLength: 10
           maxLength: 300
+        maintainer:
+          type: string
+          description: "Who stands behind the workflow: strangebee, partner (the vendor of the product) or community. Defaults to community. Set by StrangeBee at review."
+          enum: [strangebee, partner, community]
+        use_cases:
+          type: array
+          description: "What the workflow is for, used to categorize and filter the catalog (see workflow_use_cases in taxonomy.yml)"
+          items:
+            type: string
+            minLength: 2
+          minItems: 1
+          uniqueItems: true
+        popular:
+          type: boolean
+          description: "Whether the workflow is highlighted as popular in the catalog. Defaults to false."
+        author:
+          type: array
+          description: "Who wrote the workflow. When absent: StrangeBee if maintainer is strangebee, the vendor if maintainer is partner."
+          items:
+            type: object
+            required: [name]
+            properties:
+              name:
+                type: string
+                minLength: 2
+                maxLength: 100
+              url:
+                type: string
+                description: "Author website or profile"
+                format: uri
+                pattern: "^https?://"
+              icon:
+                type: string
+                description: "Direct URL to the author icon"
+                format: uri
+                pattern: "^https?://"
+            additionalProperties: false
+          minItems: 1
       additionalProperties: false
     uniqueItems: true
 

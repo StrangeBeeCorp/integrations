@@ -8,3 +8,7 @@ workflows:
   - name: "Suspicious email campaign detection"
     url: "https://strangebee.com/workflow/suspicious-email-campaign-detection/"
     description: "Automatically processes suspicious email alerts, extracts key email details and identifies related incidents. It groups matching alerts into existing cases or creates new ones in TheHive, helping security teams track and investigate potential email campaigns."
+    maintainer: strangebee
+    use_cases:
+      - "Phishing & email analysis"
+      - "Alert triage"

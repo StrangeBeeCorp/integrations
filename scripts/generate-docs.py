@@ -174,7 +174,9 @@ def generate_markdown_overview(vendor: str, manifest: Dict) -> str:
             f"### {SECTION_DESCRIPTIONS['Workflows']}", "",
         ])
         for workflow in workflows:
-            entry = f"- [{workflow.get('name', 'Workflow')}]({workflow.get('url', '')})"
+            # A workflow may have no page yet: link its name to the page when there is one
+            name = workflow.get('name') or 'Workflow'
+            entry = f"- [{name}]({workflow['url']})" if workflow.get('url') else f"- {name}"
             if workflow.get('description'):
                 entry += f" - {workflow['description']}"
             if workflow.get('github_url'):
@@ -593,15 +595,20 @@ def _render_workflow(workflow: Dict, heading_level: str = "###") -> List[str]:
     lines = [f"{heading_level} {workflow.get('name', 'Workflow')}", ""]
     if workflow.get('description'):
         lines.extend([workflow['description'], ""])
-    if workflow.get('hasFile'):
+    labels = {'strangebee': 'StrangeBee', 'partner': 'Partner', 'community': 'Community'}
+    lines.append(f"- **Maintained by:** {labels.get(workflow.get('maintainer'), 'Community')}")
+    authors = [f"[{a['name']}]({a['url']})" if a.get('url') else a['name'] for a in workflow.get('author') or []]
+    if authors:
+        lines.append(f"- **Author:** {', '.join(authors)}")
+    if workflow.get('use_cases'):
+        lines.append(f"- **Use cases:** {', '.join(workflow['use_cases'])}")
+    if workflow.get('has_file'):
         requires = workflow.get('requires') or {}
         lines.append(f"- **Steps:** {workflow.get('steps', 0)}")
         if workflow.get('integrations'):
             lines.append(f"- **Flow integrations used:** {', '.join(workflow['integrations'])}")
         lines.append(f"- **To set up after import:** {requires.get('secrets', 0)} secret(s), "
                      f"{requires.get('globals', 0)} global variable(s)")
-        if workflow.get('timeout'):
-            lines.append(f"- **Timeout:** {workflow['timeout']}")
     links = []
     if workflow.get('url'):
         links.append(f"[Workflow page]({workflow['url']})")

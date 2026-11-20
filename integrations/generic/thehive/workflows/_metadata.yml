@@ -5,3 +5,6 @@ workflows:
   - name: "Command line analysis"
     url: "https://strangebee.com/workflow/command-line-analysis/"
     description: "Automatically analyzes command-line activity in TheHive alerts to extract indicators of compromise (IOCs), including IP addresses, URLs, domains and file hashes. It decodes Base64-encoded PowerShell commands and adds extracted indicators as observables for further investigation."
+    maintainer: strangebee
+    use_cases:
+      - "Investigation & analysis"

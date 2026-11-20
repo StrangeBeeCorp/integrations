@@ -77,7 +77,21 @@ def check_workflow_files(workflows_dir: Path, declared, declared_in: str) -> Lis
     return errors
 
 
-def validate_generic_workflows(schema: Dict) -> List[str]:
+def check_workflow_use_cases(declared, taxonomy: Dict) -> List[str]:
+    """Each use case of a workflow entry must be listed under workflow_use_cases in taxonomy.yml."""
+    valid = [u['name'] for u in taxonomy.get('workflow_use_cases', []) if isinstance(u, dict) and u.get('name')]
+    errors = []
+    for workflow in declared if isinstance(declared, list) else []:
+        if not valid or not isinstance(workflow, dict) or not isinstance(workflow.get('use_cases'), list):
+            continue
+        invalid = [u for u in workflow['use_cases'] if u not in valid]
+        if invalid:
+            errors.append(f"Workflow '{workflow.get('name')}': invalid use case(s) {', '.join(map(str, invalid))}. "
+                          f"Valid: {', '.join(valid)}")
+    return errors
+
+
+def validate_generic_workflows(schema: Dict, taxonomy: Dict) -> List[str]:
     """Validate the generic workflows metadata with the same rules as `workflows:` in vendor.yml."""
     has_files = GENERIC_WORKFLOWS_DIR.is_dir() and any(
         not p.name.startswith('_') for p in list(GENERIC_WORKFLOWS_DIR.glob('*.yml')) + list(GENERIC_WORKFLOWS_DIR.glob('*.yaml')))
@@ -103,6 +117,7 @@ def validate_generic_workflows(schema: Dict) -> List[str]:
         prefix = f"Schema error at '{field}'" if field else "Schema error"
         errors.append(f"{prefix}: {error.message}")
     errors.extend(check_workflow_files(GENERIC_WORKFLOWS_DIR, metadata.get('workflows'), '_metadata.yml'))
+    errors.extend(check_workflow_use_cases(metadata.get('workflows'), taxonomy))
     return errors
 
 
@@ -151,6 +166,7 @@ def validate_vendor_file(vendor_name: str, schema: Dict, taxonomy: Dict) -> Tupl
         errors.extend(check_workflow_files(
             Path('integrations') / 'vendors' / vendor_name / 'thehive' / 'workflows',
             vendor_data.get('workflows'), 'vendor.yml'))
+        errors.extend(check_workflow_use_cases(vendor_data.get('workflows'), taxonomy))
 
         if errors and vendor_data.get('displayOnWebsite') is False:
             return 'hidden', errors
@@ -229,7 +245,7 @@ def main():
     all_valid = validate_all_vendors(schema, taxonomy, args.vendor)
 
     if not args.vendor:
-        generic_errors = validate_generic_workflows(schema)
+        generic_errors = validate_generic_workflows(schema, taxonomy)
         color, icon = (RED, 'X') if generic_errors else (GREEN, 'V')
         print(f"\n{color}{icon} Generic workflows ({GENERIC_WORKFLOWS_METADATA}){NC}")
         for msg in generic_errors:

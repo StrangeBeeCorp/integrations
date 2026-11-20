@@ -79,6 +79,25 @@ categories:
     description: Parsers, format converters and helper analyzers that do not map to a security vendor
     examples: [EmlParser, MsgParser, FileInfo, PDFPreview]
 
+# Valid use cases for TheHive Flow workflows (`use_cases` of a workflow entry)
+workflow_use_cases:
+  - name: Alert triage
+    description: Qualify, prioritize, escalate or close incoming alerts
+  - name: Threat intelligence enrichment
+    description: Add reputation and context from intelligence sources to observables, alerts or cases
+  - name: Phishing & email analysis
+    description: Analyze reported or suspicious emails and correlate campaigns
+  - name: Vulnerability management
+    description: Track, enrich and follow up on vulnerabilities
+  - name: Ticketing & ITSM
+    description: Keep cases and alerts in sync with ticketing and ITSM tools
+  - name: Notification & collaboration
+    description: Inform people and let them act from messaging tools
+  - name: Containment & remediation
+    description: Isolate, block, disable or otherwise act on a threat
+  - name: Investigation & analysis
+    description: Extract, decode and analyze evidence to support an investigation
+
 # Standard tags for vendor classification
 tags:
   # Use Case Tags

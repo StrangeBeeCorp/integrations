@@ -141,6 +141,18 @@ def generate_external_integrations_catalog(all_manifests: Dict) -> Dict:
     }
 
 
+# Steps that only move data or time around: not worth a node on the workflow card
+WORKFLOW_HELPER_NODES = {'variable', 'sleep'}
+
+WORKFLOW_INTERNAL_FIELDS = ('export_name', 'spec_version', 'timeout', 'commands', 'inputs')
+
+STRANGEBEE_AUTHOR = {
+    'name': 'StrangeBee',
+    'url': 'https://strangebee.com',
+    'icon': 'https://strangebee.com/wp-content/themes/strange_bee/src/assets/fav/favicon-32x32.png',
+}
+
+
 def generate_workflows_catalog(all_manifests: Dict) -> Dict:
     """Catalog of TheHive Flow workflows, generic and vendor.
 
@@ -164,7 +176,7 @@ def generate_workflows_catalog(all_manifests: Dict) -> Dict:
     workflows = []
     for workflow in scan_workflows(generic_root, 'integrations/generic/thehive/workflows', generic_declared,
                                    {'type': 'generic', 'id': 'generic', 'name': 'Generic'}):
-        workflows.append({**workflow, 'vendor': 'Generic', 'vendorId': None, 'category': ''})
+        workflows.append({**workflow, 'vendor': 'Generic', 'vendor_id': None, 'vendor_category': None})
 
     for vendor_id in find_vendors():
         manifest = all_manifests.get(vendor_id, {})
@@ -174,10 +186,50 @@ def generate_workflows_catalog(all_manifests: Dict) -> Dict:
                 f"integrations/vendors/{vendor_id}/thehive/workflows",
                 manifest.get('workflows', []),
                 {'type': 'vendor', 'id': vendor_id, 'name': vendor_name}):
-            workflows.append({**workflow, 'vendor': vendor_name, 'vendorId': vendor_id,
-                              'category': manifest.get('category')})
+            workflows.append({**workflow, 'vendor': vendor_name, 'vendor_id': vendor_id,
+                              'vendor_category': manifest.get('category') or None})
 
     workflows.sort(key=lambda x: (x['vendor'].lower(), (x['name'] or '').lower()))
+
+    def _norm(value: str) -> str:
+        return ''.join(c for c in value.lower() if c.isalnum())
+
+    vendors_by_norm = {_norm(v): v for v in find_vendors()}
+
+    def _vendor_logo(vendor_id: str):
+        logo = all_manifests.get(vendor_id, {}).get('logo')
+        return logo.get('url') if isinstance(logo, dict) else None
+
+    for workflow in workflows:
+        # Nodes shown on the workflow card: one per kind of step, flow-control helpers left out.
+        # strangebee.integration.<name>.<version> -> <name>, strangebee.<kind>.<...> -> <kind>
+        nodes = {}
+        for command in workflow.get('commands', []):
+            parts = command.split('.')
+            if len(parts) < 2 or parts[0] != 'strangebee':
+                continue
+            name = parts[2] if parts[1] == 'integration' and len(parts) > 2 else parts[1]
+            if name in WORKFLOW_HELPER_NODES or name in nodes:
+                continue
+            node_vendor = vendors_by_norm.get(_norm(name))
+            nodes[name] = {'name': name, 'vendor_id': node_vendor,
+                           'icon': _vendor_logo(node_vendor) if node_vendor else None}
+        workflow['nodes'] = [nodes[name] for name in sorted(nodes)]
+
+        # Author: as declared, else implied by who maintains the workflow
+        if not workflow['author']:
+            if workflow['maintainer'] == 'strangebee':
+                workflow['author'] = [dict(STRANGEBEE_AUTHOR)]
+            elif workflow['maintainer'] == 'partner' and workflow['vendor_id']:
+                vendor_manifest = all_manifests.get(workflow['vendor_id'], {})
+                workflow['author'] = [{'name': workflow['vendor'], 'url': vendor_manifest.get('homepage') or None,
+                                       'icon': _vendor_logo(workflow['vendor_id'])}]
+        # Read from the export to build the entry, but of no use to someone browsing the catalog
+        for key in WORKFLOW_INTERNAL_FIELDS:
+            workflow.pop(key, None)
+        workflow['agent'] = False
+        # Direct link to the export file, under the name the website expects (same as file_url)
+        workflow['workflow'] = workflow.get('file_url')
 
     by_integration: Dict[str, list] = {}
     for workflow in workflows:
@@ -185,17 +237,33 @@ def generate_workflows_catalog(all_manifests: Dict) -> Dict:
             by_integration.setdefault(integration, []).append(workflow)
 
     return {
-        'totalWorkflows': len(workflows),
+        'total_count': len(workflows),
         # A workflow declared by several vendors is one workflow: same page url, else same id
         'unique_count': len({w.get('url') or w['id'] for w in workflows}),
         'generic_count': sum(1 for w in workflows if w['owner']['type'] == 'generic'),
         'vendor_count': sum(1 for w in workflows if w['owner']['type'] == 'vendor'),
-        'with_file_count': sum(1 for w in workflows if w['hasFile']),
+        'with_file_count': sum(1 for w in workflows if w['has_file']),
         'workflows': workflows,
-        'byVendor': _group_by(workflows, 'vendor'),
-        'byCategory': _group_by(workflows, 'category'),
-        'byIntegration': by_integration,
+        'by_vendor': _group_by(workflows, 'vendor'),
+        'by_integration': by_integration,
     }
+
+
+def generate_workflows_library(wf_catalog: Dict) -> list:
+    """The workflows catalog reduced to the shape the website's workflow library was specified with:
+    a bare list, nine fields per workflow. Same data as the catalog, nothing added.
+    `id` is the vendor id here (null for a generic workflow), so it is not unique per workflow."""
+    return [{
+        'id': workflow['vendor_id'],
+        'name': workflow['name'],
+        'description': workflow['description'],
+        'nodes': [{'name': node['name'], 'icon': node['icon']} for node in workflow['nodes']],
+        'author': workflow['author'],
+        'agent': workflow['agent'],
+        'popular': workflow['popular'],
+        'use_cases': workflow['use_cases'],
+        'workflow': workflow['workflow'],
+    } for workflow in wf_catalog['workflows'] if workflow['workflow']]
 
 
 def generate_functions_catalog_data(all_manifests: Dict) -> Dict:
@@ -463,6 +531,18 @@ def main():
             continue
         all_manifests[vendor] = manifest
 
+    # Workflows catalog. Built before the manifests are written, so that the `workflows` list of a
+    # vendor manifest holds the very same entries as the catalog (defaults, nodes, author, links).
+    wf_catalog = generate_workflows_catalog(all_manifests)
+    for vendor, manifest in all_manifests.items():
+        manifest['workflows'] = [w for w in wf_catalog['workflows']
+                                 if w['owner']['type'] == 'vendor' and w['owner']['id'] == vendor]
+        # Keep the counts in step with the list (it also holds export files with no declaration)
+        added = len(manifest['workflows']) - manifest['stats'].get('totalWorkflows', 0)
+        manifest['stats']['totalWorkflows'] = len(manifest['workflows'])
+        manifest['stats']['total'] = manifest['stats'].get('total', 0) + added
+
+    for vendor, manifest in all_manifests.items():
         vendor_catalog_path = vendors_catalogs_path / vendor
         vendor_catalog_path.mkdir(parents=True, exist_ok=True)
 
@@ -491,12 +571,12 @@ def main():
     _write_yaml(ext_path / 'catalog.yml', ext_catalog, ["AUTO-GENERATED - DO NOT EDIT"])
     print(f"> External integrations catalog written")
 
-    # Workflows catalog
-    wf_catalog = generate_workflows_catalog(all_manifests)
+    # Workflows catalog (built above, with the manifests)
     wf_path = catalogs_path / 'workflows'
     wf_path.mkdir(exist_ok=True)
     _write_json(wf_path / 'catalog.json', wf_catalog)
     _write_yaml(wf_path / 'catalog.yml', wf_catalog, ["AUTO-GENERATED - DO NOT EDIT"])
+    _write_json(wf_path / 'library.json', generate_workflows_library(wf_catalog))
     print(f"> Workflows catalog written")
 
     # Functions catalog
