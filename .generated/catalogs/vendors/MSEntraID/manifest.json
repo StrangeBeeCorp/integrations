@@ -41,36 +41,6 @@
   "integrations": {
     "analyzers": [
       {
-        "name": "MSEntraID GetDirectoryRoles",
-        "version": "1.0",
-        "author": "3lina, StrangeBee",
-        "license": "AGPL-V3",
-        "description": "List the Microsoft Entra ID directory roles (built-in admin roles) directly assigned to a user, to help prioritize investigations involving privileged accounts.",
-        "dataTypes": [
-          "mail"
-        ],
-        "file": ".upstream/cortex/analyzers/MSEntraID/MSEntraID_GetDirectoryRoles.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetDirectoryRoles.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetDirectoryRoles.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSEntraID",
-        "integration_type": null
-      },
-      {
-        "name": "MSEntraID GetDirectoryAuditLogs",
-        "version": "1.0",
-        "author": "Fabien Bloume, StrangeBee",
-        "license": "AGPL-V3",
-        "description": "Pull Microsoft Entra ID directory audit logs for a user within the specified timeframe.",
-        "dataTypes": [
-          "mail"
-        ],
-        "file": ".upstream/cortex/analyzers/MSEntraID/MSEntraID_GetDirectoryAuditLogs.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetDirectoryAuditLogs.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetDirectoryAuditLogs.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSEntraID",
-        "integration_type": null
-      },
-      {
         "name": "MSEntraID GetUserInfo",
         "version": "1.0",
         "author": "Fabien Bloume, StrangeBee",
@@ -100,6 +70,37 @@
         "file": ".upstream/cortex/analyzers/MSEntraID/MSEntraID_GetRiskyUser.json",
         "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetRiskyUser.json",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetRiskyUser.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSEntraID",
+        "integration_type": null
+      },
+      {
+        "name": "MSEntraID GetManagedDevicesInfo",
+        "version": "1.0",
+        "author": "Fabien Bloume, StrangeBee",
+        "license": "AGPL-V3",
+        "description": "Get Microsoft Intune Managed Device(s) Details from hostname or mail",
+        "dataTypes": [
+          "mail",
+          "hostname"
+        ],
+        "file": ".upstream/cortex/analyzers/MSEntraID/MSEntraID_GetManagedDevicesInfo.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetManagedDevicesInfo.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetManagedDevicesInfo.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSEntraID",
+        "integration_type": null
+      },
+      {
+        "name": "MSEntraID GetDirectoryRoles",
+        "version": "1.0",
+        "author": "3lina, StrangeBee",
+        "license": "AGPL-V3",
+        "description": "List the Microsoft Entra ID directory roles (built-in admin roles) directly assigned to a user, to help prioritize investigations involving privileged accounts.",
+        "dataTypes": [
+          "mail"
+        ],
+        "file": ".upstream/cortex/analyzers/MSEntraID/MSEntraID_GetDirectoryRoles.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetDirectoryRoles.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetDirectoryRoles.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSEntraID",
         "integration_type": null
       },
@@ -134,23 +135,37 @@
         "integration_type": null
       },
       {
-        "name": "MSEntraID GetManagedDevicesInfo",
+        "name": "MSEntraID GetDirectoryAuditLogs",
         "version": "1.0",
         "author": "Fabien Bloume, StrangeBee",
         "license": "AGPL-V3",
-        "description": "Get Microsoft Intune Managed Device(s) Details from hostname or mail",
+        "description": "Pull Microsoft Entra ID directory audit logs for a user within the specified timeframe.",
         "dataTypes": [
-          "mail",
-          "hostname"
+          "mail"
         ],
-        "file": ".upstream/cortex/analyzers/MSEntraID/MSEntraID_GetManagedDevicesInfo.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetManagedDevicesInfo.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetManagedDevicesInfo.json",
+        "file": ".upstream/cortex/analyzers/MSEntraID/MSEntraID_GetDirectoryAuditLogs.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetDirectoryAuditLogs.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/analyzers/MSEntraID/MSEntraID_GetDirectoryAuditLogs.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/MSEntraID",
         "integration_type": null
       }
     ],
     "responders": [
+      {
+        "name": "MSEntraID enableUser",
+        "version": "1.0",
+        "author": "nusatanra-self, StrangeBee",
+        "license": "AGPL-V3",
+        "description": "Enable user in Microsoft Entra ID for a User Principal Name. (mail)",
+        "dataTypes": [
+          "thehive:case_artifact"
+        ],
+        "file": ".upstream/cortex/responders/MSEntraID/MSEntraID_enableUser.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSEntraID/MSEntraID_enableUser.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSEntraID/MSEntraID_enableUser.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSEntraID",
+        "integration_type": null
+      },
       {
         "name": "MSEntraID revokeSignInSessions",
         "version": "1.1",
@@ -163,6 +178,21 @@
         "file": ".upstream/cortex/responders/MSEntraID/MSEntraID_revokeSignInSessions.json",
         "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSEntraID/MSEntraID_revokeSignInSessions.json",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSEntraID/MSEntraID_revokeSignInSessions.json",
+        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSEntraID",
+        "integration_type": null
+      },
+      {
+        "name": "MSEntraID ForcePasswordReset",
+        "version": "1.0",
+        "author": "nusatanra-self, StrangeBee",
+        "license": "AGPL-V3",
+        "description": "Force password reset at next login for a User Principal Name. (mail)",
+        "dataTypes": [
+          "thehive:case_artifact"
+        ],
+        "file": ".upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordReset.json",
+        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordReset.json",
+        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordReset.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSEntraID",
         "integration_type": null
       },
@@ -193,36 +223,6 @@
         "file": ".upstream/cortex/responders/MSEntraID/MSEntraID_disableUser.json",
         "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSEntraID/MSEntraID_disableUser.json",
         "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSEntraID/MSEntraID_disableUser.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSEntraID",
-        "integration_type": null
-      },
-      {
-        "name": "MSEntraID ForcePasswordReset",
-        "version": "1.0",
-        "author": "nusatanra-self, StrangeBee",
-        "license": "AGPL-V3",
-        "description": "Force password reset at next login for a User Principal Name. (mail)",
-        "dataTypes": [
-          "thehive:case_artifact"
-        ],
-        "file": ".upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordReset.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordReset.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSEntraID/MSEntraID_ForcePasswordReset.json",
-        "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSEntraID",
-        "integration_type": null
-      },
-      {
-        "name": "MSEntraID enableUser",
-        "version": "1.0",
-        "author": "nusatanra-self, StrangeBee",
-        "license": "AGPL-V3",
-        "description": "Enable user in Microsoft Entra ID for a User Principal Name. (mail)",
-        "dataTypes": [
-          "thehive:case_artifact"
-        ],
-        "file": ".upstream/cortex/responders/MSEntraID/MSEntraID_enableUser.json",
-        "url": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/.upstream/cortex/responders/MSEntraID/MSEntraID_enableUser.json",
-        "github_url": "https://github.com/StrangeBeeCorp/integrations/blob/main/.upstream/cortex/responders/MSEntraID/MSEntraID_enableUser.json",
         "upstream_url": "https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/responders/MSEntraID",
         "integration_type": null
       }

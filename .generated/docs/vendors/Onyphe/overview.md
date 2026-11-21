@@ -2,8 +2,8 @@
 
 ### Enrich observables with intelligence
 
-#### [ONYPHE ASM v1.1](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Onyphe)
-Manage an attack surface from The Hive using ONYPHE riskscan category
+#### [ONYPHE Vulnscan v1.1](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Onyphe)
+Retrieve vulnerability data from ONYPHE vulnscan category for a given ip, domain, fqdn or hash (sha256 TLS fingerprint)
 
 - **Author:** Pierre Baudry, Adrien Barchapt, Andrea Garavaglia, Davide Arcuri, James Atack
 - **License:** AGPL-V3
@@ -16,8 +16,15 @@ Retrieve summary information Onyphe has for given ip, domain, or fqdn.
 - **License:** AGPL-V3
 - **Data Types:** `ip`, `domain`, `fqdn`
 
-#### [ONYPHE Vulnscan v1.1](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Onyphe)
-Retrieve vulnerability data from ONYPHE vulnscan category for a given ip, domain, fqdn or hash (sha256 TLS fingerprint)
+#### [ONYPHE ASM v1.1](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Onyphe)
+Manage an attack surface from The Hive using ONYPHE riskscan category
+
+- **Author:** Pierre Baudry, Adrien Barchapt, Andrea Garavaglia, Davide Arcuri, James Atack
+- **License:** AGPL-V3
+- **Data Types:** `ip`, `domain`, `fqdn`, `hash`
+
+#### [ONYPHE Search v1.1](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Onyphe)
+Retrieve results from ONYPHE Search API for a given ip, domain, fqdn or hash (sha256 TLS fingerprint) from specified category
 
 - **Author:** Pierre Baudry, Adrien Barchapt, Andrea Garavaglia, Davide Arcuri, James Atack
 - **License:** AGPL-V3
@@ -29,10 +36,3 @@ Query ONYPHE Ctiscan threat hunting data for open services (takes ip, domain, fq
 - **Author:** James Atack
 - **License:** AGPL-V3
 - **Data Types:** `ip`, `domain`, `fqdn`, `hash`, `autonomous-system`, `other`
-
-#### [ONYPHE Search v1.1](https://github.com/TheHive-Project/Cortex-Analyzers/blob/master/analyzers/Onyphe)
-Retrieve results from ONYPHE Search API for a given ip, domain, fqdn or hash (sha256 TLS fingerprint) from specified category
-
-- **Author:** Pierre Baudry, Adrien Barchapt, Andrea Garavaglia, Davide Arcuri, James Atack
-- **License:** AGPL-V3
-- **Data Types:** `ip`, `domain`, `fqdn`, `hash`
