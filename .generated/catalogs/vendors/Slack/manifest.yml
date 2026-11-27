@@ -83,9 +83,11 @@ workflows:
   vendor_category: Collaboration
   nodes:
   - name: slack
+    label: Slack
     vendor_id: Slack
     icon: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Slack/assets/logo.png
   - name: thehive
+    label: TheHive
     vendor_id: null
     icon: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/assets/flow-nodes/thehive.svg
   integrations:

@@ -69,11 +69,13 @@
       "nodes": [
         {
           "name": "jira",
+          "label": "Jira Cloud",
           "vendor_id": "JIRA",
           "icon": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/JIRA/assets/logo.svg"
         },
         {
           "name": "thehive",
+          "label": "TheHive",
           "vendor_id": null,
           "icon": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/assets/flow-nodes/thehive.svg"
         }

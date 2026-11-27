@@ -56,21 +56,25 @@
       "nodes": [
         {
           "name": "code",
+          "label": "Code",
           "vendor_id": null,
           "icon": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/assets/flow-nodes/code.svg"
         },
         {
           "name": "cortex",
+          "label": "Cortex",
           "vendor_id": null,
           "icon": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/assets/flow-nodes/cortex.svg"
         },
         {
           "name": "http",
+          "label": "HTTP",
           "vendor_id": null,
           "icon": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/assets/flow-nodes/http.svg"
         },
         {
           "name": "thehive",
+          "label": "TheHive",
           "vendor_id": null,
           "icon": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/assets/flow-nodes/thehive.svg"
         }

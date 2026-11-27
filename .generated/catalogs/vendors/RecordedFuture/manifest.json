@@ -71,16 +71,19 @@
       "nodes": [
         {
           "name": "code",
+          "label": "Code",
           "vendor_id": null,
           "icon": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/assets/flow-nodes/code.svg"
         },
         {
           "name": "recorded_future",
+          "label": "Recorded Future",
           "vendor_id": "RecordedFuture",
           "icon": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/RecordedFuture/assets/logo.png"
         },
         {
           "name": "thehive",
+          "label": "TheHive",
           "vendor_id": null,
           "icon": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/assets/flow-nodes/thehive.svg"
         }
