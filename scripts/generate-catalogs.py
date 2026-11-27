@@ -5,6 +5,7 @@ For documentation generation, see generate-docs.py.
 """
 
 import json
+import re
 import shutil
 import subprocess
 import yaml
@@ -13,7 +14,7 @@ from typing import Dict
 
 from manifest_utils import (
     CURRENT_BRANCH, BASE_URL,
-    find_vendors, generate_vendor_manifest, parse_function_metadata, scan_case_templates, scan_dashboards,
+    build_url, find_vendors, generate_vendor_manifest, parse_function_metadata, scan_case_templates, scan_dashboards,
     scan_notifications, scan_workflows
 )
 
@@ -144,6 +145,9 @@ def generate_external_integrations_catalog(all_manifests: Dict) -> Dict:
 # Steps that only move data or time around: not worth a node on the workflow card
 WORKFLOW_HELPER_NODES = {'variable', 'sleep'}
 
+# Icons of the TheHive Flow nodes that are not a vendor (thehive, cortex, code, http...): <node>.svg or <node>.png
+FLOW_NODE_ICONS_DIR = Path('integrations/generic/assets/flow-nodes')
+
 WORKFLOW_INTERNAL_FIELDS = ('export_name', 'spec_version', 'timeout', 'commands', 'inputs')
 
 STRANGEBEE_AUTHOR = {
@@ -201,6 +205,15 @@ def generate_workflows_catalog(all_manifests: Dict) -> Dict:
         logo = all_manifests.get(vendor_id, {}).get('logo')
         return logo.get('url') if isinstance(logo, dict) else None
 
+    def _node_icon(name: str, node_vendor):
+        # The node's own icon when one is stored, else the logo of the vendor it matches
+        if re.fullmatch(r'[A-Za-z0-9_-]+', name):
+            for extension in ('svg', 'png'):
+                icon_path = FLOW_NODE_ICONS_DIR / f'{name}.{extension}'
+                if icon_path.is_file():
+                    return build_url(icon_path.as_posix())
+        return _vendor_logo(node_vendor) if node_vendor else None
+
     for workflow in workflows:
         # Nodes shown on the workflow card: one per kind of step, flow-control helpers left out.
         # strangebee.integration.<name>.<version> -> <name>, strangebee.<kind>.<...> -> <kind>
@@ -213,8 +226,7 @@ def generate_workflows_catalog(all_manifests: Dict) -> Dict:
             if name in WORKFLOW_HELPER_NODES or name in nodes:
                 continue
             node_vendor = vendors_by_norm.get(_norm(name))
-            nodes[name] = {'name': name, 'vendor_id': node_vendor,
-                           'icon': _vendor_logo(node_vendor) if node_vendor else None}
+            nodes[name] = {'name': name, 'vendor_id': node_vendor, 'icon': _node_icon(name, node_vendor)}
         workflow['nodes'] = [nodes[name] for name in sorted(nodes)]
 
         # Vendors (manifest ids) the workflow belongs with: the one it is stored under, then any
