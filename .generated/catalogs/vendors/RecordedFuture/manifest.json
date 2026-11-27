@@ -19,6 +19,7 @@
   "useCases": [],
   "notifier": false,
   "flow": {
+    "id": "recorded_future",
     "description": "Enrich observables with Recorded Future risk scores, context and threat actor intelligence.",
     "examples": [
       "Enrich every new observable with a risk score and tag it in TheHive",

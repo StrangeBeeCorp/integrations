@@ -1565,6 +1565,7 @@ high:
   useCases: []
   notifier: false
   flow:
+    id: recorded_future
     description: Enrich observables with Recorded Future risk scores, context and threat actor intelligence.
     examples:
     - Enrich every new observable with a risk score and tag it in TheHive
@@ -1816,6 +1817,7 @@ high:
     - notification
   notifier: true
   flow:
+    id: slack
     description: Notify, coordinate and interact with people in Slack during an incident.
     examples:
     - Post a notification in the SOC channel when a critical case is created
@@ -7918,6 +7920,7 @@ low:
   useCases: []
   notifier: false
   flow:
+    id: jira
     description: Create and follow Jira issues from SOC workflows, with full Jira Cloud REST v3 coverage.
     examples:
     - Open a Jira ticket for the owning team when a case needs a fix such as a patch or config change
