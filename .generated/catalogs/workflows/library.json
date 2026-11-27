@@ -8,11 +8,11 @@
     "nodes": [
       {
         "name": "http",
-        "icon": null
+        "icon": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/assets/flow-nodes/http.svg"
       },
       {
         "name": "thehive",
-        "icon": null
+        "icon": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/assets/flow-nodes/thehive.svg"
       }
     ],
     "author": [
@@ -38,19 +38,19 @@
     "nodes": [
       {
         "name": "code",
-        "icon": null
+        "icon": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/assets/flow-nodes/code.svg"
       },
       {
         "name": "cortex",
-        "icon": null
+        "icon": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/assets/flow-nodes/cortex.svg"
       },
       {
         "name": "http",
-        "icon": null
+        "icon": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/assets/flow-nodes/http.svg"
       },
       {
         "name": "thehive",
-        "icon": null
+        "icon": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/assets/flow-nodes/thehive.svg"
       }
     ],
     "author": [
@@ -75,11 +75,11 @@
     "nodes": [
       {
         "name": "code",
-        "icon": null
+        "icon": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/assets/flow-nodes/code.svg"
       },
       {
         "name": "thehive",
-        "icon": null
+        "icon": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/assets/flow-nodes/thehive.svg"
       }
     ],
     "author": [
@@ -105,11 +105,11 @@
     "nodes": [
       {
         "name": "jira",
-        "icon": null
+        "icon": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/JIRA/assets/logo.svg"
       },
       {
         "name": "thehive",
-        "icon": null
+        "icon": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/assets/flow-nodes/thehive.svg"
       }
     ],
     "author": [
@@ -135,7 +135,7 @@
     "nodes": [
       {
         "name": "code",
-        "icon": null
+        "icon": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/assets/flow-nodes/code.svg"
       },
       {
         "name": "recorded_future",
@@ -143,7 +143,7 @@
       },
       {
         "name": "thehive",
-        "icon": null
+        "icon": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/assets/flow-nodes/thehive.svg"
       }
     ],
     "author": [
@@ -174,7 +174,7 @@
       },
       {
         "name": "thehive",
-        "icon": null
+        "icon": "https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/assets/flow-nodes/thehive.svg"
       }
     ],
     "author": [

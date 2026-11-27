@@ -42,10 +42,10 @@ workflows:
   nodes:
   - name: http
     vendor_id: null
-    icon: null
+    icon: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/assets/flow-nodes/http.svg
   - name: thehive
     vendor_id: null
-    icon: null
+    icon: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/assets/flow-nodes/thehive.svg
   integrations:
   - CIRCLVulnerabilityLookup
   agent: false
@@ -87,16 +87,16 @@ workflows:
   nodes:
   - name: code
     vendor_id: null
-    icon: null
+    icon: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/assets/flow-nodes/code.svg
   - name: cortex
     vendor_id: null
-    icon: null
+    icon: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/assets/flow-nodes/cortex.svg
   - name: http
     vendor_id: null
-    icon: null
+    icon: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/assets/flow-nodes/http.svg
   - name: thehive
     vendor_id: null
-    icon: null
+    icon: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/assets/flow-nodes/thehive.svg
   integrations:
   - EmlParser
   agent: false
@@ -137,10 +137,10 @@ workflows:
   nodes:
   - name: code
     vendor_id: null
-    icon: null
+    icon: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/assets/flow-nodes/code.svg
   - name: thehive
     vendor_id: null
-    icon: null
+    icon: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/assets/flow-nodes/thehive.svg
   integrations: []
   agent: false
   workflow: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/thehive/workflows/command-line-analysis.yml
@@ -181,10 +181,10 @@ workflows:
   nodes:
   - name: jira
     vendor_id: JIRA
-    icon: null
+    icon: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/JIRA/assets/logo.svg
   - name: thehive
     vendor_id: null
-    icon: null
+    icon: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/assets/flow-nodes/thehive.svg
   integrations:
   - JIRA
   agent: false
@@ -227,13 +227,13 @@ workflows:
   nodes:
   - name: code
     vendor_id: null
-    icon: null
+    icon: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/assets/flow-nodes/code.svg
   - name: recorded_future
     vendor_id: RecordedFuture
     icon: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/RecordedFuture/assets/logo.png
   - name: thehive
     vendor_id: null
-    icon: null
+    icon: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/assets/flow-nodes/thehive.svg
   integrations:
   - RecordedFuture
   agent: false
@@ -279,7 +279,7 @@ workflows:
     icon: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/Slack/assets/logo.png
   - name: thehive
     vendor_id: null
-    icon: null
+    icon: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/assets/flow-nodes/thehive.svg
   integrations:
   - Slack
   agent: false

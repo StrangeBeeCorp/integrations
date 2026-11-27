@@ -12,7 +12,10 @@ tags:
 - incident-response
 - api
 homepage: https://www.atlassian.com/software/jira
-logo: {}
+logo:
+  file: integrations/vendors/JIRA/assets/logo.svg
+  url: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/JIRA/assets/logo.svg
+  github_url: https://github.com/StrangeBeeCorp/integrations/blob/main/integrations/vendors/JIRA/assets/logo.svg
 useCases: []
 notifier: false
 flow:
@@ -58,10 +61,10 @@ workflows:
   nodes:
   - name: jira
     vendor_id: JIRA
-    icon: null
+    icon: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/vendors/JIRA/assets/logo.svg
   - name: thehive
     vendor_id: null
-    icon: null
+    icon: https://raw.githubusercontent.com/StrangeBeeCorp/integrations/refs/heads/main/integrations/generic/assets/flow-nodes/thehive.svg
   integrations:
   - JIRA
   agent: false
