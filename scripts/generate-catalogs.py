@@ -148,6 +148,9 @@ WORKFLOW_HELPER_NODES = {'variable', 'sleep'}
 # Icons of the TheHive Flow nodes that are not a vendor (thehive, cortex, code, http...): <node>.svg or <node>.png
 FLOW_NODE_ICONS_DIR = Path('integrations/generic/assets/flow-nodes')
 
+# Display names of the nodes that are not a vendor. A vendor node takes the vendor's name.
+FLOW_NODE_LABELS = {'thehive': 'TheHive', 'cortex': 'Cortex', 'http': 'HTTP', 'code': 'Code'}
+
 WORKFLOW_INTERNAL_FIELDS = ('export_name', 'spec_version', 'timeout', 'commands', 'inputs')
 
 STRANGEBEE_AUTHOR = {
@@ -233,7 +236,10 @@ def generate_workflows_catalog(all_manifests: Dict) -> Dict:
             if name in WORKFLOW_HELPER_NODES or name in nodes:
                 continue
             node_vendor = vendors_by_flow_id.get(name) or vendors_by_norm.get(_norm(name))
-            nodes[name] = {'name': name, 'vendor_id': node_vendor, 'icon': _node_icon(name, node_vendor)}
+            label = (all_manifests[node_vendor].get('name') if node_vendor else None) \
+                or FLOW_NODE_LABELS.get(name) or name.replace('_', ' ').title()
+            nodes[name] = {'name': name, 'label': label, 'vendor_id': node_vendor,
+                           'icon': _node_icon(name, node_vendor)}
         workflow['nodes'] = [nodes[name] for name in sorted(nodes)]
 
         # Vendors (manifest ids) the workflow belongs with: the one it is stored under, then any
@@ -283,7 +289,8 @@ def generate_workflows_library(wf_catalog: Dict) -> list:
         'name': workflow['name'],
         'description': workflow['description'],
         'integrations': workflow['integrations'],
-        'nodes': [{'name': node['name'], 'icon': node['icon']} for node in workflow['nodes']],
+        'nodes': [{'name': node['name'], 'label': node['label'], 'integration': node['vendor_id'],
+                   'icon': node['icon']} for node in workflow['nodes']],
         'author': workflow['author'],
         'agent': workflow['agent'],
         'popular': workflow['popular'],
