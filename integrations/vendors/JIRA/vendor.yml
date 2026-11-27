@@ -10,6 +10,7 @@ tags:
 homepage: "https://www.atlassian.com/software/jira"
 visibility: 100
 flow:
+  id: jira
   description: "Create and follow Jira issues from SOC workflows, with full Jira Cloud REST v3 coverage."
   examples:
     - "Open a Jira ticket for the owning team when a case needs a fix such as a patch or config change"

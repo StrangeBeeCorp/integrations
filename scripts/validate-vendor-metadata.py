@@ -178,6 +178,22 @@ def validate_vendor_file(vendor_name: str, schema: Dict, taxonomy: Dict) -> Tupl
         return 'invalid', [f"Unexpected error: {e}"]
 
 
+def check_flow_ids(vendors: List[str]) -> List[str]:
+    """A flow.id links workflow nodes to one vendor, so two vendors cannot declare the same one."""
+    owners = {}
+    for vendor in vendors:
+        try:
+            data = load_yaml_file(Path('integrations') / 'vendors' / vendor / 'vendor.yml')
+        except Exception:
+            continue
+        flow = data.get('flow') if isinstance(data, dict) else None
+        flow_id = flow.get('id') if isinstance(flow, dict) else None
+        if isinstance(flow_id, str) and flow_id:
+            owners.setdefault(flow_id, []).append(vendor)
+    return [f"flow.id '{flow_id}' is declared by several vendors: {', '.join(names)}"
+            for flow_id, names in sorted(owners.items()) if len(names) > 1]
+
+
 def find_all_vendors() -> List[str]:
     vendors_path = Path('integrations') / 'vendors'
     if not vendors_path.exists():
@@ -251,6 +267,11 @@ def main():
         for msg in generic_errors:
             print(f"   {color}>{NC} {msg}")
         all_valid = all_valid and not generic_errors
+
+        flow_id_errors = check_flow_ids(find_all_vendors())
+        for msg in flow_id_errors:
+            print(f"{RED}X{NC} {msg}")
+        all_valid = all_valid and not flow_id_errors
 
     if args.strict and not all_valid:
         sys.exit(1)

@@ -200,6 +200,13 @@ def generate_workflows_catalog(all_manifests: Dict) -> Dict:
 
     # Only vendors that have a manifest, so every id given out exists in integration-manifest.json
     vendors_by_norm = {_norm(v): v for v in all_manifests}
+    # The Flow integration name a vendor declares (flow.id in vendor.yml) wins over the guess on its id
+    vendors_by_flow_id = {}
+    for vendor_id in sorted(all_manifests):
+        flow = all_manifests[vendor_id].get('flow')
+        flow_id = flow.get('id') if isinstance(flow, dict) else None
+        if isinstance(flow_id, str) and flow_id:
+            vendors_by_flow_id.setdefault(flow_id, vendor_id)
 
     def _vendor_logo(vendor_id: str):
         logo = all_manifests.get(vendor_id, {}).get('logo')
@@ -225,7 +232,7 @@ def generate_workflows_catalog(all_manifests: Dict) -> Dict:
             name = parts[2] if parts[1] == 'integration' and len(parts) > 2 else parts[1]
             if name in WORKFLOW_HELPER_NODES or name in nodes:
                 continue
-            node_vendor = vendors_by_norm.get(_norm(name))
+            node_vendor = vendors_by_flow_id.get(name) or vendors_by_norm.get(_norm(name))
             nodes[name] = {'name': name, 'vendor_id': node_vendor, 'icon': _node_icon(name, node_vendor)}
         workflow['nodes'] = [nodes[name] for name in sorted(nodes)]
 

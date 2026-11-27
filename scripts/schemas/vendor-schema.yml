@@ -118,6 +118,15 @@ properties:
     required:
       - description
     properties:
+      id:
+        type: string
+        description: "Name TheHive Flow uses for this vendor's integration, as in strangebee.integration.<id>.<version> in a workflow export. Links the nodes of a workflow to this vendor. When absent, the node name is compared to the vendor id, ignoring case and punctuation."
+        pattern: "^[a-z0-9][a-z0-9_]*$"
+        minLength: 2
+        maxLength: 60
+        examples:
+          - "slack"
+          - "recorded_future"
       description:
         type: string
         description: "What this vendor's TheHive Flow nodes let you orchestrate"
